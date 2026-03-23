@@ -131,7 +131,20 @@
     "spirit_type": "honkaku",
     "koji_type": "",
     "main_ingredient": "sweet_potato",
-    "brands": [],
+    "brands": [
+      {
+        "name": "竃猫",
+        "type": "芋焼酎",
+        "specs": "黒麹・白麹ブレンド、アルコール25度",
+        "ingredient": "黄金千貫・ジェイレッド（芋）"
+      },
+      {
+        "name": "赤江",
+        "type": "芋焼酎",
+        "specs": "白麹仕込み、アルコール25度",
+        "ingredient": "紫優（芋）"
+      }
+    ],
     "features": ["200年以上の甕使用", "野菜焼酎製造", "最低1年半熟成"],
     "nearest_station": "",
     "source": "https://www.dareyami.jp/brewery/otiai/",
@@ -292,7 +305,26 @@
     "spirit_type": "honkaku",
     "koji_type": "",
     "main_ingredient": "sweet_potato",
-    "brands": [],
+    "brands": [
+      {
+        "name": "山ねこ",
+        "type": "芋焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "甘藷（ジョイホワイト）・米麹（ヒノヒカリ）"
+      },
+      {
+        "name": "山猿",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "麦・麦麹"
+      },
+      {
+        "name": "山翡翠",
+        "type": "米焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "米（はなかぐら）・米麹（はなかぐら）"
+      }
+    ],
     "features": ["黒木本店子会社", "超軟水使用", "飫肥杉の木桶使用"],
     "nearest_station": "",
     "source": "https://www.dareyami.jp/brewery/osuzu/",
@@ -419,19 +451,32 @@
     "company": "株式会社正春酒造",
     "brand": "逢初",
     "type": "芋焼酎",
-    "founded": "",
-    "founded_era": "明治初期（約150年前）",
+    "founded": "1956",
+    "founded_era": "昭和31年（明治初期創業）",
     "address": "宮崎県西都市大字三納10029",
     "tel": "0983-45-1013",
-    "url": "https://www.masaharu.co.jp/",
+    "url": "https://yamayadistillery.com/masaharu/",
     "area": "西都市",
     "desc": "5代目黒木雄翔氏が社長を務める。「焼酎は地酒、この土地の農産物と水と自然環境で育まれたもの」がモットー。地元産黄金千貫と硬度34mg/Lの清水兼の湧水を使用。代表銘柄「逢初」は23歳の時に構想し15年かけて完成。",
     "visit": "蔵元見学可能（フリーダイヤル 0120-0386-22）。",
     "spirit_type": "honkaku",
     "koji_type": "",
     "main_ingredient": "sweet_potato",
-    "brands": ["逢初"],
-    "features": ["清水兼の湧水使用", "地元産黄金千貫", "見学可能"],
+    "brands": [
+      {
+        "name": "逢初",
+        "type": "芋焼酎",
+        "specs": "白麹仕込み、アルコール25度",
+        "ingredient": "黄金千貫（芋）"
+      },
+      {
+        "name": "正春",
+        "type": "芋焼酎",
+        "specs": "黒麹ゴールド仕込み、アルコール25度",
+        "ingredient": "黄金千貫（芋）"
+      }
+    ],
+    "features": ["明治初期創業、2022年にやまや蒸留所に社名変更", "清水兼の湧水使用", "地元産黄金千貫使用", "見学可能"],
     "nearest_station": "",
     "source": "https://www.dareyami.jp/brewery/masaharu/",
     "name_en": "Masaharu Shuzo"

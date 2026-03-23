@@ -895,9 +895,9 @@
     "id": "matsumoto",
     "name": "松本酒造場",
     "company": "松本酒造場",
-    "brand": "",
-    "founded": "",
-    "founded_era": "",
+    "brand": "萬緑",
+    "founded": "1908",
+    "founded_era": "明治41年",
     "address": "熊本県球磨郡あさぎり町免田東347-3",
     "tel": "0966-45-2106",
     "url": "",
@@ -906,11 +906,31 @@
     "gi": "球磨焼酎",
     "type": "米焼酎",
     "main_ingredient": "rice",
-    "desc": "あさぎり町に蔵を構える球磨焼酎の蔵元。",
+    "desc": "明治41年（1908年）創業。球磨のほぼ中央にあるあさぎり町で焼酎造りをはじめた蔵元。代表銘柄「萬緑」は華やかな香りと豊かな味わいが特徴。",
     "visit": "—",
-    "source": "https://kumashochu.or.jp/wp/product/",
-    "brands": [],
-    "features": [],
+    "source": "https://kumashochu.or.jp/wp/product/matsumoto/",
+    "brands": [
+      {
+        "name": "萬緑",
+        "type": "本格米焼酎",
+        "desc": "華やかな香りと豊かな味わいが特徴の代表銘柄。"
+      },
+      {
+        "name": "裏伝 萬緑",
+        "type": "本格米焼酎",
+        "desc": "萬緑の別バージョン。"
+      }
+    ],
+    "features": [
+      {
+        "label": "明治41年創業",
+        "desc": "1908年創業。球磨のほぼ中央・あさぎり町で100年以上焼酎造りを続ける。"
+      },
+      {
+        "label": "球磨盆地の蔵",
+        "desc": "球磨盆地の豊かな米と清冽な水を活かした球磨焼酎を醸す。"
+      }
+    ],
     "lat": 32.2389,
     "lng": 130.8625,
     "name_en": "Matsumoto Shuzo",
@@ -1000,9 +1020,9 @@
     "id": "miyamoto",
     "name": "宮元酒造場",
     "company": "合資会社宮元酒造場",
-    "brand": "",
+    "brand": "九代目",
     "founded": "",
-    "founded_era": "",
+    "founded_era": "創業三百余年",
     "address": "熊本県球磨郡多良木町黒肥地790",
     "tel": "0966-42-2278",
     "url": "",
@@ -1011,11 +1031,31 @@
     "gi": "球磨焼酎",
     "type": "米焼酎",
     "main_ingredient": "rice",
-    "desc": "多良木町に蔵を構える球磨焼酎の蔵元。",
+    "desc": "創業三百余年。多良木町に蔵を構える球磨焼酎の蔵元。平成6年に発売した「九代目」は、原料米の風味と甘味があり、まろやかな口当たりでバランスのとれた逸品。",
     "visit": "—",
-    "source": "https://kumashochu.or.jp/wp/product/",
-    "brands": [],
-    "features": [],
+    "source": "https://kumashochu.or.jp/wp/product/miyamoto/",
+    "brands": [
+      {
+        "name": "九代目",
+        "type": "本格米焼酎",
+        "desc": "平成6年発売。原料米の風味と甘味がありバランスのとれた代表銘柄。"
+      },
+      {
+        "name": "茶屋",
+        "type": "本格米焼酎",
+        "desc": "常圧蒸留の麦焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "創業三百余年",
+        "desc": "三百年以上にわたり球磨焼酎を造り続ける歴史ある蔵元。"
+      },
+      {
+        "label": "「九代目」シリーズ",
+        "desc": "5年熟成減圧蒸留の「九代目」を中心に、甕貯蔵・木樽熟成・山田錦など多彩なバリエーションを展開。"
+      }
+    ],
     "lat": 32.2756,
     "lng": 130.9417,
     "name_en": "Miyamoto Shuzo",
@@ -1025,9 +1065,9 @@
     "id": "hayashi",
     "name": "林酒造場",
     "company": "有限会社林酒造場",
-    "brand": "",
+    "brand": "極楽",
     "founded": "",
-    "founded_era": "",
+    "founded_era": "江戸中期",
     "address": "熊本県球磨郡湯前町下城3092",
     "tel": "0966-43-2020",
     "url": "",
@@ -1036,11 +1076,31 @@
     "gi": "球磨焼酎",
     "type": "米焼酎",
     "main_ingredient": "rice",
-    "desc": "湯前町に蔵を構える球磨焼酎の蔵元。",
+    "desc": "江戸中期創業。湯前町に蔵を構える球磨焼酎の蔵元。15代目が先代から継承してきた焼酎造りを愚直に守り続ける。代表銘柄「極楽」は常圧長期貯蔵の本格米焼酎。",
     "visit": "—",
-    "source": "https://kumashochu.or.jp/wp/product/",
-    "brands": [],
-    "features": [],
+    "source": "https://kumashochu.or.jp/wp/product/hayashi/",
+    "brands": [
+      {
+        "name": "極楽",
+        "type": "本格米焼酎",
+        "desc": "常圧長期貯蔵の代表銘柄。「楽しみの極み」を味わってほしいという願いから命名。"
+      },
+      {
+        "name": "熊本城",
+        "type": "本格米焼酎",
+        "desc": "樫樽長期貯蔵の球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "球磨焼酎最古級の蔵",
+        "desc": "江戸中期創業。現在15代目が伝承の技術を守り続ける。"
+      },
+      {
+        "label": "創業以来の井戸水",
+        "desc": "創業より湧き出る井戸水と伝承の技術を活かした焼酎造り。"
+      }
+    ],
     "lat": 32.2806,
     "lng": 130.9889,
     "name_en": "Hayashi Shuzo",

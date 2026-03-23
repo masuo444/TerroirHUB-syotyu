@@ -689,8 +689,8 @@
     "company": "五島灘酒造株式会社",
     "brand": "五島灘",
     "type": "芋焼酎",
-    "founded": "",
-    "founded_era": "",
+    "founded": "2007",
+    "founded_era": "平成19年",
     "address": "長崎県南松浦郡新上五島町有川郷",
     "tel": "",
     "url": "https://gotonada.com/",
@@ -967,26 +967,41 @@
   {
     "id": "kawachi",
     "name": "河内酒造",
-    "company": "河内酒造合名会社",
-    "brand": "",
+    "company": "河内酒造合名会社（現・白嶽酒造株式会社）",
+    "brand": "対馬やまねこ",
     "type": "麦焼酎",
     "founded": "1919",
     "founded_era": "大正8年",
-    "address": "長崎県対馬市上県町",
+    "address": "長崎県対馬市美津島町鴨居瀬490-1",
     "tel": "",
-    "url": "",
+    "url": "https://shiratakeshuzo.co.jp/",
     "area": "対馬市",
-    "desc": "大正8年（1919年）創業。対馬で焼酎を醸す。現在は白嶽酒造株式会社に社名変更し統合されている。",
+    "desc": "大正8年（1919年）創業。1933年に河内酒造合名会社として法人化。2023年10月に白嶽酒造株式会社に社名変更。対馬唯一の酒蔵として日本酒・焼酎・リキュールを製造。",
     "visit": "",
     "spirit_type": "honkaku",
     "koji_type": "",
     "main_ingredient": "barley",
-    "brands": [],
+    "brands": [
+      {
+        "name": "対馬やまねこ",
+        "type": "麦焼酎",
+        "specs": "麦焼酎80%・米焼酎20%ブレンド、アルコール25度",
+        "ingredient": "大麦・米"
+      },
+      {
+        "name": "白嶽",
+        "type": "清酒",
+        "specs": "全国新酒鑑評会3年連続金賞",
+        "ingredient": "米・米麹"
+      }
+    ],
     "features": [
-      "大正8年創業。現在は白嶽酒造株式会社として営業"
+      "大正8年創業。2023年に白嶽酒造株式会社に社名変更",
+      "対馬唯一の酒蔵として約100年にわたり営業",
+      "焼酎「やまねこ」は麦焼酎8:米焼酎2の珍しいブレンド。対馬の密造酒の隠語に由来"
     ],
     "nearest_station": "",
-    "source": "",
+    "source": "https://shiratakeshuzo.co.jp/",
     "lat": 34.4820,
     "lng": 129.4370,
     "name_en": "Kawachi Shuzo"

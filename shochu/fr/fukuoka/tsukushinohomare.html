@@ -229,12 +229,12 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="hero-badge"><span class="badge-dot"></span>TERROIR HUB SHOCHU</div>
     <p class="hero-est">EST. 1897</p>
     <h1 class="hero-title">筑紫の誉酒造</h1>
-    
+    <p class="hero-subtitle">筑紫の誉</p>
     <p class="hero-en" style="font-style:italic;">Since 1897 — 久留米市, Fukuoka</p>
     <p class="hero-tagline">久留米市城島町に蔵を構え、日本酒・味噌・みりん・甘酒と多彩な醸造品を製造。焼酎も手掛ける。</p>
     <div class="hero-actions">
       <button class="btn-p" onclick="openPanel()">Demander a Sakura</button>
-      
+      <button class="btn-s" onclick="location.href='http://c-homare.com/'">Site officiel</button>
     </div>
   </div>
 </section>
@@ -248,7 +248,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
           <div class="bottle">
             <div class="bottle-neck"></div>
             <div class="bottle-lbl">
-              <div class="bottle-lbl-txt">筑紫の誉酒造</div>
+              <div class="bottle-lbl-txt">筑紫の誉</div>
             </div>
           </div>
         </div>
@@ -282,7 +282,14 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">①</div>
         <div>
           <div class="fact-lbl">Caracteristique 1</div>
-          <div class="fact-body">日本酒・焼酎のほか味噌・みりん・甘酒も製造する醸造蔵</div>
+          <div class="fact-body">明治30年（1897年）創業。城島町の醸造蔵</div>
+        </div>
+      </div>
+      <div class="fact">
+        <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
+        <div>
+          <div class="fact-lbl">Caracteristique 2</div>
+          <div class="fact-body">日本酒・焼酎のほか味噌・みりん・甘酒も製造する多角醸造蔵</div>
         </div>
       </div>
     </div>
@@ -290,6 +297,25 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 </section>
 
 
+<section class="section brands-section">
+  <div class="sec-inner">
+    <label class="sec-label">SHOCHU</label>
+    <h2 class="sec-title">Spiritueux Signature</h2>
+    <div class="sec-divider"></div>
+    <div class="brands-grid">
+    <div class="brand-card">
+      <div class="brand-img-wrap">
+        <div class="brand-img-placeholder">PHOTO</div>
+      </div>
+      
+      
+      <h3 class="brand-name">筑紫の誉</h3>
+      <p class="brand-type">清酒</p>
+      
+    </div>
+    </div>
+  </div>
+</section>
 
 <section class="section">
   <div class="sec-inner">
@@ -298,7 +324,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="sec-divider"></div>
     <div class="story-grid" style="gap:32px;">
       <div style="display:flex;flex-direction:column;gap:22px;">
-        <div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📍</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Adresse</div><div style="font-size:15px;color:var(--text-body);">福岡県久留米市城島町青木島181</div></div></div>
+        <div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📍</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Adresse</div><div style="font-size:15px;color:var(--text-body);">福岡県久留米市城島町青木島181</div></div></div><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🌐</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Site web</div><div style="font-size:15px;"><a href="http://c-homare.com/" style="color:var(--accent);text-decoration:none;">http://c-homare.com/</a></div></div></div>
       </div>
       <div style="background:var(--surface-warm);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:240px;gap:8px;">
         <span style="font-size:28px;">📍</span>
@@ -307,7 +333,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
       </div>
     </div>
     <p style="font-size:13px;color:var(--text-muted);margin-top:16px;">西鉄天神大牟田線 三潴駅</p>
-    <p style="font-size:11px;color:var(--text-muted);margin-top:12px;">Source: <a href="https://welcome-kurume.com/enjoys/sakaguramap/" style="color:var(--accent);text-decoration:none;">https://welcome-kurume.com/enjoys/sakaguramap/</a></p>
+    <p style="font-size:11px;color:var(--text-muted);margin-top:12px;">Source: <a href="http://c-homare.com/" style="color:var(--accent);text-decoration:none;">http://c-homare.com/</a></p>
   </div>
 </section>
 
@@ -352,8 +378,8 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
 function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
 let ci=false;
-const BN='筑紫の誉酒造',BB='筑紫の誉酒造';
-const SUGS=['Comment est le 筑紫の誉酒造 ?','Peut-on visiter la distillerie ?','Comment le deguster ?','Quelle est l\'histoire ?'];
+const BN='筑紫の誉酒造',BB='筑紫の誉';
+const SUGS=['Comment est le 筑紫の誉 ?','Peut-on visiter la distillerie ?','Comment le deguster ?','Quelle est l\'histoire ?'];
 function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','Bienvenue chez 筑紫の誉酒造.\n\nN'hesitez pas a me poser vos questions sur cette distillerie.');renderSugs();}
 function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'👤')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}

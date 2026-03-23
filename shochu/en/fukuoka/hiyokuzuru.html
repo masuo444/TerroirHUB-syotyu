@@ -229,12 +229,12 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="hero-badge"><span class="badge-dot"></span>TERROIR HUB SHOCHU</div>
     <p class="hero-est">EST. 1895</p>
     <h1 class="hero-title">比翼鶴酒造</h1>
-    
+    <p class="hero-subtitle">比翼鶴</p>
     <p class="hero-en" style="font-style:italic;">Since 1895 — 久留米市, Fukuoka</p>
     <p class="hero-tagline">久留米市城島町に蔵を構え、地下の湧水を使用した日本酒と焼酎を製造。</p>
     <div class="hero-actions">
       <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
-      
+      <button class="btn-s" onclick="location.href='https://www.hiyokutsuru.co.jp/'">Official Website</button>
     </div>
   </div>
 </section>
@@ -248,7 +248,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
           <div class="bottle">
             <div class="bottle-neck"></div>
             <div class="bottle-lbl">
-              <div class="bottle-lbl-txt">比翼鶴酒造</div>
+              <div class="bottle-lbl-txt">比翼鶴</div>
             </div>
           </div>
         </div>
@@ -324,7 +324,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <div class="sec-divider"></div>
     <div class="story-grid" style="gap:32px;">
       <div style="display:flex;flex-direction:column;gap:22px;">
-        <div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📍</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Location</div><div style="font-size:15px;color:var(--text-body);">福岡県久留米市城島町内野466-1</div></div></div><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📞</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Phone</div><div style="font-size:15px;color:var(--text-body);">0942-62-2171</div></div></div>
+        <div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📍</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Location</div><div style="font-size:15px;color:var(--text-body);">福岡県久留米市城島町内野466-1</div></div></div><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📞</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Phone</div><div style="font-size:15px;color:var(--text-body);">0942-62-2171</div></div></div><div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🌐</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">Website</div><div style="font-size:15px;"><a href="https://www.hiyokutsuru.co.jp/" style="color:var(--accent);text-decoration:none;">https://www.hiyokutsuru.co.jp/</a></div></div></div>
       </div>
       <div style="background:var(--surface-warm);border:1px solid var(--border);border-radius:8px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:240px;gap:8px;">
         <span style="font-size:28px;">📍</span>
@@ -378,8 +378,8 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
 function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
 let ci=false;
-const BN='比翼鶴酒造',BB='比翼鶴酒造';
-const SUGS=['What is 比翼鶴酒造 like?','Can I visit the distillery?','How should I drink this?','Tell me about the history'];
+const BN='比翼鶴酒造',BB='比翼鶴';
+const SUGS=['What is 比翼鶴 like?','Can I visit the distillery?','How should I drink this?','Tell me about the history'];
 function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','Welcome to 比翼鶴酒造.\n\nFeel free to ask anything about this distillery.');renderSugs();}
 function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'👤')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
