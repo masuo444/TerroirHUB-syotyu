@@ -75,7 +75,7 @@ footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
   <p><a href="/">Terroir HUB SHOCHU</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
 <script>
-const B=[{"id": "wakura_sadamoto", "name": "和蔵酒造 貞元蔵", "brand": "房総芋焼酎", "type": "本格焼酎（芋・米・麦）", "area": "君津市", "founded": "", "founded_era": "江戸時代", "desc": "江戸時代から続く蔵。貞元蔵は焼酎専用蔵として、黒麹仕込み・二次仕込法・常圧蒸留など伝統的製法を採用。千葉県産の芋・米・麦にこだわった本格焼酎を醸造。", "main_ingredient": "芋・米・麦", "koji_type": "黒麹"}, {"id": "moriya_shuzo", "name": "守屋酒造", "brand": "守正", "type": "本格純米焼酎", "area": "山武市", "founded": "1916", "founded_era": "大正5年", "desc": "大正5年より100年以上焼酎造りを続ける老舗。日本酒と同じ米を原料にしっかりと蒸留する本格純米焼酎「守正」を製造。九十九里浜近くに蔵を構える。", "main_ingredient": "米", "koji_type": ""}];
+const B=[{"id": "wakura_sadamoto", "name": "和蔵酒造 貞元蔵", "brand": "房総芋焼酎", "type": "本格焼酎（芋・米・麦）", "area": "君津市", "founded": "1874", "founded_era": "明治7年", "desc": "江戸時代から続く蔵。貞元蔵は焼酎専用蔵として、黒麹仕込み・二次仕込法・常圧蒸留など伝統的製法を採用。千葉県産の芋・米・麦にこだわった本格焼酎を醸造。", "main_ingredient": "芋・米・麦", "koji_type": "黒麹"}, {"id": "moriya_shuzo", "name": "守屋酒造", "brand": "守正", "type": "本格純米焼酎", "area": "山武市", "founded": "1916", "founded_era": "大正5年", "desc": "大正5年より100年以上焼酎造りを続ける老舗。日本酒と同じ米を原料にしっかりと蒸留する本格純米焼酎「守正」を製造。九十九里浜近くに蔵を構える。", "main_ingredient": "米", "koji_type": ""}];
 const ILABELS={'sweet_potato':'芋','barley':'麦','rice':'米','brown_sugar':'黒糖','buckwheat':'そば','awamori':'泡盛','kasutori':'粕取り','mixed':'混和'};
 const areas=[...new Set(B.map(b=>b.area).filter(Boolean))].sort();
 const types=[...new Set(B.map(b=>b.main_ingredient).filter(Boolean))];

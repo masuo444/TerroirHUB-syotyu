@@ -39,8 +39,8 @@
     "spirit_type": "honkaku",
     "koji_type": "",
     "main_ingredient": "米",
-    "brands": [],
-    "features": ["元禄3年創業", "粟鹿山天然水", "但馬の蔵元"],
+    "brands": ["天のひぼこ"],
+    "features": ["元禄3年創業", "粟鹿山天然水", "但馬の蔵元", "但馬唯一の地焼酎"],
     "nearest_station": "梁瀬駅",
     "source": "此の友酒造公式サイト",
     "name_en": "Konotomo Shuzo"
