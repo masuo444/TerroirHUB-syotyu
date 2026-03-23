@@ -1,0 +1,25 @@
+[
+  {
+    "id": "shiraso_shuzo",
+    "name": "白相酒造",
+    "company": "株式会社白相酒造",
+    "brand": "とちあかね",
+    "type": "本格焼酎（芋・麦・蕎麦）",
+    "founded": "",
+    "founded_era": "明治期",
+    "address": "栃木県那須郡那珂川町小川715-2",
+    "tel": "0287-96-2015",
+    "url": "https://www.shiraso.com/",
+    "area": "那珂川町",
+    "desc": "栃木県で唯一、芋焼酎・麦焼酎・蕎麦焼酎の3種すべてを製造する蔵元。栃木県産の原料（さつまいも・大麦・蕎麦）にこだわる。東京農業大学花酵母研究会にも所属。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "芋・麦・蕎麦",
+    "brands": ["とちあかね"],
+    "features": ["栃木県唯一の芋・麦・蕎麦焼酎製造", "栃木県産原料使用"],
+    "nearest_station": "",
+    "source": "https://www.shiraso.com/company/",
+    "name_en": "Shiraso Shuzo"
+  }
+]

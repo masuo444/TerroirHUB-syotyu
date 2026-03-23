@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kinryu",
+    "name": "金龍",
+    "company": "株式会社金龍",
+    "brand": "爽",
+    "type": "甲類焼酎",
+    "founded": "1950",
+    "founded_era": "昭和25年",
+    "address": "山形県酒田市黒森草刈谷地180-1",
+    "tel": "0234-92-4567",
+    "url": "https://kinryu.co.jp/",
+    "area": "酒田市",
+    "desc": "山形県唯一の焼酎専門メーカー。酒田・飽海地区の酒蔵9社が原料アルコール供給のため設立した「山形県醗酵工業」がルーツ。1978年発売の甲類焼酎「爽」は山形県民の定番。",
+    "visit": "",
+    "spirit_type": "korui",
+    "koji_type": "",
+    "main_ingredient": "",
+    "brands": [
+      "new爽",
+      "爽金龍",
+      "つや姫仕込み"
+    ],
+    "features": [
+      "山形県唯一の焼酎専門メーカー",
+      "甲類焼酎"
+    ],
+    "nearest_station": "",
+    "source": "https://kinryu.co.jp/company/",
+    "name_en": "Kinryu"
+  }
+]

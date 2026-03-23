@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>九州・沖縄の焼酎蒸留所一覧 — Terroir HUB SHOCHU</title>
+<meta name="description" content="九州・沖縄（福岡・佐賀・長崎・熊本・大分・宮崎・鹿児島・沖縄）の焼酎・泡盛蒸留所334件を掲載。芋・麦・米・泡盛の本場、GI薩摩・球磨・壱岐・琉球を完全網羅。">
+<link rel="canonical" href="https://shochu.terroirhub.com/shochu/region/kyushu.html">
+<meta property="og:title" content="九州・沖縄の焼酎蒸留所一覧 — Terroir HUB SHOCHU">
+<meta property="og:description" content="九州・沖縄の焼酎・泡盛蒸留所334件を掲載。GI薩摩・球磨・壱岐・琉球を完全網羅。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shochu.terroirhub.com/shochu/region/kyushu.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:hidden;}
+body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased;overflow-x:hidden;width:100%;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.92);backdrop-filter:blur(20px) saturate(1.2);border-bottom:1px solid rgba(0,0,0,0.04);}
+.nav-top{display:flex;align-items:center;height:54px;padding:0 28px;max-width:1280px;margin:0 auto;}
+.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;letter-spacing:0.04em;white-space:nowrap;flex-shrink:0;}
+.nav-logo .accent{color:#8B5E3C;}
+.nav-links{display:flex;align-items:center;gap:6px;margin-left:32px;}
+.nav-links a{font-size:14px;color:#444;text-decoration:none;padding:6px 14px;border-radius:6px;transition:all 0.2s;white-space:nowrap;font-weight:500;}
+.nav-links a:hover{color:#1a1a1a;background:rgba(0,0,0,0.04);}
+.nav-hamburger{display:none;background:none;border:none;font-size:22px;cursor:pointer;padding:4px 8px;color:#333;margin-left:auto;}
+@media(max-width:700px){.nav-links{display:none;}.nav-hamburger{display:block;}}
+.mobile-menu{position:fixed;top:0;right:0;bottom:0;width:280px;z-index:999;background:#fff;box-shadow:-8px 0 40px rgba(0,0,0,0.1);flex-direction:column;padding:0;transform:translateX(100%);transition:transform 0.35s cubic-bezier(0.16,1,0.3,1);display:flex;}
+.mobile-menu.open{transform:translateX(0);}
+.mm-overlay{display:none;position:fixed;inset:0;z-index:998;background:rgba(0,0,0,0.3);backdrop-filter:blur(4px);}
+.mm-overlay.open{display:block;}
+.mm-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #f0f0f0;}
+.mm-header-logo{font-family:'Shippori Mincho',serif;font-size:16px;font-weight:600;color:#333;}
+.mm-header-logo span{color:#8B5E3C;}
+.mobile-menu .mm-close{background:none;border:none;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;color:#999;cursor:pointer;}
+.mm-nav{flex:1;overflow-y:auto;padding:12px 0;}
+.mobile-menu a{display:flex;align-items:center;gap:10px;font-size:14px;color:#333;text-decoration:none;padding:12px 24px;font-family:'Noto Sans JP',sans-serif;transition:background 0.15s;}
+.mobile-menu a:hover{background:#fafaf8;color:#8B5E3C;}
+.mobile-menu a .mm-icon{width:20px;text-align:center;font-size:16px;flex-shrink:0;}
+.mm-divider{height:1px;background:#f0f0f0;margin:8px 20px;}
+.breadcrumb{margin-top:54px;padding:14px 28px;max-width:1280px;margin-left:auto;margin-right:auto;font-size:13px;color:#888;}
+.breadcrumb a{color:#8B5E3C;text-decoration:none;}
+.breadcrumb a:hover{text-decoration:underline;}
+.breadcrumb span{margin:0 6px;color:#ccc;}
+.region-hero{background:#fafaf8;padding:56px 28px 48px;text-align:center;border-bottom:1px solid #eee;}
+.region-hero-tag{font-size:13px;color:#8B5E3C;letter-spacing:0.12em;font-weight:600;margin-bottom:8px;}
+.region-hero-title{font-family:'Shippori Mincho',serif;font-size:clamp(32px,5vw,48px);font-weight:700;color:#2A2420;margin-bottom:8px;line-height:1.2;}
+.region-hero-count{font-family:'Inter',sans-serif;font-size:48px;font-weight:300;color:#8B5E3C;margin-bottom:4px;}
+.region-hero-count span{font-size:16px;color:#888;font-family:'Noto Sans JP',sans-serif;}
+.region-hero-desc{max-width:640px;margin:24px auto 0;font-size:14px;color:#777;line-height:1.9;}
+
+/* GI SECTION */
+.gi-section{padding:56px 28px;max-width:1100px;margin:0 auto;border-bottom:1px solid #eee;}
+.gi-section-title{font-family:'Shippori Mincho',serif;font-size:22px;font-weight:600;color:#2A2420;margin-bottom:8px;text-align:center;}
+.gi-section-sub{font-size:14px;color:#777;text-align:center;margin-bottom:32px;line-height:1.8;}
+.gi-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;}
+@media(max-width:500px){.gi-cards{grid-template-columns:1fr;gap:12px;}}
+.gi-card{background:#fff;border:2px solid #E8DDD0;border-radius:12px;padding:24px 20px;transition:all 0.2s;text-decoration:none;display:block;position:relative;overflow:hidden;}
+.gi-card:hover{border-color:#8B5E3C;box-shadow:0 4px 16px rgba(0,0,0,0.06);transform:translateY(-2px);}
+.gi-badge{display:inline-block;background:#8B5E3C;color:#fff;font-size:10px;font-weight:600;letter-spacing:0.08em;padding:3px 10px;border-radius:4px;margin-bottom:12px;}
+.gi-card-name{font-family:'Shippori Mincho',serif;font-size:22px;font-weight:700;color:#2A2420;margin-bottom:4px;}
+.gi-card-name-en{font-size:11px;color:#8B5E3C;letter-spacing:0.08em;margin-bottom:8px;}
+.gi-card-type{font-size:13px;color:#666;margin-bottom:4px;}
+.gi-card-area{font-size:12px;color:#999;}
+
+/* PREF GRID */
+.pref-section{padding:56px 28px 72px;max-width:1100px;margin:0 auto;}
+.pref-section-title{font-family:'Shippori Mincho',serif;font-size:22px;font-weight:600;color:#2A2420;margin-bottom:32px;text-align:center;}
+.pref-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;}
+@media(max-width:500px){.pref-cards{grid-template-columns:1fr;gap:12px;}}
+.pref-card{background:#fff;border:1px solid #eee;border-radius:12px;padding:24px 20px;transition:all 0.2s;text-decoration:none;display:block;}
+.pref-card:hover{border-color:#8B5E3C;box-shadow:0 4px 16px rgba(0,0,0,0.04);transform:translateY(-2px);}
+.pref-card-name{font-family:'Shippori Mincho',serif;font-size:20px;font-weight:600;color:#2A2420;margin-bottom:4px;}
+.pref-card-name-en{font-size:11px;color:#8B5E3C;letter-spacing:0.08em;margin-bottom:12px;}
+.pref-card-count{font-family:'Inter',sans-serif;font-size:32px;font-weight:300;color:#8B5E3C;}
+.pref-card-count span{font-size:13px;color:#888;font-family:'Noto Sans JP',sans-serif;}
+.pref-card-note{font-size:12px;color:#999;margin-top:6px;line-height:1.6;}
+.pref-card-link{display:inline-block;margin-top:12px;font-size:13px;color:#8B5E3C;font-weight:500;}
+.pref-card.featured{border:2px solid #D5C8B8;background:#fefdfb;}
+
+/* AWAMORI SECTION */
+.awamori-section{background:linear-gradient(135deg,#F5EDE5 0%,#EDE4D8 100%);padding:56px 28px;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.awamori-inner{max-width:1100px;margin:0 auto;}
+.awamori-header{text-align:center;margin-bottom:36px;}
+.awamori-tag{font-size:13px;color:#8B5E3C;letter-spacing:0.12em;font-weight:600;margin-bottom:8px;}
+.awamori-title{font-family:'Shippori Mincho',serif;font-size:clamp(26px,4vw,36px);font-weight:700;color:#2A2420;margin-bottom:8px;line-height:1.2;}
+.awamori-count{font-family:'Inter',sans-serif;font-size:40px;font-weight:300;color:#8B5E3C;margin-bottom:4px;}
+.awamori-count span{font-size:15px;color:#888;font-family:'Noto Sans JP',sans-serif;}
+.awamori-desc{max-width:600px;margin:16px auto 0;font-size:14px;color:#777;line-height:1.9;}
+.awamori-links{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:28px;}
+.awamori-link{display:inline-block;padding:10px 24px;background:#2A2420;color:#fff;border-radius:10px;font-size:14px;font-weight:500;text-decoration:none;transition:all 0.2s;}
+.awamori-link:hover{background:#4A4038;transform:translateY(-1px);}
+.awamori-link-sub{display:inline-block;padding:10px 24px;background:#fff;color:#2A2420;border:1px solid #D5C8B8;border-radius:10px;font-size:14px;font-weight:500;text-decoration:none;transition:all 0.2s;}
+.awamori-link-sub:hover{border-color:#8B5E3C;color:#8B5E3C;}
+
+/* OTHER REGIONS */
+.other-regions{background:#fafaf8;padding:48px 28px;border-top:1px solid #eee;}
+.other-regions-inner{max-width:1100px;margin:0 auto;text-align:center;}
+.other-regions h3{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:600;color:#2A2420;margin-bottom:20px;}
+.other-regions-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;}
+.other-region-link{display:inline-block;padding:8px 20px;background:#fff;border:1px solid #eee;border-radius:8px;font-size:13px;color:#444;text-decoration:none;transition:all 0.15s;}
+.other-region-link:hover{border-color:#8B5E3C;color:#8B5E3C;}
+.other-region-link.current{background:#8B5E3C;color:#fff;border-color:#8B5E3C;}
+
+.footer{background:#1A1814;padding:56px 24px 40px;color:rgba(255,255,255,0.5);font-size:13px;text-align:center;}
+.footer-brand{margin-bottom:32px;}
+.footer-tagline{font-size:13px;color:rgba(255,255,255,0.6);letter-spacing:0.15em;margin-bottom:18px;}
+.footer-logo{font-family:'Shippori Mincho',serif;font-size:28px;color:#fff;font-weight:600;letter-spacing:0.08em;}
+.footer-logo .accent{color:#8B5E3C;}
+.footer-nav{max-width:960px;margin:0 auto 28px;padding:28px 0 0;border-top:1px solid rgba(255,255,255,0.15);display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:0;}
+.footer-nav a{color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;padding:0 20px;border-right:1px solid rgba(255,255,255,0.25);line-height:1;transition:color 0.2s;}
+.footer-nav a:last-child{border-right:none;}
+.footer-nav a:hover{color:#fff;}
+.footer-disclaimer{font-size:12px;color:rgba(255,255,255,0.45);margin-bottom:20px;line-height:1.8;}
+.footer-copy{font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:0.08em;}
+.footer-sister{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);}
+.footer-sister a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:12px;transition:color 0.2s;}
+.footer-sister a:hover{color:#fff;}
+@media(max-width:640px){
+  .nav-top{height:48px;padding:0 16px;}.nav-logo{font-size:17px;}
+  .breadcrumb{padding:14px 16px;margin-top:48px;}
+  .region-hero{padding:40px 20px 36px;}
+  .gi-section{padding:40px 16px;}
+  .pref-section{padding:40px 16px 56px;}
+  .awamori-section{padding:40px 16px;}
+  .other-regions{padding:36px 16px;}
+  .footer{padding:40px 16px 32px;}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-top">
+    <a class="nav-logo" href="/">Terroir HUB <span class="accent">SHOCHU</span></a>
+    <div class="nav-links">
+      <a href="/shochu/guide/">焼酎ガイド</a>
+      <a href="/shochu/guide/awamori.html">泡盛とは</a>
+      <a href="/shochu/search/">蒸留所検索</a>
+    </div>
+    <button class="nav-hamburger" onclick="openMM()">☰</button>
+  </div>
+</nav>
+
+<div class="mm-overlay" id="mm-ov" onclick="closeMM()"></div>
+<div class="mobile-menu" id="mm">
+  <div class="mm-header">
+    <div class="mm-header-logo">Terroir HUB <span>SHOCHU</span></div>
+    <button class="mm-close" onclick="closeMM()">✕</button>
+  </div>
+  <div class="mm-nav">
+    <a href="/"><span class="mm-icon">🏠</span>ホーム</a>
+    <a href="/shochu/guide/"><span class="mm-icon">📖</span>焼酎ガイド</a>
+    <a href="/shochu/guide/awamori.html"><span class="mm-icon">🌺</span>泡盛とは</a>
+    <a href="/shochu/search/"><span class="mm-icon">🔍</span>蒸留所検索</a>
+    <div class="mm-divider"></div>
+    <a href="/shochu/region/hokkaido.html"><span class="mm-icon">🗾</span>北海道</a>
+    <a href="/shochu/region/tohoku.html"><span class="mm-icon">🗾</span>東北</a>
+    <a href="/shochu/region/kanto.html"><span class="mm-icon">🗾</span>関東</a>
+    <a href="/shochu/region/chubu.html"><span class="mm-icon">🗾</span>中部</a>
+    <a href="/shochu/region/kinki.html"><span class="mm-icon">🗾</span>近畿</a>
+    <a href="/shochu/region/chugoku.html"><span class="mm-icon">🗾</span>中国</a>
+    <a href="/shochu/region/shikoku.html"><span class="mm-icon">🗾</span>四国</a>
+    <a href="/shochu/region/kyushu.html"><span class="mm-icon">🗾</span>九州・沖縄</a>
+  </div>
+</div>
+
+<div class="breadcrumb">
+  <a href="/">ホーム</a><span>></span><a href="/shochu/region/kyushu.html">地域</a><span>></span>九州・沖縄
+</div>
+
+<!-- HERO -->
+<section class="region-hero">
+  <div class="region-hero-tag">KYUSHU &amp; OKINAWA</div>
+  <h1 class="region-hero-title">九州・沖縄の焼酎・泡盛蒸留所</h1>
+  <div class="region-hero-count">334 <span>蒸留所</span></div>
+  <p class="region-hero-desc">九州は日本の焼酎文化の中心地です。鹿児島の芋焼酎、大分の麦焼酎、熊本・球磨の米焼酎、長崎・壱岐の麦焼酎と、各県が誇る個性的な焼酎文化が花開いています。沖縄では600年以上の歴史を持つ泡盛が独自の蒸留酒文化を形成し、全量黒麹仕込みという世界でも類を見ない製法が受け継がれています。</p>
+</section>
+
+<!-- GI REGIONS -->
+<section class="gi-section">
+  <h2 class="gi-section-title">GI（地理的表示）保護地域</h2>
+  <p class="gi-section-sub">国税庁が産地の品質と伝統を公式に認めた4つの焼酎・泡盛産地。<br>シャンパーニュやスコッチと同様、地域名を名乗るには厳格な基準を満たす必要があります。</p>
+  <div class="gi-cards">
+    <a class="gi-card" href="/shochu/kagoshima/">
+      <div class="gi-badge">GI SATSUMA</div>
+      <div class="gi-card-name">薩摩</div>
+      <div class="gi-card-name-en">SATSUMA</div>
+      <div class="gi-card-type">芋焼酎 — 鹿児島県（奄美除く）</div>
+      <div class="gi-card-area">黄金千貫を中心としたさつまいもと、鹿児島県産の水で仕込む本格芋焼酎</div>
+    </a>
+    <a class="gi-card" href="/shochu/kumamoto/">
+      <div class="gi-badge">GI KUMA</div>
+      <div class="gi-card-name">球磨</div>
+      <div class="gi-card-name-en">KUMA</div>
+      <div class="gi-card-type">米焼酎 — 熊本県球磨郡・人吉市</div>
+      <div class="gi-card-area">球磨川水系の清流と良質な米で醸す、500年の歴史を持つ米焼酎の郷</div>
+    </a>
+    <a class="gi-card" href="/shochu/nagasaki/">
+      <div class="gi-badge">GI IKI</div>
+      <div class="gi-card-name">壱岐</div>
+      <div class="gi-card-name-en">IKI</div>
+      <div class="gi-card-type">麦焼酎 — 長崎県壱岐島</div>
+      <div class="gi-card-area">麦2/3・米麹1/3の独自配合。麦焼酎発祥の地として世界的に認知</div>
+    </a>
+    <a class="gi-card" href="/shochu/okinawa/">
+      <div class="gi-badge">GI RYUKYU</div>
+      <div class="gi-card-name">琉球</div>
+      <div class="gi-card-name-en">RYUKYU</div>
+      <div class="gi-card-type">泡盛 — 沖縄県</div>
+      <div class="gi-card-area">タイ米と黒麹菌による全量麹仕込み。3年以上熟成の古酒（クース）が特徴</div>
+    </a>
+  </div>
+</section>
+
+<!-- PREFECTURE CARDS -->
+<section class="pref-section">
+  <h2 class="pref-section-title">都道府県別 蒸留所数</h2>
+  <div class="pref-cards">
+    <a class="pref-card featured" href="/shochu/kagoshima/">
+      <div class="pref-card-name">鹿児島</div>
+      <div class="pref-card-name-en">KAGOSHIMA</div>
+      <div class="pref-card-count">118 <span>蒸留所</span></div>
+      <div class="pref-card-note">芋焼酎の本場。GI「薩摩」認定地域。黒糖焼酎の奄美大島も含む。</div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+    <a class="pref-card featured" href="/shochu/oita/">
+      <div class="pref-card-name">大分</div>
+      <div class="pref-card-name-en">OITA</div>
+      <div class="pref-card-count">35 <span>蒸留所</span></div>
+      <div class="pref-card-note">麦焼酎の一大産地。「いいちこ」「二階堂」など全国ブランドの故郷。</div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+    <a class="pref-card featured" href="/shochu/miyazaki/">
+      <div class="pref-card-name">宮崎</div>
+      <div class="pref-card-name-en">MIYAZAKI</div>
+      <div class="pref-card-count">34 <span>蒸留所</span></div>
+      <div class="pref-card-note">「霧島」「黒霧島」の霧島酒造をはじめ、芋焼酎・そば焼酎の名醸地。</div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+    <a class="pref-card featured" href="/shochu/fukuoka/">
+      <div class="pref-card-name">福岡</div>
+      <div class="pref-card-name-en">FUKUOKA</div>
+      <div class="pref-card-count">33 <span>蒸留所</span></div>
+      <div class="pref-card-note">日本酒蔵が手がける焼酎も多い。麦焼酎・米焼酎・粕取り焼酎が盛ん。</div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+    <a class="pref-card featured" href="/shochu/kumamoto/">
+      <div class="pref-card-name">熊本</div>
+      <div class="pref-card-name-en">KUMAMOTO</div>
+      <div class="pref-card-count">32 <span>蒸留所</span></div>
+      <div class="pref-card-note">GI「球磨」認定の米焼酎の郷。人吉・球磨地方に蒸留所が集中。</div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+    <a class="pref-card featured" href="/shochu/nagasaki/">
+      <div class="pref-card-name">長崎</div>
+      <div class="pref-card-name-en">NAGASAKI</div>
+      <div class="pref-card-count">24 <span>蒸留所</span></div>
+      <div class="pref-card-note">GI「壱岐」認定の麦焼酎発祥地。壱岐島の7蔵が伝統を守る。</div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+    <a class="pref-card" href="/shochu/saga/">
+      <div class="pref-card-name">佐賀</div>
+      <div class="pref-card-name-en">SAGA</div>
+      <div class="pref-card-count">10 <span>蒸留所</span></div>
+      <div class="pref-card-link">蒸留所一覧を見る →</div>
+    </a>
+  </div>
+</section>
+
+<!-- AWAMORI SPECIAL SECTION -->
+<section class="awamori-section">
+  <div class="awamori-inner">
+    <div class="awamori-header">
+      <div class="awamori-tag">GI RYUKYU / AWAMORI</div>
+      <h2 class="awamori-title">沖縄 — 泡盛の故郷</h2>
+      <div class="awamori-count">48 <span>酒造所</span></div>
+      <p class="awamori-desc">泡盛は沖縄で600年以上受け継がれてきた日本最古の蒸留酒です。タイ米（インディカ米）と黒麹菌を用い、全量麹仕込みという世界でも類を見ない製法で造られます。3年以上熟成させた「古酒（クース）」は、年月とともに深みを増す琉球の至宝。那覇・名護・宮古島・石垣島・久米島など、沖縄全域の48酒造所がこの伝統を守り続けています。</p>
+      <div class="awamori-links">
+        <a class="awamori-link" href="/shochu/okinawa/">沖縄の酒造所一覧を見る</a>
+        <a class="awamori-link-sub" href="/shochu/guide/awamori.html">泡盛ガイドを読む</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OTHER REGIONS -->
+<section class="other-regions">
+  <div class="other-regions-inner">
+    <h3>他の地域を見る</h3>
+    <div class="other-regions-grid">
+      <a class="other-region-link" href="/shochu/region/hokkaido.html">北海道</a>
+      <a class="other-region-link" href="/shochu/region/tohoku.html">東北</a>
+      <a class="other-region-link" href="/shochu/region/kanto.html">関東</a>
+      <a class="other-region-link" href="/shochu/region/chubu.html">中部</a>
+      <a class="other-region-link" href="/shochu/region/kinki.html">近畿</a>
+      <a class="other-region-link" href="/shochu/region/chugoku.html">中国</a>
+      <a class="other-region-link" href="/shochu/region/shikoku.html">四国</a>
+      <a class="other-region-link current" href="/shochu/region/kyushu.html">九州・沖縄</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="footer-tagline">焼酎・泡盛を探すなら、ここ。</div>
+    <div class="footer-logo">Terroir HUB <span class="accent">SHOCHU</span></div>
+  </div>
+  <nav class="footer-nav">
+    <a href="/">ホーム</a>
+    <a href="/shochu/search/">蒸留所検索</a>
+    <a href="/shochu/guide/">焼酎ガイド</a>
+    <a href="/shochu/guide/awamori.html">泡盛とは</a>
+  </nav>
+  <p class="footer-disclaimer">当サイトの情報は各蒸留所の公式情報に基づいています。最新情報は各蒸留所の公式サイトをご確認ください。</p>
+  <p class="footer-copy">&copy; 2026 合同会社FOMUS — Terroir HUB SHOCHU</p>
+  <div class="footer-sister">
+    <a href="https://sake.terroirhub.com/">Terroir HUB SAKE（日本酒版）</a>
+  </div>
+</footer>
+
+<script>
+function openMM(){document.getElementById('mm').classList.add('open');document.getElementById('mm-ov').classList.add('open');}
+function closeMM(){document.getElementById('mm').classList.remove('open');document.getElementById('mm-ov').classList.remove('open');}
+</script>
+</body>
+</html>

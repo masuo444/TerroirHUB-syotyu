@@ -1,0 +1,25 @@
+[
+  {
+    "id": "nisshin_shurui",
+    "name": "日新酒類",
+    "company": "日新酒類株式会社",
+    "brand": "太閤",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "",
+    "founded_era": "",
+    "address": "徳島県板野郡上板町上六條283",
+    "tel": "",
+    "url": "",
+    "area": "阿波",
+    "desc": "徳島県の総合酒類メーカー。太閤酒造場を運営。日本酒・本格焼酎の他、2023年からジャパニーズウイスキーの製造も開始。本格芋焼酎「鳴門金時 里娘」は徳島県産鳴門金時を100%使用。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "芋（鳴門金時）",
+    "brands": ["鳴門金時 里娘"],
+    "features": ["鳴門金時芋使用", "太閤酒造場", "ウイスキー製造開始"],
+    "nearest_station": "板野駅",
+    "source": "日新酒類オンラインショップ、阿波市観光協会",
+    "name_en": "Nisshin Shurui"
+  }
+]

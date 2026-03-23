@@ -1,0 +1,25 @@
+[
+  {
+    "id": "matsui_shuzo",
+    "name": "松井酒造",
+    "company": "松井酒造合名会社",
+    "brand": "倉吉",
+    "type": "焼酎蔵（総合酒類メーカー）",
+    "founded": "1910",
+    "founded_era": "明治43年",
+    "address": "鳥取県倉吉市上井町1-144",
+    "tel": "",
+    "url": "https://matsuiwhisky.com/",
+    "area": "倉吉",
+    "desc": "明治43年創業。鳥取県内で最も古い法人酒造会社。倉吉蒸留所にて焼酎・ウイスキー・ジンを製造。「本格米焼酎 倉吉」は特許取得の減圧蒸留機により35度の低温蒸留を実現した日本初の蒸溜法による焼酎。",
+    "visit": "倉吉蒸留所見学可能",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "米",
+    "brands": ["本格米焼酎 倉吉"],
+    "features": ["倉吉蒸留所", "日本初の低温蒸溜法", "特許取得の減圧蒸留機", "鳥取県最古の法人酒造"],
+    "nearest_station": "倉吉駅",
+    "source": "松井酒造公式サイト、鳥取県公式サイト",
+    "name_en": "Matsui Shuzo"
+  }
+]

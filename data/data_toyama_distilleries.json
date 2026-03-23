@@ -1,0 +1,25 @@
+[
+  {
+    "id": "wakatsuru",
+    "name": "若鶴酒造",
+    "company": "若鶴酒造株式会社",
+    "brand": "若鶴",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "1862",
+    "founded_era": "文久2年",
+    "address": "富山県砺波市三郎丸208",
+    "tel": "0763-32-3032",
+    "url": "https://www.wakatsuru.co.jp/",
+    "area": "砺波",
+    "desc": "北陸最古のウイスキー蒸留所「三郎丸蒸留所」を持つ老舗酒造。米焼酎も製造しており、減圧蒸留によるソフトな香りとなめらかな味わいが特徴。樫樽貯蔵品もある。",
+    "visit": "三郎丸蒸留所にて見学可能",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "米",
+    "brands": ["米焼酎"],
+    "features": ["三郎丸蒸留所", "減圧蒸留", "樫樽貯蔵"],
+    "nearest_station": "油田駅",
+    "source": "若鶴酒造公式サイト、Wikipedia",
+    "name_en": "Wakatsuru Shuzo"
+  }
+]

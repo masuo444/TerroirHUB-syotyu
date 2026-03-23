@@ -1,0 +1,25 @@
+[
+  {
+    "id": "nihon_hakko",
+    "name": "日本醗酵化成",
+    "company": "日本醗酵化成株式会社",
+    "brand": "虎の涙",
+    "type": "焼酎蔵",
+    "founded": "",
+    "founded_era": "",
+    "address": "石川県珠洲市",
+    "tel": "",
+    "url": "https://www.noto-shochu.com/",
+    "area": "奥能登",
+    "desc": "石川県内で唯一の焼酎メーカー。能登杜氏の技術を活かし、添加物を一切使わず、国産麦100%の本格麦焼酎を製造。代表銘柄「虎の涙」は12年熟成の麦焼酎。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "麦",
+    "brands": ["虎の涙", "雪国"],
+    "features": ["能登杜氏の技術", "国産麦100%", "12年熟成", "石川県唯一の焼酎蔵"],
+    "nearest_station": "珠洲市内",
+    "source": "珠洲市ホームページ、noto-shochu.com",
+    "name_en": "Nihon Hakko Kasei"
+  }
+]

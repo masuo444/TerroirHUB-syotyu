@@ -1,0 +1,25 @@
+[
+  {
+    "id": "meiri_shurui",
+    "name": "明利酒類",
+    "company": "明利酒類株式会社",
+    "brand": "漫遊記",
+    "type": "本格焼酎（芋・麦・米）",
+    "founded": "",
+    "founded_era": "",
+    "address": "茨城県水戸市元吉田町327",
+    "tel": "",
+    "url": "https://meirishurui.com/",
+    "area": "水戸市",
+    "desc": "茨城県水戸市の酒類総合メーカー。茨城県産さつまいもを使用した本格芋焼酎「漫遊記」をはじめ、麦・米焼酎も製造。梅酒や清酒も手がける。別春館（資料館）併設。",
+    "visit": "別春館（梅酒と酒の資料館）見学可",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "芋",
+    "brands": ["漫遊記"],
+    "features": ["茨城県産さつまいも使用", "酒類総合メーカー"],
+    "nearest_station": "水戸駅",
+    "source": "https://meirishurui.com/",
+    "name_en": "Meiri Shurui"
+  }
+]

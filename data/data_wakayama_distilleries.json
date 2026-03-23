@@ -1,0 +1,25 @@
+[
+  {
+    "id": "ozaki_shuzo",
+    "name": "尾崎酒造",
+    "company": "尾﨑酒造株式会社",
+    "brand": "太平洋",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "",
+    "founded_era": "明治初期",
+    "address": "和歌山県新宮市船町3-2-3",
+    "tel": "0735-22-2105",
+    "url": "https://ozakisyuzou.jp/",
+    "area": "新宮・熊野",
+    "desc": "明治初期創業。世界遺産・熊野三山の中心に位置する本州最南端の蔵元。熊野川の伏流水や那智の滝の源水を使用。本格米焼酎「熊野水軍」は厳選された米・米こうじ・吟醸粕を使用し減圧蒸留。全国酒類コンクール米焼酎部門2位受賞。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "米・吟醸粕",
+    "brands": ["熊野水軍"],
+    "features": ["本州最南端の蔵元", "世界遺産熊野三山", "熊野川伏流水", "全国酒類コンクール受賞"],
+    "nearest_station": "新宮駅",
+    "source": "尾﨑酒造公式サイト",
+    "name_en": "Ozaki Shuzo"
+  }
+]

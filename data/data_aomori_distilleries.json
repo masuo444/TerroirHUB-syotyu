@@ -1,0 +1,25 @@
+[
+  {
+    "id": "rokushu_jozo",
+    "name": "六趣醸造工房",
+    "company": "六ヶ所地域振興開発株式会社",
+    "brand": "六趣",
+    "type": "本格長芋焼酎",
+    "founded": "2006",
+    "founded_era": "平成18年",
+    "address": "青森県上北郡六ヶ所村",
+    "tel": "",
+    "url": "https://rokushu.com/",
+    "area": "六ヶ所村",
+    "desc": "日本一の長芋産地・青森県六ヶ所村産の長芋を原料とした本格焼酎を製造。1991年に商品開発を開始し、2006年に自社醸造工房を完成。工房見学・試飲も可能。",
+    "visit": "見学可（ガラス越し）、試飲コーナーあり",
+    "spirit_type": "honkaku",
+    "koji_type": "麦麹",
+    "main_ingredient": "長芋",
+    "brands": ["六趣レギュラー", "六趣スペシャル", "六趣五年", "妖精のしわざ"],
+    "features": ["長芋焼酎", "六ヶ所村産長芋使用", "工房見学可"],
+    "nearest_station": "",
+    "source": "https://rokushu.com/",
+    "name_en": "Rokushu Jozo Kobo"
+  }
+]

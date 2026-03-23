@@ -1,0 +1,1331 @@
+[
+  {
+    "id": "beniotome",
+    "name": "紅乙女酒造",
+    "company": "株式会社紅乙女酒造",
+    "brand": "紅乙女",
+    "type": "ごま焼酎",
+    "founded": "1978",
+    "founded_era": "昭和53年",
+    "address": "福岡県久留米市田主丸町益生田270-2",
+    "tel": "0943-72-1050",
+    "url": "https://beniotome.co.jp/",
+    "area": "久留米市",
+    "desc": "昭和53年（1978年）、林田春野が65歳にして創業。世界初のごま焼酎を開発。耳納連山の湧水を使い、ごま・麦・芋焼酎を製造。",
+    "visit": "耳納蒸留所にて見学可（9:00〜17:00、駐車場50台）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "紅乙女",
+        "type": "ごま焼酎",
+        "specs": "世界初のごま焼酎、アルコール25度",
+        "ingredient": "ごま・大麦・米麹"
+      },
+      {
+        "name": "紅乙女GOLD",
+        "type": "ごま焼酎",
+        "specs": "樽貯蔵",
+        "ingredient": "ごま・大麦・米麹"
+      }
+    ],
+    "features": [
+      "世界初のごま焼酎を開発したパイオニア",
+      "創業者・林田春野が65歳で起業。「洋酒に負けない香り高い酒」を目指した",
+      "耳納連山からの湧水を仕込み水に使用"
+    ],
+    "nearest_station": "JR久大本線 田主丸駅",
+    "source": "https://beniotome.co.jp/",
+    "lat": 33.3240,
+    "lng": 130.7240,
+    "name_en": "Beniotome Shuzo"
+  },
+  {
+    "id": "nishiyoshida",
+    "name": "西吉田酒造",
+    "company": "西吉田酒造株式会社",
+    "brand": "つくし",
+    "type": "麦焼酎",
+    "founded": "1893",
+    "founded_era": "明治26年",
+    "address": "福岡県筑後市大字和泉612",
+    "tel": "0942-53-2229",
+    "url": "https://nishiyoshida.jp/",
+    "area": "筑後市",
+    "desc": "明治26年（1893年）創業。焼酎専業蔵として麦焼酎の奥深さを追求。代表銘柄「つくし」は黒と白の二枚看板。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "つくし 黒ラベル",
+        "type": "麦焼酎",
+        "specs": "全量麦麹仕込み、アルコール25度",
+        "ingredient": "大麦・麦麹"
+      },
+      {
+        "name": "つくし 白ラベル",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦・麦麹"
+      }
+    ],
+    "features": [
+      "明治26年創業の焼酎専業蔵",
+      "代表銘柄「つくし」は黒と白の二枚看板で料理やシーンに合わせて選べる",
+      "麦焼酎の奥深さを追求する「教科書」的存在"
+    ],
+    "nearest_station": "JR鹿児島本線 羽犬塚駅",
+    "source": "https://nishiyoshida.jp/",
+    "lat": 33.2120,
+    "lng": 130.5030,
+    "name_en": "Nishi Yoshida Shuzo"
+  },
+  {
+    "id": "shinozaki",
+    "name": "篠崎",
+    "company": "株式会社篠崎",
+    "brand": "千年の眠り",
+    "type": "麦焼酎",
+    "founded": "",
+    "founded_era": "",
+    "address": "福岡県朝倉市比良松185",
+    "tel": "",
+    "url": "https://www.shinozaki-shochu.co.jp/",
+    "area": "朝倉市",
+    "desc": "朝倉の地で日本酒醸造を始めて220年。40年前から焼酎製造を開始。2021年に朝倉蒸溜所を開設。樽熟成麦焼酎「千年の眠り」で知られる。",
+    "visit": "朝倉蒸溜所にて見学可",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "千年の眠り",
+        "type": "麦焼酎",
+        "specs": "樽熟成、アルコール40度",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "朝倉",
+        "type": "麦焼酎",
+        "specs": "アメリカンホワイトオーク樽で最低8年熟成",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "博多献上",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "朝倉の地で220年の酒造りの歴史を持つ",
+      "2021年に朝倉蒸溜所を開設。「ワクワクを蒸溜する」がコンセプト",
+      "樽熟成麦焼酎「千年の眠り」は長期熟成による深い琥珀色と味わい"
+    ],
+    "nearest_station": "西鉄甘木線 甘木駅",
+    "source": "https://www.shinozaki-shochu.co.jp/",
+    "lat": 33.4210,
+    "lng": 130.6870,
+    "name_en": "Shinozaki"
+  },
+  {
+    "id": "kitaya",
+    "name": "喜多屋",
+    "company": "株式会社喜多屋",
+    "brand": "喜多屋",
+    "type": "麦焼酎",
+    "founded": "1820",
+    "founded_era": "文政3年",
+    "address": "福岡県八女市本町374",
+    "tel": "",
+    "url": "https://www.kitaya.co.jp/",
+    "area": "八女市",
+    "desc": "文政3年（1820年）創業。「酒を通して多くの喜びを伝えたい」が社名の由来。IWCチャンピオン・サケ受賞の実力派。日本酒のほか麦焼酎も製造。",
+    "visit": "新酒まつり等のイベントを開催",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "喜多屋 麦焼酎",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "是空",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "文政3年（1820年）創業。200年以上の歴史",
+      "「酒を通して多くの喜びを伝えたい」が社名の由来",
+      "IWCチャンピオン・サケ受賞の世界に通じる酒造り"
+    ],
+    "nearest_station": "JR鹿児島本線 羽犬塚駅",
+    "source": "https://www.kitaya.co.jp/",
+    "lat": 33.2110,
+    "lng": 130.5560,
+    "name_en": "Kitaya"
+  },
+  {
+    "id": "tenpai",
+    "name": "天盃",
+    "company": "株式会社天盃",
+    "brand": "天盃",
+    "type": "麦焼酎",
+    "founded": "1898",
+    "founded_era": "明治31年",
+    "address": "福岡県朝倉郡筑前町森山978",
+    "tel": "",
+    "url": "https://www.tenpai.co.jp/",
+    "area": "筑前町",
+    "desc": "明治31年（1898年）創業。日本で初めて常圧蒸溜にて大麦100%の焼酎を製造。福岡県・佐賀県産の二条大麦だけを使用し、完全無添加の焼酎造りを行う。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "天盃",
+        "type": "麦焼酎",
+        "specs": "常圧2回蒸溜、大麦100%、アルコール25度",
+        "ingredient": "二条大麦（福岡・佐賀県産）"
+      },
+      {
+        "name": "博多どんたく",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "日本初の常圧蒸溜による大麦100%焼酎を製造",
+      "福岡県・佐賀県産の二条大麦のみ使用。完全無添加",
+      "「世界に誇れる蒸溜酒づくり」を掲げる"
+    ],
+    "nearest_station": "西鉄甘木線 甘木駅",
+    "source": "https://www.tenpai.co.jp/",
+    "lat": 33.4340,
+    "lng": 130.6380,
+    "name_en": "Tenpai"
+  },
+  {
+    "id": "ebisu",
+    "name": "ゑびす酒造",
+    "company": "ゑびす酒造株式会社",
+    "brand": "らんびき",
+    "type": "麦焼酎",
+    "founded": "1885",
+    "founded_era": "明治18年",
+    "address": "福岡県朝倉市杷木林田680-3",
+    "tel": "",
+    "url": "https://www.ranbiki.com/",
+    "area": "朝倉市",
+    "desc": "明治18年（1885年）創業。熟成にこだわる本格焼酎専業蔵。熟成していないものは出荷せず、最低3年の貯蔵熟成期間を経て蔵出し。代表銘柄「らんびき」は樫樽熟成。",
+    "visit": "蔵見学可",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "らんびき",
+        "type": "麦焼酎",
+        "specs": "樫樽熟成、最低3年貯蔵",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "古酒ゑびす蔵",
+        "type": "麦焼酎",
+        "specs": "長期熟成古酒",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "明治18年創業の本格焼酎専業蔵。熟成へのこだわりが信条",
+      "最低3年の貯蔵熟成期間を経なければ出荷しない",
+      "代表銘柄「らんびき」は樫樽でじっくり寝かせた熟成焼酎"
+    ],
+    "nearest_station": "JR久大本線 筑後吉井駅",
+    "source": "https://www.ranbiki.com/",
+    "lat": 33.3500,
+    "lng": 130.8100,
+    "name_en": "Ebisu Shuzo"
+  },
+  {
+    "id": "hikari",
+    "name": "光酒造",
+    "company": "光酒造株式会社",
+    "brand": "博多小女郎",
+    "type": "麦焼酎",
+    "founded": "1959",
+    "founded_era": "昭和34年",
+    "address": "福岡県糟屋郡粕屋町長者原東6-12-20",
+    "tel": "",
+    "url": "https://hakata-hikari.co.jp/",
+    "area": "粕屋町",
+    "desc": "昭和34年（1959年）、光安酒造株式会社より本格焼酎部門を分離独立して創立。代表銘柄「博多小女郎」は近松門左衛門の人形浄瑠璃「博多小女郎浪枕」に由来。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "博多小女郎",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "博多小女郎 吟醸磨き",
+        "type": "麦焼酎",
+        "specs": "吟醸磨き",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "明治45年創業の光安酒造から焼酎部門を分離独立",
+      "「博多小女郎」は近松門左衛門の人形浄瑠璃に由来する銘柄名",
+      "博多駅・福岡空港から近い長閑な蔵元"
+    ],
+    "nearest_station": "JR篠栗線 長者原駅",
+    "source": "https://hakata-hikari.co.jp/",
+    "lat": 33.5920,
+    "lng": 130.4720,
+    "name_en": "Hikari Shuzo"
+  },
+  {
+    "id": "kenjou",
+    "name": "研醸",
+    "company": "研醸株式会社",
+    "brand": "勇者",
+    "type": "麦焼酎",
+    "founded": "",
+    "founded_era": "",
+    "address": "福岡県三井郡大刀洗町大字栄田1089",
+    "tel": "",
+    "url": "https://www.e-kenjou.com/",
+    "area": "大刀洗町",
+    "desc": "筑後地方の大刀洗町に蔵を構える。筑後川流域の田畑で栽培した高麗人参を使った焼酎「珍」で特許を取得。長期熟成麦焼酎も展開。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "極み勇者",
+        "type": "麦焼酎",
+        "specs": "長期熟成",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "焙煎麦焼酎 勇者",
+        "type": "麦焼酎",
+        "specs": "焙煎麦使用",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "珍",
+        "type": "焼酎",
+        "specs": "高麗人参使用（特許取得）",
+        "ingredient": "高麗人参"
+      }
+    ],
+    "features": [
+      "高麗人参を使った焼酎「珍」で特許を取得",
+      "焙煎麦を使った焼酎など個性的な商品を展開",
+      "長期熟成麦焼酎「極み勇者」も製造"
+    ],
+    "nearest_station": "西鉄甘木線 大刀洗駅",
+    "source": "https://www.e-kenjou.com/",
+    "lat": 33.3780,
+    "lng": 130.6280,
+    "name_en": "Kenjou"
+  },
+  {
+    "id": "morinokura",
+    "name": "杜の蔵",
+    "company": "株式会社杜の蔵",
+    "brand": "杜の蔵",
+    "type": "麦焼酎",
+    "founded": "1898",
+    "founded_era": "明治31年",
+    "address": "福岡県久留米市三潴町玉満2773",
+    "tel": "070-4351-6939",
+    "url": "https://www.morinokura.co.jp/",
+    "area": "久留米市",
+    "desc": "久留米市三潴町に蔵を構える。日本酒と焼酎の両方を製造。「森の離れ」テイスティングルームを併設。農場から瓶までの一貫したアプローチ。",
+    "visit": "「森の離れ」テイスティングルームにて試飲可",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "豪気麦",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "吟香露",
+        "type": "粕取り焼酎",
+        "specs": "吟醸酒粕使用",
+        "ingredient": "酒粕"
+      }
+    ],
+    "features": [
+      "日本酒と焼酎の両方を製造する蔵",
+      "「森の離れ」テイスティングルームを併設",
+      "農場から瓶までの一貫した酒造りアプローチ"
+    ],
+    "nearest_station": "西鉄天神大牟田線 三潴駅",
+    "source": "https://www.morinokura.co.jp/",
+    "lat": 33.2310,
+    "lng": 130.4620,
+    "name_en": "Morinokura"
+  },
+  {
+    "id": "takamasamune",
+    "name": "鷹正宗",
+    "company": "鷹正宗株式会社",
+    "brand": "めちゃうま麦",
+    "type": "麦焼酎",
+    "founded": "1835",
+    "founded_era": "天保年間",
+    "address": "福岡県久留米市大善寺町黒田297",
+    "tel": "0942-26-1801",
+    "url": "https://www.takamasamune.com/",
+    "area": "久留米市",
+    "desc": "天保年間（1830〜1844年）創業。久留米市大善寺に蔵を構え、日本酒と焼酎を製造。麦焼酎「めちゃうま麦」シリーズで4年連続受賞。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "ごりょんさん",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "めちゃうま麦",
+        "type": "麦焼酎",
+        "specs": "4年連続受賞",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "天保年間（1830〜1844年）創業。日本酒と焼酎の両方を製造",
+      "麦焼酎「めちゃうま麦」で4年連続受賞"
+    ],
+    "nearest_station": "西鉄天神大牟田線 大善寺駅",
+    "source": "https://welcome-kurume.com/enjoys/sakaguramap/",
+    "lat": 33.2620,
+    "lng": 130.4810,
+    "name_en": "Takamasamune"
+  },
+  {
+    "id": "fukutokucho",
+    "name": "福徳長酒類",
+    "company": "福徳長酒類株式会社",
+    "brand": "博多の華",
+    "type": "麦焼酎",
+    "founded": "",
+    "founded_era": "寛政年間",
+    "address": "福岡県久留米市荒木町荒木1200-1",
+    "tel": "",
+    "url": "https://www.oenon.jp/company/group/fukutokucho.html",
+    "area": "久留米市",
+    "desc": "大正時代の赤煉瓦の建物が象徴的な蔵。本格焼酎の出荷量は国内第三位。久留米産麦を使った「久留米の華」を展開。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "博多の華",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "吟薫",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "久留米の華",
+        "type": "麦焼酎",
+        "specs": "久留米産麦使用",
+        "ingredient": "大麦（久留米産）"
+      }
+    ],
+    "features": [
+      "本格焼酎出荷量国内第三位",
+      "大正時代の赤煉瓦の建物が象徴的",
+      "久留米産麦を使った「久留米の華」を展開"
+    ],
+    "nearest_station": "JR鹿児島本線 荒木駅",
+    "source": "https://welcome-kurume.com/enjoys/sakaguramap/",
+    "lat": 33.2620,
+    "lng": 130.5290,
+    "name_en": "Fukutokucho Shurui"
+  },
+  {
+    "id": "meno",
+    "name": "柳川酒造",
+    "company": "柳川酒造株式会社",
+    "brand": "国の寿",
+    "type": "米焼酎",
+    "founded": "1890",
+    "founded_era": "明治23年",
+    "address": "福岡県柳川市三橋町百町766",
+    "tel": "",
+    "url": "http://www.kuninokotobuki.co.jp/",
+    "area": "柳川市",
+    "desc": "明治23年（1890年）創業。旧社名は目野酒造（2018年に柳川酒造に社名変更）。日本酒「国の寿」のほか、本格米焼酎「まゆり」や梅酒・リキュールも製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "rice",
+    "brands": [
+      {
+        "name": "まゆり",
+        "type": "米焼酎",
+        "specs": "",
+        "ingredient": "米"
+      },
+      {
+        "name": "国の寿",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      },
+      {
+        "name": "向日葵",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "明治23年創業。2018年に目野酒造から柳川酒造に社名変更",
+      "130年以上の歴史を持つ柳川の蔵元",
+      "日本酒・焼酎・梅酒・リキュールと多彩な商品展開"
+    ],
+    "nearest_station": "西鉄天神大牟田線 柳川駅",
+    "source": "http://www.kuninokotobuki.co.jp/",
+    "lat": 33.1620,
+    "lng": 130.4060,
+    "name_en": "Yanagawa Shuzo"
+  },
+  {
+    "id": "asahimatsu",
+    "name": "旭松酒造",
+    "company": "旭松酒造株式会社",
+    "brand": "黒木",
+    "type": "麦焼酎",
+    "founded": "1916",
+    "founded_era": "大正5年",
+    "address": "福岡県八女市黒木町黒木36",
+    "tel": "",
+    "url": "",
+    "area": "黒木町",
+    "desc": "大正5年（1916年）創業。矢部川源流の清冽な伏流水と厳選された原料を使い、伝統の「槽しぼり」にこだわった酒造り。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "黒木",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "米つくし",
+        "type": "米焼酎",
+        "specs": "",
+        "ingredient": "米"
+      }
+    ],
+    "features": [
+      "大正5年（1916年）創業。矢部川源流の伏流水を使用",
+      "伝統の「槽しぼり」にこだわった酒造り"
+    ],
+    "nearest_station": "",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.2060,
+    "lng": 130.6610,
+    "name_en": "Asahimatsu Shuzo"
+  },
+  {
+    "id": "ikekame",
+    "name": "池亀酒造",
+    "company": "池亀酒造株式会社",
+    "brand": "池亀",
+    "type": "麦焼酎",
+    "founded": "1875",
+    "founded_era": "明治8年",
+    "address": "福岡県久留米市三潴町草場545",
+    "tel": "0942-64-3101",
+    "url": "https://ikekame.com/",
+    "area": "久留米市",
+    "desc": "久留米市三潴町に蔵を構え、日本酒・焼酎・リキュール・甘酒を製造。日本初のジェル梅酒も開発。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "ちくご胡座",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "流石",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "日本酒・焼酎・リキュール・甘酒と幅広い商品展開",
+      "日本初のジェル梅酒を開発"
+    ],
+    "nearest_station": "西鉄天神大牟田線 三潴駅",
+    "source": "https://welcome-kurume.com/enjoys/sakaguramap/",
+    "lat": 33.2280,
+    "lng": 130.4580,
+    "name_en": "Ikekame Shuzo"
+  },
+  {
+    "id": "isonosawa",
+    "name": "いそのさわ",
+    "company": "株式会社いそのさわ",
+    "brand": "",
+    "type": "麦焼酎",
+    "founded": "1893",
+    "founded_era": "明治26年",
+    "address": "福岡県うきは市",
+    "tel": "",
+    "url": "https://isonosawa.com/",
+    "area": "うきは市",
+    "desc": "うきは市に蔵を構え、吟醸粕取り焼酎や生姜焼酎など個性的な商品を展開。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "吟燦 吟醸粕取り焼酎",
+        "type": "粕取り焼酎",
+        "specs": "吟醸酒粕使用",
+        "ingredient": "酒粕"
+      },
+      {
+        "name": "健々生姜蒸酎",
+        "type": "焼酎",
+        "specs": "生姜使用",
+        "ingredient": "生姜"
+      }
+    ],
+    "features": [
+      "明治26年（1893年）創業。うきは市唯一の酒蔵",
+      "吟醸粕取り焼酎や生姜焼酎など個性的な商品を展開"
+    ],
+    "nearest_station": "JR久大本線 うきは駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.3430,
+    "lng": 130.7650,
+    "name_en": "Isonosawa"
+  },
+  {
+    "id": "egashira",
+    "name": "江頭酒造",
+    "company": "江頭酒造合資会社",
+    "brand": "大蛇山",
+    "type": "麦焼酎",
+    "founded": "1897",
+    "founded_era": "明治30年",
+    "address": "福岡県大牟田市大字三池947",
+    "tel": "0944-52-3796",
+    "url": "http://miikekura.shop-pro.jp/",
+    "area": "大牟田市",
+    "desc": "明治30年（1897年）清酒製造業として創業。現在は焼酎が主力。「うまか焼酎三池」「大蛇山」等を製造。10年〜30年熟成の古酒にも力を入れる。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "大蛇山",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "赤大蛇山",
+        "type": "芋焼酎",
+        "specs": "赤芋使用",
+        "ingredient": "芋"
+      }
+    ],
+    "features": [
+      "明治30年（1897年）創業。現在は焼酎が主力商品",
+      "10年〜30年熟成の古酒にも力を入れる"
+    ],
+    "nearest_station": "JR鹿児島本線 大牟田駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.0300,
+    "lng": 130.4460,
+    "name_en": "Egashira Shuzo"
+  },
+  {
+    "id": "taiga",
+    "name": "大賀酒造",
+    "company": "大賀酒造株式会社",
+    "brand": "連歌屋",
+    "type": "麦焼酎",
+    "founded": "1673",
+    "founded_era": "延宝元年",
+    "address": "福岡県筑紫野市二日市中央4-9-1",
+    "tel": "",
+    "url": "https://www.ogashuzo.com/",
+    "area": "筑紫野市",
+    "desc": "筑紫野市に蔵を構え、日本酒と焼酎を製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "連歌屋",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      },
+      {
+        "name": "尊翁",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "延宝元年（1673年）創業。福岡県内で最も古い酒蔵",
+      "筑紫野市で日本酒と焼酎を製造"
+    ],
+    "nearest_station": "JR鹿児島本線 二日市駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.4920,
+    "lng": 130.5140,
+    "name_en": "Taiga Shuzo"
+  },
+  {
+    "id": "okina",
+    "name": "翁酒造",
+    "company": "翁酒造株式会社",
+    "brand": "千日蔵",
+    "type": "麦焼酎",
+    "founded": "1763",
+    "founded_era": "宝暦13年",
+    "address": "福岡県古賀市",
+    "tel": "",
+    "url": "https://www.okina-shuzo.jp/",
+    "area": "古賀市",
+    "desc": "古賀市に蔵を構え、麦焼酎「千日蔵」「おきな」等を製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "千日蔵",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "おきな",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "穂の香",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "宝暦13年（1763年）創業。旅籠屋のどぶろく造りが起源",
+      "古賀市で日本酒・焼酎・リキュールを製造"
+    ],
+    "nearest_station": "JR鹿児島本線 古賀駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.7280,
+    "lng": 130.4680,
+    "name_en": "Okina Shuzo"
+  },
+  {
+    "id": "kataoka",
+    "name": "片岡酒造場",
+    "company": "片岡酒造場",
+    "brand": "今夜は最高",
+    "type": "麦焼酎",
+    "founded": "1898",
+    "founded_era": "明治31年",
+    "address": "福岡県朝倉郡東峰村大字宝珠山",
+    "tel": "",
+    "url": "",
+    "area": "東峰村",
+    "desc": "東峰村に蔵を構え、麦焼酎「今夜は最高」を製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "今夜は最高",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "明治31年（1898年）創業。英彦山を源流とする山水が豊富な東峰村の蔵",
+      "「平成の名水100選」に選ばれた岩屋湧水を使用"
+    ],
+    "nearest_station": "",
+    "source": "https://www.kataoka-syuzou.net/",
+    "lat": 33.3660,
+    "lng": 130.8580,
+    "name_en": "Kataoka Shuzojo"
+  },
+  {
+    "id": "goto",
+    "name": "後藤酒造場",
+    "company": "合資会社後藤酒造場",
+    "brand": "黒木大藤",
+    "type": "麦焼酎",
+    "founded": "1677",
+    "founded_era": "延宝5年",
+    "address": "福岡県八女市黒木町黒木26",
+    "tel": "",
+    "url": "",
+    "area": "八女市",
+    "desc": "延宝5年（1677年）創業。筑後地区で最も古い酒蔵。奥八女の伏流水を使用。清酒・米焼酎・麦焼酎・芋焼酎・リキュールを製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "黒木大藤",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "素素人",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      },
+      {
+        "name": "黒木大藤 古久 10年貯蔵",
+        "type": "麦焼酎",
+        "specs": "旧国鉄矢部線跡トンネルで甕貯蔵10年以上",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "延宝5年（1677年）創業。筑後地区で最も古い酒蔵。現在13代目",
+      "旧国鉄矢部線跡のトンネルで甕に入れ10年以上貯蔵した麦焼酎原酒を製造"
+    ],
+    "nearest_station": "",
+    "source": "http://www.fukuoka-sake.org/map/detail.php?ID=27",
+    "lat": 33.2110,
+    "lng": 130.5560,
+    "name_en": "Goto Shuzojo"
+  },
+  {
+    "id": "kobayashi",
+    "name": "小林酒造本店",
+    "company": "株式会社小林酒造本店",
+    "brand": "萬代",
+    "type": "麦焼酎",
+    "founded": "1792",
+    "founded_era": "寛政4年",
+    "address": "福岡県糟屋郡宇美町宇美2-11-1",
+    "tel": "",
+    "url": "",
+    "area": "宇美町",
+    "desc": "寛政4年（1792年）創業。宇美町の自然の中で200年以上酒造りを続ける。三郡山の伏流水を使用。日本酒「萬代」のほか焼酎も製造。",
+    "visit": "直売店「萬代酒工房」にて試飲・購入可（蔵見学は5名以上で要予約）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "はかた美人",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "寛政4年（1792年）創業。200年以上の歴史",
+      "三郡山の伏流水を仕込み水に使用",
+      "日本酒・焼酎・リキュール等約20種類を製造"
+    ],
+    "nearest_station": "JR香椎線 宇美駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.5640,
+    "lng": 130.5100,
+    "name_en": "Kobayashi Shuzo Honten"
+  },
+  {
+    "id": "takahashi",
+    "name": "高橋商店",
+    "company": "株式会社高橋商店",
+    "brand": "繁桝",
+    "type": "麦焼酎",
+    "founded": "1717",
+    "founded_era": "享保2年",
+    "address": "福岡県八女市本町2-22-3",
+    "tel": "",
+    "url": "",
+    "area": "八女市",
+    "desc": "享保2年（1717年）創業。初代高橋右衛門が米どころ八女で造り酒屋を開業。日本酒「繁桝」のほか大吟醸酒粕焼酎も製造。300年以上の歴史。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "大吟醸酒粕焼酎",
+        "type": "粕取り焼酎",
+        "specs": "大吟醸酒粕使用",
+        "ingredient": "酒粕"
+      }
+    ],
+    "features": [
+      "享保2年（1717年）創業。300年以上の歴史を持つ八女の蔵元",
+      "日本酒「繁桝」で知られる蔵の大吟醸酒粕焼酎"
+    ],
+    "nearest_station": "",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.2100,
+    "lng": 130.5560,
+    "name_en": "Takahashi Shoten"
+  },
+  {
+    "id": "tanoshimaru",
+    "name": "楽丸酒造",
+    "company": "株式会社楽丸酒造",
+    "brand": "和ら麦",
+    "type": "麦焼酎",
+    "founded": "2006",
+    "founded_era": "平成18年",
+    "address": "福岡県久留米市田主丸町",
+    "tel": "",
+    "url": "",
+    "area": "久留米市",
+    "desc": "平成18年（2006年）サッポロビールの製造子会社として設立。北海道産大麦と耳納連山の伏流水（名水100選）を使用。りんごやバナナを思わせるフルーティな香りが特徴。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "和ら麦",
+        "type": "麦焼酎",
+        "specs": "北海道産大麦使用、アルコール25度",
+        "ingredient": "大麦（北海道産）"
+      }
+    ],
+    "features": [
+      "サッポロビールの製造子会社。ビールづくりで磨いた大麦の知見を活用",
+      "福岡国税局酒類鑑評会で大賞2回・金賞4回受賞"
+    ],
+    "nearest_station": "JR久大本線 田主丸駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.3200,
+    "lng": 130.7200,
+    "name_en": "Tanoshimaru Shuzo"
+  },
+  {
+    "id": "hagio",
+    "name": "萩尾酒造場",
+    "company": "萩尾酒造場",
+    "brand": "博多っ子",
+    "type": "麦焼酎",
+    "founded": "1764",
+    "founded_era": "明和元年",
+    "address": "福岡県福岡市中央区荒戸1-5-1",
+    "tel": "",
+    "url": "",
+    "area": "福岡市",
+    "desc": "明和元年（1764年）創業。黒田藩52万石の御用達の造り酒屋。焼酎「博多っ子」は大麦・米麹使用、アルコール25度。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "博多っ子",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "明和元年（1764年）創業。黒田藩52万石の御用達の造り酒屋",
+      "福岡市中央区に蔵を構える都心の蔵元"
+    ],
+    "nearest_station": "",
+    "source": "http://www.fukuoka-sake.org/map/detail.php?ID=72",
+    "lat": 33.5900,
+    "lng": 130.4020,
+    "name_en": "Hagio Shuzojo"
+  },
+  {
+    "id": "hananoseki",
+    "name": "花関酒造",
+    "company": "花関酒造株式会社",
+    "brand": "花の関",
+    "type": "麦焼酎",
+    "founded": "1893",
+    "founded_era": "明治26年",
+    "address": "福岡県太宰府市観世音寺",
+    "tel": "",
+    "url": "https://hananoseki.co.jp/",
+    "area": "福岡市",
+    "desc": "明治26年（1893年）福岡市中央区舞鶴にて許斐醸造場として創業。昭和41年に良質の水を求めて太宰府市観世音寺に移転。清酒・本格焼酎を醸造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "花の関",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "菅公さま",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "明治26年（1893年）創業。良質な水を求めて太宰府へ移転",
+      "清酒と本格焼酎の両方を醸造"
+    ],
+    "nearest_station": "",
+    "source": "https://hananoseki.co.jp/",
+    "lat": 33.5200,
+    "lng": 130.5230,
+    "name_en": "Hananoseki Shuzo"
+  },
+  {
+    "id": "hayashi",
+    "name": "林龍平酒造場",
+    "company": "林龍平酒造場",
+    "brand": "豊前海",
+    "type": "麦焼酎",
+    "founded": "1837",
+    "founded_era": "天保8年",
+    "address": "福岡県京都郡みやこ町",
+    "tel": "",
+    "url": "",
+    "area": "みやこ町",
+    "desc": "天保8年（1837年）創業。みやこ町唯一の造り酒屋。銘酒「九州菊」を造る酒蔵で、英彦山の伏流水で醸す。米焼酎や吟醸粕取焼酎も製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "豊前海",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "五代目龍平",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "天保8年（1837年）創業。みやこ町唯一の酒蔵",
+      "英彦山の伏流水で醸す。蔵見学可（要予約）"
+    ],
+    "nearest_station": "",
+    "source": "https://www.kusugiku.jp/",
+    "lat": 33.6710,
+    "lng": 130.9180,
+    "name_en": "Hayashi Ryuhei Shuzojo"
+  },
+  {
+    "id": "hiyokuzuru",
+    "name": "比翼鶴酒造",
+    "company": "比翼鶴酒造株式会社",
+    "brand": "",
+    "type": "麦焼酎",
+    "founded": "1895",
+    "founded_era": "明治28年",
+    "address": "福岡県久留米市城島町内野466-1",
+    "tel": "0942-62-2171",
+    "url": "",
+    "area": "久留米市",
+    "desc": "久留米市城島町に蔵を構え、地下の湧水を使用した日本酒と焼酎を製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "酒匠酎不比等",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "地下の湧水を使用した伝統的な酒造り",
+      "久留米市城島町の酒蔵通りに位置する"
+    ],
+    "nearest_station": "西鉄天神大牟田線 三潴駅",
+    "source": "https://welcome-kurume.com/enjoys/sakaguramap/",
+    "lat": 33.2200,
+    "lng": 130.4380,
+    "name_en": "Hiyokuzuru Shuzo"
+  },
+  {
+    "id": "muhomatsu",
+    "name": "無法松酒造",
+    "company": "無法松酒造有限会社",
+    "brand": "無法松",
+    "type": "麦焼酎",
+    "founded": "1877",
+    "founded_era": "明治10年",
+    "address": "福岡県北九州市小倉南区大字新道寺310",
+    "tel": "",
+    "url": "",
+    "area": "北九州市",
+    "desc": "明治10年（1877年）創業。平尾台のふもとに蔵を構え、秋冬は清酒、春夏は焼酎を製造。年間を通して原料にこだわり伝統の技で丁寧な酒造りを続ける。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "無法松麦",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "孔雀王",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "明治10年（1877年）創業。平尾台のふもとで145年以上の酒造り",
+      "秋冬は清酒、春夏は焼酎と、一年を通じて酒造りを行う"
+    ],
+    "nearest_station": "",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.8830,
+    "lng": 130.8750,
+    "name_en": "Muhomatsu Shuzo"
+  },
+  {
+    "id": "wakanami",
+    "name": "若波酒造",
+    "company": "若波酒造合名会社",
+    "brand": "若波",
+    "type": "麦焼酎",
+    "founded": "1922",
+    "founded_era": "大正11年",
+    "address": "福岡県大川市鐘ヶ江752",
+    "tel": "",
+    "url": "",
+    "area": "大川市",
+    "desc": "大川市に蔵を構え、日本酒「若波」のほか焼酎「酔太郎」を製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "酔太郎",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "日本酒「若波」で知られる蔵の麦焼酎"
+    ],
+    "nearest_station": "西鉄天神大牟田線 蒲池駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.1990,
+    "lng": 130.3770,
+    "name_en": "Wakanami Shuzo"
+  },
+  {
+    "id": "nikka_kitakyushu",
+    "name": "ニッカウイスキー北九州工場",
+    "company": "ニッカウイスキー株式会社北九州工場",
+    "brand": "綺羅麦",
+    "type": "麦焼酎",
+    "founded": "1914",
+    "founded_era": "大正3年",
+    "address": "福岡県北九州市門司区",
+    "tel": "",
+    "url": "",
+    "area": "北九州市",
+    "desc": "大正3年（1914年）前身の大里酒精製造所として創業。約20種類の焼酎原酒を製造。2017年から大麦原料のグレーンウイスキーも製造開始。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "綺羅麦",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "玄庵",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "大正3年（1914年）前身の大里酒精製造所として創業。約20種の焼酎原酒を製造",
+      "ウイスキーメーカーの蒸溜技術を活かした麦焼酎・米焼酎・そば焼酎を製造"
+    ],
+    "nearest_station": "JR鹿児島本線 門司駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.9420,
+    "lng": 130.9600,
+    "name_en": "Nikka Whisky Kitakyushu Plant"
+  },
+  {
+    "id": "hananotsuyu",
+    "name": "花の露",
+    "company": "株式会社花の露",
+    "brand": "花の露",
+    "type": "麦焼酎",
+    "founded": "1745",
+    "founded_era": "延享2年",
+    "address": "福岡県久留米市城島町城島223-1",
+    "tel": "",
+    "url": "",
+    "area": "久留米市",
+    "desc": "延享2年（1745年）創業。城島の地で280年近く酒造りを続けた老舗。焼酎は1981年から製造開始。2024年12月に閉業。",
+    "visit": "※2024年12月閉業",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "からす",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "左文字古酒",
+        "type": "麦焼酎",
+        "specs": "古酒",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "延享2年（1745年）創業。城島町で最古の蔵元だった",
+      "1981年から焼酎製造を開始",
+      "※2024年12月に自己破産申請により閉業"
+    ],
+    "nearest_station": "西鉄天神大牟田線 三潴駅",
+    "source": "https://fukuokanosake.com/sakagura/4954/",
+    "lat": 33.2200,
+    "lng": 130.4350,
+    "name_en": "Hana no Tsuyu"
+  },
+  {
+    "id": "tsukushinohomare",
+    "name": "筑紫の誉酒造",
+    "company": "筑紫の誉酒造株式会社",
+    "brand": "",
+    "type": "麦焼酎",
+    "founded": "1897",
+    "founded_era": "明治30年",
+    "address": "福岡県久留米市城島町青木島181",
+    "tel": "",
+    "url": "",
+    "area": "久留米市",
+    "desc": "久留米市城島町に蔵を構え、日本酒・味噌・みりん・甘酒と多彩な醸造品を製造。焼酎も手掛ける。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [],
+    "features": [
+      "日本酒・焼酎のほか味噌・みりん・甘酒も製造する醸造蔵"
+    ],
+    "nearest_station": "西鉄天神大牟田線 三潴駅",
+    "source": "https://welcome-kurume.com/enjoys/sakaguramap/",
+    "lat": 33.2150,
+    "lng": 130.4350,
+    "name_en": "Tsukushinohomare Shuzo"
+  },
+  {
+    "id": "katsuya",
+    "name": "勝屋酒造",
+    "company": "勝屋酒造合名会社",
+    "brand": "",
+    "type": "麦焼酎",
+    "founded": "1790",
+    "founded_era": "寛政2年",
+    "address": "福岡県宗像市赤間",
+    "tel": "",
+    "url": "",
+    "area": "宗像市",
+    "desc": "寛政2年（1790年）創業。唐津街道の赤間宿跡に蔵を構え、200年以上の酒造りの歴史。城山伏流水を使用。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [],
+    "features": [],
+    "nearest_station": "JR鹿児島本線 赤間駅",
+    "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
+    "lat": 33.8030,
+    "lng": 130.5710,
+    "name_en": "Katsuya Shuzo"
+  }
+]

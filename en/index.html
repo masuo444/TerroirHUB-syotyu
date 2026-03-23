@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Shochu & Awamori Search — Terroir HUB SHOCHU | Japan's Definitive Distillery Database</title>
+<meta name="description" content="Find your shochu and awamori, here. The definitive database of Japan's distilleries. Search by distillery, brand, ingredient, and region. AI concierge 'Kuro' helps you discover the perfect spirit.">
+<meta name="keywords" content="shochu,awamori,distillery,imo shochu,mugi shochu,kome shochu,kokuto shochu,shochu search,AI search,Kuro,Japanese spirits,Japan distillery,honkaku shochu">
+<link rel="canonical" href="https://shochu.terroirhub.com/en/">
+<link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/">
+<link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/en/">
+<meta property="og:title" content="Shochu & Awamori Search — Terroir HUB SHOCHU | AI Kuro">
+<meta property="og:description" content="Find your shochu and awamori, here. Japan's definitive distillery database with AI-powered search.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shochu.terroirhub.com/en/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Shochu & Awamori Search — Terroir HUB SHOCHU">
+<meta name="twitter:description" content="Find your shochu and awamori, here. Japan's definitive distillery database with AI concierge Kuro.">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"Terroir HUB SHOCHU","url":"https://shochu.terroirhub.com/en/","potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://shochu.terroirhub.com/en/?q={search_term_string}"},"query-input":"required name=search_term_string"},"description":"The definitive shochu and awamori search. A database of Japan's distilleries with AI concierge 'Kuro' for conversational discovery."},{"@type":"Organization","name":"FOMUS LLC","url":"https://terroirhub.com"},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Where can I search for shochu?","acceptedAnswer":{"@type":"Answer","text":"Terroir HUB SHOCHU is the definitive shochu and awamori search platform. It covers distilleries across Japan with verified official data, and AI concierge 'Kuro' supports conversational search."}},{"@type":"Question","name":"How many types of shochu are there?","acceptedAnswer":{"@type":"Answer","text":"The main categories of honkaku (authentic) shochu by base ingredient are: imo (sweet potato), mugi (barley), kome (rice), kokuto (brown sugar), soba (buckwheat), and awamori. The type of koji (black, white, or yellow) and distillation method (atmospheric or vacuum) also significantly affect the flavor."}},{"@type":"Question","name":"What is the difference between awamori and shochu?","acceptedAnswer":{"@type":"Answer","text":"Awamori is a distilled spirit from Okinawa with over 600 years of history. Legally classified as single-distilled shochu, it differs from mainland shochu by using Thai indica rice with black koji mold in an all-koji fermentation process. Awamori aged for 3 or more years is called 'kusu' (aged spirit)."}},{"@type":"Question","name":"What are the best ways to drink shochu?","acceptedAnswer":{"@type":"Answer","text":"Shochu can be enjoyed many ways: oyuwari (with hot water, the classic 6:4 ratio), mizuwari (with cold water), on the rocks, with soda, or maewari (pre-diluted and rested). Imo shochu shines with hot water as it releases its aroma. Mugi shochu is refreshing on the rocks or with soda. Awamori is best savored neat or with water to appreciate aged kusu."}},{"@type":"Question","name":"What food pairs well with shochu?","acceptedAnswer":{"@type":"Answer","text":"Imo shochu pairs beautifully with braised pork belly, satsuma-age (fried fish cake), and yakitori with tare sauce. Mugi shochu complements sashimi, tempura, and grilled fish. Kome shochu is versatile with all Japanese cuisine. Kokuto shochu goes well with cheese and shabu-shabu. Awamori is the classic match for rafute (Okinawan braised pork), goya champuru, and tofu-yo."}},{"@type":"Question","name":"Can I visit shochu distilleries?","acceptedAnswer":{"@type":"Answer","text":"Many distilleries welcome visitors, including Kirishima Shuzo Factory Garden (Miyazaki), Satsuma Shuzo 'Meiji-gura' (Kagoshima), Sanwa Shurui 'Iichiko Hita Distillery' (Oita), and Zuisen Shuzo (Okinawa). Use the distillery search on Terroir HUB SHOCHU to filter by 'tours available'."}},{"@type":"Question","name":"What is the difference between black koji and white koji?","acceptedAnswer":{"@type":"Answer","text":"Black koji (kuro-koji) produces high levels of citric acid, resulting in shochu with rich body and bold flavor. All awamori uses black koji. White koji (shiro-koji), a natural mutation of black koji, creates lighter, more fruity spirits. Most modern imo shochu uses white koji. Yellow koji (ki-koji), traditionally used for sake, produces shochu with elegant, floral aromatics."}},{"@type":"Question","name":"What is the alcohol content of shochu?","acceptedAnswer":{"@type":"Answer","text":"Undiluted honkaku shochu is typically 36-44% ABV, but most is diluted to 25% before bottling. Some products are sold at 20%. Awamori comes in a wider range — 25%, 30%, and 43% — with traditionally aged kusu often bottled at 43%."}}]}]}</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;overflow-x:hidden;}
+body{background:#fff;color:#222;font-family:'Inter','Noto Sans JP',sans-serif;font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased;overflow-x:hidden;width:100%;}
+
+/* ═══ NAV ═══ */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.92);backdrop-filter:blur(20px) saturate(1.2);border-bottom:1px solid rgba(0,0,0,0.04);}
+.nav-top{display:flex;align-items:center;height:54px;padding:0 28px;max-width:1280px;margin:0 auto;}
+.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;letter-spacing:0.04em;white-space:nowrap;flex-shrink:0;}
+.nav-links{display:flex;align-items:center;gap:6px;margin-left:32px;}
+.nav-links a{font-size:14px;color:#444;text-decoration:none;padding:6px 14px;border-radius:6px;transition:all 0.2s;white-space:nowrap;font-weight:500;}
+.nav-links a:hover{color:#1a1a1a;background:rgba(0,0,0,0.04);}
+.nav-search-link{font-size:14px !important;color:#8B5E3C !important;font-weight:600 !important;border:none !important;padding:7px 16px !important;border-radius:20px !important;background:rgba(139,94,60,0.08) !important;}
+.nav-search-link:hover{background:rgba(139,94,60,0.15) !important;color:#7A5030 !important;}
+.nav-auth{display:flex;align-items:center;gap:6px;margin-left:auto;flex-shrink:0;}
+.nav-auth button{font-size:12px;padding:6px 14px;border-radius:20px;cursor:pointer;font-family:'Inter',sans-serif;transition:all 0.2s;}
+.nav-login-btn{background:none;border:1px solid rgba(0,0,0,0.1);color:#666;}
+.nav-login-btn:hover{border-color:#8B5E3C;color:#8B5E3C;}
+.nav-signup-btn{background:#1a1a1a;border:none;color:#fff;font-weight:500;}
+.nav-signup-btn:hover{background:#333;}
+.nav-hamburger{display:none;background:none;border:none;font-size:22px;cursor:pointer;padding:4px 8px;color:#333;}
+@media(max-width:700px){
+.nav-links{display:none;}.nav-auth{display:none;}
+.nav-hamburger{display:block;margin-left:auto;}
+}
+.mobile-menu{position:fixed;top:0;right:0;bottom:0;width:280px;z-index:999;background:#fff;box-shadow:-8px 0 40px rgba(0,0,0,0.1);flex-direction:column;padding:0;transform:translateX(100%);transition:transform 0.35s cubic-bezier(0.16,1,0.3,1);display:flex;}
+.mobile-menu.open{transform:translateX(0);}
+.mm-overlay{display:none;position:fixed;inset:0;z-index:998;background:rgba(0,0,0,0.3);backdrop-filter:blur(4px);}
+.mm-overlay.open{display:block;}
+.mm-header{display:flex;align-items:center;justify-content:space-between;padding:16px 20px;border-bottom:1px solid #f0f0f0;}
+.mm-header-logo{font-family:'Shippori Mincho',serif;font-size:16px;font-weight:600;color:#333;}
+.mm-header-logo span{color:#8B5E3C;}
+.mobile-menu .mm-close{background:none;border:none;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:18px;color:#999;cursor:pointer;transition:background 0.15s;}
+.mobile-menu .mm-close:hover{background:#f5f5f5;}
+.mm-nav{flex:1;overflow-y:auto;padding:12px 0;}
+.mobile-menu a{display:flex;align-items:center;gap:10px;font-size:14px;color:#333;text-decoration:none;padding:12px 24px;font-family:'Inter',sans-serif;transition:background 0.15s;letter-spacing:0;line-height:1.4;}
+.mobile-menu a:hover,.mobile-menu a:active{background:#fafaf8;color:#8B5E3C;}
+.mobile-menu a .mm-icon{width:20px;text-align:center;font-size:16px;flex-shrink:0;}
+.mm-divider{height:1px;background:#f0f0f0;margin:8px 20px;}
+.mm-footer{padding:16px 20px;border-top:1px solid #f0f0f0;display:flex;flex-direction:column;gap:8px;}
+.mobile-menu .mm-cta{background:#2A2420;color:#fff;border:none;border-radius:10px;font-weight:500;font-size:14px;padding:12px;cursor:pointer;font-family:'Inter',sans-serif;text-align:center;transition:opacity 0.15s;}
+.mobile-menu .mm-cta:hover{opacity:0.9;}
+.mm-login-btn{background:none;border:1px solid #eee;border-radius:10px;color:#555;font-size:13px;padding:10px;cursor:pointer;font-family:'Inter',sans-serif;text-align:center;transition:border-color 0.15s;}
+.mm-login-btn:hover{border-color:#8B5E3C;color:#8B5E3C;}
+
+/* ═══ HERO ═══ */
+.hero{margin-top:56px;display:grid;grid-template-columns:1fr 1fr;min-height:calc(100vh - 56px);align-items:stretch;}
+@media(max-width:900px){.hero{grid-template-columns:1fr;margin-top:56px;min-height:auto;}}
+.hero-left{padding:64px 48px 64px 64px;display:flex;flex-direction:column;justify-content:center;}
+@media(max-width:900px){.hero-left{padding:48px 24px 32px;text-align:center;}}
+.hero-catch{font-size:15px;color:#777;letter-spacing:0.18em;margin-bottom:28px;}
+.hero-brand{font-family:'Shippori Mincho',serif;font-size:clamp(48px,8vw,88px);font-weight:700;color:#1a1a1a;line-height:1.05;letter-spacing:-0.03em;margin-bottom:8px;}
+.hero-brand em{font-style:normal;color:#8B5E3C;}
+.hero-sub{font-family:'Inter',serif;font-size:15px;font-weight:400;color:#777;letter-spacing:0.04em;margin-bottom:48px;}
+.hero-search{max-width:420px;position:relative;}
+@media(max-width:900px){.hero-search{max-width:100%;margin:0 auto;}}
+.hero-search-box{display:flex;border:1.5px solid #e0ddd8;border-radius:8px;overflow:hidden;background:#fafaf8;transition:border-color 0.2s;}
+.hero-search-box:focus-within{border-color:#8B5E3C;}
+.hero-search-box input{flex:1;padding:13px 16px;font-size:14px;border:none;outline:none;background:transparent;color:#333;font-family:'Inter',sans-serif;}
+.hero-search-box input::placeholder{color:#ccc;}
+.hero-search-box button{background:none;border:none;color:#8B5E3C;padding:13px 16px;font-size:17px;cursor:pointer;}
+.hero-kuro{margin-top:16px;font-size:14px;}
+.hero-kuro a{color:#8B5E3C;text-decoration:none;cursor:pointer;transition:opacity 0.15s;}
+.hero-kuro a:hover{opacity:0.7;}
+.hero-right{min-height:480px;position:relative;overflow:hidden;background:linear-gradient(135deg,#F5EDE5 0%,#E8DDD0 50%,#D5C8B8 100%);}
+@media(max-width:900px){.hero-right{min-height:300px;}}
+.hero-placeholder{text-align:center;padding:40px;max-width:300px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+
+/* ═══ SECTION COMMON ═══ */
+.sec{padding:100px 40px;max-width:1100px;margin:0 auto;}
+@media(max-width:640px){.sec{padding:48px 16px;}}
+.sec-divider{border:none;border-top:1px solid #eee;max-width:1100px;margin:0 auto;}
+.sec-tag{font-size:13px;color:#8B5E3C;letter-spacing:0.1em;font-weight:600;margin-bottom:6px;}
+.sec-h{font-family:'Shippori Mincho',serif;font-size:clamp(26px,4vw,38px);font-weight:700;color:#333;margin-bottom:8px;line-height:1.3;}
+.sec-sub{font-size:15px;color:#666;line-height:1.9;margin-bottom:48px;max-width:560px;}
+.sec-center{text-align:center;}.sec-center .sec-sub{margin-left:auto;margin-right:auto;}
+
+/* ═══ HOW TO ENJOY ═══ */
+.how{background:#fafaf8;}
+.how-inner{padding:100px 40px;max-width:1100px;margin:0 auto;}
+@media(max-width:640px){.how-inner{padding:48px 16px;}}
+.how-head{margin-bottom:48px;}
+.how-head h2{font-family:'Shippori Mincho',serif;font-size:clamp(28px,5vw,40px);font-weight:700;color:#333;margin-bottom:6px;}
+.how-head p{font-size:14px;color:#8B5E3C;font-weight:600;letter-spacing:0.04em;}
+.how-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;}
+@media(max-width:900px){.how-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:500px){.how-grid{grid-template-columns:1fr;max-width:320px;margin:0 auto;}}
+.hw{position:relative;}
+.hw-num{font-family:'Inter',sans-serif;font-size:22px;font-weight:300;color:#8B5E3C;margin-bottom:10px;}
+.hw-img{aspect-ratio:1/1;background:#F5EDE5;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:18px;transition:transform 0.3s;overflow:hidden;}
+.hw:hover .hw-img{transform:scale(1.03);}
+.hw-img-ph{padding:16px;font-size:11px;color:#bbb;line-height:1.7;text-align:center;}
+.hw-title{font-family:'Shippori Mincho',serif;font-size:clamp(20px,3vw,24px);font-weight:700;color:#333;margin-bottom:6px;}
+.hw-dots{display:flex;gap:3px;margin-bottom:10px;}
+.hw-dots i{width:5px;height:5px;border-radius:50%;background:#8B5E3C;display:block;}
+.hw-body{font-size:15px;color:#444;line-height:1.9;}
+
+/* ═══ KURO AI ═══ */
+.kuro-sec{background:#FAF8F5;padding:60px 40px;max-width:none;margin:0;}
+.kuro-sec .kuro-grid{max-width:1100px;margin:0 auto;}
+@media(max-width:640px){.kuro-sec{padding:32px 16px;}}
+.kuro-grid{display:grid;grid-template-columns:0.7fr 1fr;gap:32px;align-items:center;}
+@media(max-width:900px){.kuro-grid{grid-template-columns:1fr;gap:24px;}}
+.kuro-char{display:flex;align-items:center;justify-content:center;}
+.kuro-char-placeholder{width:100%;max-width:220px;aspect-ratio:1/1;margin:0 auto;background:#F0E8E0;border-radius:20px;display:flex;align-items:center;justify-content:center;text-align:center;padding:32px;font-family:'Shippori Mincho',serif;font-size:72px;color:#8B5E3C;opacity:0.3;}
+.kuro-content{}
+.kuro-lead{font-size:15px;color:#555;line-height:1.9;margin-bottom:16px;}
+.kuro-features{margin-top:12px;display:flex;flex-direction:column;gap:6px;}
+.kuro-feat{display:flex;align-items:flex-start;gap:6px;font-size:14px;color:#444;line-height:1.6;}
+.kuro-feat .ck{color:#8B5E3C;font-weight:700;font-size:14px;margin-top:2px;flex-shrink:0;}
+.kuro-ask-examples{margin-top:16px;margin-bottom:20px;}
+.kae-label{font-size:12px;color:#aaa;margin-bottom:10px;font-weight:500;}
+.kae-grid{display:grid;grid-template-columns:1fr 1fr;gap:6px;}
+@media(max-width:500px){.kae-grid{grid-template-columns:1fr;}}
+.kae-btn{text-align:left;font-size:12px;color:#666;padding:8px 12px;background:#fff;border:1px solid #eee;border-radius:8px;cursor:pointer;transition:all 0.15s;font-family:'Inter',sans-serif;}
+.kae-btn:hover{border-color:#8B5E3C;color:#8B5E3C;background:#F5EDE5;transform:translateX(3px);}
+.kuro-cta-btn{background:#2A2420;border:none;color:#fff;font-size:14px;font-weight:500;padding:12px 28px;border-radius:10px;cursor:pointer;transition:all 0.2s;font-family:'Inter',sans-serif;box-shadow:0 4px 14px rgba(42,36,32,0.15);}
+.kuro-cta-btn:hover{background:#4A4038;transform:translateY(-1px);box-shadow:0 6px 20px rgba(42,36,32,0.2);}
+
+/* ═══ REGIONS ═══ */
+.regions-sec{background:#fafaf8;}
+.region-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+@media(max-width:900px){.region-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:500px){.region-grid{grid-template-columns:repeat(2,1fr);gap:10px;}}
+.rc{background:#fff;border:1px solid #eee;border-radius:12px;padding:18px;word-break:break-word;cursor:pointer;transition:all 0.2s;text-decoration:none;display:block;}
+@media(max-width:500px){.rc{padding:14px;}.rc-count{font-size:22px;}}
+.rc:hover{border-color:#8B5E3C;box-shadow:0 4px 16px rgba(0,0,0,0.04);transform:translateY(-2px);}
+.rc-name{font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;color:#333;margin-bottom:4px;}
+.rc-count{font-family:'Inter',sans-serif;font-size:26px;font-weight:300;color:#8B5E3C;margin-bottom:6px;}
+.rc-count span{font-size:13px;color:#888;}
+.rc-prefs{font-size:12px;color:#888;line-height:1.7;}
+.rc-name-en{font-size:11px;color:#999;font-weight:400;margin-left:4px;}
+.pref-toggle{text-align:center;margin-top:24px;}
+.pref-toggle button{background:none;border:1px solid #ddd;color:#999;font-size:12px;padding:9px 22px;border-radius:8px;cursor:pointer;transition:all 0.15s;font-family:'Inter',sans-serif;}
+.pref-toggle button:hover{border-color:#8B5E3C;color:#8B5E3C;}
+.pref-grid{display:none;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-top:16px;}
+.pref-grid.open{display:grid;}
+.pc{display:flex;align-items:center;justify-content:space-between;padding:10px 14px;background:#fff;border:1px solid #eee;border-radius:6px;cursor:pointer;transition:all 0.12s;text-decoration:none;}
+.pc:hover{border-color:#8B5E3C;background:#F5EDE5;}
+.pc-name{font-size:13px;font-weight:500;color:#333;}
+.pc-count{font-size:11px;color:#8B5E3C;font-weight:500;}
+
+/* ═══ TYPES ═══ */
+.types-sec{background:#fff;}
+.types-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+@media(max-width:768px){.types-grid{grid-template-columns:repeat(2,1fr);}}
+@media(max-width:500px){.types-grid{grid-template-columns:1fr;}}
+.type-card{background:#fafaf8;border:1px solid #eee;border-radius:12px;padding:24px 20px;transition:all 0.2s;cursor:pointer;text-decoration:none;display:block;}
+.type-card:hover{border-color:#8B5E3C;box-shadow:0 4px 16px rgba(0,0,0,0.04);transform:translateY(-2px);}
+.type-icon{font-size:28px;margin-bottom:12px;}
+.type-name{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:600;color:#333;margin-bottom:4px;}
+.type-name-en{font-size:11px;color:#8B5E3C;letter-spacing:0.08em;margin-bottom:8px;}
+.type-desc{font-size:13px;color:#888;line-height:1.7;}
+
+/* ═══ ABOUT ═══ */
+.about-sec{background:#fafaf8;}
+.about-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+@media(max-width:640px){.about-grid{grid-template-columns:1fr;gap:12px;}}
+.ab{text-align:center;padding:28px 20px;background:#fff;border:1px solid #eee;border-radius:12px;}
+.ab-icon{font-size:24px;margin-bottom:12px;}
+.ab-title{font-family:'Shippori Mincho',serif;font-size:15px;font-weight:600;color:#333;margin-bottom:6px;}
+.ab-body{font-size:12px;color:#888;line-height:1.8;}
+
+/* ═══ FOOTER ═══ */
+.footer{background:#1A1814;padding:56px 24px 40px;color:rgba(255,255,255,0.5);font-size:13px;text-align:center;}
+.footer-brand{margin-bottom:32px;}
+.footer-tagline{font-size:13px;color:rgba(255,255,255,0.6);letter-spacing:0.15em;margin-bottom:18px;}
+.footer-logo{font-family:'Shippori Mincho',serif;font-size:28px;color:#fff;font-weight:600;letter-spacing:0.08em;}
+.footer-logo .accent{color:#8B5E3C;}
+.footer-nav{max-width:960px;margin:0 auto 28px;padding:28px 0 0;border-top:1px solid rgba(255,255,255,0.15);display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:0;}
+.footer-nav a{color:rgba(255,255,255,0.7);text-decoration:none;font-size:13px;padding:0 20px;border-right:1px solid rgba(255,255,255,0.25);line-height:1;transition:color 0.2s;}
+.footer-nav a:last-child{border-right:none;}
+.footer-nav a:hover{color:#fff;}
+.footer-disclaimer{font-size:12px;color:rgba(255,255,255,0.45);margin-bottom:20px;line-height:1.8;}
+.footer-copy{font-size:11px;color:rgba(255,255,255,0.3);letter-spacing:0.08em;}
+.footer-sister{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);}
+.footer-sister a{color:rgba(255,255,255,0.5);text-decoration:none;font-size:12px;transition:color 0.2s;margin:0 12px;}
+.footer-sister a:hover{color:#fff;}
+
+/* ═══ FADE IN ═══ */
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity 0.7s cubic-bezier(0.16,1,0.3,1),transform 0.7s cubic-bezier(0.16,1,0.3,1);}
+.fade-in.visible{opacity:1;transform:translateY(0);}
+
+/* ═══ MOBILE ═══ */
+@media(max-width:640px){
+  .nav-top{height:48px;padding:0 16px;}
+  .nav-logo{font-size:17px;}
+  .hero{margin-top:48px;grid-template-columns:1fr;min-height:auto;}
+  .hero-left{padding:32px 20px 28px;text-align:center;order:2;}
+  .hero-right{min-height:220px;order:1;}
+  .hero-catch{font-size:12px;margin-bottom:16px;}
+  .hero-brand{font-size:42px;margin-bottom:4px;}
+  .hero-sub{font-size:12px;margin-bottom:28px;}
+  .sec{padding:48px 20px;}
+  .sec-h{font-size:22px;margin-bottom:6px;}
+  .sec-sub{font-size:13px;margin-bottom:32px;}
+  .footer{padding:40px 16px 32px;}
+  .footer-logo{font-size:22px;}
+  .footer-nav{flex-direction:column;gap:0;padding-top:20px;}
+  .footer-nav a{padding:10px 0;border-right:none;border-bottom:1px solid rgba(255,255,255,0.08);width:100%;}
+  .footer-nav a:last-child{border-bottom:none;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav">
+  <div class="nav-top">
+    <a class="nav-logo" href="/en/">Terroir HUB <span style="color:#8B5E3C;letter-spacing:0.08em;margin-left:2px;">SHOCHU</span></a>
+    <div class="nav-links">
+      <a href="/shochu/en/search/" class="nav-search-link">Distillery Search</a>
+      <a href="#regions">Regions</a>
+      <a href="#types">Types</a>
+      <a href="/shochu/en/guide/">Shochu Guide</a>
+      <a href="#kuro">AI Kuro</a>
+    </div>
+    <div class="nav-auth">
+      <button class="nav-login-btn">Log In</button>
+      <button class="nav-signup-btn">Sign Up Free</button>
+    </div>
+    <button class="nav-hamburger" onclick="openMM()">&#9776;</button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mm-overlay" id="mm-ov" onclick="closeMM()"></div>
+<div class="mobile-menu" id="mm">
+  <div class="mm-header">
+    <div class="mm-header-logo">Terroir HUB <span>SHOCHU</span></div>
+    <button class="mm-close" onclick="closeMM()">&#10005;</button>
+  </div>
+  <div class="mm-nav">
+    <a href="/shochu/en/search/" onclick="closeMM()"><span class="mm-icon">&#128269;</span>Distillery Search</a>
+    <a href="#regions" onclick="closeMM()"><span class="mm-icon">&#128510;</span>Browse by Region</a>
+    <a href="#types" onclick="closeMM()"><span class="mm-icon">&#127994;</span>Types of Shochu</a>
+    <a href="/shochu/en/guide/" onclick="closeMM()"><span class="mm-icon">&#128214;</span>Shochu Guide</a>
+    <a href="/shochu/en/guide/awamori.html" onclick="closeMM()"><span class="mm-icon">&#127802;</span>What Is Awamori?</a>
+    <a href="#kuro" onclick="closeMM()"><span class="mm-icon">&#127994;</span>AI Kuro</a>
+    <div class="mm-divider"></div>
+    <a href="https://sake.terroirhub.com/" onclick="closeMM()"><span class="mm-icon">&#127862;</span>Terroir HUB SAKE</a>
+    <a href="/" onclick="closeMM()"><span class="mm-icon">&#127471;&#127477;</span>Japanese Version</a>
+  </div>
+  <div class="mm-footer">
+    <button class="mm-cta">Sign Up Free</button>
+    <button class="mm-login-btn">Log In</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <p class="hero-catch">Find your shochu, here.</p>
+    <h1 class="hero-brand">Terroir HUB<br><em>SHOCHU</em></h1>
+    <p class="hero-sub">Search 389 distilleries by name, brand, ingredient, and region</p>
+    <div class="hero-search">
+      <div class="hero-search-box">
+        <input type="search" placeholder="e.g. Kuro Kirishima, Iichiko, Kagoshima, Awamori" id="hero-search" autocomplete="off">
+        <button onclick="heroSearch()">&rarr;</button>
+      </div>
+      <div class="hero-kuro" style="display:flex;gap:12px;align-items:center;margin-top:8px;">
+        <a onclick="openPanel()">&#127994; Ask Kuro</a>
+        <a href="/shochu/en/search/" style="font-size:13px;color:#888;">Advanced Search &rarr;</a>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-placeholder">
+      <div style="font-size:10px;letter-spacing:0.25em;color:#bbb;margin-bottom:14px;text-transform:uppercase;">HERO IMAGE</div>
+      <div style="font-size:14px;color:#777;line-height:1.9;">Shochu &amp; cuisine imagery<br>To be replaced with photography</div>
+    </div>
+  </div>
+</section>
+
+<hr class="sec-divider">
+
+<!-- REGIONS -->
+<section class="sec regions-sec" id="regions">
+  <div class="sec-tag">REGIONS</div>
+  <h2 class="sec-h">Browse by Region</h2>
+  <p class="sec-sub">From the heartland of Kyushu to the islands of Okinawa &mdash; explore distilleries across all of Japan</p>
+
+  <div class="region-grid">
+    <a class="rc" href="/shochu/region/kyushu.html">
+      <div class="rc-name">Kyushu <span class="rc-name-en">&#20061;&#24030;</span></div>
+      <div class="rc-count">340+ <span>distilleries</span></div>
+      <div class="rc-prefs">Kagoshima 120 / Fukuoka 50 / Kumamoto 49 / Miyazaki 45 / Oita 36 / Nagasaki 26 / Saga 10</div>
+    </a>
+    <a class="rc" href="/shochu/okinawa/">
+      <div class="rc-name">Okinawa <span class="rc-name-en">&#27798;&#32260;</span></div>
+      <div class="rc-count">48 <span>distilleries</span></div>
+      <div class="rc-prefs">Naha / Nago / Miyako-jima / Ishigaki-jima / Kume-jima</div>
+    </a>
+    <a class="rc" href="/shochu/region/chubu.html">
+      <div class="rc-name">Chubu <span class="rc-name-en">&#20013;&#37096;</span></div>
+      <div class="rc-count">100+ <span>distilleries</span></div>
+      <div class="rc-prefs">Nagano / Niigata / Shizuoka / Aichi / more</div>
+    </a>
+    <a class="rc" href="/shochu/region/kanto.html">
+      <div class="rc-name">Kanto <span class="rc-name-en">&#38306;&#26481;</span></div>
+      <div class="rc-count">80+ <span>distilleries</span></div>
+      <div class="rc-prefs">Tokyo / Saitama / Chiba / more</div>
+    </a>
+    <a class="rc" href="/shochu/region/kinki.html">
+      <div class="rc-name">Kinki <span class="rc-name-en">&#36817;&#30079;</span></div>
+      <div class="rc-count">90+ <span>distilleries</span></div>
+      <div class="rc-prefs">Kyoto / Osaka / Hyogo / Nara / Wakayama</div>
+    </a>
+    <a class="rc" href="/shochu/region/chugoku.html">
+      <div class="rc-name">Chugoku <span class="rc-name-en">&#20013;&#22269;</span></div>
+      <div class="rc-count">60+ <span>distilleries</span></div>
+      <div class="rc-prefs">Hiroshima / Okayama / Yamaguchi / Tottori / Shimane</div>
+    </a>
+    <a class="rc" href="/shochu/region/shikoku.html">
+      <div class="rc-name">Shikoku <span class="rc-name-en">&#22235;&#22269;</span></div>
+      <div class="rc-count">40+ <span>distilleries</span></div>
+      <div class="rc-prefs">Ehime / Kochi / Kagawa / Tokushima</div>
+    </a>
+    <a class="rc" href="/shochu/region/tohoku.html">
+      <div class="rc-name">Hokkaido &amp; Tohoku <span class="rc-name-en">&#21271;&#28023;&#36947;&#12539;&#26481;&#21271;</span></div>
+      <div class="rc-count">100+ <span>distilleries</span></div>
+      <div class="rc-prefs">Hokkaido / Fukushima / Miyagi / Iwate / more</div>
+    </a>
+  </div>
+
+  <div class="pref-toggle" style="margin-top:24px;">
+    <button onclick="document.querySelector('.pref-grid').classList.toggle('open');this.textContent=this.textContent==='Show All 47 Prefectures'?'Hide':'Show All 47 Prefectures'">Show All 47 Prefectures</button>
+  </div>
+  <div class="pref-grid" id="pref-grid"></div>
+</section>
+
+<hr class="sec-divider">
+
+<!-- TYPES -->
+<section class="sec types-sec" id="types">
+  <div class="sec-tag">TYPES</div>
+  <h2 class="sec-h">Types of Shochu &amp; Awamori</h2>
+  <p class="sec-sub">A world of diverse flavors shaped by ingredients and koji</p>
+
+  <div class="types-grid">
+    <a class="type-card" href="/shochu/en/guide/types.html#imo">
+      <div class="type-icon">&#127840;</div>
+      <div class="type-name">Imo (Sweet Potato) Shochu</div>
+      <div class="type-name-en">&#33419;&#28988;&#37198;</div>
+      <div class="type-desc">The signature spirit of Kagoshima and Miyazaki. Varieties like Kogane Sengan and purple sweet potato each bring distinct character. Best enjoyed with hot water to unlock the aroma.</div>
+    </a>
+    <a class="type-card" href="/shochu/en/guide/types.html#mugi">
+      <div class="type-icon">&#127806;</div>
+      <div class="type-name">Mugi (Barley) Shochu</div>
+      <div class="type-name-en">&#40614;&#28988;&#37198;</div>
+      <div class="type-desc">Oita and Nagasaki lead production. Clean, light, and approachable. Excellent on the rocks or with soda.</div>
+    </a>
+    <a class="type-card" href="/shochu/en/guide/types.html#kome">
+      <div class="type-icon">&#127834;</div>
+      <div class="type-name">Kome (Rice) Shochu</div>
+      <div class="type-name-en">&#31859;&#28988;&#37198;</div>
+      <div class="type-desc">Kumamoto's Kuma shochu is the benchmark. Elegant sweetness and ginjo-like aromatics that echo the refinement of sake.</div>
+    </a>
+    <a class="type-card" href="/shochu/en/guide/types.html#kokuto">
+      <div class="type-icon">&#129003;</div>
+      <div class="type-name">Kokuto (Brown Sugar) Shochu</div>
+      <div class="type-name-en">&#40658;&#31958;&#28988;&#37198;</div>
+      <div class="type-desc">Exclusively produced on the Amami Islands. Sweet, aromatic nose yet zero sugar in the final spirit. Try it on the rocks.</div>
+    </a>
+    <a class="type-card" href="/shochu/en/guide/awamori.html">
+      <div class="type-icon">&#127802;</div>
+      <div class="type-name">Awamori</div>
+      <div class="type-name-en">&#27873;&#30427;</div>
+      <div class="type-desc">Okinawa's 600-year-old distilling tradition. Made entirely with black koji and Thai indica rice. Kusu (aged 3+ years) is transcendent.</div>
+    </a>
+    <a class="type-card" href="/shochu/en/guide/types.html#soba">
+      <div class="type-icon">&#129379;</div>
+      <div class="type-name">Soba (Buckwheat) &amp; More</div>
+      <div class="type-name-en">&#12381;&#12400;&#12539;&#12381;&#12398;&#20182;</div>
+      <div class="type-desc">Buckwheat shochu, kasutori (sake lees) shochu, chestnut shochu, and beyond. Regional specialties that showcase Japan's distilling diversity.</div>
+    </a>
+  </div>
+</section>
+
+<hr class="sec-divider">
+
+<!-- HOW TO ENJOY -->
+<section class="how" id="how">
+  <div class="how-inner">
+    <div class="how-head">
+      <p>HOW TO ENJOY</p>
+      <h2>Discover Shochu &amp; Awamori</h2>
+    </div>
+    <div class="how-grid">
+      <div class="hw fade-in">
+        <div class="hw-num">01</div>
+        <div class="hw-img"><div class="hw-img-ph">Distillery landscape<br>Photo coming soon</div></div>
+        <h3 class="hw-title">Find a Distillery</h3>
+        <div class="hw-dots"><i></i><i></i><i></i></div>
+        <p class="hw-body">Search distilleries across Japan by region, ingredient, and koji type. Only verified, official information.</p>
+      </div>
+      <div class="hw fade-in">
+        <div class="hw-num">02</div>
+        <div class="hw-img"><div class="hw-img-ph">Chat with AI Kuro<br>Screenshot coming</div></div>
+        <h3 class="hw-title">Ask Kuro</h3>
+        <div class="hw-dots"><i></i><i></i><i></i></div>
+        <p class="hw-body">AI concierge Kuro recommends shochu based on your taste. Serving tips, food pairings, and more.</p>
+      </div>
+      <div class="hw fade-in">
+        <div class="hw-num">03</div>
+        <div class="hw-img"><div class="hw-img-ph">Oyuwari preparation<br>Photo coming soon</div></div>
+        <h3 class="hw-title">Learn How to Drink</h3>
+        <div class="hw-dots"><i></i><i></i><i></i></div>
+        <p class="hw-body">Oyuwari, on the rocks, mizuwari, maewari &mdash; the serving style transforms the experience.</p>
+      </div>
+      <div class="hw fade-in">
+        <div class="hw-num">04</div>
+        <div class="hw-img"><div class="hw-img-ph">Distillery tour<br>Photo coming soon</div></div>
+        <h3 class="hw-title">Visit a Distillery</h3>
+        <div class="hw-dots"><i></i><i></i><i></i></div>
+        <p class="hw-body">Find distilleries open for tours. From the sacred grounds of Kagoshima to the awamori homeland of Okinawa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="sec-divider">
+
+<!-- AI KURO -->
+<section class="kuro-sec" id="kuro">
+  <div class="kuro-grid">
+    <div class="kuro-char">
+      <div class="kuro-char-placeholder">&#40658;</div>
+    </div>
+    <div class="kuro-content">
+      <div class="sec-tag">AI CONCIERGE</div>
+      <h2 class="sec-h">AI Concierge "Kuro"</h2>
+      <p class="kuro-lead">Trained on data from every distillery in Japan, Kuro helps you navigate the world of shochu and awamori.<br>From flavor preferences to food pairings and distillery tour planning &mdash; just ask.</p>
+      <div class="kuro-features">
+        <div class="kuro-feat"><span class="ck">&#10003;</span>References only verified distillery data (no hallucinations)</div>
+        <div class="kuro-feat"><span class="ck">&#10003;</span>Explains the differences between imo, mugi, kome, kokuto &amp; awamori</div>
+        <div class="kuro-feat"><span class="ck">&#10003;</span>Suggests food pairings, serving styles &amp; temperatures</div>
+        <div class="kuro-feat"><span class="ck">&#10003;</span>Available in English, Japanese &amp; French</div>
+      </div>
+      <div class="kuro-ask-examples">
+        <div class="kae-label">Try asking Kuro</div>
+        <div class="kae-grid">
+          <button class="kae-btn" onclick="openPanel()">Best imo shochu for a beginner?</button>
+          <button class="kae-btn" onclick="openPanel()">Which distilleries in Kagoshima offer tours?</button>
+          <button class="kae-btn" onclick="openPanel()">What is kusu (aged awamori)?</button>
+          <button class="kae-btn" onclick="openPanel()">What food pairs with shochu?</button>
+        </div>
+      </div>
+      <button class="kuro-cta-btn" onclick="openPanel()">&#127994; Ask Kuro (Free)</button>
+    </div>
+  </div>
+</section>
+
+<hr class="sec-divider">
+
+<!-- ABOUT -->
+<section class="sec about-sec sec-center" id="why">
+  <div class="sec-tag">WHY TERROIR HUB</div>
+  <h2 class="sec-h">Why Terroir HUB?</h2>
+  <p class="sec-sub">Accurate information about shochu and awamori, delivered to the world</p>
+  <div class="about-grid">
+    <div class="ab fade-in">
+      <div class="ab-icon">&#128269;</div>
+      <div class="ab-title">Verified Information Only</div>
+      <div class="ab-body">We use only official distillery data and label information. No guesswork, no user reviews, no AI-generated text.</div>
+    </div>
+    <div class="ab fade-in">
+      <div class="ab-icon">&#127758;</div>
+      <div class="ab-title">Multilingual</div>
+      <div class="ab-body">Available in English, Japanese, and French. The global gateway to Japan's shochu and awamori.</div>
+    </div>
+    <div class="ab fade-in">
+      <div class="ab-icon">&#129302;</div>
+      <div class="ab-title">AI + Structured Data</div>
+      <div class="ab-body">AI Kuro works with our distillery database to surface insights that traditional search cannot.</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-brand">
+    <div class="footer-tagline">Find your shochu, here.</div>
+    <div class="footer-logo">Terroir HUB <span class="accent">SHOCHU</span></div>
+  </div>
+  <nav class="footer-nav">
+    <a href="/en/">Home</a>
+    <a href="/shochu/en/search/">Distillery Search</a>
+    <a href="/shochu/en/guide/">Shochu Guide</a>
+    <a href="/shochu/en/guide/awamori.html">What Is Awamori?</a>
+    <a href="/privacy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+  </nav>
+  <p class="footer-disclaimer">Information on this site is based on official data from each distillery. Please visit each distillery's official website for the latest details.</p>
+  <p class="footer-copy">&copy; 2026 FOMUS LLC &mdash; Terroir HUB SHOCHU</p>
+  <div class="footer-sister">
+    <a href="/">&#127471;&#127477; Japanese Version</a>
+    <a href="https://sake.terroirhub.com/">&#127862; Terroir HUB SAKE</a>
+  </div>
+</footer>
+
+<script>
+// Mobile menu
+function openMM(){document.getElementById('mm').classList.add('open');document.getElementById('mm-ov').classList.add('open');}
+function closeMM(){document.getElementById('mm').classList.remove('open');document.getElementById('mm-ov').classList.remove('open');}
+
+// Hero search
+function heroSearch(){
+  const q=document.getElementById('hero-search').value.trim();
+  if(q) location.href='/shochu/en/search/?q='+encodeURIComponent(q);
+}
+document.getElementById('hero-search').addEventListener('keydown',function(e){if(e.key==='Enter')heroSearch();});
+
+// Kuro panel placeholder
+function openPanel(){alert('AI Kuro is coming soon.');}
+
+// Prefecture grid (Japanese name + romanized English)
+const PREFS=[
+  {s:'kagoshima',n:'Kagoshima',j:'\u9E7F\u5150\u5CF6',c:0},{s:'miyazaki',n:'Miyazaki',j:'\u5BAE\u5D0E',c:0},{s:'oita',n:'Oita',j:'\u5927\u5206',c:0},
+  {s:'kumamoto',n:'Kumamoto',j:'\u718A\u672C',c:0},{s:'okinawa',n:'Okinawa',j:'\u6C96\u7E04',c:0},{s:'nagasaki',n:'Nagasaki',j:'\u9577\u5D0E',c:0},
+  {s:'saga',n:'Saga',j:'\u4F50\u8CC0',c:0},{s:'fukuoka',n:'Fukuoka',j:'\u798F\u5CA1',c:0},{s:'hokkaido',n:'Hokkaido',j:'\u5317\u6D77\u9053',c:0},
+  {s:'aomori',n:'Aomori',j:'\u9752\u68EE',c:0},{s:'iwate',n:'Iwate',j:'\u5CA9\u624B',c:0},{s:'miyagi',n:'Miyagi',j:'\u5BAE\u57CE',c:0},
+  {s:'akita',n:'Akita',j:'\u79CB\u7530',c:0},{s:'yamagata',n:'Yamagata',j:'\u5C71\u5F62',c:0},{s:'fukushima',n:'Fukushima',j:'\u798F\u5CF6',c:0},
+  {s:'ibaraki',n:'Ibaraki',j:'\u8328\u57CE',c:0},{s:'tochigi',n:'Tochigi',j:'\u6803\u6728',c:0},{s:'gunma',n:'Gunma',j:'\u7FA4\u99AC',c:0},
+  {s:'saitama',n:'Saitama',j:'\u57FC\u7389',c:0},{s:'chiba',n:'Chiba',j:'\u5343\u8449',c:0},{s:'tokyo',n:'Tokyo',j:'\u6771\u4EAC',c:0},
+  {s:'kanagawa',n:'Kanagawa',j:'\u795E\u5948\u5DDD',c:0},{s:'niigata',n:'Niigata',j:'\u65B0\u6F5F',c:0},{s:'toyama',n:'Toyama',j:'\u5BCC\u5C71',c:0},
+  {s:'ishikawa',n:'Ishikawa',j:'\u77F3\u5DDD',c:0},{s:'fukui',n:'Fukui',j:'\u798F\u4E95',c:0},{s:'yamanashi',n:'Yamanashi',j:'\u5C71\u68A8',c:0},
+  {s:'nagano',n:'Nagano',j:'\u9577\u91CE',c:0},{s:'gifu',n:'Gifu',j:'\u5C90\u961C',c:0},{s:'shizuoka',n:'Shizuoka',j:'\u9759\u5CA1',c:0},
+  {s:'aichi',n:'Aichi',j:'\u611B\u77E5',c:0},{s:'mie',n:'Mie',j:'\u4E09\u91CD',c:0},{s:'shiga',n:'Shiga',j:'\u6ECB\u8CC0',c:0},
+  {s:'kyoto',n:'Kyoto',j:'\u4EAC\u90FD',c:0},{s:'osaka',n:'Osaka',j:'\u5927\u962A',c:0},{s:'hyogo',n:'Hyogo',j:'\u5175\u5EAB',c:0},
+  {s:'nara',n:'Nara',j:'\u5948\u826F',c:0},{s:'wakayama',n:'Wakayama',j:'\u548C\u6B4C\u5C71',c:0},{s:'tottori',n:'Tottori',j:'\u9CE5\u53D6',c:0},
+  {s:'shimane',n:'Shimane',j:'\u5CF6\u6839',c:0},{s:'okayama',n:'Okayama',j:'\u5CA1\u5C71',c:0},{s:'hiroshima',n:'Hiroshima',j:'\u5E83\u5CF6',c:0},
+  {s:'yamaguchi',n:'Yamaguchi',j:'\u5C71\u53E3',c:0},{s:'tokushima',n:'Tokushima',j:'\u5FB3\u5CF6',c:0},{s:'kagawa',n:'Kagawa',j:'\u9999\u5DDD',c:0},
+  {s:'ehime',n:'Ehime',j:'\u611B\u5A9B',c:0},{s:'kochi',n:'Kochi',j:'\u9AD8\u77E5',c:0}
+];
+const pg=document.getElementById('pref-grid');
+PREFS.forEach(p=>{
+  pg.innerHTML+=`<a class="pc" href="/shochu/${p.s}/"><span class="pc-name">${p.n} <small style="color:#999">${p.j}</small></span><span class="pc-count">${p.c||'\u2014'}</span></a>`;
+});
+
+// Fade-in on scroll
+const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.1});
+document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>

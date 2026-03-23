@@ -1,0 +1,25 @@
+[
+  {
+    "id": "nara_kasugayama",
+    "name": "奈良春日山酒造",
+    "company": "奈良春日山酒造株式会社",
+    "brand": "花札",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "1877",
+    "founded_era": "明治10年",
+    "address": "奈良県奈良市高畑町915",
+    "tel": "",
+    "url": "https://narakasugayama-shuzo.co.jp/",
+    "area": "奈良",
+    "desc": "明治10年創業。旧・八木酒造から2022年に社名変更。清酒・焼酎・みりん・リキュール・スピリッツを製造。麦焼酎「大和の国の蒸留酒」、ねぎ焼酎「一天一束」、さつまいも焼酎「精華の夢」など個性的な焼酎を展開。",
+    "visit": "直売あり",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "麦・芋・ねぎ",
+    "brands": ["大和の国の蒸留酒", "一天一束", "精華の夢"],
+    "features": ["明治10年創業", "ねぎ焼酎", "多彩な原料", "2022年社名変更"],
+    "nearest_station": "京終駅",
+    "source": "奈良春日山酒造公式サイト、奈良市ならじかん",
+    "name_en": "Nara Kasugayama Shuzo"
+  }
+]

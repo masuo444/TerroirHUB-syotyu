@@ -1,0 +1,25 @@
+[
+  {
+    "id": "takenoi",
+    "name": "武の井酒造",
+    "company": "武の井酒造株式会社",
+    "brand": "武の井",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "",
+    "founded_era": "",
+    "address": "山梨県北杜市高根町箕輪",
+    "tel": "",
+    "url": "",
+    "area": "北杜",
+    "desc": "黄麹と常圧蒸留による本格米焼酎を製造。日本酒造りの技術を活かした焼酎づくり。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "黄麹",
+    "main_ingredient": "米",
+    "brands": [],
+    "features": ["常圧蒸留", "黄麹使用", "米焼酎"],
+    "nearest_station": "",
+    "source": "本格焼酎・泡盛出品酒リスト FOODEX2023",
+    "name_en": "Takenoi Shuzo"
+  }
+]

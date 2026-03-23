@@ -1,0 +1,25 @@
+[
+  {
+    "id": "hananomai",
+    "name": "花の舞酒造",
+    "company": "花の舞酒造株式会社",
+    "brand": "花の舞",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "1864",
+    "founded_era": "元治元年",
+    "address": "静岡県浜松市浜北区宮口632",
+    "tel": "053-582-2121",
+    "url": "https://hananomai.co.jp/",
+    "area": "浜松",
+    "desc": "元治元年創業。静岡県産米100%にこだわる酒蔵。日本酒の製造過程で出る酒粕を活用した粕取り焼酎を製造。南アルプス赤石山系の伏流水を使用。",
+    "visit": "蔵見学可能",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "酒粕・米",
+    "brands": ["花の舞 粕取り焼酎"],
+    "features": ["粕取り焼酎", "静岡県産米100%", "南アルプス赤石山系伏流水"],
+    "nearest_station": "宮口駅（天竜浜名湖線）",
+    "source": "花の舞酒造公式サイト",
+    "name_en": "Hananomai Shuzo"
+  }
+]

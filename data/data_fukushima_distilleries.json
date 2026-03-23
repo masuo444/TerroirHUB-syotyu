@@ -1,0 +1,60 @@
+[
+  {
+    "id": "nekka_okuaizu",
+    "name": "奥会津蒸留所",
+    "company": "合同会社ねっか",
+    "brand": "ねっか",
+    "type": "本格米焼酎",
+    "founded": "2016",
+    "founded_era": "平成28年",
+    "address": "福島県南会津郡只見町大字梁取字沖998",
+    "tel": "",
+    "url": "https://nekka.jp/",
+    "area": "只見町",
+    "desc": "地元の米農家が集まり2016年に結成。只見町産の酒米のみで造る完全ドメーヌ米焼酎。目指すのは「世界一、和食に合う米焼酎」。数々の賞を受賞。テイスティングルーム併設。",
+    "visit": "テイスティングルーム併設（有料試飲）、10:00-16:00",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "米",
+    "brands": [
+      "ねっか",
+      "ばがねっか"
+    ],
+    "features": [
+      "只見町産酒米100%",
+      "完全ドメーヌ",
+      "米農家による蒸留所"
+    ],
+    "nearest_station": "",
+    "source": "https://nekka.jp/",
+    "name_en": "Okuaizu Distillery"
+  },
+  {
+    "id": "sasanokawa_shuzo",
+    "name": "笹の川酒造",
+    "company": "笹の川酒造株式会社",
+    "brand": "笹の川",
+    "type": "焼酎・ウイスキー",
+    "founded": "1765",
+    "founded_era": "明和2年",
+    "address": "福島県郡山市笹川1丁目178",
+    "tel": "024-945-0261",
+    "url": "https://www.sasanokawa.co.jp/",
+    "area": "郡山市",
+    "desc": "明和2年(1765)創業の老舗蔵元。清酒「笹の川」に加え焼酎・リキュール・スピリッツを製造。敷地内に東北最古の地ウイスキー蒸溜所「安積蒸溜所」を併設。",
+    "visit": "蔵見学可（毎週水曜13:30-14:30、毎月第2金曜13:30-15:30）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "",
+    "brands": [
+      "笹の川"
+    ],
+    "features": [
+      "明和2年創業",
+      "安積蒸溜所併設"
+    ],
+    "nearest_station": "",
+    "source": "https://www.sasanokawa.co.jp/",
+    "name_en": "Sasanokawa Shuzo"
+  }
+]

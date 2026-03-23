@@ -1,0 +1,11 @@
+{
+  "name": "terroir-hub-shochu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Terroir HUB SHOCHU - Japan's definitive shochu & awamori distillery database",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "@supabase/supabase-js": "^2.45.0",
+    "stripe": "^17.0.0"
+  }
+}

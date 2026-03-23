@@ -1,0 +1,25 @@
+[
+  {
+    "id": "takara_shuzo",
+    "name": "宝酒造",
+    "company": "宝酒造株式会社",
+    "brand": "宝焼酎",
+    "type": "焼酎蔵（総合酒類メーカー）",
+    "founded": "1842",
+    "founded_era": "天保13年",
+    "address": "京都府京都市伏見区竹中町606",
+    "tel": "",
+    "url": "https://www.takarashuzo.co.jp/",
+    "area": "伏見",
+    "desc": "天保13年創業。京都・伏見を発祥の地とする日本有数の総合酒類メーカー。「宝焼酎」は甲類焼酎の代名詞的存在。全量芋焼酎「一刻者」は芋100%にこだわった本格派。清酒「松竹梅」と共に海外数十か国に輸出。",
+    "visit": "伏見工場（見学は要確認）",
+    "spirit_type": "korui_and_honkaku",
+    "koji_type": "",
+    "main_ingredient": "芋・糖蜜",
+    "brands": ["宝焼酎", "一刻者", "松竹梅（清酒）"],
+    "features": ["日本有数の焼酎メーカー", "全量芋焼酎一刻者", "伏見の名水", "グローバル展開"],
+    "nearest_station": "桃山御陵前駅",
+    "source": "宝酒造公式サイト、伏見酒造組合",
+    "name_en": "Takara Shuzo"
+  }
+]

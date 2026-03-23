@@ -1,0 +1,31 @@
+[
+  {
+    "id": "asahara_shuzo",
+    "name": "麻原酒造",
+    "company": "麻原酒造株式会社",
+    "brand": "蒸留王",
+    "type": "本格焼酎",
+    "founded": "1882",
+    "founded_era": "明治15年",
+    "address": "埼玉県入間郡毛呂山町毛呂本郷94",
+    "tel": "049-298-6010",
+    "url": "https://www.musashino-asahara.jp/",
+    "area": "毛呂山町",
+    "desc": "明治15年創業。日本酒「琵琶のささ浪」「武蔵野」に加え、本格焼酎「蒸留王」を製造。地域の果物を使ったリキュールやワイン、ビールも手がける総合酒類メーカー。越生ブリュワリー直営店あり。",
+    "visit": "越生ブリュワリー（直営店）で見学・試飲可",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "",
+    "brands": [
+      "蒸留王",
+      "琵琶のささ浪"
+    ],
+    "features": [
+      "総合酒類メーカー",
+      "越生ブリュワリー併設"
+    ],
+    "nearest_station": "",
+    "source": "https://www.musashino-asahara.jp/company.html",
+    "name_en": "Asahara Shuzo"
+  }
+]

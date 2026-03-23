@@ -1,0 +1,1354 @@
+[
+  {
+    "id": "takahashi_shuzo",
+    "name": "高橋酒造",
+    "company": "高橋酒造株式会社",
+    "brand": "白岳",
+    "founded": "1900",
+    "founded_era": "明治33年",
+    "address": "熊本県人吉市合ノ原町498番地",
+    "tel": "0966-24-5155",
+    "url": "https://www.hakutake.co.jp/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治33年（1900年）創業。球磨焼酎を代表する本格米焼酎「白岳」「しろ」を醸す。「いい米、いい水、いい人」を信条に、人吉・球磨の地で一世紀以上にわたり米焼酎づくりにこだわる。多良木蒸留所・白岳酒造研究所・田野蒸溜所を展開。",
+    "visit": "球磨焼酎ミュージアム白岳伝承蔵",
+    "source": "https://www.hakutake.co.jp/about/",
+    "brands": [
+      {
+        "name": "白岳",
+        "type": "本格米焼酎",
+        "desc": "球磨焼酎を代表するフラッグシップブランド。"
+      },
+      {
+        "name": "白岳しろ",
+        "type": "本格米焼酎",
+        "desc": "すっきりとした飲み口の定番米焼酎。"
+      },
+      {
+        "name": "白岳KAORU",
+        "type": "本格米焼酎",
+        "desc": "華やかな香りの米焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "球磨焼酎の代名詞",
+        "desc": "「白岳」は球磨焼酎を代表するブランド。全国的な知名度を誇る。"
+      },
+      {
+        "label": "多拠点生産体制",
+        "desc": "多良木蒸留所・白岳酒造研究所・田野蒸溜所の3拠点で製造。生産能力100,000石。"
+      },
+      {
+        "label": "田野蒸溜所でウイスキー事業参入",
+        "desc": "人吉市の廃校を再生したシングルモルト蒸溜所「田野蒸溜所」を開設。"
+      }
+    ],
+    "lat": 32.2097,
+    "lng": 130.7556,
+    "name_en": "Takahashi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "hakutake_kenkyusho",
+    "name": "白岳酒造研究所",
+    "company": "株式会社白岳酒造研究所",
+    "brand": "白岳",
+    "founded": "1986",
+    "founded_era": "昭和61年",
+    "address": "熊本県人吉市井ノ口町792-7",
+    "tel": "0966-22-2155",
+    "url": "https://www.hakutake.co.jp/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "昭和61年（1986年）設立。高橋酒造の元の焼酎製造工場。米と水を厳選し、添加物を一切使用しない品質管理で「白岳」「しろ」を製造。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/hakutake/",
+    "brands": [
+      {
+        "name": "白岳",
+        "type": "本格米焼酎",
+        "desc": "球磨焼酎の代表銘柄。"
+      },
+      {
+        "name": "しろ",
+        "type": "本格米焼酎",
+        "desc": "すっきりとした飲み口の米焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "高橋酒造グループ",
+        "desc": "高橋酒造の製造拠点として「白岳」ブランドの品質を支える。"
+      },
+      {
+        "label": "品質管理の徹底",
+        "desc": "米と水を厳選し、添加物を一切使用しない品質管理で球磨焼酎を製造。"
+      }
+    ],
+    "lat": 32.2106,
+    "lng": 130.7612,
+    "name_en": "Hakutake Shuzo Research Institute",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "sengetsu",
+    "name": "繊月酒造",
+    "company": "繊月酒造株式会社",
+    "brand": "繊月",
+    "founded": "1903",
+    "founded_era": "明治36年",
+    "address": "熊本県人吉市新町1番地",
+    "tel": "0966-22-3207",
+    "url": "https://www.sengetsu.co.jp/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治36年（1903年）初代治助が創業。創業当初から蔵専属の杜氏を抱え、現在は6代目の杜氏が独自の伝承の技を守る。代表銘柄「繊月」は球磨焼酎を代表する銘柄のひとつ。",
+    "visit": "蔵見学可能",
+    "source": "https://kumashochu.or.jp/wp/product/sengetsu/",
+    "brands": [
+      {
+        "name": "繊月",
+        "type": "本格米焼酎",
+        "desc": "蔵の看板銘柄。球磨焼酎の伝統を体現する一本。"
+      },
+      {
+        "name": "限定川辺",
+        "type": "本格米焼酎",
+        "desc": "限定醸造の球磨焼酎。"
+      },
+      {
+        "name": "焔の刻印",
+        "type": "本格米焼酎",
+        "desc": "個性的な味わいの球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "6代続く蔵付き杜氏",
+        "desc": "創業以来、蔵専属の杜氏制度を維持。6代目杜氏が伝承の技を守る。"
+      },
+      {
+        "label": "人吉市中心部の蔵",
+        "desc": "人吉市新町に蔵を構え、蔵見学も受け入れている。"
+      }
+    ],
+    "lat": 32.2118,
+    "lng": 130.7533,
+    "name_en": "Sengetsu Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "fukano",
+    "name": "深野酒造",
+    "company": "深野酒造株式会社",
+    "brand": "彩葉",
+    "founded": "1823",
+    "founded_era": "文政6年",
+    "address": "熊本県人吉市合ノ原町333",
+    "tel": "0966-22-2900",
+    "url": "https://shop-fukano.jp/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "文政6年（1823年）、初代深野時次が福岡・久留米から人吉に移り焼酎づくりを開始。七代目深野誠一が2015年に代表取締役就任。20年甕貯蔵古酒など長期熟成にも力を入れる。",
+    "visit": "—",
+    "source": "https://shop-fukano.jp/pages/fukano-about",
+    "brands": [
+      {
+        "name": "彩葉",
+        "type": "本格米焼酎",
+        "desc": "深野酒造の代表銘柄。"
+      },
+      {
+        "name": "誉の露",
+        "type": "本格米焼酎",
+        "desc": "伝統的な球磨焼酎。"
+      },
+      {
+        "name": "刻の封印 琥珀",
+        "type": "本格米焼酎",
+        "desc": "長期熟成の琥珀色の米焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "文政年間創業の老舗",
+        "desc": "1823年創業。球磨焼酎の中でも長い歴史を持つ蔵元。"
+      },
+      {
+        "label": "甕貯蔵の長期熟成",
+        "desc": "20年甕貯蔵古酒など、長期熟成焼酎の製造にも取り組む。"
+      }
+    ],
+    "lat": 32.2097,
+    "lng": 130.7556,
+    "name_en": "Fukano Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "fusanotsuyu",
+    "name": "房の露",
+    "company": "房の露株式會社",
+    "brand": "房の露",
+    "founded": "1907",
+    "founded_era": "明治40年",
+    "address": "熊本県球磨郡多良木町多良木568",
+    "tel": "0966-42-2008",
+    "url": "https://www.fusanotsuyu.co.jp/",
+    "area": "多良木町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治40年（1907年）創業。500年以上続く球磨焼酎の伝統を受け継ぎ、多良木町で本格米焼酎を醸す。",
+    "visit": "—",
+    "source": "https://www.fusanotsuyu.co.jp/",
+    "brands": [
+      {
+        "name": "房の露",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "貯蔵へのこだわり",
+        "desc": "樽・甕・瓶など様々な方法で熟成させ、深みと複雑な隠し味を生む。"
+      },
+      {
+        "label": "自家農園の原料芋",
+        "desc": "上質な焼酎を造る条件として原料芋を自家農園で栽培。米焼酎・芋焼酎を製造。"
+      }
+    ],
+    "lat": 32.2756,
+    "lng": 130.9417,
+    "name_en": "Fusanotsuyu",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "rokuchoshi",
+    "name": "六調子酒造",
+    "company": "六調子酒造株式会社",
+    "brand": "六調子",
+    "founded": "1923",
+    "founded_era": "大正12年",
+    "address": "熊本県球磨郡錦町西1013",
+    "tel": "0966-38-1130",
+    "url": "https://rokuchoshisyuzou.sakura.ne.jp/",
+    "area": "錦町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "大正12年（1923年）創業。蒸留後の原酒を平均12年以上熟成させてから出荷する長期熟成専門蔵。球磨盆地の中央に位置し、500年の歴史と伝統の技を継承する。",
+    "visit": "—",
+    "source": "https://rokuchoshisyuzou.sakura.ne.jp/",
+    "brands": [
+      {
+        "name": "特吟六調子",
+        "type": "本格米焼酎",
+        "desc": "長期熟成の代表銘柄。"
+      },
+      {
+        "name": "六調子",
+        "type": "本格米焼酎",
+        "desc": "蔵の看板ブランド。平均12年以上熟成。"
+      }
+    ],
+    "features": [
+      {
+        "label": "長期熟成の専門蔵",
+        "desc": "蒸留後の原酒を平均12年以上熟成させてから出荷。熟成酒に特化した蔵元。"
+      },
+      {
+        "label": "海外三ツ星獲得",
+        "desc": "海外のスピリッツコンペティションで三ツ星を獲得。"
+      }
+    ],
+    "lat": 32.2256,
+    "lng": 130.8267,
+    "name_en": "Rokuchoshi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "matsunoizumi",
+    "name": "松の泉酒造",
+    "company": "松の泉酒造合資会社",
+    "brand": "水鏡無私",
+    "founded": "1875",
+    "founded_era": "明治8年",
+    "address": "熊本県球磨郡あさぎり町上北169-1",
+    "tel": "0966-45-1118",
+    "url": "https://matsunoizumi.co.jp/",
+    "area": "あさぎり町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "あさぎり町に蔵を構える球磨焼酎の蔵元。吟醸酵母仕込や特別清水仕込など、こだわりの製法で「水鏡無私」を醸す。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/matsunoizumi/",
+    "brands": [
+      {
+        "name": "水鏡無私 吟醸酵母仕込",
+        "type": "本格米焼酎",
+        "desc": "吟醸酵母で仕込んだ華やかな香りの米焼酎。"
+      },
+      {
+        "name": "水鏡無私 特別清水仕込",
+        "type": "本格米焼酎",
+        "desc": "清水仕込みによるクリアな味わいの米焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "こだわりの仕込み",
+        "desc": "吟醸酵母仕込・特別清水仕込など、独自の製法で個性的な球磨焼酎を醸す。"
+      },
+      {
+        "label": "名水「月光水」を使用",
+        "desc": "白髪岳の花崗岩をくぐり抜けた谷水薬師の名水「月光水」を仕込み水に使用。初代松岡文助がこの良水に惚れ込み創業。"
+      }
+    ],
+    "lat": 32.2389,
+    "lng": 130.8625,
+    "name_en": "Matsunoizumi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "tsunematsu",
+    "name": "恒松酒造本店",
+    "company": "株式会社恒松酒造本店",
+    "brand": "球磨拳",
+    "founded": "1917",
+    "founded_era": "大正6年",
+    "address": "熊本県球磨郡多良木町多良木1022",
+    "tel": "0966-42-2381",
+    "url": "http://tsunematsu-shuzo.com/",
+    "area": "多良木町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "大正6年（1917年）創業。球磨の焼酎蔵として100年以上の歴史を持つ。多良木町で伝統を受け継ぎながら球磨焼酎を醸す。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/product/tsunematsu/",
+    "brands": [
+      {
+        "name": "球磨拳",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "創業100年超の蔵",
+        "desc": "大正6年創業。100年以上にわたり球磨焼酎の伝統を守り続ける。"
+      },
+      {
+        "label": "地下天然水と自社田米",
+        "desc": "地下100mから湧き出る地下天然水を使用。蔵を囲む田んぼで焼酎用のひのひかりを自社栽培。機械濾過を行わず手作業で仕上げる。"
+      }
+    ],
+    "lat": 32.2756,
+    "lng": 130.9417,
+    "name_en": "Tsunematsu Shuzo Honten",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "ohishi",
+    "name": "大石酒造場",
+    "company": "合資会社大石酒造場",
+    "brand": "大石",
+    "founded": "1872",
+    "founded_era": "明治5年",
+    "address": "熊本県球磨郡水上村岩野1053",
+    "tel": "0966-44-0001",
+    "url": "https://ohishi-shuzohjyo.jp/",
+    "area": "水上村",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治5年（1872年）創業。五代目蔵元・大石長一郎が率いる。球磨川最上流の水上村に蔵を構え、霊峰市房山の麓で米焼酎を醸す。約50年前から樽貯蔵を開始し、米焼酎仕込のリキュールやウイスキー製造にも力を入れる。",
+    "visit": "—",
+    "source": "https://ohishi-shuzohjyo.jp/",
+    "brands": [
+      {
+        "name": "大石",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。樽貯蔵による琥珀色の米焼酎。"
+      },
+      {
+        "name": "鬼倒",
+        "type": "本格米焼酎",
+        "desc": "力強い味わいの球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "樽貯蔵のパイオニア",
+        "desc": "約50年前から樽貯蔵を開始。琥珀色の長期熟成焼酎を生み出す。"
+      },
+      {
+        "label": "球磨川最上流の蔵",
+        "desc": "霊峰市房山（標高1,722m）の麓、水上村に蔵を構える。"
+      },
+      {
+        "label": "ウイスキー製造にも進出",
+        "desc": "米焼酎の技術を活かし、ウイスキーやリキュールの製造にも取り組む。"
+      }
+    ],
+    "lat": 32.2667,
+    "lng": 131.0167,
+    "name_en": "Oishi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "torikai",
+    "name": "鳥飼酒造",
+    "company": "株式会社鳥飼酒造",
+    "brand": "吟香鳥飼",
+    "founded": "1800",
+    "founded_era": "江戸時代",
+    "address": "熊本県人吉市七日町2",
+    "tel": "0966-22-3303",
+    "url": "https://torikais.com/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "江戸時代より人吉市七日町で400年以上酒蔵を営む。1994年、本格焼酎で初めて吟醸香を実現した「吟香鳥飼」を開発。現在販売している唯一の商品。代表取締役は鳥飼和信。",
+    "visit": "—",
+    "source": "https://torikais.com/",
+    "brands": [
+      {
+        "name": "吟香鳥飼",
+        "type": "本格米焼酎",
+        "desc": "本格焼酎で初めて吟醸香を実現。華やかな香りと柔らかな味わい。モンドセレクション金賞受賞。"
+      }
+    ],
+    "features": [
+      {
+        "label": "吟醸香の革新",
+        "desc": "1994年、本格焼酎で初めて吟醸香を出すことに成功した「吟香鳥飼」を開発。"
+      },
+      {
+        "label": "400年以上の歴史",
+        "desc": "人吉市七日町で400年以上前から酒蔵を営む歴史ある蔵元。"
+      },
+      {
+        "label": "一銘柄主義",
+        "desc": "現在販売する商品は「吟香鳥飼」のみ。品質への究極のこだわり。"
+      }
+    ],
+    "lat": 32.2096,
+    "lng": 130.7519,
+    "name_en": "Torikai Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "toyonaga",
+    "name": "豊永酒造",
+    "company": "合名会社豊永酒造",
+    "brand": "豊永蔵",
+    "founded": "1894",
+    "founded_era": "明治27年",
+    "address": "熊本県球磨郡湯前町上里1873",
+    "tel": "0966-43-2008",
+    "url": "https://www.toyonagakura.com/",
+    "area": "湯前町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治27年（1894年）、初代豊永鶴松が湯前の地に創業。自社田を持ち「有機球磨米」を原料とする「豊永蔵」を中心に焼酎を醸す。4代目当主豊永史郎が「球磨の米・球磨の水・球磨に根ざした人による焼酎造り」を実践。12カ国に輸出。",
+    "visit": "—",
+    "source": "https://www.toyonagakura.com/",
+    "brands": [
+      {
+        "name": "豊永蔵",
+        "type": "本格米焼酎",
+        "desc": "有機球磨米を原料とする代表銘柄。LA国際スピリッツコンペ連続金賞。全日本酒類コンテスト5年連続第一位。"
+      }
+    ],
+    "features": [
+      {
+        "label": "有機米へのこだわり",
+        "desc": "自社田を持ち、有機球磨米を原料に使用。米づくりから焼酎づくりまで一貫して取り組む。"
+      },
+      {
+        "label": "海外12カ国に輸出",
+        "desc": "LA国際スピリッツコンペティション連続金賞受賞。世界12カ国に輸出する国際的な蔵元。"
+      }
+    ],
+    "lat": 32.2806,
+    "lng": 130.9889,
+    "name_en": "Toyonaga Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "joraku",
+    "name": "常楽酒造",
+    "company": "常楽酒造株式会社",
+    "brand": "秋の露",
+    "founded": "1912",
+    "founded_era": "大正元年",
+    "address": "熊本県球磨郡錦町一武2577-13",
+    "tel": "0966-38-4371",
+    "url": "https://joraku.co.jp/",
+    "area": "錦町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "大正元年（1912年）球磨郡水上村で創業。1994年に錦町へ移転。樫樽やシェリー樽など材質にこだわった樽貯蔵で焼酎原酒を長期熟成させる。",
+    "visit": "—",
+    "source": "https://joraku.co.jp/",
+    "brands": [
+      {
+        "name": "秋の露 蔵のこだわり",
+        "type": "本格米焼酎",
+        "desc": "樽貯蔵で長期熟成させた代表銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "樽貯蔵へのこだわり",
+        "desc": "樫樽・シェリー樽など材質にこだわった樽貯蔵で焼酎原酒を長期熟成。樽貯蔵品は24ヶ月以上熟成。"
+      },
+      {
+        "label": "多彩な商品展開",
+        "desc": "地元・錦町の果実を使ったリキュールやヨーグルト焼酎など、球磨焼酎の枠にとらわれないバリエーション豊富な商品を展開。"
+      }
+    ],
+    "lat": 32.2256,
+    "lng": 130.8267,
+    "name_en": "Joraku Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "jufuku",
+    "name": "寿福酒造場",
+    "company": "合資会社寿福酒造場",
+    "brand": "武者返し",
+    "founded": "1890",
+    "founded_era": "明治23年",
+    "address": "熊本県人吉市玉町28-2",
+    "tel": "0966-22-4005",
+    "url": "https://www.jufukushuzo.jp/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治23年（1890年）創業。代表銘柄「武者返し」は熊本県産ヒノヒカリ100%使用、常圧蒸留後2年以上熟成。常圧蒸留は寿福の真髄ともいえる伝統的製法で、甕仕込みによる深い味わいが特徴。",
+    "visit": "—",
+    "source": "https://www.jufukushuzo.jp/",
+    "brands": [
+      {
+        "name": "武者返し",
+        "type": "本格米焼酎",
+        "desc": "熊本県産ヒノヒカリ100%使用。常圧蒸留・甕熟成の球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "常圧蒸留・甕熟成",
+        "desc": "常圧蒸留後、甕で2年以上熟成。原料の個性を引き出す伝統製法。"
+      },
+      {
+        "label": "ヒノヒカリ100%使用",
+        "desc": "地元熊本県産のヒノヒカリ新米を100%使用した米焼酎。"
+      }
+    ],
+    "lat": 32.2096,
+    "lng": 130.7533,
+    "name_en": "Jufuku Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "takata",
+    "name": "高田酒造場",
+    "company": "合資会社高田酒造場",
+    "brand": "あさぎりの花",
+    "founded": "1902",
+    "founded_era": "明治35年",
+    "address": "熊本県球磨郡あさぎり町深田東756",
+    "tel": "0966-45-0200",
+    "url": "https://www.takata-shuzohjyo.co.jp/",
+    "area": "あさぎり町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治35年（1902年）、9代目又助（高田官治）より焼酎造りを開始。球磨焼酎の伝統を守りながら、花酵母を使った焼酎づくりにも挑戦。創業時の銘柄は「秋穂」。",
+    "visit": "—",
+    "source": "https://www.takata-shuzohjyo.co.jp/",
+    "brands": [
+      {
+        "name": "あさぎりの花",
+        "type": "本格米焼酎",
+        "desc": "花酵母を使った個性的な球磨焼酎。"
+      },
+      {
+        "name": "秋穂",
+        "type": "本格米焼酎",
+        "desc": "創業時から続く伝統の銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "花酵母の焼酎づくり",
+        "desc": "花酵母を使った個性的な球磨焼酎づくりに挑戦。"
+      },
+      {
+        "label": "100年超の伝統",
+        "desc": "明治35年から焼酎造りを続ける歴史ある蔵元。"
+      }
+    ],
+    "lat": 32.2389,
+    "lng": 130.8625,
+    "name_en": "Takata Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "yamato1",
+    "name": "大和一酒造元",
+    "company": "合資会社大和一酒造元",
+    "brand": "温泉焼酎夢",
+    "founded": "1898",
+    "founded_era": "明治31年",
+    "address": "熊本県人吉市下林町2144",
+    "tel": "0966-22-2610",
+    "url": "https://www.yamato1.com/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治31年（1898年）岡田千松が大和一醸造元を創業。蔵の地下500mから湧き出る温泉水を仕込み水に使用した「温泉焼酎」で知られる。牛乳焼酎など個性的な焼酎も製造。",
+    "visit": "—",
+    "source": "https://www.yamato1.com/",
+    "brands": [
+      {
+        "name": "温泉焼酎 夢",
+        "type": "本格米焼酎",
+        "desc": "蔵の地下500mから湧く温泉水で仕込んだ焼酎。"
+      },
+      {
+        "name": "牧場の夢",
+        "type": "牛乳焼酎",
+        "desc": "地元の新鮮な牛乳と米から造るフルーティーな焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "温泉水仕込み",
+        "desc": "蔵の地下500mから湧出する温泉水を仕込み水に使用。ミネラル豊富な重炭酸塩泉。"
+      },
+      {
+        "label": "牛乳焼酎の製造",
+        "desc": "地元の新鮮な牛乳を原料に使った個性的な焼酎も製造。"
+      }
+    ],
+    "lat": 32.2097,
+    "lng": 130.7556,
+    "name_en": "Yamato Ichi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "fukuda",
+    "name": "福田酒造",
+    "company": "株式会社福田酒造",
+    "brand": "山河",
+    "founded": "1935",
+    "founded_era": "昭和10年",
+    "address": "熊本県人吉市西間下町137-2",
+    "tel": "0966-22-2507",
+    "url": "https://fukudashuzo.com/",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "昭和10年（1935年）天草郡苓北町出身の初代福田國彦が人吉市にて創業。「効率より品質」を第一に、華やかで綺麗な酒質を目指す。昭和40年以来、熊本国税局酒類鑑評会優等賞を37回受賞。",
+    "visit": "—",
+    "source": "https://fukudashuzo.com/",
+    "brands": [
+      {
+        "name": "山河",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。熊本国税局酒類鑑評会優等賞受賞。"
+      },
+      {
+        "name": "はなてばこ",
+        "type": "本格米焼酎",
+        "desc": "華やかな味わいの球磨焼酎。"
+      },
+      {
+        "name": "樽御輿",
+        "type": "本格米焼酎",
+        "desc": "樽貯蔵の球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "優等賞37回受賞",
+        "desc": "昭和40年以来、熊本国税局酒類鑑評会優等賞を37回受賞。"
+      },
+      {
+        "label": "効率より品質",
+        "desc": "基本を徹底し清潔な環境で、麹・酵母を常に適温管理する丁寧な焼酎造り。"
+      }
+    ],
+    "lat": 32.2096,
+    "lng": 130.7533,
+    "name_en": "Fukuda Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "kinoshita",
+    "name": "木下醸造所",
+    "company": "木下醸造所",
+    "brand": "文蔵",
+    "founded": "1862",
+    "founded_era": "文久2年",
+    "address": "熊本県球磨郡多良木町多良木785",
+    "tel": "0966-42-2013",
+    "url": "",
+    "area": "多良木町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "文久2年（1862年）創業。相良藩から「茶屋」の免許を与えられ醸造を開始した最古参蔵のひとつ。民謡「六調子」に詠われる創業者・文蔵の名を冠した銘柄を守り続ける。手づくり麹・甕仕込み・常圧蒸留の伝統製法。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/product/kinoshita/",
+    "brands": [
+      {
+        "name": "文蔵",
+        "type": "本格米焼酎",
+        "desc": "創業者の名を冠した代表銘柄。手づくり麹・甕仕込み・常圧蒸留。"
+      }
+    ],
+    "features": [
+      {
+        "label": "球磨焼酎最古参の蔵",
+        "desc": "1862年創業。相良藩から「茶屋」免許を得て醸造を開始した歴史ある蔵。"
+      },
+      {
+        "label": "伝統製法の継承",
+        "desc": "手づくり麹・甕仕込み・常圧蒸留という旧来からの製法を守り続ける。"
+      }
+    ],
+    "lat": 32.2756,
+    "lng": 130.9417,
+    "name_en": "Kinoshita Jozo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "matsushita",
+    "name": "松下醸造場",
+    "company": "有限会社松下醸造場",
+    "brand": "最古蔵",
+    "founded": "1804",
+    "founded_era": "文化元年",
+    "address": "熊本県球磨郡水上村岩野2582",
+    "tel": "0966-44-0010",
+    "url": "https://www.matsushitashuzo.com/",
+    "area": "水上村",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "文化元年（1804年）、初代次兵衛が相良藩・岩野村にて焼酎造りを開始。球磨焼酎最古の蔵元として14代にわたり先祖代々の焼酎造りを継承。球磨川源流の水上村で、球磨の人・水・米を使い伝統を守る。",
+    "visit": "—",
+    "source": "https://www.matsushitashuzo.com/",
+    "brands": [
+      {
+        "name": "最古蔵",
+        "type": "本格米焼酎",
+        "desc": "球磨焼酎最古の蔵を名乗る代表銘柄。"
+      },
+      {
+        "name": "萬屋次兵衛",
+        "type": "本格米焼酎",
+        "desc": "創業者の名を冠した銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "球磨焼酎最古の蔵",
+        "desc": "1804年創業。14代にわたり焼酎造りを受け継ぐ球磨焼酎最古の蔵元。"
+      },
+      {
+        "label": "球磨川源流の蔵",
+        "desc": "球磨川の源流にある水上村で、清冽な水と豊かな自然のもとに蔵を構える。"
+      }
+    ],
+    "lat": 32.2667,
+    "lng": 131.0167,
+    "name_en": "Matsushita Jozo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "tsutsumi",
+    "name": "堤酒造",
+    "company": "株式会社堤酒造",
+    "brand": "武士者",
+    "founded": "1878",
+    "founded_era": "明治11年",
+    "address": "熊本県球磨郡あさぎり町岡原南390-4",
+    "tel": "0966-45-0264",
+    "url": "https://tsutsumi-syuzou.com/",
+    "area": "あさぎり町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治11年（1878年）「犬童醸造場」として犬童馬鞍により創業。2002年に「堤酒造」に社名変更。樽・陶器・瓶など多様な方法で熟成させる球磨焼酎を醸す。",
+    "visit": "—",
+    "source": "https://tsutsumi-syuzou.com/",
+    "brands": [
+      {
+        "name": "武士者",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "多様な熟成方法",
+        "desc": "樽・陶器・瓶など多岐にわたる方法で焼酎を熟成。"
+      },
+      {
+        "label": "大学との技術協力",
+        "desc": "大学の研究室と技術協力し、新商品の開発・研究を行い世界に通じる焼酎造りを目指す。"
+      }
+    ],
+    "lat": 32.2389,
+    "lng": 130.8625,
+    "name_en": "Tsutsumi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "miyahara",
+    "name": "宮原酒造場",
+    "company": "合資会社宮原酒造場",
+    "brand": "球磨仙人",
+    "founded": "",
+    "founded_era": "",
+    "address": "熊本県球磨郡あさぎり町深田東581",
+    "tel": "0966-45-0178",
+    "url": "",
+    "area": "あさぎり町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "あさぎり町に蔵を構える球磨焼酎の蔵元。昔ながらの石室で造った麹米と球磨川の伏流水を使い、寒仕込のモロミを常圧蒸留。原酒は甕で長期貯蔵する伝統製法。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/product/miyahara/",
+    "brands": [
+      {
+        "name": "球磨仙人",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。甕貯蔵の伝統的な球磨焼酎。"
+      },
+      {
+        "name": "宮の誉",
+        "type": "本格米焼酎",
+        "desc": "伝統的な球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "石室麹・甕貯蔵",
+        "desc": "昔ながらの石室で造った麹米を使い、常圧蒸留後に甕で長期貯蔵する伝統製法。"
+      },
+      {
+        "label": "球磨川伏流水の寒仕込み",
+        "desc": "球磨川の伏流水を使い、寒仕込のモロミを常圧蒸留する昔ながらの球磨焼酎造り。"
+      }
+    ],
+    "lat": 32.2389,
+    "lng": 130.8625,
+    "name_en": "Miyahara Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "matsumoto",
+    "name": "松本酒造場",
+    "company": "松本酒造場",
+    "brand": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "熊本県球磨郡あさぎり町免田東347-3",
+    "tel": "0966-45-2106",
+    "url": "",
+    "area": "あさぎり町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "あさぎり町に蔵を構える球磨焼酎の蔵元。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/",
+    "brands": [],
+    "features": [],
+    "lat": 32.2389,
+    "lng": 130.8625,
+    "name_en": "Matsumoto Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "nasu",
+    "name": "那須酒造場",
+    "company": "有限会社那須酒造場",
+    "brand": "球磨の泉",
+    "founded": "1917",
+    "founded_era": "大正6年",
+    "address": "熊本県球磨郡多良木町久米695",
+    "tel": "0966-42-2592",
+    "url": "",
+    "area": "多良木町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "大正6年（1917年）創業。初代那須虎次郎より4代目の蔵元が小規模手造りの焼酎づくりを続ける。代表銘柄「球磨の泉」は良質な米と清冽な水で醸す伝統的な球磨焼酎。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/nasu/",
+    "brands": [
+      {
+        "name": "球磨の泉",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。長期貯蔵による甘みとまろやかさが特徴。"
+      }
+    ],
+    "features": [
+      {
+        "label": "小規模手造り",
+        "desc": "4代にわたり小規模手造りの焼酎づくりを続ける家族経営の蔵。"
+      },
+      {
+        "label": "もろ蓋麹法・甕仕込み",
+        "desc": "きめ細かい麹を生み出すもろ蓋麹法、深いコクを与える甕仕込み、長期貯蔵による芳醇な味わいが特徴。"
+      }
+    ],
+    "lat": 32.2756,
+    "lng": 130.9417,
+    "name_en": "Nasu Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "batsugun",
+    "name": "抜群酒造",
+    "company": "抜群酒造合資会社",
+    "brand": "ばつぐん",
+    "founded": "",
+    "founded_era": "",
+    "address": "熊本県球磨郡多良木町黒肥地1662",
+    "tel": "0966-42-2172",
+    "url": "https://www.batsugun-syuzou.com/",
+    "area": "多良木町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "多良木町黒肥地に蔵を構える球磨焼酎の蔵元。「抜群に美味い焼酎を造りたい」という想いから「ばつぐん」ブランドが誕生。伝統と挑戦を両立する焼酎造り。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/batsugun/",
+    "brands": [
+      {
+        "name": "ばつぐん",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。名前の通り抜群の品質を目指す球磨焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "「抜群」の志",
+        "desc": "「抜群に美味い焼酎を造りたい」という創業の志を銘柄名に冠する。"
+      },
+      {
+        "label": "県外への商品開発",
+        "desc": "樽貯蔵の球磨焼酎「熟香抜群」など、県外向けの商品開発にも力を入れる。"
+      }
+    ],
+    "lat": 32.2756,
+    "lng": 130.9417,
+    "name_en": "Batsugun Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "miyamoto",
+    "name": "宮元酒造場",
+    "company": "合資会社宮元酒造場",
+    "brand": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "熊本県球磨郡多良木町黒肥地790",
+    "tel": "0966-42-2278",
+    "url": "",
+    "area": "多良木町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "多良木町に蔵を構える球磨焼酎の蔵元。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/",
+    "brands": [],
+    "features": [],
+    "lat": 32.2756,
+    "lng": 130.9417,
+    "name_en": "Miyamoto Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "hayashi",
+    "name": "林酒造場",
+    "company": "有限会社林酒造場",
+    "brand": "",
+    "founded": "",
+    "founded_era": "",
+    "address": "熊本県球磨郡湯前町下城3092",
+    "tel": "0966-43-2020",
+    "url": "",
+    "area": "湯前町",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "湯前町に蔵を構える球磨焼酎の蔵元。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/",
+    "brands": [],
+    "features": [],
+    "lat": 32.2806,
+    "lng": 130.9889,
+    "name_en": "Hayashi Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "fuchita",
+    "name": "渕田酒造場",
+    "company": "株式会社渕田酒造場",
+    "brand": "Fuchita",
+    "founded": "1878",
+    "founded_era": "明治11年",
+    "address": "熊本県人吉市紺屋町22",
+    "tel": "0966-23-3055",
+    "url": "",
+    "area": "人吉市",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治11年（1878年）創業（再開）。球磨川のほとりに蔵を構える。大正15年「第一回全国酒類品評会」名誉大賞受賞。昭和6年には昭和天皇来熊の際に献上品に選定。現在休業中との情報あり。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/fuchita/",
+    "brands": [
+      {
+        "name": "Fuchita",
+        "type": "本格米焼酎",
+        "desc": "蔵の代表銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "名誉大賞受賞",
+        "desc": "大正15年「第一回全国酒類品評会」で名誉大賞を受賞。"
+      },
+      {
+        "label": "昭和天皇への献上品",
+        "desc": "昭和6年の昭和天皇来熊の際に献上品に選定された歴史を持つ。"
+      }
+    ],
+    "lat": 32.2096,
+    "lng": 130.7533,
+    "name_en": "Fuchita Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "fuchita_honten",
+    "name": "渕田酒造本店",
+    "company": "有限会社渕田酒造本店",
+    "brand": "一勝地",
+    "founded": "1869",
+    "founded_era": "明治2年",
+    "address": "熊本県球磨郡球磨村一勝地422-1",
+    "tel": "0966-32-0005",
+    "url": "",
+    "area": "球磨村",
+    "region": "球磨",
+    "gi": "球磨焼酎",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治2年（1869年）渕田嘉左衛門が「嘉左衛門茶屋」として創業。明治41年に肥薩線建設に伴い現在地へ移転。麹造りから洗米・醸造まで昔ながらの手造り。蔵内に20個の甕が並ぶ。樫樽貯蔵の「一勝地」が代表銘柄。",
+    "visit": "—",
+    "source": "https://kumashochu.or.jp/wp/product/fuchitahonten/",
+    "brands": [
+      {
+        "name": "一勝地",
+        "type": "本格米焼酎",
+        "desc": "樫樽貯蔵の代表銘柄。縁起の良い地名を冠する。"
+      }
+    ],
+    "features": [
+      {
+        "label": "昔ながらの手造り",
+        "desc": "麹造りから洗米・醸造まで全工程を手造りで行う。蔵内に甕20個。"
+      },
+      {
+        "label": "縁起の良い「一勝地」",
+        "desc": "樫樽貯蔵の代表銘柄「一勝地」は球磨村の縁起の良い地名を冠する。球磨焼酎蔵の中で最も下流に位置する蔵。"
+      }
+    ],
+    "lat": 32.1722,
+    "lng": 130.6889,
+    "name_en": "Fuchita Shuzo Honten",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "zuiyo",
+    "name": "瑞鷹",
+    "company": "瑞鷹株式会社",
+    "brand": "東肥",
+    "founded": "1867",
+    "founded_era": "慶応3年",
+    "address": "熊本県熊本市南区川尻4-6-67",
+    "tel": "",
+    "url": "https://www.zuiyo.co.jp/",
+    "area": "熊本市",
+    "region": "熊本",
+    "gi": "",
+    "type": "米焼酎・麦焼酎",
+    "main_ingredient": "rice",
+    "desc": "慶応3年（1867年）創業。2001年に瑞鷹酒造と東肥醸造が合併し瑞鷹株式会社に。日本酒・本格焼酎・赤酒・リキュールなど幅広い酒造りを展開。焼酎ブランド「東肥一本槍」「異風者」など。",
+    "visit": "東肥大正蔵",
+    "source": "https://www.zuiyo.co.jp/",
+    "brands": [
+      {
+        "name": "東肥一本槍",
+        "type": "本格米焼酎",
+        "desc": "瑞鷹の焼酎ブランド。"
+      },
+      {
+        "name": "異風者",
+        "type": "本格焼酎",
+        "desc": "個性的な味わいの焼酎。"
+      },
+      {
+        "name": "醇雅 米",
+        "type": "本格米焼酎",
+        "desc": "上品な味わいの米焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "日本酒・焼酎・赤酒の総合蔵",
+        "desc": "清酒・焼酎・赤酒・リキュールなど幅広い酒類を製造する熊本の総合蔵。"
+      },
+      {
+        "label": "東肥大正蔵",
+        "desc": "大正時代の蔵を活用した施設を運営。"
+      }
+    ],
+    "lat": 32.7531,
+    "lng": 130.7077,
+    "name_en": "Zuiyo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "amakusa",
+    "name": "天草酒造",
+    "company": "合名会社天草酒造",
+    "brand": "池の露",
+    "founded": "1899",
+    "founded_era": "明治32年",
+    "address": "熊本県天草市新和町小宮地11808",
+    "tel": "0969-46-2013",
+    "url": "https://ikenotsuyu.com/",
+    "area": "天草市",
+    "region": "天草",
+    "gi": "",
+    "type": "芋焼酎・米焼酎・麦焼酎",
+    "main_ingredient": "sweet_potato",
+    "desc": "明治32年（1899年）創業。天草諸島唯一の焼酎蔵。芋焼酎蔵として創業後、昭和後期に米・麦焼酎に転換。4代目平下豊が創業時の芋焼酎「池の露」を復刻し、原点回帰を遂げる。",
+    "visit": "—",
+    "source": "https://ikenotsuyu.com/",
+    "brands": [
+      {
+        "name": "池の露",
+        "type": "本格芋焼酎",
+        "desc": "創業時の芋焼酎を復刻。天草唯一の焼酎蔵の原点。"
+      },
+      {
+        "name": "天草",
+        "type": "本格米焼酎",
+        "desc": "天草の米で醸す米焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "天草唯一の焼酎蔵",
+        "desc": "天草諸島で唯一の焼酎蔵。離島ならではの風土を活かす。"
+      },
+      {
+        "label": "芋焼酎の復刻",
+        "desc": "4代目が創業時の芋焼酎「池の露」を復刻。米・麦から原点の芋焼酎に回帰。"
+      }
+    ],
+    "lat": 32.3889,
+    "lng": 130.225,
+    "name_en": "Amakusa Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "bishounen",
+    "name": "美少年",
+    "company": "株式会社美少年",
+    "brand": "黒阿蘇",
+    "founded": "1752",
+    "founded_era": "宝暦2年",
+    "address": "熊本県菊池市",
+    "tel": "",
+    "url": "https://bishonen.jp/",
+    "area": "菊池市",
+    "region": "熊本",
+    "gi": "",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "宝暦2年（1752年）、細川重賢の命を受け酒造りを開始。2013年に事業譲渡を受け菊池市で再出発。日本酒「美少年」で知られるが、焼酎「黒阿蘇」「赤阿蘇」なども製造。",
+    "visit": "—",
+    "source": "https://bishonen.jp/",
+    "brands": [
+      {
+        "name": "黒阿蘇",
+        "type": "本格焼酎",
+        "desc": "阿蘇の恵みを活かした焼酎。"
+      },
+      {
+        "name": "赤阿蘇",
+        "type": "本格焼酎",
+        "desc": "阿蘇シリーズの焼酎。"
+      }
+    ],
+    "features": [
+      {
+        "label": "宝暦2年創業の老舗",
+        "desc": "1752年、細川重賢の命を受けて酒造りを開始した歴史ある蔵。2013年に菊池市で再出発。"
+      },
+      {
+        "label": "阿蘇シリーズの焼酎",
+        "desc": "日本酒「美少年」で知られる蔵が、阿蘇の恵みを活かした焼酎「黒阿蘇」「赤阿蘇」を製造。"
+      }
+    ],
+    "lat": 32.9833,
+    "lng": 130.8167,
+    "name_en": "Bishounen",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "chiyonosono",
+    "name": "千代の園酒造",
+    "company": "千代の園酒造株式会社",
+    "brand": "帰忘",
+    "founded": "1896",
+    "founded_era": "明治29年",
+    "address": "熊本県山鹿市山鹿1782",
+    "tel": "",
+    "url": "https://en.chiyonosono.co.jp/",
+    "area": "山鹿市",
+    "region": "熊本",
+    "gi": "",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治29年（1896年）創業。山鹿市に蔵を構え、日本酒・赤酒・焼酎・リキュールを製造。米の専門家としてのこだわりを持つ総合蔵。",
+    "visit": "—",
+    "source": "https://chiyonosono-shop.com/",
+    "brands": [
+      {
+        "name": "帰忘",
+        "type": "本格米焼酎",
+        "desc": "千代の園の焼酎ブランド。"
+      },
+      {
+        "name": "八千代座",
+        "type": "本格米焼酎",
+        "desc": "山鹿市の芝居小屋「八千代座」にちなむ銘柄。"
+      }
+    ],
+    "features": [
+      {
+        "label": "日本酒蔵の焼酎づくり",
+        "desc": "明治29年創業の日本酒蔵が、米へのこだわりを活かして焼酎も醸す。"
+      },
+      {
+        "label": "阿蘇外輪山の伏流水",
+        "desc": "阿蘇外輪山から湧き出す澄んだ伏流水（軟水）を使用。山鹿市の寒冷な冬の気候を活かした酒造り。"
+      }
+    ],
+    "lat": 33.0167,
+    "lng": 130.6833,
+    "name_en": "Chiyonosono Shuzo",
+    "spirit_type": "honkaku"
+  },
+  {
+    "id": "hananooka",
+    "name": "花の香酒造",
+    "company": "花の香酒造株式会社",
+    "brand": "和仁",
+    "founded": "1902",
+    "founded_era": "明治35年",
+    "address": "熊本県玉名郡和水町",
+    "tel": "",
+    "url": "https://www.hananoka.co.jp/",
+    "area": "和水町",
+    "region": "熊本",
+    "gi": "",
+    "type": "米焼酎",
+    "main_ingredient": "rice",
+    "desc": "明治35年（1902年）、神田角次・茂作親子が妙見神社所有の神田を譲り受け酒造りを開始。「神田酒造」として創業し、1992年に「花の香酒造」に改称。日本酒「花の香」「産土」で知られるが、焼酎「和仁」なども製造。",
+    "visit": "—",
+    "source": "https://www.hananoka.co.jp/",
+    "brands": [
+      {
+        "name": "和仁",
+        "type": "本格米焼酎",
+        "desc": "花の香酒造の焼酎ブランド。"
+      }
+    ],
+    "features": [
+      {
+        "label": "日本酒「花の香」「産土」の蔵",
+        "desc": "明治35年創業。日本酒で全国的に評価される蔵が、米へのこだわりを活かして焼酎も醸す。"
+      },
+      {
+        "label": "妙見神社の岩清水",
+        "desc": "妙見神社から湧き出る岩清水を仕込み水に使用。和水町の豊かな自然のもとで酒造り。"
+      }
+    ],
+    "lat": 33.0167,
+    "lng": 130.5667,
+    "name_en": "Hananooka Shuzo",
+    "spirit_type": "honkaku"
+  }
+]

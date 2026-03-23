@@ -1,0 +1,25 @@
+[
+  {
+    "id": "kotobuki_shuzo",
+    "name": "壽酒造",
+    "company": "壽酒造株式会社",
+    "brand": "國乃長",
+    "type": "焼酎蔵（日本酒蔵兼業）",
+    "founded": "1822",
+    "founded_era": "文政5年",
+    "address": "大阪府高槻市富田町三丁目26-12",
+    "tel": "072-696-0003",
+    "url": "https://kuninocho.jp/",
+    "area": "高槻",
+    "desc": "文政5年創業。大阪で唯一造られている地焼酎「國乃長」を製造。日本酒を搾った後のフレッシュな酒粕で造った粕醪取り焼酎。冬季限定生産。大阪初のクラフトビール醸造所としても知られる。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "酒粕",
+    "brands": ["國乃長 粕取り焼酎"],
+    "features": ["大阪唯一の地焼酎", "粕醪取り焼酎", "冬季限定生産", "大阪初のクラフトビール"],
+    "nearest_station": "摂津富田駅",
+    "source": "壽酒造公式サイト",
+    "name_en": "Kotobuki Shuzo"
+  }
+]

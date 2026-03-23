@@ -1,0 +1,32 @@
+[
+  {
+    "id": "akita_hakko_kogyo",
+    "name": "秋田県醗酵工業",
+    "company": "秋田県醗酵工業株式会社",
+    "brand": "そふと新光",
+    "type": "甲類焼酎・本格焼酎",
+    "founded": "1945",
+    "founded_era": "昭和20年",
+    "address": "秋田県湯沢市深堀字中川原120-8",
+    "tel": "",
+    "url": "https://www.oenon.jp/product/sake/akita/",
+    "area": "湯沢市",
+    "desc": "東北地方最大規模の焼酎メーカー。「そふと新光」は発売から40年以上、秋田県内で最も親しまれている焼酎。甲類・乙類焼酎・清酒等を製造。オエノングループ。",
+    "visit": "",
+    "spirit_type": "mixed",
+    "koji_type": "",
+    "main_ingredient": "",
+    "brands": [
+      "そふと新光",
+      "ブラックストーン",
+      "一滴千両"
+    ],
+    "features": [
+      "東北最大規模の焼酎メーカー",
+      "オエノングループ"
+    ],
+    "nearest_station": "",
+    "source": "https://www.oenon.jp/company/group/akita.html",
+    "name_en": "Akita Hakko Kogyo"
+  }
+]

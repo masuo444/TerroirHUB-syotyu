@@ -1,0 +1,396 @@
+[
+  {
+    "id": "munemasa",
+    "name": "宗政酒造",
+    "company": "宗政酒造株式会社",
+    "brand": "のんのこ",
+    "type": "麦焼酎",
+    "founded": "1985",
+    "founded_era": "昭和60年",
+    "address": "佐賀県西松浦郡有田町戸矢乙340-28",
+    "tel": "",
+    "url": "https://www.nonnoko.com/",
+    "area": "有田町",
+    "desc": "昭和60年（1985年）、伊万里市にて焼酎造りを開始。平成14年に有田ポーセリンパーク内に本社工場を移転し観光酒蔵として営業。佐賀産二条大麦100%の麦焼酎「のんのこ」を代表銘柄とする。",
+    "visit": "有田ポーセリンパーク内にて蔵見学・試飲可",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "のんのこ",
+        "type": "麦焼酎",
+        "specs": "佐賀産二条大麦100%、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "のんのこ芋",
+        "type": "芋焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "さつまいも・米麹"
+      },
+      {
+        "name": "のんのこ長期貯蔵",
+        "type": "米焼酎",
+        "specs": "長期貯蔵",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "「のんのこ」は地元の言葉で「かわいい子」の意味",
+      "有田ポーセリンパーク内の観光酒蔵として営業",
+      "麦・芋・米と多彩な焼酎を展開。日本酒「宗政」も製造"
+    ],
+    "nearest_station": "JR佐世保線 有田駅（タクシー約10分）",
+    "source": "https://www.nonnoko.com/",
+    "lat": 33.2010,
+    "lng": 129.8730,
+    "name_en": "Munemasa Shuzo"
+  },
+  {
+    "id": "mitsutake",
+    "name": "光武酒造場",
+    "company": "合資会社光武酒造場",
+    "brand": "魔界への誘い",
+    "type": "芋焼酎",
+    "founded": "1688",
+    "founded_era": "元禄元年",
+    "address": "佐賀県鹿島市浜町乙2421",
+    "tel": "",
+    "url": "https://www.kinpa.jp/",
+    "area": "鹿島市",
+    "desc": "元禄元年（1688年）創業。肥前浜宿酒蔵通りに蔵を構え、300年以上の歴史を持つ老舗。「酒造りは人づくり」の信念で伝統と革新の酒造りを行う。",
+    "visit": "観光酒蔵「肥前屋」として営業",
+    "spirit_type": "honkaku",
+    "koji_type": "黒麹",
+    "main_ingredient": "sweet_potato",
+    "brands": [
+      {
+        "name": "魔界への誘い",
+        "type": "芋焼酎",
+        "specs": "黒麹仕込み、常圧蒸留、アルコール25度",
+        "ingredient": "黄金千貫（芋）"
+      },
+      {
+        "name": "光武",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "元禄元年（1688年）創業。300年以上の歴史を持つ老舗蔵",
+      "肥前浜宿酒蔵通りの観光酒蔵「肥前屋」として営業",
+      "芋焼酎「魔界への誘い」は黒麹仕込みの常圧蒸留"
+    ],
+    "nearest_station": "JR長崎本線 肥前浜駅（徒歩約5分）",
+    "source": "https://www.kinpa.jp/",
+    "lat": 33.1030,
+    "lng": 130.0900,
+    "name_en": "Mitsutake Shuzojo"
+  },
+  {
+    "id": "tenzan",
+    "name": "天山酒造",
+    "company": "天山酒造株式会社",
+    "brand": "天山",
+    "type": "麦焼酎",
+    "founded": "1875",
+    "founded_era": "明治8年",
+    "address": "佐賀県小城市小城町岩蔵1520",
+    "tel": "",
+    "url": "https://tenzan.co.jp/",
+    "area": "小城市",
+    "desc": "明治8年（1875年）に日本酒造りを開始。元々は1861年創業の水車業から始まる。日本酒「天山」「七田」のほか焼酎も製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "天山",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      },
+      {
+        "name": "七田",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "明治8年に日本酒造りを開始。水車業が前身",
+      "日本酒「天山」「七田」を代表銘柄とし、焼酎も製造"
+    ],
+    "nearest_station": "JR唐津線 小城駅",
+    "source": "https://tenzan.co.jp/",
+    "lat": 33.2590,
+    "lng": 130.1970,
+    "name_en": "Tenzan Shuzo"
+  },
+  {
+    "id": "saga_shuzo",
+    "name": "佐嘉酒造",
+    "company": "佐嘉酒造株式会社",
+    "brand": "窓乃梅",
+    "type": "麦焼酎",
+    "founded": "1688",
+    "founded_era": "元禄元年",
+    "address": "佐賀県佐賀市久保田町大字新田1833-1640",
+    "tel": "",
+    "url": "https://sagashuzo.co.jp/",
+    "area": "佐賀市",
+    "desc": "元禄元年（1688年）創業。佐賀県最古の酒蔵。2022年に「窓乃梅酒造」から「佐嘉酒造」に社名変更。シェリー樽で長期熟成した樽焼酎も製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "窓乃梅",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      },
+      {
+        "name": "佐嘉 肥州",
+        "type": "麦焼酎",
+        "specs": "樽焼酎",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "佐嘉 SAGA",
+        "type": "麦焼酎",
+        "specs": "シェリー樽長期熟成（9年・12年・15年）",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "元禄元年（1688年）創業。佐賀県最古の酒蔵",
+      "2022年に「窓乃梅酒造」から「佐嘉酒造」に社名変更",
+      "シェリー樽で9年・12年・15年と長期熟成した樽焼酎を製造"
+    ],
+    "nearest_station": "JR長崎本線 久保田駅",
+    "source": "https://sagashuzo.co.jp/",
+    "lat": 33.2420,
+    "lng": 130.2640,
+    "name_en": "Saga Shuzo"
+  },
+  {
+    "id": "amabuki",
+    "name": "天吹酒造",
+    "company": "天吹酒造合資会社",
+    "brand": "天吹",
+    "type": "麦焼酎",
+    "founded": "1704",
+    "founded_era": "宝永元年",
+    "address": "佐賀県三養基郡みやき町東尾2894",
+    "tel": "",
+    "url": "https://www.amabuki.co.jp/",
+    "area": "みやき町",
+    "desc": "元禄年間（1688-1704年）に創業した300年以上の歴史を持つ老舗蔵。国の登録有形文化財の築100年以上の酒蔵で酒造りを行う。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "天吹",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "元禄年間（1688-1704年）創業。300年以上の歴史",
+      "国の登録有形文化財の築100年以上の酒蔵",
+      "花酵母を使用した独自の酒造り"
+    ],
+    "nearest_station": "JR長崎本線 中原駅",
+    "source": "https://www.amabuki.co.jp/",
+    "lat": 33.3050,
+    "lng": 130.5000,
+    "name_en": "Amabuki Shuzo"
+  },
+  {
+    "id": "gochoda",
+    "name": "五町田酒造",
+    "company": "五町田酒造株式会社",
+    "brand": "東一",
+    "type": "麦焼酎",
+    "founded": "1922",
+    "founded_era": "大正11年",
+    "address": "佐賀県嬉野市塩田町大字五町田甲2081",
+    "tel": "",
+    "url": "https://azumaichi.com/",
+    "area": "嬉野市",
+    "desc": "大正11年（1922年）創業。「東洋一の酒を目指す」という願いを込めた銘柄「東一」で知られる。佐賀県産原料にこだわり、山田錦の自家栽培にも早くから取り組む。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "東一",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "大正11年創業。「東洋一の酒を目指す」が銘柄の由来",
+      "佐賀県内でいち早く山田錦の自家栽培に取り組む",
+      "地元に愛される日本酒造りがモットー"
+    ],
+    "nearest_station": "JR長崎本線 肥前鹿島駅",
+    "source": "https://azumaichi.com/",
+    "lat": 33.0860,
+    "lng": 130.0770,
+    "name_en": "Gochoda Shuzo"
+  },
+  {
+    "id": "matsuuraichi",
+    "name": "松浦一酒造",
+    "company": "松浦一酒造株式会社",
+    "brand": "松浦一",
+    "type": "麦焼酎",
+    "founded": "1716",
+    "founded_era": "正徳6年",
+    "address": "佐賀県伊万里市山代町楠久312",
+    "tel": "",
+    "url": "http://www.matsuuraichi.com/",
+    "area": "伊万里市",
+    "desc": "正徳6年（1716年）創業。松浦地方で一番になりたいという願いを銘柄に込め、308年以上にわたり酒を造り続ける老舗。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "松浦一",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "正徳6年（1716年）創業。300年以上の歴史",
+      "「松浦地方で一番になりたい」という願いが銘柄名の由来"
+    ],
+    "nearest_station": "松浦鉄道 山代駅",
+    "source": "http://www.matsuuraichi.com/",
+    "lat": 33.2330,
+    "lng": 129.8410,
+    "name_en": "Matsuuraichi Shuzo"
+  },
+  {
+    "id": "baba",
+    "name": "馬場酒造場",
+    "company": "有限会社馬場酒造場",
+    "brand": "能古見",
+    "type": "麦焼酎",
+    "founded": "1795",
+    "founded_era": "寛政7年",
+    "address": "佐賀県鹿島市三河内乙1365",
+    "tel": "0954-63-3888",
+    "url": "https://www.nogomi.co.jp/",
+    "area": "鹿島市",
+    "desc": "寛政7年（1795年）創業。8代目当主・馬場一郎氏が代表兼杜氏として日本酒造りの伝統を継承。年間約370石の小規模蔵ながら、地元農家との連携で佐賀県産米にこだわる。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "能古見",
+        "type": "清酒",
+        "specs": "佐賀県産米使用",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "寛政7年（1795年）創業。8代目当主が代表兼杜氏を務める",
+      "地元農家と7年がかりで山田錦の地元栽培を実現",
+      "年間約370石の小規模蔵で品質管理を徹底"
+    ],
+    "nearest_station": "JR長崎本線 肥前浜駅",
+    "source": "https://www.nogomi.co.jp/",
+    "lat": 33.1000,
+    "lng": 130.0890,
+    "name_en": "Baba Shuzojo"
+  },
+  {
+    "id": "sachihime",
+    "name": "幸姫酒造",
+    "company": "幸姫酒造株式会社",
+    "brand": "幸姫",
+    "type": "麦焼酎",
+    "founded": "1934",
+    "founded_era": "昭和9年",
+    "address": "佐賀県鹿島市古枝甲599",
+    "tel": "0954-63-3708",
+    "url": "https://www.sachihime.co.jp/",
+    "area": "鹿島市",
+    "desc": "昭和9年（1934年）創業。祐徳稲荷神社の御神酒指定醸造元。創業90年の歴史を持ち、最高峰の酒造りを追求。観光酒蔵の先駆けとして蔵見学・試飲を提供。",
+    "visit": "蔵見学・試飲可（9:00-12:00、13:15-16:30）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "幸姫",
+        "type": "清酒",
+        "specs": "IWC・全米日本酒歓評会受賞歴あり",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "昭和9年（1934年）創業。祐徳稲荷神社の御神酒指定醸造元",
+      "観光酒蔵の先駆けとして蔵見学・試飲・地酒ソフトクリームを提供",
+      "IWC・全米日本酒歓評会などの国際コンクールで受賞歴多数"
+    ],
+    "nearest_station": "JR長崎本線 肥前鹿島駅",
+    "source": "https://www.sachihime.co.jp/",
+    "lat": 33.1050,
+    "lng": 130.0950,
+    "name_en": "Sachihime Shuzo"
+  },
+  {
+    "id": "kiyama",
+    "name": "基山商店",
+    "company": "合資会社基山商店",
+    "brand": "基峰鶴",
+    "type": "麦焼酎",
+    "founded": "1920",
+    "founded_era": "大正9年",
+    "address": "佐賀県三養基郡基山町宮浦",
+    "tel": "",
+    "url": "https://kihotsuru.com/",
+    "area": "基山町",
+    "desc": "明治初期に近隣の地主数名で酒造りを始め、大正9年（1920年）に法人化。佐賀県と福岡県の県境に蔵を構える。2020年に創業100周年を迎えた。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "基峰鶴",
+        "type": "清酒",
+        "specs": "全米日本酒歓評会グランプリ、KURA MASTER金賞受賞",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "明治初期創業、大正9年法人化。2020年に創業100周年",
+      "銘柄名は特別史跡・基肄城のそびえる基山と鶴が舞う姿に由来",
+      "全米日本酒歓評会グランプリ、仏KURA MASTER金賞など国際的評価"
+    ],
+    "nearest_station": "JR鹿児島本線 基山駅",
+    "source": "https://kihotsuru.com/",
+    "lat": 33.4300,
+    "lng": 130.5200,
+    "name_en": "Kiyama Shoten"
+  }
+]

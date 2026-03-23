@@ -1,0 +1,1071 @@
+[
+  {
+    "id": "ikinohana",
+    "name": "壱岐の華",
+    "company": "株式会社壱岐の華",
+    "brand": "壱岐の華",
+    "type": "麦焼酎",
+    "founded": "1900",
+    "founded_era": "明治33年",
+    "address": "長崎県壱岐市芦辺町諸吉二亦触1664-1",
+    "tel": "0920-45-0041",
+    "url": "https://ikinohana.co.jp/",
+    "area": "壱岐市",
+    "desc": "明治33年（1900年）、初代長田嘉助が小倉から壱岐に渡り麦焼酎造りを始めた。常圧蒸留と熟成にこだわり、芳醇な香りの壱岐焼酎を醸す。",
+    "visit": "蔵見学可（9:00〜17:00、団体は要予約）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "壱岐の華",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "初代嘉助",
+        "type": "麦焼酎",
+        "specs": "常圧蒸留",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "尋ね鳥",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。500年の歴史を持つ壱岐焼酎の伝統を継承",
+      "常圧蒸留と長期貯蔵熟成にこだわり、芳醇な香りを追求",
+      "明治33年創業。初代長田嘉助が小倉から壱岐に渡り焼酎造りを開始"
+    ],
+    "nearest_station": "壱岐空港からタクシー約10分",
+    "source": "https://ikinohana.co.jp/",
+    "lat": 33.7930,
+    "lng": 129.7350,
+    "name_en": "Iki no Hana"
+  },
+  {
+    "id": "ikinokura",
+    "name": "壱岐の蔵酒造",
+    "company": "壱岐の蔵酒造株式会社",
+    "brand": "壱岐の島",
+    "type": "麦焼酎",
+    "founded": "1984",
+    "founded_era": "昭和59年",
+    "address": "長崎県壱岐市芦辺町湯岳本村触520",
+    "tel": "0920-45-2111",
+    "url": "https://ikinokura.co.jp/",
+    "area": "壱岐市",
+    "desc": "昭和59年（1984年）、壱岐島内の酒造会社6社の全面協業により設立。16世紀から受け継がれた伝統的な技法を守りながら、減圧蒸留や花酵母仕込みなど新しい試みにも挑戦。",
+    "visit": "蔵見学可（要予約）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "壱岐の島",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。壱岐島内6社の協業により設立された蔵",
+      "減圧蒸留・花酵母仕込みなど革新的な製法に挑戦",
+      "FSSC22000認証取得（2019年）"
+    ],
+    "nearest_station": "壱岐空港からタクシー約15分",
+    "source": "https://ikinokura.co.jp/",
+    "lat": 33.7860,
+    "lng": 129.7250,
+    "name_en": "Iki no Kura Shuzo"
+  },
+  {
+    "id": "genkai",
+    "name": "玄海酒造",
+    "company": "玄海酒造株式会社",
+    "brand": "むぎ焼酎壱岐",
+    "type": "麦焼酎",
+    "founded": "1900",
+    "founded_era": "明治33年",
+    "address": "長崎県壱岐市郷ノ浦町志原西触550-1",
+    "tel": "0920-47-0160",
+    "url": "https://www.mugishochu-iki.com/",
+    "area": "壱岐市",
+    "desc": "明治33年（1900年）創業。500年の歴史を持つ壱岐焼酎の伝統を受け継ぎ、本格麦焼酎「壱岐」を醸す。モンドセレクション11年連続受賞。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "むぎ焼酎壱岐",
+        "type": "麦焼酎",
+        "specs": "アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "壱岐スーパーゴールド22",
+        "type": "麦焼酎",
+        "specs": "ホワイトオーク樽貯蔵、アルコール22度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "壱岐スーパーゴールド33",
+        "type": "麦焼酎",
+        "specs": "ホワイトオーク樽貯蔵、アルコール33度",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。500年の伝統を受け継ぐ壱岐焼酎の代表的蔵元",
+      "モンドセレクションに2002年から出品し、11年連続優秀品質賞受賞",
+      "2011年クリスタル・プレスティージ・トロフィー受賞"
+    ],
+    "nearest_station": "壱岐空港からタクシー約15分",
+    "source": "https://www.mugishochu-iki.com/",
+    "lat": 33.7480,
+    "lng": 129.6830,
+    "name_en": "Genkai Shuzo"
+  },
+  {
+    "id": "omoya",
+    "name": "重家酒造",
+    "company": "重家酒造株式会社",
+    "brand": "ちんぐ",
+    "type": "麦焼酎",
+    "founded": "1924",
+    "founded_era": "大正13年",
+    "address": "長崎県壱岐市石田町印通寺浦200",
+    "tel": "",
+    "url": "https://ikishochu.org/omoya-brewery/",
+    "area": "壱岐市",
+    "desc": "大正13年（1924年）、初代横山確蔵により創業。壱岐産原料を90%以上使用し、伝統のかめ仕込みで壱岐焼酎を醸す。兄・横山雄三が焼酎杜氏、弟・泰三が日本酒杜氏として活躍。2018年に約30年ぶりに日本酒醸造を復活。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "白麹・黒麹",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "雪州",
+        "type": "麦焼酎",
+        "specs": "壱岐産大麦・米使用、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "御島裸",
+        "type": "麦焼酎",
+        "specs": "長崎県限定品種「御島裸」大麦使用、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "村主",
+        "type": "麦焼酎",
+        "specs": "白麹・黒麹ブレンド、5年以上熟成、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "ちんぐ",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "確蔵",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。壱岐産原料を90%以上使用し、雑味のないまろやかな味わい",
+      "兄弟で焼酎と日本酒の杜氏を務める。2018年に約30年ぶりに日本酒「よこやま」を復活",
+      "伝統的なかめ仕込みと白麹・黒麹を使い分けた焼酎造り"
+    ],
+    "nearest_station": "",
+    "source": "https://ikishochu.org/omoya-brewery/",
+    "lat": 33.7620,
+    "lng": 129.7550,
+    "name_en": "Omoya Shuzo"
+  },
+  {
+    "id": "amanogawa",
+    "name": "天の川酒造",
+    "company": "天の川酒造株式会社",
+    "brand": "天の川",
+    "type": "麦焼酎",
+    "founded": "1912",
+    "founded_era": "大正元年",
+    "address": "長崎県壱岐市芦辺町諸吉本村触1045",
+    "tel": "",
+    "url": "https://amanokawashuzo.com/",
+    "area": "壱岐市",
+    "desc": "大正元年（1912年）創業。常圧蒸留にこだわり、大麦の香り豊かな壱岐焼酎を醸す。長期貯蔵・熟成により複雑な風味成分を生かした味わいを追求。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "米麹",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "天の川",
+        "type": "麦焼酎",
+        "specs": "常圧蒸留、2年貯蔵、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "天の川 壱岐づくし",
+        "type": "麦焼酎",
+        "specs": "壱岐産米・大麦・地下水使用、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "モンキーロック",
+        "type": "麦焼酎",
+        "specs": "オーク樽熟成、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "しめのお",
+        "type": "麦焼酎",
+        "specs": "常圧蒸留、かめ貯蔵10年",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "天の川12年",
+        "type": "麦焼酎",
+        "specs": "常圧蒸留、12年熟成、アルコール38度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "夘八",
+        "type": "麦焼酎",
+        "specs": "黒麹仕込み、常圧蒸留、アルコール25度",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。常圧蒸留と長期貯蔵熟成にこだわる壱岐焼酎蔵",
+      "12年・15年熟成やかめ貯蔵10年など多彩な長期熟成銘柄を展開",
+      "オーク樽熟成の「モンキーロック」など革新的な商品開発にも挑戦"
+    ],
+    "nearest_station": "",
+    "source": "https://amanokawashuzo.com/",
+    "lat": 33.7920,
+    "lng": 129.7340,
+    "name_en": "Amanogawa Shuzo"
+  },
+  {
+    "id": "sarukawa_izu",
+    "name": "猿川伊豆酒造",
+    "company": "株式会社猿川伊豆酒造",
+    "brand": "猿川",
+    "type": "麦焼酎",
+    "founded": "1903",
+    "founded_era": "明治36年",
+    "address": "長崎県壱岐市芦辺町深江本村触1402-1",
+    "tel": "0920-45-0200",
+    "url": "http://saruko.com/",
+    "area": "壱岐市",
+    "desc": "明治36年（1903年）創業。猿川河畔に蔵を構え、古来より「御神水」と称される清冽な湧水で壱岐焼酎を醸す。大麦2/3・米麹1/3の配合で常圧蒸留。創業時の製法を守り続ける。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "米麹",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "猿川",
+        "type": "麦焼酎",
+        "specs": "常圧蒸留、大麦2/3・米麹1/3、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "猿川円円",
+        "type": "麦焼酎",
+        "specs": "業界初の超音波熟成、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "潮騒の詩",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。明治36年創業の老舗蔵",
+      "猿川河畔の「御神水」と称される清冽な湧水を仕込み水に使用",
+      "業界初の超音波熟成技術を採用した「猿川円円」を開発"
+    ],
+    "nearest_station": "",
+    "source": "https://ikishouchu.com/product_category/sarukoizu/",
+    "lat": 33.7850,
+    "lng": 129.7280,
+    "name_en": "Sarukawa Izu Shuzo"
+  },
+  {
+    "id": "yamanomori",
+    "name": "山の守酒造場",
+    "company": "有限会社山の守酒造場",
+    "brand": "山乃守",
+    "type": "麦焼酎",
+    "founded": "1899",
+    "founded_era": "明治32年",
+    "address": "長崎県壱岐市郷ノ浦町本村触620-1",
+    "tel": "0920-47-0301",
+    "url": "https://ikishochu.org/yamanomori-brewery/",
+    "area": "壱岐市",
+    "desc": "明治32年（1899年）創業。壱岐で最も古い蔵元。一次・二次仕込みの両方にかめ（甕）を使用する独自の製法が特徴で、創業当時から伝わる手作りのかめは1つ1つ容量が異なる。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "米麹",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "山乃守",
+        "type": "麦焼酎",
+        "specs": "かめ仕込み、常圧蒸留、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "一洲",
+        "type": "麦焼酎",
+        "specs": "かめ仕込み・かめ貯蔵、アルコール25度",
+        "ingredient": "大麦・米麹"
+      },
+      {
+        "name": "山桜",
+        "type": "麦焼酎",
+        "specs": "超音波熟成、アルコール25度",
+        "ingredient": "大麦・米麹"
+      }
+    ],
+    "features": [
+      "GI壱岐 認定。明治32年創業、壱岐で最も古い蔵元",
+      "一次・二次仕込みの両方にかめ（甕）を使用する壱岐唯一の蔵",
+      "福岡国税局酒類鑑評会金賞受賞（2012年）"
+    ],
+    "nearest_station": "",
+    "source": "https://ikishochu.org/yamanomori-brewery/",
+    "lat": 33.7910,
+    "lng": 129.7320,
+    "name_en": "Yamanomori Shuzojo"
+  },
+  {
+    "id": "fukuda",
+    "name": "福田酒造",
+    "company": "福田酒造株式会社",
+    "brand": "福鶴",
+    "type": "麦焼酎",
+    "founded": "1688",
+    "founded_era": "元禄元年",
+    "address": "長崎県平戸市志々伎町1475",
+    "tel": "",
+    "url": "https://fukuda-shuzo.com/",
+    "area": "平戸市",
+    "desc": "元禄元年（1688年）創業。日本最西端の蔵元（沖縄除く）。平戸藩御用達の歴史を持ち、日本酒「福鶴」のほか、「じゃがたらお春」「かぴたん」など個性的な焼酎銘柄を展開。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "じゃがたらお春",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "かぴたん",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "元禄元年（1688年）創業。日本最西端の蔵元",
+      "平戸藩御用達の歴史を持つ老舗",
+      "日本酒・焼酎の両方を製造"
+    ],
+    "nearest_station": "",
+    "source": "https://fukuda-shuzo.com/",
+    "lat": 33.2290,
+    "lng": 129.4730,
+    "name_en": "Fukuda Shuzo"
+  },
+  {
+    "id": "mori",
+    "name": "森酒造場",
+    "company": "有限会社森酒造場",
+    "brand": "飛鸞",
+    "type": "麦焼酎",
+    "founded": "1895",
+    "founded_era": "明治28年",
+    "address": "長崎県平戸市新町31-2",
+    "tel": "",
+    "url": "https://mori-shuzou.jp/",
+    "area": "平戸市",
+    "desc": "明治28年（1895年）、森幸吉が国際貿易港として栄えた平戸の地に「小松屋」の屋号で創業。4代目当主が「継ぎ絆がる酒造り」をテーマに、平戸のテロワールを表現する酒を醸す。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "飛鸞",
+        "type": "清酒",
+        "specs": "平戸の古名「飛鸞」に由来",
+        "ingredient": "米・米麹"
+      },
+      {
+        "name": "仙滴",
+        "type": "焼酎",
+        "specs": "",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "明治28年創業。国際貿易港として栄えた平戸の歴史ある蔵元",
+      "4代目当主が「継ぎ絆がる酒造り」をテーマに平戸のテロワールを表現",
+      "西教寺の湧水と地元産米を使用し、地域に根差した酒造り"
+    ],
+    "nearest_station": "",
+    "source": "https://mori-shuzou.jp/company/",
+    "lat": 33.3700,
+    "lng": 129.5530,
+    "name_en": "Mori Shuzojo"
+  },
+  {
+    "id": "umegae",
+    "name": "梅ヶ枝酒造",
+    "company": "梅ヶ枝酒造株式会社",
+    "brand": "ぎんた",
+    "type": "麦焼酎",
+    "founded": "1787",
+    "founded_era": "天明7年",
+    "address": "長崎県佐世保市城間町317",
+    "tel": "0956-59-2311",
+    "url": "https://www.umegae-shuzo.com/",
+    "area": "佐世保市",
+    "desc": "天明7年（1787年）創業。江戸時代の建物を現在でも使用する歴史ある蔵元。7棟が国の登録有形文化財に指定されている。日本酒・焼酎・リキュール・ジャパニーズジンなど多彩な酒類を製造。",
+    "visit": "蔵見学可（10:00-12:00、13:00-16:00、要予約）、蔵開き年2回開催",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "ぎんた",
+        "type": "焼酎",
+        "specs": "2年連続金賞受賞",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "天明7年（1787年）創業。7棟が国の登録有形文化財に指定",
+      "日本酒・焼酎・リキュール・ジャパニーズジンなど多彩な酒類を製造",
+      "蔵見学可。年2回の蔵開きイベントを開催"
+    ],
+    "nearest_station": "",
+    "source": "https://www.umegae-shuzo.com/",
+    "lat": 33.1590,
+    "lng": 129.7150,
+    "name_en": "Umegae Shuzo"
+  },
+  {
+    "id": "senryu",
+    "name": "潜龍酒造",
+    "company": "潜龍酒造株式会社",
+    "brand": "本陣",
+    "type": "麦焼酎",
+    "founded": "1688",
+    "founded_era": "元禄元年",
+    "address": "長崎県佐世保市江迎町長坂209",
+    "tel": "",
+    "url": "https://www.senryuu.jp/",
+    "area": "佐世保市",
+    "desc": "元禄元年（1688年）、平戸藩の命により初代山下庄左衛門が酒造業を開始。本陣屋敷址（県指定史跡）に蔵を構え、300年以上にわたり伝統の酒造りを続ける。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "本陣",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "元禄元年（1688年）、平戸藩の命により創業。300年以上の歴史",
+      "県指定史跡・本陣屋敷址に蔵を構える",
+      "地元の水・米・人にこだわる季節醸造の小規模蔵"
+    ],
+    "nearest_station": "",
+    "source": "https://www.senryuu.jp/",
+    "lat": 33.2340,
+    "lng": 129.7530,
+    "name_en": "Senryu Shuzo"
+  },
+  {
+    "id": "imazato",
+    "name": "今里酒造",
+    "company": "今里酒造株式会社",
+    "brand": "六十餘洲",
+    "type": "麦焼酎",
+    "founded": "1772",
+    "founded_era": "安永元年",
+    "address": "長崎県東彼杵郡波佐見町宿郷596",
+    "tel": "",
+    "url": "https://rokujuyoshu.com/",
+    "area": "波佐見町",
+    "desc": "安永元年（1772年）創業。約250年にわたり波佐見の地で酒造りを行う老舗。6棟が国の登録有形文化財に指定されており、「本蔵」と「中蔵」は創業時期に近い時代の建造物。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "六十餘洲",
+        "type": "清酒",
+        "specs": "銘柄名は「日本全国」の意。全国の方に飲んでいただきたいとの願いを込めて命名",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "安永元年（1772年）創業。約250年の歴史を持つ老舗蔵元",
+      "6棟が国の登録有形文化財に指定。江戸時代の建造物が現存",
+      "銘柄「六十餘洲」は日本全国の方に飲んでいただきたいとの願いを込めて命名"
+    ],
+    "nearest_station": "",
+    "source": "https://rokujuyoshu.com/",
+    "lat": 33.1550,
+    "lng": 129.8960,
+    "name_en": "Imazato Shuzo"
+  },
+  {
+    "id": "kinokawa",
+    "name": "杵の川",
+    "company": "株式会社杵の川",
+    "brand": "杵の川",
+    "type": "麦焼酎",
+    "founded": "1839",
+    "founded_era": "天保10年",
+    "address": "長崎県諫早市土師野尾町17-4",
+    "tel": "0957-22-5600",
+    "url": "https://www.kinokawa.co.jp/",
+    "area": "諫早市",
+    "desc": "天保10年（1839年）創業。諫早唯一の蔵元として180年以上の歴史を誇る。日本酒「黎明」「杵の川」「磨き60」などを製造。2023年に直売店「杵の川蔵元ファクトリーよかよか」を開設。",
+    "visit": "直売店「杵の川蔵元ファクトリーよかよか」併設",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "杵の川",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": "米・米麹"
+      },
+      {
+        "name": "黎明",
+        "type": "清酒",
+        "specs": "純米大吟醸・純米吟醸あり",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "天保10年（1839年）創業。諫早唯一の蔵元として180年以上の歴史",
+      "「良か人と良か酒を育む蔵」を理念に地元産原料と熊本酵母で醸造",
+      "2023年に直売店「杵の川蔵元ファクトリーよかよか」を開設"
+    ],
+    "nearest_station": "",
+    "source": "https://www.kinokawa.co.jp/",
+    "lat": 32.8460,
+    "lng": 130.0530,
+    "name_en": "Kinokawa"
+  },
+  {
+    "id": "oshima",
+    "name": "大島酒造",
+    "company": "大島酒造株式会社",
+    "brand": "磨き大島",
+    "type": "芋焼酎",
+    "founded": "1985",
+    "founded_era": "昭和60年",
+    "address": "長崎県西海市大島町",
+    "tel": "",
+    "url": "https://oshima-shuzou.co.jp/",
+    "area": "西海市",
+    "desc": "昭和60年（1985年）、「活力ある町つくり」を目的に西海市・農協・漁協と民間が出資する第三セクターとして設立。自社圃場で紅芋の栽培から収穫まで一貫して行い、手造りをモットーにした焼酎造り。2018年に最新設備の酒造蔵を新築。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "sweet_potato",
+    "brands": [
+      {
+        "name": "磨き大島",
+        "type": "芋焼酎",
+        "specs": "吟醸芋焼酎、紅芋使用",
+        "ingredient": "紅芋・米麹"
+      },
+      {
+        "name": "ちょうちょうさん",
+        "type": "芋焼酎",
+        "specs": "紅芋のみ使用",
+        "ingredient": "紅芋・米麹"
+      },
+      {
+        "name": "529",
+        "type": "麦焼酎",
+        "specs": "ブランデー樽熟成",
+        "ingredient": "大麦"
+      },
+      {
+        "name": "星のなる木",
+        "type": "芋焼酎",
+        "specs": "初垂れ、芳醇な味わい",
+        "ingredient": "紅芋・米麹"
+      },
+      {
+        "name": "大福帳",
+        "type": "麦焼酎",
+        "specs": "10年近く熟成させた古酒",
+        "ingredient": "大麦"
+      }
+    ],
+    "features": [
+      "第三セクターとして設立。自社圃場で紅芋の栽培から収穫まで一貫生産",
+      "2018年に最新設備の酒造蔵を新築。手造りをモットーにした焼酎造り",
+      "芋焼酎・麦焼酎の両方を製造。ブランデー樽熟成や古酒など多彩な銘柄を展開"
+    ],
+    "nearest_station": "",
+    "source": "https://oshima-shuzou.co.jp/",
+    "lat": 33.0150,
+    "lng": 129.6400,
+    "name_en": "Oshima Shuzo"
+  },
+  {
+    "id": "kubo",
+    "name": "久保酒造場",
+    "company": "株式会社久保酒造場",
+    "brand": "青一髪",
+    "type": "麦焼酎",
+    "founded": "1907",
+    "founded_era": "明治40年",
+    "address": "長崎県諫早市長田町",
+    "tel": "",
+    "url": "",
+    "area": "諫早市",
+    "desc": "明治40年（1907年）創業。諫早産大麦のみを使用し、微減圧蒸留（常圧と減圧の中間の独自技法）で焼酎を製造。原酒を4年以上ステンレスタンクで熟成させ、柔らかくまろやかな味わいを追求。家族経営の小さな蔵。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "青一髪",
+        "type": "麦焼酎",
+        "specs": "微減圧蒸留、4年以上熟成、アルコール25度、諫早産大麦使用",
+        "ingredient": "大麦（諫早市大野・森山地区産）"
+      }
+    ],
+    "features": [
+      "明治40年創業。家族経営の小さな蔵で全工程を手がける",
+      "常圧と減圧の中間「微減圧蒸留」という独自技法を採用",
+      "原酒を4年以上熟成。長期熟成による柔らかい味わいから「幻の麦焼酎」と呼ばれる"
+    ],
+    "nearest_station": "",
+    "source": "https://tanoshiiosake.jp/4360",
+    "lat": 32.8560,
+    "lng": 130.0530,
+    "name_en": "Kubo Shuzojo"
+  },
+  {
+    "id": "gotonadashuzou",
+    "name": "五島灘酒造",
+    "company": "五島灘酒造株式会社",
+    "brand": "五島灘",
+    "type": "芋焼酎",
+    "founded": "",
+    "founded_era": "",
+    "address": "長崎県南松浦郡新上五島町有川郷",
+    "tel": "",
+    "url": "https://gotonada.com/",
+    "area": "新上五島町",
+    "desc": "新上五島町に蔵を構える長崎県唯一の芋焼酎蔵。「農醸合一」（農業と醸造の一体化）を掲げ、上五島産さつまいもを自社農場と契約農家で100%栽培。循環型農法による持続可能な焼酎造りを実践。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "白麹・黒麹",
+    "main_ingredient": "sweet_potato",
+    "brands": [
+      {
+        "name": "五島灘 紅さつま",
+        "type": "芋焼酎",
+        "specs": "白麹、紅さつま使用、アルコール25度",
+        "ingredient": "甘藷（紅さつま）・米麹（白麹）"
+      },
+      {
+        "name": "五島灘 白麹",
+        "type": "芋焼酎",
+        "specs": "白麹、黄金千貫使用、アルコール25度",
+        "ingredient": "甘藷（黄金千貫）・米麹（白麹）"
+      },
+      {
+        "name": "五島灘 黒麹",
+        "type": "芋焼酎",
+        "specs": "黒麹、黄金千貫使用、アルコール25度",
+        "ingredient": "甘藷（黄金千貫）・米麹（黒麹）"
+      },
+      {
+        "name": "明治之芋 五島灘",
+        "type": "芋焼酎",
+        "specs": "白麹E型、在来種「金ぼけ」使用、季節限定、アルコール25度",
+        "ingredient": "甘藷（金ぼけ）・米麹（白麹E型）"
+      }
+    ],
+    "features": [
+      "長崎県唯一の芋焼酎蔵。「農醸合一」を掲げ上五島産さつまいもを100%使用",
+      "自社農場と契約農家で原料芋を栽培し、循環型農法を実践",
+      "在来種「金ぼけ」の復活栽培など伝統的なさつまいも品種の保全にも取り組む"
+    ],
+    "nearest_station": "",
+    "source": "https://gotonada.com/",
+    "lat": 32.9830,
+    "lng": 129.0720,
+    "name_en": "Gotonada Shuzo"
+  },
+  {
+    "id": "gotoretto",
+    "name": "五島列島酒造",
+    "company": "株式会社五島列島酒造",
+    "brand": "五島麦",
+    "type": "麦焼酎",
+    "founded": "2008",
+    "founded_era": "平成20年",
+    "address": "長崎県五島市三井楽町濱ノ畔1030-1",
+    "tel": "0959-84-3300",
+    "url": "https://shop.gotoretto.jp/",
+    "area": "五島市",
+    "desc": "平成20年（2008年）設立。福江島唯一の本格焼酎醸造所。2009年7月から麦焼酎と芋焼酎の出荷を開始。七嶽山系の湧水と五島産の大麦・さつまいもを100%使用し「原料はすべて島育ち」にこだわる。",
+    "visit": "蔵見学可（要予約）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "五島麦",
+        "type": "麦焼酎",
+        "specs": "五島産二条大麦使用、2年以上熟成、アルコール25度",
+        "ingredient": "大麦（五島産二条大麦）"
+      },
+      {
+        "name": "五島芋",
+        "type": "芋焼酎",
+        "specs": "五島産さつまいも使用",
+        "ingredient": "さつまいも（五島産）"
+      },
+      {
+        "name": "五島椿",
+        "type": "麦焼酎",
+        "specs": "",
+        "ingredient": ""
+      },
+      {
+        "name": "五島芋 紅はるか 樽熟成",
+        "type": "芋焼酎",
+        "specs": "樽熟成",
+        "ingredient": "さつまいも（紅はるか）"
+      }
+    ],
+    "features": [
+      "福江島唯一の本格焼酎醸造所。2008年設立の新しい蔵",
+      "「原料はすべて島育ち」にこだわり、五島産大麦・さつまいもを100%使用",
+      "七嶽山系の湧水を仕込み水に使用。麦焼酎と芋焼酎の両方を製造"
+    ],
+    "nearest_station": "福江港からタクシー",
+    "source": "https://shop.gotoretto.jp/",
+    "lat": 32.6870,
+    "lng": 128.7510,
+    "name_en": "Goto Retto Shuzo"
+  },
+  {
+    "id": "muhyo",
+    "name": "霧氷酒造",
+    "company": "霧氷酒造株式会社",
+    "brand": "九州魂",
+    "type": "芋焼酎",
+    "founded": "1990",
+    "founded_era": "平成2年",
+    "address": "長崎県長崎市外海地区",
+    "tel": "",
+    "url": "http://nagasaki-muhyou.com/",
+    "area": "長崎市",
+    "desc": "平成2年（1990年）頃設立。長崎市外海の丘に蔵を構え、甕壺仕込みの芋焼酎と麦焼酎を製造。国際味覚審査機構（iTi）で麦焼酎が3つ星を3年連続受賞、2019年クリスタル賞、2024年ダイヤモンド味覚賞を受賞。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "sweet_potato",
+    "brands": [
+      {
+        "name": "九州魂 赤芋",
+        "type": "芋焼酎",
+        "specs": "甕壺仕込み、九州産紅東使用",
+        "ingredient": "紅東（芋）"
+      },
+      {
+        "name": "九州魂 紫芋",
+        "type": "芋焼酎",
+        "specs": "九州産紫芋使用、iTi優秀味覚賞2つ星受賞",
+        "ingredient": "紫芋"
+      },
+      {
+        "name": "九州魂 麦",
+        "type": "麦焼酎",
+        "specs": "諫早産ニシノホシ使用、iTi 3つ星3年連続受賞・クリスタル賞・ダイヤモンド味覚賞受賞",
+        "ingredient": "大麦（諫早産ニシノホシ）"
+      }
+    ],
+    "features": [
+      "長崎市外海の丘に蔵を構え、甕壺仕込みの焼酎を製造",
+      "麦焼酎がiTi（国際味覚審査機構）3つ星3年連続受賞、2024年ダイヤモンド味覚賞",
+      "赤芋・紫芋・麦の3種の本格焼酎「九州魂」シリーズを展開"
+    ],
+    "nearest_station": "",
+    "source": "https://www.shochu-kikou.com/news/170309.html",
+    "lat": 32.8210,
+    "lng": 129.7500,
+    "name_en": "Muhyo Shuzo"
+  },
+  {
+    "id": "yamasaki",
+    "name": "山崎本店酒造場",
+    "company": "資合会社山崎本店酒造場",
+    "brand": "普賢",
+    "type": "麦焼酎",
+    "founded": "1688",
+    "founded_era": "元禄元年",
+    "address": "長崎県島原市白土町1065",
+    "tel": "0957-62-2175",
+    "url": "https://www.yamasaki-syuzo.co.jp/",
+    "area": "島原市",
+    "desc": "元禄元年（1688年）創業、明治17年より酒造りに専念して130年以上。元禄15年（1702年）から焼酎製造を開始。島原の雲仙湧水を使用し、日本酒・焼酎・リキュールなど100種類を超える商品を展開。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "普賢",
+        "type": "焼酎",
+        "specs": "IWC2012受賞",
+        "ingredient": ""
+      },
+      {
+        "name": "島原ナチュラルウォーター焼酎",
+        "type": "焼酎",
+        "specs": "島原の湧水使用",
+        "ingredient": ""
+      }
+    ],
+    "features": [
+      "元禄元年（1688年）創業。130年以上の酒造りの歴史",
+      "雲仙の湧水を使用し、100種類を超える日本酒・焼酎・リキュールを展開",
+      "IWC（インターナショナル・ワイン・チャレンジ）2012受賞"
+    ],
+    "nearest_station": "",
+    "source": "https://www.yamasaki-syuzo.co.jp/",
+    "lat": 32.7870,
+    "lng": 130.3690,
+    "name_en": "Yamasaki Honten Shuzojo"
+  },
+  {
+    "id": "aimusume",
+    "name": "あい娘酒造",
+    "company": "合資会社あい娘酒造",
+    "brand": "あい娘",
+    "type": "麦焼酎",
+    "founded": "1873",
+    "founded_era": "明治6年",
+    "address": "長崎県雲仙市愛野町甲1378",
+    "tel": "0957-36-0025",
+    "url": "",
+    "area": "雲仙市",
+    "desc": "明治6年（1873年）創業。雲仙の麓、「水の場所」と呼ばれる島原半島西側の愛野町に蔵を構え、150年以上にわたり手造りの日本酒と焼酎を醸す。雲仙の清水と杜氏の愛情で育まれた酒造り。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "あい娘",
+        "type": "清酒",
+        "specs": "",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "明治6年（1873年）創業。雲仙の麓で150年以上の歴史を持つ蔵元",
+      "手造りの伝統を守り、日本酒と焼酎の両方を製造"
+    ],
+    "nearest_station": "",
+    "source": "https://www.sakenomy.jp/brewery/K01N042007/",
+    "lat": 32.8240,
+    "lng": 130.1650,
+    "name_en": "Aimusume Shuzo"
+  },
+  {
+    "id": "shiratake",
+    "name": "白嶽酒造",
+    "company": "白嶽酒造株式会社",
+    "brand": "白嶽",
+    "type": "麦焼酎",
+    "founded": "1919",
+    "founded_era": "大正8年",
+    "address": "長崎県対馬市美津島町鴨居瀬490-1",
+    "tel": "",
+    "url": "https://shiratakeshuzo.co.jp/",
+    "area": "対馬市",
+    "desc": "大正8年（1919年）創業。河内酒造合名会社から白嶽酒造株式会社へ社名変更。約100年にわたり対馬唯一の酒蔵として日本酒・焼酎・リキュールを製造。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "白嶽",
+        "type": "清酒",
+        "specs": "対馬の霊峰に由来。全国新酒鑑評会3年連続金賞",
+        "ingredient": "米・米麹"
+      },
+      {
+        "name": "対馬やまねこ",
+        "type": "麦焼酎",
+        "specs": "麦焼酎80%・米焼酎20%ブレンド、アルコール25度",
+        "ingredient": "大麦・米"
+      },
+      {
+        "name": "やまねこPREMIUM",
+        "type": "麦焼酎",
+        "specs": "プレミアムブレンド",
+        "ingredient": "大麦・米"
+      }
+    ],
+    "features": [
+      "大正8年創業。約100年にわたり対馬唯一の酒蔵として営業",
+      "焼酎「やまねこ」は麦焼酎8:米焼酎2の珍しいブレンド。対馬の密造酒の隠語「やまねこ」に由来",
+      "全国新酒鑑評会で大吟醸が3年連続金賞受賞"
+    ],
+    "nearest_station": "",
+    "source": "https://shiratakeshuzo.co.jp/",
+    "lat": 34.2060,
+    "lng": 129.2870,
+    "name_en": "Shiratake Shuzo"
+  },
+  {
+    "id": "kawachi",
+    "name": "河内酒造",
+    "company": "河内酒造合名会社",
+    "brand": "",
+    "type": "麦焼酎",
+    "founded": "1919",
+    "founded_era": "大正8年",
+    "address": "長崎県対馬市上県町",
+    "tel": "",
+    "url": "",
+    "area": "対馬市",
+    "desc": "大正8年（1919年）創業。対馬で焼酎を醸す。現在は白嶽酒造株式会社に社名変更し統合されている。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [],
+    "features": [
+      "大正8年創業。現在は白嶽酒造株式会社として営業"
+    ],
+    "nearest_station": "",
+    "source": "",
+    "lat": 34.4820,
+    "lng": 129.4370,
+    "name_en": "Kawachi Shuzo"
+  },
+  {
+    "id": "ito",
+    "name": "伊藤酒造場",
+    "company": "合資会社伊藤酒造場",
+    "brand": "東露",
+    "type": "麦焼酎",
+    "founded": "1854",
+    "founded_era": "安政元年",
+    "address": "長崎県雲仙市吾妻町甲",
+    "tel": "0957-38-2035",
+    "url": "",
+    "area": "雲仙市",
+    "desc": "安政元年（1854年）創業。島原半島西側の吾妻町に蔵を構え、有明海を見下ろし雲仙普賢岳を背にした豊かな自然の中で150年以上にわたり酒造りを続ける。",
+    "visit": "",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "東露",
+        "type": "清酒",
+        "specs": "雲仙の湧水使用",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "安政元年（1854年）創業。150年以上の歴史を持つ蔵元",
+      "有明海を望み雲仙普賢岳を背にした自然豊かな環境で酒造り"
+    ],
+    "nearest_station": "",
+    "source": "https://www.sakenomy.jp/brewery/K01N042006/",
+    "lat": 32.8260,
+    "lng": 130.1780,
+    "name_en": "Ito Shuzojo"
+  },
+  {
+    "id": "yoshidaya",
+    "name": "吉田屋",
+    "company": "合資会社吉田屋",
+    "brand": "萬勝",
+    "type": "麦焼酎",
+    "founded": "1912",
+    "founded_era": "大正元年",
+    "address": "長崎県南島原市有家町山川785",
+    "tel": "0957-82-2032",
+    "url": "https://www.bansho.info/",
+    "area": "南島原市",
+    "desc": "大正元年（1912年）創業。年間生産量約90石の小さな蔵。全国でも珍しい「吊り木搾り（はねぎ搾り）」による伝統的な搾りを実施。東京農業大学の花酵母を使用した酒造りも行う。2023年にカフェ「cafe kULa」を併設。",
+    "visit": "cafe kULa併設（9:00-18:00、火曜定休）",
+    "spirit_type": "honkaku",
+    "koji_type": "",
+    "main_ingredient": "barley",
+    "brands": [
+      {
+        "name": "萬勝",
+        "type": "清酒",
+        "specs": "はねぎ搾り",
+        "ingredient": "米・米麹"
+      },
+      {
+        "name": "花酵母純米吟醸酒",
+        "type": "清酒",
+        "specs": "東京農業大学の花酵母使用",
+        "ingredient": "米・米麹"
+      }
+    ],
+    "features": [
+      "大正元年（1912年）創業。年間90石の極小規模蔵",
+      "全国でも珍しい「はねぎ搾り（吊り木搾り）」による伝統的な搾りを実施",
+      "福岡国税局酒類鑑評会で吟醸・純米の2部門で金賞受賞（2013年）"
+    ],
+    "nearest_station": "",
+    "source": "https://www.bansho.info/",
+    "lat": 32.6640,
+    "lng": 130.3110,
+    "name_en": "Yoshidaya"
+  }
+]
