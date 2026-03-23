@@ -57,14 +57,17 @@ for jf in json_files:
     # Prefecture index
     add(f'/shochu/{pref}/', '0.7', 'weekly')
 
-    # Individual pages
+    # Individual pages (ja + en + fr with hreflang cross-references)
     for d in distilleries:
         if not d.get('id'):
             continue
         ja_path = f'/shochu/{pref}/{d["id"]}.html'
         en_path = f'/shochu/en/{pref}/{d["id"]}.html'
         fr_path = f'/shochu/fr/{pref}/{d["id"]}.html'
-        add(ja_path, '0.6', 'monthly', {'ja': ja_path, 'en': en_path, 'fr': fr_path})
+        langs = {'ja': ja_path, 'en': en_path, 'fr': fr_path}
+        add(ja_path, '0.6', 'monthly', langs)
+        add(en_path, '0.5', 'monthly', langs)
+        add(fr_path, '0.5', 'monthly', langs)
 
 # Build XML
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']

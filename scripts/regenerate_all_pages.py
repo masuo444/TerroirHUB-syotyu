@@ -209,6 +209,43 @@ def generate_page(b, pref_slug):
     js_name = jsesc(name)
     js_brand = jsesc(brand or name)
 
+    # OGP meta tags
+    og_desc = esc(desc[:120]) if desc else esc(name)
+    page_url = f"https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html"
+
+    # JSON-LD: LocalBusiness + BreadcrumbList
+    local_biz = {
+        "@type": "LocalBusiness",
+        "name": name,
+        "description": desc[:200] if desc else name,
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": area,
+            "addressRegion": pref_name,
+            "addressCountry": "JP"
+        }
+    }
+    if url:
+        local_biz["url"] = url
+    if founded:
+        local_biz["foundingDate"] = founded
+    if tel:
+        local_biz["telephone"] = tel
+
+    breadcrumb = {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Terroir HUB SHOCHU", "item": f"https://{DOMAIN}/"},
+            {"@type": "ListItem", "position": 2, "name": pref_name, "item": f"https://{DOMAIN}/shochu/{pref_slug}/"},
+            {"@type": "ListItem", "position": 3, "name": name}
+        ]
+    }
+
+    jsonld = json.dumps({
+        "@context": "https://schema.org",
+        "@graph": [local_biz, breadcrumb]
+    }, ensure_ascii=False, indent=2)
+
     return f'''<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -216,11 +253,21 @@ def generate_page(b, pref_slug):
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>{esc(name)} — Terroir HUB</title>
 <meta name="description" content="{esc(desc[:120]) if desc else esc(name)}">
+<meta property="og:title" content="{esc(name)} — Terroir HUB SHOCHU">
+<meta property="og:description" content="{og_desc}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{page_url}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{esc(name)} — Terroir HUB SHOCHU">
+<meta name="twitter:description" content="{og_desc}">
 <link rel="canonical" href="https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="en" href="https://{DOMAIN}/shochu/en/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="fr" href="https://{DOMAIN}/shochu/fr/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/shochu/en/{pref_slug}/{b['id']}.html">
+<script type="application/ld+json">
+{jsonld}
+</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>

@@ -6,6 +6,7 @@
 <title>焼酎・泡盛検索は Terroir HUB SHOCHU — 蒸留所・銘柄・AIサクラで「調べるならここ」</title>
 <meta name="description" content="焼酎・泡盛を調べるならここ。全国約970蒸留所の公式データベース。蒸留所・銘柄・原料・地域をAIコンシェルジュ「サクラ」と会話で検索。嘘をつかない、焼酎・泡盛の決定版サイト。">
 <meta name="keywords" content="焼酎,泡盛,蒸留所,芋焼酎,麦焼酎,米焼酎,黒糖焼酎,焼酎検索,AI検索,サクラ,黒霧島,森伊蔵,魔王,蒸留所見学,料理ペアリング">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="canonical" href="https://shochu.terroirhub.com/">
 <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/">
 <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/en/">
@@ -314,33 +315,33 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
     </a>
     <a class="rc" href="/shochu/region/chubu.html">
       <div class="rc-name">中部</div>
-      <div class="rc-count">100+ <span>蒸留所</span></div>
-      <div class="rc-prefs">長野 / 新潟 / 静岡 / 愛知 / 他</div>
+      <div class="rc-count">13 <span>蒸留所</span></div>
+      <div class="rc-prefs">長野3 / 新潟2 / 岐阜2 / 愛知2 / 他</div>
     </a>
     <a class="rc" href="/shochu/region/kanto.html">
       <div class="rc-name">関東</div>
-      <div class="rc-count">80+ <span>蒸留所</span></div>
-      <div class="rc-prefs">東京 / 埼玉 / 千葉 / 他</div>
+      <div class="rc-count">11 <span>蒸留所</span></div>
+      <div class="rc-prefs">東京5 / 千葉2 / 埼玉1 / 他</div>
     </a>
     <a class="rc" href="/shochu/region/kinki.html">
       <div class="rc-name">近畿</div>
-      <div class="rc-count">90+ <span>蒸留所</span></div>
-      <div class="rc-prefs">京都 / 大阪 / 兵庫 / 奈良 / 和歌山</div>
+      <div class="rc-count">9 <span>蒸留所</span></div>
+      <div class="rc-prefs">三重2 / 兵庫2 / 京都1 / 大阪1 / 他</div>
     </a>
     <a class="rc" href="/shochu/region/chugoku.html">
       <div class="rc-name">中国</div>
-      <div class="rc-count">60+ <span>蒸留所</span></div>
-      <div class="rc-prefs">広島 / 岡山 / 山口 / 鳥取 / 島根</div>
+      <div class="rc-count">8 <span>蒸留所</span></div>
+      <div class="rc-prefs">島根2 / 広島2 / 山口2 / 鳥取1 / 岡山1</div>
     </a>
     <a class="rc" href="/shochu/region/shikoku.html">
       <div class="rc-name">四国</div>
-      <div class="rc-count">40+ <span>蒸留所</span></div>
-      <div class="rc-prefs">愛媛 / 高知 / 香川 / 徳島</div>
+      <div class="rc-count">7 <span>蒸留所</span></div>
+      <div class="rc-prefs">香川2 / 愛媛2 / 高知2 / 徳島1</div>
     </a>
     <a class="rc" href="/shochu/region/tohoku.html">
       <div class="rc-name">北海道・東北</div>
-      <div class="rc-count">100+ <span>蒸留所</span></div>
-      <div class="rc-prefs">北海道 / 福島 / 宮城 / 岩手 / 他</div>
+      <div class="rc-count">7 <span>蒸留所</span></div>
+      <div class="rc-prefs">北海道2 / 福島2 / 秋田1 / 青森1 / 山形1</div>
     </a>
   </div>
 
@@ -537,22 +538,22 @@ function openPanel(){alert('AIサクラは近日公開予定です。');}
 
 // Prefecture grid
 const PREFS=[
-  {s:'kagoshima',n:'鹿児島',c:0},{s:'miyazaki',n:'宮崎',c:0},{s:'oita',n:'大分',c:0},
-  {s:'kumamoto',n:'熊本',c:0},{s:'okinawa',n:'沖縄',c:0},{s:'nagasaki',n:'長崎',c:0},
-  {s:'saga',n:'佐賀',c:0},{s:'fukuoka',n:'福岡',c:0},{s:'hokkaido',n:'北海道',c:0},
-  {s:'aomori',n:'青森',c:0},{s:'iwate',n:'岩手',c:0},{s:'miyagi',n:'宮城',c:0},
-  {s:'akita',n:'秋田',c:0},{s:'yamagata',n:'山形',c:0},{s:'fukushima',n:'福島',c:0},
-  {s:'ibaraki',n:'茨城',c:0},{s:'tochigi',n:'栃木',c:0},{s:'gunma',n:'群馬',c:0},
-  {s:'saitama',n:'埼玉',c:0},{s:'chiba',n:'千葉',c:0},{s:'tokyo',n:'東京',c:0},
-  {s:'kanagawa',n:'神奈川',c:0},{s:'niigata',n:'新潟',c:0},{s:'toyama',n:'富山',c:0},
-  {s:'ishikawa',n:'石川',c:0},{s:'fukui',n:'福井',c:0},{s:'yamanashi',n:'山梨',c:0},
-  {s:'nagano',n:'長野',c:0},{s:'gifu',n:'岐阜',c:0},{s:'shizuoka',n:'静岡',c:0},
-  {s:'aichi',n:'愛知',c:0},{s:'mie',n:'三重',c:0},{s:'shiga',n:'滋賀',c:0},
-  {s:'kyoto',n:'京都',c:0},{s:'osaka',n:'大阪',c:0},{s:'hyogo',n:'兵庫',c:0},
-  {s:'nara',n:'奈良',c:0},{s:'wakayama',n:'和歌山',c:0},{s:'tottori',n:'鳥取',c:0},
-  {s:'shimane',n:'島根',c:0},{s:'okayama',n:'岡山',c:0},{s:'hiroshima',n:'広島',c:0},
-  {s:'yamaguchi',n:'山口',c:0},{s:'tokushima',n:'徳島',c:0},{s:'kagawa',n:'香川',c:0},
-  {s:'ehime',n:'愛媛',c:0},{s:'kochi',n:'高知',c:0}
+  {s:'kagoshima',n:'鹿児島',c:118},{s:'miyazaki',n:'宮崎',c:34},{s:'oita',n:'大分',c:35},
+  {s:'kumamoto',n:'熊本',c:32},{s:'okinawa',n:'沖縄',c:48},{s:'nagasaki',n:'長崎',c:24},
+  {s:'saga',n:'佐賀',c:10},{s:'fukuoka',n:'福岡',c:33},{s:'hokkaido',n:'北海道',c:2},
+  {s:'aomori',n:'青森',c:1},{s:'iwate',n:'岩手',c:0},{s:'miyagi',n:'宮城',c:0},
+  {s:'akita',n:'秋田',c:1},{s:'yamagata',n:'山形',c:1},{s:'fukushima',n:'福島',c:2},
+  {s:'ibaraki',n:'茨城',c:1},{s:'tochigi',n:'栃木',c:1},{s:'gunma',n:'群馬',c:0},
+  {s:'saitama',n:'埼玉',c:1},{s:'chiba',n:'千葉',c:2},{s:'tokyo',n:'東京',c:5},
+  {s:'kanagawa',n:'神奈川',c:1},{s:'niigata',n:'新潟',c:2},{s:'toyama',n:'富山',c:1},
+  {s:'ishikawa',n:'石川',c:1},{s:'fukui',n:'福井',c:0},{s:'yamanashi',n:'山梨',c:1},
+  {s:'nagano',n:'長野',c:3},{s:'gifu',n:'岐阜',c:2},{s:'shizuoka',n:'静岡',c:1},
+  {s:'aichi',n:'愛知',c:2},{s:'mie',n:'三重',c:2},{s:'shiga',n:'滋賀',c:1},
+  {s:'kyoto',n:'京都',c:1},{s:'osaka',n:'大阪',c:1},{s:'hyogo',n:'兵庫',c:2},
+  {s:'nara',n:'奈良',c:1},{s:'wakayama',n:'和歌山',c:1},{s:'tottori',n:'鳥取',c:1},
+  {s:'shimane',n:'島根',c:2},{s:'okayama',n:'岡山',c:1},{s:'hiroshima',n:'広島',c:2},
+  {s:'yamaguchi',n:'山口',c:2},{s:'tokushima',n:'徳島',c:1},{s:'kagawa',n:'香川',c:2},
+  {s:'ehime',n:'愛媛',c:2},{s:'kochi',n:'高知',c:2}
 ];
 const pg=document.getElementById('pref-grid');
 PREFS.forEach(p=>{
