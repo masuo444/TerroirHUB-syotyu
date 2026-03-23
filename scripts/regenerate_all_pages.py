@@ -257,9 +257,11 @@ def generate_page(b, pref_slug):
 <meta property="og:description" content="{og_desc}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="https://{DOMAIN}/img/hero.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{esc(name)} — Terroir HUB SHOCHU">
 <meta name="twitter:description" content="{og_desc}">
+<meta name="twitter:image" content="https://{DOMAIN}/img/hero.jpg">
 <link rel="canonical" href="https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="en" href="https://{DOMAIN}/shochu/en/{pref_slug}/{b['id']}.html">

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How Shochu Is Made — Koji, Fermentation, Distillation &amp; Aging | Terroir HUB SHOCHU</title>
+<meta name="description" content="A step-by-step guide to shochu production. Koji-making (black, white, and yellow koji), primary and secondary fermentation, atmospheric vs. vacuum distillation, and aging in clay pots, barrels, and tanks. Includes awamori's all-koji method.">
+<link rel="canonical" href="https://shochu.terroirhub.com/shochu/guide/en/production.html">
+<link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/guide/production.html">
+<link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/guide/en/production.html">
+<link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/guide/production.html">
+<meta property="og:title" content="How Shochu Is Made — Koji, Distillation &amp; Aging | Terroir HUB SHOCHU">
+<meta property="og:description" content="From koji-making to distillation and aging -- a complete guide to shochu production.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://shochu.terroirhub.com/shochu/guide/en/production.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the difference between black koji, white koji, and yellow koji?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Black koji (Aspergillus luchuensis) produces large amounts of citric acid and yields shochu with deep body and bold flavor. It is the only koji used for awamori. White koji is a natural mutation of black koji, discovered by Genichiro Kawachi in 1918. It produces citric acid on par with black koji but creates lighter, fruitier shochu. Most mainland sweet potato shochu today uses white koji. Yellow koji (Aspergillus oryzae) is the same mold used for sake brewing. It produces little citric acid, making temperature control more challenging, but yields shochu with elegant, floral aromatics."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between atmospheric and vacuum distillation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Atmospheric distillation is the traditional method, conducted at normal air pressure with a boiling point around 90-100 degrees C. The higher temperature extracts more flavor compounds from the mash, producing shochu with rich body and bold character. Vacuum distillation lowers the pressure inside the still to reduce the boiling point to around 40-50 degrees C. This was popularized in the 1970s. The lower temperature minimizes extraction of off-flavors, resulting in clean, light, and fruity shochu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the primary and secondary fermentation stages in shochu production?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Primary fermentation (ichiji-shikomi) combines koji with water and yeast to create a yeast starter (shubo) over about 5-8 days. Secondary fermentation (niji-shikomi) adds the main ingredient (sweet potato, barley, rice, or brown sugar) and more water to the starter, fermenting for another 8-14 days. This two-stage approach ensures stable fermentation and rich flavor development. Awamori is the exception -- it uses a single-stage, all-koji fermentation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the different methods for aging shochu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There are three main aging methods. Kame (clay pot) storage is the traditional approach where spirit ages in porous ceramic vessels, allowing gentle oxidation and mineral extraction for a mellow character. Barrel aging in oak casks (sherry, bourbon, or brandy barrels) imparts amber color along with vanilla, caramel, and spice notes. Tank storage in stainless steel or enamel-lined tanks maintains the original flavor of the spirit while softening the alcohol's edge -- the most common method."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between honkaku shochu and korui shochu?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Honkaku shochu (single-distilled, also called otsu-rui) is distilled in a pot still and retains rich flavors from its base ingredient. It must be 45% ABV or lower. Korui shochu (continuously distilled, also called ko-rui) is produced in a column still, yielding a clean, neutral spirit. It must be below 36% ABV. When people talk about 'shochu' in the context of craft or tradition, they almost always mean honkaku shochu."
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:#fff;color:#222;font-family:'Noto Sans JP',sans-serif;font-size:16px;line-height:1.85;-webkit-font-smoothing:antialiased;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.95);backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,0,0,0.06);}
+.nav-inner{display:flex;align-items:center;height:54px;padding:0 28px;max-width:1280px;margin:0 auto;}
+.nav-logo{font-family:'Shippori Mincho',serif;font-size:18px;font-weight:700;color:#1a1a1a;text-decoration:none;letter-spacing:0.04em;}
+.nav-logo span{color:#8B5E3C;}
+.nav-links{display:flex;align-items:center;gap:4px;margin-left:32px;}
+.nav-links a{font-size:13px;color:#555;text-decoration:none;padding:6px 12px;border-radius:6px;transition:all 0.2s;font-weight:500;}
+.nav-links a:hover,.nav-links a.active{color:#8B5E3C;background:rgba(139,94,60,0.06);}
+@media(max-width:700px){.nav-links{display:none;}}
+.breadcrumb{margin-top:54px;padding:14px 28px;background:#fafaf8;border-bottom:1px solid #f0ede8;font-size:13px;color:#888;}
+.breadcrumb a{color:#8B5E3C;text-decoration:none;}
+.breadcrumb a:hover{text-decoration:underline;}
+.breadcrumb span{margin:0 6px;color:#ccc;}
+.guide-container{max-width:840px;margin:0 auto;padding:48px 28px 80px;}
+h1{font-family:'Shippori Mincho',serif;font-size:clamp(28px,5vw,40px);font-weight:700;color:#2A2420;margin-bottom:16px;line-height:1.3;text-align:center;}
+.lead{text-align:center;color:#666;margin-bottom:48px;font-size:16px;}
+h2{font-family:'Shippori Mincho',serif;font-size:24px;color:#2A2420;margin:48px 0 16px;padding-bottom:8px;border-bottom:2px solid #8B5E3C;}
+h3{font-family:'Shippori Mincho',serif;font-size:19px;color:#2A2420;margin:28px 0 12px;}
+p{margin-bottom:16px;color:#444;}
+.process-step{margin-bottom:40px;padding:28px 32px;background:#fafaf8;border-radius:12px;border:1px solid #f0ede8;border-left:4px solid #8B5E3C;}
+.process-step h2{margin-top:0;border:none;padding:0;}
+.step-num{display:inline-block;background:#8B5E3C;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:12px;}
+table{width:100%;border-collapse:collapse;margin:16px 0 24px;font-size:14px;}
+th{background:#2A2420;color:#fff;padding:10px 14px;text-align:left;font-weight:500;font-size:13px;}
+td{padding:10px 14px;border-bottom:1px solid #f0ede8;}
+tr:hover td{background:#fafaf8;}
+.highlight-box{background:#fff8f0;border:1px solid #f0dcc8;border-radius:10px;padding:20px 24px;margin:20px 0;}
+.highlight-box strong{color:#8B5E3C;}
+.prev-next{display:flex;justify-content:space-between;margin-top:48px;padding-top:24px;border-top:1px solid #f0ede8;}
+.prev-next a{color:#8B5E3C;text-decoration:none;font-size:14px;}
+.prev-next a:hover{text-decoration:underline;}
+.guide-footer{margin-top:64px;padding-top:32px;border-top:1px solid #f0ede8;text-align:center;color:#aaa;font-size:13px;}
+.guide-footer a{color:#8B5E3C;text-decoration:none;}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<div class="nav-inner">
+<a href="/" class="nav-logo">Terroir HUB <span>SHOCHU</span></a>
+<div class="nav-links">
+<a href="/shochu/guide/en/">Guide</a>
+<a href="/shochu/guide/en/types.html">Types</a>
+<a href="/shochu/guide/en/production.html" class="active">Production</a>
+<a href="/shochu/guide/en/drinking.html">Serving</a>
+<a href="/shochu/guide/en/pairing.html">Pairing</a>
+<a href="/shochu/guide/en/history.html">History</a>
+<a href="/shochu/guide/en/awamori.html">Awamori</a>
+<a href="/shochu/guide/en/glossary.html">Glossary</a>
+</div>
+</div>
+</nav>
+
+<div class="breadcrumb">
+<a href="/">Home</a><span>></span><a href="/shochu/guide/en/">Shochu Guide</a><span>></span><strong>How Shochu Is Made</strong>
+</div>
+
+<main class="guide-container">
+
+<h1>How Shochu Is Made</h1>
+<p class="lead">From koji-making to distillation and aging -- every step in the production process, and the choices that shape each shochu's final character.</p>
+
+<p>Honkaku shochu production follows five main stages: koji-making, primary fermentation, secondary fermentation, distillation, and aging. The decisions made at each stage -- the type of koji, the distillation method, the aging vessel -- profoundly influence the flavor of the finished spirit.</p>
+
+<!-- STEP 1 -->
+<div class="process-step">
+<span class="step-num">STEP 1</span>
+<h2>Koji-Making (Seikiku)</h2>
+
+<p>The first step in shochu production -- and the one that sets the direction for the entire flavor profile. Steamed rice (or barley) is inoculated with koji mold spores, then carefully managed for temperature and humidity over roughly 40 to 48 hours as the koji develops.</p>
+
+<p>The enzymes produced by the koji mold (particularly amylase) break down starches into sugars. The mold also generates large quantities of citric acid, which acts as a natural defense against spoilage bacteria.</p>
+
+<h3>Black Koji, White Koji, and Yellow Koji</h3>
+
+<table>
+<tr><th>Koji Type</th><th>Scientific Name</th><th>Citric Acid</th><th>Flavor Character</th><th>Primary Use</th></tr>
+<tr><td><strong>Black Koji</strong></td><td>Aspergillus luchuensis</td><td>High</td><td>Bold, robust, full-bodied</td><td>Awamori (exclusively), imo shochu</td></tr>
+<tr><td><strong>White Koji</strong></td><td>A. luchuensis var. kawachii</td><td>High</td><td>Light, fruity, smooth</td><td>Imo shochu (mainstream), mugi shochu</td></tr>
+<tr><td><strong>Yellow Koji</strong></td><td>Aspergillus oryzae</td><td>Low</td><td>Elegant, floral, delicate</td><td>Sake, select imo shochu</td></tr>
+</table>
+
+<div class="highlight-box">
+<strong>The Discovery of White Koji:</strong> In 1918, Genichiro Kawachi noticed a white-spored mutant strain while cultivating black koji. This "Kawachi-kin" (Kawachi mold) matched the citric acid output of black koji but had a practical advantage -- its white spores did not stain the workspace black. It spread rapidly through the industry and is now used for the majority of mainland shochu.
+</div>
+</div>
+
+<!-- STEP 2 -->
+<div class="process-step">
+<span class="step-num">STEP 2</span>
+<h2>Primary Fermentation (Yeast Starter)</h2>
+
+<p>Water and yeast are added to the finished koji and left to ferment in a tank or clay pot for about 5 to 8 days. During this stage, the yeast multiplies rapidly and begins converting sugars into alcohol. The resulting mixture is called the "primary mash" or shubo (yeast starter).</p>
+
+<p>Temperature control is critical: slow, cool fermentation produces fruitier aromas, while slightly warmer conditions yield bolder, more assertive flavors. The choice of yeast strain also has a significant impact on the aromatic profile.</p>
+</div>
+
+<!-- STEP 3 -->
+<div class="process-step">
+<span class="step-num">STEP 3</span>
+<h2>Secondary Fermentation</h2>
+
+<p>The primary mash is combined with the main ingredient -- steamed sweet potato, steamed barley, steamed rice, brown sugar, or another base material -- plus additional water, and fermented for another 8 to 14 days. The koji enzymes continue to convert starches into sugars, while the yeast drives alcoholic fermentation.</p>
+
+<p>For sweet potato shochu, the potatoes must be used immediately after harvest because they spoil quickly. Distillers time their production to coincide with the potato harvest season from August through December -- a tradition known as "seasonal potato brewing."</p>
+
+<p>By the end of secondary fermentation, the mash reaches an alcohol content of roughly 14 to 18%. This two-stage fermentation is a technique unique to Japanese shochu production.</p>
+
+<div class="highlight-box">
+<strong>Awamori's All-Koji Fermentation:</strong> Awamori skips the two-stage process entirely. All the rice is converted into koji, and water and yeast are added in a single step. This "all-koji fermentation" (zenryo koji-jikomi) is the biggest production difference between awamori and mainland shochu. Because the entire mash is koji, enzyme activity is exceptionally strong, producing awamori's distinctive depth and richness.
+</div>
+</div>
+
+<!-- STEP 4 -->
+<div class="process-step">
+<span class="step-num">STEP 4</span>
+<h2>Distillation</h2>
+
+<p>The fermented mash is loaded into a pot still, heated to vaporize the alcohol and aromatic compounds, then cooled back into liquid form. Honkaku shochu must always be distilled in a pot still (a column still would make it korui shochu instead).</p>
+
+<h3>Atmospheric vs. Vacuum Distillation</h3>
+
+<table>
+<tr><th>Method</th><th>Pressure</th><th>Boiling Point</th><th>Flavor Character</th><th>Best Suited For</th></tr>
+<tr><td><strong>Atmospheric</strong></td><td>Normal (1 atm)</td><td>~90-100 C</td><td>Rich, bold, full of raw-ingredient character</td><td>Traditional imo shochu, awamori, Kuma shochu</td></tr>
+<tr><td><strong>Vacuum</strong></td><td>~0.1-0.3 atm</td><td>~40-50 C</td><td>Clean, light, fruity</td><td>Mugi shochu, kome shochu, kokuto shochu</td></tr>
+</table>
+
+<p>Atmospheric distillation is the traditional method. The higher temperatures extract higher-boiling-point compounds like fusel oils, giving the spirit a bold, ingredient-forward character. Vacuum distillation was introduced to the industry in the 1970s by barley shochu producers in Oita Prefecture. By reducing the boiling point, it minimizes the extraction of heavier compounds, producing a cleaner, more approachable spirit.</p>
+
+<p>The raw spirit straight off the still typically runs between 36 and 44% ABV. Most producers then dilute with water to reach the standard 25% (or 20%) before bottling.</p>
+</div>
+
+<!-- STEP 5 -->
+<div class="process-step">
+<span class="step-num">STEP 5</span>
+<h2>Aging &amp; Storage</h2>
+
+<p>Freshly distilled shochu is rarely bottled immediately. It rests for a period -- from months to years -- to let the flavors settle and integrate. The choice of aging vessel has a major influence on the final character.</p>
+
+<h3>Kame (Clay Pot) Storage</h3>
+<p>The traditional aging method, particularly in Kagoshima and Okinawa. The porous ceramic walls of the kame allow trace amounts of air exchange, promoting gentle oxidation. Over time, the spirit becomes smoother and gains subtle mineral nuances from the clay. This method produces a distinctly mellow, rounded character.</p>
+
+<h3>Barrel Aging</h3>
+<p>Aging in oak casks -- sherry barrels, bourbon barrels, brandy barrels, and others -- imparts an amber color and layers of vanilla, caramel, and spice. However, Japanese liquor tax law limits how dark a shochu can be while still being labeled "shochu." If the color from barrel aging exceeds certain thresholds, the product may need to be labeled as "spirits" instead.</p>
+
+<h3>Tank Storage</h3>
+<p>The most common method. Stainless steel or enamel-lined tanks are highly sealed, minimizing outside influence. The spirit retains its original character while the harshness of fresh distillate gradually softens.</p>
+
+<div class="highlight-box">
+<strong>Awamori's Kusu (Aged Awamori):</strong> Awamori is exceptionally well-suited to long-term aging. Spirit aged three years or more earns the designation "kusu" (ancient liquor), and it continues to improve at 5, 10, and even 25 years. Okinawa has a centuries-old tradition called "shitsugi" -- similar to the solera system used for sherry -- where older awamori is progressively topped up with younger spirit, creating layers of complexity across generations.
+</div>
+</div>
+
+<section>
+<h2>Honkaku Shochu Production: Summary</h2>
+<table>
+<tr><th>Stage</th><th>Duration</th><th>What Happens</th></tr>
+<tr><td>1. Koji-Making (Seikiku)</td><td>~40-48 hours</td><td>Koji mold grows on steamed rice (or barley)</td></tr>
+<tr><td>2. Primary Fermentation</td><td>~5-8 days</td><td>Koji + water + yeast create the yeast starter</td></tr>
+<tr><td>3. Secondary Fermentation</td><td>~8-14 days</td><td>Main ingredient added; full fermentation</td></tr>
+<tr><td>4. Distillation</td><td>Several hours</td><td>Pot still extracts alcohol and aromatics</td></tr>
+<tr><td>5. Aging &amp; Storage</td><td>Months to years</td><td>Clay pot, barrel, or tank mellows the spirit</td></tr>
+<tr><td>6. Dilution &amp; Bottling</td><td>-</td><td>Adjusted to 25% ABV and bottled</td></tr>
+</table>
+</section>
+
+<div class="prev-next">
+<a href="/shochu/guide/en/types.html">&larr; Types of Shochu</a>
+<a href="/shochu/guide/en/drinking.html">How to Drink Shochu &rarr;</a>
+</div>
+
+<footer class="guide-footer">
+<p>&copy; Terroir HUB SHOCHU -- <a href="/">Back to Top</a></p>
+</footer>
+
+</main>
+</body>
+</html>
