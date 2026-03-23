@@ -489,6 +489,30 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
 .fade-in:nth-child(2){transition-delay:0.08s;}
 .fade-in:nth-child(3){transition-delay:0.16s;}
 .fade-in:nth-child(4){transition-delay:0.24s;}
+
+/* ═══ MASU SECTION ═══ */
+.masu-section{background:#f8f5f0;padding:72px 24px;text-align:center;}
+.masu-inner{max-width:1200px;margin:0 auto;}
+.masu-label{font-size:12px;color:#8B5E3C;letter-spacing:0.15em;font-weight:600;margin-bottom:8px;}
+.masu-heading{font-family:'Shippori Mincho',serif;font-size:28px;color:#1a1a1a;margin-bottom:12px;font-weight:600;}
+.masu-desc{font-size:14px;color:#555;line-height:1.9;max-width:640px;margin:0 auto 40px;}
+.masu-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-bottom:40px;}
+.masu-card{border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 2px 16px rgba(0,0,0,0.06);transition:transform 0.3s,box-shadow 0.3s;}
+.masu-card:hover{transform:translateY(-4px);box-shadow:0 8px 28px rgba(0,0,0,0.1);}
+.masu-sp-only{display:none;}
+.masu-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;}
+.masu-card-body{padding:16px 18px;}
+.masu-card-title{font-family:'Shippori Mincho',serif;font-size:15px;color:#1a1a1a;font-weight:600;margin-bottom:6px;}
+.masu-card-text{font-size:12px;color:#777;line-height:1.7;}
+.masu-cta{display:inline-block;background:#1a2744;color:#fff;padding:14px 48px;border-radius:40px;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:0.05em;transition:background 0.3s,transform 0.2s;}
+.masu-cta:hover{background:#2a3a5a;transform:translateY(-2px);}
+@media(max-width:640px){
+  .masu-section{padding:48px 16px;}
+  .masu-heading{font-size:22px;}
+  .masu-pc-only{display:none !important;}
+  .masu-sp-only{display:block !important;}
+  .masu-grid{grid-template-columns:1fr;}
+}
 </style>
 </head>
 <body>
