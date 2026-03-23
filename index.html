@@ -1050,35 +1050,57 @@ function heroSearch(){
   if(!q){document.getElementById('hero-results').style.display='none';return;}
   loadSearchIndex().then(function(){
     var ql=q.toLowerCase();
+    // 複数キーワード対応（スペース区切り）
+    var keywords=ql.split(/\s+/).filter(function(k){return k.length>0;});
     var scored=heroSearchIndex.map(function(b){
       var s=0;
-      if(b.b&&b.b===q) s+=100;
-      else if(b.b&&b.b.toLowerCase()===ql) s+=90;
-      if(b.n&&b.n===q) s+=80;
-      else if(b.n&&b.n.toLowerCase()===ql) s+=70;
-      if(b.b&&b.b.startsWith(q)) s+=60;
-      else if(b.b&&b.b.toLowerCase().includes(ql)) s+=40;
-      if(b.n&&b.n.startsWith(q)) s+=50;
-      else if(b.n&&b.n.toLowerCase().includes(ql)) s+=30;
-      if(b.ne&&b.ne.toLowerCase().includes(ql)) s+=20;
-      if(b.a&&b.a.includes(ql)) s+=10;
-      if(b.br&&b.br.toLowerCase().includes(ql)) s+=5;
+      var fl=(b.f||'').toLowerCase();
+      // 完全一致（最高優先）
+      if(b.b&&b.b===q) s+=200;
+      if(b.n&&b.n===q) s+=180;
+      // 銘柄名一致（ブランド検索の核心）
+      if(b.b&&b.b.toLowerCase()===ql) s+=150;
+      if(b.br&&b.br.toLowerCase().includes(ql)) s+=140;
+      // 蒸留所名一致
+      if(b.n&&b.n.toLowerCase()===ql) s+=130;
+      // 前方一致
+      if(b.b&&b.b.toLowerCase().startsWith(ql)) s+=100;
+      if(b.n&&b.n.toLowerCase().startsWith(ql)) s+=90;
+      // 部分一致（銘柄・蒸留所名）
+      if(b.b&&b.b.toLowerCase().includes(ql)) s+=70;
+      if(b.n&&b.n.toLowerCase().includes(ql)) s+=60;
+      // 英語名
+      if(b.ne&&b.ne.toLowerCase().includes(ql)) s+=50;
+      // 地域・種類
+      if(b.pn&&b.pn.includes(ql)) s+=40;
+      if(b.a&&b.a.includes(ql)) s+=35;
+      if(b.t&&b.t.includes(ql)) s+=30;
+      if(b.k&&b.k.includes(ql)) s+=25;
+      // フルテキスト（最後の手段）
+      if(s===0&&fl.includes(ql)) s+=10;
+      // 複数キーワード: 全キーワードがフルテキストに含まれる場合ボーナス
+      if(keywords.length>1){
+        var allMatch=keywords.every(function(k){return fl.includes(k);});
+        if(allMatch) s+=80;
+      }
       return {b:b,s:s};
     }).filter(function(x){return x.s>0;}).sort(function(a,b){return b.s-a.s;});
-    var results=scored.map(function(x){return x.b;}).slice(0,10);
+    var results=scored.map(function(x){return x.b;}).slice(0,12);
     var el=document.getElementById('hero-results');
     if(results.length===0){
-      el.innerHTML='<div style="padding:20px;text-align:center;font-size:13px;color:#aaa;">\u300C'+escHtml(q)+'\u300D\u306B\u4E00\u81F4\u3059\u308B\u84B8\u7559\u6240\u30FB\u9298\u67C4\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093</div>';
+      el.innerHTML='<div style="padding:20px;text-align:center;font-size:13px;color:#aaa;">「'+escHtml(q)+'」に一致する蒸留所・銘柄が見つかりません<br><a onclick="openPanel()" style="color:#8B5E3C;cursor:pointer;margin-top:8px;display:inline-block;">🌸 サクラに聞いてみる</a></div>';
       el.style.display='block';
       return;
     }
     el.innerHTML=results.map(function(r){
+      var typeLabel=r.t||'';
+      var kojiLabel=r.k?(' · '+r.k):'';
       return '<a href="/shochu/'+encodeURIComponent(r.p)+'/'+encodeURIComponent(r.id)+'.html" style="display:flex;align-items:center;gap:12px;padding:12px 16px;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;transition:background 0.15s;" onmouseover="this.style.background=\'#fafaf8\'" onmouseout="this.style.background=\'#fff\'">' +
         '<div style="width:36px;height:36px;background:linear-gradient(135deg,#8B5E3C,#6B4528);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:600;flex-shrink:0;">'+escHtml(r.n?r.n[0]:'酎')+'</div>' +
         '<div style="flex:1;min-width:0;">' +
           '<div style="font-size:14px;font-weight:500;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">'+escHtml(r.n)+'</div>' +
-          '<div style="font-size:11px;color:#8B5E3C;">'+escHtml(r.b)+'</div>' +
-          '<div style="font-size:10px;color:#aaa;">'+(r.f?escHtml(r.f)+'\u5E74 \u00B7 ':'')+escHtml(r.a)+'</div>' +
+          '<div style="font-size:12px;color:#8B5E3C;font-weight:500;">'+escHtml(r.b||'')+(r.br&&r.br!==r.b?' <span style="color:#aaa;font-weight:400;font-size:10px;">'+escHtml(r.br.substring(0,40))+'</span>':'')+'</div>' +
+          '<div style="font-size:10px;color:#aaa;">'+escHtml(r.pn)+' '+escHtml(r.a||'')+(r.fd?' · 創業'+escHtml(r.fd)+'年':'')+(typeLabel?' · '+escHtml(typeLabel):'')+'</div>' +
         '</div>' +
       '</a>';
     }).join('');
