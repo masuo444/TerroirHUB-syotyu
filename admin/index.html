@@ -185,19 +185,39 @@ tr:hover td{background:var(--accent-glow);transition:background 0.15s;}
   <div id="section-accounts" class="admin-section">
   <!-- アカウント管理 -->
   <div class="panel">
-    <div class="panel-title"><span id="label-accounts-title">蒸留所アカウント管理</span> <span id="label-accounts-table-name">distillery_accounts</span></div>
+    <div class="panel-title">統合アカウント管理 <span>producer_accounts（全ジャンル共通）</span></div>
+
+    <!-- ジャンル選択フィルター -->
+    <div style="display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap;">
+      <button class="acct-filter active" data-filter="all" onclick="filterAccounts('all',this)" style="background:var(--accent);color:#fff;border:none;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;">すべて</button>
+      <button class="acct-filter" data-filter="sake" onclick="filterAccounts('sake',this)" style="background:#1a1d27;color:#888;border:1px solid #2a2d37;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;">SAKE</button>
+      <button class="acct-filter" data-filter="shochu" onclick="filterAccounts('shochu',this)" style="background:#1a1d27;color:#888;border:1px solid #2a2d37;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;">SHOCHU</button>
+      <button class="acct-filter" data-filter="whisky" onclick="filterAccounts('whisky',this)" style="background:#1a1d27;color:#888;border:1px solid #2a2d37;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;">WHISKY</button>
+      <button class="acct-filter" data-filter="wine" onclick="filterAccounts('wine',this)" style="background:#1a1d27;color:#888;border:1px solid #2a2d37;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;">WINE</button>
+      <button class="acct-filter" data-filter="beer" onclick="filterAccounts('beer',this)" style="background:#1a1d27;color:#888;border:1px solid #2a2d37;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;">BEER</button>
+    </div>
 
     <!-- 新規作成フォーム -->
     <div style="background:#0f1117;border:1px solid #2a2d37;border-radius:8px;padding:16px;margin-bottom:16px;">
       <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:12px;">新規アカウント作成</div>
-      <div style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px;align-items:end;">
+      <div style="display:grid;grid-template-columns:120px 1fr 1fr 1fr auto;gap:8px;align-items:end;">
         <div>
-          <label style="display:block;font-size:10px;color:#888;margin-bottom:4px;" id="label-id-field">蒸留所ID（英数字）</label>
-          <input id="new-producer-id" type="text" placeholder="" style="width:100%;height:36px;padding:0 10px;background:#1a1d27;border:1px solid #2a2d37;border-radius:6px;color:#fff;font-size:13px;outline:none;" autocapitalize="none">
+          <label style="display:block;font-size:10px;color:#888;margin-bottom:4px;">ジャンル</label>
+          <select id="new-producer-cat" style="width:100%;height:36px;padding:0 6px;background:#1a1d27;border:1px solid #2a2d37;border-radius:6px;color:#fff;font-size:12px;outline:none;">
+            <option value="sake">SAKE</option>
+            <option value="shochu" selected>SHOCHU</option>
+            <option value="whisky">WHISKY</option>
+            <option value="wine">WINE</option>
+            <option value="beer">BEER</option>
+          </select>
         </div>
         <div>
-          <label style="display:block;font-size:10px;color:#888;margin-bottom:4px;" id="label-name-field">蒸留所名</label>
-          <input id="new-producer-name" type="text" placeholder="" style="width:100%;height:36px;padding:0 10px;background:#1a1d27;border:1px solid #2a2d37;border-radius:6px;color:#fff;font-size:13px;outline:none;">
+          <label style="display:block;font-size:10px;color:#888;margin-bottom:4px;">ID（英数字）</label>
+          <input id="new-producer-id" type="text" placeholder="例: kirishima" style="width:100%;height:36px;padding:0 10px;background:#1a1d27;border:1px solid #2a2d37;border-radius:6px;color:#fff;font-size:13px;outline:none;" autocapitalize="none">
+        </div>
+        <div>
+          <label style="display:block;font-size:10px;color:#888;margin-bottom:4px;">名前</label>
+          <input id="new-producer-name" type="text" placeholder="例: 霧島酒造" style="width:100%;height:36px;padding:0 10px;background:#1a1d27;border:1px solid #2a2d37;border-radius:6px;color:#fff;font-size:13px;outline:none;">
         </div>
         <div>
           <label style="display:block;font-size:10px;color:#888;margin-bottom:4px;">仮パスワード</label>
@@ -211,9 +231,9 @@ tr:hover td{background:var(--accent-glow);transition:background 0.15s;}
     <!-- 既存アカウント一覧 -->
     <div style="font-size:13px;font-weight:600;color:#fff;margin-bottom:8px;">既存アカウント</div>
     <table>
-      <thead><tr><th id="label-acct-id-th">蒸留所ID</th><th id="label-acct-name-th">蒸留所名</th><th>パスワード</th><th>作成日</th><th>操作</th></tr></thead>
+      <thead><tr><th>ジャンル</th><th>ID</th><th>名前</th><th>パスワード</th><th>作成日</th><th>操作</th></tr></thead>
       <tbody id="producer-accounts-table">
-        <tr><td colspan="5" style="color:#666;text-align:center;">読み込み中...</td></tr>
+        <tr><td colspan="6" style="color:#666;text-align:center;">読み込み中...</td></tr>
       </tbody>
     </table>
   </div>
@@ -413,12 +433,7 @@ function applyCategory() {
   document.getElementById('label-region-span').textContent = cat.regionSpan;
   document.getElementById('label-popular-title').textContent = cat.popularTitle;
   document.getElementById('label-popular-th').textContent = cat.popularTh;
-  document.getElementById('label-accounts-title').textContent = cat.accountsTitle;
-  document.getElementById('label-accounts-table-name').textContent = cat.accountsTableName;
-  document.getElementById('label-id-field').textContent = cat.idFieldLabel;
-  document.getElementById('label-name-field').textContent = cat.nameFieldLabel;
-  document.getElementById('label-acct-id-th').textContent = cat.acctIdTh;
-  document.getElementById('label-acct-name-th').textContent = cat.acctNameTh;
+  // Accounts section now uses unified producer_accounts (labels are static)
   document.getElementById('label-report-title').textContent = cat.reportTitle;
   document.getElementById('label-report-hint').textContent = cat.reportHint;
   document.getElementById('tab-report-label').textContent = cat.tabReportLabel;
@@ -475,35 +490,63 @@ function escH(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').r
 // ═══════════════════════════════════════
 // Producer Accounts (category-aware)
 // ═══════════════════════════════════════
+// ═══════════════════════════════════════
+// 統合アカウント管理（producer_accounts テーブル1つで全ジャンル管理）
+// ═══════════════════════════════════════
+var currentAccountFilter = 'all';
+
+function filterAccounts(filter, btn) {
+  currentAccountFilter = filter;
+  document.querySelectorAll('.acct-filter').forEach(function(b){ b.style.background='#1a1d27'; b.style.color='#888'; b.style.border='1px solid #2a2d37'; });
+  btn.style.background = 'var(--accent)';
+  btn.style.color = '#fff';
+  btn.style.border = 'none';
+  loadProducerAccounts();
+}
+
+var CAT_LABELS = { sake:'SAKE', shochu:'SHOCHU', whisky:'WHISKY', wine:'WINE', beer:'BEER' };
+var CAT_COLORS = { sake:'#B8452A', shochu:'#8B5E3C', whisky:'#6B4423', wine:'#8B2252', beer:'#B8860B' };
+var CAT_URLS = {
+  sake: 'https://sake.terroirhub.com/brewery/',
+  shochu: 'https://shochu.terroirhub.com/brewery/',
+  whisky: 'https://whisky.terroirhub.com/brewery/',
+  wine: 'https://wine.terroirhub.com/brewery/',
+  beer: 'https://beer.terroirhub.com/brewery/'
+};
+
 async function loadProducerAccounts() {
-  var cat = getCat();
   var tbody = document.getElementById('producer-accounts-table');
   try {
-    var res = await sbFetch(cat.tableName + '?select=' + cat.idColumn + ',' + cat.nameColumn + ',password,created_at&order=created_at.desc');
+    var query = 'producer_accounts?select=producer_id,producer_name,category,password,created_at&order=created_at.desc';
+    if (currentAccountFilter !== 'all') {
+      query += '&category=eq.' + currentAccountFilter;
+    }
+    var res = await sbFetch(query);
     var data = await res.json();
     if (!data || data.length === 0) {
-      tbody.innerHTML = '<tr><td colspan="5" style="color:#666;text-align:center;">まだアカウントがありません</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="6" style="color:#666;text-align:center;">まだアカウントがありません</td></tr>';
       return;
     }
     tbody.innerHTML = data.map(function(a) {
-      var id = a[cat.idColumn];
-      var name = a[cat.nameColumn];
       var date = a.created_at ? new Date(a.created_at).toLocaleDateString('ja-JP') : '';
+      var catColor = CAT_COLORS[a.category] || '#888';
+      var catLabel = CAT_LABELS[a.category] || a.category;
       return '<tr>' +
-        '<td style="color:var(--accent);font-weight:600;">' + escH(id) + '</td>' +
-        '<td>' + escH(name) + '</td>' +
+        '<td><span style="background:' + catColor + ';color:#fff;font-size:9px;padding:2px 8px;border-radius:10px;font-weight:600;">' + catLabel + '</span></td>' +
+        '<td style="color:' + catColor + ';font-weight:600;">' + escH(a.producer_id) + '</td>' +
+        '<td>' + escH(a.producer_name) + '</td>' +
         '<td style="color:#666;">' + escH(a.password) + '</td>' +
         '<td style="color:#666;">' + date + '</td>' +
-        '<td><button onclick="deleteProducerAccount(\'' + escH(id) + '\')" style="background:none;border:1px solid #e05c5c;color:#e05c5c;padding:2px 8px;border-radius:4px;font-size:10px;cursor:pointer;">削除</button></td>' +
+        '<td><button onclick="deleteProducerAccount(\'' + escH(a.producer_id) + '\',\'' + escH(a.category) + '\')" style="background:none;border:1px solid #e05c5c;color:#e05c5c;padding:2px 8px;border-radius:4px;font-size:10px;cursor:pointer;">削除</button></td>' +
       '</tr>';
     }).join('');
   } catch(e) {
-    tbody.innerHTML = '<tr><td colspan="5" style="color:#e05c5c;">読み込みエラー: ' + e.message + '</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="6" style="color:#e05c5c;">読み込みエラー: ' + e.message + '</td></tr>';
   }
 }
 
 async function createProducerAccount() {
-  var cat = getCat();
+  var category = document.getElementById('new-producer-cat').value;
   var id = document.getElementById('new-producer-id').value.trim().toLowerCase();
   var name = document.getElementById('new-producer-name').value.trim();
   var pass = document.getElementById('new-producer-pass').value.trim();
@@ -515,21 +558,17 @@ async function createProducerAccount() {
     return;
   }
 
-  if (!/^[a-z0-9_]+$/.test(id)) {
+  if (!/^[a-z0-9_-]+$/.test(id)) {
     result.style.color = '#e05c5c';
-    result.textContent = cat.producerLabelFull + 'は英小文字・数字・アンダースコアのみ';
+    result.textContent = 'IDは英小文字・数字・アンダースコア・ハイフンのみ';
     return;
   }
 
-  var body = { password: pass };
-  body[cat.idColumn] = id;
-  body[cat.nameColumn] = name;
-
   try {
-    var res = await sbFetch(cat.tableName, {
+    var res = await sbFetch('producer_accounts', {
       method: 'POST',
       prefer: 'return=minimal',
-      body: body
+      body: { producer_id: id, producer_name: name, category: category, password: pass }
     });
 
     if (!res.ok) {
@@ -537,17 +576,20 @@ async function createProducerAccount() {
       throw new Error(err.message || 'エラー');
     }
 
+    var catLabel = CAT_LABELS[category] || category;
+    var portalUrl = CAT_URLS[category] || '#';
+
     result.innerHTML = '<div style="background:#1a1d27;border:1px solid #2a2d37;border-radius:8px;padding:16px;margin-top:12px;">' +
       '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">' +
-      '<span style="color:#4caf7d;font-size:12px;font-weight:600;">アカウント作成完了</span>' +
+      '<span style="color:#4caf7d;font-size:12px;font-weight:600;">✓ ' + catLabel + ' アカウント作成完了</span>' +
       '<button onclick="copyEmailTemplate()" style="background:var(--accent);color:#fff;border:none;padding:4px 12px;border-radius:4px;font-size:11px;cursor:pointer;">メールテンプレをコピー</button>' +
       '</div>' +
-      '<pre id="email-template" style="background:#0f1117;border:1px solid #2a2d37;border-radius:6px;padding:12px;font-size:12px;color:#ccc;line-height:1.8;white-space:pre-wrap;overflow-x:auto;">件名: ' + escH(cat.emailSubject) + '\n\n' + escH(name) + ' 様\n\nTerroir HUBをご利用いただきありがとうございます。\n' + cat.labelFull + '管理画面のアカウントをご用意いたしました。\n\n━━━━━━━━━━━━━━━━━━━━\n■ ログイン情報\nURL: ' + escH(cat.emailUrl) + '\n' + cat.producerLabelFull + ': ' + escH(id) + '\nパスワード: ' + escH(pass) + '\n━━━━━━━━━━━━━━━━━━━━\n\nログイン後、パスワードはご自身で変更いただけます。\nご不明な点がございましたら、お気軽にお問い合わせください。\n\n合同会社FOMUS\n' + cat.emailSignature + '\ninfo@terroirhub.com</pre>' +
+      '<pre id="email-template" style="background:#0f1117;border:1px solid #2a2d37;border-radius:6px;padding:12px;font-size:12px;color:#ccc;line-height:1.8;white-space:pre-wrap;overflow-x:auto;">件名: Terroir HUB 管理画面のご案内\n\n' + escH(name) + ' 様\n\nTerroir HUBをご利用いただきありがとうございます。\n管理画面のアカウントをご用意いたしました。\n\n━━━━━━━━━━━━━━━━━━━━\n■ ログイン情報\nURL: ' + escH(portalUrl) + '\nID: ' + escH(id) + '\nパスワード: ' + escH(pass) + '\nジャンル: ' + catLabel + '\n━━━━━━━━━━━━━━━━━━━━\n\nログイン後、パスワードはご自身で変更いただけます。\nご不明な点がございましたら、お気軽にお問い合わせください。\n\n合同会社FOMUS\nTerroir HUB\ninfo@terroirhub.com</pre>' +
       '</div>';
 
     document.getElementById('new-producer-id').value = '';
     document.getElementById('new-producer-name').value = '';
-    document.getElementById('new-producer-pass').value = '';
+    document.getElementById('new-producer-pass').value = 'thub' + Math.random().toString(36).slice(2, 8);
 
     loadProducerAccounts();
   } catch(e) {
@@ -556,11 +598,10 @@ async function createProducerAccount() {
   }
 }
 
-async function deleteProducerAccount(id) {
-  var cat = getCat();
-  if (!confirm(id + ' のアカウントを削除しますか？')) return;
+async function deleteProducerAccount(id, category) {
+  if (!confirm(id + ' (' + (CAT_LABELS[category]||category) + ') のアカウントを削除しますか？')) return;
   try {
-    await sbFetch(cat.tableName + '?' + cat.idColumn + '=eq.' + id, { method: 'DELETE' });
+    await sbFetch('producer_accounts?producer_id=eq.' + id + '&category=eq.' + category, { method: 'DELETE' });
     loadProducerAccounts();
   } catch(e) {
     alert('削除に失敗しました');

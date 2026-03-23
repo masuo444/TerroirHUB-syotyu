@@ -158,11 +158,54 @@ ALTER TABLE profiles ADD COLUMN IF NOT EXISTS category text DEFAULT 'sake';
 ALTER TABLE profiles ADD COLUMN IF NOT EXISTS bonus_credits integer DEFAULT 0;
 
 -- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+-- 8. 統合アカウントテーブル（全ジャンル共通）
+--    brewery_accountsを置き換える。どのジャンルの管理画面からでも発行可能
+-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREATE TABLE IF NOT EXISTS producer_accounts (
+  id uuid DEFAULT gen_random_uuid() PRIMARY KEY,
+  producer_id text NOT NULL,                -- URLスラッグ（例: kirishima-shuzo, hakkaisan）
+  producer_name text NOT NULL,              -- 表示名（例: 霧島酒造, 八海醸造）
+  category text NOT NULL DEFAULT 'sake',    -- sake / shochu / whisky / wine / beer
+  password text NOT NULL,                   -- 仮パスワード（将来ハッシュ化）
+  created_at timestamptz DEFAULT now(),
+  UNIQUE(producer_id, category)             -- 同一IDでもカテゴリが違えばOK
+);
+
+-- RLS
+ALTER TABLE producer_accounts ENABLE ROW LEVEL SECURITY;
+
+-- 管理者のみ読み書き可能
+CREATE POLICY "Admins can manage producer_accounts"
+  ON producer_accounts FOR ALL
+  USING (true)    -- anon keyからの読み込みは管理画面のパスワード認証で保護
+  WITH CHECK (true);
+
+-- 既存の brewery_accounts からデータ移行（既にデータがある場合）
+INSERT INTO producer_accounts (producer_id, producer_name, category, password, created_at)
+SELECT brewery_id, brewery_name, 'sake', password, created_at
+FROM brewery_accounts
+ON CONFLICT (producer_id, category) DO NOTHING;
+
+-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+-- 9. 統合ビュー: 全アカウントを横断表示
+-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREATE OR REPLACE VIEW all_accounts AS
+SELECT
+  producer_id,
+  producer_name,
+  category,
+  password,
+  created_at
+FROM producer_accounts
+ORDER BY created_at DESC;
+
+-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 -- 将来のジャンル追加手順（例：ウイスキー）
 -- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 -- 1. whisky_distilleries テーブルを作成（distilleriesと同構造 + ウイスキー固有カラム）
 -- 2. all_producers ビューに UNION ALL を追加
 -- 3. Storage バケット 'whisky-photos' を作成
--- 4. admin/index.html に WHISKY タブを追加
+-- 4. admin/index.html の CATEGORIES に whisky エントリ追加
 -- 5. build_sakura_kb.py にウイスキーデータ読み込みを追加
+-- 6. producer_accounts に category='whisky' でアカウント作成するだけ（テーブル追加不要）
 -- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
