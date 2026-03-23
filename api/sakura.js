@@ -60,7 +60,7 @@ function searchDistilleries(query) {
 const TOOLS = [
   {
     name: 'search_distilleries',
-    description: '焼酎・泡盛の蒸留所や銘柄をデータベースから検索する。蒸留所名、銘柄名、地域名、原料（芋焼酎、麦焼酎等）、麹の種類で検索可能。ユーザーが特定の銘柄や蒸留所について質問した場合に使う。',
+    description: '焼酎・泡盛の蒸留所や銘柄をTerroir HUBデータベースから検索する。蒸留所名、銘柄名、地域名、原料（芋焼酎、麦焼酎等）、麹の種類で検索可能。ユーザーが特定の銘柄や蒸留所について質問した場合にまず使う。',
     input_schema: {
       type: 'object',
       properties: {
@@ -71,6 +71,11 @@ const TOOLS = [
       },
       required: ['query']
     }
+  },
+  {
+    type: 'web_search_20250305',
+    name: 'web_search',
+    max_uses: 3
   }
 ];
 
@@ -133,9 +138,11 @@ module.exports = async function handler(req, res) {
 - 回答は200〜300文字を目安に
 
 ★ ツール活用の絶対ルール：
-- ユーザーが特定の銘柄名や蒸留所名を挙げた場合、必ず search_distilleries ツールで検索する
+- ユーザーが特定の銘柄名や蒸留所名を挙げた場合、まず search_distilleries ツールでDB検索する
 - 検索結果があれば、蒸留所ページへのリンク（page フィールド）を含めて回答する
-- 検索結果がなくても、あなた自身の知識で回答してよい（ただしデータベースにない旨を伝える）
+- DB検索で見つからず、あなた自身の知識でも自信がない場合は、web_search ツールでWeb検索する
+- Web検索を使う場合は「{銘柄名} 焼酎 蒸留所」のようなクエリで検索する
+- Web検索結果を元に回答する場合、情報源を明記する
 - 「○○はどこの焼酎？」「○○を作っているのは？」のような質問には必ずツール検索を使う
 
 ★ 会話を続けるための絶対ルール：
@@ -195,55 +202,80 @@ ${context ? '現在のページの蔵・蒸留所情報：\n' + context : ''}`;
     let tokensIn = data.usage?.input_tokens || 0;
     let tokensOut = data.usage?.output_tokens || 0;
 
-    // ── ツール呼び出しがあれば実行 ──
-    if (data.stop_reason === 'tool_use') {
-      const toolUseBlock = data.content.find(b => b.type === 'tool_use');
-      if (toolUseBlock && toolUseBlock.name === 'search_distilleries') {
-        const query = toolUseBlock.input.query;
-        const results = searchDistilleries(query);
+    // ── ツールループ（DB検索 → Web検索 → 最終回答）──
+    let currentMessages = [...messages];
+    let maxLoops = 4; // 安全弁
 
-        console.log(`Tool search: "${query}" → ${results.length} results`);
+    while (data.stop_reason === 'tool_use' && maxLoops-- > 0) {
+      // アシスタントのレスポンスをメッセージに追加
+      currentMessages.push({ role: 'assistant', content: data.content });
 
-        // ツール結果を含めて2回目のAPI呼び出し
-        const toolMessages = [
-          ...messages,
-          { role: 'assistant', content: data.content },
-          {
-            role: 'user',
-            content: [{
-              type: 'tool_result',
-              tool_use_id: toolUseBlock.id,
-              content: JSON.stringify(results.length > 0
-                ? { found: true, count: results.length, results: results }
-                : { found: false, message: 'データベースに該当する蒸留所・銘柄が見つかりませんでした。あなたの知識で回答してください。' }
-              )
-            }]
-          }
-        ];
+      // 全ツール呼び出しを処理
+      const toolResults = [];
+      for (const block of data.content) {
+        if (block.type !== 'tool_use') continue;
 
-        const response2 = await fetch('https://api.anthropic.com/v1/messages', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'x-api-key': apiKey,
-            'anthropic-version': '2023-06-01',
-          },
-          body: JSON.stringify({
-            model: 'claude-haiku-4-5-20251001',
-            max_tokens: 800,
-            system: systemPrompt,
-            messages: toolMessages,
-          }),
-        });
-
-        const data2 = await response2.json();
-        tokensIn += data2.usage?.input_tokens || 0;
-        tokensOut += data2.usage?.output_tokens || 0;
-        answer = data2.content?.find(b => b.type === 'text')?.text || '';
+        if (block.name === 'search_distilleries') {
+          const query = block.input.query;
+          const results = searchDistilleries(query);
+          console.log(`DB search: "${query}" → ${results.length} results`);
+          toolResults.push({
+            type: 'tool_result',
+            tool_use_id: block.id,
+            content: JSON.stringify(results.length > 0
+              ? { found: true, count: results.length, results }
+              : { found: false, message: 'データベースに該当なし。web_searchで調べるか、あなたの知識で回答してください。' }
+            )
+          });
+        } else if (block.name === 'web_search') {
+          // web_searchはClaude側が自動処理するので、ここでは何もしない
+          // （Anthropic APIがサーバーサイドで実行する）
+          console.log(`Web search triggered by Claude`);
+        } else {
+          toolResults.push({
+            type: 'tool_result',
+            tool_use_id: block.id,
+            content: JSON.stringify({ error: 'Unknown tool' })
+          });
+        }
       }
-    } else {
-      // ツール呼び出しなし → テキストをそのまま使用
-      answer = data.content?.find(b => b.type === 'text')?.text || '';
+
+      // ツール結果がある場合のみ次のAPI呼び出し
+      if (toolResults.length > 0) {
+        currentMessages.push({ role: 'user', content: toolResults });
+      }
+
+      // 次のAPI呼び出し
+      const nextResponse = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': apiKey,
+          'anthropic-version': '2023-06-01',
+        },
+        body: JSON.stringify({
+          model: 'claude-haiku-4-5-20251001',
+          max_tokens: 800,
+          system: systemPrompt,
+          messages: currentMessages,
+          tools: TOOLS,
+        }),
+      });
+
+      data = await nextResponse.json();
+      tokensIn += data.usage?.input_tokens || 0;
+      tokensOut += data.usage?.output_tokens || 0;
+
+      if (data.error) {
+        console.error('Claude API error in tool loop:', data.error);
+        break;
+      }
+    }
+
+    // 最終テキストを抽出
+    if (data.content) {
+      const textBlock = data.content.find(b => b.type === 'text');
+      answer = textBlock ? textBlock.text : '';
     }
 
     // ── AIログ保存 ──
