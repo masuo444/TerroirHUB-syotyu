@@ -17,7 +17,7 @@ GitHub: （未設定）
 ├── data/
 │   └── data_{県slug}_distilleries.json # 各県の蒸留所データ
 ├── shochu/
-│   ├── kuro_kb.json                    # AIクロ ナレッジベース
+│   ├── sakura_kb.json                  # AIサクラ ナレッジベース
 │   ├── track.js                        # 行動データ取得スクリプト
 │   ├── region/                         # 8地域ページ
 │   │   ├── hokkaido.html
@@ -45,13 +45,13 @@ GitHub: （未設定）
 ├── admin/
 │   └── index.html                      # 管理ダッシュボード
 ├── api/
-│   ├── kuro.js                         # Claude AI プロキシ（AIクロ）
+│   ├── sakura.js                       # Claude AI プロキシ（AIサクラ）
 │   ├── create-checkout.js              # Stripe決済
 │   └── webhook.js                      # Stripeウェブフック
 ├── scripts/
 │   ├── regenerate_all_pages.py         # 全蒸留所ページ一括生成
 │   ├── generate_multilang_pages.py     # 多言語版生成
-│   └── build_kuro_kb.py                # AIナレッジベース構築
+│   └── build_sakura_kb.py              # AIナレッジベース構築
 ├── vercel.json
 ├── robots.txt
 ├── sitemap.xml
@@ -126,11 +126,11 @@ GitHub: （未設定）
 
 **目標: 主要産地（鹿児島・宮崎・大分・沖縄）は全蔵Aランク**
 
-## AIコンシェルジュ「クロ」
+## AIコンシェルジュ「サクラ」（日本酒版と共通）
 
-日本酒版の「サクラ」に対し、焼酎版は「クロ」（黒麹に由来）。
-- 知識ベース: `shochu/kuro_kb.json`
-- API: `/api/kuro.js`
+全Terroir HUBサイト共通のAIコンシェルジュ「サクラ」。
+- 知識ベース: `shochu/sakura_kb.json`
+- API: `/api/sakura.js`
 - キャラクター: 焼酎の奥深さを語る、落ち着いた案内人
 
 ## 焼酎の種類（原料別分類）

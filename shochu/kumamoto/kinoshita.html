@@ -226,7 +226,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1862 — 多良木町, 熊本県</p>
     <p class="hero-tagline">文久2年（1862年）創業。相良藩から「茶屋」の免許を与えられ醸造を開始した最古参蔵のひとつ。民謡「六調子」に詠われる創業者・文蔵の名を冠した銘柄を守り続ける。手づくり麹・甕仕込み・常圧蒸留の伝統製法。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">クロに聞く</button>
+      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
       
     </div>
   </div>
@@ -341,19 +341,19 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <!-- FAB -->
 <button class="fab" onclick="openPanel()" id="fab">
   <span class="fab-pulse"></span>
-  <span>🏺</span>
-  <span id="fab-txt">クロに聞く</span>
+  <span>🌸</span>
+  <span id="fab-txt">サクラに聞く</span>
 </button>
 
-<!-- KURO PANEL -->
+<!-- SAKURA PANEL -->
 <div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
   <div class="panel">
     <div class="p-handle"></div>
     <div class="p-hdr">
       <div class="p-hdr-l">
-        <div class="p-av">黒</div>
+        <div class="p-av">桜</div>
         <div>
-          <div class="p-title">クロ — AIコンシェルジュ</div>
+          <div class="p-title">サクラ — AIコンシェルジュ</div>
           <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
         </div>
       </div>
@@ -377,11 +377,11 @@ let ci=false;
 const BN='木下醸造所',BB='文蔵';
 const SUGS=['文蔵ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','木下醸造所の歴史を教えて'];
 function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'黒':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
+function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ クロAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ クロAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">黒</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
+function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
+function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
+function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
 </script>
 </body>

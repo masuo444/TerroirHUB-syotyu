@@ -226,7 +226,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1912 — 壱岐市, 長崎県</p>
     <p class="hero-tagline">大正元年（1912年）創業。常圧蒸留にこだわり、大麦の香り豊かな壱岐焼酎を醸す。長期貯蔵・熟成により複雑な風味成分を生かした味わいを追求。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">クロに聞く</button>
+      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
       <button class="btn-s" onclick="location.href='https://amanokawashuzo.com/'">公式サイト</button>
     </div>
   </div>
@@ -368,19 +368,19 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <!-- FAB -->
 <button class="fab" onclick="openPanel()" id="fab">
   <span class="fab-pulse"></span>
-  <span>🏺</span>
-  <span id="fab-txt">クロに聞く</span>
+  <span>🌸</span>
+  <span id="fab-txt">サクラに聞く</span>
 </button>
 
-<!-- KURO PANEL -->
+<!-- SAKURA PANEL -->
 <div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
   <div class="panel">
     <div class="p-handle"></div>
     <div class="p-hdr">
       <div class="p-hdr-l">
-        <div class="p-av">黒</div>
+        <div class="p-av">桜</div>
         <div>
-          <div class="p-title">クロ — AIコンシェルジュ</div>
+          <div class="p-title">サクラ — AIコンシェルジュ</div>
           <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
         </div>
       </div>
@@ -404,11 +404,11 @@ let ci=false;
 const BN='天の川酒造',BB='天の川';
 const SUGS=['天の川ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','天の川酒造の歴史を教えて'];
 function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'黒':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
+function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ クロAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ クロAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">黒</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
+function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
+function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
+function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
 </script>
 </body>

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 全蒸留所HTMLページを一括再生成。
-テンプレートCSS + FAB + クロパネル + Terroir HUBヘッダーを全蒸留所に適用。
+テンプレートCSS + FAB + サクラパネル + Terroir HUBヘッダーを全蒸留所に適用。
 """
 
 import json
@@ -199,7 +199,7 @@ def generate_page(b, pref_slug):
     if visit:
         visit_items += f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🏠</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">見学</div><div style="font-size:15px;color:var(--text-body);">{esc(visit)}</div></div></div>'
 
-    # Suggestions for Kuro
+    # Suggestions for Sakura
     def jsesc(s):
         return s.replace("\\","\\\\").replace("'","\\'").replace("\n","\\n") if s else ''
     sug1 = f'{jsesc(brand or name)}ってどんな焼酎？' if brand else f'{jsesc(name)}について教えて'
@@ -251,7 +251,7 @@ def generate_page(b, pref_slug):
     {f'<p class="hero-en" style="font-style:italic;">Since {esc(founded)} — {esc(area)}, {esc(pref_name)}</p>' if founded and area else ''}
     {f'<p class="hero-tagline">{esc(desc)}</p>' if desc else ''}
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">クロに聞く</button>
+      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
       {'<button class="btn-s" onclick="location.href=' + "'" + esc(url) + "'" + '">公式サイト</button>' if url else ''}
     </div>
   </div>
@@ -294,19 +294,19 @@ def generate_page(b, pref_slug):
 <!-- FAB -->
 <button class="fab" onclick="openPanel()" id="fab">
   <span class="fab-pulse"></span>
-  <span>🏺</span>
-  <span id="fab-txt">クロに聞く</span>
+  <span>🌸</span>
+  <span id="fab-txt">サクラに聞く</span>
 </button>
 
-<!-- KURO PANEL -->
+<!-- SAKURA PANEL -->
 <div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
   <div class="panel">
     <div class="p-handle"></div>
     <div class="p-hdr">
       <div class="p-hdr-l">
-        <div class="p-av">黒</div>
+        <div class="p-av">桜</div>
         <div>
-          <div class="p-title">クロ — AIコンシェルジュ</div>
+          <div class="p-title">サクラ — AIコンシェルジュ</div>
           <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
         </div>
       </div>
@@ -330,11 +330,11 @@ let ci=false;
 const BN='{js_name}',BB='{js_brand}';
 const SUGS=['{jsesc(sug1)}','{jsesc(sug2)}','{jsesc(sug3)}','{jsesc(sug4)}'];
 function initChat(){{ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\\n\\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}}
-function addMsg(r,t){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'黒':'あ')+'</div><div class="bubble">'+t.replace(/\\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
+function addMsg(r,t){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
 function renderSugs(){{document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}}
-function askSug(q){{document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','ご質問ありがとうございます。\\n\\n※ クロAIはAPI接続後に実動作します。');renderSugs();}},1200);}}
-function sendMsg(){{const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','ご質問ありがとうございます。\\n\\n※ クロAIはAPI接続後に実動作します。');renderSugs();}},1500);}}
-function showT(){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">黒</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
+function askSug(q){{document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','ご質問ありがとうございます。\\n\\n※ サクラAIはAPI接続後に実動作します。');renderSugs();}},1200);}}
+function sendMsg(){{const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','ご質問ありがとうございます。\\n\\n※ サクラAIはAPI接続後に実動作します。');renderSugs();}},1500);}}
+function showT(){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
 function removeT(){{const e=document.getElementById('tp');if(e)e.remove();}}
 </script>
 </body>

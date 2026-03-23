@@ -226,7 +226,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1885 — 佐伯市, 大分県</p>
     <p class="hero-tagline">明治18年創業。元は佐伯市船頭町で創業し、令和元年（2019年）に佐伯の清酒と焼酎の伝統文化を後世に残すべく事業継承し上浦町へ蔵を移転。米と麹だけで造った日本酒「花笑み」は、花が咲くような明るい笑顔を願って命名。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">クロに聞く</button>
+      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
       <button class="btn-s" onclick="location.href='https://oochi.saiki.jp/'">公式サイト</button>
     </div>
   </div>
@@ -368,19 +368,19 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 <!-- FAB -->
 <button class="fab" onclick="openPanel()" id="fab">
   <span class="fab-pulse"></span>
-  <span>🏺</span>
-  <span id="fab-txt">クロに聞く</span>
+  <span>🌸</span>
+  <span id="fab-txt">サクラに聞く</span>
 </button>
 
-<!-- KURO PANEL -->
+<!-- SAKURA PANEL -->
 <div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
   <div class="panel">
     <div class="p-handle"></div>
     <div class="p-hdr">
       <div class="p-hdr-l">
-        <div class="p-av">黒</div>
+        <div class="p-av">桜</div>
         <div>
-          <div class="p-title">クロ — AIコンシェルジュ</div>
+          <div class="p-title">サクラ — AIコンシェルジュ</div>
           <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
         </div>
       </div>
@@ -404,11 +404,11 @@ let ci=false;
 const BN='大地酒造',BB='花笑み';
 const SUGS=['花笑みってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','大地酒造の歴史を教えて'];
 function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'黒':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
+function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ クロAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ クロAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">黒</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
+function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
+function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
+function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
 </script>
 </body>
