@@ -42,37 +42,33 @@
     let currentUser = null;
     let currentPlan = 'free';
 
-    // ポータルからのトークン受け取り → セッション復元
-    (function(){
-      var params = new URLSearchParams(window.location.search);
-      var accessToken = params.get('access_token');
-      var refreshToken = params.get('refresh_token');
-      if(accessToken && refreshToken){
-        sb.auth.setSession({ access_token: accessToken, refresh_token: refreshToken }).then(function(){
-          // URLからトークンパラメータを除去
-          var url = new URL(window.location);
-          url.searchParams.delete('access_token');
-          url.searchParams.delete('refresh_token');
-          window.history.replaceState({}, '', url);
-        });
-        return; // setSession後にonAuthStateChangeが発火するのでここでreturn
-      }
-    })();
-
-    // Check session on load
-    sb.auth.getSession().then(({ data: { session } }) => {
-      if (session) {
-        currentUser = session.user;
-        onLogin(currentUser);
-      }
-    });
-
-    // Listen for auth changes
+    // Listen for auth changes — 必ず最初に登録（setSessionより前）
     sb.auth.onAuthStateChange(async (event, session) => {
       if (event === 'SIGNED_IN' && session) {
         currentUser = session.user;
         // profilesに自動作成（なければ）
         await sb.from('profiles').upsert({ id: currentUser.id, plan: 'free' }, { onConflict: 'id', ignoreDuplicates: true });
+
+        // LINE仮プロフィール（line_xxx）があればマージ
+        try {
+          var lineProfiles = await sb.from('profiles').select('id, line_user_id, plan').like('id', 'line_%');
+          if (lineProfiles.data) {
+            for (var lp of lineProfiles.data) {
+              if (lp.line_user_id) {
+                // line_user_idを本アカウントに移す
+                await sb.from('profiles').update({ line_user_id: lp.line_user_id }).eq('id', currentUser.id);
+                // Proプランなら引き継ぐ
+                if (lp.plan === 'pro' || lp.plan === 'premium') {
+                  await sb.from('profiles').update({ plan: lp.plan }).eq('id', currentUser.id);
+                }
+                // 仮プロフィールを削除
+                await sb.from('profiles').delete().eq('id', lp.id);
+                console.log('[AUTH] Merged LINE profile:', lp.id, '→', currentUser.id);
+              }
+            }
+          }
+        } catch(e) { console.warn('[AUTH] LINE merge check failed:', e); }
+
         onLogin(currentUser);
         // 保留中のサブスク購入があれば自動遷移
         var pendingPlan = sessionStorage.getItem('thub_pending_plan');
@@ -85,6 +81,31 @@
         onLogout();
       }
     });
+
+    // トークン受け取り → セッション復元（onAuthStateChange登録後に実行）
+    (function(){
+      var params = new URLSearchParams(window.location.search);
+      var accessToken = params.get('access_token');
+      var refreshToken = params.get('refresh_token');
+
+      if(accessToken && refreshToken){
+        sb.auth.setSession({ access_token: accessToken, refresh_token: refreshToken }).then(function(res){
+          if(res.error) console.error('[AUTH] setSession error:', res.error);
+          var url = new URL(window.location);
+          url.searchParams.delete('access_token');
+          url.searchParams.delete('refresh_token');
+          window.history.replaceState({}, '', url);
+        });
+      } else {
+        // 通常のセッションチェック
+        sb.auth.getSession().then(function(res){
+          if(res.data && res.data.session){
+            currentUser = res.data.session.user;
+            onLogin(currentUser);
+          }
+        });
+      }
+    })();
 
     // ══════════════════════════════════════
     // Sign Up
@@ -171,16 +192,22 @@
     // UI Updates
     // ══════════════════════════════════════
     function onLogin(user) {
-      // Update nav
+      // Update nav — ログイン状態を目立たせる
       const authBtns = document.querySelector('.nav-auth');
+      var displayName = (user.user_metadata && user.user_metadata.display_name) || '';
+      var displayInitial = displayName ? displayName[0].toUpperCase() : user.email[0].toUpperCase();
+      var shortName = displayName ? displayName.split(/[\s（(]/)[0] : '';
       if (authBtns) {
         authBtns.innerHTML = `
-          <button onclick="thubShowMypage()" style="display:flex;align-items:center;gap:6px;background:none;border:1px solid #eee;border-radius:20px;padding:4px 12px 4px 4px;cursor:pointer;transition:all 0.15s;" onmouseover="this.style.borderColor='#D4728A'" onmouseout="this.style.borderColor='#eee'">
-            <span style="width:24px;height:24px;background:linear-gradient(135deg,#D4728A,#B8452A);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;color:#fff;font-weight:600;">${escHtml(user.email[0].toUpperCase())}</span>
-            <span style="font-size:12px;color:#555;" id="plan-badge"></span>
+          <button onclick="thubShowMypage()" style="display:flex;align-items:center;gap:10px;background:linear-gradient(135deg,#B8452A,#D4728A);border:none;border-radius:28px;padding:6px 18px 6px 6px;cursor:pointer;transition:all 0.15s;box-shadow:0 3px 12px rgba(184,69,42,0.25);" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+            <span style="width:32px;height:32px;background:rgba(255,255,255,0.25);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;color:#fff;font-weight:700;border:2px solid rgba(255,255,255,0.5);">${escHtml(displayInitial)}</span>
+            <span style="font-size:14px;font-weight:600;color:#fff;">${shortName ? escHtml(shortName) : 'マイページ'}</span>
+            <span id="plan-badge" style="font-size:10px;"></span>
           </button>
         `;
       }
+
+      // クエストは同じドメイン（/shochu/quest/）なのでセッション自動共有
 
       // Set user in tracking
       if (window.thub) window.thub.setUser(user.id);
@@ -198,6 +225,24 @@
 
       loadNickname();
       console.log('[AUTH] Logged in:', user.email);
+
+      // URLパラメータ処理
+      var params = new URLSearchParams(window.location.search);
+      if (params.get('open_mypage') === '1') {
+        setTimeout(function(){ if(window.thubShowMypage) window.thubShowMypage(); }, 500);
+        history.replaceState(null, '', window.location.pathname);
+      }
+      if (params.get('line_linked') === '1') {
+        var lineName = params.get('line_name') || '';
+        setTimeout(function(){
+          var toast = document.createElement('div');
+          toast.style.cssText = 'position:fixed;top:20px;left:50%;transform:translateX(-50%);background:#06C755;color:#fff;padding:14px 24px;border-radius:12px;font-size:14px;font-weight:600;z-index:99999;box-shadow:0 4px 20px rgba(0,0,0,0.2);';
+          toast.textContent = 'LINE連携が完了しました' + (lineName ? '（' + lineName + '）' : '');
+          document.body.appendChild(toast);
+          setTimeout(function(){ toast.remove(); }, 4000);
+        }, 500);
+        history.replaceState(null, '', window.location.pathname);
+      }
     }
 
     function onLogout() {
@@ -346,23 +391,6 @@
 
       // タブコンテンツ生成
       function buildHome() {
-        // クエストリンクにセッショントークンを付与
-        var questUrl = 'https://terroirhub.com/quest/';
-        try {
-          if(sb && currentUser) {
-            sb.auth.getSession().then(function(res){
-              if(res.data && res.data.session){
-                var btn = document.getElementById('quest-link-btn');
-                if(btn) btn.href = questUrl + '?access_token=' + res.data.session.access_token + '&refresh_token=' + res.data.session.refresh_token;
-              }
-            });
-          }
-        } catch(e){}
-        var questBtn = '<a id="quest-link-btn" href="' + questUrl + '" style="display:flex;align-items:center;gap:12px;background:linear-gradient(135deg,#D4728A,#B8452A);color:#fff;border-radius:12px;padding:14px 16px;margin-bottom:16px;text-decoration:none;" onclick="this.closest(\'#mypage-modal\').remove()">' +
-          '<div style="font-size:28px;">🗺️</div>' +
-          '<div><div style="font-size:14px;font-weight:600;">テロワールクエスト</div><div style="font-size:11px;opacity:0.8;">記録・写真投稿・バッジを集めよう</div></div>' +
-          '<div style="margin-left:auto;font-size:16px;">→</div></a>';
-
         var upgradeBtn = '';
         if (plan === 'free') upgradeBtn = '<button onclick="this.closest(\'#mypage-modal\').remove();showAuth(\'signup\')" style="width:100%;padding:11px;background:#B8452A;color:#fff;border:none;border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;margin-top:12px;">Proにアップグレード</button>';
 
@@ -393,7 +421,7 @@
             var lat = pos.coords.latitude;
             var lng = pos.coords.longitude;
             // search_index.jsonを取得して近い蔵を検索
-            fetch('/shochu/search_index.json').then(function(r){return r.json()}).then(function(data){
+            fetch('/sake/search_index.json').then(function(r){return r.json()}).then(function(data){
               // 各県のざっくり緯度経度（中心点）
               var PREF_COORDS = {
                 hokkaido:[43.06,141.35],aomori:[40.82,140.74],iwate:[39.70,141.15],miyagi:[38.27,140.87],akita:[39.72,140.10],yamagata:[38.24,140.34],fukushima:[37.75,140.47],ibaraki:[36.34,140.45],tochigi:[36.57,139.88],gunma:[36.39,139.06],saitama:[35.86,139.65],chiba:[35.60,140.12],tokyo:[35.68,139.69],kanagawa:[35.45,139.64],niigata:[37.90,139.02],toyama:[36.70,137.21],ishikawa:[36.59,136.63],fukui:[36.07,136.22],yamanashi:[35.66,138.57],nagano:[36.23,138.18],gifu:[35.39,136.72],shizuoka:[34.98,138.38],aichi:[35.18,136.91],mie:[34.73,136.51],shiga:[35.00,135.87],kyoto:[35.02,135.76],osaka:[34.69,135.52],hyogo:[34.69,135.18],nara:[34.69,135.83],wakayama:[33.95,135.17],tottori:[35.50,134.24],shimane:[35.47,133.05],okayama:[34.66,133.93],hiroshima:[34.40,132.46],yamaguchi:[34.19,131.47],tokushima:[34.07,134.56],kagawa:[34.34,134.04],ehime:[33.84,132.77],kochi:[33.56,133.53],fukuoka:[33.61,130.42],saga:[33.25,130.30],nagasaki:[32.74,129.87],kumamoto:[32.79,130.74],oita:[33.24,131.61],miyazaki:[31.91,131.42],kagoshima:[31.56,130.56],okinawa:[26.34,127.68]
@@ -416,7 +444,7 @@
               }
               var PN = {"hokkaido":"北海道","aomori":"青森","iwate":"岩手","miyagi":"宮城","akita":"秋田","yamagata":"山形","fukushima":"福島","ibaraki":"茨城","tochigi":"栃木","gunma":"群馬","saitama":"埼玉","chiba":"千葉","tokyo":"東京","kanagawa":"神奈川","niigata":"新潟","toyama":"富山","ishikawa":"石川","fukui":"福井","yamanashi":"山梨","nagano":"長野","gifu":"岐阜","shizuoka":"静岡","aichi":"愛知","mie":"三重","shiga":"滋賀","kyoto":"京都","osaka":"大阪","hyogo":"兵庫","nara":"奈良","wakayama":"和歌山","tottori":"鳥取","shimane":"島根","okayama":"岡山","hiroshima":"広島","yamaguchi":"山口","tokushima":"徳島","kagawa":"香川","ehime":"愛媛","kochi":"高知","fukuoka":"福岡","saga":"佐賀","nagasaki":"長崎","kumamoto":"熊本","oita":"大分","miyazaki":"宮崎","kagoshima":"鹿児島","okinawa":"沖縄"};
               el.innerHTML = nearby.map(function(b){
-                return '<a href="/shochu/'+b.p+'/'+b.id+'.html" onclick="this.closest(\'#mypage-modal\').remove()" style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;">' +
+                return '<a href="/sake/'+b.p+'/'+b.id+'.html" onclick="this.closest(\'#mypage-modal\').remove()" style="display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;">' +
                   '<div style="width:36px;height:36px;background:linear-gradient(135deg,#D4728A,#B8452A);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:600;flex-shrink:0;">'+(b.n?b.n[0]:'酒')+'</div>' +
                   '<div style="flex:1;min-width:0;"><div style="font-size:13px;font-weight:500;color:#333;">'+escHtml(b.n||'')+'</div><div style="font-size:11px;color:#B8452A;">'+escHtml(b.b||'')+'</div><div style="font-size:10px;color:#aaa;">'+(PN[b.p]||b.p)+' '+escHtml(b.a||'')+'</div></div>' +
                   '<div style="font-size:10px;color:#B8452A;flex-shrink:0;">チェックイン →</div></a>';
@@ -428,7 +456,34 @@
           }, {enableHighAccuracy:false,timeout:8000});
         }, 300);
 
-        return questBtn +
+        // LINE連携状態チェック（メールがline_で始まるか、profileにline_user_idがあるか）
+        var isLineUser = currentUser && currentUser.email && currentUser.email.startsWith('line_');
+        var lineBtn = '';
+        if (isLineUser) {
+          // LINEログイン済み → ボタン不要
+          lineBtn = '';
+        } else {
+          // LINE未連携 → 連携ボタン表示（非同期でチェックして更新）
+          var lineLoginUrl = '/api/line-login' + (currentUser ? '?user_id=' + currentUser.id : '');
+          lineBtn = '<div id="line-link-btn" style="margin-bottom:16px;">' +
+            '<a href="' + lineLoginUrl + '" style="display:flex;align-items:center;gap:12px;background:#06C755;color:#fff;border-radius:12px;padding:14px 16px;text-decoration:none;">' +
+            '<div style="font-size:28px;">💬</div>' +
+            '<div><div style="font-size:14px;font-weight:600;">LINEでサクラを使う</div><div style="font-size:11px;opacity:0.85;">友だち追加＆アカウント連携</div></div>' +
+            '<div style="margin-left:auto;font-size:16px;">→</div></a></div>';
+          // 非同期でline_user_idをチェック
+          try {
+            if (sb && currentUser) {
+              sb.from('profiles').select('line_user_id').eq('id', currentUser.id).single().then(function(res) {
+                if (res.data && res.data.line_user_id) {
+                  var el = document.getElementById('line-link-btn');
+                  if (el) el.remove();
+                }
+              });
+            }
+          } catch(e){}
+        }
+
+        return lineBtn +
           nearbyHtml +
           '<div style="display:flex;justify-content:space-between;align-items:center;padding:12px 0;border-bottom:1px solid #f0f0f0;"><span style="font-size:13px;color:#666;">プラン</span><span style="font-size:12px;font-weight:600;padding:3px 12px;border-radius:12px;background:' + planColor + ';color:' + planTextColor + ';">' + planLabel + '</span></div>' +
           creditHtml +
@@ -440,7 +495,7 @@
         if (history.length === 0) return '<div style="text-align:center;padding:32px 0;color:#ccc;font-size:13px;">まだ閲覧履歴がありません</div>';
         return history.slice(0, 20).map(function(h) {
           var timeAgo = getTimeAgo(h.time);
-          return '<a href="/shochu/' + encodeURIComponent(h.pref) + '/' + encodeURIComponent(h.id) + '.html" onclick="this.closest(\'#mypage-modal\').remove()" style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;">' +
+          return '<a href="/sake/' + encodeURIComponent(h.pref) + '/' + encodeURIComponent(h.id) + '.html" onclick="this.closest(\'#mypage-modal\').remove()" style="display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #f5f5f5;text-decoration:none;color:inherit;">' +
             '<div><div style="font-size:13px;font-weight:500;color:#333;">' + escHtml(h.name) + '</div><div style="font-size:11px;color:#aaa;">' + escHtml(PREF_NAMES[h.pref] || h.pref) + '</div></div>' +
             '<span style="font-size:10px;color:#ccc;">' + timeAgo + '</span></a>';
         }).join('');
