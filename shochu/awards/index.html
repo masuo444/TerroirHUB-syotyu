@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LLQJRCXB4N"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-LLQJRCXB4N');</script>
+<meta charset="UTF-8"><link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>焼酎・泡盛 受賞歴データベース — Terroir HUB SHOCHU</title>
+<meta name="description" content="TWSC・焼酎グランプリ等、主要コンペティションの焼酎・泡盛受賞データを一覧検索。金賞・銀賞受賞蔵を年度別・大会別に掲載。">
+<link rel="canonical" href="https://shochu.terroirhub.com/shochu/awards/">
+<meta property="og:title" content="焼酎・泡盛 受賞歴データベース — Terroir HUB SHOCHU">
+<meta property="og:description" content="TWSC・焼酎グランプリ等の受賞焼酎・泡盛を一覧検索。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shochu.terroirhub.com/shochu/awards/">
+
+<!-- Schema.org: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "name": "焼酎・泡盛 受賞歴データベース",
+      "description": "主要コンペティションの焼酎・泡盛受賞データを一覧検索",
+      "url": "https://shochu.terroirhub.com/shochu/awards/"
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "TWSCで金賞を受賞した焼酎は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TWSC（東京ウイスキー＆スピリッツコンペティション）焼酎部門では毎年多数の焼酎が金賞を受賞しています。Terroir HUB SHOCHUの受賞歴データベースで年度別・蔵元別に検索できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "焼酎の主なコンペティションは？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "焼酎の主要コンペティションには、TWSC（東京ウイスキー＆スピリッツコンペティション）、鹿児島県本格焼酎鑑評会、熊本国税局酒類鑑評会、全国酒類コンクールなどがあります。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "泡盛で受賞した銘柄は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "泡盛は焼酎コンペティションの泡盛部門や沖縄県主催の鑑評会などで評価されています。Terroir HUB SHOCHUの受賞歴データベースで泡盛の受賞銘柄を検索できます。"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Dataset",
+      "name": "焼酎・泡盛受賞歴データベース",
+      "description": "TWSC・焼酎グランプリ等の焼酎・泡盛受賞データ",
+      "url": "https://shochu.terroirhub.com/shochu/awards/",
+      "creator": {
+        "@type": "Organization",
+        "name": "合同会社FOMUS"
+      }
+    }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:#FAFAF8;color:#333;font-family:'Noto Sans JP','Inter',sans-serif;font-size:15px;line-height:1.8;-webkit-font-smoothing:antialiased;}
+
+:root{--accent:#8B5E3C;--accent-light:rgba(139,94,60,0.08);--accent-hover:rgba(139,94,60,0.15);}
+
+/* Nav */
+.thub-nav{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,0.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(0,0,0,0.06);}
+.thub-nav-inner{display:flex;align-items:center;justify-content:space-between;height:52px;padding:0 20px;max-width:1200px;margin:0 auto;}
+.thub-nav-logo{font-family:'Shippori Mincho',serif;font-size:17px;font-weight:600;color:#333;text-decoration:none;white-space:nowrap;}
+.thub-nav-logo span{color:#8B5E3C;}
+.thub-nav-links{display:flex;align-items:center;gap:20px;}
+.thub-nav-links a{font-size:13px;color:#555;text-decoration:none;font-weight:500;transition:color 0.15s;white-space:nowrap;}
+.thub-nav-links a:hover{color:var(--accent);}
+.thub-nav-menu{display:none;background:none;border:none;font-size:22px;cursor:pointer;color:#333;padding:4px 8px;}
+@media(max-width:640px){.thub-nav-links{display:none;}.thub-nav-menu{display:block;}}
+
+/* Hero */
+.awards-hero{margin-top:52px;padding:48px 20px 36px;text-align:center;background:linear-gradient(135deg,#FAFAF8 0%,#f0ebe4 100%);border-bottom:1px solid rgba(0,0,0,0.04);}
+.awards-hero h1{font-family:'Shippori Mincho',serif;font-size:28px;font-weight:700;color:#1a1a1a;margin-bottom:8px;}
+.awards-hero p{font-size:14px;color:#888;max-width:600px;margin:0 auto;}
+@media(max-width:640px){.awards-hero h1{font-size:22px;}.awards-hero{padding:36px 16px 28px;}}
+
+/* Filters */
+.filters-section{max-width:960px;margin:0 auto;padding:20px 20px 0;}
+.filter-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;align-items:center;}
+.filter-label{font-size:12px;color:#999;font-weight:500;min-width:60px;}
+.filter-chip{white-space:nowrap;font-size:12px;padding:6px 14px;border-radius:20px;border:1px solid #e0ddd8;background:#fff;color:#666;cursor:pointer;transition:all 0.15s;font-family:'Noto Sans JP',sans-serif;}
+.filter-chip:hover,.filter-chip.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+.search-box{width:100%;max-width:400px;padding:10px 14px 10px 38px;border:1.5px solid #e0ddd8;border-radius:10px;font-size:14px;outline:none;background:#fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23aaa' stroke-width='2'%3E%3Ccircle cx='11' cy='11' r='8'/%3E%3Cline x1='21' y1='21' x2='16.65' y2='16.65'/%3E%3C/svg%3E") 12px center no-repeat;color:#333;font-family:'Noto Sans JP',sans-serif;transition:border-color 0.2s;}
+.search-box:focus{border-color:var(--accent);}
+
+/* Results */
+.results-section{max-width:960px;margin:0 auto;padding:20px;}
+.results-count{font-size:13px;color:#aaa;margin-bottom:16px;}
+.award-table{width:100%;border-collapse:collapse;}
+.award-table thead{background:#f8f6f3;}
+.award-table th{font-size:12px;color:#999;font-weight:500;text-align:left;padding:10px 12px;border-bottom:1px solid #e8e5e0;white-space:nowrap;}
+.award-table td{font-size:14px;padding:12px;border-bottom:1px solid #f0ede8;vertical-align:top;}
+.award-table tr:hover{background:#faf8f5;}
+.award-level{display:inline-block;font-size:11px;font-weight:600;padding:3px 10px;border-radius:12px;white-space:nowrap;}
+.level-gold{background:#FFF8E1;color:#F9A825;border:1px solid #FFE082;}
+.level-silver{background:#F5F5F5;color:#757575;border:1px solid #E0E0E0;}
+.level-bronze{background:#FBE9E7;color:#BF360C;border:1px solid #FFCCBC;}
+.level-trophy{background:#E8F5E9;color:#2E7D32;border:1px solid #A5D6A7;}
+.level-best{background:#E3F2FD;color:#1565C0;border:1px solid #90CAF9;}
+.level-platinum{background:#F3E5F5;color:#7B1FA2;border:1px solid #CE93D8;}
+.producer-link{color:var(--accent);text-decoration:none;font-weight:500;}
+.producer-link:hover{text-decoration:underline;}
+
+/* Cards (mobile) */
+.award-cards{display:none;}
+.award-card{background:#fff;border-radius:12px;padding:16px;margin-bottom:10px;border:1px solid #f0ede8;transition:box-shadow 0.15s;}
+.award-card:hover{box-shadow:0 2px 12px rgba(0,0,0,0.06);}
+.award-card-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;}
+.award-card-product{font-family:'Shippori Mincho',serif;font-size:16px;font-weight:600;color:#1a1a1a;}
+.award-card-producer{font-size:13px;color:#888;margin-bottom:4px;}
+.award-card-meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px;}
+.award-card-tag{font-size:11px;padding:3px 8px;border-radius:8px;background:#f5f3f0;color:#888;}
+
+@media(max-width:700px){
+  .award-table-wrap{display:none;}
+  .award-cards{display:block;}
+}
+
+/* Empty state */
+.empty-state{text-align:center;padding:60px 20px;color:#ccc;}
+.empty-state-icon{font-size:48px;margin-bottom:16px;}
+.empty-state-text{font-size:15px;color:#aaa;}
+.empty-state-sub{font-size:13px;color:#ccc;margin-top:4px;}
+
+/* Loading */
+.loading{text-align:center;padding:40px 20px;}
+.loading-spinner{display:inline-block;width:28px;height:28px;border:3px solid #eee;border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* Pagination */
+.pagination{display:flex;justify-content:center;gap:4px;margin-top:24px;padding-bottom:40px;}
+.page-btn{font-size:13px;padding:6px 12px;border:1px solid #e0ddd8;border-radius:8px;background:#fff;color:#666;cursor:pointer;transition:all 0.15s;font-family:'Noto Sans JP',sans-serif;}
+.page-btn:hover,.page-btn.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+.page-btn:disabled{opacity:0.4;cursor:default;background:#fff;color:#666;border-color:#e0ddd8;}
+
+/* Footer */
+.awards-footer{text-align:center;padding:32px 20px;border-top:1px solid #f0ede8;margin-top:20px;}
+.awards-footer p{font-size:12px;color:#bbb;}
+.awards-footer a{color:var(--accent);text-decoration:none;}
+</style>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="thub-nav">
+  <div class="thub-nav-inner">
+    <a href="/" class="thub-nav-logo">Terroir HUB <span>SHOCHU</span></a>
+    <div class="thub-nav-links">
+      <a href="/shochu/search/">蒸留所検索</a>
+      <a href="/shochu/region/kyushu.html">地域</a>
+      <a href="/shochu/guide/">教科書</a>
+      <a href="/shochu/awards/" style="color:var(--accent);font-weight:600;">受賞歴</a>
+    </div>
+    <button class="thub-nav-menu" onclick="document.querySelector('.thub-nav-links').style.display=this.dataset.open?'none':'flex';this.dataset.open=this.dataset.open?'':'1';">&#9776;</button>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="awards-hero">
+  <h1>焼酎・泡盛 受賞歴データベース</h1>
+  <p>TWSC・焼酎グランプリ等、国内外主要コンペティションの受賞データを蔵元・銘柄・年度で検索</p>
+</section>
+
+<!-- Filters -->
+<section class="filters-section">
+  <div class="filter-row">
+    <span class="filter-label">大会</span>
+    <button class="filter-chip active" data-filter="competition" data-value="">すべて</button>
+    <button class="filter-chip" data-filter="competition" data-value="TWSC">TWSC</button>
+    <button class="filter-chip" data-filter="competition" data-value="焼酎グランプリ">焼酎グランプリ</button>
+    <button class="filter-chip" data-filter="competition" data-value="鹿児島県本格焼酎鑑評会">鹿児島県鑑評会</button>
+    <button class="filter-chip" data-filter="competition" data-value="熊本国税局酒類鑑評会">熊本国税局鑑評会</button>
+    <button class="filter-chip" data-filter="competition" data-value="全国酒類コンクール">全国酒類コンクール</button>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">賞</span>
+    <button class="filter-chip active" data-filter="level" data-value="">すべて</button>
+    <button class="filter-chip" data-filter="level" data-value="gold">金賞</button>
+    <button class="filter-chip" data-filter="level" data-value="silver">銀賞</button>
+    <button class="filter-chip" data-filter="level" data-value="bronze">銅賞</button>
+    <button class="filter-chip" data-filter="level" data-value="trophy">トロフィー</button>
+    <button class="filter-chip" data-filter="level" data-value="best_in_class">最優秀賞</button>
+  </div>
+  <div class="filter-row">
+    <span class="filter-label">年度</span>
+    <div id="yearFilters">
+      <button class="filter-chip active" data-filter="year" data-value="">すべて</button>
+    </div>
+  </div>
+  <div class="filter-row">
+    <input type="text" class="search-box" id="searchInput" placeholder="蔵元名・銘柄名で検索...">
+  </div>
+</section>
+
+<!-- Results -->
+<section class="results-section">
+  <div class="results-count" id="resultsCount"></div>
+
+  <div id="loadingIndicator" class="loading">
+    <div class="loading-spinner"></div>
+    <p style="font-size:13px;color:#aaa;margin-top:8px;">読み込み中...</p>
+  </div>
+
+  <div class="award-table-wrap" id="tableWrap" style="display:none;">
+    <table class="award-table">
+      <thead>
+        <tr>
+          <th>年度</th>
+          <th>大会</th>
+          <th>賞</th>
+          <th>銘柄</th>
+          <th>蔵元</th>
+          <th>出典</th>
+        </tr>
+      </thead>
+      <tbody id="awardsTableBody"></tbody>
+    </table>
+  </div>
+
+  <div class="award-cards" id="awardsCards"></div>
+
+  <div id="emptyState" class="empty-state" style="display:none;">
+    <div class="empty-state-icon">&#127942;</div>
+    <div class="empty-state-text">受賞データなし</div>
+    <div class="empty-state-sub">条件に一致する受賞データが見つかりませんでした</div>
+  </div>
+
+  <div class="pagination" id="pagination"></div>
+</section>
+
+<footer class="awards-footer">
+  <p>受賞データは各コンペティション公式発表に基づきます。</p>
+  <p style="margin-top:4px;"><a href="/">Terroir HUB SHOCHU</a> &copy; 合同会社FOMUS</p>
+</footer>
+
+<script>
+(function(){
+  'use strict';
+
+  const SB_URL = 'https://hhwavxavuqqfiehrogwv.supabase.co';
+  const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imhod2F2eGF2dXFxZmllaHJvZ3d2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM5Njk3MzAsImV4cCI6MjA4OTU0NTczMH0.tHMQ_u51jp69AMUKKtTvxL09Sr11JFPKGRhKMmUzEjg';
+  const CATEGORY = 'shochu';
+  const PER_PAGE = 50;
+
+  let allAwards = [];
+  let filtered = [];
+  let currentPage = 1;
+  let filters = { competition: '', level: '', year: '', search: '' };
+
+  const LEVEL_LABELS = {
+    gold: '金賞', silver: '銀賞', bronze: '銅賞',
+    trophy: 'トロフィー', best_in_class: '最優秀賞', platinum: 'プラチナ賞'
+  };
+  const LEVEL_CSS = {
+    gold: 'level-gold', silver: 'level-silver', bronze: 'level-bronze',
+    trophy: 'level-trophy', best_in_class: 'level-best', platinum: 'level-platinum'
+  };
+
+  function escHtml(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  async function fetchAwards(){
+    try {
+      const url = `${SB_URL}/rest/v1/awards?category=eq.${CATEGORY}&order=year.desc,award_level.asc&limit=5000`;
+      const res = await fetch(url, {
+        headers: { 'apikey': SB_KEY, 'Authorization': `Bearer ${SB_KEY}` }
+      });
+      if(!res.ok) throw new Error(res.status);
+      allAwards = await res.json();
+    } catch(e) {
+      console.warn('[Awards] Fetch failed:', e);
+      allAwards = [];
+    }
+    buildYearFilters();
+    applyFilters();
+    document.getElementById('loadingIndicator').style.display = 'none';
+  }
+
+  function buildYearFilters(){
+    const years = [...new Set(allAwards.map(a => a.year))].sort((a,b) => b-a);
+    const container = document.getElementById('yearFilters');
+    let html = '<button class="filter-chip active" data-filter="year" data-value="">すべて</button>';
+    years.forEach(y => {
+      html += `<button class="filter-chip" data-filter="year" data-value="${y}">${y}</button>`;
+    });
+    container.innerHTML = html;
+    bindFilterClicks(container);
+  }
+
+  function applyFilters(){
+    filtered = allAwards.filter(a => {
+      if(filters.competition && a.competition !== filters.competition) return false;
+      if(filters.level && a.award_level !== filters.level) return false;
+      if(filters.year && a.year !== parseInt(filters.year)) return false;
+      if(filters.search){
+        const q = filters.search.toLowerCase();
+        if(!(a.producer_name||'').toLowerCase().includes(q) && !(a.product_name||'').toLowerCase().includes(q)) return false;
+      }
+      return true;
+    });
+    currentPage = 1;
+    render();
+  }
+
+  function render(){
+    const total = filtered.length;
+    const start = (currentPage - 1) * PER_PAGE;
+    const page = filtered.slice(start, start + PER_PAGE);
+
+    document.getElementById('resultsCount').textContent = total > 0 ? `${total}件の受賞データ` : '';
+
+    if(total === 0){
+      document.getElementById('tableWrap').style.display = 'none';
+      document.getElementById('awardsCards').innerHTML = '';
+      document.getElementById('emptyState').style.display = 'block';
+      document.getElementById('pagination').innerHTML = '';
+      return;
+    }
+    document.getElementById('emptyState').style.display = 'none';
+    document.getElementById('tableWrap').style.display = '';
+
+    let tbody = '';
+    page.forEach(a => {
+      const levelClass = LEVEL_CSS[a.award_level] || '';
+      const levelLabel = LEVEL_LABELS[a.award_level] || escHtml(a.award_level);
+      const producerHtml = a.producer_id
+        ? `<a class="producer-link" href="/shochu/${a.producer_id}.html">${escHtml(a.producer_name)}</a>`
+        : escHtml(a.producer_name);
+      const sourceHtml = a.source
+        ? `<a href="${escHtml(a.source)}" target="_blank" rel="noopener" style="font-size:12px;color:var(--accent);">公式</a>`
+        : '<span style="font-size:12px;color:#ddd;">—</span>';
+      tbody += `<tr>
+        <td>${a.year}</td>
+        <td>${escHtml(a.competition)}</td>
+        <td><span class="award-level ${levelClass}">${levelLabel}</span></td>
+        <td style="font-family:'Shippori Mincho',serif;font-weight:600;">${escHtml(a.product_name)}</td>
+        <td>${producerHtml}</td>
+        <td>${sourceHtml}</td>
+      </tr>`;
+    });
+    document.getElementById('awardsTableBody').innerHTML = tbody;
+
+    let cards = '';
+    page.forEach(a => {
+      const levelClass = LEVEL_CSS[a.award_level] || '';
+      const levelLabel = LEVEL_LABELS[a.award_level] || escHtml(a.award_level);
+      const producerHtml = a.producer_id
+        ? `<a class="producer-link" href="/shochu/${a.producer_id}.html">${escHtml(a.producer_name)}</a>`
+        : escHtml(a.producer_name);
+      cards += `<div class="award-card">
+        <div class="award-card-header">
+          <div class="award-card-product">${escHtml(a.product_name)}</div>
+          <span class="award-level ${levelClass}">${levelLabel}</span>
+        </div>
+        <div class="award-card-producer">${producerHtml}</div>
+        <div class="award-card-meta">
+          <span class="award-card-tag">${a.year}</span>
+          <span class="award-card-tag">${escHtml(a.competition)}</span>
+          ${a.source ? `<a href="${escHtml(a.source)}" target="_blank" rel="noopener" class="award-card-tag" style="color:var(--accent);">出典</a>` : ''}
+        </div>
+      </div>`;
+    });
+    document.getElementById('awardsCards').innerHTML = cards;
+
+    const totalPages = Math.ceil(total / PER_PAGE);
+    let pag = '';
+    if(totalPages > 1){
+      pag += `<button class="page-btn" ${currentPage===1?'disabled':''} onclick="window._awardsPage(${currentPage-1})">&#8592;</button>`;
+      for(let i=1;i<=totalPages;i++){
+        if(totalPages>7 && i>2 && i<totalPages-1 && Math.abs(i-currentPage)>1){
+          if(i===3||i===totalPages-2) pag += '<span style="padding:0 4px;color:#ccc;">...</span>';
+          continue;
+        }
+        pag += `<button class="page-btn${i===currentPage?' active':''}" onclick="window._awardsPage(${i})">${i}</button>`;
+      }
+      pag += `<button class="page-btn" ${currentPage===totalPages?'disabled':''} onclick="window._awardsPage(${currentPage+1})">&#8594;</button>`;
+    }
+    document.getElementById('pagination').innerHTML = pag;
+  }
+
+  window._awardsPage = function(p){
+    currentPage = p;
+    render();
+    window.scrollTo({top: document.querySelector('.results-section').offsetTop - 60, behavior:'smooth'});
+  };
+
+  function bindFilterClicks(container){
+    container.querySelectorAll('.filter-chip[data-filter]').forEach(btn => {
+      btn.addEventListener('click', function(){
+        const group = this.dataset.filter;
+        const val = this.dataset.value;
+        const parent = this.closest('.filter-row') || this.parentElement;
+        parent.querySelectorAll(`.filter-chip[data-filter="${group}"]`).forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        filters[group] = val;
+        applyFilters();
+      });
+    });
+  }
+
+  document.querySelectorAll('.filter-row').forEach(row => bindFilterClicks(row));
+
+  let searchTimer;
+  document.getElementById('searchInput').addEventListener('input', function(){
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      filters.search = this.value.trim();
+      applyFilters();
+    }, 300);
+  });
+
+  fetchAwards();
+})();
+</script>
+</body>
+</html>
