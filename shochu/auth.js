@@ -825,7 +825,7 @@
         return;
       }
       try {
-        var res = await fetch('/api/create-subscription', {
+        var res = await fetch('https://sake.terroirhub.com/api/create-subscription', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

@@ -461,7 +461,7 @@
       var userId = window.thubAuth && window.thubAuth.user ? window.thubAuth.user.id : null;
       if(!userId){ showFavToast('ログインが必要です'); return; }
 
-      var res = await fetch('/api/create-checkout', {
+      var res = await fetch('https://sake.terroirhub.com/api/create-checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ pack: String(pack), userId: userId }),
