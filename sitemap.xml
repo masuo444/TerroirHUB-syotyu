@@ -10871,39 +10871,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/yamanashi/takenoi.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/yamanashi/takenoi.html"/>
   </url>
-  <url>
-    <loc>https://shochu.terroirhub.com/shochu/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shochu.terroirhub.com/shochu/blog/what-is-shochu.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shochu.terroirhub.com/shochu/blog/shochu-vs-soju.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shochu.terroirhub.com/shochu/blog/best-shochu-guide.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shochu.terroirhub.com/shochu/blog/awamori-guide.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://shochu.terroirhub.com/shochu/awards/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/quest-ce-que-le-shochu.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/shochu-vs-sake.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/meilleur-shochu.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/guide-awamori.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/zh/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/zh/what-is-shochu.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/zh/awamori-guide.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

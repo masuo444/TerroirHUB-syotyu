@@ -127,6 +127,42 @@ UI = {
         'sakura_demo': "Merci pour votre question.\\n\\n* Sakura IA fournira de vraies reponses une fois connectee a l'API.",
         'source': 'Source',
         'photo': 'PHOTO',
+    },
+    'zh': {
+        'html_lang': 'zh-CN',
+        'title_suffix': 'Terroir HUB 烧酎',
+        'meta_desc': '关于日本{pref}{name}蒸馏所的官方信息。探索其代表品牌、蒸馏所特色和参观信息。',
+        'badge_shochu': 'TERROIR HUB 烧酎',
+        'badge_awamori': 'TERROIR HUB 泡盛',
+        'story_label': '故事',
+        'story_title': '{name}的故事',
+        'features_label': '特色',
+        'features_title': '{name}的特色',
+        'feature_prefix': '特色',
+        'brands_label_shochu': '烧酎',
+        'brands_label_awamori': '泡盛',
+        'brands_title': '代表品牌',
+        'info_label': '基本信息',
+        'info_title': '基本信息',
+        'location': '地址',
+        'phone': '电话',
+        'website': '官方网站',
+        'visit': '参观',
+        'years_history': '年历史',
+        'founded_text': '创立于{year}年。',
+        'ask_sakura': '问樱花',
+        'official_site': '官方网站',
+        'sakura_title': '樱花 — AI礼宾',
+        'sakura_online': '在线',
+        'sakura_placeholder': '关于这家蒸馏所的任何问题...',
+        'sakura_greet': '欢迎来到{name}。\\n\\n请随时向我提问关于这家蒸馏所的任何问题。',
+        'sug1': '这款酒怎么样？',
+        'sug2': '可以参观吗？',
+        'sug3': '推荐的喝法？',
+        'sug4': '历史是什么？',
+        'sakura_demo': '感谢您的提问。\\n\\n※ 樱花AI连接API后将提供真实回答。',
+        'source': '来源',
+        'photo': '照片',
     }
 }
 
@@ -186,6 +222,7 @@ def generate_lang_page(b, pref_slug, lang):
     hreflang = f'''    <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/shochu/{pref_slug}/{bid}.html">
     <link rel="alternate" hreflang="en" href="https://{DOMAIN}/shochu/en/{pref_slug}/{bid}.html">
     <link rel="alternate" hreflang="fr" href="https://{DOMAIN}/shochu/fr/{pref_slug}/{bid}.html">
+    <link rel="alternate" hreflang="zh-Hans" href="https://{DOMAIN}/shochu/zh/{pref_slug}/{bid}.html">
     <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/shochu/en/{pref_slug}/{bid}.html">'''
 
     # Brands HTML
@@ -342,7 +379,7 @@ def generate_lang_page(b, pref_slug, lang):
 <link rel="canonical" href="{page_url}">
 {hreflang}
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
 <style>
 {CSS}
 </style>
@@ -358,6 +395,7 @@ def generate_lang_page(b, pref_slug, lang):
     <a class="lb" href="/shochu/{pref_slug}/{bid}.html">\u65e5\u672c\u8a9e</a>
     <a class="lb{' active' if lang == 'en' else ''}" href="/shochu/en/{pref_slug}/{bid}.html">EN</a>
     <a class="lb{' active' if lang == 'fr' else ''}" href="/shochu/fr/{pref_slug}/{bid}.html">FR</a>
+    <a class="lb{' active' if lang == 'zh' else ''}" href="/shochu/zh/{pref_slug}/{bid}.html">ZH</a>
   </div>
 </nav>
 
@@ -462,7 +500,7 @@ function removeT(){{const e=document.getElementById('tp');if(e)e.remove();}}
 json_files = sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_distilleries.json')))
 grand_total = 0
 
-for lang in ['en', 'fr']:
+for lang in ['en', 'fr', 'zh']:
     total = 0
     errors = 0
     for jf in json_files:
@@ -488,4 +526,4 @@ for lang in ['en', 'fr']:
     print(f"{lang.upper()}: {total} pages generated ({errors} errors)")
     grand_total += total
 
-print(f"\nDone! Total: {grand_total} pages generated (EN + FR)")
+print(f"\nDone! Total: {grand_total} pages generated (EN + FR + ZH)")
