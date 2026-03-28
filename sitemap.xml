@@ -10901,4 +10901,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/quest-ce-que-le-shochu.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/shochu-vs-sake.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/meilleur-shochu.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shochu.terroirhub.com/shochu/blog/fr/guide-awamori.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
