@@ -334,6 +334,8 @@ def generate_page(b, pref_slug):
 
 <!-- TRACKING -->
 <script src="/shochu/track.js" defer></script>
+<div id="reviews-section" data-producer-id="{b['id']}" data-category="shochu"></div>
+<script src="/shochu/reviews.js" defer></script>
 
 <footer style="background:#1A1814;padding:40px 24px;text-align:center;">
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>

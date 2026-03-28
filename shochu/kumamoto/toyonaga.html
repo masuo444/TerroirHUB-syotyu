@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-P1JQ4K6PT7"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-P1JQ4K6PT7');</script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>豊永酒造 — Terroir HUB</title>
@@ -387,6 +384,8 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 
 <!-- TRACKING -->
 <script src="/shochu/track.js" defer></script>
+<div id="reviews-section" data-producer-id="toyonaga" data-category="shochu"></div>
+<script src="/shochu/reviews.js" defer></script>
 
 <footer style="background:#1A1814;padding:40px 24px;text-align:center;">
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
@@ -439,7 +438,5 @@ function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();
 function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
 function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
 </script>
-<script src="/shochu/auth.js"></script>
-<script src="/shochu/features.js"></script>
 </body>
 </html>
