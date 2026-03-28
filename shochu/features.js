@@ -217,7 +217,7 @@
         '① 下部の共有ボタン <span style="font-size:16px;">&#x2191;</span> をタップ<br>' +
         '② 「ホーム画面に追加」を選択' +
       '</div>' +
-      '<button onclick="this.closest(\'#pwa-prompt\').remove()" style="background:#B8452A;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;">閉じる</button>' +
+      '<button onclick="this.closest(\'#pwa-prompt\').remove()" style="background:#8B5E3C;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;">閉じる</button>' +
     '</div>';
     document.body.appendChild(modal);
   }
@@ -258,8 +258,8 @@
     div.style.cssText = 'display:flex;flex-direction:column;gap:8px;align-items:center;padding:12px;';
     div.innerHTML = '<a href="/api/line-login" style="display:flex;align-items:center;justify-content:center;gap:8px;background:#06C755;color:#fff;border:none;padding:12px 24px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;text-decoration:none;width:100%;max-width:280px;"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 5.82 2 10.5c0 4.01 3.56 7.37 8.36 8.17.33.07.78.22.89.5.1.26.07.66.03.92l-.14.87c-.04.26-.2 1.02.89.56s5.93-3.5 8.09-5.98C21.72 13.76 22 12.17 22 10.5 22 5.82 17.52 2 12 2z"/></svg>LINEでログイン</a>' +
       '<div style="display:flex;gap:8px;width:100%;max-width:280px;">' +
-        '<button onclick="showAuth(\'signup\')" style="flex:1;background:#B8452A;color:#fff;border:none;padding:10px 16px;border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;">メールで登録</button>' +
-        '<button onclick="showAuth(\'login\')" style="flex:1;background:none;border:1px solid #B8452A;color:#B8452A;padding:10px 16px;border-radius:8px;font-size:13px;cursor:pointer;">ログイン</button>' +
+        '<button onclick="showAuth(\'signup\')" style="flex:1;background:#8B5E3C;color:#fff;border:none;padding:10px 16px;border-radius:8px;font-size:13px;font-weight:500;cursor:pointer;">メールで登録</button>' +
+        '<button onclick="showAuth(\'login\')" style="flex:1;background:none;border:1px solid #8B5E3C;color:#8B5E3C;padding:10px 16px;border-radius:8px;font-size:13px;cursor:pointer;">ログイン</button>' +
       '</div>';
     chat.appendChild(div);
     chat.scrollTop = chat.scrollHeight;
@@ -271,7 +271,7 @@
     if(!chat) return;
     var div = document.createElement('div');
     div.style.cssText = 'display:flex;flex-direction:column;gap:8px;align-items:center;padding:12px;';
-    div.innerHTML = '<button onclick="if(window.thubAuth&&window.thubAuth.isLoggedIn){if(window.thubSubscribe)thubSubscribe(\'pro\')}else{sessionStorage.setItem(\'thub_pending_plan\',\'pro\');showAuth(\'signup\')}" style="background:#B8452A;color:#fff;border:none;padding:12px 28px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;">Proを始める（月額¥500）</button>' +
+    div.innerHTML = '<button onclick="if(window.thubAuth&&window.thubAuth.isLoggedIn){if(window.thubSubscribe)thubSubscribe(\'pro\')}else{sessionStorage.setItem(\'thub_pending_plan\',\'pro\');showAuth(\'signup\')}" style="background:#8B5E3C;color:#fff;border:none;padding:12px 28px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;">Proを始める（月額¥500）</button>' +
       '<a href="/shochu/plans/" style="font-size:11px;color:#888;text-decoration:none;">プランの詳細を見る →</a>';
     chat.appendChild(div);
     chat.scrollTop = chat.scrollHeight;
@@ -444,12 +444,12 @@
 
   function buildPackButton(credits, price){
     var perCredit = Math.round(price / credits);
-    return '<button onclick="thubBuyCredits(' + credits + ')" style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:14px 16px;border:1px solid #e8e4df;border-radius:10px;background:#fafaf8;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor=\'#B8452A\'" onmouseout="this.style.borderColor=\'#e8e4df\'">' +
+    return '<button onclick="thubBuyCredits(' + credits + ')" style="display:flex;align-items:center;justify-content:space-between;width:100%;padding:14px 16px;border:1px solid #e8e4df;border-radius:10px;background:#fafaf8;cursor:pointer;transition:border-color 0.2s;" onmouseover="this.style.borderColor=\'#8B5E3C\'" onmouseout="this.style.borderColor=\'#e8e4df\'">' +
       '<div style="text-align:left;">' +
         '<div style="font-size:15px;font-weight:600;color:#333;">' + credits + ' クレジット</div>' +
         '<div style="font-size:11px;color:#aaa;">1回あたり約' + perCredit + '円</div>' +
       '</div>' +
-      '<div style="font-size:16px;font-weight:700;color:#B8452A;">&yen;' + price.toLocaleString() + '</div>' +
+      '<div style="font-size:16px;font-weight:700;color:#8B5E3C;">&yen;' + price.toLocaleString() + '</div>' +
       '</button>';
   }
 
@@ -495,8 +495,8 @@
       '<div style="font-size:40px;margin-bottom:12px;">🍶</div>' +
       '<div style="font-family:Shippori Mincho,serif;font-size:18px;font-weight:600;color:#333;margin-bottom:8px;">ログインでサクラが使えます</div>' +
       '<div style="font-size:13px;color:#888;margin-bottom:16px;line-height:1.7;">無料会員登録するだけで、AIサクラに質問できます。<br>蔵の歴史、おすすめ銘柄、見学情報など何でも聞いてみよう。</div>' +
-      '<button onclick="this.closest(\'#login-modal\').remove();showAuth(\'signup\');" style="background:#B8452A;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer;font-weight:500;">無料会員登録（30秒）</button>' +
-      '<div style="margin-top:10px;"><button onclick="this.closest(\'#login-modal\').remove();showAuth(\'login\');" style="background:none;border:none;color:#B8452A;font-size:12px;cursor:pointer;">ログインはこちら</button></div>' +
+      '<button onclick="this.closest(\'#login-modal\').remove();showAuth(\'signup\');" style="background:#8B5E3C;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer;font-weight:500;">無料会員登録（30秒）</button>' +
+      '<div style="margin-top:10px;"><button onclick="this.closest(\'#login-modal\').remove();showAuth(\'login\');" style="background:none;border:none;color:#8B5E3C;font-size:12px;cursor:pointer;">ログインはこちら</button></div>' +
       '<div style="margin-top:12px;"><button onclick="this.closest(\'#login-modal\').remove()" style="background:none;border:none;color:#aaa;font-size:12px;cursor:pointer;">閉じる</button></div>' +
       '</div>';
     document.body.appendChild(modal);
@@ -511,7 +511,7 @@
       '<div style="font-size:40px;margin-bottom:12px;">🌸</div>' +
       '<div style="font-family:Shippori Mincho,serif;font-size:18px;font-weight:600;color:#333;margin-bottom:8px;">AIコンシェルジュはProプランから</div>' +
       '<div style="font-size:13px;color:#888;margin-bottom:16px;line-height:1.7;">Proプランにすると、AIサクラがあなた専用のソムリエに。<br>味覚に合わせたおすすめ、蔵の比較、旅のプランニングも。</div>' +
-      '<a href="#plans" onclick="this.closest(\'#free-msg-modal\').remove()" style="display:inline-block;background:#B8452A;color:#fff;padding:10px 24px;border-radius:8px;text-decoration:none;font-size:13px;cursor:pointer;font-weight:500;">Proプラン（月額¥500）を見る</a>' +
+      '<a href="#plans" onclick="this.closest(\'#free-msg-modal\').remove()" style="display:inline-block;background:#8B5E3C;color:#fff;padding:10px 24px;border-radius:8px;text-decoration:none;font-size:13px;cursor:pointer;font-weight:500;">Proプラン（月額¥500）を見る</a>' +
       '<div style="margin-top:12px;"><button onclick="this.closest(\'#free-msg-modal\').remove()" style="background:none;border:none;color:#aaa;font-size:12px;cursor:pointer;">閉じる</button></div>' +
       '</div>';
     document.body.appendChild(modal);
@@ -530,12 +530,12 @@
     if(!target) return;
     var nudge = document.createElement('div');
     nudge.id = 'sakura-pro-nudge';
-    nudge.style.cssText = 'display:none;padding:6px 14px;background:linear-gradient(90deg,rgba(184,69,42,0.06),rgba(212,114,138,0.06));border-top:1px solid rgba(184,69,42,0.1);';
+    nudge.style.cssText = 'display:none;padding:6px 14px;background:linear-gradient(90deg,rgba(139,94,60,0.06),rgba(212,114,138,0.06));border-top:1px solid rgba(139,94,60,0.1);';
     nudge.innerHTML = '<div style="display:flex;align-items:center;justify-content:space-between;gap:8px;">' +
       '<div style="font-size:11px;color:#888;line-height:1.5;">' +
-      '<span style="color:#B8452A;font-weight:600;">Pro</span>にすると、AIサクラがあなた専用のソムリエに' +
+      '<span style="color:#8B5E3C;font-weight:600;">Pro</span>にすると、AIサクラがあなた専用のソムリエに' +
       '</div>' +
-      '<button onclick="var m=this.closest(\'.overlay\');if(m)m.classList.remove(\'open\');if(window.thubAuth&&window.thubAuth.isLoggedIn){if(typeof thubSubscribe===\'function\')thubSubscribe(\'pro\')}else{if(typeof showAuth===\'function\')showAuth(\'signup\')}" style="flex-shrink:0;background:#B8452A;color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:10px;font-weight:600;cursor:pointer;white-space:nowrap;">月¥500</button>' +
+      '<button onclick="var m=this.closest(\'.overlay\');if(m)m.classList.remove(\'open\');if(window.thubAuth&&window.thubAuth.isLoggedIn){if(typeof thubSubscribe===\'function\')thubSubscribe(\'pro\')}else{if(typeof showAuth===\'function\')showAuth(\'signup\')}" style="flex-shrink:0;background:#8B5E3C;color:#fff;border:none;padding:5px 12px;border-radius:6px;font-size:10px;font-weight:600;cursor:pointer;white-space:nowrap;">月¥500</button>' +
       '</div>';
     target.parentNode.insertBefore(nudge, target);
   }
@@ -571,18 +571,18 @@
     if (plan === 'pro') {
       // Pro会員 → 2つの選択肢を明確に
       choicesHtml = '<div style="display:flex;flex-direction:column;gap:12px;margin-top:20px;">' +
-        '<button onclick="this.closest(\'#credit-modal\').remove();if(typeof thubSubscribe===\'function\')thubSubscribe(\'premium\')" style="width:100%;padding:16px;background:linear-gradient(135deg,#B8452A,#8B3520);color:#fff;border:none;border-radius:12px;cursor:pointer;text-align:left;">' +
+        '<button onclick="this.closest(\'#credit-modal\').remove();if(typeof thubSubscribe===\'function\')thubSubscribe(\'premium\')" style="width:100%;padding:16px;background:linear-gradient(135deg,#8B5E3C,#8B3520);color:#fff;border:none;border-radius:12px;cursor:pointer;text-align:left;">' +
           '<div style="font-size:15px;font-weight:700;">Premiumにアップグレード</div>' +
           '<div style="font-size:12px;opacity:0.85;margin-top:4px;">月300回 — ¥1,500/月</div>' +
         '</button>' +
-        '<button onclick="this.closest(\'#credit-modal\').remove();thubShowCreditShop();" style="width:100%;padding:16px;background:#fff;border:1.5px solid #B8452A;border-radius:12px;cursor:pointer;text-align:left;">' +
-          '<div style="font-size:15px;font-weight:700;color:#B8452A;">クレジットを追加購入</div>' +
+        '<button onclick="this.closest(\'#credit-modal\').remove();thubShowCreditShop();" style="width:100%;padding:16px;background:#fff;border:1.5px solid #8B5E3C;border-radius:12px;cursor:pointer;text-align:left;">' +
+          '<div style="font-size:15px;font-weight:700;color:#8B5E3C;">クレジットを追加購入</div>' +
           '<div style="font-size:12px;color:#888;margin-top:4px;">10回¥300〜 使い切るまで有効</div>' +
         '</button>' +
       '</div>';
     } else if (plan === 'premium') {
       choicesHtml = '<div style="margin-top:20px;">' +
-        '<button onclick="this.closest(\'#credit-modal\').remove();thubShowCreditShop();" style="width:100%;padding:16px;background:#B8452A;color:#fff;border:none;border-radius:12px;cursor:pointer;">' +
+        '<button onclick="this.closest(\'#credit-modal\').remove();thubShowCreditShop();" style="width:100%;padding:16px;background:#8B5E3C;color:#fff;border:none;border-radius:12px;cursor:pointer;">' +
           '<div style="font-size:15px;font-weight:700;">クレジットを追加購入</div>' +
           '<div style="font-size:12px;opacity:0.85;margin-top:4px;">10回¥300〜 使い切るまで有効</div>' +
         '</button>' +
@@ -631,11 +631,11 @@
     const content = type === 'login'
       ? `<div style="font-family:'Shippori Mincho',serif;font-size:18px;font-weight:600;color:#333;margin-bottom:8px;">ログインが必要です</div>
          <div style="font-size:13px;color:#888;margin-bottom:16px;">第${chapter}章以降はログインしてお読みいただけます。</div>
-         <button onclick="this.closest('#textbook-gate').remove();showAuth('login');" style="background:#B8452A;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer;font-weight:500;">ログイン / 無料登録</button>`
+         <button onclick="this.closest('#textbook-gate').remove();showAuth('login');" style="background:#8B5E3C;color:#fff;border:none;padding:10px 24px;border-radius:8px;font-size:13px;cursor:pointer;font-weight:500;">ログイン / 無料登録</button>`
       : `<div style="font-family:'Shippori Mincho',serif;font-size:18px;font-weight:600;color:#333;margin-bottom:8px;">Pro プランで読めます</div>
          <div style="font-size:13px;color:#888;margin-bottom:6px;">第${chapter}章はPro / Premiumプランの方がお読みいただけます。</div>
          <div style="font-size:12px;color:#aaa;margin-bottom:16px;">教科書全12章 + AI比較 + 履歴保存</div>
-         <a href="#plans" onclick="this.closest('#textbook-gate').remove()" style="display:inline-block;background:#B8452A;color:#fff;padding:10px 24px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500;">Proプラン（月額¥500）を見る</a>`;
+         <a href="#plans" onclick="this.closest('#textbook-gate').remove()" style="display:inline-block;background:#8B5E3C;color:#fff;padding:10px 24px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:500;">Proプラン（月額¥500）を見る</a>`;
 
     modal.innerHTML = `<div style="background:#fff;border-radius:14px;max-width:440px;width:calc(100% - 32px);padding:28px;text-align:center;box-shadow:0 16px 48px rgba(0,0,0,0.12);">
       <div style="font-size:40px;margin-bottom:12px;">📖</div>
@@ -679,7 +679,7 @@
       </div>
       <textarea id="log-memo" placeholder="メモ（味わい・感想など）" rows="3" style="width:100%;padding:10px 12px;border:1px solid #ddd;border-radius:8px;font-size:13px;resize:vertical;font-family:'Noto Sans JP',sans-serif;margin-bottom:16px;"></textarea>
       <div style="display:flex;gap:8px;">
-        <button id="log-submit-btn" data-brewery-id="${escHtml(breweryId)}" data-brewery-name="${escHtml(breweryName)}" style="flex:1;background:#B8452A;color:#fff;border:none;padding:12px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;">記録する</button>
+        <button id="log-submit-btn" data-brewery-id="${escHtml(breweryId)}" data-brewery-name="${escHtml(breweryName)}" style="flex:1;background:#8B5E3C;color:#fff;border:none;padding:12px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;">記録する</button>
         <button onclick="this.closest('#sake-log-modal').remove()" style="background:#fafaf8;border:1px solid #ddd;padding:12px 16px;border-radius:8px;font-size:13px;cursor:pointer;color:#666;">閉じる</button>
       </div>
     </div>`;
@@ -694,7 +694,7 @@
     logStarValue = n;
     document.querySelectorAll('#log-stars span').forEach(function(s){
       s.textContent = parseInt(s.dataset.star) <= n ? '★' : '☆';
-      s.style.color = parseInt(s.dataset.star) <= n ? '#B8452A' : '#ddd';
+      s.style.color = parseInt(s.dataset.star) <= n ? '#8B5E3C' : '#ddd';
     });
   };
 
@@ -751,8 +751,8 @@
             '<div style="font-size:14px;font-weight:500;color:#333;">' + escHtml(l.brewery_name) + '</div>' +
             '<div style="font-size:11px;color:#aaa;">' + date + '</div>' +
           '</div>' +
-          (l.brand ? '<div style="font-size:13px;color:#B8452A;margin-top:2px;">' + escHtml(l.brand) + '</div>' : '') +
-          '<div style="color:#B8452A;font-size:14px;margin-top:2px;">' + stars + '</div>' +
+          (l.brand ? '<div style="font-size:13px;color:#8B5E3C;margin-top:2px;">' + escHtml(l.brand) + '</div>' : '') +
+          '<div style="color:#8B5E3C;font-size:14px;margin-top:2px;">' + stars + '</div>' +
           (l.memo ? '<div style="font-size:12px;color:#666;margin-top:4px;line-height:1.6;">' + escHtml(l.memo) + '</div>' : '') +
         '</div>';
       }).join('');
@@ -812,7 +812,7 @@
         return '<div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0;">' +
           '<div style="flex:1;">' +
             '<div style="font-size:13px;font-weight:500;color:#333;">' + escHtml(w.brewery_name) + '</div>' +
-            (w.brand ? '<div style="font-size:12px;color:#B8452A;">' + escHtml(w.brand) + '</div>' : '') +
+            (w.brand ? '<div style="font-size:12px;color:#8B5E3C;">' + escHtml(w.brand) + '</div>' : '') +
           '</div>' +
           '<button data-wish-id="' + escHtml(w.brewery_id) + '" data-wish-name="' + escHtml(w.brewery_name) + '" data-wish-brand="' + escHtml(w.brand||'') + '" style="background:none;border:none;color:#e05c5c;font-size:12px;cursor:pointer;">削除</button>' +
         '</div>';
@@ -906,7 +906,7 @@
 
   function showBadgeNotification(badge){
     var notif = document.createElement('div');
-    notif.style.cssText = 'position:fixed;top:70px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#B8452A,#D4728A);color:#fff;padding:16px 24px;border-radius:12px;z-index:900;box-shadow:0 8px 32px rgba(184,69,42,0.3);display:flex;align-items:center;gap:12px;animation:fadeInUp 0.5s ease;';
+    notif.style.cssText = 'position:fixed;top:70px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#8B5E3C,#8B5E3C);color:#fff;padding:16px 24px;border-radius:12px;z-index:900;box-shadow:0 8px 32px rgba(139,94,60,0.3);display:flex;align-items:center;gap:12px;animation:fadeInUp 0.5s ease;';
     notif.innerHTML = '<div style="font-size:32px;">' + escHtml(badge.icon) + '</div><div><div style="font-size:10px;letter-spacing:0.12em;opacity:0.8;">NEW BADGE</div><div style="font-size:16px;font-weight:600;">' + escHtml(badge.name) + '</div><div style="font-size:11px;opacity:0.8;">' + escHtml(badge.desc) + '</div></div>';
     document.body.appendChild(notif);
     setTimeout(function(){ notif.style.opacity = '0'; notif.style.transition = 'opacity 0.5s'; setTimeout(function(){ notif.remove(); }, 500); }, 3500);
@@ -995,7 +995,7 @@
 
   function showXPToast(msg){
     var toast = document.createElement('div');
-    toast.style.cssText = 'position:fixed;bottom:120px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#B8452A,#D4728A);color:#fff;padding:8px 18px;border-radius:20px;font-size:13px;font-weight:600;z-index:850;animation:fadeInUp 0.3s ease;box-shadow:0 4px 16px rgba(184,69,42,0.3);';
+    toast.style.cssText = 'position:fixed;bottom:120px;left:50%;transform:translateX(-50%);background:linear-gradient(135deg,#8B5E3C,#8B5E3C);color:#fff;padding:8px 18px;border-radius:20px;font-size:13px;font-weight:600;z-index:850;animation:fadeInUp 0.3s ease;box-shadow:0 4px 16px rgba(139,94,60,0.3);';
     toast.textContent = msg;
     document.body.appendChild(toast);
     setTimeout(function(){ toast.style.opacity='0'; toast.style.transition='opacity 0.3s'; setTimeout(function(){toast.remove();},300); }, 1800);
@@ -1007,11 +1007,11 @@
     overlay.onclick = function(){ overlay.remove(); };
     overlay.innerHTML = '<div style="background:#fff;border-radius:20px;padding:40px 32px;text-align:center;max-width:440px;box-shadow:0 24px 64px rgba(0,0,0,0.2);" onclick="event.stopPropagation()">' +
       '<div style="font-size:56px;margin-bottom:12px;animation:pulse 1s infinite;">' + level.icon + '</div>' +
-      '<div style="font-size:11px;letter-spacing:0.2em;color:#B8452A;font-weight:600;margin-bottom:8px;">LEVEL UP!</div>' +
+      '<div style="font-size:11px;letter-spacing:0.2em;color:#8B5E3C;font-weight:600;margin-bottom:8px;">LEVEL UP!</div>' +
       '<div style="font-family:\'Shippori Mincho\',serif;font-size:28px;font-weight:700;color:#333;margin-bottom:4px;">Lv.' + level.lv + '</div>' +
-      '<div style="font-size:18px;color:#B8452A;font-weight:600;margin-bottom:16px;">' + level.name + '</div>' +
+      '<div style="font-size:18px;color:#8B5E3C;font-weight:600;margin-bottom:16px;">' + level.name + '</div>' +
       '<div style="font-size:13px;color:#888;">おめでとうございます！</div>' +
-      '<button onclick="this.closest(\'div\').parentElement.remove()" style="margin-top:20px;background:#B8452A;color:#fff;border:none;padding:10px 32px;border-radius:10px;font-size:14px;cursor:pointer;">続ける</button>' +
+      '<button onclick="this.closest(\'div\').parentElement.remove()" style="margin-top:20px;background:#8B5E3C;color:#fff;border:none;padding:10px 32px;border-radius:10px;font-size:14px;cursor:pointer;">続ける</button>' +
     '</div>';
     document.body.appendChild(overlay);
   }
@@ -1208,7 +1208,7 @@
     function escH(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
     var html = '<section style="padding:48px 24px;max-width:960px;margin:0 auto;">';
-    html += '<div style="font-size:9px;letter-spacing:0.35em;color:#B8452A;text-transform:uppercase;margin-bottom:8px;">Community</div>';
+    html += '<div style="font-size:9px;letter-spacing:0.35em;color:#8B5E3C;text-transform:uppercase;margin-bottom:8px;">Community</div>';
     html += '<div style="font-family:Shippori Mincho,serif;font-size:clamp(22px,4vw,34px);margin-bottom:20px;">みんなの記録</div>';
 
     // 写真
@@ -1227,8 +1227,8 @@
       if(rated.length > 0){
         var avg = (rated.reduce(function(s,l){return s+l.rating;},0) / rated.length).toFixed(1);
         html += '<div style="display:flex;align-items:center;gap:12px;margin-bottom:16px;">';
-        html += '<div style="font-size:32px;font-weight:700;color:#B8452A;font-family:Inter,sans-serif;">' + avg + '</div>';
-        html += '<div><div style="color:#D4728A;font-size:16px;">';
+        html += '<div style="font-size:32px;font-weight:700;color:#8B5E3C;font-family:Inter,sans-serif;">' + avg + '</div>';
+        html += '<div><div style="color:#8B5E3C;font-size:16px;">';
         for(var i=1;i<=5;i++) html += i<=Math.round(parseFloat(avg))?'★':'☆';
         html += '</div><div style="font-size:11px;color:#aaa;">' + rated.length + '件の評価</div></div></div>';
       }
@@ -1236,7 +1236,7 @@
       html += '<div>';
       logs.forEach(function(l){
         var stars = '';
-        if(l.rating > 0) for(var i=1;i<=5;i++) stars += '<span style="color:'+(i<=l.rating?'#D4728A':'#e5e5e5')+';">★</span>';
+        if(l.rating > 0) for(var i=1;i<=5;i++) stars += '<span style="color:'+(i<=l.rating?'#8B5E3C':'#e5e5e5')+';">★</span>';
         var date = l.created_at ? new Date(l.created_at).toLocaleDateString('ja-JP') : '';
         html += '<div style="padding:10px 0;border-bottom:1px solid #f0f0f0;">';
         if(l.brand_name) html += '<div style="font-size:13px;font-weight:500;color:#333;">' + escH(l.brand_name) + '</div>';
@@ -1249,7 +1249,7 @@
 
     // CTA
     html += '<div style="text-align:center;margin-top:20px;">';
-    html += '<a href="https://terroirhub.com/quest/" style="display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#B8452A;font-weight:500;text-decoration:none;border:1px solid rgba(184,69,42,0.25);padding:8px 20px;border-radius:8px;">テロワールクエストで記録する →</a>';
+    html += '<a href="https://terroirhub.com/quest/" style="display:inline-flex;align-items:center;gap:6px;font-size:13px;color:#8B5E3C;font-weight:500;text-decoration:none;border:1px solid rgba(139,94,60,0.25);padding:8px 20px;border-radius:8px;">テロワールクエストで記録する →</a>';
     html += '</div></section>';
 
     visitSection.insertAdjacentHTML('beforebegin', html);
@@ -1276,7 +1276,7 @@
 // テロワールクエスト自動読み込み
 (function(){
   var s = document.createElement('script');
-  s.src = '/sake/quest.js';
+  s.src = '/shochu/quest.js';
   s.defer = true;
   document.head.appendChild(s);
 })();
@@ -1307,17 +1307,17 @@
     .atlas-panel{position:fixed;top:0;right:0;bottom:0;width:380px;min-width:280px;max-width:600px;background:#fff;box-shadow:-2px 0 12px rgba(0,0,0,0.04);display:flex;flex-direction:column;z-index:90;transition:transform 0.3s cubic-bezier(0.16,1,0.3,1);}
     .atlas-panel.closed{transform:translateX(100%);}
     .atlas-resize{position:absolute;left:0;top:0;bottom:0;width:5px;cursor:col-resize;z-index:10;}
-    .atlas-resize:hover,.atlas-resize.active{background:rgba(184,69,42,0.15);}
+    .atlas-resize:hover,.atlas-resize.active{background:rgba(139,94,60,0.15);}
     body.atlas-open{margin-right:380px;transition:margin-right 0.3s;}
     body.atlas-closed{margin-right:0;}
-    .atlas-toggle{position:fixed;right:16px;top:12px;z-index:101;width:40px;height:40px;background:linear-gradient(135deg,#D4728A,#B8452A);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;box-shadow:0 4px 16px rgba(184,69,42,0.3);display:flex;align-items:center;justify-content:center;transition:transform 0.2s;}
+    .atlas-toggle{position:fixed;right:16px;top:12px;z-index:101;width:40px;height:40px;background:linear-gradient(135deg,#8B5E3C,#8B5E3C);border:none;border-radius:50%;color:#fff;font-size:18px;cursor:pointer;box-shadow:0 4px 16px rgba(139,94,60,0.3);display:flex;align-items:center;justify-content:center;transition:transform 0.2s;}
     .atlas-toggle:hover{transform:scale(1.1);}
     .atlas-hdr{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid #eee;flex-shrink:0;}
     .atlas-hdr-l{display:flex;align-items:center;gap:10px;}
     .atlas-av{width:32px;height:32px;border-radius:50%;object-fit:cover;}
     .atlas-name{font-size:14px;font-weight:600;color:#333;}
     .atlas-status{font-size:10px;color:#4caf7d;}
-    .atlas-close{background:#f5f2ec;border:none;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:16px;color:#B8452A;display:flex;align-items:center;justify-content:center;transition:background 0.15s;}
+    .atlas-close{background:#f5f2ec;border:none;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:16px;color:#8B5E3C;display:flex;align-items:center;justify-content:center;transition:background 0.15s;}
     .atlas-close:hover{background:#eee;}
     .atlas-chat{flex:1;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;background:#fafaf8;}
     .atlas-msg{display:flex;gap:8px;animation:atlasFade 0.3s ease;}
@@ -1326,12 +1326,12 @@
     .atlas-msg .atlas-mav{width:28px;height:28px;border-radius:50%;flex-shrink:0;overflow:hidden;}
     .atlas-msg .atlas-mav img{width:100%;height:100%;object-fit:cover;}
     .atlas-bubble{max-width:85%;padding:10px 14px;border-radius:12px;font-size:13px;line-height:1.8;color:#333;}
-    .atlas-msg.bot .atlas-bubble{background:#fff;border:1px solid rgba(196,114,126,0.12);}
+    .atlas-msg.bot .atlas-bubble{background:#fff;border:1px solid rgba(139,94,60,0.12);}
     .atlas-msg.user .atlas-bubble{background:#f5f2ec;}
     .atlas-inp{padding:10px 14px;border-top:1px solid #eee;display:flex;gap:8px;flex-shrink:0;background:#fff;}
     .atlas-inp textarea{flex:1;background:#f5f2ec;border:1px solid #eee;border-radius:8px;color:#333;font-family:'Noto Sans JP',sans-serif;font-size:13px;padding:8px 10px;outline:none;resize:none;line-height:1.5;}
-    .atlas-inp textarea:focus{border-color:#D4728A;}
-    .atlas-inp button{background:#B8452A;border:none;color:#fff;width:36px;height:36px;border-radius:8px;cursor:pointer;font-size:15px;font-weight:700;flex-shrink:0;}
+    .atlas-inp textarea:focus{border-color:#8B5E3C;}
+    .atlas-inp button{background:#8B5E3C;border:none;color:#fff;width:36px;height:36px;border-radius:8px;cursor:pointer;font-size:15px;font-weight:700;flex-shrink:0;}
   `;
   document.head.appendChild(style);
 
@@ -1342,7 +1342,7 @@
     <div class="atlas-resize" id="atlas-resize"></div>
     <div class="atlas-hdr">
       <div class="atlas-hdr-l">
-        <img class="atlas-av" src="/sake/sakura.jpg" alt="サクラ">
+        <img class="atlas-av" src="/shochu/sakura.jpg" alt="サクラ">
         <div>
           <div class="atlas-name">サクラ</div>
           <div class="atlas-status">オンライン</div>
@@ -1351,7 +1351,7 @@
     </div>
     <div class="atlas-chat" id="atlas-chat"></div>
     <div class="atlas-inp">
-      <textarea id="atlas-input" rows="1" placeholder="日本酒について何でも…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();atlasSend();}"></textarea>
+      <textarea id="atlas-input" rows="1" placeholder="焼酎・泡盛について何でも…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();atlasSend();}"></textarea>
       <button onclick="atlasSend()">↑</button>
     </div>
   `;
@@ -1434,7 +1434,7 @@
     var chat = document.getElementById('atlas-chat');
     var d = document.createElement('div');
     d.className = 'atlas-msg ' + role;
-    var av = role === 'bot' ? '<div class="atlas-mav"><img src="/sake/sakura.jpg" alt=""></div>' : '';
+    var av = role === 'bot' ? '<div class="atlas-mav"><img src="/shochu/sakura.jpg" alt=""></div>' : '';
     d.innerHTML = av + '<div class="atlas-bubble">' + escHtmlAtlas(text).replace(/\n/g,'<br>') + '</div>';
     chat.appendChild(d);
     chat.scrollTop = chat.scrollHeight;
@@ -1453,13 +1453,13 @@
     history.forEach(function(m){
       var d = document.createElement('div');
       d.className = 'atlas-msg ' + m.role;
-      var av = m.role === 'bot' ? '<div class="atlas-mav"><img src="/sake/sakura.jpg" alt=""></div>' : '';
+      var av = m.role === 'bot' ? '<div class="atlas-mav"><img src="/shochu/sakura.jpg" alt=""></div>' : '';
       d.innerHTML = av + '<div class="atlas-bubble">' + escHtmlAtlas(m.text).replace(/\n/g,'<br>') + '</div>';
       chat.appendChild(d);
     });
     chat.scrollTop = chat.scrollHeight;
   } else {
-    addAtlasMsg('bot', 'こんにちは、サクラです。🌸\n\n日本酒のことなら何でも聞いてくださいね。蔵の情報、銘柄のおすすめ、料理との合わせ方まで。');
+    addAtlasMsg('bot', 'こんにちは、サクラです。🌸\n\n焼酎・泡盛のことなら何でも聞いてくださいね。蒸留所の情報、銘柄のおすすめ、料理とのペアリングまで。');
   }
   renderAtlasSugs();
 
@@ -1481,7 +1481,7 @@
     var chat = document.getElementById('atlas-chat');
     var tp = document.createElement('div');
     tp.className = 'atlas-msg bot'; tp.id = 'atlas-typing';
-    tp.innerHTML = '<div class="atlas-mav"><img src="/sake/sakura.jpg" alt=""></div><div class="atlas-bubble"><span style="color:#ccc;">考え中...</span></div>';
+    tp.innerHTML = '<div class="atlas-mav"><img src="/shochu/sakura.jpg" alt=""></div><div class="atlas-bubble"><span style="color:#ccc;">考え中...</span></div>';
     chat.appendChild(tp); chat.scrollTop = chat.scrollHeight;
 
     // Claude API呼び出し
