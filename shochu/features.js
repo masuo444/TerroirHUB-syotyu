@@ -1348,6 +1348,7 @@
           <div class="atlas-status">オンライン</div>
         </div>
       </div>
+      <div style="display:flex;gap:6px;"><button class="atlas-close" onclick="clearAtlasHistory()" title="履歴クリア" style="font-size:13px;">🗑</button><button class="atlas-close" onclick="toggleAtlasPanel()" title="閉じる">✕</button></div>
     </div>
     <div class="atlas-chat" id="atlas-chat"></div>
     <div class="atlas-inp">
@@ -1462,6 +1463,14 @@
     addAtlasMsg('bot', 'こんにちは、サクラです。🌸\n\n焼酎・泡盛のことなら何でも聞いてくださいね。蒸留所の情報、銘柄のおすすめ、料理とのペアリングまで。');
   }
   renderAtlasSugs();
+
+  // 履歴クリア
+  window.clearAtlasHistory = function(){
+    if(!confirm('チャット履歴をクリアしますか？')) return;
+    localStorage.removeItem(HISTORY_KEY);
+    document.getElementById('atlas-chat').innerHTML = '';
+    addAtlasMsg('bot', 'こんにちは、サクラです。🌸\n\n焼酎・泡盛のこと、何でも聞いてくださいね。');
+  };
 
   // 送信
   window.atlasSend = function(){
