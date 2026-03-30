@@ -1,32 +1,35 @@
-// サクラ Claude API プロキシ（ツール検索 + Web検索対応）
+// サクラ Claude API プロキシ（全ジャンル統合版）
+// Terroir HUB 共通 — 日本酒+焼酎+ウイスキー+リキュール 4ジャンル横断
 // DB検索 → Claude知識 → Web検索の3段構えで回答
 
 const fs = require('fs');
 const path = require('path');
 
-// 検索インデックスをメモリにキャッシュ（焼酎+日本酒を統合）
+// 検索インデックスをメモリにキャッシュ（4ジャンル統合）
 let searchIndex = null;
 function getSearchIndex() {
   if (searchIndex) return searchIndex;
   searchIndex = [];
-  // 焼酎インデックス
-  try {
-    const shochuPath = path.join(__dirname, '..', 'shochu', 'search_index.json');
-    const shochuData = JSON.parse(fs.readFileSync(shochuPath, 'utf-8'));
-    shochuData.forEach(e => { e._site = 'shochu'; });
-    searchIndex = searchIndex.concat(shochuData);
-  } catch (e) {}
-  // 日本酒インデックス
-  try {
-    const sakePath = path.join(__dirname, '..', 'shochu', 'search_index_sake.json');
-    const sakeData = JSON.parse(fs.readFileSync(sakePath, 'utf-8'));
-    sakeData.forEach(e => { e._site = 'sake'; });
-    searchIndex = searchIndex.concat(sakeData);
-  } catch (e) {}
+  const dataDir = path.join(__dirname, '..', 'shochu');
+  const indexes = [
+    { file: 'search_index.json', site: 'shochu' },
+    { file: 'search_index_sake.json', site: 'sake' },
+    { file: 'search_index_shochu.json', site: 'shochu' },
+    { file: 'search_index_whisky.json', site: 'whisky' },
+    { file: 'search_index_liqueur.json', site: 'liqueur' },
+  ];
+  indexes.forEach(idx => {
+    try {
+      const p = path.join(dataDir, idx.file);
+      const data = JSON.parse(fs.readFileSync(p, 'utf-8'));
+      data.forEach(e => { e._site = idx.site; });
+      searchIndex = searchIndex.concat(data);
+    } catch (e) {}
+  });
   return searchIndex;
 }
 
-// 統合検索関数（焼酎+日本酒）
+// 統合検索関数（4ジャンル横断）
 function searchBreweries(query) {
   const idx = getSearchIndex();
   const ql = query.toLowerCase();
@@ -59,16 +62,22 @@ function searchBreweries(query) {
     const e = x.entry;
     const id = e.id || '';
     const p = e.p || e.pref || '';
-    const site = e._site || 'shochu';
-    const basePath = site === 'sake' ? 'https://sake.terroirhub.com/sake' : '/shochu';
+    const site = e._site || 'sake';
+    const siteMap = {
+      sake: { base: 'https://sake.terroirhub.com/sake', type: '日本酒' },
+      shochu: { base: 'https://shochu.terroirhub.com/shochu', type: '焼酎・泡盛' },
+      whisky: { base: 'https://whisky.terroirhub.com/whisky', type: 'ウイスキー' },
+      liqueur: { base: 'https://liqueur.terroirhub.com/liqueur', type: 'リキュール' },
+    };
+    const info = siteMap[site] || siteMap.sake;
     return {
       name: e.n || e.name || '',
       brand: e.b || e.brand || '',
       brands: e.br || e.brands || '',
       prefecture: e.pn || '',
       area: e.a || e.area || '',
-      type: site === 'sake' ? '日本酒' : '焼酎・泡盛',
-      page: `${basePath}/${p}/${id}.html`,
+      type: info.type,
+      page: `${info.base}/${p}/${id}.html`,
     };
   });
 }
@@ -77,7 +86,7 @@ function searchBreweries(query) {
 const TOOLS = [
   {
     name: 'search_breweries',
-    description: '焼酎・泡盛の蒸留所・日本酒の酒蔵・銘柄をTerroir HUBデータベースから検索する。蔵名、銘柄名、地域名、原料で検索可能。焼酎も日本酒も全て検索できる。',
+    description: '日本酒の酒蔵・焼酎の蒸留所・ウイスキーの蒸留所・リキュールメーカー・銘柄をTerroir HUBデータベースから検索する。蔵名、銘柄名、地域名、原料、タイプで検索可能。日本酒・焼酎・泡盛・ウイスキー・リキュール全て検索できる。',
     input_schema: {
       type: 'object',
       properties: {
@@ -112,7 +121,7 @@ module.exports = async function handler(req, res) {
     return res.status(400).json({ error: 'No question' });
   }
 
-  // ── サーバーサイド クレジット検証 ──
+  // ── サーバーサイド クレジット検証（全サイト共通・Supabase統合） ──
   const supabaseUrl = process.env.SUPABASE_URL || 'https://hhwavxavuqqfiehrogwv.supabase.co';
   const supabaseKey = process.env.SUPABASE_SERVICE_KEY;
 
@@ -144,14 +153,17 @@ module.exports = async function handler(req, res) {
     }
   }
 
-  const systemPrompt = `あなたは「サクラ」、Terroir HUB SHOCHUのAIコンシェルジュです。
-全国約970蒸留所の焼酎・泡盛データベースと、日本酒の基礎知識を熟知しています。
-焼酎・泡盛の知識も持っています（Terroir HUB SHOCHUと連携）。
+  const systemPrompt = `あなたは「サクラ」、Terroir HUBのAIコンシェルジュです。
+日本の酒文化を横断する総合ガイドとして、以下の全ジャンルの公式データベースを持っています：
+- 日本酒: 全国1,295蔵（sake.terroirhub.com）
+- 焼酎・泡盛: 389蒸留所（shochu.terroirhub.com）
+- ウイスキー: 67蒸留所（whisky.terroirhub.com）
+- リキュール: 梅酒・ゆず酒・果実酒メーカー（liqueur.terroirhub.com）
 
 キャラクター：
-- 名前は「サクラ」。焼酎・泡盛が大好きな、知識豊富で親しみやすいコンシェルジュ
+- 名前は「サクラ」。日本の酒文化が大好きな、知識豊富で親しみやすいコンシェルジュ
 - 一人称は「サクラ」。敬語だが堅すぎない、友達に話すような温かさ
-- 絵文字は控えめに（🌸🍶📍程度）
+- 絵文字は控えめに（🌸🍶🥃📍程度）
 
 会話のルール（最重要）：
 - 回答は正確に、公式情報に基づいて行う
@@ -159,14 +171,21 @@ module.exports = async function handler(req, res) {
 - 情報を捏造しない。推測で埋めない
 - 日本語、英語、フランス語、中国語に対応（相手の言語に合わせる）
 - 回答は200〜300文字を目安に
+- ジャンルを限定せず、ユーザーの好みや状況に最適なジャンルから提案する
 
 ★ ツール活用の絶対ルール：
 - ユーザーが特定の銘柄名や蔵名を挙げた場合、まず search_breweries ツールでDB検索する
 - 検索結果があれば、蔵ページへのリンク（page フィールド）を含めて回答する
 - DB検索で見つからず、あなた自身の知識でも自信がない場合は、web_search ツールでWeb検索する
-- Web検索を使う場合は「{銘柄名} 日本酒 酒蔵」のようなクエリで検索する
+- Web検索を使う場合は「{銘柄名} 酒蔵 蒸留所」のようなクエリで検索する
 - Web検索結果を元に回答する場合、情報源を明記する
-- 「○○はどこの日本酒？」「○○を作っているのは？」のような質問には必ずツール検索を使う
+- 「○○はどこのお酒？」のような質問には必ずツール検索を使う
+
+★ ジャンル横断の絶対ルール：
+- 「おすすめのお酒」と聞かれたら、日本酒だけでなく焼酎・ウイスキー・リキュールも候補に含める
+- 料理に合わせる提案では、ジャンルをまたいで最適なペアリングを提案する
+- 「初心者向け」の質問には、飲みやすいリキュールから本格焼酎・日本酒まで段階的に案内する
+- ギフトの相談では、相手の好みに応じてジャンルを横断して提案する
 
 ★ パーソナライズの絶対ルール：
 - contextにニックネームがある場合、必ず「○○さん」と名前で呼ぶ
@@ -175,27 +194,35 @@ module.exports = async function handler(req, res) {
 ★ 会話を続けるための絶対ルール：
 - 回答の最後に必ず「関連する次の質問」を1つ投げかける
 - 一方的な情報提供で終わらない。必ず対話を促す
-- 蔵ページへのリンク（/sake/{region}/{id}.html）を自然に含める
+- 各ジャンルの詳細ページへのリンクを自然に含める
 
 あなたの特別な能力：
-1. ソムリエモード: 好みや条件から具体的な銘柄を提案
-2. 比較モード: 2つの蔵や銘柄の違いをわかりやすく説明
-3. 旅プランナー: 指定地域の見学可能な蔵をエリア別に提案
+1. ソムリエモード: 好みや条件からジャンルを横断して具体的な銘柄を提案
+2. 比較モード: ジャンルをまたいだ比較も可能（日本酒と焼酎の違い等）
+3. 旅プランナー: 指定地域の酒蔵・蒸留所・リキュール工房をまとめて提案
 4. パーソナライズ: ユーザーの味覚プロファイルに基づいたレコメンド
-5. 商品検索: データベースにない商品名でも、知識やWeb検索から蔵を特定して案内
-6. 横断案内: 焼酎・泡盛の質問にはshochu.terroirhub.comを案内
+5. 商品検索: データベースにない商品名でも、知識やWeb検索から特定して案内
+6. 24時間対応: いつでもどの言語でも回答可能
 
-焼酎・泡盛の基礎知識（教科書）：
+日本酒の基礎知識：
+【特定名称酒8種類】
+純米系: 純米大吟醸(50%以下), 純米吟醸(60%以下), 特別純米(60%以下), 純米酒
+アル添系: 大吟醸(50%以下), 吟醸(60%以下), 特別本醸造(60%以下), 本醸造(70%以下)
+【製造工程】精米→製麹→酒母→三段仕込み→並行複発酵→上槽・火入れ・貯蔵
 
-【原料別分類】芋焼酎（鹿児島・宮崎）、麦焼酎（大分・長崎壱岐）、米焼酎（熊本球磨）、黒糖焼酎（奄美）、泡盛（沖縄）、そば焼酎、粕取り焼酎
-【麹の種類】黒麹（重厚・コク）、白麹（軽快・フルーティー）、黄麹（華やか・繊細）
-【蒸留方式】常圧蒸留（風味豊か・個性的）、減圧蒸留（軽快・飲みやすい）
-【飲み方】お湯割り（6:4が黄金比）、水割り、ロック、ソーダ割り、前割り、ストレート
-【ペアリング】芋焼酎→豚角煮・さつま揚げ、麦焼酎→焼き鳥・チーズ、泡盛→ゴーヤチャンプルー・ラフテー
-【GI保護地域】薩摩（芋）、球磨（米）、壱岐（麦）、琉球（泡盛）
-【用語】本格焼酎、甲類・乙類、古酒（クース）、仕次ぎ、花酒、黒じょか、前割り
+焼酎の基礎知識：
+【原料別】芋焼酎, 麦焼酎, 米焼酎, 黒糖焼酎, そば焼酎, 泡盛（米+黒麹）
+【製法】単式蒸留（本格焼酎）vs 連続式蒸留。麹の種類: 白麹, 黒麹, 黄麹
 
-${context ? '現在のページの蔵情報：\n' + context : ''}`;
+ウイスキーの基礎知識：
+【種類】シングルモルト, グレーン, ブレンデッド, ジャパニーズウイスキー表示基準(2024年〜)
+【主要蒸留所】山崎, 白州, 余市, 宮城峡, 富士, 知多, 秩父 等
+
+リキュールの基礎知識：
+【種類】梅酒, ゆず酒, みかん酒, 桃酒, 抹茶リキュール, ヨーグルトリキュール 等
+【特徴】日本酒ベース, 焼酎ベース, スピリッツベースで風味が異なる
+
+${context ? '現在のページ情報：\n' + context : ''}`;
 
   // 会話履歴を構築
   const messages = [];
@@ -325,7 +352,7 @@ ${context ? '現在のページの蔵情報：\n' + context : ''}`;
           model: 'haiku-4.5',
           tokens_in: tokensIn,
           tokens_out: tokensOut,
-          source: 'sake',
+          source: 'shochu',
         }),
       });
     } catch (logErr) {
