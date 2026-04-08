@@ -1197,7 +1197,10 @@ document.querySelectorAll('.sec,.how,.rc,.fc,.ab,.plan,.hw,.sakura-content,.sear
 const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
 document.querySelectorAll('.fade-in').forEach(el=>obs.observe(el));
 </script>
-<script src="/shochu/auth.js"></script>
-<script src="/shochu/features.js"></script>
+<script>window.THUB_CONFIG={genre:'shochu',brandColor:'#8B5E3C',brandColor2:'#C4956A',basePath:'/shochu',siteName:'Terroir HUB SHOCHU',apiBase:'https://sake.terroirhub.com'};</script>
+<link rel="preconnect" href="https://sake.terroirhub.com">
+<script src="https://sake.terroirhub.com/shared/cookie-storage.js"></script>
+<script src="https://sake.terroirhub.com/shared/auth.js"></script>
+<script src="https://sake.terroirhub.com/shared/features.js"></script>
 </body>
 </html>
