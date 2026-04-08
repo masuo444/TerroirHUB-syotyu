@@ -523,6 +523,10 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
   .masu-sp-only{display:block !important;}
   .masu-grid{grid-template-columns:1fr;}
 }
+@media(max-width:1024px){.genre-grid{grid-template-columns:repeat(2,1fr) !important;}}
+@media(max-width:520px){.genre-grid{grid-template-columns:1fr !important;}}
+.genre-card:hover img{filter:saturate(0.9) brightness(0.4) !important;transform:scale(1.06) !important;}
+.genre-card:hover h3{color:#e0c870 !important;}
 </style>
 </head>
 <body>
@@ -893,6 +897,57 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
   </div>
   <div style="text-align:center;margin-top:24px;">
     <a href="https://sake.terroirhub.com/sake/masu/" class="masu-cta">FOMUS枡を詳しく見る</a>
+  </div>
+</div>
+</section>
+
+<!-- GENRE SELECTOR -->
+<section style="background:#1a1a1a;padding:72px 24px;">
+<div style="max-width:1280px;margin:0 auto;">
+  <p style="font-size:11px;font-weight:600;letter-spacing:0.35em;text-transform:uppercase;color:#8B5E3C;margin-bottom:10px;">CATEGORY</p>
+  <h2 style="font-family:'Shippori Mincho',serif;font-size:clamp(24px,4vw,36px);font-weight:700;color:#fff;margin-bottom:36px;">好きなジャンルを選ぶ</h2>
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:14px;" class="genre-grid">
+    <a href="https://sake.terroirhub.com" class="genre-card" style="position:relative;aspect-ratio:3/4;overflow:hidden;display:block;text-decoration:none;">
+      <img src="https://images.unsplash.com/photo-1516475429286-465d815a0df7?w=800&q=80" alt="日本酒" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.7) brightness(0.55);transition:filter 0.6s,transform 4s ease-out;">
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(10,10,10,0.88) 100%);z-index:1;"></div>
+      <div style="position:absolute;top:16px;left:16px;z-index:2;font-size:11px;font-weight:600;letter-spacing:0.15em;color:#fff;padding:5px 12px;display:flex;align-items:center;gap:6px;background:rgba(184,69,42,0.9);"><span style="width:6px;height:6px;border-radius:50%;background:#4caf7d;"></span>1,711 蔵</div>
+      <div style="position:absolute;bottom:0;left:0;right:0;z-index:2;padding:20px;">
+        <p style="font-size:10px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:4px;">SAKE</p>
+        <h3 style="font-family:'Shippori Mincho',serif;font-size:clamp(20px,2.5vw,26px);font-weight:700;color:#fff;margin-bottom:6px;">日本酒</h3>
+        <p style="font-size:12px;color:rgba(255,255,255,0.8);line-height:1.7;">全国1,711蔵の公式データベース。47都道府県、すべての蔵元を網羅。</p>
+      </div>
+    </a>
+    <div class="genre-card" style="position:relative;aspect-ratio:3/4;overflow:hidden;opacity:0.7;pointer-events:none;">
+      <img src="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&q=80" alt="焼酎・泡盛" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.7) brightness(0.55);">
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(10,10,10,0.88) 100%);z-index:1;"></div>
+      <div style="position:absolute;top:16px;left:16px;z-index:2;font-size:11px;font-weight:600;letter-spacing:0.15em;color:#fff;padding:5px 12px;display:flex;align-items:center;gap:6px;background:rgba(139,94,60,0.9);"><span style="width:6px;height:6px;border-radius:50%;background:#4caf7d;"></span>389 蒸留所</div>
+      <div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3;font-size:11px;font-weight:700;letter-spacing:0.2em;color:#fff;background:rgba(0,0,0,0.6);padding:8px 20px;border:1px solid rgba(255,255,255,0.3);">NOW VIEWING</div>
+      <div style="position:absolute;bottom:0;left:0;right:0;z-index:2;padding:20px;">
+        <p style="font-size:10px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:4px;">SHOCHU &amp; AWAMORI</p>
+        <h3 style="font-family:'Shippori Mincho',serif;font-size:clamp(20px,2.5vw,26px);font-weight:700;color:#fff;margin-bottom:6px;">焼酎・泡盛</h3>
+        <p style="font-size:12px;color:rgba(255,255,255,0.8);line-height:1.7;">芋・麦・米・黒糖、そして沖縄の泡盛。日本で最も多様なスピリッツの世界。</p>
+      </div>
+    </div>
+    <a href="https://whisky.terroirhub.com" class="genre-card" style="position:relative;aspect-ratio:3/4;overflow:hidden;display:block;text-decoration:none;">
+      <img src="https://images.unsplash.com/photo-1527281400683-1aae777175f8?w=800&q=80" alt="ウイスキー" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.7) brightness(0.55);transition:filter 0.6s,transform 4s ease-out;">
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(10,10,10,0.88) 100%);z-index:1;"></div>
+      <div style="position:absolute;top:16px;left:16px;z-index:2;font-size:11px;font-weight:600;letter-spacing:0.15em;color:#fff;padding:5px 12px;display:flex;align-items:center;gap:6px;background:rgba(74,138,94,0.9);"><span style="width:6px;height:6px;border-radius:50%;background:#4caf7d;"></span>67 蒸留所</div>
+      <div style="position:absolute;bottom:0;left:0;right:0;z-index:2;padding:20px;">
+        <p style="font-size:10px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:4px;">WHISKY</p>
+        <h3 style="font-family:'Shippori Mincho',serif;font-size:clamp(20px,2.5vw,26px);font-weight:700;color:#fff;margin-bottom:6px;">ウイスキー</h3>
+        <p style="font-size:12px;color:rgba(255,255,255,0.8);line-height:1.7;">山崎からクラフト新鋭まで。すべてのジャパニーズウイスキー蒸留所を網羅。</p>
+      </div>
+    </a>
+    <a href="https://liqueur.terroirhub.com" class="genre-card" style="position:relative;aspect-ratio:3/4;overflow:hidden;display:block;text-decoration:none;">
+      <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=800&q=80" alt="リキュール" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(0.7) brightness(0.55);transition:filter 0.6s,transform 4s ease-out;">
+      <div style="position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(10,10,10,0.88) 100%);z-index:1;"></div>
+      <div style="position:absolute;top:16px;left:16px;z-index:2;font-size:11px;font-weight:600;letter-spacing:0.15em;color:#fff;padding:5px 12px;display:flex;align-items:center;gap:6px;background:rgba(90,158,190,0.9);"><span style="width:6px;height:6px;border-radius:50%;background:#4caf7d;"></span>LIVE</div>
+      <div style="position:absolute;bottom:0;left:0;right:0;z-index:2;padding:20px;">
+        <p style="font-size:10px;letter-spacing:0.3em;text-transform:uppercase;color:rgba(255,255,255,0.6);margin-bottom:4px;">LIQUEUR</p>
+        <h3 style="font-family:'Shippori Mincho',serif;font-size:clamp(20px,2.5vw,26px);font-weight:700;color:#fff;margin-bottom:6px;">リキュール</h3>
+        <p style="font-size:12px;color:rgba(255,255,255,0.8);line-height:1.7;">梅酒、ゆず酒、抹茶、桃 — 日本のクラフトリキュールとフルーツ酒の世界。</p>
+      </div>
+    </a>
   </div>
 </div>
 </section>
