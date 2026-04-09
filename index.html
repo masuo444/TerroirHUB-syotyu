@@ -1089,7 +1089,7 @@ function doSearch(q){
 
 // Auth
 let authMode='signup';
-function showAuth(mode){window.location.href='https://terroirhub.com/login/?redirect='+encodeURIComponent(window.location.href);}
+function showAuth(mode){authMode=mode||'signup';updateAuthUI();document.getElementById('auth').classList.add('open');}
 function closeAuth(){document.getElementById('auth').classList.remove('open');}
 function toggleAuth(){authMode=authMode==='signup'?'login':'signup';updateAuthUI();}
 function updateAuthUI(){
