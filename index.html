@@ -543,6 +543,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
       <a href="#sakura">AIサクラ</a>
       <a href="#plans">プラン</a>
       <a href="https://www.terroirhub.com/business/">事業者向け</a>
+      <a href="https://www.terroirhub.com/listing-update/">掲載修正</a>
     </div>
     <div class="nav-lang" style="display:flex;align-items:center;gap:4px;margin-left:auto;margin-right:12px;font-size:11px;font-weight:500;letter-spacing:0.1em;"><a href="/" style="color:#333;text-decoration:none;font-weight:700;">JA</a><span style="color:#ccc;">/</span><a href="/en/" style="color:#999;text-decoration:none;">EN</a><span style="color:#ccc;">/</span><a href="/fr/" style="color:#999;text-decoration:none;">FR</a></div>
     <div class="nav-auth">
@@ -569,6 +570,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
     <a href="/shochu/guide/awamori.html" onclick="closeMM()"><span class="mm-icon">&#127802;</span>泡盛とは</a>
     <a href="#sakura" onclick="closeMM()"><span class="mm-icon">&#127800;</span>AIサクラ</a>
     <a href="https://www.terroirhub.com/business/" onclick="closeMM()"><span class="mm-icon">&#128188;</span>事業者向け</a>
+    <a href="https://www.terroirhub.com/listing-update/" onclick="closeMM()">掲載情報の修正・公式写真提供</a>
     <div class="mm-divider"></div>
     <a href="#why" onclick="closeMM()"><span class="mm-icon">&#10024;</span>楽しみ方</a>
     <a href="#plans" onclick="closeMM()"><span class="mm-icon">&#128142;</span>プラン</a>
@@ -966,6 +968,7 @@ body{background:#fff;color:#222;font-family:'Noto Sans JP','Inter',sans-serif;fo
   <a href="#search">蒸留所検索</a>
   <a href="/privacy.html">プライバシーポリシー</a>
   <a href="mailto:info@terroirhub.com">お問い合わせ</a>
+    <a href="https://www.terroirhub.com/listing-update/">掲載情報の修正・公式写真提供</a>
   <a href="https://terroirhub.com" target="_blank">運営会社</a>
 </nav>
 <div class="footer-social">
@@ -1202,7 +1205,7 @@ async function pSend(){
   typing.innerHTML='<div class="m-av"><img src="/shochu/sakura.jpg" alt="サクラ" onerror="this.parentNode.innerHTML=\'🌸\';this.parentNode.style.background=\'#F5EDE5\';this.parentNode.style.fontSize=\'14px\'"></div><div class="m-bbl"><span class="typing-dots">・・・</span></div>';
   pc.appendChild(typing);pc.scrollTop=pc.scrollHeight;
   try{
-    const res=await fetch('/api/sakura',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({question:q,history:chatHistory.slice(-20),context:window.SAKURA_CONTEXT||'',userId:window.thubAuth&&window.thubAuth.userId||null})});
+    const headers={'Content-Type':'application/json'};try{if(window.thubAuth&&window.thubAuth.supabase){const sess=await window.thubAuth.supabase.auth.getSession();const tok=sess&&sess.data&&sess.data.session&&sess.data.session.access_token;if(tok)headers.Authorization='Bearer '+tok;}}catch(_){}const res=await fetch('/api/sakura',{method:'POST',headers,body:JSON.stringify({question:q,history:chatHistory.slice(-20),context:window.SAKURA_CONTEXT||''})});
     const data=await res.json();
     const el=document.getElementById('typing-ind');if(el)el.remove();
     if(data.answer){
