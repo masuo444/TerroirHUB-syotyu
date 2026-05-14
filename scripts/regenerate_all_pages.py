@@ -210,7 +210,15 @@ def generate_page(b, pref_slug):
     js_brand = jsesc(brand or name)
 
     # OGP meta tags
-    og_desc = esc(desc[:120]) if desc else esc(name)
+    # ── メタ description（SEO最適化）
+    brand_str = f'代表銘柄「{brand}」。' if brand else ''
+    founded_str = f'{founded_era}（{founded}年）創業。' if founded else ''
+    if desc:
+        meta_desc = desc[:155] + ('…' if len(desc) > 155 else '')
+    else:
+        meta_desc = f'{founded_str}{brand_str}{area}の蒸留所。{pref_name}の焼酎・泡盛情報 — Terroir HUB SHOCHU'
+    meta_desc = meta_desc[:160]
+    og_desc = esc(meta_desc[:80])
     page_url = f"https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html"
 
     # JSON-LD: LocalBusiness + BreadcrumbList
@@ -241,19 +249,30 @@ def generate_page(b, pref_slug):
         ]
     }
 
-    jsonld = json.dumps({
-        "@context": "https://schema.org",
-        "@graph": [local_biz, breadcrumb]
-    }, ensure_ascii=False, indent=2)
+    faq_pairs = []
+    if brands:
+        br0 = brands[0] if isinstance(brands[0], dict) else {'name': brands[0], 'specs': ''}
+        faq_pairs.append({"@type": "Question", "name": f"{name}の代表銘柄は？",
+            "acceptedAnswer": {"@type": "Answer", "text": f"{name}の代表銘柄は「{br0.get('name', brand)}」です。{br0.get('specs','')}"}})
+    if founded:
+        faq_pairs.append({"@type": "Question", "name": f"{name}はいつ創業ですか？",
+            "acceptedAnswer": {"@type": "Answer", "text": f"{name}は{founded_era or founded+'年'}創業の{pref_name}の蒸留所です。"}})
+    if visit:
+        faq_pairs.append({"@type": "Question", "name": f"{name}は見学できますか？",
+            "acceptedAnswer": {"@type": "Answer", "text": visit}})
+    graph = [local_biz, breadcrumb]
+    if faq_pairs:
+        graph.append({"@type": "FAQPage", "mainEntity": faq_pairs})
+    jsonld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
 
     return f'''<!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>{esc(name)} — Terroir HUB</title>
-<meta name="description" content="{esc(desc[:120]) if desc else esc(name)}">
-<meta property="og:title" content="{esc(name)} — Terroir HUB SHOCHU">
+<title>{esc(name)} — {esc(pref_name)}の蒸留所 | Terroir HUB SHOCHU</title>
+<meta name="description" content="{esc(meta_desc)}">
+<meta property="og:title" content="{esc(name)} — {esc(pref_name)}の蒸留所 | Terroir HUB SHOCHU">
 <meta property="og:description" content="{og_desc}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{page_url}">
