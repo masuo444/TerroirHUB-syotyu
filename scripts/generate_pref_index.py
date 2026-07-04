@@ -59,6 +59,30 @@ def generate_pref_index(pref_slug, distilleries):
 
     json_str = json.dumps(inline_data, ensure_ascii=False)
 
+    # ── SSR 初期グリッド（クローラー/AI向け。フィルターJSは既存のまま動作）──
+    cards_html = ''
+    for _d in inline_data:
+        _tags = []
+        _il = {'sweet_potato':'芋','barley':'麦','rice':'米','brown_sugar':'黒糖','buckwheat':'そば','awamori':'泡盛','kasutori':'粕取り','mixed':'混和'}
+        if _d.get('main_ingredient') and _il.get(_d['main_ingredient']):
+            _tags.append(_il[_d['main_ingredient']])
+        if _d.get('koji_type'):
+            _tags.append(str(_d['koji_type']))
+        _meta = esc(_d.get('area', ''))
+        if _d.get('founded'):
+            _meta += ' ・ 創業' + esc(str(_d['founded'])) + '年'
+        _c = '<a class="card" href="/shochu/' + pref_slug + '/' + esc(_d['id']) + '.html">'
+        _c += '<div class="card-name">' + esc(_d['name']) + '</div>'
+        if _d.get('brand'):
+            _c += '<div class="card-brand">' + esc(_d['brand']) + '</div>'
+        _c += '<div class="card-meta">' + _meta + '</div>'
+        if _d.get('desc'):
+            _c += '<div class="card-desc">' + esc(_d['desc']) + '</div>'
+        if _tags:
+            _c += '<div class="card-tags">' + ''.join('<span class="tag">' + esc(str(_t)) + '</span>' for _t in _tags) + '</div>'
+        _c += '</a>'
+        cards_html += _c
+
     # ItemList schema
     items_schema = []
     for i, d in enumerate(distilleries):
@@ -151,7 +175,7 @@ footer a{{color:rgba(255,255,255,0.5);text-decoration:none;}}
     <p class="count">{count}蔵</p>
   </div>
   <div class="filters" id="filters"></div>
-  <div class="grid" id="grid"></div>
+  <div class="grid" id="grid">{cards_html}</div>
 </main>
 <footer>
   <p><a href="/">Terroir HUB SHOCHU</a> &copy; 2026 合同会社FOMUS</p>

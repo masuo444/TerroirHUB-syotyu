@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/saga/munemasa.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/saga/munemasa.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/saga/munemasa.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/saga/munemasa.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/saga/munemasa.html">
 <script type="application/ld+json">
 {
@@ -292,7 +291,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/saga/munemasa.html">日本語</a>
     <a class="lb" href="/shochu/en/saga/munemasa.html">EN</a>
-    <a class="lb" href="/shochu/fr/saga/munemasa.html">FR</a>
   </div>
 </nav>
 
@@ -417,6 +415,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">佐賀県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには佐賀県の蒸留所を10件収録しています。最も創業が古いのは1688年創業の佐嘉酒造。3件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/saga/gochoda.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">五町田酒造</span><span style="font-size:11.5px;color:var(--text-muted);">嬉野市 ｜ 東一</span></a><a class="related-card" href="/shochu/saga/saga_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">佐嘉酒造</span><span style="font-size:11.5px;color:var(--text-muted);">佐賀市 ｜ 窓乃梅</span></a><a class="related-card" href="/shochu/saga/mitsutake.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">光武酒造場</span><span style="font-size:11.5px;color:var(--text-muted);">鹿島市 ｜ 魔界への誘い</span></a><a class="related-card" href="/shochu/saga/kiyama.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">基山商店</span><span style="font-size:11.5px;color:var(--text-muted);">基山町 ｜ 基峰鶴</span></a><a class="related-card" href="/shochu/saga/amabuki.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">天吹酒造</span><span style="font-size:11.5px;color:var(--text-muted);">みやき町 ｜ 天吹</span></a><a class="related-card" href="/shochu/saga/tenzan.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">天山酒造</span><span style="font-size:11.5px;color:var(--text-muted);">小城市 ｜ 天山</span></a></div><div style="margin-top:22px;"><a href="/shochu/saga/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">佐賀県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -479,19 +478,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='宗政酒造',BB='のんのこ';
-const SUGS=['のんのこってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','宗政酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "宗政酒造", "brand": "のんのこ", "pref": "佐賀県", "area": "有田町", "founded": "1985", "founded_era": "昭和60年", "brands": ["のんのこ", "のんのこ芋", "のんのこ長期貯蔵"], "visit": "有田ポーセリンパーク内にて蔵見学・試飲可", "url": "https://www.nonnoko.com/", "desc": "昭和60年（1985年）、伊万里市にて焼酎造りを開始。平成14年に有田ポーセリンパーク内に本社工場を移転し観光酒蔵として営業。佐賀産二条大麦100%の麦焼酎「のんのこ」を代表銘柄とする。", "suggestions": ["のんのこってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "宗政酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

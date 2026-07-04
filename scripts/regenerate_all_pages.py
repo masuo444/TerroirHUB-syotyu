@@ -46,7 +46,7 @@ def esc(s):
     if not s: return ''
     return s.replace('&','&amp;').replace('<','&lt;').replace('>','&gt;').replace('"','&quot;')
 
-def generate_page(b, pref_slug):
+def generate_page(b, pref_slug, siblings=None):
     pref_name = PREF_NAMES.get(pref_slug, pref_slug)
     name = b.get('name','')
     brand = b.get('brand','')
@@ -108,7 +108,7 @@ def generate_page(b, pref_slug):
     # Features HTML
     nums = ['①','②','③']
     features_html = ''
-    for i, feat in enumerate(features[:3]):
+    for i, feat in enumerate([_f for _f in features if not (desc and (str(_f).strip() in desc or desc in str(_f).strip()))][:3]):
         feat_text = feat if isinstance(feat, str) else str(feat)
         features_html += f'''
       <div class="fact">
@@ -265,6 +265,55 @@ def generate_page(b, pref_slug):
         graph.append({"@type": "FAQPage", "mainEntity": faq_pairs})
     jsonld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, indent=2)
 
+    # ── 同県の他の施設（内部リンク + 実データ県ファクト）──
+    related_html = ''
+    if siblings:
+        _n = len([x for x in siblings if isinstance(x, dict) and x.get('id')])
+        _olds = [(int(x['founded']), x.get('name','')) for x in siblings
+                 if isinstance(x, dict) and str(x.get('founded','')).isdigit() and int(str(x.get('founded'))) > 1000]
+        _visitable = len([x for x in siblings if isinstance(x, dict) and x.get('visit') and x.get('visit') not in ('—','ー','-')])
+        _parts = [f'Terroir HUBには{pref_name}の蒸留所を{_n}件収録しています。']
+        if _olds:
+            _oy, _on = min(_olds)
+            _parts.append(f'最も創業が古いのは{_oy}年創業の{_on}。')
+        if _visitable:
+            _parts.append(f'{_visitable}件が見学情報を公開しています。')
+        _pref_facts = ''.join(_parts)
+        _others = [x for x in siblings if isinstance(x, dict) and x.get('id') and x.get('id') != b.get('id') and x.get('name')]
+        _others.sort(key=lambda x: x.get('name',''))
+        _cards = ''
+        for _x in _others[:6]:
+            _xa = esc(_x.get('area','') or pref_name)
+            _xb = esc(_x.get('brand',''))
+            _cards += (f'<a class="related-card" href="/shochu/{pref_slug}/{esc(_x["id"])}.html" '
+                       f'style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;">'
+                       f'<span style="font-family:\'Zen Old Mincho\',serif;font-size:15px;color:var(--text);">{esc(_x["name"])}</span>'
+                       f'<span style="font-size:11.5px;color:var(--text-muted);">{_xa}{f" ｜ {_xb}" if _xb else ""}</span></a>')
+        if _cards:
+            related_html = (f'<section class="section" style="background:var(--bg);"><div class="sec-inner">'
+                            f'<label class="sec-label">MORE</label>'
+                            f'<h2 class="sec-title">{esc(pref_name)}の他の蒸留所</h2><div class="sec-divider"></div>'
+                            f'<p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">{esc(_pref_facts)}</p>'
+                            f'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;">{_cards}</div>'
+                            f'<div style="margin-top:22px;"><a href="/shochu/{pref_slug}/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">{esc(pref_name)}の蒸留所一覧をすべて見る →</a></div>'
+                            f'</div></section>')
+
+    # ── サクラ実接続 ──
+    _brand_list = [str(x.get('name','')) if isinstance(x, dict) else str(x) for x in brands[:5]]
+    _brand_list = [x for x in _brand_list if x]
+    _sug = ([f'{brand or name}ってどんな焼酎？'] if brand else [f'{name}について教えて']) + ['おすすめの飲み方は？', '見学はできる？', f'{name}の歴史を教えて']
+    sakura_ctx = {
+        'lang': 'ja', 'site': 'TERROIR HUB SHOCHU（焼酎のページ）',
+        'facility': '蒸留所', 'facility_en': 'distillery',
+        'name': name, 'brand': brand, 'pref': pref_name, 'area': area,
+        'founded': founded, 'founded_era': founded_era, 'brands': _brand_list,
+        'visit': visit if visit not in ('—', 'ー', '-') else '', 'url': url, 'desc': desc,
+        'suggestions': _sug,
+    }
+    sakura_block = ('<script>window.SAKURA_CTX = '
+                    + json.dumps(sakura_ctx, ensure_ascii=False).replace('</', '<\\/')
+                    + ';</script>\n<script src="/sakura-page.js" defer></script>')
+
     return f'''<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -284,7 +333,6 @@ def generate_page(b, pref_slug):
 <link rel="canonical" href="https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/shochu/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="en" href="https://{DOMAIN}/shochu/en/{pref_slug}/{b['id']}.html">
-    <link rel="alternate" hreflang="fr" href="https://{DOMAIN}/shochu/fr/{pref_slug}/{b['id']}.html">
     <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/shochu/en/{pref_slug}/{b['id']}.html">
 <script type="application/ld+json">
 {jsonld}
@@ -305,7 +353,6 @@ def generate_page(b, pref_slug):
   <div class="nav-r">
     <a class="lb active" href="/shochu/{pref_slug}/{b['id']}.html">日本語</a>
     <a class="lb" href="/shochu/en/{pref_slug}/{b['id']}.html">EN</a>
-    <a class="lb" href="/shochu/fr/{pref_slug}/{b['id']}.html">FR</a>
   </div>
 </nav>
 
@@ -331,6 +378,7 @@ def generate_page(b, pref_slug):
 
 {brands_section}
 
+{related_html}
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -393,20 +441,7 @@ def generate_page(b, pref_slug):
   </div>
 </div>
 
-<script>
-function openPanel(){{document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}}
-function closePanel(){{document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}}
-let ci=false;
-const BN='{js_name}',BB='{js_brand}';
-const SUGS=['{jsesc(sug1)}','{jsesc(sug2)}','{jsesc(sug3)}','{jsesc(sug4)}'];
-function initChat(){{ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\\n\\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}}
-function addMsg(r,t){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
-function renderSugs(){{document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}}
-function askSug(q){{document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','ご質問ありがとうございます。\\n\\n※ サクラAIはAPI接続後に実動作します。');renderSugs();}},1200);}}
-function sendMsg(){{const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','ご質問ありがとうございます。\\n\\n※ サクラAIはAPI接続後に実動作します。');renderSugs();}},1500);}}
-function showT(){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
-function removeT(){{const e=document.getElementById('tp');if(e)e.remove();}}
-</script>
+{sakura_block}
 </body>
 </html>'''
 
@@ -427,7 +462,7 @@ for jf in json_files:
         if not b.get('id'):
             continue
         try:
-            html = generate_page(b, pref)
+            html = generate_page(b, pref, siblings=distilleries)
             with open(os.path.join(out_dir, f"{b['id']}.html"), 'w', encoding='utf-8') as f:
                 f.write(html)
             total += 1

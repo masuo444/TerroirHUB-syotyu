@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SHOCHU001"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-SHOCHU001');</script>
+<meta charset="UTF-8"><link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>会員プラン | Terroir HUB SHOCHU — 焼酎・泡盛蒸留所データベース</title>
+<meta name="description" content="Terroir HUB SHOCHUに参加しよう。全国約970蒸留所の情報を無料で閲覧。ProおよびPremiumプランでAIコンシェルジュKANADE、ガイド全章、パーソナライズされたレコメンドを利用可能。">
+<link rel="canonical" href="https://shochu.terroirhub.com/shochu/plans/">
+<link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/plans/">
+<link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/plans/">
+<link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/plans/">
+<meta property="og:title" content="会員プラン — Terroir HUB SHOCHU">
+<meta property="og:description" content="無料で全国約970蒸留所を探索。ProプランでAIコンシェルジュ・ガイド全章・テイスト診断が使えます。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://shochu.terroirhub.com/shochu/plans/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{background:#FAF7F4;color:#1A1208;font-family:'Noto Serif JP','DM Sans',sans-serif;font-size:15px;line-height:1.8;-webkit-font-smoothing:antialiased;}
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;height:54px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;background:rgba(250,247,244,0.97);backdrop-filter:blur(16px);border-bottom:1px solid #E8DDD0;}
+.nav-brand{display:flex;align-items:center;gap:8px;text-decoration:none;}
+.nav-logo{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:#1A1208;letter-spacing:0.04em;}
+.nav-logo-sub{font-size:10px;color:#8B5E3C;letter-spacing:0.1em;font-family:'DM Sans',sans-serif;}
+.nav-r{display:flex;align-items:center;gap:12px;}
+.nav-r a{font-size:12px;color:#3A2010;text-decoration:none;letter-spacing:0.04em;transition:color 0.15s;}
+.nav-r a:hover{color:#8B5E3C;}
+.nav-lang{font-size:11px;color:#8B5E3C;border:1px solid #E8DDD0;border-radius:12px;padding:3px 10px;text-decoration:none;transition:all 0.2s;}
+.nav-lang:hover{border-color:#8B5E3C;}
+.hero{padding:100px 24px 48px;text-align:center;max-width:680px;margin:0 auto;}
+.hero-tag{font-size:11px;letter-spacing:0.28em;color:#8B5E3C;font-weight:500;margin-bottom:16px;text-transform:uppercase;}
+.hero h1{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,6vw,52px);font-weight:400;color:#1A1208;line-height:1.2;margin-bottom:16px;}
+.hero h1 em{font-style:italic;color:#8B5E3C;}
+.hero-lead{font-size:15px;color:#3A2010;line-height:1.9;margin-bottom:24px;}
+.hero-trust{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;}
+.trust-item{font-size:11px;color:#8B5E3C;letter-spacing:0.06em;display:flex;align-items:center;gap:5px;}
+.trust-item::before{content:'✓';color:#8B5E3C;font-weight:600;}
+.plans-wrap{max-width:1040px;margin:0 auto;padding:0 20px 64px;}
+.plans-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+@media(max-width:820px){.plans-grid{grid-template-columns:1fr;max-width:420px;margin:0 auto;}}
+.card{background:#fff;border:1.5px solid #E8DDD0;border-radius:16px;padding:36px 28px;position:relative;transition:all 0.25s;}
+.card:hover{box-shadow:0 12px 40px rgba(0,0,0,0.07);transform:translateY(-3px);}
+.card.popular{border-color:#8B5E3C;box-shadow:0 6px 28px rgba(139,94,60,0.1);}
+.card.dark{background:#1A1208;border-color:#2A1C08;color:#fff;}
+.card-badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:#8B5E3C;color:#fff;font-size:10px;font-weight:600;padding:4px 16px;border-radius:12px;white-space:nowrap;letter-spacing:0.08em;}
+.card-tier{font-size:11px;letter-spacing:0.15em;color:#8B5E3C;text-transform:uppercase;margin-bottom:6px;font-family:'DM Sans',sans-serif;}
+.card.dark .card-tier{color:rgba(255,255,255,0.4);}
+.card-name{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:#1A1208;margin-bottom:4px;}
+.card.dark .card-name{color:#fff;}
+.card-price-row{display:flex;align-items:baseline;gap:4px;margin-bottom:2px;}
+.card-price{font-family:'DM Sans',sans-serif;font-size:38px;font-weight:600;color:#1A1208;line-height:1;}
+.card.dark .card-price{color:#fff;}
+.card-period{font-size:13px;color:#8B5E3C;font-weight:400;}
+.card.dark .card-period{color:rgba(255,255,255,0.4);}
+.card-desc{font-size:12px;color:#8B5E3C;margin-bottom:24px;line-height:1.6;}
+.card.dark .card-desc{color:rgba(255,255,255,0.45);}
+.card-divider{height:1px;background:#F0E8DC;margin-bottom:20px;}
+.card.dark .card-divider{background:rgba(255,255,255,0.08);}
+.card-section-label{font-size:10px;letter-spacing:0.15em;color:#8B5E3C;text-transform:uppercase;font-weight:600;margin-bottom:10px;}
+.card.dark .card-section-label{color:#C4956A;}
+.card-features{list-style:none;margin-bottom:28px;}
+.card-features li{font-size:13px;color:#3A2010;padding:5px 0;display:flex;align-items:flex-start;gap:9px;line-height:1.5;}
+.card-features li .fi{width:18px;height:18px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:10px;font-weight:700;margin-top:1px;}
+.card-features li.on .fi{background:rgba(139,94,60,0.08);color:#8B5E3C;}
+.card-features li.on .fi::before{content:'✓';}
+.card-features li.off .fi{background:#F5EDE0;color:#C4956A;}
+.card-features li.off .fi::before{content:'—';}
+.card-features li.off{color:#B09070;}
+.card.dark .card-features li{color:rgba(255,255,255,0.75);}
+.card.dark .card-features li.on .fi{background:rgba(196,149,106,0.15);color:#C4956A;}
+.card.dark .card-features li.off{color:rgba(255,255,255,0.25);}
+.card.dark .card-features li.off .fi{background:rgba(255,255,255,0.05);color:rgba(255,255,255,0.2);}
+.card-cta{display:block;width:100%;padding:14px 0;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;border:none;text-align:center;font-family:'DM Sans',sans-serif;transition:all 0.2s;letter-spacing:0.04em;}
+.cta-free{background:#F5EDE0;color:#3A2010;}
+.cta-free:hover{background:#EDE0C8;}
+.cta-pro{background:#8B5E3C;color:#fff;}
+.cta-pro:hover{background:#7A4F30;box-shadow:0 4px 16px rgba(139,94,60,0.3);}
+.cta-premium{background:linear-gradient(135deg,#C4956A 0%,#8B5E3C 100%);color:#fff;}
+.cta-premium:hover{box-shadow:0 4px 20px rgba(139,94,60,0.35);}
+.value-strip{background:#fff;border-top:1px solid #E8DDD0;border-bottom:1px solid #E8DDD0;padding:40px 24px;}
+.value-inner{max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:32px;}
+@media(max-width:640px){.value-inner{grid-template-columns:1fr;gap:24px;}}
+.value-item{text-align:center;}
+.value-icon{font-size:28px;margin-bottom:10px;}
+.value-title{font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:600;color:#1A1208;margin-bottom:6px;}
+.value-body{font-size:13px;color:#3A2010;line-height:1.7;}
+.faq-wrap{max-width:660px;margin:56px auto 0;padding:0 24px 80px;}
+.faq-head{text-align:center;margin-bottom:32px;}
+.faq-head h2{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;color:#1A1208;}
+.faq-head p{font-size:13px;color:#8B5E3C;margin-top:6px;}
+.faq-item{border-bottom:1px solid #E8DDD0;}
+.faq-q{font-size:14px;font-weight:500;color:#1A1208;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:18px 0;line-height:1.5;}
+.faq-q::after{content:'+';font-size:20px;color:#8B5E3C;flex-shrink:0;transition:transform 0.2s;font-weight:300;}
+.faq-item.open .faq-q::after{transform:rotate(45deg);}
+.faq-a{font-size:13px;color:#3A2010;line-height:1.9;max-height:0;overflow:hidden;transition:max-height 0.35s ease,padding 0.35s ease;padding-bottom:0;}
+.faq-item.open .faq-a{max-height:300px;padding-bottom:18px;}
+.footer{background:#1A1208;color:rgba(255,255,255,0.5);text-align:center;padding:32px 20px;font-size:11px;letter-spacing:0.04em;}
+.footer a{color:rgba(255,255,255,0.5);text-decoration:none;}
+.footer a:hover{color:rgba(255,255,255,0.8);}
+.footer-links{display:flex;align-items:center;justify-content:center;gap:16px;flex-wrap:wrap;margin-bottom:12px;}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="nav-brand" href="/">
+    <span class="nav-logo">Terroir HUB</span>
+    <span class="nav-logo-sub">SHOCHU</span>
+  </a>
+  <div class="nav-r">
+    <a href="/shochu/">蒸留所を探す</a>
+    <a href="/shochu/guide/">ガイド</a>
+    <a href="/shochu/plans/" style="color:#8B5E3C;font-weight:500;">プラン</a>
+    <a class="nav-lang" href="/shochu/en/plans/">English</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="hero-tag">会員プラン</div>
+  <h1>焼酎・泡盛を、<em>深く</em>知る</h1>
+  <p class="hero-lead">全国約970蒸留所の情報を無料で閲覧。鹿児島の芋焼酎から沖縄の泡盛まで、日本の蒸留酒文化を網羅するデータベース。ProプランでAIコンシェルジュKANADE、ガイド全章、テイスト診断が使えます。</p>
+  <div class="hero-trust">
+    <span class="trust-item">約970蒸留所収録</span>
+    <span class="trust-item">47都道府県対応</span>
+    <span class="trust-item">日本語・英語対応</span>
+    <span class="trust-item">Stripe安全決済</span>
+  </div>
+</section>
+
+<section class="plans-wrap">
+  <div class="plans-grid">
+    <div class="card">
+      <div class="card-tier">ずっと無料</div>
+      <div class="card-name">Free</div>
+      <div class="card-price-row"><div class="card-price">¥0</div></div>
+      <div class="card-desc">まずは無料で焼酎・泡盛の世界を探索しよう。</div>
+      <div class="card-divider"></div>
+      <div class="card-section-label">利用できる機能</div>
+      <ul class="card-features">
+        <li class="on"><span class="fi"></span>約970蒸留所プロフィール閲覧</li>
+        <li class="on"><span class="fi"></span>原料・地域・タイプで検索</li>
+        <li class="on"><span class="fi"></span>AIコンシェルジュKANADE（月5クレジット）</li>
+        <li class="on"><span class="fi"></span>ガイド入門章</li>
+        <li class="on"><span class="fi"></span>お気に入り保存</li>
+        <li class="off"><span class="fi"></span>AI長文会話</li>
+        <li class="off"><span class="fi"></span>テイスト診断</li>
+        <li class="off"><span class="fi"></span>蒸留所比較レポート</li>
+      </ul>
+      <button class="card-cta cta-free" onclick="showAuth('signup')">無料で始める</button>
+    </div>
+
+    <div class="card popular">
+      <div class="card-badge">人気No.1</div>
+      <div class="card-tier">愛好家向け</div>
+      <div class="card-name">Pro</div>
+      <div class="card-price-row"><div class="card-price">$5</div><div class="card-period">/月（USD）</div></div>
+      <div class="card-desc">AIが、あなただけの焼酎ガイドになる。</div>
+      <div class="card-divider"></div>
+      <div class="card-section-label">Freeの全機能＋</div>
+      <ul class="card-features">
+        <li class="on"><span class="fi"></span>AIコンシェルジュKANADE（月100クレジット）</li>
+        <li class="on"><span class="fi"></span>ガイド全章（製法・種類・歴史・用語集）</li>
+        <li class="on"><span class="fi"></span>テイスト診断＋パーソナライズ推薦</li>
+        <li class="on"><span class="fi"></span>飲み方・料理ペアリングアドバイス</li>
+        <li class="on"><span class="fi"></span>蒸留所比較（2蔵並べて比較）</li>
+        <li class="on"><span class="fi"></span>テイスティング記録＆バッジ</li>
+        <li class="off"><span class="fi"></span>詳細蒸留所レポート</li>
+        <li class="off"><span class="fi"></span>追加クレジット購入</li>
+      </ul>
+      <button class="card-cta cta-pro" onclick="if(window.thubAuth&&window.thubAuth.isLoggedIn){thubSubscribe('pro')}else{sessionStorage.setItem('thub_pending_plan','pro');showAuth('signup')}">Pro を始める — $5/月</button>
+    </div>
+
+    <div class="card dark">
+      <div class="card-tier">コレクター向け</div>
+      <div class="card-name">Premium</div>
+      <div class="card-price-row"><div class="card-price">$15</div><div class="card-period">/月（USD）</div></div>
+      <div class="card-desc">全機能・無制限の深さ。焼酎を極めたい方へ。</div>
+      <div class="card-divider"></div>
+      <div class="card-section-label">Proの全機能＋</div>
+      <ul class="card-features">
+        <li class="on"><span class="fi"></span>AIコンシェルジュKANADE（月300クレジット）</li>
+        <li class="on"><span class="fi"></span>蒸留所詳細ディープダイブレポート</li>
+        <li class="on"><span class="fi"></span>原料・製法比較</li>
+        <li class="on"><span class="fi"></span>Premium限定コンテンツ</li>
+        <li class="on"><span class="fi"></span>追加クレジット購入可能</li>
+        <li class="on"><span class="fi"></span>AI優先応答</li>
+      </ul>
+      <button class="card-cta cta-premium" onclick="if(window.thubAuth&&window.thubAuth.isLoggedIn){thubSubscribe('premium')}else{sessionStorage.setItem('thub_pending_plan','premium');showAuth('signup')}">Premium を始める — $15/月</button>
+    </div>
+  </div>
+</section>
+
+<section class="value-strip">
+  <div class="value-inner">
+    <div class="value-item">
+      <div class="value-icon">🥃</div>
+      <div class="value-title">約970蒸留所</div>
+      <div class="value-body">芋・麦・米・黒糖・泡盛まで。鹿児島・宮崎から沖縄まで、日本の蒸留酒を完全網羅。公式情報のみ掲載。</div>
+    </div>
+    <div class="value-item">
+      <div class="value-icon">🤖</div>
+      <div class="value-title">AIコンシェルジュKANADE</div>
+      <div class="value-body">焼酎の選び方・飲み方・料理との合わせ方まで、あなたの好みに合わせて丁寧に案内します。</div>
+    </div>
+    <div class="value-item">
+      <div class="value-icon">🌏</div>
+      <div class="value-title">世界に向けて発信</div>
+      <div class="value-body">全蒸留所ページを日本語・英語で公開。世界中から注目される焼酎文化をグローバルに紹介するプラットフォーム。</div>
+    </div>
+  </div>
+</section>
+
+<div class="faq-wrap">
+  <div class="faq-head">
+    <h2>よくある質問</h2>
+    <p>会員からのご質問</p>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">無料プランで何ができますか？</div>
+    <div class="faq-a">約970蒸留所のプロフィール閲覧、地域・原料・タイプ別検索、AIコンシェルジュKANADE（月5クレジット）、ガイド入門章、お気に入り保存が完全無料です。クレジットカードの登録不要。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">AIクレジットとは何ですか？</div>
+    <div class="faq-a">1クレジット＝AIの短い返答1回（約120文字まで）。長い回答は2〜3クレジット消費します。無料：月5クレジット。Pro：月100クレジット。Premium：月300クレジット。毎月1日にリセットされます。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">いつでもキャンセルできますか？</div>
+    <div class="faq-a">はい。アカウント設定からいつでもキャンセルできます。キャンセル後は翌月以降の請求が停止し、現在の請求期間終了まで引き続きご利用いただけます。違約金・キャンセル手数料は一切ありません。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">支払い方法は？</div>
+    <div class="faq-a">Visa、Mastercard、American Expressに対応。国内・海外カードどちらも利用可能です。ProはUSD $5/月、PremiumはUSD $15/月。Stripeによる安全な決済です。</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q" onclick="this.parentElement.classList.toggle('open')">プランはいつでも変更できますか？</div>
+    <div class="faq-a">はい。いつでもアップグレード・ダウングレードが可能です。アップグレードは即時反映。ダウングレードは次回請求サイクルから適用されます。</div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-links">
+    <a href="/shochu/">蒸留所を探す</a>
+    <a href="/shochu/guide/">焼酎ガイド</a>
+    <a href="/shochu/en/plans/">English Plans</a>
+    <a href="https://terroirhub.com" target="_blank" rel="noopener">terroirhub.com</a>
+    <a href="mailto:info@terroirhub.com">お問い合わせ</a>
+  </div>
+  <p>&copy; 2026 Terroir HUB SHOCHU &mdash; 合同会社FOMUS &mdash; Powered by <a href="https://kanade-ai.com/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.65);">KANADE AI</a></p>
+</footer>
+
+<script>
+window.THUB_CONFIG={genre:"shochu",brandColor:"#8B5E3C",brandColor2:"#C4956A",basePath:"/shochu",siteName:"Terroir HUB SHOCHU",apiBase:"https://sake.terroirhub.com"};
+</script>
+<script src="/shared/cookie-storage.js"></script>
+<script src="https://sake.terroirhub.com/shared/auth.js"></script>
+<script>
+(function(){
+  var ACCENT='#8B5E3C';
+  var _mode='signup';
+  function buildModal(){
+    if(document.getElementById('plans-auth-modal'))return;
+    var el=document.createElement('div');
+    el.id='plans-auth-modal';
+    el.style.cssText='display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.5);backdrop-filter:blur(6px);align-items:center;justify-content:center;';
+    el.innerHTML='<div style="background:#fff;border-radius:16px;padding:32px 28px;max-width:400px;width:calc(100%-32px);box-shadow:0 20px 60px rgba(0,0,0,0.2);position:relative;">'
+      +'<button onclick="document.getElementById(\'plans-auth-modal\').style.display=\'none\'" style="position:absolute;top:14px;right:14px;background:none;border:none;font-size:20px;color:#aaa;cursor:pointer;">✕</button>'
+      +'<h3 id="plans-auth-title" style="font-size:20px;font-weight:700;color:#1a1a1a;margin:0 0 6px;font-family:serif;"></h3>'
+      +'<p id="plans-auth-sub" style="font-size:13px;color:#888;margin:0 0 20px;"></p>'
+      +'<button onclick="thubSignInWithGoogle&&thubSignInWithGoogle()" style="width:100%;height:46px;display:flex;align-items:center;justify-content:center;gap:10px;background:#fff;border:1px solid #ddd;border-radius:8px;font-size:14px;font-weight:500;color:#333;cursor:pointer;margin-bottom:16px;"><svg width="18" height="18" viewBox="0 0 48 48"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg>Googleで続ける</button>'
+      +'<div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;"><div style="flex:1;height:1px;background:#eee;"></div><span style="font-size:11px;color:#ccc;">または</span><div style="flex:1;height:1px;background:#eee;"></div></div>'
+      +'<input id="plans-auth-email" type="email" placeholder="メールアドレス" style="width:100%;padding:11px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;margin-bottom:10px;box-sizing:border-box;">'
+      +'<input id="plans-auth-pw" type="password" placeholder="パスワード（6文字以上）" style="width:100%;padding:11px 14px;border:1px solid #ddd;border-radius:8px;font-size:14px;margin-bottom:14px;box-sizing:border-box;">'
+      +'<button id="plans-auth-submit" onclick="plansAuthSubmit()" style="width:100%;padding:13px;background:'+ACCENT+';color:#fff;border:none;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;margin-bottom:12px;"></button>'
+      +'<div id="plans-auth-err" style="font-size:12px;color:#e53;text-align:center;min-height:16px;margin-bottom:8px;"></div>'
+      +'<p style="font-size:12px;color:#aaa;text-align:center;"><a id="plans-auth-toggle" href="#" onclick="event.preventDefault();showAuth(_mode===\'signup\'?\'login\':\'signup\')" style="color:'+ACCENT+';">切り替え</a></p>'
+      +'</div>';
+    el.addEventListener('click',function(e){if(e.target===el)el.style.display='none';});
+    document.body.appendChild(el);
+  }
+  window.showAuth=function(mode){
+    _mode=mode||'signup';
+    buildModal();
+    var m=document.getElementById('plans-auth-modal');
+    document.getElementById('plans-auth-title').textContent=_mode==='signup'?'アカウントを作成':'サインイン';
+    document.getElementById('plans-auth-sub').textContent=_mode==='signup'?'無料・クレジットカード不要':'おかえりなさい';
+    document.getElementById('plans-auth-submit').textContent=_mode==='signup'?'アカウントを作成':'サインイン';
+    document.getElementById('plans-auth-toggle').textContent=_mode==='signup'?'すでにアカウントをお持ちの方':'アカウントをお持ちでない方は無料登録';
+    document.getElementById('plans-auth-err').textContent='';
+    m.style.display='flex';
+    setTimeout(function(){document.getElementById('plans-auth-email').focus();},100);
+  };
+  window.plansAuthSubmit=async function(){
+    var email=document.getElementById('plans-auth-email').value.trim();
+    var pw=document.getElementById('plans-auth-pw').value;
+    var err=document.getElementById('plans-auth-err');
+    if(!email||!pw){err.textContent='すべての項目を入力してください。';return;}
+    if(pw.length<6){err.textContent='パスワードは6文字以上で入力してください。';return;}
+    err.textContent='';
+    if(_mode==='signup'){
+      if(typeof thubSignUp==='function') await thubSignUp(email,pw);
+    } else {
+      if(typeof thubSignIn==='function') await thubSignIn(email,pw);
+    }
+    setTimeout(function(){
+      if(window.thubAuth&&window.thubAuth.isLoggedIn){
+        document.getElementById('plans-auth-modal').style.display='none';
+        var p=sessionStorage.getItem('thub_pending_plan');
+        if(p&&typeof thubSubscribe==='function') thubSubscribe(p);
+      }
+    },800);
+  };
+})();
+</script>
+</body>
+</html>

@@ -6,3 +6,4 @@ node_modules/
 *.log
 .vercel
 .env*.local
+_DELETE_ME_trash/

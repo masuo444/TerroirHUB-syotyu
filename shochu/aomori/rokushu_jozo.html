@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/aomori/rokushu_jozo.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/aomori/rokushu_jozo.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/aomori/rokushu_jozo.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/aomori/rokushu_jozo.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/aomori/rokushu_jozo.html">
 <script type="application/ld+json">
 {
@@ -292,7 +291,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/aomori/rokushu_jozo.html">日本語</a>
     <a class="lb" href="/shochu/en/aomori/rokushu_jozo.html">EN</a>
-    <a class="lb" href="/shochu/fr/aomori/rokushu_jozo.html">FR</a>
   </div>
 </nav>
 
@@ -417,6 +415,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -479,19 +478,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='六趣醸造工房',BB='六趣';
-const SUGS=['六趣ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','六趣醸造工房の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "六趣醸造工房", "brand": "六趣", "pref": "青森県", "area": "六ヶ所村", "founded": "2006", "founded_era": "平成18年", "brands": ["六趣レギュラー", "六趣スペシャル", "六趣五年", "妖精のしわざ"], "visit": "見学可（ガラス越し）、試飲コーナーあり", "url": "https://rokushu.com/", "desc": "日本一の長芋産地・青森県六ヶ所村産の長芋を原料とした本格焼酎を製造。1991年に商品開発を開始し、2006年に自社醸造工房を完成。工房見学・試飲も可能。", "suggestions": ["六趣ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "六趣醸造工房の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

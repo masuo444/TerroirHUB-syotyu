@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/tokyo/kashitate_shuzo.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/tokyo/kashitate_shuzo.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/tokyo/kashitate_shuzo.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/tokyo/kashitate_shuzo.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/tokyo/kashitate_shuzo.html">
 <script type="application/ld+json">
 {
@@ -292,7 +291,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/tokyo/kashitate_shuzo.html">日本語</a>
     <a class="lb" href="/shochu/en/tokyo/kashitate_shuzo.html">EN</a>
-    <a class="lb" href="/shochu/fr/tokyo/kashitate_shuzo.html">FR</a>
   </div>
 </nav>
 
@@ -365,13 +363,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
           <div class="fact-body">GI東京島酒</div>
         </div>
       </div>
-      <div class="fact">
-        <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">③</div>
-        <div>
-          <div class="fact-lbl">特徴 3</div>
-          <div class="fact-body">創業100周年</div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -407,6 +398,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">東京都の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには東京都の蒸留所を5件収録しています。最も創業が古いのは1915年創業の八丈島酒造。4件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/tokyo/hachijojima_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">八丈島酒造</span><span style="font-size:11.5px;color:var(--text-muted);">八丈町 ｜ 八重椿</span></a><a class="related-card" href="/shochu/tokyo/hachijo_kohatsu.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">八丈興発</span><span style="font-size:11.5px;color:var(--text-muted);">八丈町 ｜ 情け嶋</span></a><a class="related-card" href="/shochu/tokyo/sakashita_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">坂下酒造</span><span style="font-size:11.5px;color:var(--text-muted);">八丈町 ｜ 黒潮</span></a><a class="related-card" href="/shochu/tokyo/aogashima_shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">青ヶ島酒造</span><span style="font-size:11.5px;color:var(--text-muted);">青ヶ島村 ｜ 青酎</span></a></div><div style="margin-top:22px;"><a href="/shochu/tokyo/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">東京都の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -469,19 +461,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='樫立酒造',BB='島の華';
-const SUGS=['島の華ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','樫立酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "樫立酒造", "brand": "島の華", "pref": "東京都", "area": "八丈町", "founded": "1925", "founded_era": "大正14年", "brands": ["島の華", "潮梅"], "visit": "工場見学可（要予約）", "url": "https://kasitateshuzou.com/", "desc": "大正14年創業。珍しい銅製蒸留器を使用して麦焼酎「島の華」を製造。軽やかな味わいが特徴。GI「東京島酒」認定。2025年に創業100周年。", "suggestions": ["島の華ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "樫立酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

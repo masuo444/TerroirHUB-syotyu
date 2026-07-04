@@ -1,33 +1,180 @@
 # Terroir HUB SHOCHU — 焼酎・泡盛蒸留所データベース
 
-> 全国約970蒸留所の焼酎・泡盛専門データベース。世界初の構造化焼酎データベース。
+> 全国約970蒸留所の焼酎・泡盛専門データベース。公式情報のみ収録。AIコンシェルジュ「サクラ」搭載。
 
 ## サービス概要
 
 Terroir HUB SHOCHUは、焼酎・泡盛の蒸留所情報を体系的に収録した専門データベースです。
-原料（芋・麦・米・黒糖・そば）・麹の種類・製法・産地GIを正確に掲載しています。
-
-## 主要データ
+原料（芋・麦・米・黒糖・そば）・麹の種類（黒麹・白麹・黄麹）・製法・産地GIを正確に掲載。
+各蔵元の公式サイト・県酒造組合・国税庁酒蔵マップを出典とする信頼性の高いデータです。
 
 - 収録蒸留所: 約970蒸留所
 - 主要産地: 鹿児島120蔵・熊本49蔵・沖縄48蔵・宮崎45蔵・大分36蔵
-- データソース: 各県酒造組合・国税庁
-
-## GI（地理的表示）
-
-| GI名 | 地域 | 原料 |
-|------|------|------|
-| 薩摩 | 鹿児島県（奄美除く） | 芋焼酎 |
-| 球磨 | 熊本県球磨郡・人吉市 | 米焼酎 |
-| 壱岐 | 長崎県壱岐島 | 麦焼酎 |
-| 琉球 | 沖縄県 | 泡盛 |
-
-## 原料別分類
-
-芋焼酎（鹿児島・宮崎）、麦焼酎（大分・長崎）、米焼酎（熊本）、黒糖焼酎（奄美大島）、そば焼酎（宮崎）、泡盛（沖縄・タイ米・黒麹・3年以上熟成で古酒/クース）
-
-## 運営
-
 - 運営: 合同会社FOMUS（日本）
 - URL: https://shochu.terroirhub.com/
-- 問い合わせ: info@terroirhub.com
+
+## 焼酎とは
+
+本格焼酎は単式蒸留（乙類）焼酎のこと。米・麦・芋・黒糖・そば・酒粕など多様な原料を使い、麹で糖化・発酵後に蒸留する日本の伝統的蒸留酒。アルコール度数は通常25度前後。連続式蒸留の甲類焼酎と区別される。
+
+泡盛は沖縄県で製造される蒸留酒。タイ米（長粒種）と黒麹を用い、全麹仕込みで醸造。3年以上熟成させたものを古酒（クース）と呼ぶ。
+
+## GI（地理的表示）保護産地
+
+| GI名 | 地域 | 原料 | 認定年 |
+|------|------|------|--------|
+| 薩摩 | 鹿児島県（奄美群島を除く） | 芋焼酎 | 2005年 |
+| 球磨 | 熊本県球磨郡・人吉市 | 米焼酎 | 1995年 |
+| 壱岐 | 長崎県壱岐島 | 麦焼酎 | 1995年 |
+| 琉球 | 沖縄県 | 泡盛 | 1995年 |
+
+## 原料別分類と主要産地
+
+| 種類 | 主原料 | 麹 | 主要産地 | 代表銘柄 |
+|------|--------|-----|----------|---------|
+| 芋焼酎 | さつまいも（黄金千貫等） | 黒麹・白麹 | 鹿児島・宮崎 | 黒霧島・白波・魔王・赤霧島 |
+| 麦焼酎 | 大麦 | 白麹・黄麹 | 大分・長崎 | 二階堂・いいちこ・中々・壱岐 |
+| 米焼酎 | うるち米 | 白麹・黄麹 | 熊本・大分 | 球磨焼酎・繊月・白岳 |
+| 黒糖焼酎 | 黒糖＋米麹 | 白麹 | 奄美大島（鹿児島） | 奄美・里の曙・加那 |
+| そば焼酎 | そば | 白麹 | 宮崎・長野 | 雲海・そば雲海 |
+| 泡盛 | タイ米（長粒種） | 黒麹（全麹） | 沖縄全域 | 残波・久米仙・瑞泉・菊之露 |
+
+## 主要蒸留所（代表的な蔵元）
+
+### 鹿児島県（芋焼酎の聖地）
+- 霧島酒造（都城市）— 黒霧島・赤霧島。日本一の販売量
+- 薩摩酒造（枕崎市）— 白波・さつま白波。1936年創業
+- 小正醸造（日置市）— 小鶴・メローコヅル。嘉之助蒸溜所も運営
+- 濵田酒造（いちき串木野市）— 伝心・赤兎馬。1868年創業
+- 白玉醸造（球磨郡あさぎり町）— 魔王。入手困難な人気銘柄
+- 大山甚七商店（霧島市）— 明月。1840年創業
+
+### 沖縄県（泡盛）
+- 久米仙酒造（那覇市）— 久米仙
+- 瑞泉酒造（那覇市）— 瑞泉。1887年創業
+- 菊之露酒造（宮古島市）— 菊之露
+- 残波酒造（中頭郡）— 残波。沖縄最大規模
+- 請福酒造（石垣市）— 請福。石垣島の蔵
+
+### 熊本県（米焼酎・球磨焼酎）
+- 繊月酒造（人吉市）— 繊月。球磨川のほとりの蔵
+- 球磨焼酎酒造組合（人吉市）— GI球磨産地
+
+### 大分県（麦焼酎）
+- 二階堂酒造（宇佐市）— 二階堂・吉四六。1872年創業
+- 三和酒類（宇佐市）— いいちこ。1958年創業
+- 老松酒造（日田市）— 中々・百年の孤独（麦）
+
+### 長崎県（壱岐麦焼酎）
+- 重家酒造（壱岐市）— 壱岐スーパーゴールド
+- 玄海酒造（壱岐市）— 壱岐の華
+
+## よくある質問（Q&A）
+
+**Q: 芋焼酎と麦焼酎の違いは？**
+A: 原料が異なる。芋焼酎はさつまいもを原料とし甘みと独特の香りが特徴。麦焼酎は大麦を使い、すっきりとした味わいで飲みやすい。芋は鹿児島・宮崎、麦は大分・長崎が主産地。
+
+**Q: 本格焼酎と甲類焼酎の違いは？**
+A: 製造方法の違い。本格焼酎（乙類）は単式蒸留で素材の風味が残る。甲類は連続式蒸留でクリアな味わい。チューハイ等の原料は主に甲類。
+
+**Q: 泡盛と焼酎の違いは？**
+A: 泡盛は沖縄県のみ製造可能な蒸留酒。タイ米（長粒種）と黒麹のみを使い全麹仕込みが特徴。3年以上熟成した古酒（クース）は特に価値が高い。
+
+**Q: 黒麹と白麹の違いは？**
+A: クエン酸の生成量と香りが異なる。黒麹はクエン酸が多く雑菌繁殖を防ぐ。コクのある味わい。白麹は1920年代に黒麹から変異して開発。よりすっきりした甘みがある。黄麹は吟醸的な香りが特徴。
+
+**Q: 焼酎のおすすめの飲み方は？**
+A: 芋焼酎はお湯割り（6:4）が香りを引き出す。麦焼酎はロックや水割りで飲みやすい。泡盛は水割り・ロックのほか、古酒はストレートで。
+
+**Q: 「魔王」「佐藤」「森伊蔵」とは？**
+A: 入手困難な希少芋焼酎「プレミアム焼酎」の代表銘柄。魔王（白玉醸造）・佐藤（佐藤酒造）・森伊蔵（森伊蔵酒造）は「3M」と呼ばれ定価の数倍で流通することも。
+
+## 焼酎文化の基礎知識
+
+- 製造方法: 仕込み（原料＋麹＋水で発酵）→ 蒸留 → 貯蔵・熟成
+- 代表的な飲み方: お湯割り・水割り・ロック・ストレート・ソーダ割り（チューハイ）
+- アルコール度数: 通常20〜25度（原酒は35〜40度）
+- 貯蔵: 甕（かめ）・ステンレスタンク・木樽で貯蔵
+- 産地呼称: 薩摩焼酎（鹿児島）・球磨焼酎（熊本）・壱岐焼酎（長崎）・琉球泡盛（沖縄）
+
+## データソース
+
+- 公益財団法人日本の酒情報館: https://www.japansake.or.jp/
+- 本格焼酎・泡盛サイト: https://www.honkakushochu-awamori.jp/
+- 国税庁酒蔵マップ: https://www.nta.go.jp/taxes/sake/sakagura/
+- 各県酒造組合公式サイト
+
+---
+
+## English Section — Terroir HUB SHOCHU
+
+### About This Database
+
+Terroir HUB SHOCHU is Japan's most comprehensive shochu and awamori distillery database, covering approximately 970 distilleries across all 47 prefectures.
+Major production areas: Kagoshima (120), Kumamoto (49), Okinawa (48), Miyazaki (45), Oita (36).
+Data sourced from official distillery websites, prefectural associations, and the National Tax Agency.
+
+- URL: https://shochu.terroirhub.com/
+- Operator: FOMUS LLC (Japan)
+
+### What is Shochu?
+
+Honkaku Shochu (authentic shochu) is a single-distilled (pot still) spirit made from ingredients like sweet potato, barley, rice, brown sugar, or buckwheat. Fermented with koji mold, then distilled. Typically 25% ABV. Distinct from korui (continuous-distillation) shochu used in chuhai.
+
+Awamori is Okinawa's traditional distilled spirit made from long-grain Thai rice with black koji (all-koji fermentation). Aged 3+ years becomes "Kusu" (vintage awamori).
+
+### GI Protected Regions
+
+| GI Name | Region | Ingredient | Certified |
+|---------|--------|------------|-----------|
+| Satsuma | Kagoshima Pref. (excl. Amami) | Imo (sweet potato) | 2005 |
+| Kuma | Kuma District & Hitoyoshi, Kumamoto | Rice | 1995 |
+| Iki | Iki Island, Nagasaki | Barley (1/3 rice koji) | 1995 |
+| Ryukyu | Okinawa Prefecture | Awamori (Thai rice + black koji) | 1995 |
+
+### Shochu Types by Ingredient
+
+| Type | Ingredient | Koji | Main Region | Flagship Brands |
+|------|-----------|------|-------------|-----------------|
+| Imo Shochu | Sweet potato | Black/white koji | Kagoshima, Miyazaki | Kuro Kirishima, Shiranami, Mao |
+| Mugi Shochu | Barley | White/yellow koji | Oita, Nagasaki | Nikaido, Iichiko, Naka-Naka |
+| Kome Shochu | Rice | White/yellow koji | Kumamoto, Oita | Kuma Shochu, Sengetsu |
+| Kokuto Shochu | Brown sugar + rice koji | White koji | Amami Oshima | Amami, Sato no Akebono |
+| Soba Shochu | Buckwheat | White koji | Miyazaki, Nagano | Unkai |
+| Awamori | Thai rice (long-grain) | Black koji (all-koji) | Okinawa | Zanpa, Kumesen, Zuisen |
+
+### Major Distilleries (Selected)
+
+| Distillery (English) | Prefecture | Founded | Flagship Brand | Type |
+|----------------------|------------|---------|----------------|------|
+| Kirishima Shuzo | Miyazaki | 1916 | Kuro Kirishima | Imo |
+| Satsuma Shuzo | Kagoshima | 1936 | Shiranami | Imo |
+| Hamada Shuzo | Kagoshima | 1868 | Sekitoba | Imo |
+| Nikaido Sake | Oita | 1872 | Nikaido / Yoshizaka | Mugi |
+| Sanwa Shurui | Oita | 1958 | Iichiko | Mugi |
+| Kumesen Shuzo | Okinawa | 1949 | Kumesen | Awamori |
+| Zuisen Shuzo | Okinawa | 1887 | Zuisen | Awamori |
+| Sengetsu Shuzo | Kumamoto | 1902 | Sengetsu | Kome |
+
+### Q&A for International Visitors
+
+**Q: What is the difference between shochu and sake?**
+A: Sake is brewed (fermented) rice wine (14-16% ABV). Shochu is distilled (25% ABV). Similar to the difference between wine and brandy, but shochu uses diverse ingredients.
+
+**Q: How is shochu different from soju?**
+A: Japanese honkaku shochu uses single distillation (pot still), preserving ingredient character. Korean soju is typically continuous-distilled and lighter. Similar category, very different flavor profile.
+
+**Q: What is awamori and how is it different from shochu?**
+A: Awamori is made only in Okinawa using Thai long-grain rice with black koji (all-koji fermentation). All awamori is double-distilled. "Kusu" (3+ years aged) is particularly prized.
+
+**Q: How do you drink shochu?**
+A: Imo shochu: oyuwari (hot water 6:4) brings out aroma. Mugi shochu: rocks or water. Awamori: water or rocks; vintage kusu straight. Also popular in chuhai (highball) and cocktails.
+
+**Q: What are "Mao," "Sato," and "Mori Izo"?**
+A: Japan's "3M" premium imo shochu trio: Mao (Shiratama Jozo), Sato (Sato Shuzo), Mori Izo (Mori Izo Shuzo) — all from Kagoshima. Rare and sought-after, often trading above retail.
+
+### URL Structure
+
+- Individual distillery (English): https://shochu.terroirhub.com/shochu/en/{prefecture}/{distillery-id}.html
+- Prefecture list (English): https://shochu.terroirhub.com/shochu/en/{prefecture}/
+- Sitemap: https://shochu.terroirhub.com/sitemap.xml

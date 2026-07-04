@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/fukuoka/nishiyoshida.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/fukuoka/nishiyoshida.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/fukuoka/nishiyoshida.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/fukuoka/nishiyoshida.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/fukuoka/nishiyoshida.html">
 <script type="application/ld+json">
 {
@@ -285,7 +284,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/fukuoka/nishiyoshida.html">日本語</a>
     <a class="lb" href="/shochu/en/fukuoka/nishiyoshida.html">EN</a>
-    <a class="lb" href="/shochu/fr/fukuoka/nishiyoshida.html">FR</a>
   </div>
 </nav>
 
@@ -400,6 +398,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">福岡県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには福岡県の蒸留所を33件収録しています。最も創業が古いのは1673年創業の大賀酒造。7件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/fukuoka/isonosawa.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">いそのさわ</span><span style="font-size:11.5px;color:var(--text-muted);">うきは市</span></a><a class="related-card" href="/shochu/fukuoka/ebisu.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">ゑびす酒造</span><span style="font-size:11.5px;color:var(--text-muted);">朝倉市 ｜ らんびき</span></a><a class="related-card" href="/shochu/fukuoka/nikka_kitakyushu.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">ニッカウイスキー北九州工場</span><span style="font-size:11.5px;color:var(--text-muted);">北九州市 ｜ 綺羅麦</span></a><a class="related-card" href="/shochu/fukuoka/hikari.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">光酒造</span><span style="font-size:11.5px;color:var(--text-muted);">粕屋町 ｜ 博多小女郎</span></a><a class="related-card" href="/shochu/fukuoka/katsuya.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">勝屋酒造</span><span style="font-size:11.5px;color:var(--text-muted);">宗像市 ｜ 沖ノ島</span></a><a class="related-card" href="/shochu/fukuoka/kitaya.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">喜多屋</span><span style="font-size:11.5px;color:var(--text-muted);">八女市 ｜ 喜多屋</span></a></div><div style="margin-top:22px;"><a href="/shochu/fukuoka/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">福岡県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -462,19 +461,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='西吉田酒造',BB='つくし';
-const SUGS=['つくしってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','西吉田酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "西吉田酒造", "brand": "つくし", "pref": "福岡県", "area": "筑後市", "founded": "1893", "founded_era": "明治26年", "brands": ["つくし 黒ラベル", "つくし 白ラベル"], "visit": "", "url": "https://nishiyoshida.jp/", "desc": "明治26年（1893年）創業。焼酎専業蔵として麦焼酎の奥深さを追求。代表銘柄「つくし」は黒と白の二枚看板。", "suggestions": ["つくしってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "西吉田酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

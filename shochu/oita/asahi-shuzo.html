@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/oita/asahi-shuzo.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/oita/asahi-shuzo.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/oita/asahi-shuzo.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/oita/asahi-shuzo.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/oita/asahi-shuzo.html">
 <script type="application/ld+json">
 {
@@ -284,7 +283,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/oita/asahi-shuzo.html">日本語</a>
     <a class="lb" href="/shochu/en/oita/asahi-shuzo.html">EN</a>
-    <a class="lb" href="/shochu/fr/oita/asahi-shuzo.html">FR</a>
   </div>
 </nav>
 
@@ -389,6 +387,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">大分県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには大分県の蒸留所を35件収録しています。最も創業が古いのは1712年創業の縣屋酒造。6件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/oita/bungo-meijyo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">ぶんご銘醸</span><span style="font-size:11.5px;color:var(--text-muted);">佐伯市 ｜ 杜谷</span></a><a class="related-card" href="/shochu/oita/kuncho-shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">クンチョウ酒造</span><span style="font-size:11.5px;color:var(--text-muted);">日田市 ｜ 薫長</span></a><a class="related-card" href="/shochu/oita/sanwa-shurui.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">三和酒類</span><span style="font-size:11.5px;color:var(--text-muted);">宇佐市 ｜ いいちこ</span></a><a class="related-card" href="/shochu/oita/nakano-shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">中野酒造</span><span style="font-size:11.5px;color:var(--text-muted);">杵築市 ｜ 智恵美人</span></a><a class="related-card" href="/shochu/oita/kubo-shuzo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">久保酒蔵</span><span style="font-size:11.5px;color:var(--text-muted);">宇佐市 ｜ 長洲蒸留蔵「久保」</span></a><a class="related-card" href="/shochu/oita/kuge-honten.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">久家本店</span><span style="font-size:11.5px;color:var(--text-muted);">臼杵市 ｜ 一の井手</span></a></div><div style="margin-top:22px;"><a href="/shochu/oita/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">大分県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -451,19 +450,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='旭酒造',BB='耶馬美人';
-const SUGS=['耶馬美人ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','旭酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "旭酒造", "brand": "耶馬美人", "pref": "大分県", "area": "中津市", "founded": "1935", "founded_era": "昭和10年", "brands": ["耶馬美人"], "visit": "", "url": "", "desc": "昭和10年創業。大分県では珍しい純米焼酎の蔵元。代表銘柄「耶馬美人」は、爽やかな喉越しときめ細かいまろやかな風味が特徴。昭和57年度の第6回国税庁鑑評会で「日本一」の栄誉を獲得。酒名は耶馬渓に美人が多いという伝承にちなむ。", "suggestions": ["耶馬美人ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "旭酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

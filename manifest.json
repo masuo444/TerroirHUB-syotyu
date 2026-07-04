@@ -1,0 +1,12 @@
+{
+  "name": "Terroir HUB SHOCHU",
+  "short_name": "THUB SHOCHU",
+  "description": "焼酎・泡盛検索の決定版。全国蒸留所データベース。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8B5E3C",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

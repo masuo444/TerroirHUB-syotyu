@@ -63,11 +63,9 @@ for jf in json_files:
             continue
         ja_path = f'/shochu/{pref}/{d["id"]}.html'
         en_path = f'/shochu/en/{pref}/{d["id"]}.html'
-        fr_path = f'/shochu/fr/{pref}/{d["id"]}.html'
-        langs = {'ja': ja_path, 'en': en_path, 'fr': fr_path}
+        langs = {'ja': ja_path, 'en': en_path, 'x-default': en_path}
         add(ja_path, '0.6', 'monthly', langs)
         add(en_path, '0.5', 'monthly', langs)
-        add(fr_path, '0.5', 'monthly', langs)
 
 # Build XML
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']

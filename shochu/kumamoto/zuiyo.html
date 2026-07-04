@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/kumamoto/zuiyo.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/kumamoto/zuiyo.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/kumamoto/zuiyo.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/kumamoto/zuiyo.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/kumamoto/zuiyo.html">
 <script type="application/ld+json">
 {
@@ -292,7 +291,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/kumamoto/zuiyo.html">日本語</a>
     <a class="lb" href="/shochu/en/kumamoto/zuiyo.html">EN</a>
-    <a class="lb" href="/shochu/fr/kumamoto/zuiyo.html">FR</a>
   </div>
 </nav>
 
@@ -410,6 +408,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">熊本県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには熊本県の蒸留所を32件収録しています。最も創業が古いのは1752年創業の美少年。3件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/kumamoto/rokuchoshi.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">六調子酒造</span><span style="font-size:11.5px;color:var(--text-muted);">錦町 ｜ 六調子</span></a><a class="related-card" href="/shochu/kumamoto/chiyonosono.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">千代の園酒造</span><span style="font-size:11.5px;color:var(--text-muted);">山鹿市 ｜ 帰忘</span></a><a class="related-card" href="/shochu/kumamoto/tsutsumi.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">堤酒造</span><span style="font-size:11.5px;color:var(--text-muted);">あさぎり町 ｜ 武士者</span></a><a class="related-card" href="/shochu/kumamoto/yamato1.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">大和一酒造元</span><span style="font-size:11.5px;color:var(--text-muted);">人吉市 ｜ 温泉焼酎夢</span></a><a class="related-card" href="/shochu/kumamoto/ohishi.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">大石酒造場</span><span style="font-size:11.5px;color:var(--text-muted);">水上村 ｜ 大石</span></a><a class="related-card" href="/shochu/kumamoto/amakusa.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">天草酒造</span><span style="font-size:11.5px;color:var(--text-muted);">天草市 ｜ 池の露</span></a></div><div style="margin-top:22px;"><a href="/shochu/kumamoto/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">熊本県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -472,19 +471,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='瑞鷹',BB='東肥';
-const SUGS=['東肥ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','瑞鷹の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "瑞鷹", "brand": "東肥", "pref": "熊本県", "area": "熊本市", "founded": "1867", "founded_era": "慶応3年", "brands": ["東肥一本槍", "異風者", "醇雅 米"], "visit": "東肥大正蔵", "url": "https://www.zuiyo.co.jp/", "desc": "慶応3年（1867年）創業。2001年に瑞鷹酒造と東肥醸造が合併し瑞鷹株式会社に。日本酒・本格焼酎・赤酒・リキュールなど幅広い酒造りを展開。焼酎ブランド「東肥一本槍」「異風者」など。", "suggestions": ["東肥ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "瑞鷹の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

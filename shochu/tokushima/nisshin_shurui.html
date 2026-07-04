@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/tokushima/nisshin_shurui.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/tokushima/nisshin_shurui.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/tokushima/nisshin_shurui.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/tokushima/nisshin_shurui.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/tokushima/nisshin_shurui.html">
 <script type="application/ld+json">
 {
@@ -274,7 +273,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/tokushima/nisshin_shurui.html">日本語</a>
     <a class="lb" href="/shochu/en/tokushima/nisshin_shurui.html">EN</a>
-    <a class="lb" href="/shochu/fr/tokushima/nisshin_shurui.html">FR</a>
   </div>
 </nav>
 
@@ -337,13 +335,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
         <div>
           <div class="fact-lbl">特徴 2</div>
-          <div class="fact-body">太閤酒造場</div>
-        </div>
-      </div>
-      <div class="fact">
-        <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">③</div>
-        <div>
-          <div class="fact-lbl">特徴 3</div>
           <div class="fact-body">ウイスキー製造開始</div>
         </div>
       </div>
@@ -371,6 +362,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
   </div>
 </section>
+
 
 <section class="section">
   <div class="sec-inner">
@@ -434,19 +426,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='日新酒類',BB='太閤';
-const SUGS=['太閤ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','日新酒類の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "日新酒類", "brand": "太閤", "pref": "徳島県", "area": "阿波", "founded": "", "founded_era": "", "brands": ["鳴門金時 里娘"], "visit": "", "url": "", "desc": "徳島県の総合酒類メーカー。太閤酒造場を運営。日本酒・本格焼酎の他、2023年からジャパニーズウイスキーの製造も開始。本格芋焼酎「鳴門金時 里娘」は徳島県産鳴門金時を100%使用。", "suggestions": ["太閤ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "日新酒類の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

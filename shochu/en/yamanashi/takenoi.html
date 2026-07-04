@@ -15,8 +15,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/en/yamanashi/takenoi.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/yamanashi/takenoi.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/yamanashi/takenoi.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/yamanashi/takenoi.html">
-    <link rel="alternate" hreflang="zh-Hans" href="https://shochu.terroirhub.com/shochu/zh/yamanashi/takenoi.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/yamanashi/takenoi.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -220,8 +218,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb" href="/shochu/yamanashi/takenoi.html">日本語</a>
     <a class="lb active" href="/shochu/en/yamanashi/takenoi.html">EN</a>
-    <a class="lb" href="/shochu/fr/yamanashi/takenoi.html">FR</a>
-    <a class="lb" href="/shochu/zh/yamanashi/takenoi.html">ZH</a>
   </div>
 </nav>
 
@@ -322,8 +318,8 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 
 <script src="/shochu/track.js" defer></script>
 
+
 <footer style="background:#1A1814;padding:40px 24px;text-align:center;">
-  <p style="font-size:11px;color:rgba(255,255,255,0.42);margin:0 0 10px;letter-spacing:0.04em;"><a href="https://www.terroirhub.com/listing-update/" target="_blank" rel="noopener" style="color:rgba(255,255,255,0.68);text-decoration:none;">掲載情報の修正・公式写真提供</a></p>
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
@@ -358,19 +354,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='武の井酒造',BB='武の井';
-const SUGS=['What is 武の井 like?','Can I visit the distillery?','How should I drink this?','Tell me about the history'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','Welcome to 武の井酒造.\n\nFeel free to ask anything about this distillery.');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'👤')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','Thank you for your question.\n\n* Sakura AI will provide real answers once connected to the API.');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','Thank you for your question.\n\n* Sakura AI will provide real answers once connected to the API.');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Takenoi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/yamanashi/takenoi.html", "address": {"@type": "PostalAddress", "addressRegion": "Yamanashi", "addressCountry": "JP"}, "alternateName": "武の井酒造"}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Yamanashi", "item": "https://shochu.terroirhub.com/shochu/en/yamanashi/"}, {"@type": "ListItem", "position": 3, "name": "Takenoi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/yamanashi/takenoi.html"}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "武の井酒造", "display_name": "Takenoi Shuzo", "brand": "武の井", "pref": "yamanashi", "area": "北杜", "founded": "", "brands": [], "url": "", "desc": "黄麹と常圧蒸留による本格米焼酎を製造。日本酒造りの技術を活かした焼酎づくり。", "suggestions": ["Tell me about Takenoi Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/kagawa/ayakiku.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/kagawa/ayakiku.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/kagawa/ayakiku.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/kagawa/ayakiku.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/kagawa/ayakiku.html">
 <script type="application/ld+json">
 {
@@ -292,7 +291,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/kagawa/ayakiku.html">日本語</a>
     <a class="lb" href="/shochu/en/kagawa/ayakiku.html">EN</a>
-    <a class="lb" href="/shochu/fr/kagawa/ayakiku.html">FR</a>
   </div>
 </nav>
 
@@ -355,21 +353,21 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">①</div>
         <div>
           <div class="fact-lbl">特徴 1</div>
-          <div class="fact-body">寛政2年創業</div>
+          <div class="fact-body">樫樽貯蔵焼酎</div>
         </div>
       </div>
       <div class="fact">
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
         <div>
           <div class="fact-lbl">特徴 2</div>
-          <div class="fact-body">樫樽貯蔵焼酎</div>
+          <div class="fact-body">香川県産米使用</div>
         </div>
       </div>
       <div class="fact">
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">③</div>
         <div>
           <div class="fact-lbl">特徴 3</div>
-          <div class="fact-body">香川県産米使用</div>
+          <div class="fact-body">讃岐の蔵元</div>
         </div>
       </div>
     </div>
@@ -417,6 +415,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">香川県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには香川県の蒸留所を2件収録しています。最も創業が古いのは1789年創業の西野金陵。2件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/kagawa/nishino_kinryo.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">西野金陵</span><span style="font-size:11.5px;color:var(--text-muted);">琴平 ｜ 金陵</span></a></div><div style="margin-top:22px;"><a href="/shochu/kagawa/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">香川県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -479,19 +478,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='綾菊酒造',BB='綾菊';
-const SUGS=['綾菊ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','綾菊酒造の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "綾菊酒造", "brand": "綾菊", "pref": "香川県", "area": "綾川", "founded": "1790", "founded_era": "寛政2年", "brands": ["空海の道", "MAO", "青い風"], "visit": "施設見学可能", "url": "https://www.ayakiku.com/", "desc": "寛政2年創業。地元香川県産米での酒造りを基本とする老舗蔵。焼酎として樫樽貯蔵「空海の道」、「MAO」、「青い風」などを製造。讃岐の米と水を活かした酒造り。", "suggestions": ["綾菊ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "綾菊酒造の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

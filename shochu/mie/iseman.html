@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/mie/iseman.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/mie/iseman.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/mie/iseman.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/mie/iseman.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/mie/iseman.html">
 <script type="application/ld+json">
 {
@@ -292,7 +291,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/mie/iseman.html">日本語</a>
     <a class="lb" href="/shochu/en/mie/iseman.html">EN</a>
-    <a class="lb" href="/shochu/fr/mie/iseman.html">FR</a>
   </div>
 </nav>
 
@@ -355,21 +353,21 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">①</div>
         <div>
           <div class="fact-lbl">特徴 1</div>
-          <div class="fact-body">伊勢志摩唯一の酒蔵</div>
+          <div class="fact-body">30年以上のロングセラー</div>
         </div>
       </div>
       <div class="fact">
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">②</div>
         <div>
           <div class="fact-lbl">特徴 2</div>
-          <div class="fact-body">30年以上のロングセラー</div>
+          <div class="fact-body">黒麹単式蒸留</div>
         </div>
       </div>
       <div class="fact">
         <div class="fact-num" style="font-family:'Zen Old Mincho',serif;font-size:42px;opacity:0.7;">③</div>
         <div>
           <div class="fact-lbl">特徴 3</div>
-          <div class="fact-body">黒麹単式蒸留</div>
+          <div class="fact-body">クラフトジン製造</div>
         </div>
       </div>
     </div>
@@ -417,6 +415,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">三重県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには三重県の蒸留所を2件収録しています。最も創業が古いのは1846年創業の宮崎本店。1件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/mie/miyazaki_honten.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">宮崎本店</span><span style="font-size:11.5px;color:var(--text-muted);">北勢 ｜ キンミヤ</span></a></div><div style="margin-top:22px;"><a href="/shochu/mie/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">三重県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -479,19 +478,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='伊勢萬',BB='光年';
-const SUGS=['光年ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','伊勢萬の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "伊勢萬", "brand": "光年", "pref": "三重県", "area": "伊勢志摩", "founded": "1949", "founded_era": "昭和24年", "brands": ["光年", "ステラ光年", "伊勢神（ジン）", "神路（ウイスキー）"], "visit": "内宮前酒造場（おかげ横丁内）にて見学・試飲可能", "url": "https://www.iseman.co.jp/", "desc": "伊勢志摩唯一の酒蔵。焼酎、清酒、リキュールの製造・販売。ロングセラー焼酎「光年」を30年以上製造。本格麦焼酎「ステラ光年」は黒麹使用の単式蒸留。三重県唯一のクラフトジン「伊勢神」も製造。", "suggestions": ["光年ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "伊勢萬の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

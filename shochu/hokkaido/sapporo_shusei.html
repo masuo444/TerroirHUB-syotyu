@@ -17,7 +17,6 @@
 <link rel="canonical" href="https://shochu.terroirhub.com/shochu/hokkaido/sapporo_shusei.html">
     <link rel="alternate" hreflang="ja" href="https://shochu.terroirhub.com/shochu/hokkaido/sapporo_shusei.html">
     <link rel="alternate" hreflang="en" href="https://shochu.terroirhub.com/shochu/en/hokkaido/sapporo_shusei.html">
-    <link rel="alternate" hreflang="fr" href="https://shochu.terroirhub.com/shochu/fr/hokkaido/sapporo_shusei.html">
     <link rel="alternate" hreflang="x-default" href="https://shochu.terroirhub.com/shochu/en/hokkaido/sapporo_shusei.html">
 <script type="application/ld+json">
 {
@@ -284,7 +283,6 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <div class="nav-r">
     <a class="lb active" href="/shochu/hokkaido/sapporo_shusei.html">日本語</a>
     <a class="lb" href="/shochu/en/hokkaido/sapporo_shusei.html">EN</a>
-    <a class="lb" href="/shochu/fr/hokkaido/sapporo_shusei.html">FR</a>
   </div>
 </nav>
 
@@ -402,6 +400,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </section>
 
+<section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">北海道の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには北海道の蒸留所を2件収録しています。最も創業が古いのは1900年創業の合同酒精 旭川工場。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/hokkaido/godo_shusei_asahikawa.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">合同酒精 旭川工場</span><span style="font-size:11.5px;color:var(--text-muted);">旭川市 ｜ 鍛高譚</span></a></div><div style="margin-top:22px;"><a href="/shochu/hokkaido/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">北海道の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">
   <div class="sec-inner">
     <label class="sec-label">INFORMATION</label>
@@ -464,19 +463,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   </div>
 </div>
 
-<script>
-function openPanel(){document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}
-function closePanel(){document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}
-let ci=false;
-const BN='札幌酒精工業',BB='喜多里';
-const SUGS=['喜多里ってどんな焼酎？','蒸留所見学はできる？','おすすめの飲み方は？','札幌酒精工業の歴史を教えて'];
-function initChat(){ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','ようこそ、'+BN+'へ。\n\nこの蒸留所について何でもお気軽にお尋ねください。');renderSugs();}
-function addMsg(r,t){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'桜':'あ')+'</div><div class="bubble">'+t.replace(/\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function renderSugs(){document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}
-function askSug(q){document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1200);}
-function sendMsg(){const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{removeT();addMsg('butler','ご質問ありがとうございます。\n\n※ サクラAIはAPI接続後に実動作します。');renderSugs();},1500);}
-function showT(){const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">桜</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}
-function removeT(){const e=document.getElementById('tp');if(e)e.remove();}
-</script>
+<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "札幌酒精工業", "brand": "喜多里", "pref": "北海道", "area": "札幌市", "founded": "1933", "founded_era": "昭和8年", "brands": ["喜多里", "喜多里 昆布焼酎", "サッポロソフト"], "visit": "", "url": "https://www.sapporo-shusei.jp/", "desc": "昭和8年創業の焼酎甲類メーカー。北海道南部・厚沢部町の自社工場にて原料の加工から一貫して本格焼酎「喜多里」を製造。甲類「サッポロソフト」も広く親しまれている。", "suggestions": ["喜多里ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "札幌酒精工業の歴史を教えて"]};</script>
+<script src="/sakura-page.js" defer></script>
 </body>
 </html>

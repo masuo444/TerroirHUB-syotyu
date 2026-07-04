@@ -179,7 +179,7 @@ def jsesc(s):
     return str(s).replace("\\", "\\\\").replace("'", "\\'").replace("\n", "\\n")
 
 
-def generate_lang_page(b, pref_slug, lang):
+def generate_lang_page(b, pref_slug, lang, siblings=None):
     t = UI[lang]
     pref_name = PREF_NAMES.get(pref_slug, pref_slug)
     pref_en = PREF_EN.get(pref_slug, pref_slug)
@@ -221,8 +221,6 @@ def generate_lang_page(b, pref_slug, lang):
     # hreflang tags
     hreflang = f'''    <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/shochu/{pref_slug}/{bid}.html">
     <link rel="alternate" hreflang="en" href="https://{DOMAIN}/shochu/en/{pref_slug}/{bid}.html">
-    <link rel="alternate" hreflang="fr" href="https://{DOMAIN}/shochu/fr/{pref_slug}/{bid}.html">
-    <link rel="alternate" hreflang="zh-Hans" href="https://{DOMAIN}/shochu/zh/{pref_slug}/{bid}.html">
     <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/shochu/en/{pref_slug}/{bid}.html">'''
 
     # Brands HTML
@@ -362,6 +360,77 @@ def generate_lang_page(b, pref_slug, lang):
     og_desc = esc(desc[:120]) if desc else esc(name)
     page_url = f"https://{DOMAIN}/shochu/{lang}/{pref_slug}/{bid}.html"
 
+    _bn2 = [str(x.get('name','')) if isinstance(x, dict) else str(x) for x in (brands[:5] if isinstance(brands, list) else [])]
+    _bn2 = [x for x in _bn2 if x]
+    _disp = b.get('name_en') or name
+    _sug_en = [f'Tell me about {_disp}', 'How should I drink it?', 'Can I visit?', 'What is the history?']
+    _sakura_ctx = {
+        'lang': lang, 'site': 'TERROIR HUB SHOCHU (焼酎 page, English site)',
+        'facility': '蒸留所', 'facility_en': 'distillery',
+        'name': name, 'display_name': _disp, 'brand': brand,
+        'pref': pref_slug, 'area': area if isinstance(area, str) else '',
+        'founded': founded, 'brands': _bn2,
+        'url': url, 'desc': desc,
+        'suggestions': _sug_en,
+    }
+    # ── JSON-LD + 同県リンク（en）──
+    import json as _json3
+    _founded = str(b.get('founded','') or '')
+    _url0 = b.get('url','') or ''
+    _page_url2 = f"https://{DOMAIN}/shochu/{lang}/{pref_slug}/{bid}.html"
+    _biz = {
+        "@type": "LocalBusiness",
+        "name": _disp,
+        "url": _page_url2,
+        "address": {"@type": "PostalAddress", "addressRegion": pref_en, "addressCountry": "JP"},
+    }
+    if b.get('name_en') and b.get('name_en') != name:
+        _biz["alternateName"] = name
+    if _founded: _biz["foundingDate"] = _founded
+    if _url0: _biz["sameAs"] = _url0
+    if _bn2: _biz["brand"] = {"@type": "Brand", "name": _bn2[0]}
+    _crumb = {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": f"https://{DOMAIN}/en/"},
+        {"@type": "ListItem", "position": 2, "name": pref_en, "item": f"https://{DOMAIN}/shochu/{lang}/{pref_slug}/"},
+        {"@type": "ListItem", "position": 3, "name": _disp, "item": _page_url2}]}
+    _faq2 = []
+    if _bn2:
+        _faq2.append({"@type": "Question", "name": f"What does {_disp} produce?",
+                      "acceptedAnswer": {"@type": "Answer", "text": f"{_disp} produces {', '.join(_bn2)}."}})
+    if _founded.isdigit():
+        _faq2.append({"@type": "Question", "name": f"When was {_disp} founded?",
+                      "acceptedAnswer": {"@type": "Answer", "text": f"{_disp} was founded in {_founded} in {pref_en}, Japan."}})
+    if _url0:
+        _faq2.append({"@type": "Question", "name": f"Does {_disp} have an official website?",
+                      "acceptedAnswer": {"@type": "Answer", "text": f"Yes, the official website is {_url0}."}})
+    _graph2 = [_biz, _crumb]
+    if _faq2: _graph2.append({"@type": "FAQPage", "mainEntity": _faq2})
+    _ml_jsonld = '<script type="application/ld+json">' + _json3.dumps({"@context": "https://schema.org", "@graph": _graph2}, ensure_ascii=False) + '</script>'
+
+    _ml_related = ''
+    if siblings:
+        _o2 = [x for x in siblings if isinstance(x, dict) and x.get('id') and x.get('id') != bid and x.get('name')]
+        _o2.sort(key=lambda x: x.get('name_en') or x.get('name',''))
+        _rc = ''
+        for _x in _o2[:6]:
+            _xn = esc(_x.get('name_en') or _x.get('name',''))
+            _xb = esc(_x.get('brand',''))
+            _rc += (f'<a href="/shochu/en/{pref_slug}/{esc(_x["id"])}.html" '
+                    f'style="display:flex;flex-direction:column;gap:5px;background:var(--surface,#fff);border:1px solid var(--border,#E7DFD5);border-radius:8px;padding:16px 18px;text-decoration:none;color:inherit;">'
+                    f'<span style="font-size:15px;font-weight:600;">{_xn}</span>'
+                    f'<span style="font-size:11.5px;opacity:.6;">{_xb}</span></a>')
+        if _rc:
+            _ml_related = (f'<section class="section" style="padding:60px 24px;max-width:1100px;margin:0 auto;">'
+                           f'<h2 style="font-size:22px;margin-bottom:18px;">More distillerys in {pref_en}</h2>'
+                           f'<div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;">{_rc}</div>'
+                           f'<div style="margin-top:20px;"><a href="/shochu/en/{pref_slug}/" style="font-size:13px;">See all →</a></div>'
+                           f'</section>')
+
+    import json as _json2
+    sakura_block = _ml_jsonld + ('<script>window.SAKURA_CTX = '
+                    + _json2.dumps(_sakura_ctx, ensure_ascii=False).replace('</', '<\\/')
+                    + ';</script>\n<script src="/sakura-page.js" defer></script>')
+
     return f'''<!DOCTYPE html>
 <html lang="{t['html_lang']}">
 <head>
@@ -394,8 +463,6 @@ def generate_lang_page(b, pref_slug, lang):
   <div class="nav-r">
     <a class="lb" href="/shochu/{pref_slug}/{bid}.html">\u65e5\u672c\u8a9e</a>
     <a class="lb{' active' if lang == 'en' else ''}" href="/shochu/en/{pref_slug}/{bid}.html">EN</a>
-    <a class="lb{' active' if lang == 'fr' else ''}" href="/shochu/fr/{pref_slug}/{bid}.html">FR</a>
-    <a class="lb{' active' if lang == 'zh' else ''}" href="/shochu/zh/{pref_slug}/{bid}.html">ZH</a>
   </div>
 </nav>
 
@@ -443,6 +510,7 @@ def generate_lang_page(b, pref_slug, lang):
 
 <script src="/shochu/track.js" defer></script>
 
+{_ml_related}
 <footer style="background:#1A1814;padding:40px 24px;text-align:center;">
   <p style="font-family:'Zen Old Mincho',serif;font-size:14px;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:8px;">Terroir HUB</p>
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">{DOMAIN}</p>
@@ -478,20 +546,7 @@ def generate_lang_page(b, pref_slug, lang):
   </div>
 </div>
 
-<script>
-function openPanel(){{document.getElementById('overlay').classList.add('open');document.getElementById('fab').style.display='none';if(!ci)initChat();}}
-function closePanel(){{document.getElementById('overlay').classList.remove('open');document.getElementById('fab').style.display='flex';}}
-let ci=false;
-const BN='{js_name}',BB='{js_brand}';
-const SUGS=['{jsesc(sug1)}','{jsesc(sug2)}','{jsesc(sug3)}','{jsesc(sug4)}'];
-function initChat(){{ci=true;document.getElementById('chat').innerHTML='';addMsg('butler','{sakura_greet}');renderSugs();}}
-function addMsg(r,t){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg '+r;d.innerHTML='<div class="av">'+(r==='butler'?'\u685c':'\U0001f464')+'</div><div class="bubble">'+t.replace(/\\n/g,'<br>')+'</div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
-function renderSugs(){{document.getElementById('sugs').innerHTML=SUGS.map(s=>'<button class="sug" onclick="askSug(this.textContent)">'+s+'</button>').join('');}}
-function askSug(q){{document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','{sakura_demo}');renderSugs();}},1200);}}
-function sendMsg(){{const i=document.getElementById('chat-inp'),q=i.value.trim();if(!q)return;i.value='';document.getElementById('sugs').innerHTML='';addMsg('user',q);showT();setTimeout(()=>{{removeT();addMsg('butler','{sakura_demo}');renderSugs();}},1500);}}
-function showT(){{const c=document.getElementById('chat'),d=document.createElement('div');d.className='msg butler';d.id='tp';d.innerHTML='<div class="av">\u685c</div><div class="bubble"><div class="typing"><div class="td"></div><div class="td"></div><div class="td"></div></div></div>';c.appendChild(d);c.scrollTop=c.scrollHeight;}}
-function removeT(){{const e=document.getElementById('tp');if(e)e.remove();}}
-</script>
+{sakura_block}
 </body>
 </html>'''
 
@@ -500,7 +555,7 @@ function removeT(){{const e=document.getElementById('tp');if(e)e.remove();}}
 json_files = sorted(glob.glob(os.path.join(BASE, 'data', 'data_*_distilleries.json')))
 grand_total = 0
 
-for lang in ['en', 'fr', 'zh']:
+for lang in ['en']:
     total = 0
     errors = 0
     for jf in json_files:
@@ -515,7 +570,7 @@ for lang in ['en', 'fr', 'zh']:
             if not b.get('id'):
                 continue
             try:
-                html = generate_lang_page(b, pref, lang)
+                html = generate_lang_page(b, pref, lang, siblings=distilleries)
                 with open(os.path.join(out_dir, f"{b['id']}.html"), 'w', encoding='utf-8') as f:
                     f.write(html)
                 total += 1
