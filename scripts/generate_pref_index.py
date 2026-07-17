@@ -177,6 +177,7 @@ footer a{{color:rgba(255,255,255,0.5);text-decoration:none;}}
   <div class="filters" id="filters"></div>
   <div class="grid" id="grid">{cards_html}</div>
 </main>
+<div style="max-width:1080px;margin:36px auto 0;padding:0 24px;text-align:center;"><a href="https://www.terroirhub.com/terroir/{pref_slug}.html" style="font-size:13px;color:#8B5E3C;text-decoration:none;letter-spacing:0.03em;">{esc(pref_name)}のテロワールを見る — 日本酒・ワイン・焼酎・ウイスキーを横断 →</a></div>
 <footer>
   <p><a href="/">Terroir HUB SHOCHU</a> &copy; 2026 合同会社FOMUS</p>
 </footer>
