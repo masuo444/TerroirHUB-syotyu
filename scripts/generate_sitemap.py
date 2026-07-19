@@ -62,10 +62,9 @@ for jf in json_files:
         if not d.get('id'):
             continue
         ja_path = f'/shochu/{pref}/{d["id"]}.html'
-        en_path = f'/shochu/en/{pref}/{d["id"]}.html'
-        langs = {'ja': ja_path, 'en': en_path, 'x-default': en_path}
+        # 殻ENページはnoindexのためsitemapから除外（EN本物化したら戻す）
+        langs = {'ja': ja_path, 'x-default': ja_path}
         add(ja_path, '0.6', 'monthly', langs)
-        add(en_path, '0.5', 'monthly', langs)
 
 # Build XML
 xml_parts = ['<?xml version="1.0" encoding="UTF-8"?>']

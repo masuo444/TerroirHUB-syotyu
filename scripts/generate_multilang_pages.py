@@ -219,9 +219,10 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
     meta_desc = t['meta_desc'].format(name=display_name, pref=pref_en)
 
     # hreflang tags
+    # ENは未翻訳の殻のためnoindex・hreflang対から除外（EN本物化したら戻す）
     hreflang = f'''    <link rel="alternate" hreflang="ja" href="https://{DOMAIN}/shochu/{pref_slug}/{bid}.html">
-    <link rel="alternate" hreflang="en" href="https://{DOMAIN}/shochu/en/{pref_slug}/{bid}.html">
-    <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/shochu/en/{pref_slug}/{bid}.html">'''
+    <link rel="alternate" hreflang="x-default" href="https://{DOMAIN}/shochu/{pref_slug}/{bid}.html">'''
+    robots_meta = '<meta name="robots" content="noindex,follow">\n' if lang == 'en' else ''
 
     # Brands HTML
     brands_html = ''
@@ -436,7 +437,7 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>{page_title}</title>
+{robots_meta}<title>{page_title}</title>
 <meta name="description" content="{esc(meta_desc)}">
 <meta property="og:title" content="{page_title}">
 <meta property="og:description" content="{og_desc}">
