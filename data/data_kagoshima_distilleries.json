@@ -1902,7 +1902,7 @@
   "founded_era": "明治42年",
   "address": "鹿児島県薩摩郡さつま町時吉12番地",
   "tel": "0996-53-0001",
-  "url": "http://www.komakidistillery.com/",
+  "url": "https://komakijozo.co.jp/",
   "area": "川内エリア",
   "desc": "1909年創業。自然豊かなさつま町に位置し、かめ壺仕込みの伝統製法で焼酎を造る。",
   "visit": "",
@@ -1929,6 +1929,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県さつま町時吉１２番地",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "http://www.komakidistillery.com/",
+   "reason": "komakidistillery.com から移転",
    "checked": "2026-07-27"
   }
  },
@@ -2788,7 +2793,7 @@
   "founded_era": "",
   "address": "鹿児島県鹿児島市名山町11-25",
   "tel": "099-223-1561",
-  "url": "http://www.kagoshimasyuzou.jp/",
+  "url": "https://kagosyuzo.jp/",
   "area": "出水エリア",
   "desc": "黒瀬杜氏伝承蔵での伝統的な黒麹製法で焼酎を製造。焼き芋焼酎「やきいも黒瀬」も人気。",
   "visit": "要予約で見学可能（9:00-16:00、9月〜11月が最適）",
@@ -2821,6 +2826,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県鹿児島市名山町１１番２５号",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "http://www.kagoshimasyuzou.jp/",
+   "reason": "kagoshimasyuzou.jp から移転",
    "checked": "2026-07-27"
   }
  },
@@ -3372,7 +3382,7 @@
   "founded_era": "大正9年",
   "address": "鹿児島県霧島市隼人町西光寺649",
   "tel": "0995-42-0315",
-  "url": "http://hinatayamajyouzou.com/",
+  "url": "https://asahishochu.co.jp/",
   "area": "加治木エリア",
   "desc": "大正9年（1920年）創業。元教師の浜崎直治が独学で蒸留を学び設立。芋焼酎らしいふくよかな旨味と口当たりの良いキレが特徴。",
   "visit": "10月以降、要事前連絡で見学可能",
@@ -3399,6 +3409,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県霧島市隼人町西光寺６４９番地",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "http://hinatayamajyouzou.com/",
+   "reason": "hinatayamajyouzou.com から移転（転送先に蔵名の記載を確認）",
    "checked": "2026-07-27"
   }
  },
@@ -4425,7 +4440,7 @@
   "founded_era": "明治36年",
   "address": "鹿児島県西之表市安納苗代岡1861-2",
   "tel": "0997-25-0707",
-  "url": "http://www.takasakishuzo.com",
+  "url": "https://takasakishuzo.online/",
   "area": "種子島エリア",
   "desc": "1903年創業。種子島産の原料で芋焼酎を製造。安納地区に位置する蔵元。",
   "visit": "",
@@ -4452,6 +4467,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県西之表市安納",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "http://www.takasakishuzo.com",
+   "reason": "takasakishuzo.com から移転（転送先タイトルは高崎酒造株式会社）",
    "checked": "2026-07-27"
   }
  },
@@ -5066,7 +5086,7 @@
   "founded_era": "昭和24年",
   "address": "鹿児島県大島郡徳之島町亀津982-1",
   "tel": "0997-83-0014",
-  "url": "https://www.takaokazyouzou.com",
+  "url": "",
   "area": "奄美エリア",
   "desc": "1949年創業。奄美酒類の構成蔵の一つ。黒糖焼酎と国産ラムを製造。",
   "visit": "",
@@ -5106,6 +5126,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "鹿児島県徳之島町亀津９８２番地",
+   "checked": "2026-07-27"
+  },
+  "url_dead": {
+   "url": "https://www.takaokazyouzou.com",
+   "reason": "ドメインの名前解決ができない（2026-07-27確認）。代替ドメインも探したが見つからなかった",
    "checked": "2026-07-27"
   }
  },

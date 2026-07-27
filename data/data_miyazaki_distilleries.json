@@ -567,7 +567,7 @@
   "founded_era": "明治10年",
   "address": "宮崎県日南市大字隈谷甲1192",
   "tel": "0987-27-0271",
-  "url": "https://www.sakuranomine.com/",
+  "url": "https://sakuranomine.jp/",
   "area": "日南市",
   "desc": "7代目橋本明志氏が社長を務める小規模蔵。甕仕込みと80〜100年の飫肥杉木桶を使用した伝統的手造り。減圧蒸留によるまろやかな香りと優しい口当たりが特徴。季節限定品や長期貯蔵品（40度）も展開。",
   "visit": "",
@@ -592,6 +592,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市隈谷甲",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "https://www.sakuranomine.com/",
+   "reason": ".com から .jp へ移転",
    "checked": "2026-07-27"
   }
  },
@@ -1244,7 +1249,7 @@
   "founded_era": "文政元年",
   "address": "宮崎県日南市飫肥8-1-8",
   "tel": "0987-25-9229",
-  "url": "https://www.kodamadistillery.co.jp/",
+  "url": "https://tojijunpei.com/",
   "area": "日南市",
   "desc": "1818年創業、2001年に再興。飫肥城下町に位置する蔵。東京農業大学で学んだ杜氏・金丸潤平氏が手造り麹と機械を使い分ける。宮崎紅やコガネマサリなどの品種を使用。「造り手の魂を込めた一本」を追求する少量生産。",
   "visit": "見学不可。",
@@ -1268,6 +1273,11 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市飫肥八丁目１番８号",
+   "checked": "2026-07-27"
+  },
+  "url_previous": {
+   "url": "https://www.kodamadistillery.co.jp/",
+   "reason": "kodamadistillery.co.jp から移転（銘柄「杜氏潤平」のドメイン）",
    "checked": "2026-07-27"
   }
  },
