@@ -199,6 +199,25 @@ def generate_page(b, pref_slug, siblings=None):
     if visit:
         visit_items += f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🏠</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">見学</div><div style="font-size:15px;color:var(--text-body);">{esc(visit)}</div></div></div>'
 
+    # ── 地図（lat/lngがあればOpenStreetMap埋め込み・APIキー不要） ──
+    # sakeとwineには地図があったが、このジャンルには無く「所在地は書いてあるが
+    # どこか分からない」状態だった（2026-07-27追加）。座標が無い蔵では何も描画しない。
+    _lat, _lng = b.get('lat'), b.get('lng')
+    map_box = ''
+    if _lat and _lng:
+        try:
+            _la, _ln = float(_lat), float(_lng)
+            _bbox = f"{_ln-0.012}%2C{_la-0.008}%2C{_ln+0.012}%2C{_la+0.008}"
+            map_box = (f'<div style="border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-top:18px;">'
+                       f'<iframe title="{esc(name)}の地図" width="100%" height="280" frameborder="0" scrolling="no" loading="lazy" '
+                       f'style="display:block;border:0;" src="https://www.openstreetmap.org/export/embed.html?bbox={_bbox}&amp;layer=mapnik&amp;marker={_la}%2C{_ln}"></iframe>'
+                       f'<div style="padding:8px 12px;background:var(--surface-warm);font-size:12px;text-align:right;">'
+                       f'<a href="https://www.google.com/maps/search/?api=1&amp;query={_la}%2C{_ln}" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:none;">Googleマップで開く →</a></div></div>')
+        except (ValueError, TypeError):
+            map_box = ''
+    visit_items += map_box
+
+
     # Suggestions for Sakura
     def jsesc(s):
         return s.replace("\\","\\\\").replace("'","\\'").replace("\n","\\n") if s else ''
