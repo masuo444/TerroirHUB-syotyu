@@ -33,6 +33,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "千葉県君津市下湯江２４０番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "君津",
+   "line": "JR内房線",
+   "distance_m": 1800,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -68,6 +75,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "千葉県山武市蓮沼ハ２９２９番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "松尾",
+   "line": "JR総武本線",
+   "distance_m": 5170,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

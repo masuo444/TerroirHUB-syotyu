@@ -33,6 +33,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "埼玉県毛呂山町毛呂本郷９４番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "毛呂",
+   "line": "JR八高線",
+   "distance_m": 600,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

@@ -33,6 +33,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "神奈川県厚木市七沢７６９番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "愛甲石田",
+   "line": "小田急小田原線",
+   "distance_m": 5100,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

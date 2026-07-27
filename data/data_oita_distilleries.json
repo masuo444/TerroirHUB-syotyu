@@ -39,6 +39,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県宇佐市山本",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊前善光寺",
+   "line": "JR日豊本線",
+   "distance_m": 6310,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -77,6 +84,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県日出町２８４９番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "暘谷",
+   "line": "JR日豊本線",
+   "distance_m": 480,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -117,6 +131,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県宇佐市長洲４１３０番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "柳ヶ浦",
+   "line": "JR日豊本線",
+   "distance_m": 1260,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -154,6 +175,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県豊後大野市千歳町新殿",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "菅尾",
+   "line": "JR豊肥本線",
+   "distance_m": 3640,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -193,6 +221,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県宇佐市四日市１２０５番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊前善光寺",
+   "line": "JR日豊本線",
+   "distance_m": 3830,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -230,6 +265,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県日田市大山町西大山",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "天ヶ瀬",
+   "line": "JR久大本線",
+   "distance_m": 6460,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -269,6 +311,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県九重町右田",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊後中村",
+   "line": "JR久大本線",
+   "distance_m": 1880,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -307,6 +356,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県杵築市南杵築２４８７番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "杵築",
+   "line": "JR日豊本線",
+   "distance_m": 2730,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -344,6 +400,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県臼杵市江無田３８２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "熊崎",
+   "line": "JR日豊本線",
+   "distance_m": 810,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -418,6 +481,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県中津市中殿町三丁目３番",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "中津",
+   "line": "JR日豊本線",
+   "distance_m": 410,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -454,6 +524,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県日田市大肥",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "方司口",
+   "line": "JR日田彦山線BRT",
+   "distance_m": 750,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -493,6 +570,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県日田市豆田町６番３１号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "昭和学園前",
+   "line": "JR日田彦山線BRT",
+   "distance_m": 530,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -530,6 +614,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県由布市庄内町畑田",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "天神山",
+   "line": "JR久大本線",
+   "distance_m": 980,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -603,6 +694,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県竹田市竹田町３９８番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊後竹田",
+   "line": "JR豊肥本線",
+   "distance_m": 600,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -640,6 +738,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県臼杵市野津町野津市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "犬飼",
+   "line": "JR豊肥本線",
+   "distance_m": 7240,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -680,6 +785,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県玖珠町小田",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "北山田",
+   "line": "JR久大本線",
+   "distance_m": 2990,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -717,6 +829,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県臼杵市臼杵",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "臼杵",
+   "line": "JR日豊本線",
+   "distance_m": 630,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -756,6 +875,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県大分市森町８２５番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "鶴崎",
+   "line": "JR日豊本線",
+   "distance_m": 1780,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -791,6 +917,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県臼杵市野津町野津市",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "犬飼",
+   "line": "JR豊肥本線",
+   "distance_m": 7240,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -828,6 +961,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県豊後高田市新栄１２１６番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "宇佐",
+   "line": "JR日豊本線",
+   "distance_m": 6310,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -859,6 +999,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県杵築市山香町野原",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "中山香",
+   "line": "JR日豊本線",
+   "distance_m": 3140,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -896,6 +1043,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県由布市庄内町東長宝",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "小野屋",
+   "line": "JR久大本線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1008,6 +1162,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県宇佐市江須賀２８４６番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "柳ヶ浦",
+   "line": "JR日豊本線",
+   "distance_m": 520,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1043,6 +1204,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県宇佐市長洲３５８１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊前長洲",
+   "line": "JR日豊本線",
+   "distance_m": 1160,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1080,6 +1248,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県宇佐市長洲３３４１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "豊前長洲",
+   "line": "JR日豊本線",
+   "distance_m": 1090,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1119,6 +1294,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県佐伯市上浦浅海井浦",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "浅海井",
+   "line": "JR日豊本線",
+   "distance_m": 1240,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1155,6 +1337,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県佐伯市直川横川",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "直川",
+   "line": "JR日豊本線",
+   "distance_m": 4190,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1194,6 +1383,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県豊後大野市朝地町市万田",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "朝地",
+   "line": "JR豊肥本線",
+   "distance_m": 3590,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1231,6 +1427,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県豊後大野市緒方町下自在",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "緒方",
+   "line": "JR豊肥本線",
+   "distance_m": 950,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1267,6 +1470,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "大分県豊後大野市緒方町下自在",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "緒方",
+   "line": "JR豊肥本線",
+   "distance_m": 950,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },

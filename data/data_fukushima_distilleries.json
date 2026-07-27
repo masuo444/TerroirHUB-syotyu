@@ -69,6 +69,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "福島県郡山市笹川一丁目１７８番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "安積永盛",
+   "line": "JR東北本線",
+   "distance_m": 660,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

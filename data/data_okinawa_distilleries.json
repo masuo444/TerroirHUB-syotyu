@@ -853,6 +853,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県豊見城市名嘉地１３２番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "赤嶺",
+   "line": "沖縄ゆいレール",
+   "distance_m": 2030,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1077,6 +1084,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県北谷町吉原６３番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "てだこ浦西",
+   "line": "沖縄ゆいレール",
+   "distance_m": 8730,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1144,6 +1158,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県西原町小那覇１４３８番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "てだこ浦西",
+   "line": "沖縄ゆいレール",
+   "distance_m": 3760,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1197,6 +1218,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市首里赤田町二丁目４８番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "首里",
+   "line": "沖縄ゆいレール",
+   "distance_m": 440,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1266,6 +1294,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市首里末吉町四丁目５番",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "市立病院前",
+   "line": "沖縄ゆいレール",
+   "distance_m": 130,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1326,6 +1361,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市港町二丁目８番９号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "美栄橋",
+   "line": "沖縄ゆいレール",
+   "distance_m": 2680,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1380,6 +1422,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市首里崎山町一丁目３５番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "首里",
+   "line": "沖縄ゆいレール",
+   "distance_m": 650,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1454,6 +1503,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市与儀二丁目８番５３号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "壺川",
+   "line": "沖縄ゆいレール",
+   "distance_m": 1260,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1513,6 +1569,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市仲井真１５５番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "安里",
+   "line": "沖縄ゆいレール",
+   "distance_m": 2540,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1581,6 +1644,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県那覇市小禄",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "奥武山公園",
+   "line": "沖縄ゆいレール",
+   "distance_m": 980,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1635,6 +1705,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県糸満市座波１０６１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "赤嶺",
+   "line": "沖縄ゆいレール",
+   "distance_m": 6380,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1710,6 +1787,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県糸満市西崎町五丁目８番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "赤嶺",
+   "line": "沖縄ゆいレール",
+   "distance_m": 5600,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1768,6 +1852,13 @@
   "url_dead": {
    "url": "https://awamori.site",
    "reason": "ドメインの名前解決ができない（2026-07-27確認）。代替ドメインも探したが見つからなかった",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "奥武山公園",
+   "line": "沖縄ゆいレール",
+   "distance_m": 7780,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },

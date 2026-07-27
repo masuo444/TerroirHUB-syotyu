@@ -31,6 +31,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "山梨県北杜市高根町箕輪",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "日野春",
+   "line": "JR中央本線",
+   "distance_m": 4380,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  }
 ]

@@ -34,6 +34,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "北海道札幌市西区発寒十条一丁目１番１号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "琴似",
+   "line": "JR函館本線",
+   "distance_m": 590,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -69,6 +76,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "北海道旭川市南六条通十九丁目２１８２番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "旭川四条",
+   "line": "JR宗谷本線",
+   "distance_m": 1290,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }

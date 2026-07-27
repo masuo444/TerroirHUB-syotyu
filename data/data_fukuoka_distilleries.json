@@ -868,7 +868,14 @@
   "source": "http://www.fukuoka-sake.org/map/detail.php?ID=27",
   "lat": 33.211,
   "lng": 130.556,
-  "name_en": "Goto Shuzojo"
+  "name_en": "Goto Shuzojo",
+  "nearest_station_calc": {
+   "station": "羽犬塚",
+   "line": "JR鹿児島本線",
+   "distance_m": 5440,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "kobayashi",
@@ -939,7 +946,14 @@
   "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
   "lat": 33.21,
   "lng": 130.556,
-  "name_en": "Takahashi Shoten"
+  "name_en": "Takahashi Shoten",
+  "nearest_station_calc": {
+   "station": "羽犬塚",
+   "line": "JR鹿児島本線",
+   "distance_m": 5440,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "tanoshimaru",
@@ -1009,7 +1023,14 @@
   "source": "http://www.fukuoka-sake.org/map/detail.php?ID=72",
   "lat": 33.59,
   "lng": 130.402,
-  "name_en": "Hagio Shuzojo"
+  "name_en": "Hagio Shuzojo",
+  "nearest_station_calc": {
+   "station": "天神南",
+   "line": "福岡市七隈線",
+   "distance_m": 200,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "hananoseki",
@@ -1050,7 +1071,14 @@
   "source": "https://hananoseki.co.jp/",
   "lat": 33.52,
   "lng": 130.523,
-  "name_en": "Hananoseki Shuzo"
+  "name_en": "Hananoseki Shuzo",
+  "nearest_station_calc": {
+   "station": "太宰府",
+   "line": "西鉄太宰府線",
+   "distance_m": 790,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "hayashi",
@@ -1091,7 +1119,14 @@
   "source": "https://www.kusugiku.jp/",
   "lat": 33.671,
   "lng": 130.918,
-  "name_en": "Hayashi Ryuhei Shuzojo"
+  "name_en": "Hayashi Ryuhei Shuzojo",
+  "nearest_station_calc": {
+   "station": "犀川",
+   "line": "平成筑豊鉄道田川線",
+   "distance_m": 3000,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "hiyokuzuru",
@@ -1167,7 +1202,14 @@
   "source": "https://www.takusan.net/sake/shochu/kuramoto/fukuoka.html",
   "lat": 33.883,
   "lng": 130.875,
-  "name_en": "Muhomatsu Shuzo"
+  "name_en": "Muhomatsu Shuzo",
+  "nearest_station_calc": {
+   "station": "旦過",
+   "line": "北九州高速鉄道",
+   "distance_m": 550,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "wakanami",

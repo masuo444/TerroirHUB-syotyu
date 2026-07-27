@@ -199,6 +199,22 @@ def generate_page(b, pref_slug, siblings=None):
     if visit:
         visit_items += f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🏠</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">見学</div><div style="font-size:15px;color:var(--text-body);">{esc(visit)}</div></div></div>'
 
+    # 最寄駅（公式記載があればそれを、無ければ座標から求めた値を「直線距離」と明示して出す）
+    _st = str(b.get('nearest_station') or '').strip()
+    if _st and _st.lower() != 'none':
+        visit_items += (f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🚉</span>'
+                        f'<div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">最寄駅</div>'
+                        f'<div style="font-size:15px;color:var(--text-body);">{esc(_st)}</div></div></div>')
+    elif b.get('nearest_station_calc'):
+        _ns = b['nearest_station_calc']
+        _d = _ns.get('distance_m')
+        _v = f"{_ns.get('line','')} {_ns.get('station','')}駅"
+        if _d:
+            _v += f"（直線 約{_d:,}m）"
+        visit_items += (f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🚉</span>'
+                        f'<div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">最寄駅（直線距離）</div>'
+                        f'<div style="font-size:15px;color:var(--text-body);">{esc(_v.strip())}</div></div></div>')
+
     # ── 地図（lat/lngがあればOpenStreetMap埋め込み・APIキー不要） ──
     # sakeとwineには地図があったが、このジャンルには無く「所在地は書いてあるが
     # どこか分からない」状態だった（2026-07-27追加）。座標が無い蔵では何も描画しない。

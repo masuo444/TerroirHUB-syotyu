@@ -51,7 +51,14 @@
   "lat": 32.2097,
   "lng": 130.7556,
   "name_en": "Takahashi Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 740,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "hakutake_kenkyusho",
@@ -96,7 +103,14 @@
   "lat": 32.2106,
   "lng": 130.7612,
   "name_en": "Hakutake Shuzo Research Institute",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "sengetsu",
@@ -146,7 +160,14 @@
   "lat": 32.2118,
   "lng": 130.7533,
   "name_en": "Sengetsu Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 490,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "fukano",
@@ -196,7 +217,14 @@
   "lat": 32.2097,
   "lng": 130.7556,
   "name_en": "Fukano Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 740,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "fusanotsuyu",
@@ -236,7 +264,14 @@
   "lat": 32.2756,
   "lng": 130.9417,
   "name_en": "Fusanotsuyu",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "東多良木",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "rokuchoshi",
@@ -286,6 +321,13 @@
    "url": "https://rokuchoshisyuzou.sakura.ne.jp/",
    "reason": "ドメインの名前解決ができない（2026-07-27確認）。代替ドメインも探したが見つからなかった",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "一武",
+   "line": "くま川鉄道線",
+   "distance_m": 1750,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -331,7 +373,14 @@
   "lat": 32.2389,
   "lng": 130.8625,
   "name_en": "Matsunoizumi Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "おかどめ幸福",
+   "line": "くま川鉄道線",
+   "distance_m": 1370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "tsunematsu",
@@ -371,7 +420,14 @@
   "lat": 32.2756,
   "lng": 130.9417,
   "name_en": "Tsunematsu Shuzo Honten",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "東多良木",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "ohishi",
@@ -420,7 +476,14 @@
   "lat": 32.2667,
   "lng": 131.0167,
   "name_en": "Oishi Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "湯前",
+   "line": "くま川鉄道線",
+   "distance_m": 3810,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "torikai",
@@ -464,7 +527,14 @@
   "lat": 32.2096,
   "lng": 130.7519,
   "name_en": "Torikai Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 750,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "toyonaga",
@@ -504,7 +574,14 @@
   "lat": 32.2806,
   "lng": 130.9889,
   "name_en": "Toyonaga Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "湯前",
+   "line": "くま川鉄道線",
+   "distance_m": 830,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "joraku",
@@ -544,7 +621,14 @@
   "lat": 32.2256,
   "lng": 130.8267,
   "name_en": "Joraku Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "一武",
+   "line": "くま川鉄道線",
+   "distance_m": 1750,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "jufuku",
@@ -584,7 +668,14 @@
   "lat": 32.2096,
   "lng": 130.7533,
   "name_en": "Jufuku Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 730,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "takata",
@@ -629,7 +720,14 @@
   "lat": 32.2389,
   "lng": 130.8625,
   "name_en": "Takata Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "おかどめ幸福",
+   "line": "くま川鉄道線",
+   "distance_m": 1370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "yamato1",
@@ -674,7 +772,14 @@
   "lat": 32.2097,
   "lng": 130.7556,
   "name_en": "Yamato Ichi Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 740,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "fukuda",
@@ -724,7 +829,14 @@
   "lat": 32.2096,
   "lng": 130.7533,
   "name_en": "Fukuda Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 730,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "kinoshita",
@@ -764,7 +876,14 @@
   "lat": 32.2756,
   "lng": 130.9417,
   "name_en": "Kinoshita Jozo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "東多良木",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "matsushita",
@@ -809,7 +928,14 @@
   "lat": 32.2667,
   "lng": 131.0167,
   "name_en": "Matsushita Jozo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "湯前",
+   "line": "くま川鉄道線",
+   "distance_m": 3810,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "tsutsumi",
@@ -849,7 +975,14 @@
   "lat": 32.2389,
   "lng": 130.8625,
   "name_en": "Tsutsumi Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "おかどめ幸福",
+   "line": "くま川鉄道線",
+   "distance_m": 1370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "miyahara",
@@ -894,7 +1027,14 @@
   "lat": 32.2389,
   "lng": 130.8625,
   "name_en": "Miyahara Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "おかどめ幸福",
+   "line": "くま川鉄道線",
+   "distance_m": 1370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "matsumoto",
@@ -939,7 +1079,14 @@
   "lat": 32.2389,
   "lng": 130.8625,
   "name_en": "Matsumoto Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "おかどめ幸福",
+   "line": "くま川鉄道線",
+   "distance_m": 1370,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "nasu",
@@ -979,7 +1126,14 @@
   "lat": 32.2756,
   "lng": 130.9417,
   "name_en": "Nasu Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "東多良木",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "batsugun",
@@ -1020,7 +1174,14 @@
   "lat": 32.2756,
   "lng": 130.9417,
   "name_en": "Batsugun Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "東多良木",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "miyamoto",
@@ -1065,7 +1226,14 @@
   "lat": 32.2756,
   "lng": 130.9417,
   "name_en": "Miyamoto Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "東多良木",
+   "line": "くま川鉄道線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "hayashi",
@@ -1110,7 +1278,14 @@
   "lat": 32.2806,
   "lng": 130.9889,
   "name_en": "Hayashi Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "湯前",
+   "line": "くま川鉄道線",
+   "distance_m": 830,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "fuchita",
@@ -1150,7 +1325,14 @@
   "lat": 32.2096,
   "lng": 130.7533,
   "name_en": "Fuchita Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "人吉温泉",
+   "line": "くま川鉄道線",
+   "distance_m": 730,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "fuchita_honten",
@@ -1190,7 +1372,14 @@
   "lat": 32.1722,
   "lng": 130.6889,
   "name_en": "Fuchita Shuzo Honten",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "西人吉",
+   "line": "JR肥薩線",
+   "distance_m": 7150,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "zuiyo",
@@ -1240,7 +1429,14 @@
   "lat": 32.7531,
   "lng": 130.7077,
   "name_en": "Zuiyo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "西熊本",
+   "line": "JR鹿児島本線",
+   "distance_m": 2540,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  },
  {
   "id": "amakusa",
@@ -1420,6 +1616,13 @@
   "lat": 33.0167,
   "lng": 130.5667,
   "name_en": "Hananooka Shuzo",
-  "spirit_type": "honkaku"
+  "spirit_type": "honkaku",
+  "nearest_station_calc": {
+   "station": "新玉名",
+   "line": "九州新幹線",
+   "distance_m": 8290,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
+  }
  }
 ]

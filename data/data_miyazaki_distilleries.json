@@ -36,6 +36,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県都城市下川東四丁目２８番",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "都城",
+   "line": "JR吉都線",
+   "distance_m": 1120,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -74,6 +81,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県宮崎市昭栄町４５番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "宮崎",
+   "line": "JR日豊本線",
+   "distance_m": 2100,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -116,6 +130,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県高鍋町北高鍋７７６番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "高鍋",
+   "line": "JR日豊本線",
+   "distance_m": 2640,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -153,6 +174,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県都城市早鈴町１４番４号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西都城",
+   "line": "JR日豊本線",
+   "distance_m": 1100,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -188,6 +216,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県えびの市栗下６１番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "えびの",
+   "line": "JR吉都線",
+   "distance_m": 330,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -236,6 +271,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県宮崎市鏡洲",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "日向沓掛",
+   "line": "JR日豊本線",
+   "distance_m": 5660,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -271,6 +313,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県宮崎市田野町甲",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "田野",
+   "line": "JR日豊本線",
+   "distance_m": 3390,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -311,6 +360,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市油津二丁目３番２号",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "油津",
+   "line": "JR日南線",
+   "distance_m": 770,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -347,6 +403,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県都城市平江町２番８号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "都城",
+   "line": "JR吉都線",
+   "distance_m": 720,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -387,6 +450,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県延岡市祝子町２３８８番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "延岡",
+   "line": "JR日豊本線",
+   "distance_m": 3610,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -426,6 +496,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市大堂津四丁目１０番１号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大堂津",
+   "line": "JR日南線",
+   "distance_m": 310,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -598,6 +675,13 @@
    "url": "https://www.sakuranomine.com/",
    "reason": ".com から .jp へ移転",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大堂津",
+   "line": "JR日南線",
+   "distance_m": 1770,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -635,6 +719,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日向市東郷町山陰乙",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "南日向",
+   "line": "JR日豊本線",
+   "distance_m": 7130,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -669,6 +760,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県小林市東方",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "西小林",
+   "line": "JR吉都線",
+   "distance_m": 8360,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -791,6 +889,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県都城市乙房町２８８７番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "日向庄内",
+   "line": "JR吉都線",
+   "distance_m": 3430,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -829,6 +934,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市南郷町榎原",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "榎原",
+   "line": "JR日南線",
+   "distance_m": 930,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -866,6 +978,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市大堂津四丁目１番８号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "大堂津",
+   "line": "JR日南線",
+   "distance_m": 290,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -942,6 +1061,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市今町二丁目１番１６号",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "飫肥",
+   "line": "JR日南線",
+   "distance_m": 410,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1093,6 +1219,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市北郷町大藤",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "内之田",
+   "line": "JR日南線",
+   "distance_m": 2140,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1129,6 +1262,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市北郷町郷之原",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "北郷",
+   "line": "JR日南線",
+   "distance_m": 4620,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1163,6 +1303,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日南市平野４２９９番地",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "油津",
+   "line": "JR日南線",
+   "distance_m": 580,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1201,6 +1348,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県串間市串間１３９３番地",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "日向北方",
+   "line": "JR日南線",
+   "distance_m": 440,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1236,6 +1390,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県串間市寺里一丁目１７番",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "福島今町",
+   "line": "JR日南線",
+   "distance_m": 1200,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  },
@@ -1279,6 +1440,13 @@
    "url": "https://www.kodamadistillery.co.jp/",
    "reason": "kodamadistillery.co.jp から移転（銘柄「杜氏潤平」のドメイン）",
    "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "飫肥",
+   "line": "JR日南線",
+   "distance_m": 960,
+   "by": "HeartRails Express API（座標からの直線距離）",
+   "checked": "2026-07-27"
   }
  },
  {
@@ -1317,6 +1485,13 @@
   "geo_source": {
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県串間市北方",
+   "checked": "2026-07-27"
+  },
+  "nearest_station_calc": {
+   "station": "日向北方",
+   "line": "JR日南線",
+   "distance_m": 1540,
+   "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
   }
  }
