@@ -280,6 +280,19 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
 .steam:nth-child(4){left:75%;animation-delay:4.5s;animation-duration:9s;}
 
 
+.fz-lead{font-size:15px;line-height:2;margin-bottom:22px;max-width:760px;}
+.fz-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+@media(max-width:900px){.fz-grid{grid-template-columns:1fr 1fr;gap:12px;}}
+.fz-card{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:#fff;display:flex;flex-direction:column;}
+.fz-img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;padding:10px;display:block;}
+.fz-body{padding:12px 13px 14px;display:flex;flex-direction:column;flex:1;}
+.fz-name{font-size:13px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;flex:1;}
+.fz-price{font-family:'Shippori Mincho',serif;font-size:13.5px;color:#7a2a18;margin:6px 0 2px;}
+.fz-price b{font-size:17px;font-weight:700;}
+.fz-btn{display:block;text-align:center;margin-top:10px;background:#BF0000;color:#fff;font-size:11.5px;font-weight:600;padding:8px 0;border-radius:3px;text-decoration:none;}
+.fz-more{margin-top:20px;font-size:14px;}
+.fz-more a{color:var(--accent);text-decoration:none;font-weight:500;}
+.fz-note{margin-top:16px;font-size:11px;color:var(--text-muted);line-height:1.8;}
 </style>
 </head>
 <body>
@@ -381,6 +394,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     </div>
   </div>
 </section>
+
 
 <section class="section" style="background:var(--bg);"><div class="sec-inner"><label class="sec-label">MORE</label><h2 class="sec-title">長野県の他の蒸留所</h2><div class="sec-divider"></div><p style="font-size:13px;color:var(--text-muted);margin-bottom:20px;">Terroir HUBには長野県の蒸留所を3件収録しています。最も創業が古いのは1662年創業の宮坂醸造。1件が見学情報を公開しています。</p><div style="display:grid;grid-template-columns:repeat(3,1fr);gap:14px;"><a class="related-card" href="/shochu/nagano/chikumanishiki.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">千曲錦酒造</span><span style="font-size:11.5px;color:var(--text-muted);">佐久 ｜ 千曲錦</span></a><a class="related-card" href="/shochu/nagano/tachibanakura.html" style="display:flex;flex-direction:column;gap:5px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:16px 18px;text-decoration:none;"><span style="font-family:'Zen Old Mincho',serif;font-size:15px;color:var(--text);">橘倉酒造</span><span style="font-size:11.5px;color:var(--text-muted);">佐久 ｜ 菊秀</span></a></div><div style="margin-top:22px;"><a href="/shochu/nagano/" style="font-size:13px;color:var(--accent);text-decoration:none;font-weight:500;">長野県の蒸留所一覧をすべて見る →</a></div></div></section>
 <section class="section">

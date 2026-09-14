@@ -7,6 +7,7 @@
 import json
 import glob
 import os
+import sys
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -14,6 +15,66 @@ BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 with open(os.path.join(BASE, 'template_shochu.html'), 'r') as f:
     tmpl = f.read()
 CSS = tmpl[tmpl.find('<style>') + 7:tmpl.find('</style>')]
+
+# ── ふるさと納税（自治体ページへの内部リンクを兼ねる）──────────────
+import re as _re
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+try:
+    from shochu_filter import is_shochu_item as _genre_ok
+except Exception:
+    def _genre_ok(_n):
+        return True
+try:
+    RAKUTEN_DB = json.load(open(os.path.join(BASE, 'shochu', 'rakuten_items.json'), encoding='utf-8'))
+except Exception:
+    RAKUTEN_DB = {}
+try:
+    FURUSATO_LINKS = json.load(open(os.path.join(BASE, 'shochu', 'furusato_links.json'), encoding='utf-8'))
+except Exception:
+    FURUSATO_LINKS = {}
+
+
+def build_furusato_section(bid, esc_fn):
+    """返礼品があり、かつ自治体が特定できている場合だけ出す。"""
+    fl = FURUSATO_LINKS.get(bid) if bid else None
+    if not fl:
+        return ''
+    grp = RAKUTEN_DB.get(bid) or {}
+    items = [it for it in grp.get('items', [])
+             if isinstance(it, dict) and it.get('image')
+             and 'ふるさと納税' in it.get('name', '') and _genre_ok(it.get('name', ''))]
+    if not items:
+        return ''
+    cards = ''
+    for it in items[:3]:
+        nm = _re.sub(r'^[【\[]?\s*ふるさと納税\s*[】\]]?\s*', '', it.get('name', ''))
+        price = it.get('price')
+        pl = f'<div class="fz-price">寄付 <b>{price:,}</b>円</div>' if price else ''
+        cards += f'''
+      <div class="fz-card">
+        <a href="{esc_fn(it.get('url',''))}" target="_blank" rel="nofollow sponsored noopener"><img class="fz-img" src="{esc_fn(it.get('image',''))}" alt="{esc_fn(nm)}" loading="lazy"></a>
+        <div class="fz-body">
+          <div class="fz-name">{esc_fn(nm)}</div>{pl}
+          <a class="fz-btn" href="{esc_fn(it.get('url',''))}" target="_blank" rel="nofollow sponsored noopener">楽天ふるさと納税で寄付</a>
+        </div>
+      </div>'''
+    muni = esc_fn(fl['pref'] + fl['city'])
+    return f'''
+<section class="section" style="background:#fff;" id="furusato">
+  <div class="sec-inner">
+    <label class="sec-label">FURUSATO TAX</label>
+    <h2 class="sec-title">ふるさと納税で選ぶ</h2>
+    <div class="sec-divider"></div>
+    <p class="fz-lead">この蔵の焼酎は、<b>{muni}</b>のふるさと納税返礼品として提供されています（{fl['count']}件）。
+    自己負担2,000円を除いた分が所得税・住民税から控除されます（控除上限は年収と家族構成で変わります）。</p>
+    <div class="fz-grid">{cards}
+    </div>
+    <p class="fz-more"><a href="{esc_fn(fl['url'])}">{muni}のふるさと納税をすべて見る →</a></p>
+    <p class="fz-note">【PR】本セクションはアフィリエイト広告（楽天）を含みます。<br>※ 寄付金額・在庫・提供事業者は変動します。寄付前に各返礼品ページでご確認ください。</p>
+  </div>
+</section>'''
+
+
 
 PREF_NAMES = {
     'hokkaido':'北海道','aomori':'青森県','iwate':'岩手県','miyagi':'宮城県','akita':'秋田県',
@@ -174,6 +235,7 @@ def generate_page(b, pref_slug, siblings=None):
 </section>'''
 
     # Brands section
+    furusato_section = build_furusato_section(b.get('id'), esc)
     brands_section = ''
     if brands:
         section_label = 'AWAMORI' if spirit_type == 'awamori' else 'SHOCHU'
@@ -376,6 +438,19 @@ def generate_page(b, pref_slug, siblings=None):
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Noto+Serif+JP:wght@200;300;400&family=Zen+Old+Mincho:wght@400;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
 {CSS}
+.fz-lead{{font-size:15px;line-height:2;margin-bottom:22px;max-width:760px;}}
+.fz-grid{{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}}
+@media(max-width:900px){{.fz-grid{{grid-template-columns:1fr 1fr;gap:12px;}}}}
+.fz-card{{border:1px solid var(--border);border-radius:4px;overflow:hidden;background:#fff;display:flex;flex-direction:column;}}
+.fz-img{{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff;padding:10px;display:block;}}
+.fz-body{{padding:12px 13px 14px;display:flex;flex-direction:column;flex:1;}}
+.fz-name{{font-size:13px;line-height:1.55;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;flex:1;}}
+.fz-price{{font-family:'Shippori Mincho',serif;font-size:13.5px;color:#7a2a18;margin:6px 0 2px;}}
+.fz-price b{{font-size:17px;font-weight:700;}}
+.fz-btn{{display:block;text-align:center;margin-top:10px;background:#BF0000;color:#fff;font-size:11.5px;font-weight:600;padding:8px 0;border-radius:3px;text-decoration:none;}}
+.fz-more{{margin-top:20px;font-size:14px;}}
+.fz-more a{{color:var(--accent);text-decoration:none;font-weight:500;}}
+.fz-note{{margin-top:16px;font-size:11px;color:var(--text-muted);line-height:1.8;}}
 </style>
 </head>
 <body>
@@ -412,6 +487,7 @@ def generate_page(b, pref_slug, siblings=None):
 {features_section}
 
 {brands_section}
+{furusato_section}
 
 {related_html}
 <section class="section">

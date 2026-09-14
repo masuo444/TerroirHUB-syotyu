@@ -1,0 +1,4691 @@
+{
+ "_note": "英語本文（EN_CONTENT_GUIDE準拠）。JAデータの事実のみ英語化。by=fable, 2026-07-30",
+ "aichi:aioi_unibio": {
+  "tagline_en": "Matcha shochu from a mirin house founded in 1872.",
+  "desc_en": "Aioi Unibio began in 1872 as a mirin maker in Hekinan, Aichi; in 2004 three companies making mirin, shochu and sake merged into the present firm. It distils shochu carefully by old-style methods, best known for a matcha shochu made with green tea from Nishio, Japan's famous matcha town.",
+  "features_en": [
+   "Old-style distillation methods",
+   "Matcha shochu with Nishio tea",
+   "Founded 1872; three houses merged in 2004"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "ehime:himebayashi": {
+  "tagline_en": "Japan's first chestnut shochu, from Shikoku's only dedicated shochu kura.",
+  "desc_en": "Himebayashi, founded in 1941 in the Shirokawa district of Ehime, is Japan's first maker of chestnut shochu and the only dedicated shochu distillery on Shikoku. Ehime ranks third in Japan for chestnuts, and the house uses 100% local Shirokawa fruit — Okuiyo blends Ehime chestnuts with naked barley, while Okuriokura is pure local chestnut. Distillery tours are possible.",
+  "features_en": [
+   "Japan's first chestnut shochu maker",
+   "Shikoku's only shochu-only kura",
+   "100% Ehime chestnuts, traditional methods"
+  ],
+  "brands_en": {
+   "奥伊予": {
+    "name_en": "Okuiyo",
+    "specs_en": "Ehime chestnuts and naked barley"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "ehime:umebijin": {
+  "tagline_en": "Shochu beside sake, liqueur and gin in the port of Yawatahama.",
+  "desc_en": "Umebijin Shuzo, founded in 1916 in Yawatahama, Ehime, makes sake, shochu, liqueurs and craft gin — more than 105 years of brewing that leans on local citrus and specialities for its range.",
+  "features_en": [
+   "Founded 1916 — 105+ years",
+   "Craft gin alongside shochu",
+   "Local citrus in the range"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:beniotome": {
+  "tagline_en": "The world's first sesame shochu, begun by a 65-year-old founder.",
+  "desc_en": "Beniotome Shuzo was founded in 1978 in Kurume by Haruno Hayashida — then 65 years old — who set out to make a fragrant spirit that could stand beside Western liquor. The result was the world's first sesame shochu. The house distils sesame, barley and sweet-potato shochu with spring water of the Minou mountains, and welcomes visitors at its Minou distillery (9:00–17:00).",
+  "features_en": [
+   "Pioneer of the world's first sesame shochu",
+   "Founded at 65 by Haruno Hayashida",
+   "Minou mountain spring water; tours open"
+  ],
+  "brands_en": {
+   "紅乙女": {
+    "name_en": "Beniotome",
+    "specs_en": "The world's first sesame shochu — 25%"
+   },
+   "紅乙女GOLD": {
+    "name_en": "Beniotome GOLD",
+    "specs_en": "Cask-aged sesame shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:tenpai": {
+  "tagline_en": "Japan's first 100% barley shochu by atmospheric distillation — nothing added.",
+  "desc_en": "Tenpai, founded in 1898 in Chikuzen, Fukuoka, was the first in Japan to distil a 100% barley shochu by atmospheric distillation. It uses only two-row barley from Fukuoka and Saga, adds nothing at all, and works under the banner of building a distilled spirit Japan can show the world.",
+  "features_en": [
+   "Japan's first atmospheric-distilled 100% barley shochu",
+   "Only Fukuoka and Saga two-row barley, additive-free",
+   "Founded 1898"
+  ],
+  "brands_en": {
+   "天盃": {
+    "name_en": "Tenpai",
+    "specs_en": "Twice atmospheric-distilled, 100% barley — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:kenjou": {
+  "tagline_en": "A patented ginseng shochu and long-aged barley from Tachiarai.",
+  "desc_en": "Kenjou, founded in 1983 in Tachiarai in the Chikugo region, holds a patent for Chin, a shochu made with Korean ginseng grown in the fields along the Chikugo River. Roasted-barley shochu and the long-aged Kiwami Yusha round out an unusually individual range.",
+  "features_en": [
+   "Patented ginseng shochu Chin",
+   "Roasted-barley shochu",
+   "Long-aged barley shochu Kiwami Yusha"
+  ],
+  "brands_en": {
+   "極み勇者": {
+    "name_en": "Kiwami Yusha",
+    "specs_en": "Long-aged barley shochu"
+   },
+   "珍": {
+    "name_en": "Chin",
+    "specs_en": "Korean ginseng shochu — patented"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:asahimatsu": {
+  "tagline_en": "Fune-pressed craft on the headwaters of the Yabe River.",
+  "desc_en": "Asahimatsu Shuzo, founded in 1916 in the Kurogi district of Yame, brews and distils with the clear subsoil water of the Yabe River's source and carefully chosen ingredients, holding to traditional fune pressing.",
+  "features_en": [
+   "Founded 1916 in Kurogi, Yame",
+   "Yabe River headwater subsoil water",
+   "Traditional fune pressing"
+  ],
+  "brands_en": {
+   "黒木": {
+    "name_en": "Kurogi",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:ikekame": {
+  "tagline_en": "Sake, shochu and Japan's first gel umeshu from Mizuma.",
+  "desc_en": "Ikekame Shuzo, in the Mizuma district of Kurume, makes sake, shochu, liqueurs and amazake — and developed Japan's first gel-style umeshu. Its barley shochus include Chikugo Agura and Sasuga.",
+  "features_en": [
+   "Broad range: sake, shochu, liqueur, amazake",
+   "Developed Japan's first gel umeshu"
+  ],
+  "brands_en": {
+   "ちくご胡座": {
+    "name_en": "Chikugo Agura",
+    "specs_en": "Barley shochu"
+   },
+   "流石": {
+    "name_en": "Sasuga",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:goto": {
+  "tagline_en": "Chikugo's oldest kura (1677), ageing shochu in a disused rail tunnel.",
+  "desc_en": "Goto Shuzojo, founded in 1677 in Yame, is the oldest brewery in the Chikugo district, now in its thirteenth generation. Using subsoil water of the Oku-Yame hills, it makes sake and rice, barley and sweet-potato shochu — including a barley shochu genshu aged over ten years in clay pots inside a tunnel of the old JNR Yabe railway line.",
+  "features_en": [
+   "Chikugo's oldest kura — 13th generation",
+   "Oku-Yame subsoil water",
+   "Pot-aged 10+ years in an old rail tunnel"
+  ],
+  "brands_en": {
+   "黒木大藤": {
+    "name_en": "Kurogi Ofuji",
+    "specs_en": "Barley shochu"
+   },
+   "黒木大藤 古久 10年貯蔵": {
+    "name_en": "Kurogi Ofuji Koku 10-Year",
+    "specs_en": "Pot-aged 10+ years in the old Yabe line tunnel"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukuoka:tanoshimaru": {
+  "tagline_en": "Sapporo's barley knowledge distilled — fruit-scented Yawaramugi.",
+  "desc_en": "Tanoshimaru Shuzo was established in 2006 as a production subsidiary of Sapporo Breweries in Kurume. Applying barley expertise honed through beer making, it distils Hokkaido barley with subsoil water of the Minou range (one of Japan's hundred famous waters) into a shochu with a fruity, apple-and-banana nose. It has taken the grand prize twice and gold four times at the Fukuoka Regional Taxation Bureau appraisal.",
+  "features_en": [
+   "Sapporo Breweries' shochu subsidiary",
+   "Minou famous-water brewing",
+   "Twice grand prize at the Fukuoka appraisal"
+  ],
+  "brands_en": {
+   "和ら麦": {
+    "name_en": "Yawaramugi",
+    "specs_en": "Hokkaido barley — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "fukushima:nekka_okuaizu": {
+  "tagline_en": "Rice farmers' domaine shochu from the snow country of Tadami.",
+  "desc_en": "Okuaizu Distillery was formed in 2016 by a group of local rice farmers in Tadami, deep in the Aizu mountains. Their rice shochu is fully domaine — brewed only from sake rice grown in Tadami — with a stated goal: the world's best rice shochu for Japanese food. It has taken numerous awards, and a tasting room adjoins the distillery (10:00–16:00, paid tastings).",
+  "features_en": [
+   "100% Tadami-grown sake rice — fully domaine",
+   "Founded by local rice farmers",
+   "Tasting room on site"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "hiroshima:sakurao_bd": {
+  "tagline_en": "A century of distilling behind Hiroshima's long-loved Daruma shochu.",
+  "desc_en": "Founded in 1918 as Chugoku Jozo and renamed in 2021, Sakurao Brewery and Distillery carries more than a century of distilling technique. Its Daruma shochu is a Hiroshima institution and long-seller; the honkaku sweet-potato version is made with Beniazuma potatoes and black koji. Since founding SAKURAO DISTILLERY in 2017 the company also makes gin and whisky, with tours at the visitor centre.",
+  "features_en": [
+   "100+ years of distilling technique",
+   "Daruma: Hiroshima's long-selling shochu",
+   "Gin and whisky at SAKURAO DISTILLERY"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "hiroshima:miyake_honten": {
+  "tagline_en": "The Sempuku house of Kure — a distiller before it was a sake brewer.",
+  "desc_en": "Miyake Honten, founded in 1856 in Kure, actually began with mirin, shochu and shirozake, taking up sake brewing in 1889 under its famous Sempuku name. Shochu has run through the house since its founding, and its SETOUCHI DISTILLERY now distils whisky as well. Bottling-plant tours run by reservation.",
+  "features_en": [
+   "Shochu-making since its 1856 founding",
+   "The Sempuku house of Kure",
+   "SETOUCHI DISTILLERY whisky beside it"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "hokkaido:godo_shusei_asahikawa": {
+  "tagline_en": "Tantakatan — the red-shiso shochu of Hokkaido, born of a pioneer plant.",
+  "desc_en": "The Asahikawa Factory of Godo Shusei was opened in 1900 by Denbee Kamiya, launching Japan's first private-sector industrial alcohol production. Today, as part of the Oenon group, it is best known for Tantakatan, the beloved shiso shochu made with red shiso leaves grown in Shiranuka, Hokkaido.",
+  "features_en": [
+   "Opened 1900 by Denbee Kamiya",
+   "Tantakatan: red shiso from Shiranuka",
+   "Part of the Oenon group"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "hyogo:eigashima": {
+  "tagline_en": "Barley shochu inside a 1679 all-rounder of sake, wine and whisky.",
+  "desc_en": "Eigashima Shuzo, the Akashi drinks house founded in 1679, brews the sake Kamitaka and makes shochu, wine and whisky. Its distilling history runs deep — a dedicated spirits plant was completed in 1919 for its Shiratama shochu — and today it makes barley shochus such as Yamatodamashii. Tours cover both the sake kura and the whisky distillery.",
+  "features_en": [
+   "Distilled-spirits plant since 1919",
+   "Barley shochu in a full-range drinks house",
+   "Sake kura and distillery tours"
+  ],
+  "brands_en": {
+   "大和魂": {
+    "name_en": "Yamatodamashii",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:hombo_shuzo": {
+  "tagline_en": "Sakurajima shochu and three distilleries — Hombo's 150-year span.",
+  "desc_en": "Hombo Shuzo, founded in 1872, is a Kagoshima drinks maker of unusual breadth: honkaku sweet-potato shochu — led by its Sakurajima labels — alongside whisky, wine and liqueurs, with distilleries at Tsunuki, Chiran and Yakushima. More than 130 years of history stand behind the house.",
+  "features_en": [
+   "Founded 1872 — a full-range drinks maker",
+   "Shochu, whisky and wine",
+   "Distilleries at Tsunuki, Chiran and Yakushima"
+  ],
+  "brands_en": {
+   "あらわざ桜島": {
+    "name_en": "Arawaza Sakurajima",
+    "specs_en": "Imo shochu"
+   },
+   "桜島": {
+    "name_en": "Sakurajima",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:satsuma_kinzan": {
+  "tagline_en": "Shochu brewed and slept inside the tunnels of a gold mine.",
+  "desc_en": "Satsuma Kinzan Kura, part of the Hamada Shuzo group, is the only shochu kura in Kagoshima that ferments, stores and matures inside mine tunnels — the workings of the old Kushikino gold mine. Its Kinzangura is brewed with golden koji. The tunnel brewing halls are open to visitors on weekends and holidays.",
+  "features_en": [
+   "Kagoshima's only in-mine distillery",
+   "The old Kushikino gold mine reborn",
+   "Weekend tours into the tunnels"
+  ],
+  "brands_en": {
+   "金山蔵 黄金麹仕込み": {
+    "name_en": "Kinzangura Golden Koji",
+    "specs_en": "Imo shochu, golden koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nishi_shuzo": {
+  "tagline_en": "Tomi no Hozan — the shochu that changed how Japan drinks imo.",
+  "desc_en": "Nishi Shuzo, founded in 1845, brews under the words nature and freedom — rooted in the earth, bound by nothing. Its Tomi no Hozan and Satsuma Hozan carried imo shochu to national fame, and the house now also makes the sake Tenbu and the single malt whisky Ontake, with awards at international competitions. Tours by reservation.",
+  "features_en": [
+   "Founded 1845",
+   "Tomi no Hozan: a nationally famous imo shochu",
+   "Sake Tenbu and whisky Ontake beside the shochu"
+  ],
+  "brands_en": {
+   "富乃宝山": {
+    "name_en": "Tomi no Hozan",
+    "specs_en": "Imo shochu"
+   },
+   "薩摩宝山": {
+    "name_en": "Satsuma Hozan",
+    "specs_en": "Imo shochu"
+   },
+   "天賦": {
+    "name_en": "Tenbu",
+    "specs_en": "Sake"
+   },
+   "御岳": {
+    "name_en": "Ontake",
+    "specs_en": "Single malt whisky"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:komasa_jozo": {
+  "tagline_en": "Farm-first shochu, KOMASA GIN and the Kanosuke whisky house.",
+  "desc_en": "Komasa Jozo, founded in 1883, brews to the idea of creating joy together — shochu where the growers' faces are known. Across its two sites, the Hioki Jouryugura and the Kanosuke Distillery, it makes imo shochu led by Satsuma Kozuru, plus KOMASA GIN craft spirits and whisky. Distillery tours are offered.",
+  "features_en": [
+   "Founded 1883 — 140+ years",
+   "Whisky at the Kanosuke Distillery",
+   "KOMASA GIN craft spirits; farm-first sourcing"
+  ],
+  "brands_en": {
+   "さつま小鶴": {
+    "name_en": "Satsuma Kozuru",
+    "specs_en": "Imo shochu, white koji — Koganesengan potatoes"
+   },
+   "小鶴くろ": {
+    "name_en": "Kozuru Kuro",
+    "specs_en": "Black koji"
+   },
+   "蔵の師魂": {
+    "name_en": "Kura no Shikon",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:hamada_denbee": {
+  "tagline_en": "Clay pots, wooden stills — Hamada's traditional kura at work.",
+  "desc_en": "Sasshu Hamadaya Denbee is the traditional kura of Hamada Shuzo, founded in 1868. It holds to the old ways at every step — fermentation in clay pots, distillation through wooden stills, maturation again in clay pots — reading the day's weather, temperature and humidity as it goes. Its Den is brewed with yellow koji.",
+  "features_en": [
+   "Clay-pot fermentation",
+   "Wooden-still distillation",
+   "Clay-pot maturation"
+  ],
+  "brands_en": {
+   "黄麹仕込 伝": {
+    "name_en": "Den (Yellow Koji)",
+    "specs_en": "Imo shochu, yellow koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:hamada_shuzo": {
+  "tagline_en": "Kaido, DAIYAME and three kura — Hamada's engine room.",
+  "desc_en": "Hamada Shuzo, founded in 1868, runs three kura — the traditional Denbee Kura, the modern Denzoin Kura and the in-mine Kinzangura — under a declared mission: to make honkaku shochu Japan's true national spirit, and a spirit the world ranks with the best. The Denzoin Kura pairs modern equipment with practised hands for its Kaido and the lychee-scented DAIYAME, whose popularity has surged. Tours at the Denzoin Kura.",
+  "features_en": [
+   "Three-kura system: tradition, innovation and the mine",
+   "DAIYAME: a fast-rising modern imo shochu",
+   "Founded 1868"
+  ],
+  "brands_en": {
+   "海童": {
+    "name_en": "Kaido",
+    "specs_en": "Imo shochu, black koji"
+   },
+   "だいやめ DAIYAME": {
+    "name_en": "DAIYAME",
+    "specs_en": "Imo shochu"
+   },
+   "隠し蔵": {
+    "name_en": "Kakushigura",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:satsuma_shuzo_ei": {
+  "tagline_en": "The Ei distillery of Satsuma Shuzo, house of Satsuma Shiranami.",
+  "desc_en": "The Ei Distillery is one of the production sites of Satsuma Shuzo, the Makurazaki company founded in 1936 whose Satsuma Shiranami led the shochu boom of the 1970s.",
+  "features_en": [
+   "A Satsuma Shuzo production site",
+   "The house that led the 1970s shochu boom"
+  ],
+  "brands_en": {
+   "さつま白波": {
+    "name_en": "Satsuma Shiranami",
+    "specs_en": "Imo shochu"
+   },
+   "神の河": {
+    "name_en": "Kannoko",
+    "specs_en": "Long-aged barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:toji_no_sato_kasasa": {
+  "tagline_en": "Keeper of the Kurose toji tradition, with a museum of the craft.",
+  "desc_en": "Toji no Sato Kasasa, established in 1992 on the Kasasa coast, carries the legacy of the Kurose toji — the master distillers who once travelled from this district across Kagoshima. A heritage hall at the kura displays the traditional hand-made shochu process, open to visitors.",
+  "features_en": [
+   "Heir to the Kurose toji tradition",
+   "Heritage hall showing the hand-made process"
+  ],
+  "brands_en": {
+   "黒瀬杜氏": {
+    "name_en": "Kurose Toji",
+    "specs_en": "Imo shochu"
+   },
+   "一どん": {
+    "name_en": "Ichidon",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:satsuma_shuzo_hinokami": {
+  "tagline_en": "Satsuma Shuzo's Hinokami site in Makurazaki.",
+  "desc_en": "The Hinokami Distillery is a production site of Satsuma Shuzo in Makurazaki, supporting the Satsuma Shiranami range and the long-aged barley shochu Kannoko.",
+  "features_en": [
+   "Satsuma Shuzo's Hinokami site",
+   "In the bonito port of Makurazaki"
+  ],
+  "brands_en": {
+   "さつま白波": {
+    "name_en": "Satsuma Shiranami",
+    "specs_en": "Imo shochu"
+   },
+   "神の河": {
+    "name_en": "Kannoko",
+    "specs_en": "Long-aged barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:satsuma_shuzo": {
+  "tagline_en": "Satsuma Shiranami — the name that lit the 1970s shochu boom.",
+  "desc_en": "Satsuma Shuzo, founded in 1936 in Makurazaki, is one of Kagoshima's defining shochu makers. Its Satsuma Shiranami sparked the nationwide shochu boom of the 1970s, and the house balances that heritage with modern releases like MUGEN Shiranami. Its historic Meiji Kura is open to visitors daily 9:00–16:00.",
+  "features_en": [
+   "Founded 1936 in Makurazaki",
+   "Satsuma Shiranami led the 1970s boom",
+   "Meiji Kura open for visits"
+  ],
+  "brands_en": {
+   "さつま白波": {
+    "name_en": "Satsuma Shiranami",
+    "specs_en": "Imo shochu"
+   },
+   "黒白波": {
+    "name_en": "Kuro Shiranami",
+    "specs_en": "Black koji"
+   },
+   "MUGEN白波": {
+    "name_en": "MUGEN Shiranami",
+    "specs_en": "Modern imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:hombo_tsunuki": {
+  "tagline_en": "Shochu and whisky stills together at Hombo's birthplace, with a bar in the old house.",
+  "desc_en": "The Tsunuki Distillery of Hombo Shuzo distils both shochu and whisky at the company's founding ground in Tsunuki. The former family residence now houses Hojo, a café and bar where visitors can taste; tours by reservation.",
+  "features_en": [
+   "Shochu and whisky under one roof",
+   "Café-bar Hojo in the old residence"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:hombo_chiran": {
+  "tagline_en": "Hombo's Chiran site, working black koji in tea country.",
+  "desc_en": "The Chiran Distillery is a production site of Hombo Shuzo in Chiran, southern Kagoshima, distilling sweet-potato shochu brewed with black koji.",
+  "features_en": [
+   "Hombo Shuzo's Chiran site",
+   "Black koji imo shochu"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:shiratsuyu_shuzo": {
+  "tagline_en": "Kyoho-era roots (1730) and famous-waters softness in Yamakawa.",
+  "desc_en": "Shiratsuyu Shuzo traces its founding to 1730 in the Kyoho era, making it one of Kagoshima's oldest shochu houses. It distils with natural soft water recognised among Japan's famous waters, and moved to its present home in Yamakawa in 1989.",
+  "features_en": [
+   "Founded 1730 in the Kyoho era",
+   "Famous-waters natural soft water"
+  ],
+  "brands_en": {
+   "白露": {
+    "name_en": "Shiratsuyu",
+    "specs_en": "Imo shochu"
+   },
+   "白露 黒麹": {
+    "name_en": "Shiratsuyu Black Koji",
+    "specs_en": "Black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:tamura": {
+  "tagline_en": "First fermentation in clay pots more than a century old.",
+  "desc_en": "Tamura, founded in the Meiji 30s (circa 1897), is a traditional kura that still runs its first fermentation in clay pots over a hundred years old, brewing imo shochu with black koji and local ingredients. Visits are possible in the production season (9:00–15:00, contact ahead).",
+  "features_en": [
+   "Century-old clay pots in use",
+   "Black koji brewing",
+   "Season visits by arrangement"
+  ],
+  "brands_en": {
+   "純黒": {
+    "name_en": "Junkuro",
+    "specs_en": "Imo shochu, black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:ibusuki_shuzo": {
+  "tagline_en": "Five old kura joined at Lake Ikeda, distilling Riemon.",
+  "desc_en": "Ibusuki Shuzo was formed in 1987 when five long-standing local breweries merged. It distils honkaku imo shochu from Koganesengan potatoes and the waters of Lake Ikeda — Kyushu's largest lake — under its Riemon labels, named in the tradition of Maeda Riemon, who is honoured for bringing the sweet potato to Japan.",
+  "features_en": [
+   "Five breweries merged in 1987",
+   "Lake Ikeda water",
+   "The Riemon labels"
+  ],
+  "brands_en": {
+   "利右衛門": {
+    "name_en": "Riemon",
+    "specs_en": "Imo shochu — Koganesengan"
+   },
+   "赤利右衛門": {
+    "name_en": "Aka Riemon",
+    "specs_en": "Red sweet potatoes"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nakamata_shuzo": {
+  "tagline_en": "Hand-scooped filtration and clay-pot rest, since 1904.",
+  "desc_en": "Nakamata Shuzo, with roots in the Edo period and founded formally in 1904, keeps to traditional methods — filtration scooped by hand, maturation in clay pots — chasing a full, rounded umami that comes from the quality of its ingredients.",
+  "features_en": [
+   "Hand-scooped filtration",
+   "Clay-pot maturation",
+   "Edo-period roots"
+  ],
+  "brands_en": {
+   "薩摩桐野": {
+    "name_en": "Satsuma Kirino",
+    "specs_en": "Imo shochu"
+   },
+   "なかまた": {
+    "name_en": "Nakamata",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:denen_shuzo": {
+  "tagline_en": "Japan's first cask-aged barley shochu, with a museum at the kura.",
+  "desc_en": "Denen Shuzo, founded in 1890 in the Sendai area, pioneered cask ageing in shochu — it released Japan's first barrel-aged barley shochu — and continues to build its house around long maturation. A museum adjoins the distillery; tours by reservation.",
+  "features_en": [
+   "Japan's first cask-aged barley shochu",
+   "Long maturation as the house style",
+   "Museum at the kura"
+  ],
+  "brands_en": {
+   "田苑 ENVELHECIDA": {
+    "name_en": "Denen ENVELHECIDA",
+    "specs_en": "Cask-aged barley shochu"
+   },
+   "田苑 金ラベル": {
+    "name_en": "Denen Gold Label",
+    "specs_en": "Barley shochu"
+   },
+   "田苑 芋": {
+    "name_en": "Denen Imo",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:murao_shuzo": {
+  "tagline_en": "Murao — one of the fabled 3M shochu, brewed in clay pots.",
+  "desc_en": "Murao Shuzo, founded in 1902, distils by black koji and clay-pot fermentation in the old way. Its Satsuma Chaya takes its name from a Satsuma-domain teahouse that once stood nearby, and Murao itself is one of Japan's most sought-after imo shochus — famously hard to find.",
+  "features_en": [
+   "Black koji and clay-pot brewing",
+   "Murao: famously hard to obtain",
+   "Founded 1902"
+  ],
+  "brands_en": {
+   "薩摩茶屋": {
+    "name_en": "Satsuma Chaya",
+    "specs_en": "Imo shochu, black koji"
+   },
+   "村尾": {
+    "name_en": "Murao",
+    "specs_en": "The coveted premium imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:yamamoto_shuzo": {
+  "tagline_en": "Satsuma Godai — a century of Sendai brewing, rested 150 days.",
+  "desc_en": "Yamamoto Shuzo, founded in 1912 in the Sendai area, carries more than a century of history. Its shochus mature over 150 days in single tanks, led by Satsuma Godai and Kura no Kami. Visits are possible with advance contact (8:00–17:00).",
+  "features_en": [
+   "Founded 1912 — 100+ years",
+   "150+ days maturation in single tanks",
+   "Visits by arrangement"
+  ],
+  "brands_en": {
+   "さつま五代": {
+    "name_en": "Satsuma Godai",
+    "specs_en": "Imo shochu"
+   },
+   "蔵の神": {
+    "name_en": "Kura no Kami",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:izumi_shuzo": {
+  "tagline_en": "Wooden stills and clay pots beside a soba restaurant, in the crane city.",
+  "desc_en": "Izumi Shuzo, founded in 1950 in Izumi — the winter home of Japan's cranes — pairs modern equipment with traditional tools it refuses to retire, from wooden stills to clay pots. A visitor centre and a soba restaurant adjoin the kura, with tours year-round.",
+  "features_en": [
+   "Wooden stills and clay pots kept in use",
+   "Visitor centre and soba restaurant",
+   "Tours year-round"
+  ],
+  "brands_en": {
+   "出水に舞姫": {
+    "name_en": "Izumi ni Maihime",
+    "specs_en": "Imo shochu"
+   },
+   "出水に黒鶴": {
+    "name_en": "Izumi ni Kurozuru",
+    "specs_en": "Black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:unkai_shuzo_izumi": {
+  "tagline_en": "Unkai's Izumi kura — southern Kyushu potatoes, Shibi mountain water.",
+  "desc_en": "The Izumi Kura of Unkai Shuzo distils honkaku imo shochu from southern Kyushu sweet potatoes and natural spring water of the Shibi mountains, home of its Satsuma Kobiki label.",
+  "features_en": [
+   "Shibi mountain spring water",
+   "Southern Kyushu sweet potatoes"
+  ],
+  "brands_en": {
+   "さつま木挽": {
+    "name_en": "Satsuma Kobiki",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nagashima_kenkyo": {
+  "tagline_en": "Five island kura, one blend — Satsuma Shimabijin.",
+  "desc_en": "Nagashima Kenkyo, founded in 1967 on Nagashima Island, blends the base spirits of the island's five distilleries into one balanced, full-flavoured imo shochu — the well-loved Satsuma Shimabijin (Island Beauty) and its black-koji sister.",
+  "features_en": [
+   "A blend of five island kura's spirits",
+   "Full, balanced island shochu"
+  ],
+  "brands_en": {
+   "さつま島美人": {
+    "name_en": "Satsuma Shimabijin",
+    "specs_en": "Imo shochu"
+   },
+   "黒島美人": {
+    "name_en": "Kuro Shimabijin",
+    "specs_en": "Black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kami_shuzo": {
+  "tagline_en": "Chizuru — brewed in clay pots buried in the earth since 1868.",
+  "desc_en": "Kami Shuzo, founded in 1868, still ferments in clay pots buried in the ground, in the traditional Kagoshima way. With spring water of the Shibi mountains and select sweet potatoes, its Chizuru aims at a deep flavour of fragrant richness and refined sweetness.",
+  "features_en": [
+   "Founded 1868",
+   "Buried clay-pot fermentation",
+   "Shibi mountain spring water"
+  ],
+  "brands_en": {
+   "千鶴": {
+    "name_en": "Chizuru",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:oishi_shuzo": {
+  "tagline_en": "Named for the cranes that fly from Siberia to Akune.",
+  "desc_en": "Oishi Shuzo, founded in the Meiji era (1899), took the name of its Tsurumi label from the cranes its founder watched arriving from Siberia to winter on the Izumi plain. A small house, it produces about 1,000 koku a year.",
+  "features_en": [
+   "Meiji-era founding",
+   "Named for the wintering cranes",
+   "About 1,000 koku a year"
+  ],
+  "brands_en": {
+   "鶴見": {
+    "name_en": "Tsurumi",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:oguchi_shuzo": {
+  "tagline_en": "Kuro Isanishiki — the black-koji standard of the Isa valley.",
+  "desc_en": "Oguchi Shuzo was established in 1970 through the full cooperation of eleven breweries of Isa, the cold northern valley of Kagoshima. Its Kuro Isanishiki stands among the defining black-koji imo shochus, with clay-pot and classic versions beside it.",
+  "features_en": [
+   "Eleven Isa kura joined in 1970",
+   "Kuro Isanishiki: a black-koji standard"
+  ],
+  "brands_en": {
+   "黒伊佐錦": {
+    "name_en": "Kuro Isanishiki",
+    "specs_en": "Imo shochu, black koji"
+   },
+   "伊佐錦": {
+    "name_en": "Isanishiki",
+    "specs_en": "Imo shochu"
+   },
+   "甕伊佐錦": {
+    "name_en": "Kame Isanishiki",
+    "specs_en": "Clay-pot brewed"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kai_shoten": {
+  "tagline_en": "Isami — four generations behind one coveted black-koji shochu.",
+  "desc_en": "Kai Shoten, founded in 1904 and now in its fourth generation, makes a single famous thing: Isami, a black-koji imo shochu so sought after it is notoriously hard to find.",
+  "features_en": [
+   "Founded 1904 — fourth generation",
+   "Isami: a famously scarce label"
+  ],
+  "brands_en": {
+   "伊佐美": {
+    "name_en": "Isami",
+    "specs_en": "Imo shochu, black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:oyama_shuzo": {
+  "tagline_en": "Isa Daisen — a small kura of the cold Isa valley.",
+  "desc_en": "Oyama Shuzo, founded in 1905 in Isa, Kagoshima, distils the imo shochu Isa Daisen, with a black-koji BLACK version beside the original.",
+  "features_en": [
+   "A Isa valley kura since 1905",
+   "Black-koji BLACK edition"
+  ],
+  "brands_en": {
+   "伊佐大泉": {
+    "name_en": "Isa Daisen",
+    "specs_en": "Imo shochu"
+   },
+   "伊佐大泉 BLACK": {
+    "name_en": "Isa Daisen BLACK",
+    "specs_en": "Black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:sato_shuzo": {
+  "tagline_en": "Sato — the white and the black, premium shochu of Kirishima.",
+  "desc_en": "Sato Shuzo, founded in 1906 in the Makizono district of Kirishima, brews the premium imo shochus Sato White (white koji) and Sato Black (black koji) — both nationally famous and famously hard to obtain — holding to traditional methods in the Kirishima hills.",
+  "features_en": [
+   "Sato White and Black: coveted premium shochu",
+   "Traditional brewing in Kirishima"
+  ],
+  "brands_en": {
+   "白麹仕込 佐藤": {
+    "name_en": "Sato White Koji",
+    "specs_en": "Imo shochu, white koji"
+   },
+   "黒麹仕込 佐藤": {
+    "name_en": "Sato Black Koji",
+    "specs_en": "Imo shochu, black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kirishimacho_distillery": {
+  "tagline_en": "Akarui Noson — clay-pot shochu from the Bright Farming Village.",
+  "desc_en": "Kirishimacho Distillery, founded in 1911 at the foot of the Kirishima range, brews traditional Kagoshima shochu in clay pots — its cheerfully named Akarui Noson (Bright Farming Village) leads the range, with red-potato and roasted purple-potato versions beside it. ISO 9001 certified since 2013, the kura is open to visitors year-round (9:00–17:00).",
+  "features_en": [
+   "Clay-pot brewing since 1911",
+   "ISO 9001 certified (2013)",
+   "Tours year-round"
+  ],
+  "brands_en": {
+   "明るい農村": {
+    "name_en": "Akarui Noson (Bright Farming Village)",
+    "specs_en": "Imo shochu"
+   },
+   "農家の嫁": {
+    "name_en": "Noka no Yome (The Farmer's Bride)",
+    "specs_en": "Roasted purple sweet potato"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kokubu_shuzo": {
+  "tagline_en": "All-potato shochu and a revived heirloom vine — Kokubu's laboratory.",
+  "desc_en": "Kokubu Shuzo brews with local sweet potatoes and rice and water drawn from about 100 metres underground. For more than thirty years toji Nobuhisa Yasuda has pushed at shochu's possibilities — developing an all-potato shochu with koji grown on sweet potato instead of rice, and reviving the heirloom potato variety Tsurunashi Genji.",
+  "features_en": [
+   "All-potato shochu with potato koji",
+   "Revived the heirloom Tsurunashi Genji potato",
+   "Water from 100m underground"
+  ],
+  "brands_en": {
+   "さつま国分": {
+    "name_en": "Satsuma Kokubu",
+    "specs_en": "Imo shochu"
+   },
+   "いも麹芋": {
+    "name_en": "Imo Koji Imo",
+    "specs_en": "All-potato — koji grown on sweet potato"
+   },
+   "蔓無源氏": {
+    "name_en": "Tsurunashi Genji",
+    "specs_en": "Heirloom-variety imo shochu"
+   },
+   "flamingo orange": {
+    "name_en": "flamingo orange",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nakamura_shuzojo": {
+  "tagline_en": "Every drop clay-pot brewed and atmospheric-distilled since 1888.",
+  "desc_en": "Nakamura Shuzojo, founded in 1888, has carried its handwork through more than 130 years: every product is fermented in clay pots and distilled at atmospheric pressure, led by the black-koji Gyokuro.",
+  "features_en": [
+   "Founded 1888 — 130+ years",
+   "All products clay-pot brewed, atmospheric-distilled"
+  ],
+  "brands_en": {
+   "玉露（黒）": {
+    "name_en": "Gyokuro (Black)",
+    "specs_en": "Imo shochu — black koji, clay-pot brewed"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:manzen_shuzo": {
+  "tagline_en": "Manzen — hand-made koji and wooden stills deep in the Kirishima forest.",
+  "desc_en": "Manzen Shuzo stands alone in the mountains of Kirishima National Park, brewing by the full traditional array: hand-made koji, clay-pot fermentation and wooden-still distillation. Its Manzen and Manzen-an are cult favourites among imo shochu lovers.",
+  "features_en": [
+   "Alone in the Kirishima National Park forest",
+   "Hand-made koji, clay pots, wooden stills"
+  ],
+  "brands_en": {
+   "萬膳": {
+    "name_en": "Manzen",
+    "specs_en": "Imo shochu"
+   },
+   "萬膳庵": {
+    "name_en": "Manzen-an",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:shirakane_shuzo": {
+  "tagline_en": "Shirakane no Tsuyu and a stone-built museum kura from 1869.",
+  "desc_en": "Shirakane Shuzo, founded in 1869 in Aira, is among Kagoshima's oldest shochu houses. Its stone kura now doubles as the Ishigura Museum, open to visitors (10:00–17:00, closed Wednesdays), while the house distils Shirakane no Tsuyu and the stone-kura-brewed Ishigura.",
+  "features_en": [
+   "Founded 1869",
+   "Stone-built Ishigura Museum at the kura"
+  ],
+  "brands_en": {
+   "白金乃露": {
+    "name_en": "Shirakane no Tsuyu",
+    "specs_en": "Imo shochu"
+   },
+   "石蔵": {
+    "name_en": "Ishigura",
+    "specs_en": "Brewed in the stone kura"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:okubo_shuzo": {
+  "tagline_en": "Samurai no Mon — clay-pot shochu from its own farm's potatoes.",
+  "desc_en": "Okubo Shuzo, founded in 1910 in the Osumi region, brews in clay pots by traditional method, sourcing its sweet potatoes from an affiliated farm and contract growers. Its Samurai no Mon is the flagship.",
+  "features_en": [
+   "Clay-pot brewing since 1910",
+   "Own affiliated farm and contract growers"
+  ],
+  "brands_en": {
+   "侍士の門": {
+    "name_en": "Samurai no Mon",
+    "specs_en": "Imo shochu, clay-pot brewed"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:tensei_shuzo": {
+  "tagline_en": "Drum-koji precision on the spring water of Fuzendo, since 1901.",
+  "desc_en": "Tensei Shuzo, founded in 1901 in the Osumi region, runs its own drum-type koji machine under computer control — precision brewing on the natural spring water of Fuzendo. Tours by reservation, best in October and November.",
+  "features_en": [
+   "Founded 1901",
+   "Original drum-type koji making",
+   "Fuzendo spring water"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:wakashio_shuzo": {
+  "tagline_en": "Two kura, one house — tradition at Sengoku, technology at Shisan.",
+  "desc_en": "Wakashio Shuzo, founded in 1968 in Shibushi, brews across two facilities — the traditional Sengoku Kura and the modern Shisan Kura — fusing old technique with current technology in its Satsuma Wakashio white and black and other labels. Tours by reservation.",
+  "features_en": [
+   "Twin kura: traditional and modern",
+   "Founded 1968 in Shibushi"
+  ],
+  "brands_en": {
+   "さつま白若潮": {
+    "name_en": "Satsuma Shiro Wakashio",
+    "specs_en": "White koji"
+   },
+   "さつま黒若潮": {
+    "name_en": "Satsuma Kuro Wakashio",
+    "specs_en": "Black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:marunishi_shuzo": {
+  "tagline_en": "Mukashi Mukashi — once upon a time, distilled in Osumi.",
+  "desc_en": "Marunishi Shuzo, founded in 1916, has distilled imo shochu on the Osumi Peninsula for over a century at its Futsuhara distillery. Its storybook-named Mukashi Mukashi (Once Upon a Time) leads black- and white-koji companions. Tours by reservation (9:00–17:00).",
+  "features_en": [
+   "Founded 1916 — 100+ years in Osumi",
+   "Tours by reservation"
+  ],
+  "brands_en": {
+   "むかしむかし": {
+    "name_en": "Mukashi Mukashi",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:iwagawa_jozo": {
+  "tagline_en": "Oyattosaa — 'good work today' in Kagoshima dialect, since 1870.",
+  "desc_en": "Iwagawa Jozo, founded in 1870 in the Osumi region, balances tradition with modern tastes. Its flagship Oyattosaa takes its name from the Kagoshima dialect greeting for a day's work well done.",
+  "features_en": [
+   "Founded 1870",
+   "Named from Kagoshima dialect"
+  ],
+  "brands_en": {
+   "おやっとさあ": {
+    "name_en": "Oyattosaa",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:shiratama_jozo": {
+  "tagline_en": "Mao — the Demon King, one of the three legendary M's.",
+  "desc_en": "Shiratama Jozo, founded around 1888 at the southern tip of the Osumi Peninsula, brews Mao — the Demon King — one of the fabled 3M premium shochus alongside Moriizo and Murao. Famed for an apple-like, almost ginjo aroma, it is drunk straight or on the rocks by devotees nationwide; Shiratama no Tsuyu, Genroin and Tenchu complete the range.",
+  "features_en": [
+   "Mao: one of the legendary 3M shochus",
+   "Apple-like, ginjo-style aroma",
+   "About 120 years of history"
+  ],
+  "brands_en": {
+   "魔王": {
+    "name_en": "Mao (Demon King)",
+    "specs_en": "The coveted premium imo shochu"
+   },
+   "白玉の露": {
+    "name_en": "Shiratama no Tsuyu",
+    "specs_en": "Imo shochu"
+   },
+   "元老院": {
+    "name_en": "Genroin",
+    "specs_en": "Imo shochu"
+   },
+   "天誅": {
+    "name_en": "Tenchu",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:moriizo": {
+  "tagline_en": "Moriizo — the first of the 3M, sold only by telephone lottery.",
+  "desc_en": "Moriizo Shuzo, founded in 1885, brews the most storied name in premium imo shochu. Everything is done as it always was: Japanese clay pots only, koji from Kagoshima rice, contract-grown sweet potatoes, careful distillation. Moriizo — first among the legendary 3M with Mao and Murao — is sold only through a telephone lottery, never online, with a JAL international in-flight allocation its other famous channel.",
+  "features_en": [
+   "First of the 3M premium shochus",
+   "Sold only by telephone lottery — never online",
+   "Clay-pot brewing throughout"
+  ],
+  "brands_en": {
+   "森伊蔵": {
+    "name_en": "Moriizo",
+    "specs_en": "Clay-pot brewed — contract-grown sweet potatoes"
+   },
+   "極上 森伊蔵": {
+    "name_en": "Gokujo Moriizo",
+    "specs_en": "Long-aged"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:taikai_shuzo": {
+  "tagline_en": "The biggest hand-made kura — thirty brands, temperatures checked by hand.",
+  "desc_en": "Taikai Shuzo, founded in 1967 in Kanoya, styles itself the largest hand-made kura: fermentation temperatures are still managed by hand, ingredients come through close ties with contract farmers, and a rice traceability system tracks the koji grain. More than thirty shochu brands carry its concept of tradition and challenge. Tours are accepted.",
+  "features_en": [
+   "Hand-managed fermentation at scale",
+   "30+ brands",
+   "Contract farmers and rice traceability"
+  ],
+  "brands_en": {
+   "さつま大海": {
+    "name_en": "Satsuma Taikai",
+    "specs_en": "Imo shochu"
+   },
+   "大海黒麹": {
+    "name_en": "Taikai Black Koji",
+    "specs_en": "Black koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:mitake_shuzo": {
+  "tagline_en": "Mitake — the shochu of Yakushima's World Heritage waters.",
+  "desc_en": "Mitake Shuzo, founded in 1958 on Yakushima, distils with the abundant waters of the World Natural Heritage island. Its Mitake pairs a clean, crisp finish with the aroma, umami and depth of the sweet potato, with genshu and island-only editions for those who make the crossing.",
+  "features_en": [
+   "Brewed on World Heritage Yakushima",
+   "The island's famous waters",
+   "Island-limited editions"
+  ],
+  "brands_en": {
+   "三岳": {
+    "name_en": "Mitake",
+    "specs_en": "Imo shochu"
+   },
+   "原酒三岳": {
+    "name_en": "Genshu Mitake",
+    "specs_en": "Undiluted"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:hombo_yakushima": {
+  "tagline_en": "Clay-pot shochu on Yakushima's soft water — Hombo's heritage kura.",
+  "desc_en": "The Yakushima Denshogura of Hombo Shuzo distils hand-made shochu in clay pots, working Yakushima's soft island water and fine sweet potatoes into its Yakusugi, named for the island's ancient cedars.",
+  "features_en": [
+   "Yakushima's soft water",
+   "Clay-pot hand-brewing"
+  ],
+  "brands_en": {
+   "屋久杉": {
+    "name_en": "Yakusugi",
+    "specs_en": "Imo shochu, clay-pot brewed"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:arimura_shuzo": {
+  "tagline_en": "Yoron Island's only kokuto shochu kura — Shimayusen.",
+  "desc_en": "Arimura Shuzo is the only Amami kokuto (brown sugar) shochu maker on Yoron Island, begun as a distillery in 1947 and licensed in 1959. It brews Shimayusen with white and black koji, Thai rice and island groundwater, at 20 and 35 degrees.",
+  "features_en": [
+   "Yoron Island's only kokuto shochu kura",
+   "White and black koji with island groundwater"
+  ],
+  "brands_en": {
+   "島有泉 20度": {
+    "name_en": "Shimayusen 20",
+    "specs_en": "Kokuto shochu — 20%"
+   },
+   "島有泉 黒麹仕込み": {
+    "name_en": "Shimayusen Black Koji",
+    "specs_en": "Black koji — 20%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:harada_shuzo": {
+  "tagline_en": "Shoryu — kokuto shochu aged five years and more on Okinoerabu.",
+  "desc_en": "Harada Shuzo, founded in 1947 on Okinoerabu Island, devotes itself to long maturation: its kokuto shochu Shoryu (Rising Dragon) rests five years or more before release.",
+  "features_en": [
+   "Okinoerabu Island kura",
+   "5+ years maturation"
+  ],
+  "brands_en": {
+   "昇龍": {
+    "name_en": "Shoryu (Rising Dragon)",
+    "specs_en": "Long-aged kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:niiro_shuzo": {
+  "tagline_en": "Tenkaichi — a century of unchanged flavour on Okinoerabu.",
+  "desc_en": "Niiro Shuzo, established in 1920 on Okinoerabu Island, has kept its kokuto shochu tasting as it did at the founding for over a century. Its Tenkaichi (First Under Heaven) owes its name to words from a doctor close to the fourth-generation head. Tours with tastings by reservation — best in the January–June production season.",
+  "features_en": [
+   "100+ years on Okinoerabu",
+   "Flavour unchanged since founding",
+   "Tours by reservation in season"
+  ],
+  "brands_en": {
+   "天下一": {
+    "name_en": "Tenkaichi",
+    "specs_en": "Kokuto shochu"
+   },
+   "天下無双": {
+    "name_en": "Tenka Muso",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:okinoerabu_shuzo": {
+  "tagline_en": "Four island kura bottling together since 1969.",
+  "desc_en": "Okinoerabu Shuzo was established in 1969 as the joint bottling and sales company of four distilleries on Okinoerabu Island, producing Amami kokuto shochu including an aged koshu.",
+  "features_en": [
+   "Joint company of four island kura",
+   "Amami kokuto shochu"
+  ],
+  "brands_en": {
+   "古酒 白ゆり": {
+    "name_en": "Koshu Shirayuri (White Lily)",
+    "specs_en": "Aged kokuto shochu"
+   },
+   "えらぶ": {
+    "name_en": "Erabu",
+    "specs_en": "Kokuto shochu"
+   },
+   "はなとり": {
+    "name_en": "Hanatori",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kanzaki_sangyo": {
+  "tagline_en": "A small member kura of the Okinoerabu cooperative.",
+  "desc_en": "Kanzaki Sangyo, founded in 1950, is one of the small member distilleries of Okinoerabu Shuzo, contributing spirit to the island's shared kokuto shochu.",
+  "features_en": [
+   "Member kura of Okinoerabu Shuzo",
+   "Small-scale island distilling"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:sasada_shuzo": {
+  "tagline_en": "One of Okinoerabu's cooperative distilleries.",
+  "desc_en": "Sasada Shuzo is a distillery on Okinoerabu Island and one of the member kura of Okinoerabu Shuzo, the island's joint bottling company.",
+  "features_en": [
+   "Member kura of Okinoerabu Shuzo",
+   "Okinoerabu Island"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:oki_shuzo": {
+  "tagline_en": "Careful small-batch island distilling since 1917.",
+  "desc_en": "Oki Shuzo, founded in 1917, is one of the member kura of Okinoerabu Shuzo, holding to small-scale, careful traditional distilling on the island.",
+  "features_en": [
+   "Founded 1917",
+   "Small-scale traditional methods"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:amami_nishikawa": {
+  "tagline_en": "Shima no Napoleon — Tokunoshima's first walkable distillery.",
+  "desc_en": "Amami Oshima Nishikawa Shuzo, founded in 1950 on Tokunoshima, brews the island favourite Shima no Napoleon and Mikado. In 2019 it opened a new plant with the island's first visitor course, where the kokuto shochu process can be seen up close (10:00–16:00, weekdays, by reservation).",
+  "features_en": [
+   "Tokunoshima kura since 1950",
+   "The island's first tour-course plant (2019)"
+  ],
+  "brands_en": {
+   "島のナポレオン": {
+    "name_en": "Shima no Napoleon",
+    "specs_en": "Kokuto shochu"
+   },
+   "帝": {
+    "name_en": "Mikado",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:amami_shurui": {
+  "tagline_en": "Five Tokunoshima kura in one blend — and island rum besides.",
+  "desc_en": "Amami Shurui was established in 1965 as the joint bottling and sales company of five Tokunoshima distilleries — Kamezawa, Amakawa, Takaoka, Nakamura and Matsunaga — blending their spirits into its Amami kokuto shochu. The group also distils Rurikakesu Rum from island sugarcane.",
+  "features_en": [
+   "Blend of five Tokunoshima kura",
+   "Rurikakesu Rum beside the shochu"
+  ],
+  "brands_en": {
+   "奄美": {
+    "name_en": "Amami",
+    "specs_en": "Kokuto shochu — five-kura blend"
+   },
+   "Rurikakesu Rum": {
+    "name_en": "Rurikakesu Rum",
+    "specs_en": "Island rum"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:matsunaga_shuzo": {
+  "tagline_en": "A Tokunoshima member kura of the Amami Shurui group.",
+  "desc_en": "Matsunaga Shuzojo is a Tokunoshima distillery and one of the member kura of Amami Shurui, contributing to the shared Amami label alongside its own Marushika.",
+  "features_en": [
+   "Member kura of Amami Shurui",
+   "Tokunoshima"
+  ],
+  "brands_en": {
+   "マルシカ": {
+    "name_en": "Marushika",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nakamura_shuzo_amami": {
+  "tagline_en": "Fragrant kokuto spirit for the island's shared label, since 1947.",
+  "desc_en": "Nakamura Shuzo, founded in 1947 on Tokunoshima, is a member kura of Amami Shurui, distilling notably aromatic kokuto shochu for the shared Amami brand.",
+  "features_en": [
+   "Founded 1947 on Tokunoshima",
+   "Member kura of Amami Shurui"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:amakawa_shuzo": {
+  "tagline_en": "A founding member of Kagoshima's first joint bottling venture.",
+  "desc_en": "Amakawa Shuzo, founded in 1947 on Tokunoshima, is a member kura of Amami Shurui and was among the six houses that established Kagoshima's first joint bottling operation in 1965. Its own label is Amakawa.",
+  "features_en": [
+   "Founded 1947",
+   "Part of Kagoshima's first joint bottling venture (1965)"
+  ],
+  "brands_en": {
+   "天川": {
+    "name_en": "Amakawa",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:takaoka_jozo": {
+  "tagline_en": "Kokuto shochu and Japanese rum from Tokunoshima, since 1949.",
+  "desc_en": "Takaoka Jozo, founded in 1949 on Tokunoshima, is a member kura of Amami Shurui making the kokuto shochu Bandai — and one of the group's houses behind the Japanese-made Rurikakesu Rum.",
+  "features_en": [
+   "Member kura of Amami Shurui",
+   "Japanese rum beside the shochu"
+  ],
+  "brands_en": {
+   "萬代": {
+    "name_en": "Bandai",
+    "specs_en": "Kokuto shochu"
+   },
+   "Rurikakesu Rum": {
+    "name_en": "Rurikakesu Rum",
+    "specs_en": "Island rum"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kamezawa_shuzo": {
+  "tagline_en": "Atmospheric-distilled spirit for the Amami blend.",
+  "desc_en": "Kamezawa Shuzojo is a Tokunoshima distillery and member kura of Amami Shurui, distilling and storing kokuto shochu at atmospheric pressure for the shared Amami label.",
+  "features_en": [
+   "Member kura of Amami Shurui",
+   "Atmospheric distillation"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:kikaijima_shuzo": {
+  "tagline_en": "Nothing leaves for a year — patient kokuto shochu of Kikai Island.",
+  "desc_en": "Kikaijima Shuzo, founded in 1916 on the coral island of Kikai, holds to atmospheric distillation and a house rule of patience: every product rests at least a year before shipping — three, for its aptly named Sannen Netazo (Three-Year Sleeper).",
+  "features_en": [
+   "Founded 1916 on Kikai Island",
+   "All products aged 1+ year before release",
+   "Atmospheric distillation"
+  ],
+  "brands_en": {
+   "喜界島": {
+    "name_en": "Kikaijima",
+    "specs_en": "Kokuto shochu, atmospheric-distilled"
+   },
+   "三年寝太蔵": {
+    "name_en": "Sannen Netazo (Three-Year Sleeper)",
+    "specs_en": "Aged 3 years"
+   },
+   "キャプテンキッド": {
+    "name_en": "Captain Kidd",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:asahi_shuzo_amami": {
+  "tagline_en": "Organic sugarcane from its own fields, on the coral island of Kikai.",
+  "desc_en": "Asahi Shuzo, founded in 1916 on Kikai Island, is devoted to kokuto shochu — the spirit only the Amami islands may make. Since 1999 it has grown its own sugarcane organically, with JAS organic certification, feeding its Asahi and companion labels.",
+  "features_en": [
+   "Founded 1916 on Kikai Island",
+   "Own organically grown sugarcane, JAS certified"
+  ],
+  "brands_en": {
+   "朝日": {
+    "name_en": "Asahi",
+    "specs_en": "Kokuto shochu"
+   },
+   "たかたろう": {
+    "name_en": "Takataro",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:machida_shuzo": {
+  "tagline_en": "Sato no Akebono — the vacuum-distilled shochu that opened kokuto to everyone.",
+  "desc_en": "Machida Shuzo was the first in the kokuto shochu world to adopt vacuum distillation, in 1990. The result, Sato no Akebono, drank smooth and easy where older kokuto shochu had bite — a breakthrough that reshaped the category, now offered in long-aged and gold editions.",
+  "features_en": [
+   "First vacuum distillation in kokuto shochu (1990)",
+   "Sato no Akebono: the smooth pioneer"
+  ],
+  "brands_en": {
+   "長期貯蔵 里の曙": {
+    "name_en": "Sato no Akebono Long-Aged",
+    "specs_en": "Vacuum-distilled, long-aged"
+   },
+   "里の曙 ゴールド": {
+    "name_en": "Sato no Akebono Gold",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:yamada_shuzo": {
+  "tagline_en": "A family kura growing its own cane for Amami Nagakumo.",
+  "desc_en": "Yamada Shuzo, founded in 1954, is a family-run kura on Amami Oshima that grows its own sugarcane and rice, working Amami and Okinawan brown sugar into its Amami Nagakumo.",
+  "features_en": [
+   "Family-run since 1954",
+   "Grows its own sugarcane and rice"
+  ],
+  "brands_en": {
+   "あまみ長雲": {
+    "name_en": "Amami Nagakumo",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:amami_oshima_shuzo": {
+  "tagline_en": "100% Amami-grown brown sugar, vacuum-distilled to a gentle sweetness.",
+  "desc_en": "Amami Oshima Shuzo works only with brown sugar grown on Amami Oshima itself, vacuum-distilling it into the smooth, deep-sweet Jogo and Hamachidori. Tours run weekdays at 10:00, 14:00 and 16:00 (weekends by advance contact).",
+  "features_en": [
+   "100% Amami Oshima brown sugar",
+   "Vacuum distillation",
+   "Weekday tours"
+  ],
+  "brands_en": {
+   "じょうご": {
+    "name_en": "Jogo",
+    "specs_en": "Vacuum-distilled kokuto shochu"
+   },
+   "浜千鳥": {
+    "name_en": "Hamachidori",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:amami_kaiun_densho": {
+  "tagline_en": "The Naze heritage kura of Kaiun Shuzo, brewing Amami Rokucho.",
+  "desc_en": "The Amami Denshogura in Naze, founded in 1950 and carried forward through a 2015 business succession by Amami Oshima Kaiun Shuzo, continues the kokuto shochu tradition with its Amami Rokucho, named for the island's folk dance rhythm. Tours by reservation, November to February.",
+  "features_en": [
+   "Founded 1950 in Naze",
+   "Tradition continued through 2015 succession"
+  ],
+  "brands_en": {
+   "あまみ六調": {
+    "name_en": "Amami Rokucho",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:tomita_shuzojo": {
+  "tagline_en": "Ryugu — clay pots only, in the old suppon style.",
+  "desc_en": "Tomita Shuzojo, founded in 1951 in Naze, brews its Ryugu in clay pots alone, keeping the traditional suppon-style fermentation. A small-production house, it distils nearly year-round outside summer and the New Year. Visits by reservation (13:00–17:00).",
+  "features_en": [
+   "Clay pots only",
+   "Traditional suppon-style fermentation",
+   "Small production"
+  ],
+  "brands_en": {
+   "龍宮": {
+    "name_en": "Ryugu",
+    "specs_en": "Clay-pot kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:amami_kaiun": {
+  "tagline_en": "Lento — kokuto shochu matured to music.",
+  "desc_en": "Amami Oshima Kaiun Shuzo brews Lento, named from the musical term for slowly — the kokuto shochu that carried Amami's spirit to the nation. Vacuum distillation gives its easy smoothness, natural water of Mt. Yuwan feeds the mash, and its tanks are played sound vibrations in the company's acoustic maturation method. Beni Sango and FAU widen the range.",
+  "features_en": [
+   "Lento: Amami's defining modern kokuto shochu",
+   "Acoustic maturation — sound played into the tanks",
+   "Mt. Yuwan natural water"
+  ],
+  "brands_en": {
+   "れんと": {
+    "name_en": "Lento",
+    "specs_en": "Vacuum-distilled kokuto shochu"
+   },
+   "紅さんご": {
+    "name_en": "Beni Sango",
+    "specs_en": "Kokuto shochu"
+   },
+   "FAU": {
+    "name_en": "FAU",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nishihira_shuzo": {
+  "tagline_en": "Sango — coral-named kokuto shochu from Naze, since 1927.",
+  "desc_en": "Nishihira Shuzo, founded in 1927 and settled at its present Naze site in 1946, distils kokuto shochu by methods handed down through the generations, under its coral-named Sango label.",
+  "features_en": [
+   "Founded 1927 in Naze",
+   "Generations of traditional method"
+  ],
+  "brands_en": {
+   "珊瑚": {
+    "name_en": "Sango (Coral)",
+    "specs_en": "Kokuto shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kagoshima:nishihira_honke": {
+  "tagline_en": "Seventeen straight years of honours at the Kagoshima appraisal.",
+  "desc_en": "Nishihira Honke has taken the excellence award at the Kagoshima honkaku shochu appraisal seventeen years running, crowned by the president's award in 2019. Its Seegore leads a range that includes five-year and cask-aged expressions.",
+  "features_en": [
+   "17 consecutive excellence awards",
+   "President's award, 2019 appraisal"
+  ],
+  "brands_en": {
+   "せえごれ": {
+    "name_en": "Seegore",
+    "specs_en": "Kokuto shochu"
+   },
+   "5年熟成 氣 豊楽": {
+    "name_en": "Ki Horaku 5-Year",
+    "specs_en": "Aged 5 years"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kanagawa:koganei_shuzo": {
+  "tagline_en": "Sake-lees shochu, gin and beer at the foot of the Tanzawa range.",
+  "desc_en": "Koganei Shuzo, founded in 1818 in the Nanasawa district of Atsugi at the foot of the eastern Tanzawa mountains, brews the local sake Morimasu and ranges wide — honkaku shochu vacuum-distilled from sake lees and rice koji, craft gin, craft beer and junmai hon-mirin.",
+  "features_en": [
+   "Eastern Tanzawa foothills kura since 1818",
+   "Sake-lees shochu, gin, beer and mirin"
+  ],
+  "brands_en": {
+   "盛升": {
+    "name_en": "Morimasu",
+    "specs_en": "The house sake label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kochi:mutemuka": {
+  "tagline_en": "Dabada Hiburi — chestnut shochu named for firelit fishing on the Shimanto.",
+  "desc_en": "Mutemuka, founded in 1893 in the mountains above the upper Shimanto River, bears a name meaning unadorned and true of heart. Its celebrated chestnut shochu Dabada Hiburi is distilled slowly at low temperature with 50% chestnut — named for hiburi, the traditional fire-swinging ayu fishing of the Shimanto, and daba, the gathering places along its banks. Kura visits are possible in the river valley.",
+  "features_en": [
+   "50% chestnut in the mash",
+   "Slow low-temperature distillation",
+   "Named for the Shimanto's fire-fishing tradition"
+  ],
+  "brands_en": {
+   "ダバダ火振": {
+    "name_en": "Dabada Hiburi",
+    "specs_en": "Chestnut shochu — 50% chestnut"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kochi:kikusui_kochi": {
+  "tagline_en": "Chestnut and barley shochu from Aki, with an all-women planning team.",
+  "desc_en": "Kikusui Shuzo, established in 1948 in Aki, Kochi, makes chestnut and barley shochu alongside its sake. The barley shochu Ryoma pours clean and gentle — an easy first shochu — and the house runs a product planning team composed entirely of women, developing releases with women drinkers in mind.",
+  "features_en": [
+   "Chestnut and barley shochu",
+   "All-women product planning team"
+  ],
+  "brands_en": {
+   "竜馬": {
+    "name_en": "Ryoma",
+    "specs_en": "Barley shochu — clean and gentle"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:takahashi_shuzo": {
+  "tagline_en": "Hakutake and Shiro — the names that carry Kuma shochu to the nation.",
+  "desc_en": "Takahashi Shuzo, founded in 1900 in Hitoyoshi, brews Hakutake and Shiro — the defining brands of Kuma shochu, the rice shochu of the Kuma valley. Under its creed of good rice, good water, good people, it runs three production sites — the Taragi distillery, the Hakutake research institute and the Tano whisky distillery in a reborn village school — with capacity of 100,000 koku. The Kuma Shochu Museum Hakutake Denshogura welcomes visitors.",
+  "features_en": [
+   "Hakutake: the flagship name of Kuma shochu",
+   "Three production sites, 100,000-koku capacity",
+   "Hakutake Denshogura museum for visitors"
+  ],
+  "brands_en": {
+   "白岳": {
+    "name_en": "Hakutake",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "白岳しろ": {
+    "name_en": "Hakutake Shiro",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "白岳KAORU": {
+    "name_en": "Hakutake KAORU",
+    "specs_en": "Aromatic rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:hakutake_kenkyusho": {
+  "tagline_en": "The research kura behind Hakutake's quality, additive-free.",
+  "desc_en": "The Hakutake Shuzo Research Institute, established in 1986, is Takahashi Shuzo's original shochu plant. Selecting rice and water strictly and using no additives whatsoever, it produces the Hakutake and Shiro that anchor the group's quality.",
+  "features_en": [
+   "Takahashi Shuzo's quality backbone",
+   "Strict selection, zero additives"
+  ],
+  "brands_en": {
+   "白岳": {
+    "name_en": "Hakutake",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "しろ": {
+    "name_en": "Shiro",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:sengetsu": {
+  "tagline_en": "Six generations of in-house toji behind the Crescent Moon.",
+  "desc_en": "Sengetsu Shuzo was founded in 1903 by Jisuke, the first master, and has kept its own in-house toji ever since — six generations of them guarding the house technique. Its Sengetsu (Crescent Moon) stands among the flagship names of Kuma shochu, brewed in central Hitoyoshi where the kura welcomes visitors.",
+  "features_en": [
+   "Six generations of in-house toji",
+   "A flagship name of Kuma shochu",
+   "Kura tours in central Hitoyoshi"
+  ],
+  "brands_en": {
+   "繊月": {
+    "name_en": "Sengetsu (Crescent Moon)",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "限定川辺": {
+    "name_en": "Gentei Kawabe",
+    "specs_en": "Limited rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:fukano": {
+  "tagline_en": "Twenty-year clay-pot koshu from a house begun in 1823.",
+  "desc_en": "Fukano Shuzo began in 1823 when its founder Tokiji Fukano moved from Kurume to Hitoyoshi and took up shochu making. Now led by seventh-generation Seiichi Fukano (president since 2015), the house is known for long maturation — including a koshu rested twenty years in clay pots — under labels like Iroha and Homare no Tsuyu.",
+  "features_en": [
+   "Founded 1823 — among Kuma's oldest houses",
+   "20-year clay-pot aged koshu"
+  ],
+  "brands_en": {
+   "彩葉": {
+    "name_en": "Iroha",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "誉の露": {
+    "name_en": "Homare no Tsuyu",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:fusanotsuyu": {
+  "tagline_en": "Casks, pots and bottles — layered maturation in Taragi.",
+  "desc_en": "Fusanotsuyu, founded in 1907 in Taragi, carries the 500-year Kuma shochu tradition forward with a particular devotion to maturation — resting its spirit in casks, clay pots and bottles to layer depth and hidden complexity. It grows its own sweet potatoes for the imo side of a range centred on rice shochu.",
+  "features_en": [
+   "Maturation across cask, pot and bottle",
+   "Own farm for its potato shochu",
+   "Founded 1907"
+  ],
+  "brands_en": {
+   "房の露": {
+    "name_en": "Fusanotsuyu",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:rokuchoshi": {
+  "tagline_en": "Nothing leaves before its time — twelve years' average rest.",
+  "desc_en": "Rokuchoshi Shuzo, founded in 1923 at the centre of the Kuma basin, is a specialist in aged shochu: its spirit matures an average of twelve years or more before shipping. That patience has earned three-star honours at overseas spirits competitions.",
+  "features_en": [
+   "Average 12+ years maturation before release",
+   "Three stars at overseas competitions"
+  ],
+  "brands_en": {
+   "特吟六調子": {
+    "name_en": "Tokugin Rokuchoshi",
+    "specs_en": "Long-aged rice shochu"
+   },
+   "六調子": {
+    "name_en": "Rokuchoshi",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:matsunoizumi": {
+  "tagline_en": "Suikyo Mushi — brewed on the moonlight water of Yamizo Yakushi.",
+  "desc_en": "Matsunoizumi Shuzo brews in Asagiri, at the heart of the Kuma valley, since 1875. Its founder Bunsuke Matsuoka chose the site for the famed Gekkosui — moonlight water — filtering through the granite of Mt. Shiraga at the Taniyakushi temple spring. The house brews its Suikyo Mushi with ginjo yeast and special spring-water methods.",
+  "features_en": [
+   "Gekkosui spring water of Mt. Shiraga",
+   "Ginjo-yeast brewing"
+  ],
+  "brands_en": {
+   "水鏡無私 吟醸酵母仕込": {
+    "name_en": "Suikyo Mushi Ginjo Yeast",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:tsunematsu": {
+  "tagline_en": "Kuma Ken — named for the valley's hand-game, filtered by hand.",
+  "desc_en": "Tsunematsu Shuzo Honten, founded in 1917 in Taragi, brews with natural water rising from a hundred metres underground and Hinohikari rice it grows in the paddies surrounding the kura. It finishes without machine filtration, by hand — its Kuma Ken takes the name of the valley's famous drinking hand-game.",
+  "features_en": [
+   "Water from 100m down; rice from its own paddies",
+   "Hand finishing, no machine filtration",
+   "100+ years in Taragi"
+  ],
+  "brands_en": {
+   "球磨拳": {
+    "name_en": "Kuma Ken",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:ohishi": {
+  "tagline_en": "Amber rice shochu — fifty years of cask ageing at the Kuma's source.",
+  "desc_en": "Oishi Shuzojo, founded in 1872 in Mizukami at the uppermost reach of the Kuma River, brews under fifth-generation head Choichiro Oishi at the foot of sacred Mt. Ichifusa. The house began cask ageing some fifty years ago — long before it was fashionable — and its amber, long-rested rice shochus now sit beside rice-shochu liqueurs and whisky.",
+  "features_en": [
+   "Cask ageing begun ~50 years ago",
+   "At the source of the Kuma River",
+   "Whisky and liqueurs beside the shochu"
+  ],
+  "brands_en": {
+   "大石": {
+    "name_en": "Oishi",
+    "specs_en": "Cask-aged rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:torikai": {
+  "tagline_en": "Ginka Torikai — the first shochu with a ginjo nose, and the house's only bottle.",
+  "desc_en": "Torikai Shuzo has kept a kura in the Nanokamachi quarter of Hitoyoshi for more than four hundred years. In 1994 it achieved something unprecedented: Ginka Torikai, the first honkaku shochu with a true ginjo aroma. The house sells that one product and nothing else — quality distilled to a single answer.",
+  "features_en": [
+   "First ginjo-aroma honkaku shochu (1994)",
+   "400+ years in Hitoyoshi",
+   "One product only"
+  ],
+  "brands_en": {
+   "吟香鳥飼": {
+    "name_en": "Ginka Torikai",
+    "specs_en": "Ginjo-aroma rice shochu — the house's sole product"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:toyonaga": {
+  "tagline_en": "Organic Kuma rice from its own paddies, poured in twelve countries.",
+  "desc_en": "Toyonaga Shuzo was founded in 1894 in Yunomae by Tsurumatsu Toyonaga. Fourth-generation head Shiro Toyonaga brews to a strict local creed — Kuma rice, Kuma water, Kuma people — with organic Kuma rice from the house's own fields at the centre of its Toyonaga Kura label. Gold medals at the Los Angeles International Spirits Competition have helped carry it to twelve countries.",
+  "features_en": [
+   "Organic rice from its own paddies",
+   "Exported to 12 countries",
+   "LA International Spirits Competition golds"
+  ],
+  "brands_en": {
+   "豊永蔵": {
+    "name_en": "Toyonaga Kura",
+    "specs_en": "Organic Kuma rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:joraku": {
+  "tagline_en": "Oak and sherry casks in the Kuma valley, since 1912.",
+  "desc_en": "Joraku Shuzo, founded in 1912 in Mizukami and relocated to Nishiki in 1994, matures its shochu spirit long in casks chosen for their wood — oak and sherry among them, rested 24 months and more. Local Nishiki fruit liqueurs and a yogurt shochu stretch the range beyond the Kuma tradition.",
+  "features_en": [
+   "Oak and sherry cask maturation, 24+ months",
+   "Fruit liqueurs and yogurt shochu too"
+  ],
+  "brands_en": {
+   "秋の露 蔵のこだわり": {
+    "name_en": "Aki no Tsuyu Kura no Kodawari",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:jufuku": {
+  "tagline_en": "Mushagaeshi — atmospheric distillation and clay pots, uncompromised.",
+  "desc_en": "Jufuku Shuzojo, founded in 1890 in Hitoyoshi, distils its famous Mushagaeshi from 100% Kumamoto-grown Hinohikari rice, at atmospheric pressure — the soul of the house — then rests it more than two years, with clay-pot brewing lending its depth.",
+  "features_en": [
+   "Atmospheric distillation as the house soul",
+   "100% Kumamoto Hinohikari rice",
+   "2+ years maturation"
+  ],
+  "brands_en": {
+   "武者返し": {
+    "name_en": "Mushagaeshi",
+    "specs_en": "Rice shochu — atmospheric-distilled, aged 2+ years"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:takata": {
+  "tagline_en": "Kuma shochu brewed with flower yeasts, since 1902.",
+  "desc_en": "Takata Shuzojo began shochu making in 1902 under ninth-generation head Matasuke (Kanji Takata). Keeping the Kuma tradition, it also experiments where few do — brewing shochu with flower yeasts, as in its Asagiri no Hana, while the founding label Akiho lives on.",
+  "features_en": [
+   "Flower-yeast shochu brewing",
+   "Shochu-making since 1902"
+  ],
+  "brands_en": {
+   "あさぎりの花": {
+    "name_en": "Asagiri no Hana",
+    "specs_en": "Flower-yeast rice shochu"
+   },
+   "秋穂": {
+    "name_en": "Akiho",
+    "specs_en": "The founding label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:yamato1": {
+  "tagline_en": "Shochu brewed on hot-spring water — and even on milk.",
+  "desc_en": "Yamatoichi Shuzomoto was founded in 1898 by Chimatsu Okada in Hitoyoshi. Its signature is unique in Japan: onsen shochu, brewed with mineral-rich bicarbonate hot-spring water rising from 500 metres beneath the kura. A milk shochu made with fresh local milk pushes the experiments further.",
+  "features_en": [
+   "Hot-spring water from 500m below the kura",
+   "Milk shochu among its originals"
+  ],
+  "brands_en": {
+   "温泉焼酎 夢": {
+    "name_en": "Onsen Shochu Yume",
+    "specs_en": "Brewed on hot-spring water"
+   },
+   "牧場の夢": {
+    "name_en": "Bokujo no Yume",
+    "specs_en": "Milk shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:fukuda": {
+  "tagline_en": "Quality before efficiency — 37 excellence awards since 1965.",
+  "desc_en": "Fukuda Shuzo was founded in 1935 in Hitoyoshi by Kunihiko Fukuda of Amakusa. Its creed of quality before efficiency shows in the record: 37 excellence awards at the Kumamoto Regional Taxation Bureau appraisal since 1965, won through clean rooms, exact temperatures and patient handling of koji and yeast. Sanga leads the range.",
+  "features_en": [
+   "37 excellence awards since 1965",
+   "Quality before efficiency"
+  ],
+  "brands_en": {
+   "山河": {
+    "name_en": "Sanga",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "樽御輿": {
+    "name_en": "Taru Mikoshi",
+    "specs_en": "Cask-aged rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:kinoshita": {
+  "tagline_en": "Bunzo — licensed as a teahouse by the Sagara lords in 1862.",
+  "desc_en": "Kinoshita Jozo, founded in 1862, is among the oldest Kuma shochu houses, licensed as a chaya (teahouse) by the Sagara domain. Its single-minded label Bunzo carries the name of founder Bunzo, sung of in the folk song Rokuchoshi, and the methods are unchanged: hand-made koji, clay-pot fermentation, atmospheric distillation.",
+  "features_en": [
+   "Sagara-domain teahouse licence, 1862",
+   "Hand koji, clay pots, atmospheric stills",
+   "Bunzo: named in a folk song"
+  ],
+  "brands_en": {
+   "文蔵": {
+    "name_en": "Bunzo",
+    "specs_en": "Honkaku rice shochu — traditional method"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:matsushita": {
+  "tagline_en": "The oldest kura of Kuma shochu — fourteen generations since 1804.",
+  "desc_en": "Matsushita Jozojo began in 1804, when first-generation Jihei took up shochu making in the Sagara domain's Iwano village — making it the oldest kura of Kuma shochu, now in its fourteenth generation. At the source of the Kuma River in Mizukami, it brews from the valley's people, water and rice, its history bottled plainly in the label Saikogura, the oldest kura.",
+  "features_en": [
+   "The oldest Kuma shochu house (1804)",
+   "Fourteen generations unbroken",
+   "At the Kuma River's source"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:tsutsumi": {
+  "tagline_en": "Cask, ceramic and bottle — Kuma shochu with a research bent.",
+  "desc_en": "Tsutsumi Shuzo was founded in 1878 as the Indo Jozojo and took its present name in 2002. It matures its Kuma shochu across casks, ceramics and bottles, and works with university laboratories on new products — aiming at shochu that can stand anywhere in the world.",
+  "features_en": [
+   "Maturation across cask, ceramic and bottle",
+   "University research partnerships"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:miyahara": {
+  "tagline_en": "Stone-chamber koji and cold-season mash on Kuma River water.",
+  "desc_en": "Miyahara Shuzojo of Asagiri brews Kuma shochu the old way: koji rice grown in a traditional stone chamber, cold-season mash on Kuma River subsoil water, atmospheric distillation, then long rest in clay pots — bottled as Kuma Sennin and Miya no Homare.",
+  "features_en": [
+   "Stone-chamber koji making",
+   "Cold-season brewing on Kuma subsoil water",
+   "Clay-pot maturation"
+  ],
+  "brands_en": {
+   "球磨仙人": {
+    "name_en": "Kuma Sennin",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "宮の誉": {
+    "name_en": "Miya no Homare",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:matsumoto": {
+  "tagline_en": "Banryoku — fragrant Kuma shochu from the valley's centre.",
+  "desc_en": "Matsumoto Shuzojo, founded in 1908 in Asagiri at the near-centre of the Kuma valley, has brewed for over a century, working the basin's rice and clear water into its aromatic, full-flavoured Banryoku.",
+  "features_en": [
+   "Founded 1908 in central Kuma",
+   "Aromatic, generous house style"
+  ],
+  "brands_en": {
+   "萬緑": {
+    "name_en": "Banryoku",
+    "specs_en": "Honkaku rice shochu"
+   },
+   "裏伝 萬緑": {
+    "name_en": "Uraden Banryoku",
+    "specs_en": "Alternate-method Banryoku"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:nasu": {
+  "tagline_en": "Kuma no Izumi — a four-generation family kura of tray koji and clay pots.",
+  "desc_en": "Nasu Shuzojo, founded in 1917 in Taragi by Torajiro Nasu, remains a small family kura in its fourth generation. Fine koji from the morobuta tray method, depth from clay-pot fermentation and long storage give its Kuma no Izumi its rich, rounded character.",
+  "features_en": [
+   "Family handwork across four generations",
+   "Morobuta tray koji and clay-pot brewing"
+  ],
+  "brands_en": {
+   "球磨の泉": {
+    "name_en": "Kuma no Izumi",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:batsugun": {
+  "tagline_en": "Batsugun — a name that promises outstanding, and means to keep it.",
+  "desc_en": "Batsugun Shuzo of Kurohiji in Taragi took its name from its founding wish: to make shochu that is batsugun — outstanding — to drink. The house balances Kuma tradition with new work such as its cask-aged Jukuko Batsugun developed for markets beyond the prefecture.",
+  "features_en": [
+   "Named for its founding ambition",
+   "Cask-aged expressions for wider markets"
+  ],
+  "brands_en": {
+   "ばつぐん": {
+    "name_en": "Batsugun",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:miyamoto": {
+  "tagline_en": "Three hundred years in Taragi, distilled into Kyudaime.",
+  "desc_en": "Miyamoto Shuzojo has brewed Kuma shochu in Taragi for more than three hundred years. Its Kyudaime (Ninth Generation), launched in 1994, carries the rice's flavour and sweetness in a rounded, balanced pour.",
+  "features_en": [
+   "300+ years of brewing",
+   "Kyudaime: the ninth generation's namesake"
+  ],
+  "brands_en": {
+   "九代目": {
+    "name_en": "Kyudaime (Ninth Generation)",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:hayashi": {
+  "tagline_en": "Gokuraku — paradise, aged slow, from a mid-Edo family kura.",
+  "desc_en": "Hayashi Shuzojo, founded in the mid-Edo period in Yunomae, is among the oldest Kuma shochu houses — its fifteenth-generation head keeps the inherited craft with stubborn fidelity, drawing on the well that has flowed since the founding. Its Gokuraku (Paradise) is an atmospheric-distilled rice shochu given long rest.",
+  "features_en": [
+   "Mid-Edo founding — 15th generation",
+   "The founding well still in use",
+   "Gokuraku: atmospheric-distilled, long-aged"
+  ],
+  "brands_en": {
+   "極楽": {
+    "name_en": "Gokuraku (Paradise)",
+    "specs_en": "Atmospheric-distilled, long-stored rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:fuchita": {
+  "tagline_en": "An honoured old kura by the Kuma River, currently at rest.",
+  "desc_en": "Fuchita Shuzojo, re-founded in 1878 on the banks of the Kuma River, took the grand honour prize at Japan's first national liquor fair in 1926 and was chosen to present its shochu to Emperor Showa on his 1931 visit to Kumamoto. Reports indicate the house is currently not in operation.",
+  "features_en": [
+   "Grand honour prize, first national liquor fair (1926)",
+   "Presented to Emperor Showa in 1931",
+   "Currently reported inactive"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:fuchita_honten": {
+  "tagline_en": "Isshochi — twenty clay pots and all handwork at the valley's last kura downstream.",
+  "desc_en": "Fuchita Shuzo Honten began in 1869 as the Kazaemon Chaya of founder Kazaemon Fuchita, moving to its present site in 1908 when the Hisatsu rail line came through. Everything from koji to washing and mashing is done by hand, with twenty clay pots lining the kura — the furthest downstream of all Kuma shochu houses. Its oak-aged Isshochi borrows the auspicious name of a village whose characters read 'a place of victory'.",
+  "features_en": [
+   "All handwork; twenty clay pots in the kura",
+   "The furthest-downstream Kuma shochu house",
+   "Oak-aged Isshochi, an auspicious name"
+  ],
+  "brands_en": {
+   "一勝地": {
+    "name_en": "Isshochi",
+    "specs_en": "Oak-cask-aged rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:zuiyo": {
+  "tagline_en": "Shochu beside sake and red sake, from Kumamoto's all-round house.",
+  "desc_en": "Zuiyo, founded in 1867 in Kumamoto City and merged with Toyo Jozo in 2001, is the city's all-round brewer: sake, honkaku shochu, ceremonial red sake and liqueurs. Its shochu side includes Tohi Ippon Yari, and the Taisho-era Tohi Taisho Kura opens the old buildings to visitors.",
+  "features_en": [
+   "Sake, shochu, red sake and liqueurs in one house",
+   "Tohi Taisho Kura heritage building"
+  ],
+  "brands_en": {
+   "東肥一本槍": {
+    "name_en": "Tohi Ippon Yari",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:amakusa": {
+  "tagline_en": "Ike no Tsuyu — the founding imo shochu of Amakusa, revived.",
+  "desc_en": "Amakusa Shuzo, founded in 1899, is the only shochu kura in the Amakusa islands. It began as an imo shochu house, switched to rice and barley in the late Showa period — then fourth-generation head Yutaka Hirashita brought it home, reviving the founding sweet-potato label Ike no Tsuyu.",
+  "features_en": [
+   "The Amakusa islands' only shochu kura",
+   "Founding imo shochu revived by the 4th generation"
+  ],
+  "brands_en": {
+   "池の露": {
+    "name_en": "Ike no Tsuyu",
+    "specs_en": "Honkaku imo shochu — the revived founding label"
+   },
+   "天草": {
+    "name_en": "Amakusa",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:bishounen": {
+  "tagline_en": "The Bishonen sake house's Aso shochus, brewing since 1752.",
+  "desc_en": "Bishonen began brewing in 1752 on the orders of Hosokawa Shigekata, lord of Kumamoto, and restarted in Kikuchi in 2013 after a business transfer. Known nationally for its sake, the house also distils the Kuro Aso and Aka Aso shochus from the blessings of the Aso caldera.",
+  "features_en": [
+   "Brewing since 1752 by domain order",
+   "Restarted in Kikuchi in 2013",
+   "Aso-series shochus beside the sake"
+  ],
+  "brands_en": {
+   "黒阿蘇": {
+    "name_en": "Kuro Aso",
+    "specs_en": "Honkaku shochu"
+   },
+   "赤阿蘇": {
+    "name_en": "Aka Aso",
+    "specs_en": "Honkaku shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kumamoto:hananooka": {
+  "tagline_en": "The Ubusuna sake house's rice shochu, on Myoken shrine spring water.",
+  "desc_en": "Hananoka Shuzo began in 1902 when Kakuji and Mosaku Kanda took over sacred paddies of the Myoken shrine, brewing as Kanda Shuzo until the 1992 renaming. Nationally celebrated for its sake Hananoka and Ubusuna, the house also distils the rice shochu Wani, on rock-spring water rising at the shrine.",
+  "features_en": [
+   "The nationally watched Hananoka / Ubusuna house",
+   "Myoken shrine rock-spring water"
+  ],
+  "brands_en": {
+   "和仁": {
+    "name_en": "Wani",
+    "specs_en": "Honkaku rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "kyoto:takara_shuzo": {
+  "tagline_en": "Takara Shochu and the all-potato Ikkomon, from Fushimi to the world.",
+  "desc_en": "Takara Shuzo, founded in 1842 in Fushimi, Kyoto, is one of Japan's great drinks houses. Its Takara Shochu practically defines korui shochu, while Ikkomon — 'the stubborn one' in Satsuma dialect — is a honkaku imo shochu made from 100% sweet potato, koji included. With the sake Sho Chiku Bai it exports to dozens of countries.",
+  "features_en": [
+   "One of Japan's leading shochu makers",
+   "Ikkomon: 100% sweet potato, koji included",
+   "Fushimi's famous water; global reach"
+  ],
+  "brands_en": {
+   "一刻者": {
+    "name_en": "Ikkomon",
+    "specs_en": "All-potato honkaku shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "mie:miyazaki_honten": {
+  "tagline_en": "Kinmiya — the shochu of Tokyo's old downtown, made in Mie since 1846.",
+  "desc_en": "Miyazaki Honten, founded in 1846, is famous nationwide for Kinmiya Shochu — the korui shochu that fuels the hoppy and chuhai culture of Tokyo's old downtown. Brewed on Suzuka mountain subsoil water, the house also makes cask-aged barley shochu with consecutive Monde Selection Grand Golds, and holds seventeen straight years of golds at the world liquor competition.",
+  "features_en": [
+   "Kinmiya: the downtown-Tokyo standard",
+   "Suzuka mountain subsoil water",
+   "17 straight world-competition golds"
+  ],
+  "brands_en": {
+   "キンミヤ焼酎": {
+    "name_en": "Kinmiya Shochu",
+    "specs_en": "The korui shochu classic"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "mie:iseman": {
+  "tagline_en": "Ise-Shima's only kura — thirty years of Konen, plus a craft gin.",
+  "desc_en": "Iseman, founded in 1949, is the only brewer in Ise-Shima, making shochu, sake and liqueurs. Its Konen barley shochu has run for over thirty years — the Stella Konen version pot-distilled with black koji — and it makes Mie's only craft gin. Tastings at its brewery shop in Okage Yokocho, before the Grand Shrine.",
+  "features_en": [
+   "Ise-Shima's only brewer",
+   "30+ years of the Konen label",
+   "Mie's only craft gin; shop by the Grand Shrine"
+  ],
+  "brands_en": {
+   "ステラ光年": {
+    "name_en": "Stella Konen",
+    "specs_en": "Black-koji pot-distilled barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kirishima-shuzo": {
+  "tagline_en": "Nine straight years as Japan's best-selling imo shochu.",
+  "desc_en": "Kirishima Shuzo, founded in 1916 in Miyakonojo, has held the number-one spot in honkaku imo shochu sales for nine consecutive years. It uses only Kyushu sweet potatoes, Japanese rice and the underground water of the Kirishima range, with capacity around 200,000 1.8-litre bottles a day. Black-koji Kurokirishima (1998) and Akakirishima (2003) lead the range; the Kirishima Factory Garden offers tours, a craft brewery and a bakery.",
+  "features_en": [
+   "Japan's best-selling imo shochu, 9 years running",
+   "Kirishima-range underground water",
+   "Factory Garden with tours"
+  ],
+  "brands_en": {
+   "黒霧島": {
+    "name_en": "Kurokirishima",
+    "specs_en": "Black koji, launched 1998"
+   },
+   "赤霧島": {
+    "name_en": "Akakirishima",
+    "specs_en": "Launched 2003"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:unkai-shuzo": {
+  "tagline_en": "Inventor of soba shochu (1973), brewing across Miyazaki and Kagoshima.",
+  "desc_en": "Unkai Shuzo developed Japan's first buckwheat shochu in 1973 and now makes soba, barley and imo shochu across several plants in Miyazaki and Kagoshima — plus sake, wine and craft beer as a full-range drinks maker. The Aya Nature Kura visitor hall and Shusen no Mori estate welcome guests.",
+  "features_en": [
+   "Japan's first soba shochu (1973)",
+   "Full-range drinks maker",
+   "Visitor facilities at Aya"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kuroki-honten": {
+  "tagline_en": "Hyakunen no Kodoku — farming-first shochu that returns to the soil.",
+  "desc_en": "Kuroki Honten, founded in 1885 in Takanabe, is the house behind Hyakunen no Kodoku (One Hundred Years of Solitude), Nakanaka and Kiroku. Its creed — sake making begins with farming — is lived through its organic farming subsidiary Yomigaeru Daichi no Kai and a circular practice that returns shochu lees to fields as fertiliser and feed. It also runs the Osuzuyama Distillery in the hills.",
+  "features_en": [
+   "Hyakunen no Kodoku and other cult labels",
+   "Circular farming: lees back to the fields",
+   "Runs the Osuzuyama Distillery"
+  ],
+  "brands_en": {
+   "百年の孤独": {
+    "name_en": "Hyakunen no Kodoku",
+    "specs_en": "Cask-aged barley shochu"
+   },
+   "中々": {
+    "name_en": "Nakanaka",
+    "specs_en": "Barley shochu"
+   },
+   "㐂六": {
+    "name_en": "Kiroku",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:yanagita-shuzo": {
+  "tagline_en": "A barley house in imo country, reviving the Miyazaki Hadaka grain.",
+  "desc_en": "Yanagita Shuzo, founded in 1902 in Miyakonojo, swims against Miyazaki's sweet-potato current: barley shochu is its main line, under fifth-generation toji Tadashi Yanagita and the motto that ingredients are everything. It works fine Kyushu barley, has revived cultivation of the native Miyazaki Hadaka variety, and distils under vacuum for a clear, clean profile.",
+  "features_en": [
+   "Barley specialist in imo country",
+   "Reviving native Miyazaki Hadaka barley",
+   "Vacuum distillation for clarity"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:akashi-shuzo": {
+  "tagline_en": "Meigetsu — mellow imo-and-rice shochu on Ebino highland water.",
+  "desc_en": "Akashi Shuzo began when founder Niemon Akashi took up shochu making in Ebino in 1891. Its standard-bearer Meigetsu, launched in 1950, blends sweet potato and rice into a mellow, rounded pour, brewed with fine Ebino highland groundwater and koji from rice the house grows itself.",
+  "features_en": [
+   "Meigetsu: the house name since 1950",
+   "Ebino highland groundwater",
+   "Home-grown rice for its koji"
+  ],
+  "brands_en": {
+   "明月": {
+    "name_en": "Meigetsu",
+    "specs_en": "Imo and rice blend shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:ochiai-shuzojo": {
+  "tagline_en": "Two-century pots, vegetable shochus, and a bottle named for the hearth cat.",
+  "desc_en": "Ochiai Shuzojo in Miyazaki City, led by fourth-generation toji-president Ryohei Ochiai, runs its first fermentation in clay pots more than two hundred years old and rests everything at least a year and a half. Sweet potatoes come from Miyakonojo contract farmers using green-manure cultivation, and the house even distils vegetable shochus — green pepper, garlic, ginger. It recommends its shochu hot, with food.",
+  "features_en": [
+   "200-year-old clay pots",
+   "18+ months minimum maturation",
+   "Vegetable shochus among the range"
+  ],
+  "brands_en": {
+   "竃猫": {
+    "name_en": "Hettsui Neko (Hearth Cat)",
+    "specs_en": "Black and white koji blend — 25%"
+   },
+   "赤江": {
+    "name_en": "Akae",
+    "specs_en": "White koji, Murasakimasari potatoes — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:watanabe-shuzojo": {
+  "tagline_en": "Eighty percent home-grown — terroir shochu with wild yeasts.",
+  "desc_en": "Watanabe Shuzojo, founded in 1914, is the only kura in the Tano district of Miyazaki. Fourth-generation head Koichiro Watanabe grows Koganesengan on three hectares of the house's own fields — about eighty percent of its ingredients — and brews on the theme of sake from the land that makes it: soil left on the potatoes, wild yeasts and native microbes at work, and about three years of rest before release.",
+  "features_en": [
+   "~80% ingredient self-sufficiency",
+   "Wild yeasts and native microbes",
+   "About three years maturation"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kyoya-shuzo": {
+  "tagline_en": "Organic imo shochu from century-old pots and a Cornish boiler.",
+  "desc_en": "Kyoya Shuzo, founded in 1834 in Nichinan, brews with equipment that is itself a museum — clay pots over a century old and a rare Cornish boiler. It holds JAS organic certification through its own farming subsidiary, designs low-alcohol releases for newcomers, and thinks in food pairings.",
+  "features_en": [
+   "180+ years in Nichinan",
+   "JAS organic through its own farm company",
+   "Century-old pots, rare Cornish boiler"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:oura-shuzo": {
+  "tagline_en": "A monk-turned-distiller's family kura, making rare brown-rice shochu.",
+  "desc_en": "Oura Shuzo of Miyakonojo, founded in 1909, is a small family kura whose fourth-generation head Shinichi Oura came to distilling from life as a Buddhist monk. Koji is made by hand with wooden boxes and futon in the old way, fermentation runs in clay pots, and its brown-rice shochu — developed in 1975 — is made by only a couple of kura in all Japan. A glass wall lets visitors watch the work.",
+  "features_en": [
+   "Hand koji with boxes and futon",
+   "Rare brown-rice shochu (since 1975)",
+   "Glass-walled works open to view"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:sato-shochu": {
+  "tagline_en": "Clay pots by the Hourigawa, with both stills at its command.",
+  "desc_en": "Sato Shochu Seizojo, founded in 1905 on the Hourigawa river in Nobeoka, keeps clay-pot brewing while commanding both atmospheric and vacuum distillation. Ingredients come from local farmers through its Kirari-kai circle, and the house extends into peach and chestnut liqueurs. Tours through the glass windows for up to 100, booked a month ahead.",
+  "features_en": [
+   "Clay-pot brewing since 1905",
+   "Both atmospheric and vacuum stills",
+   "Local Kirari-kai farmers' circle"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:furusawa-jozo": {
+  "tagline_en": "Four grains, one earthen kura, and a woman at the helm.",
+  "desc_en": "Furusawa Jozo, founded in 1892 in Nichinan, is led by fifth-generation head Masako Furusawa. In its earthen-walled kura the house keeps to natural fermentation and the old ways, distilling all four classic styles — sweet potato, barley, rice and buckwheat — plus the women-focused YAEZAKURA -SEN- brand.",
+  "features_en": [
+   "Earthen kura, natural fermentation",
+   "All four classic shochu styles",
+   "Led by a woman of the fifth generation"
+  ],
+  "brands_en": {
+   "YAEZAKURA -SEN-": {
+    "name_en": "YAEZAKURA -SEN-",
+    "specs_en": "Modern brand"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kagura-shuzo": {
+  "tagline_en": "Kurouma barley shochu, cask-aged inside a railway tunnel.",
+  "desc_en": "Kagura Shuzo, based since 1954 in the myth-country of Takachiho, turned from sake to honkaku shochu and built its name on Kurouma — 100% Japanese barley. Its casks sleep inside a disused railway tunnel at the Tunnel no Eki facility, open for visits and shopping; the imo shochu Tenson Korin honours Takachiho's founding myth.",
+  "features_en": [
+   "Kurouma: 100% Japanese barley",
+   "Cask ageing in a rail tunnel — Tunnel no Eki",
+   "In the myth-country of Takachiho"
+  ],
+  "brands_en": {
+   "くろうま": {
+    "name_en": "Kurouma",
+    "specs_en": "Barley shochu — 100% Japanese barley"
+   },
+   "天孫降臨": {
+    "name_en": "Tenson Korin",
+    "specs_en": "Imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:osuzuyama-joryusho": {
+  "tagline_en": "Yamaneko, Yamazaru, Yamasemi — mountain spirits from cedar vats.",
+  "desc_en": "Osuzuyama Distillery, founded in 1998 as Kuroki Honten's mountain kura, sits thirty minutes into the hills above Takanabe. Ultra-soft mountain spring water, hand-made koji and wooden vessels of local Obi cedar shape its animal-named spirits — Yamaneko (wildcat, sweet potato), Yamazaru (monkey, barley) and Yamasemi (kingfisher, rice) — handwork no machine could copy.",
+  "features_en": [
+   "Kuroki Honten's mountain distillery",
+   "Ultra-soft spring water and Obi cedar vats",
+   "Hand-made koji throughout"
+  ],
+  "brands_en": {
+   "山ねこ": {
+    "name_en": "Yamaneko (Wildcat)",
+    "specs_en": "Imo shochu — Joy White potatoes, 25%"
+   },
+   "山猿": {
+    "name_en": "Yamazaru (Monkey)",
+    "specs_en": "Barley shochu — 25%"
+   },
+   "山翡翠": {
+    "name_en": "Yamasemi (Kingfisher)",
+    "specs_en": "Rice shochu — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kawagoe-shuzojo": {
+  "tagline_en": "Experience and instinct — a 19th-generation toji, three bottles, no tours.",
+  "desc_en": "Kawagoe Shuzojo, founded at the end of the Edo period in Kunitomi, brews by the experience and instinct of nineteenth-generation toji Masahiro Kawagoe. Taisho-era clay pots set into the ground still hold the mash, atmospheric distillation keeps the potato and rice character intact, and every bottle is filled, checked and labelled by hand. Just three labels, sold only through trusted merchants; no tours.",
+  "features_en": [
+   "19th-generation toji, all handwork",
+   "Taisho-era buried clay pots",
+   "Three labels, limited distribution"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:sakuranogo-shuzo": {
+  "tagline_en": "Obi cedar vats and gentle vacuum-distilled shochu in Nichinan.",
+  "desc_en": "Sakuranomine Shuzo, founded in 1877 in Nichinan and led by seventh-generation head Akashi Hashimoto, brews small: clay pots and Obi cedar vats eighty to a hundred years old, with vacuum distillation lending a mellow nose and soft mouthfeel. Seasonal releases and a 40-degree long-aged expression reward the curious.",
+  "features_en": [
+   "80–100-year-old Obi cedar vats",
+   "Vacuum distillation, soft and mellow",
+   "Seventh-generation family kura"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:akugare-joryusho": {
+  "tagline_en": "Shochu is raised, not made — small batches on Mimikawa water.",
+  "desc_en": "Akugare Distillery in Hyuga, founded in 2004 as Tominotsuyu Shuzo and renamed in 2015, brews in clay pots in small volumes under toji Toyofumi Yamamoto, who holds that shochu is something you raise, not make. Contract-grown Koganesengan and Daichi no Yume potatoes meet the subsoil water of the Mimikawa. Tours by reservation during the August–December brewing season.",
+  "features_en": [
+   "Clay-pot small-batch brewing",
+   "Mimikawa subsoil water",
+   "Season tours by reservation"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:ikoma-kogen-shuzo": {
+  "tagline_en": "A 22-degree original from the Ikoma highlands.",
+  "desc_en": "Ikoma Kogen Shuzo was established in 1998 when Akashi Shuzo carried on the licence of Ebihara Shuzo. Its shochu is produced at Akashi's works, led by a signature quirk: a 22-degree strength, deliberately between the standard 20 and 25, in service of local tourism and farming.",
+  "features_en": [
+   "Of the Akashi Shuzo family",
+   "Signature 22-degree strength"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:suki-shuzo": {
+  "tagline_en": "New wood, old pots — kura-born yeasts in the mountains of Suki.",
+  "desc_en": "Suki Shuzo, founded in 1890 in the mountains near the Kumamoto border, draws fine groundwater from 120 metres down and still ferments in pots more than 160 years old. The toji manages hand-made koji himself — and designs the labels too — while a newly built wooden kura nurtures the house's own resident yeasts. Tours and tastings by reservation.",
+  "features_en": [
+   "160-year-old pots, water from 120m",
+   "New wooden kura raising house yeasts",
+   "Toji-designed labels"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:masaharu-shuzo": {
+  "tagline_en": "Aisome — an idea at 23, perfected over fifteen years.",
+  "desc_en": "Masaharu Shuzo of Saito — renamed Yamaya Distillery in 2022 from Meiji-era roots — brews under fifth-generation president Yuto Kuroki to the creed that shochu is local sake, raised from this land's crops, water and air. Local Koganesengan meets the soft (hardness 34) Shimizugane spring; the signature Aisome was conceived when its maker was 23 and took fifteen years to complete. Tours are welcomed.",
+  "features_en": [
+   "Shimizugane spring water, hardness 34",
+   "Local Koganesengan potatoes",
+   "Aisome: fifteen years in the making"
+  ],
+  "brands_en": {
+   "逢初": {
+    "name_en": "Aisome",
+    "specs_en": "White koji imo shochu — 25%"
+   },
+   "正春": {
+    "name_en": "Masaharu",
+    "specs_en": "Black koji gold — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:miyakonojo-shuzo": {
+  "tagline_en": "Good shochu, honest prices — the people's kura of Miyakonojo.",
+  "desc_en": "Miyakonojo Shuzo, founded in 1956, brews to a plain motto: better shochu, more affordable. Its range spans sweet potato, barley, rice, buckwheat and sesame, and the company extends into hydroponic vegetables and food franchising through its M's Garden farming arm.",
+  "features_en": [
+   "Shochu for the everyday table",
+   "Five ingredient styles",
+   "Farming arm M's Garden"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:inoue-shuzo": {
+  "tagline_en": "Japan's first fully vacuum-distilled imo shochu — and caviar on the side.",
+  "desc_en": "Inoue Shuzo, founded in 1894 amid the Obi cedar forests of Nichinan, developed Japan's first 100% vacuum-distilled imo shochu in 1983. It brews sweet potato, barley, buckwheat and rice shochu with the Yowara spring — chosen among Miyazaki's 21 famous waters in 1993 — and, remarkably, farms sturgeon for caviar as well.",
+  "features_en": [
+   "Japan's first fully vacuum-distilled imo shochu (1983)",
+   "Yowara spring, a Miyazaki famous water",
+   "Sturgeon farming and caviar besides"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:miyata-honten": {
+  "tagline_en": "From vinegar maker to shochu kura — floor koji by a woman toji.",
+  "desc_en": "Miyata Honten began in 1804 as a vinegar brewer, turning to shochu in 1921. The house makes koji entirely by hand in the traditional floor method and distils at atmospheric pressure; the koji moulds resident in the old kura give its shochu a taste that belongs to this building alone. Chikako Miyata — the '7.5th' generation — serves as toji.",
+  "features_en": [
+   "Founded 1804; shochu since 1921",
+   "Hand floor-koji method",
+   "Resident kura microbes; woman toji"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:takachiho-shuzo": {
+  "tagline_en": "All-koji black-koji barley shochu — and a corn shochu — in myth country.",
+  "desc_en": "Takachiho Shuzo, founded in 1902 as Tamanotsuyu Shuzo and renamed in 1976, makes barley shochu its main line (60% of production) in a distinctive style: black koji, all-koji mash, atmospheric distillation. Imo shochu and the corn shochu Kariboshi widen the range, and by-products return to livestock feed and aquaculture.",
+  "features_en": [
+   "Black-koji all-koji barley shochu",
+   "Corn shochu among its originals",
+   "By-products recycled to feed and aquaculture"
+  ],
+  "brands_en": {
+   "刈干": {
+    "name_en": "Kariboshi",
+    "specs_en": "Corn shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:matsunotsuyu-shuzo": {
+  "tagline_en": "Mellow imo shochu below Obi castle, on the Sakatani River.",
+  "desc_en": "Matsunotsuyu Shuzo brews on the Sakatani River below the castle town of Obi, chasing shochu that keeps the sweet potato's aroma and umami in an easy, rounded pour. An early adopter of automated koji equipment, it pairs the machines with traditional technique for consistent quality.",
+  "features_en": [
+   "Below the castle town of Obi",
+   "Tradition plus early automation"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:akatsuki-shuzo": {
+  "tagline_en": "Nothing has changed — rice shochu held to the old strength.",
+  "desc_en": "Akatsuki Shuzo of Takachiho, founded in 1934 as a sake brewer, now devotes itself to rice shochu alone. Its spirit rests about eighteen months before shipping, offered at 20, 25 and 35 degrees — the 25 most loved — made by methods the house proudly says have never changed. No tours.",
+  "features_en": [
+   "Rice shochu only",
+   "About 18 months maturation",
+   "Methods unchanged"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:himeizumi-shuzo": {
+  "tagline_en": "Unfiltered shochu raised by the yeasts living in a 130-year kura.",
+  "desc_en": "Himeizumi Shuzo, founded in 1831 in Hinokage near Takachiho, is run by its seventh generation. It refuses filtration, keeping the spirit's native umami whole, and credits the resident yeasts of its 130-year-old buildings for a flavour nobody could copy. Barley, sweet potato, buckwheat and glutinous rice all pass through its stills, on spring water from across the river.",
+  "features_en": [
+   "Unfiltered by principle",
+   "Resident kura yeasts",
+   "Founded 1831"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:iwakura-shuzojo": {
+  "tagline_en": "Same-day potatoes, well water, and every label glued by hand.",
+  "desc_en": "Iwakura Shuzojo in Saito is a small fourth-generation family kura that processes its local sweet potatoes the very day they are dug, brewing with well water alone. Everything from washing and sorting to labelling is done by hand, and the bottles go straight to trusted merchants with no wholesaler between — its signature pours with the gentle sweetness of a steamed sweet potato.",
+  "features_en": [
+   "Potatoes processed on harvest day",
+   "All handwork, family scale",
+   "Direct sales to trusted merchants only"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:otemon-shuzo": {
+  "tagline_en": "High-temperature fermentation and labels of tatami and rubber.",
+  "desc_en": "Otemon, founded in 1895 as a family shop in the castle town of Obi, brews by its own high-temperature fermentation method — drawing each ingredient's character out rather than blending it in afterwards. Its five product lines trace the life of Miyamoto Musashi, wrapped by an in-house design team in labels of unexpected materials, tatami and rubber among them.",
+  "features_en": [
+   "Original high-temperature fermentation",
+   "Musashi-themed five-line range",
+   "In-house design team, unconventional labels"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:sakuranosato-shuzo": {
+  "tagline_en": "Five thousand clay pots in a red-brick tower — and a shochu dojo.",
+  "desc_en": "Sakuranosato Shuzo, founded in 1994 as a subsidiary of Inoue Shuzo, matures its shochu three years and more in some 5,000 clay pots stacked through a three-storey red-brick warehouse, marrying computer control with human judgement. Its Shochu Dojo — a recreation of a Meiji-era kura — offers tours, hands-on experiences and even original blending, on spring water of the Inohae gorge.",
+  "features_en": [
+   "~5,000 clay pots, 3+ years maturation",
+   "Shochu Dojo visitor hall with blending",
+   "Inohae gorge spring water"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:shochu-nichinan": {
+  "tagline_en": "Five Nichinan kura and a 12-degree toast for the city's kanpai law.",
+  "desc_en": "The Shochu Nichinan Cooperative, formed in 1984, unites five local houses — Kyoya, Kodama, Sakuranomine, Furusawa and Matsunotsuyu. Its 12-degree Kanpai Nichinan was created for the city's 2013 toast ordinance: a mellow, low-strength shochu built for Nichinan's table.",
+  "features_en": [
+   "Cooperative of five Nichinan kura",
+   "12-degree shochu for the city's toast ordinance"
+  ],
+  "brands_en": {
+   "乾杯日南": {
+    "name_en": "Kanpai Nichinan",
+    "specs_en": "12-degree shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kozo-shuzo": {
+  "tagline_en": "Pots half-buried in volcanic ash, every step by hand.",
+  "desc_en": "Kozo Shuzo of Kushima, founded in 1919 and renamed in 2003, works entirely by hand — mash, fermentation, distillation and bottling — in unglazed clay pots sunk halfway into the volcanic-ash earth. Yeasts living in the kura's old wooden walls round the spirit, brewed from on-site spring water and local ingredients. No tours.",
+  "features_en": [
+   "Pots half-buried in volcanic ash soil",
+   "Every process by hand",
+   "Resident wall yeasts"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:shoro-shuzo": {
+  "tagline_en": "Farmers' shochu — rich and strong, from a kura its growers own.",
+  "desc_en": "Shoro Shuzo began in 1928 as the Ubagasako shochu venture of about ten local farming families, taking its present name in 1971. Under third-generation head Shoji Yano it refuses the light modern style, distilling full-bodied, robust imo shochu on volcanic-ash-filtered groundwater with the kura's own yeasts. Its toji still farms — entering the kura only for the September–December brewing season.",
+  "features_en": [
+   "Founded by ten farming families",
+   "Rich, robust old-style imo shochu",
+   "A toji who farms the rest of the year"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:kodama-jozo": {
+  "tagline_en": "An 1818 Obi kura reborn in 2001, brewed by a farm-school toji.",
+  "desc_en": "Kodama Jozo, founded in 1818 in the castle town of Obi and revived in 2001, brews in small volumes under toji Junpei Kanamaru, trained at Tokyo University of Agriculture, who moves between hand-made koji and machine as each batch demands. Miyazaki Beni and Koganemasari potatoes go into bottles the house calls one soul at a time. No tours.",
+  "features_en": [
+   "Founded 1818, revived 2001",
+   "Agricultural-university-trained toji",
+   "Small, deliberate production"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "miyazaki:jukai-shuzo": {
+  "tagline_en": "Five century-old kura in one, feeding its lees back to the land.",
+  "desc_en": "Jukai Shuzo was formed in 1985 when five distilleries — each with over a century of history — merged into a cooperative in Kushima. Miyazaki Beni red sweet potatoes and spring water rising on the grounds give a soft, sweetly fragrant pour, and the lees feed livestock in a working circular farm system.",
+  "features_en": [
+   "Five historic kura merged (1985)",
+   "Miyazaki Beni potatoes and on-site spring",
+   "Circular farming with shochu lees"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:ikinohana": {
+  "tagline_en": "Iki no Hana — atmospheric stills on the island where barley shochu began.",
+  "desc_en": "Iki no Hana was founded in 1900 when Kasuke Nagata crossed from Kokura to Iki — the island recognised by GI Iki as the birthplace of barley shochu, five centuries deep in the craft. The house holds to atmospheric distillation and patient maturation for its fragrant island shochu. Tours 9:00–17:00, groups by reservation.",
+  "features_en": [
+   "GI Iki certified",
+   "Atmospheric distillation and long maturation",
+   "Founded 1900"
+  ],
+  "brands_en": {
+   "壱岐の華": {
+    "name_en": "Iki no Hana",
+    "specs_en": "Barley shochu — 25%"
+   },
+   "初代嘉助": {
+    "name_en": "Shodai Kasuke",
+    "specs_en": "Atmospheric-distilled, named for the founder"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:ikinokura": {
+  "tagline_en": "Six island houses, one kura — tradition with flower yeasts and FSSC certification.",
+  "desc_en": "Iki no Kura Shuzo was formed in 1984 by the full cooperation of six Iki brewing companies. Keeping the island's 16th-century technique, it experiments freely — vacuum distillation, flower-yeast brewing — and holds FSSC 22000 food-safety certification (2019) under GI Iki. Tours by reservation.",
+  "features_en": [
+   "Six companies merged, GI Iki certified",
+   "Flower yeasts and vacuum distillation",
+   "FSSC 22000 certified (2019)"
+  ],
+  "brands_en": {
+   "壱岐の島": {
+    "name_en": "Iki no Shima",
+    "specs_en": "Barley shochu — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:genkai": {
+  "tagline_en": "Iki — the standard-bearer of the island's 500-year barley shochu.",
+  "desc_en": "Genkai Shuzo, founded in 1900, is the flag-carrier of GI Iki barley shochu, heir to the island's five-hundred-year tradition. Its Mugi Shochu Iki won Monde Selection honours eleven years running from 2002, crowned by the Crystal Prestige Trophy in 2011; the Super Gold editions rest in white-oak casks.",
+  "features_en": [
+   "GI Iki's representative kura",
+   "11 straight Monde Selection awards",
+   "White-oak-aged Super Gold line"
+  ],
+  "brands_en": {
+   "むぎ焼酎壱岐": {
+    "name_en": "Mugi Shochu Iki",
+    "specs_en": "Barley shochu — 25%"
+   },
+   "壱岐スーパーゴールド22": {
+    "name_en": "Iki Super Gold 22",
+    "specs_en": "White-oak cask aged — 22%"
+   },
+   "壱岐スーパーゴールド33": {
+    "name_en": "Iki Super Gold 33",
+    "specs_en": "White-oak cask aged — 33%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:omoya": {
+  "tagline_en": "Ninety percent island-grown, clay-pot brewed — and a sake revival by two brothers.",
+  "desc_en": "Omoya Shuzo, founded in 1924 by Kakuzo Yokoyama, brews GI Iki shochu from more than 90% Iki-grown ingredients in traditional clay pots, switching between white and black koji. Brothers run the house — Yuzo as shochu toji, Taizo as sake toji — and in 2018 they revived sake brewing on the island after some thirty years with their Yokoyama label.",
+  "features_en": [
+   "90%+ Iki-grown ingredients, clay-pot brewed",
+   "GI Iki certified",
+   "Sake brewing revived in 2018 by the brothers"
+  ],
+  "brands_en": {
+   "雪州": {
+    "name_en": "Sesshu",
+    "specs_en": "Iki barley and rice — 25%"
+   },
+   "御島裸": {
+    "name_en": "Mishima Hadaka",
+    "specs_en": "Rare Nagasaki-only barley variety — 25%"
+   },
+   "ちんぐ": {
+    "name_en": "Chingu",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:amanogawa": {
+  "tagline_en": "Amanogawa — the Milky Way, aged long over atmospheric stills.",
+  "desc_en": "Amanogawa Shuzo, founded in 1912 under GI Iki, holds to atmospheric distillation for barley shochu rich in grain aroma, then lets time do its work: twelve- and fifteen-year maturations, ten years in clay pots for one bottling, and an oak-aged Monkey Rock for the adventurous.",
+  "features_en": [
+   "Atmospheric distillation, GI Iki",
+   "12- and 15-year aged expressions",
+   "Oak-aged Monkey Rock"
+  ],
+  "brands_en": {
+   "天の川": {
+    "name_en": "Amanogawa (Milky Way)",
+    "specs_en": "Atmospheric-distilled, aged 2 years — 25%"
+   },
+   "モンキーロック": {
+    "name_en": "Monkey Rock",
+    "specs_en": "Oak-cask aged — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:sarukawa_izu": {
+  "tagline_en": "Sacred spring water and ultrasonic ageing on the Sarukawa riverbank.",
+  "desc_en": "Sarukawa Izu Shuzo, founded in 1903 on the banks of the Sarukawa, brews GI Iki shochu with spring water so clear it has long been called the water of the gods. Two-thirds barley to one-third rice koji, atmospheric distillation, the founding recipe unchanged — plus one modern twist: the industry's first ultrasonic maturation.",
+  "features_en": [
+   "The sacred Sarukawa spring",
+   "Founding recipe unchanged since 1903",
+   "Industry-first ultrasonic maturation"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:yamanomori": {
+  "tagline_en": "Iki's oldest kura — clay pots for both mashes, each one unique.",
+  "desc_en": "Yamanomori Shuzojo, founded in 1899, is the oldest kura on Iki, and the only one on the island to run both first and second mash in clay pots — hand-made vessels from the founding era, each of a slightly different size. Gold at the Fukuoka bureau appraisal (2012) crowns its GI Iki craft.",
+  "features_en": [
+   "Iki's oldest kura (1899)",
+   "Clay pots for both mashes — unique on the island",
+   "Fukuoka appraisal gold (2012)"
+  ],
+  "brands_en": {
+   "山乃守": {
+    "name_en": "Yamanomori",
+    "specs_en": "Clay-pot brewed, atmospheric-distilled — 25%"
+   },
+   "山桜": {
+    "name_en": "Yamazakura",
+    "specs_en": "Ultrasonic-matured — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:fukuda": {
+  "tagline_en": "Jagatara Oharu — shochu with a trading-port story, at Japan's western edge.",
+  "desc_en": "Fukuda Shuzo, founded in 1688 in Hirado and purveyor to the Hirado domain, is the westernmost brewery on Japan's main islands. Beside its sake Fukutsuru it distils shochu with names straight from Hirado's trading-port history — Jagatara Oharu, for the exiled girl of the Jakarta letters, and Kapitan, for the Dutch traders' chief.",
+  "features_en": [
+   "Founded 1688 at Japan's western edge",
+   "Purveyor to the Hirado domain",
+   "Labels from trading-port history"
+  ],
+  "brands_en": {
+   "じゃがたらお春": {
+    "name_en": "Jagatara Oharu",
+    "specs_en": "Barley shochu"
+   },
+   "かぴたん": {
+    "name_en": "Kapitan",
+    "specs_en": "Shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:mori": {
+  "tagline_en": "Hiran — Hirado terroir from the old Komatsuya trading house.",
+  "desc_en": "Mori Shuzojo was founded in 1895 by Kokichi Mori under the shop name Komatsuya, in Hirado's old international port. The fourth-generation head brews to a theme of continuity and connection, expressing Hirado's terroir with spring water of Saikyoji temple and local rice — in the sake Hiran, named for Hirado's ancient name, and its shochu.",
+  "features_en": [
+   "Founded 1895 in the old port of Hirado",
+   "Saikyoji spring water and local rice",
+   "Hiran: Hirado's old name"
+  ],
+  "brands_en": {
+   "飛鸞": {
+    "name_en": "Hiran",
+    "specs_en": "Sake — named for old Hirado"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:umegae": {
+  "tagline_en": "Shochu, sake and gin inside seven cultural-property buildings.",
+  "desc_en": "Umegae Shuzo, founded in 1787 in Sasebo, still works inside its Edo-period buildings — seven of them registered National Tangible Cultural Properties. The house makes sake, shochu, liqueurs and a Japanese gin; its Ginta shochu is a two-time consecutive gold winner. Tours by reservation, with kura-opening festivals twice a year.",
+  "features_en": [
+   "Seven cultural-property buildings in use",
+   "Sake, shochu, liqueur and gin",
+   "Two kura festivals a year"
+  ],
+  "brands_en": {
+   "ぎんた": {
+    "name_en": "Ginta",
+    "specs_en": "Two consecutive gold awards"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:imazato": {
+  "tagline_en": "250 years in Hasami, brewing Rokujuyoshu for all of Japan.",
+  "desc_en": "Imazato Shuzo, founded in 1772 in the porcelain town of Hasami, has brewed for a quarter-millennium in buildings that remember it — six are registered cultural properties, the main and middle kura dating near the founding. Its label Rokujuyoshu means the sixty-odd provinces: a sake, and shochu, meant for the whole country.",
+  "features_en": [
+   "Founded 1772 — ~250 years",
+   "Six cultural-property buildings",
+   "Rokujuyoshu: named for all Japan's provinces"
+  ],
+  "brands_en": {
+   "六十餘洲": {
+    "name_en": "Rokujuyoshu",
+    "specs_en": "The house label — named for Japan's sixty-odd provinces"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:kinokawa": {
+  "tagline_en": "Isahaya's only kura, pouring at its Yokayoka factory shop.",
+  "desc_en": "Kinokawa, founded in 1839, is the only brewery in Isahaya — more than 180 years under its creed of raising good people and good sake, brewing with local ingredients and Kumamoto yeast. In 2023 it opened the Yokayoka factory shop at the kura.",
+  "features_en": [
+   "Isahaya's only kura since 1839",
+   "Local ingredients, Kumamoto yeast",
+   "Yokayoka factory shop (2023)"
+  ],
+  "brands_en": {
+   "杵の川": {
+    "name_en": "Kinokawa",
+    "specs_en": "The house label"
+   },
+   "黎明": {
+    "name_en": "Reimei",
+    "specs_en": "Junmai daiginjo and junmai ginjo"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:oshima": {
+  "tagline_en": "A town-built kura growing its own red sweet potatoes by the sea.",
+  "desc_en": "Oshima Shuzo was founded in 1985 as a third-sector venture of Saikai city, the farm and fishery cooperatives and private partners, to bring life to the island town. It grows its own red sweet potatoes from planting to harvest, brews by hand — and in 2018 raised a new kura with modern equipment. Brandy-cask-aged barley shochu and first-run bottlings colour the range.",
+  "features_en": [
+   "Third-sector kura, founded 1985",
+   "Grows its own red sweet potatoes",
+   "New kura built 2018"
+  ],
+  "brands_en": {
+   "磨き大島": {
+    "name_en": "Migaki Oshima",
+    "specs_en": "Ginjo-style imo shochu, red sweet potatoes"
+   },
+   "529": {
+    "name_en": "529",
+    "specs_en": "Brandy-cask-aged barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:kubo": {
+  "tagline_en": "The phantom barley shochu — micro-vacuum stills and four years' patience.",
+  "desc_en": "Kubo Shuzojo, founded in 1907, is a small family kura using only Isahaya-grown barley. Its invention is a distillation between atmospheric and vacuum — micro-vacuum — and its discipline is time: four years and more in stainless tanks before release. The soft, mellow result has earned its label the nickname of the phantom barley shochu.",
+  "features_en": [
+   "Original micro-vacuum distillation",
+   "4+ years maturation",
+   "Only Isahaya-grown barley"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:gotonadashuzou": {
+  "tagline_en": "Nagasaki's only imo shochu kura — farming and distilling as one.",
+  "desc_en": "Gotonada Shuzo, founded in 2007 in Shin-Kamigoto, is the only imo shochu kura in Nagasaki Prefecture. Its banner is noujo-goitsu — farming and brewing as one: 100% of its sweet potatoes are grown on Kamigoto, on its own farm and by contract growers, in a circular system that even revives heirloom varieties like the native Kinboke.",
+  "features_en": [
+   "Nagasaki's only imo shochu kura",
+   "100% Kamigoto-grown potatoes",
+   "Reviving the heirloom Kinboke variety"
+  ],
+  "brands_en": {
+   "五島灘 紅さつま": {
+    "name_en": "Gotonada Benisatsuma",
+    "specs_en": "White koji, Benisatsuma potatoes — 25%"
+   },
+   "五島灘 黒麹": {
+    "name_en": "Gotonada Black Koji",
+    "specs_en": "Koganesengan — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:gotoretto": {
+  "tagline_en": "Everything island-grown — barley and imo shochu of Fukue.",
+  "desc_en": "Goto Retto Shuzo, established in 2008, is Fukue Island's only honkaku shochu maker, shipping since July 2009. Its creed is simple: every ingredient island-raised. Goto barley, Goto sweet potatoes and spring water of the Nanatake range fill its Goto Mugi — aged over two years — and Goto Imo. Tours by reservation.",
+  "features_en": [
+   "Fukue Island's only shochu kura",
+   "All ingredients island-grown",
+   "Nanatake spring water"
+  ],
+  "brands_en": {
+   "五島麦": {
+    "name_en": "Goto Mugi",
+    "specs_en": "Goto two-row barley, aged 2+ years — 25%"
+   },
+   "五島芋": {
+    "name_en": "Goto Imo",
+    "specs_en": "Goto sweet potatoes"
+   },
+   "五島椿": {
+    "name_en": "Goto Tsubaki",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:muhyo": {
+  "tagline_en": "Three iTi stars, three years running, from a hillside above the sea.",
+  "desc_en": "Muhyo Shuzo, established around 1990 on the Sotome hills of Nagasaki, brews clay-pot imo and barley shochu. Its barley shochu — from Isahaya-grown Nishinohoshi — took three stars at the International Taste Institute three years running, a Crystal award in 2019 and the Diamond taste award in 2024, with red- and purple-potato companions in its series.",
+  "features_en": [
+   "Clay-pot brewing above the Sotome coast",
+   "iTi three stars, three years running",
+   "Diamond taste award 2024"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:yamasaki": {
+  "tagline_en": "A hundred drinks from the Unzen springs, distilling since 1702.",
+  "desc_en": "Yamasaki Honten Shuzojo, founded in 1688 in Shimabara, has devoted itself to brewing since 1884 and first distilled shochu as early as 1702. On the famous spring waters of Unzen it now makes more than a hundred products — sake, shochu and liqueurs — with an IWC 2012 award among its honours.",
+  "features_en": [
+   "Founded 1688; shochu since 1702",
+   "Unzen spring water",
+   "100+ products; IWC 2012 honours"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:aimusume": {
+  "tagline_en": "Hand-made sake and shochu at the water place below Unzen.",
+  "desc_en": "Aimusume Shuzo, founded in 1873 in Aino — the town on the western Shimabara Peninsula long called the place of water — has brewed by hand for over 150 years at the foot of Unzen, making both sake and shochu on the mountain's clear springs.",
+  "features_en": [
+   "150+ years below Unzen",
+   "Sake and shochu, hand-made"
+  ],
+  "brands_en": {
+   "あい娘": {
+    "name_en": "Aimusume",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:kawachi": {
+  "tagline_en": "Tsushima Yamaneko — the island's only kura, named for its wildcat.",
+  "desc_en": "Kawachi Shuzo, founded in 1919 and renamed Shiratake Shuzo in October 2023, is the only brewery on Tsushima, making sake, shochu and liqueurs for about a century. Its Tsushima Yamaneko blends barley and rice shochu 80:20 — a rare recipe whose name winks at the island's wildcat and at old slang for moonshine — while the sake Shiratake holds three straight national golds.",
+  "features_en": [
+   "Tsushima's only brewery",
+   "Yamaneko: a rare 80:20 barley-rice blend",
+   "Sake Shiratake: three straight national golds"
+  ],
+  "brands_en": {
+   "対馬やまねこ": {
+    "name_en": "Tsushima Yamaneko",
+    "specs_en": "Barley 80% / rice 20% blend — 25%"
+   },
+   "白嶽": {
+    "name_en": "Shiratake",
+    "specs_en": "Sake — three straight national golds"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "nagasaki:yoshidaya": {
+  "tagline_en": "Ninety koku a year, pressed on a hanging beam — with a café at the kura.",
+  "desc_en": "Yoshidaya, founded in 1912 in Minamishimabara, brews about ninety koku a year — tiny even by craft standards — and presses its sake by the hanegi method, a hanging wooden beam almost vanished from Japan. Flower yeasts from Tokyo University of Agriculture colour the brewing, and cafe kULa (opened 2023) serves visitors, closed Tuesdays.",
+  "features_en": [
+   "~90 koku — an ultra-small kura",
+   "Rare hanegi beam pressing",
+   "cafe kULa at the brewery"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "nara:nara_kasugayama": {
+  "tagline_en": "A leek shochu, a sweet-potato dream — Nara's playful distiller.",
+  "desc_en": "Nara Kasugayama Shuzo, founded in 1877 and renamed from Yagi Shuzo in 2022, makes sake, shochu, mirin, liqueurs and spirits at the foot of the Kasuga hills. Its shochu bench is unusually playful: a Yamato barley shochu, a sweet-potato shochu — and even a green-onion shochu. Direct sales at the kura.",
+  "features_en": [
+   "Founded 1877 in Nara",
+   "Barley, sweet potato — even leek shochu",
+   "Direct sales at the kura"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "niigata:hakkaisan": {
+  "tagline_en": "Rice shochu brewed like Hakkaisan sake — three stages, yellow koji.",
+  "desc_en": "Hakkaisan Brewery turns its sake technique directly into shochu: its rice shochu Yoroshiku Senman Arubeshi is built on a three-stage sake mash with sake yeast and yellow koji, vacuum-distilled and rested over two years. Tours at the company's Uonuma no Sato complex.",
+  "features_en": [
+   "Sake-style three-stage mash",
+   "Yellow koji and sake yeast",
+   "2+ years maturation; Uonuma no Sato visits"
+  ],
+  "brands_en": {
+   "よろしく千萬あるべし": {
+    "name_en": "Yoroshiku Senman Arubeshi",
+    "specs_en": "Rice shochu on a sake-style mash"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:sanwa-shurui": {
+  "tagline_en": "iichiko — the barley shochu that carried Oita to every izakaya in Japan.",
+  "desc_en": "Sanwa Shurui, founded in 1958 in Usa, is one of Japan's largest shochu makers and the house of iichiko, the barley shochu whose 1979 debut became a national phenomenon and made Oita mugi shochu a byword. Under its Quality First creed it selects barley and water exactingly, and runs the Hita Distillery and the Ajimu winery as a full-range drinks company.",
+  "features_en": [
+   "iichiko: the national barley shochu",
+   "One of Japan's largest shochu makers",
+   "Hita Distillery and Ajimu winery in the group"
+  ],
+  "brands_en": {
+   "いいちこ": {
+    "name_en": "iichiko",
+    "specs_en": "The definitive Oita barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:nikaido-shuzo": {
+  "tagline_en": "The inventor of all-barley shochu — eight generations in Hiji.",
+  "desc_en": "Nikaido Shuzo, founded in 1866 and now in its eighth generation, changed shochu history: it established barley-koji production in 1951, perfected an all-barley shochu in 1973 and launched it in 1974 — igniting the Oita mugi shochu boom. A 1979 agriculture ministry award crowned the achievement, and the Nikaido Art Museum stands beside the kura, brewing under the words of a heart that remembers home.",
+  "features_en": [
+   "Pioneer of all-barley shochu (1973)",
+   "Established barley-koji production in 1951",
+   "Nikaido Art Museum at the kura"
+  ],
+  "brands_en": {
+   "二階堂": {
+    "name_en": "Nikaido",
+    "specs_en": "All-barley shochu — the original"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:yotsuya-shuzo": {
+  "tagline_en": "Kanehachi — roasted-barley depth so loved it's hard to find.",
+  "desc_en": "Yotsuya Shuzo, founded in 1919 in Usa, names its famous shochu for founder Kanehachi Yotsuya. Atmospheric distillation draws out the barley's toasty aroma and dense umami — a flavour fans compare to chocolate-coated barley puffs — and demand has long outrun supply.",
+  "features_en": [
+   "Atmospheric distillation for roasted depth",
+   "The famously scarce Kanehachi"
+  ],
+  "brands_en": {
+   "兼八": {
+    "name_en": "Kanehachi",
+    "specs_en": "Atmospheric-distilled barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:fujii-jozo": {
+  "tagline_en": "Weight over ease — all-atmospheric, all-handwork since 1929.",
+  "desc_en": "Fujii Jozo of Bungo-Ono has made barley shochu entirely by hand since 1929. Its Tokujo Taimei, named for the second-generation toji, is 100% atmospheric-distilled — toasty, heavy, satisfying — a house that chooses drinkability last and character first.",
+  "features_en": [
+   "Complete handwork since 1929",
+   "100% atmospheric distillation",
+   "Substance over smoothness"
+  ],
+  "brands_en": {
+   "特蒸泰明": {
+    "name_en": "Tokujo Taimei",
+    "specs_en": "All-atmospheric barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:jotokuya-shuzojo": {
+  "tagline_en": "Local naked barley, two stills, and citrus liqueurs from Usa.",
+  "desc_en": "Jotokuya Shuzojo began as a sake kura in 1907, turned to shochu in 1984, and since 2003 has built its Jotokuya brand on fine local naked barley — offered clean from the vacuum still and fragrant from the atmospheric one. Kabosu liqueur and yuzu wine round out the house.",
+  "features_en": [
+   "Local naked barley",
+   "Both vacuum and atmospheric stills",
+   "Kabosu and yuzu on the side"
+  ],
+  "brands_en": {
+   "常徳屋": {
+    "name_en": "Jotokuya",
+    "specs_en": "Naked-barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:oimatsu-shuzo": {
+  "tagline_en": "Enma — long-aged barley shochu named for the king of hell.",
+  "desc_en": "Oimatsu Shuzo, founded in 1789 in the shogunal water town of Hita and now in its eleventh generation, began as a sake kura and took up shochu in 1970. Its Enma — named for the underworld's judge — is a long-aged barley shochu built on Hita's famous waters.",
+  "features_en": [
+   "Founded 1789 — eleventh generation",
+   "Enma: long-aged barley shochu",
+   "Hita's celebrated water"
+  ],
+  "brands_en": {
+   "閻魔": {
+    "name_en": "Enma",
+    "specs_en": "Long-aged barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:yatsushika-shuzo": {
+  "tagline_en": "Ginza no Suzume — sparrows of the night, distilled since 1864.",
+  "desc_en": "Yatsushika Shuzo, founded in 1864 in Kokonoe and seven generations on, brews sake, shochu and liqueurs. Its matured shochu Ginza no Suzume — the sparrows of Ginza — toasts the barflies who once talked away the Tokyo night, while the sake Yatsushika carries the house name.",
+  "features_en": [
+   "Founded 1864 — seven generations",
+   "Sake and shochu in one house"
+  ],
+  "brands_en": {
+   "銀座のすずめ": {
+    "name_en": "Ginza no Suzume",
+    "specs_en": "Matured honkaku shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:nakano-shuzo": {
+  "tagline_en": "Chiebijin's kura, drawing rice shochu from 200 metres down.",
+  "desc_en": "Nakano Shuzo, founded in 1874 in the castle town of Kitsuki, brews with mineral-rich water from 200 metres underground and local ingredients — local production for local tables. Its Chiebijin, named for the first landlady Chie, is acclaimed at home and abroad. Tours by reservation, 9:00–16:00.",
+  "features_en": [
+   "Water from 200m below Kitsuki",
+   "Chiebijin: honoured at home and abroad",
+   "Tours by reservation"
+  ],
+  "brands_en": {
+   "智恵美人": {
+    "name_en": "Chiebijin",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:kuge-honten": {
+  "tagline_en": "A lord's gift kura gone all-local, in UNESCO food town Usuki.",
+  "desc_en": "Kuge Honten was founded in 1860 when the lord Inaba Akimichi granted the family a brewing house. Aiming at sake and shochu with character that fits the local table, it switched all ingredients to Oita-grown — especially Usuki-grown — from 2021, a circular kura in a UNESCO Creative City of Gastronomy. Tours by reservation for up to thirty.",
+  "features_en": [
+   "Founded on a lord's grant, 1860",
+   "All Oita-grown ingredients since 2021",
+   "In UNESCO food town Usuki"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "oita:agataya-shuzo": {
+  "tagline_en": "Quality over quantity since 1712, in the Ajimu basin.",
+  "desc_en": "Agataya Shuzo, founded in 1712, is among the oldest houses in Oita. In the Ajimu basin — big temperature swings, clear spring water off Mt. Yufu — it carries sake technique into shochu with a plain rule: quality before volume. Tours by reservation, up to ten.",
+  "features_en": [
+   "Founded 1712 — among Oita's oldest",
+   "Mt. Yufu spring water",
+   "Quality before volume"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "oita:asahi-shuzo": {
+  "tagline_en": "Yaba Bijin — pure-rice shochu once judged the best in Japan.",
+  "desc_en": "Asahi Shuzo of Nakatsu, founded in 1935, is a rarity in Oita: a junmai (pure rice) shochu house. Its Yaba Bijin — named for the legend that the Yabakei gorge raises beauties — won the top honour at the 6th National Tax Agency appraisal in 1982, built on cool fermentation, gentle distillation and long rest.",
+  "features_en": [
+   "Rare Oita rice shochu specialist",
+   "Judged Japan's best at the 1982 appraisal",
+   "Cool ferment, gentle still, long rest"
+  ],
+  "brands_en": {
+   "耶馬美人": {
+    "name_en": "Yaba Bijin",
+    "specs_en": "Pure-rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:inoue-shuzo": {
+  "tagline_en": "Momosuke — shochu of the shogunal water town of Hita.",
+  "desc_en": "Inoue Shuzo, founded in 1804 in Hita — the old shogunal enclave famous for its waters — brews the sake Kado no I and the honkaku shochu Momosuke on the basin's famed springs.",
+  "features_en": [
+   "Founded 1804 in Hita",
+   "Famous Hita water"
+  ],
+  "brands_en": {
+   "百助": {
+    "name_en": "Momosuke",
+    "specs_en": "Honkaku barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:kuncho-shuzo": {
+  "tagline_en": "Five old kura in Mameda-machi, one dating to 1702.",
+  "desc_en": "Kuncho Shuzo, founded in 1932, brews inside the preserved merchant quarter of Mameda-machi in Hita — a nationally designated historic district. Its five kura buildings survive as they were, the oldest raised in 1702; sake, shochu and amazake flow from them, with the Kuncho Shukan shop open daily 9:00–16:30.",
+  "features_en": [
+   "In the Mameda-machi historic district",
+   "Five kura, the oldest from 1702",
+   "Kuncho Shukan brewery shop"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "oita:aso-honten": {
+  "tagline_en": "Bungo Fuji — hand-made sake and shochu under Mt. Yufu.",
+  "desc_en": "Aso Honten, founded in 1868 in the green spring-water country of Shonai in Yufu, makes sake and shochu by traditional handwork. Its Bungo Fuji takes the affectionate name of Mt. Yufu — Oita's own Fuji — with the shochu Aso Fujiko a local favourite.",
+  "features_en": [
+   "Founded 1868 under Mt. Yufu",
+   "Traditional handwork"
+  ],
+  "brands_en": {
+   "豊後富士": {
+    "name_en": "Bungo Fuji",
+    "specs_en": "Named for Mt. Yufu"
+   },
+   "麻生富士子": {
+    "name_en": "Aso Fujiko",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:kayashima-shurui": {
+  "tagline_en": "A merchant-house kura on the famous waters of Taketa.",
+  "desc_en": "Kayashima Shurui began operating in 2009 in Taketa, its merchant-style building set to the castle town's distinctive streetscape. On Taketa's famous spring water it distils a barley shochu of smooth mouthfeel and toasty umami in fine balance.",
+  "features_en": [
+   "Merchant-house kura in Taketa",
+   "Taketa famous spring water"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "oita:fujii-shuzo": {
+  "tagline_en": "The Manrikiya house — gold-medal sake and Bungo barley shochu.",
+  "desc_en": "Fujii Shuzo, founded in 1872 under the shop name Manrikiya in Notsu, Usuki, brews both sake and honkaku shochu. Its sake Ryubai takes gold at the appraisals almost yearly, while the shochus Manrikiya and Bungo carry the house name into the glass.",
+  "features_en": [
+   "Founded 1872 as Manrikiya",
+   "Near-annual appraisal golds for Ryubai"
+  ],
+  "brands_en": {
+   "龍梅": {
+    "name_en": "Ryubai",
+    "specs_en": "The gold-medal sake"
+   },
+   "萬力屋": {
+    "name_en": "Manrikiya",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:kotegawa-shuzo": {
+  "tagline_en": "Sorin sake and Hakuju shochu in a novelist's birthplace.",
+  "desc_en": "Kotegawa Shuzo has brewed by hand since 1855 in Usuki. Its 150-year white-walled storehouse is a registered cultural property, and the kura is the birthplace of novelist Yaeko Nogami. The sake Sorin — for the Christian daimyo — and the Oita barley shochu Hakuju lead the range. Tours by reservation.",
+  "features_en": [
+   "Hand brewing since 1855",
+   "Cultural-property storehouse; Nogami Yaeko's birthplace"
+  ],
+  "brands_en": {
+   "宗麟": {
+    "name_en": "Sorin",
+    "specs_en": "The house sake"
+   },
+   "白寿": {
+    "name_en": "Hakuju",
+    "specs_en": "Oita barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:kuramitsu-shuzo": {
+  "tagline_en": "Oita City's only kura, medalled from the IWC to the US.",
+  "desc_en": "Kuramitsu Shuzo, founded in 1864, is the only brewery in Oita City, brewing mainly from prefecture-grown Hinohikari rice. Its Soju holds gold at the US National Sake Appraisal, IWC silver and first place at the national liquor concours.",
+  "features_en": [
+   "Oita City's only kura",
+   "Golds and medals across three competitions"
+  ],
+  "brands_en": {
+   "双樹": {
+    "name_en": "Soju",
+    "specs_en": "The decorated house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:akamine-shuzojo": {
+  "tagline_en": "The kura of Kichiyomu-san, teller of Oita's tall tales.",
+  "desc_en": "Akamine Shuzojo, founded in 1868 in Notsu, Usuki, inherited its buildings from Kichiemon Hirota — the real man behind Kichiyomu-san, hero of Oita's beloved trickster tales. More than 150 years on, the house distils the honkaku shochu Dotton.",
+  "features_en": [
+   "The birthplace of folk hero Kichiyomu-san",
+   "150+ years of distilling"
+  ],
+  "brands_en": {
+   "どっとん": {
+    "name_en": "Dotton",
+    "specs_en": "Honkaku shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:yamada-shuzojo": {
+  "tagline_en": "Toyonoseki — aged stock from Bungotakada's only kura.",
+  "desc_en": "Yamada Shuzojo, founded in 1898, is the only brewery in Bungotakada. Its Toyonoseki was named with a dream — to become the ozeki, the champion, of Bungo province — and today the house bottles mainly pasteurised, cellar-aged koshu.",
+  "features_en": [
+   "Bungotakada's only kura",
+   "Named for a champion's dream",
+   "Aged koshu bottlings"
+  ],
+  "brands_en": {
+   "豊乃関": {
+    "name_en": "Toyonoseki",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:ono-shuzo-shonai": {
+  "tagline_en": "A family kura of Yufu, distilling by the founding method.",
+  "desc_en": "Ono Shuzo, founded in 1906 in the Shonai district of Yufu, is a small family house keeping its founding methods, distilling individual barley shochus from local ingredients under the labels Yufu no Sato and Yufudake.",
+  "features_en": [
+   "Family-run since 1906",
+   "Local ingredients, founding methods"
+  ],
+  "brands_en": {
+   "由布之郷": {
+    "name_en": "Yufu no Sato",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:yano-shuzojo": {
+  "tagline_en": "Matsu no Tsuyu — no added sugar, just Hinohikari sweetness.",
+  "desc_en": "Yano Shuzojo, founded in 1883 in Kunisaki, took its shop name Matsushimaya — and its label Matsu no Tsuyu — from the pine-and-island view that captivated its founder. A small hand-making house, it brews from Oita Hinohikari rice with no added sugar at all, letting the grain's own sweetness lead.",
+  "features_en": [
+   "Zero added sugar",
+   "Oita Hinohikari rice",
+   "Small-scale handwork since 1883"
+  ],
+  "brands_en": {
+   "松の露": {
+    "name_en": "Matsu no Tsuyu",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:minami-shuzo": {
+  "tagline_en": "Toppai — two sisters, small batches, and a candy shop at the kura.",
+  "desc_en": "Minami Shuzo, founded in 1868 in Kunisaki, began as a sake kura, restarted with rice shochu after the war, and found its fame in the fifth generation with the barley shochu Toppai — mellow, clean and well loved. Today two sisters keep the family house, refusing mass production; an old-fashioned candy shop shares the grounds.",
+  "features_en": [
+   "Run by two sisters",
+   "Hand-made small batches",
+   "A dagashi candy shop on site"
+  ],
+  "brands_en": {
+   "とっぱい": {
+    "name_en": "Toppai",
+    "specs_en": "Barley shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:mincho-shuho": {
+  "tagline_en": "Purveyor to Usa Jingu, named from an eighth-century chronicle.",
+  "desc_en": "Mincho Shuho was founded in the Kansei era (1790s) as a branch of the Tsushimaya house, and serves as purveyor to the great shrine of Usa Jingu. Its name comes from the Shoku Nihongi: the priest Horen healed the people with sake, and they gathered like the tide — min-cho, the people's tide. In wartime it supplied the Usa naval air corps.",
+  "features_en": [
+   "Purveyor to Usa Jingu",
+   "Named from the Shoku Nihongi chronicle"
+  ],
+  "brands_en": {
+   "民潮": {
+    "name_en": "Mincho",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:daichi-shuzo": {
+  "tagline_en": "Hanaemi — rice and koji only, a Saiki tradition carried on.",
+  "desc_en": "Daichi Shuzo, founded in 1885 in Saiki, was carried forward in 2019 through a business succession that moved the kura to Kamiura — preserving Saiki's sake and shochu culture. Its Hanaemi, brewed from rice and koji alone, is named for the wish of a smile blooming like a flower.",
+  "features_en": [
+   "Succeeded and relocated in 2019",
+   "Rice and koji only"
+  ],
+  "brands_en": {
+   "花笑み": {
+    "name_en": "Hanaemi",
+    "specs_en": "Rice-and-koji sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:murezuru-shuzo": {
+  "tagline_en": "Mountain-spring barley shochu in the valleys below Mt. Sobo.",
+  "desc_en": "Murezuru Shuzo began in 1904 when founder Tamaki Mori brewed the sake Murezuru; the house turned to shochu in the 1980s. In the valley folds of Asaji in Bungo-Ono — ringed by Sobo, Kuju and Aso — it distils small-batch barley shochu on the mountains' spring water.",
+  "features_en": [
+   "Valley kura ringed by Kyushu's great peaks",
+   "Mountain spring water; small batches"
+  ],
+  "brands_en": {
+   "牟禮鶴": {
+    "name_en": "Murezuru",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:hamashima-shuzo": {
+  "tagline_en": "Takakiya — grow it yourself, brew it yourself, press it in the fune.",
+  "desc_en": "Hamashima Shuzo, founded in 1889 in Bungo-Ono, took its shop name Takakiya from the hawk that landed on the roof beam at the raising. Since 1997 the fifth-generation owner has brewed as toji under a creed of jiko-jijo — grow it yourself, brew it yourself — farming thirteen hectares of sake rice and pressing everything in a traditional fune. The Sasara tearoom serves visitors 9:00–17:00.",
+  "features_en": [
+   "13 hectares of house-grown sake rice",
+   "All fune pressing, complete handwork",
+   "Sasara tearoom at the kura"
+  ],
+  "brands_en": {
+   "鷹来屋": {
+    "name_en": "Takakiya",
+    "specs_en": "The house sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "oita:sato-shuzo": {
+  "tagline_en": "Kuju Senbazuru — a name given over tea with Kawabata Yasunari.",
+  "desc_en": "Sato Shuzo, founded in 1917, is the only sake kura in the Kuju highlands of Taketa. Its Kuju Senbazuru was named after the novelist Yasunari Kawabata visited Kuju in 1952 while writing the sequel to Thousand Cranes and befriended the brewery's president. The house also pioneered kimoto brewing in Oita.",
+  "features_en": [
+   "Kuju's only sake kura",
+   "Named through Kawabata Yasunari's visit",
+   "Oita's first kimoto brewing"
+  ],
+  "brands_en": {
+   "久住千羽鶴": {
+    "name_en": "Kuju Senbazuru",
+    "specs_en": "The house sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okayama:miyashita_shuzo": {
+  "tagline_en": "Mint, lotus root, millet — Okayama's laboratory of unusual shochu.",
+  "desc_en": "Miyashita Shuzo, the Okayama all-rounder founded in 1915, distils an unusually wide shochu bench beside its sake and Doppo beer: rice, barley, sweet potato and buckwheat — plus true rarities like mint, lotus-root and millet shochu, with a German hybrid still installed in 2015. The Doppokan brewery complex offers tours, a restaurant and a shop.",
+  "features_en": [
+   "Rare mint, lotus-root and millet shochus",
+   "German hybrid still (2015)",
+   "Doppokan complex with tours"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:iheya_shuzo": {
+  "tagline_en": "Terushima — awamori of the Amaterasu legend, from Iheya's only distillery.",
+  "desc_en": "Iheya Shuzosho was founded in 1948 as a cooperative of 23 islanders and remains the only distillery on Iheya Island. Its flagship Terushima takes its name from the island's legend of the sun goddess Amaterasu, distilled full and rich — rice-sweet with a gentle roast — on mountain spring water and the island air.",
+  "features_en": [
+   "Iheya Island's only distillery",
+   "Named from the island's Amaterasu legend",
+   "Founded by 23 islanders in 1948"
+  ],
+  "brands_en": {
+   "照島": {
+    "name_en": "Terushima",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:izena_shuzo": {
+  "tagline_en": "Tokiwa — crane-and-turtle awamori from the Isle of Evergreen.",
+  "desc_en": "Izena Shuzosho, founded in 1949, is the only distillery on Izena Island. Its Tokiwa borrows the island's old epithet — the evergreen isle — with the lucky crane and turtle on its label, offered from standard 30-degree to a 44-degree coarse-filtered bottling made for laying down as kusu.",
+  "features_en": [
+   "Izena Island's only distillery",
+   "Named for the evergreen isle",
+   "Coarse-filtered 44% for home ageing"
+  ],
+  "brands_en": {
+   "常盤": {
+    "name_en": "Tokiwa",
+    "specs_en": "Awamori — 30%"
+   },
+   "常盤 5年古酒": {
+    "name_en": "Tokiwa 5-Year Kusu",
+    "specs_en": "Aged 5 years — 40%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:yanbaru_shuzo": {
+  "tagline_en": "Maruta — seven-tenths drunk at home, at the wild north's open door.",
+  "desc_en": "Yanbaru Shuzo began in 1950 as the Takazato Shuzosho, funded by the villagers of Ogimi's Takazato district, taking its present name in 2017. About seventy percent of its Maruta is drunk right there in the community — and the distillery is the northernmost on Okinawa's main island that welcomes visitors.",
+  "features_en": [
+   "~70% of production drunk locally",
+   "The northernmost visitable awamori distillery",
+   "Village-funded since 1950"
+  ],
+  "brands_en": {
+   "まるた": {
+    "name_en": "Maruta",
+    "specs_en": "Awamori — 30%"
+   },
+   "くいな": {
+    "name_en": "Kuina",
+    "specs_en": "Named for the Okinawa rail"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:nakijin_shuzo": {
+  "tagline_en": "The first 20-degree awamori, beside the walls of Nakijin castle.",
+  "desc_en": "Nakijin Shuzo, founded in 1948 as Oshiro Shuzo and renamed in 1972, is the only distillery in Nakijin village, near the World Heritage castle ruin. In 1981 it launched the industry's first 20-degree awamori under its Utsukushiki Furusato label — a hit that opened the drink to new drinkers — and it still balances tradition against experiment. Tours are offered.",
+  "features_en": [
+   "Nakijin village's only distillery",
+   "The industry's first 20-degree awamori (1981)",
+   "Near Nakijin castle ruins"
+  ],
+  "brands_en": {
+   "美しき古里": {
+    "name_en": "Utsukushiki Furusato",
+    "specs_en": "Awamori — 30%"
+   },
+   "千年の響": {
+    "name_en": "Sennen no Hibiki",
+    "specs_en": "Kusu — 25% / 43%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:yamakawa_shuzo": {
+  "tagline_en": "The kusu house of Motobu — twenty-year-old awamori in the glass.",
+  "desc_en": "Yamakawa Shuzo, founded in 1946, is Motobu's only awamori distillery and is known simply as the kusu Yamakawa — a house given to aged awamori, brewed on spring water from the Yanbaru hills. Visitors can even taste a twenty-year kusu at the distillery.",
+  "features_en": [
+   "The famed kusu (aged awamori) specialist",
+   "Motobu's only distillery",
+   "20-year kusu tastings"
+  ],
+  "brands_en": {
+   "珊瑚礁": {
+    "name_en": "Sangosho (Coral Reef)",
+    "specs_en": "Kusu"
+   },
+   "かねやま": {
+    "name_en": "Kaneyama",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:ryusen_shuzo": {
+  "tagline_en": "Old koji and enamel-tank rest below Mt. Tano, since 1939.",
+  "desc_en": "Ryusen Shuzo, founded in 1939 in the Haneji district of Nago, brews at the foot of Mt. Tano with clear water and hine-koji — aged koji — in every label. Its spirit rests in enamel tanks, emerging soft and mature in aroma. Tours on enquiry.",
+  "features_en": [
+   "Aged koji in every bottling",
+   "Enamel-tank maturation",
+   "Founded 1939 in Haneji"
+  ],
+  "brands_en": {
+   "龍泉": {
+    "name_en": "Ryusen",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:tsukayama_shuzo": {
+  "tagline_en": "The last pre-war distillery standing — a red-tiled Important Cultural Property.",
+  "desc_en": "Tsukayama Shuzosho, founded around 1924 in the famous-waters town of Nago, works inside red-tiled wooden buildings raised between 1927 and 1929 — the only distillery in Okinawa preserving its pre-war form, designated a National Important Cultural Property in 2009. Its Kokka pours at a serious 43 degrees. The buildings may be visited.",
+  "features_en": [
+   "Okinawa's only pre-war distillery buildings",
+   "National Important Cultural Property (2009)",
+   "In the famous-waters town of Nago"
+  ],
+  "brands_en": {
+   "國華": {
+    "name_en": "Kokka",
+    "specs_en": "Awamori — 43%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:helios_shuzo": {
+  "tagline_en": "Six licences, one copper still — Okinawa's spirits all-rounder.",
+  "desc_en": "Helios Shuzo, founded in 1961 in Nago, holds six production licences — awamori, spirits, whisky, liqueur, beer and happoshu — and runs Okinawa's only copper pot still. In its ivy-clad kusu warehouse deep in the Yanbaru green, aged awamori sleeps beside craft beer and whisky. Tours with tastings; shop on site.",
+  "features_en": [
+   "Six production licences",
+   "Okinawa's only copper pot still",
+   "Ivy-clad kusu warehouse tours"
+  ],
+  "brands_en": {
+   "くら": {
+    "name_en": "Kura",
+    "specs_en": "Kusu awamori"
+   },
+   "轟": {
+    "name_en": "Todoroki",
+    "specs_en": "Awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:onna_shuzo": {
+  "tagline_en": "Manza — awamori of the scenic cape, mostly drunk within sight of it.",
+  "desc_en": "Onna Shuzosho was founded in 1949 by ten village investors and remains Onna's only distillery. Its Manza is named for the Manzamo cape nearby and the wish to be loved by all — fitting, since more than half its production is drunk in the village itself. The house also supports local coral reef conservation.",
+  "features_en": [
+   "Onna village's only distillery",
+   "Over half its awamori drunk locally",
+   "Coral conservation supporter"
+  ],
+  "brands_en": {
+   "萬座": {
+    "name_en": "Manza",
+    "specs_en": "Awamori — 30%"
+   },
+   "萬座 10年古酒": {
+    "name_en": "Manza 10-Year Kusu",
+    "specs_en": "Aged 10 years — 40%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:sakimoto_shuzo": {
+  "tagline_en": "The kura of the father of awamori's revival, since 1902.",
+  "desc_en": "Sakimoto Shuzo, founded in 1902 in Shuri, carries one of awamori's proudest stories: second-generation Seiryo Sakumoto laboured to restore awamori brewing from the ashes of the war, earning the name father of awamori's revival. The house brews with aged koji and deliberately light filtration, keeping aroma and umami in the glass. Tours through the glass gallery on enquiry.",
+  "features_en": [
+   "Founded 1902 in Shuri",
+   "The father of awamori's post-war revival",
+   "Light filtration to keep character"
+  ],
+  "brands_en": {
+   "咲元": {
+    "name_en": "Sakimoto",
+    "specs_en": "Awamori — 30%"
+   },
+   "咲元 粗濾過44度": {
+    "name_en": "Sakimoto Coarse-Filtered 44",
+    "specs_en": "44% — lightly filtered"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:sakiyama_shuzo": {
+  "tagline_en": "Matsufuji — three-day koji on sacred mountain water.",
+  "desc_en": "Sakiyama Shuzosho, founded in 1905 in Kin, brews with natural mountain spring water and a three-day koji that deepens its umami. Its Matsufuji line took first place in the kusu division of the national liquor concours in 2014 and the tax agency commissioner's award in 2025, with moromi vinegar beside the awamori. Tours by reservation.",
+  "features_en": [
+   "Three-day koji for depth",
+   "Natural mountain spring water",
+   "National concours and commissioner's honours"
+  ],
+  "brands_en": {
+   "松藤": {
+    "name_en": "Matsufuji",
+    "specs_en": "Awamori — 30%"
+   },
+   "舞天": {
+    "name_en": "Buten",
+    "specs_en": "Awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kin_shuzo": {
+  "tagline_en": "Thirteen thousand kusu jars sleeping in a limestone cave.",
+  "desc_en": "Kin Shuzo, founded in 1949, named its Tatsu for the founder's dragon-year ancestor and stores more than half its production for ageing. Since 1988 it has used the Kin limestone cave as Japan's first cave kusu cellar — over 13,000 jars sleep in its constant cool — while the brewing splits hard water for the mash and soft for dilution. It even made Japan's first taro shochu. The cave cellar can be visited.",
+  "features_en": [
+   "Japan's first cave kusu cellar (1988)",
+   "13,000+ ageing jars underground",
+   "Japan's first taro shochu"
+  ],
+  "brands_en": {
+   "龍": {
+    "name_en": "Tatsu (Dragon)",
+    "specs_en": "Awamori — 30%"
+   },
+   "龍 5年古酒": {
+    "name_en": "Tatsu 5-Year Kusu",
+    "specs_en": "Aged 5 years — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kamimura_shuzo": {
+  "tagline_en": "Danryu — the first oak-aged awamori, resting in an underground cellar.",
+  "desc_en": "Kamimura Shuzo, founded in 1882 in Naha and settled since 1999 below the Ishikawa highlands of Uruma, changed awamori's course in 1968 with Danryu — the industry's first oak-cask-aged awamori. Its underground cellar holds temperature and humidity steady for kusu making, and its five-senses distillery tour (reserved, 1–15 people) ends in tastings.",
+  "features_en": [
+   "First oak-cask awamori, Danryu (1968)",
+   "Underground kusu cellar",
+   "140+ years of history"
+  ],
+  "brands_en": {
+   "暖流 SHIP": {
+    "name_en": "Danryu SHIP",
+    "specs_en": "Oak-cask aged — 30%"
+   },
+   "守禮": {
+    "name_en": "Shurei",
+    "specs_en": "Awamori — 30/43/44%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:chuko_shuzo": {
+  "tagline_en": "The world's only distillery with its own pottery kiln for kusu jars.",
+  "desc_en": "Chuko Shuzo, founded in 1949 as Oshiro Shuzosho in Tomigusuku, is unique in the world: a distillery that fires its own clay jars at its Ryukyu Gusuku-yaki kiln. Some 600 kusu jars rest in its wooden warehouse, hand-made awamori flows from the Moon Distillery experience hall, and THE OWNERS programme will keep your kusu maturing for up to twenty years. Ten minutes from Naha Airport; tours welcome.",
+  "features_en": [
+   "World's only distillery-and-kiln",
+   "~600 kusu jars in a wooden cellar",
+   "Moon Distillery hands-on hall; 20-year kusu custody"
+  ],
+  "brands_en": {
+   "忠孝": {
+    "name_en": "Chuko",
+    "specs_en": "Awamori"
+   },
+   "夢航海": {
+    "name_en": "Yume Kokai",
+    "specs_en": "Awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:higa_shuzo": {
+  "tagline_en": "Zanpa — the teacher's awamori that became Okinawa's favourite.",
+  "desc_en": "Higa Shuzo was founded in 1948 in Yomitan by Torakichi Higa, a schoolteacher who wanted to give Okinawans good awamori. His Zanpa series now ranks among the island's best-loved — the black-label Zanpa Kuro is affectionately called Zankuro across generations, and the premium five-year kusu holds ITI two-star honours. Kusu cellar tours by reservation.",
+  "features_en": [
+   "Zanpa: top-class popularity in Okinawa",
+   "Founded by a schoolteacher in 1948",
+   "Kusu cellar tours by reservation"
+  ],
+  "brands_en": {
+   "残波 白": {
+    "name_en": "Zanpa White",
+    "specs_en": "Light and fruity — 25%"
+   },
+   "残波 黒": {
+    "name_en": "Zanpa Black (Zankuro)",
+    "specs_en": "The beloved standard — 30%"
+   },
+   "残波プレミアム": {
+    "name_en": "Zanpa Premium",
+    "specs_en": "5-year kusu — 35%, ITI two stars"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:shinzato_shuzo": {
+  "tagline_en": "Okinawa's oldest distillery (1846) — from Shuri's thirty licensed masters.",
+  "desc_en": "Shinzato Shuzo, founded in 1846 in Shuri's Akata quarter, is the oldest surviving distillery in Okinawa, descended from the thirty artisans licensed to brew awamori in the royal quarter of Shuri Sanka. Seven generations on, it pairs that lineage with world-standard quality control — and even a single malt whisky, Ryuka. Tours by reservation, with tastings.",
+  "features_en": [
+   "Okinawa's oldest surviving distillery",
+   "Descended from Shuri's thirty licensed brewers",
+   "Single malt Ryuka beside the awamori"
+  ],
+  "brands_en": {
+   "琉球": {
+    "name_en": "Ryukyu",
+    "specs_en": "Awamori"
+   },
+   "かりゆし": {
+    "name_en": "Kariyushi",
+    "specs_en": "Awamori"
+   },
+   "琉華": {
+    "name_en": "Ryuka",
+    "specs_en": "Single malt whisky"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:chatan_chouro_shuzo": {
+  "tagline_en": "Chatan Choro — a royal-era house carried from Shuri to the coast.",
+  "desc_en": "Chatan Choro Shuzo began in 1848 as Tamanaha Shuzo in the royal quarter of Shuri, moved to Chatan in 1910, restarted after the war and incorporated under its present name in 2006 — more than 170 years of awamori, and the only distillery in Chatan. Long-aged kusu at 25 and 43 degrees flank the standard.",
+  "features_en": [
+   "Founded 1848 in royal-era Shuri",
+   "Chatan's only distillery",
+   "Long-aged kusu bottlings"
+  ],
+  "brands_en": {
+   "北谷長老": {
+    "name_en": "Chatan Choro",
+    "specs_en": "Awamori — 30%"
+   },
+   "一本松": {
+    "name_en": "Ipponmatsu",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:ishikawa_shuzo": {
+  "tagline_en": "Gyokuyu — the best of friends, brewed wholly in clay jars.",
+  "desc_en": "Ishikawa Shuzojo, founded in 1949 in Shuri and settled in Nishihara since 1990, is the only house in Okinawa still fermenting its entire production in traditional one-koku clay jars. Its Gyokuyu means the finest of friends, and the craft runs with ISO 9001 discipline (certified 2003). Tours in business hours.",
+  "features_en": [
+   "Okinawa's only all-jar fermentation",
+   "Traditional one-koku clay jars",
+   "ISO 9001 certified (2003)"
+  ],
+  "brands_en": {
+   "玉友": {
+    "name_en": "Gyokuyu",
+    "specs_en": "Jar-brewed awamori — 30%"
+   },
+   "島風": {
+    "name_en": "Shimakaze",
+    "specs_en": "Awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:shikina_shuzo": {
+  "tagline_en": "Shigure — the first bottled awamori of the post-war, with 150-year kusu in the cellar.",
+  "desc_en": "Shikina Shuzo, founded in 1918 in one of Shuri Sanka's royal brewing quarters, made history twice: its Shigure was the first awamori bottled and labelled for sale in post-war Okinawa, and its cellar holds what is said to be the oldest disclosed kusu in the prefecture — about 150 years old.",
+  "features_en": [
+   "Of the royal Shuri Sanka quarters",
+   "First bottled post-war awamori",
+   "~150-year-old kusu in the cellar"
+  ],
+  "brands_en": {
+   "時雨": {
+    "name_en": "Shigure",
+    "specs_en": "Awamori — 30% / 43%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:mizuho_shuzo": {
+  "tagline_en": "Shuri's oldest kura — kusu as Okinawa's treasure, rum and gin as its future.",
+  "desc_en": "Mizuho Shuzo, founded in 1848 in the Torihori quarter of Shuri — one of the royal Shuri Sanka — is the oldest surviving kura of the old capital. Under its creed that kusu is Okinawa's treasure, it also looks forward: the ONERUM rum from island sugarcane, the ORI-GiN craft gin, original yeast research, and Japan's pioneering awamori umeshu since 1971.",
+  "features_en": [
+   "Shuri's oldest surviving kura (1848)",
+   "Rum, gin and yeast research beside the awamori",
+   "Awamori umeshu pioneer since 1971"
+  ],
+  "brands_en": {
+   "瑞穂": {
+    "name_en": "Mizuho",
+    "specs_en": "Awamori"
+   },
+   "ONERUM": {
+    "name_en": "ONERUM",
+    "specs_en": "Okinawan sugarcane rum"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:okinawa_kenkyodo": {
+  "tagline_en": "All 46 awamori makers, one cooperative — and the 10-year Umi no Kuni.",
+  "desc_en": "The Okinawa Prefectural Distillery Cooperative was formed in September 1976 by all 46 of the prefecture's awamori makers. It buys members' awamori and ages it long for stable shipment beyond Okinawa — its Umi no Kuni, a ten-year kusu created for the 1987 Kaiho national games, is the flagship, with a fifteen-year edition above it.",
+  "features_en": [
+   "All 46 makers united (1976)",
+   "Long-ageing for shipment beyond Okinawa",
+   "Umi no Kuni 10- and 15-year kusu"
+  ],
+  "brands_en": {
+   "海乃邦": {
+    "name_en": "Umi no Kuni",
+    "specs_en": "10-year kusu — 43%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:zuisen_shuzo": {
+  "tagline_en": "Named for the spring at Shuri castle's gate — 24 governor's prizes deep.",
+  "desc_en": "Zuisen Shuzo, founded in 1887 in Sakiyama — one of the royal brewing quarters of Shuri Sanka — takes its name from the Zuisen spring at Shuri Castle's Zuisenmon gate. It holds the record at the official awamori appraisal: 24 Okinawa governor's prizes as of 2020. Its labels still read Sakumoto no Sake, and the house shares family roots with Sakimoto Shuzo up the hill.",
+  "features_en": [
+   "Record 24 governor's prizes",
+   "Named for the Shuri castle spring",
+   "Royal Shuri Sanka lineage"
+  ],
+  "brands_en": {
+   "瑞泉": {
+    "name_en": "Zuisen",
+    "specs_en": "Awamori"
+   },
+   "御酒": {
+    "name_en": "Usaki",
+    "specs_en": "Awamori brewed with revived pre-war yeast"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:tsuhako_shuzo": {
+  "tagline_en": "Taihei — great peace, bottled by hand since 1926.",
+  "desc_en": "Tsuhako Shuzo, founded in 1898 in the Kakinohana quarter of Naha, has rested on one label since 1926: Taihei — great peace — its two circles standing for the earth and sun. Everything through bottling and labelling is done by hand, and on the second of each month the house holds its Taihei thanksgiving day, with limited bottles and time with the toji.",
+  "features_en": [
+   "One label, Taihei, since 1926",
+   "All hand bottling and labelling",
+   "Monthly thanksgiving day at the kura"
+  ],
+  "brands_en": {
+   "太平": {
+    "name_en": "Taihei",
+    "specs_en": "Awamori — 30%"
+   },
+   "首里城": {
+    "name_en": "Shurijo",
+    "specs_en": "Awamori — 43%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kumesen_shuzo": {
+  "tagline_en": "Kumesen — one of awamori's great names, with an island whisky beside it.",
+  "desc_en": "Kumesen Shuzo, founded in 1952 in Naha and at its Nakaima home since 1986, brews one of Okinawa's defining awamori brands — from the everyday Kumesen to all-kusu gold and black editions — and now distils the OKINAWA ISLAND BLUE whisky as well.",
+  "features_en": [
+   "One of Okinawa's defining awamori names",
+   "All-kusu premium editions",
+   "OKINAWA ISLAND BLUE whisky"
+  ],
+  "brands_en": {
+   "久米仙": {
+    "name_en": "Kumesen",
+    "specs_en": "Awamori — 25/30%"
+   },
+   "OKINAWA ISLAND BLUE": {
+    "name_en": "OKINAWA ISLAND BLUE",
+    "specs_en": "Whisky — 40/50%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:miyasato_shuzo": {
+  "tagline_en": "Harusame — the phantom awamori that returned in 1997.",
+  "desc_en": "Miyasato Shuzosho, founded in 1946, named its awamori Harusame — spring rain — for hope and heaven's blessing. For some twenty years it sold only in bulk to other houses, never at retail, earning the name the phantom awamori; third-generation Toru Miyasato brought it back to shops in 1997. Aged koji gives its famously delicate touch.",
+  "features_en": [
+   "The phantom awamori, retailed again from 1997",
+   "Aged-koji delicacy",
+   "Founded 1946"
+  ],
+  "brands_en": {
+   "春雨": {
+    "name_en": "Harusame (Spring Rain)",
+    "specs_en": "Awamori — 30%"
+   },
+   "カリー春雨": {
+    "name_en": "Kari Harusame",
+    "specs_en": "Aged 2–3 years — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:uehara_shuzo": {
+  "tagline_en": "Shinsen — brewed again on the sacred spring of Itoman.",
+  "desc_en": "Uehara Shuzo, founded in 1947, is Itoman's oldest awamori house. Its Shinsen — divine spring — thanks the Nbuga, the sacred spring behind the kura that has never run dry, and the house pioneered its own electronic technique for a mellow, deep pour. Silent from 2015, the stills came back to life in 2021; the premium bottling took gold at the 2022 awamori appraisal.",
+  "features_en": [
+   "Itoman's oldest awamori house",
+   "The sacred Nbuga spring",
+   "Production revived in 2021"
+  ],
+  "brands_en": {
+   "神泉": {
+    "name_en": "Shinsen",
+    "specs_en": "Awamori — 30%"
+   },
+   "神泉プレミアム": {
+    "name_en": "Shinsen Premium",
+    "specs_en": "Gold, 2022 awamori appraisal"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:masahiro_shuzo": {
+  "tagline_en": "A royal cook's family, brewing since 1883 — and Okinawa's first gin.",
+  "desc_en": "Masahiro Shuzo was founded in 1883 in Shuri by Shobun Higa, son of a cook to the royal court, under a royal brewing sanction. More than 140 years on — formerly Higa Shuzo — the Itoman house keeps black-koji tradition at the centre while pushing outward: it made Okinawa's first craft gin, Masahiro Okinawa Gin.",
+  "features_en": [
+   "Founded 1883 under royal sanction",
+   "A royal cook's family line",
+   "Okinawa's first craft gin"
+  ],
+  "brands_en": {
+   "まさひろ": {
+    "name_en": "Masahiro",
+    "specs_en": "Awamori"
+   },
+   "海人": {
+    "name_en": "Uminchu (Fisherman)",
+    "specs_en": "Awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kamiya_shuzo": {
+  "tagline_en": "Nanko — the light of the south, distilled by hand and steam.",
+  "desc_en": "Kamiya Shuzosho was founded in 1949 by Toshihiko Kamiya, naming its awamori Nanko — light of the south — as a beacon of hope in the post-war years. The house still refuses mechanisation, working by hand with its own steam-injection still, from the standard 30-degree to a 50-degree genshu.",
+  "features_en": [
+   "Named the light of the south (1949)",
+   "Hand work, no machines",
+   "Original steam-injection still"
+  ],
+  "brands_en": {
+   "南光": {
+    "name_en": "Nanko",
+    "specs_en": "Awamori — 30%"
+   },
+   "南光 原酒": {
+    "name_en": "Nanko Genshu",
+    "specs_en": "Undiluted — 50%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:yoneshima_shuzo": {
+  "tagline_en": "Kume Island water, small batches, and blends worth remembering.",
+  "desc_en": "Yoneshima Shuzo, founded in March 1948, brews on Kume Island — its founder fell for the island's abundant water and varied geology. A small hand-making house, it manages fermentation closely and blends awamori of different ages toward its stated ideal: easy to drink, deep to remember.",
+  "features_en": [
+   "Kume Island's water and geology",
+   "Small-batch handwork",
+   "Age-blending for depth"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kumejima_no_kumesen": {
+  "tagline_en": "The best-selling awamori in the world, from a hermit's legend.",
+  "desc_en": "Kumejima no Kumesen, founded in 1949, is the top-selling maker in the awamori industry. It brews with Kume Island's natural spring water, joining traditional fermentation to modern equipment on an island ringed entirely by coral reef. The name recalls the legend of a Kume Island hermit sage who poured sacred liquor for the islanders — and the company is distinct from Naha's Kumesen Shuzo.",
+  "features_en": [
+   "Awamori's top seller",
+   "Kume Island natural spring water",
+   "Named for the island's hermit legend"
+  ],
+  "brands_en": {
+   "久米島の久米仙": {
+    "name_en": "Kumejima no Kumesen",
+    "specs_en": "Awamori — 30%"
+   },
+   "古酒でいご": {
+    "name_en": "Kusu Deigo",
+    "specs_en": "Aged awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:ikema_shuzo": {
+  "tagline_en": "Slow, cool fermentation on Miyako's mineral-hard water.",
+  "desc_en": "Ikema Shuzo was founded in 1946, soon after the war, in the Nishihara district of Miyako Island. Its style rests on the island's mineral-rich hard water and slow, low-temperature fermentation under exacting control — bottled in labels from Zuiko to the cheerful Nikoniko Taro.",
+  "features_en": [
+   "Founded 1946 on Miyako Island",
+   "Mineral-rich hard island water",
+   "Slow cool fermentation"
+  ],
+  "brands_en": {
+   "瑞光": {
+    "name_en": "Zuiko",
+    "specs_en": "Awamori"
+   },
+   "ニコニコ太郎": {
+    "name_en": "Nikoniko Taro",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:okinohikari_shuzo": {
+  "tagline_en": "Okinohikari — Miyako awamori since 1948.",
+  "desc_en": "Okinohikari Shuzo began in 1948 as the Koja Shuzosho, taking its present name in 1979. On Miyako Island it distils the flagship Okinohikari and companions such as Gekko no Hana.",
+  "features_en": [
+   "Founded 1948 on Miyako Island",
+   "Renamed Okinohikari in 1979"
+  ],
+  "brands_en": {
+   "沖之光": {
+    "name_en": "Okinohikari",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kikunotsuyu_shuzo": {
+  "tagline_en": "Kikunotsuyu — dew of the chrysanthemum, Miyako's standard-bearer.",
+  "desc_en": "Kikunotsuyu Shuzo, founded in 1928 as Nakao Shuzo and renamed in 1965, is Miyako Island's defining awamori house. The name comes from a Chinese tale — a sick mother healed by morning dew drunk from chrysanthemum petals — and the kura chases what it calls awamori's true deliciousness with craftsman stubbornness, from the daily 30-degree to the VIP Gold kusu.",
+  "features_en": [
+   "Miyako's defining brand since 1928",
+   "Named from a Chinese filial tale",
+   "From daily pour to VIP Gold kusu"
+  ],
+  "brands_en": {
+   "菊之露": {
+    "name_en": "Kikunotsuyu",
+    "specs_en": "Awamori — 30%"
+   },
+   "菊之露 VIPゴールド": {
+    "name_en": "Kikunotsuyu VIP Gold",
+    "specs_en": "Kusu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:taragawa": {
+  "tagline_en": "Ryukyu Ocho — kusu asleep in a natural cave, open to all comers.",
+  "desc_en": "Taragawa, founded in 1948 in the Sunagawa district of Miyako, has held to hand technique for over seventy years. Its kusu — led by the famous Ryukyu Ocho (Royal Dynasty) — matures in the Uipya-Upusu natural cave cellar, which visitors may see without reservation, with a video of the brewing process shown at the kura.",
+  "features_en": [
+   "70+ years of hand technique",
+   "Natural cave kusu cellar",
+   "Walk-in cave visits welcome"
+  ],
+  "brands_en": {
+   "多良川": {
+    "name_en": "Taragawa",
+    "specs_en": "Awamori — 30%"
+   },
+   "琉球王朝": {
+    "name_en": "Ryukyu Ocho (Royal Dynasty)",
+    "specs_en": "The flagship kusu"
+   },
+   "久遠": {
+    "name_en": "Kuon",
+    "specs_en": "Kusu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:tokuyama_shuzo": {
+  "tagline_en": "Honen — a farmer's prayer for good harvest, on Irabu island water.",
+  "desc_en": "Tokuyama Shuzo was founded in 1946 by Tomoaki Tokuyama of Irabu Island. A farmer himself, he named his awamori Honen — abundant harvest — as a prayer for the island's fields. Mineral-rich Irabu groundwater gives the spirit its bright, fresh aroma.",
+  "features_en": [
+   "Small Irabu Island house",
+   "Named for the harvest prayer",
+   "Mineral-rich island groundwater"
+  ],
+  "brands_en": {
+   "豊年": {
+    "name_en": "Honen (Abundant Harvest)",
+    "specs_en": "Awamori — 30%"
+   },
+   "豊年 古酒": {
+    "name_en": "Honen Kusu",
+    "specs_en": "Aged — 35%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:miyanohana": {
+  "tagline_en": "A flower of the heart — awamori brewed largely by women.",
+  "desc_en": "Miyanohana, founded in 1948 on Irabu Island, takes its name from its founder's wish: to remain a flower blooming quietly in people's hearts, however small. Much of its team, from the president down, is women, and since 2006 the house has also brewed awamori from naturally farmed Japanese rice — no fertiliser, no pesticide.",
+  "features_en": [
+   "A largely women-run distillery",
+   "Natural-farming Japanese-rice awamori since 2006",
+   "The flower of the heart, since 1948"
+  ],
+  "brands_en": {
+   "宮の華": {
+    "name_en": "Miyanohana",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:chiyoizumi_shuzo": {
+  "tagline_en": "Chiyoizumi — a lost Miyako kura, revived drop by drop.",
+  "desc_en": "Chiyoizumi Shuzosho, founded in 1948 in Miyako's Karimata district, was a small village kura beloved by its neighbours. It rested its stills in 2013 and closed in 2018 — the first awamori distillery to close since Okinawa's reversion — but part of its remaining spirit has been revived in limited bottlings through the Awamori Soko treasured-stock project.",
+  "features_en": [
+   "Closed 2018 — the first post-reversion closure",
+   "Treasured stock revived in limited bottlings"
+  ],
+  "brands_en": {
+   "千代泉": {
+    "name_en": "Chiyoizumi",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:takamine_shuzo": {
+  "tagline_en": "Omoto — direct-flame stills two minutes from Kabira Bay.",
+  "desc_en": "Takamine Shuzosho, founded in 1949, looks up at Mt. Omoto — Okinawa's highest peak — and out over the famous Kabira Bay. Everything is hand-made: koji rested two nights into old koji, and distillation over direct flame in a traditional ground kettle, on natural water of the Omoto range. Two minutes' walk from Kabira park; visitors welcome.",
+  "features_en": [
+   "All handwork with direct-flame kettle stills",
+   "Two-night aged koji",
+   "Steps from Kabira Bay"
+  ],
+  "brands_en": {
+   "おもと": {
+    "name_en": "Omoto",
+    "specs_en": "Direct-flame distilled — 30%"
+   },
+   "黒真珠": {
+    "name_en": "Kuroshinju (Black Pearl)",
+    "specs_en": "Awamori — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:tamanaha_shuzo": {
+  "tagline_en": "Yaeyama's oldest kura — Tama no Tsuyu, built to become kusu.",
+  "desc_en": "Tamanaha Shuzosho, founded in 1912 as a branch of a Shuri house, is the oldest distillery in the Yaeyama islands, past its centenary in 2012. Nearly everything — koji, mash, distillation — is done by hand, with old koji and direct-kettle stills, brewing Tama no Tsuyu as awamori meant from the start to age into kusu.",
+  "features_en": [
+   "Yaeyama's oldest distillery (1912)",
+   "Old koji and direct-kettle distillation",
+   "Brewed to become kusu"
+  ],
+  "brands_en": {
+   "玉の露": {
+    "name_en": "Tama no Tsuyu",
+    "specs_en": "Awamori — 30% / 43%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:seifuku_shuzo": {
+  "tagline_en": "Innovator of Ishigaki — and reviver of the lost spirit IMUGE.",
+  "desc_en": "Seifuku Shuzo began in 1949 as the Kanna sakaya of Kenpu Kanna and his wife Fumie, renamed in 1992. It has innovated relentlessly — Okinawa's first printed bottle labels, the industry's first vacuum-distilled awamori — and revived IMUGE., the folk spirit of sweet potato and brown sugar lost for a century. Free tours daily at 14:00 (weekdays), no booking needed for small groups.",
+  "features_en": [
+   "Industry-first vacuum-distilled awamori",
+   "Revived the lost folk spirit IMUGE.",
+   "Free factory tours"
+  ],
+  "brands_en": {
+   "直火請福": {
+    "name_en": "Jikabi Seifuku",
+    "specs_en": "Direct-flame distilled"
+   },
+   "請福VINTAGE": {
+    "name_en": "Seifuku VINTAGE",
+    "specs_en": "100% kusu"
+   },
+   "IMUGE.": {
+    "name_en": "IMUGE.",
+    "specs_en": "Revived sweet-potato and brown-sugar spirit"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:ikehara_shuzo": {
+  "tagline_en": "Shirayuri — a divisive, beloved awamori saved by a grandson.",
+  "desc_en": "Ikehara Shuzo, founded in 1951 by Kokichi Ikehara in Ishigaki's Okawa quarter, brews in a red-tiled old house by unhurried tradition. Its Shirayuri (White Lily) is famous for a wild, singular flavour that drinkers either adore or argue about — and it took a top gold at a world competition in 2021. When closure loomed, grandson Yu Ikehara took over in 2013 and carried the kura on.",
+  "features_en": [
+   "Red-tiled old-house kura",
+   "Shirayuri: a cult, singular flavour",
+   "World-competition top gold (2021)"
+  ],
+  "brands_en": {
+   "白百合": {
+    "name_en": "Shirayuri (White Lily)",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:yaesen_shuzo": {
+  "tagline_en": "Direct flame and long cask rest, on a hill over Ishigaki.",
+  "desc_en": "Yaesen Shuzo, founded in 1955 on a hill overlooking the Yaeyama ranges, takes its name from the island's natural springs. Direct-flame distillation meets long cask storage in a house that also makes habushu and fruit liqueurs — rich aroma, mellow sweetness. Shop open weekdays 9:00–17:30.",
+  "features_en": [
+   "Direct-flame distillation",
+   "Long cask maturation",
+   "Habushu and liqueurs beside the awamori"
+  ],
+  "brands_en": {
+   "八重泉": {
+    "name_en": "Yaesen",
+    "specs_en": "Awamori — 30%"
+   },
+   "八重泉 樽貯蔵": {
+    "name_en": "Yaesen Cask-Aged",
+    "specs_en": "Cask-stored awamori"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:nakama_shuzo": {
+  "tagline_en": "Okinawa's smallest kura — one family, one label, made to order.",
+  "desc_en": "Nakama Shuzosho, founded in 1948 by farmer Giichi Nakama in Ishigaki's Miyara district, is the smallest distillery in Okinawa. The family makes just one awamori — Miyanotsuru — and only as much as is ordered, steaming rice in a wooden kushichi and distilling in a direct-kettle still as they always have.",
+  "features_en": [
+   "Okinawa's smallest distillery",
+   "One label, made to order",
+   "Wooden steamer and kettle still"
+  ],
+  "brands_en": {
+   "宮之鶴": {
+    "name_en": "Miyanotsuru",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:hateruma_shuzo": {
+  "tagline_en": "Awanami — the phantom awamori of Japan's southernmost island.",
+  "desc_en": "Hateruma Shuzosho, founded in 1953 on Hateruma — Japan's southernmost inhabited island — is a five-person family kura of tiny production. About 95% of its Awanami never leaves the island, making the bottle a legend: the phantom awamori, its name woven from awamori's foam and Hateruma's waves.",
+  "features_en": [
+   "Japan's southernmost inhabited island",
+   "~95% drunk on the island",
+   "A five-person family kura"
+  ],
+  "brands_en": {
+   "泡波": {
+    "name_en": "Awanami",
+    "specs_en": "The phantom awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:kokusen_awamori": {
+  "tagline_en": "Donan and its 60-degree hanazake, at Japan's westernmost edge.",
+  "desc_en": "Kokusen Awamori was founded in 1958 by three partners on Yonaguni, Japan's westernmost island. The toji carries every step by hand from koji to bottling, with no artificial additives; Donan — 'Yonaguni' in the island tongue — runs from 25 degrees to the island's famous 60-degree hanazake, including a 17-year kusu of which only some 900 bottles exist.",
+  "features_en": [
+   "Japan's westernmost distillery",
+   "60-degree hanazake, a Yonaguni specialty",
+   "Hand-made, additive-free"
+  ],
+  "brands_en": {
+   "どなん": {
+    "name_en": "Donan",
+    "specs_en": "Awamori — 25/30/43%"
+   },
+   "どなん 花酒": {
+    "name_en": "Donan Hanazake",
+    "specs_en": "60% island specialty"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:sakimoto_yonaguni_shuzo": {
+  "tagline_en": "Yonaguni's oldest kura, giving back with every recycled bottle.",
+  "desc_en": "Sakimoto Shuzosho began in 1927 as the Kubura Shuzosho, founded by nineteen rice farmers, and became independent under its present name in 1971 — Yonaguni's oldest distillery. It keeps the 600-year awamori tradition with old-style ground-kettle stills and the island's 60-degree hanazake, bottles in recycled glass, and donates part of its sales to the island's emergency helicopter service. Tours in business hours.",
+  "features_en": [
+   "Yonaguni's oldest distillery (1927)",
+   "Old-style kettle stills and hanazake",
+   "Recycled bottles; helicopter-fund donations"
+  ],
+  "brands_en": {
+   "与那国": {
+    "name_en": "Yonaguni",
+    "specs_en": "Awamori — 30%"
+   },
+   "与那国 花酒": {
+    "name_en": "Yonaguni Hanazake",
+    "specs_en": "60% hanazake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "okinawa:irinami_shuzo": {
+  "tagline_en": "Maifuna — the dutiful child, from Okinawa's youngest kura.",
+  "desc_en": "Irinamihira Shuzo was founded in 1989 when Hironobu Irinamihira left Kokusen Awamori to start his own house — the newest distillery in Okinawa. Its Maifuna means a dutiful, praiseworthy child in the Yonaguni tongue, a wish that the drink bring joy; a 60-degree hanazake stands beside it. Reports suggest production is currently paused.",
+  "features_en": [
+   "Okinawa's newest distillery (1989)",
+   "Maifuna: the dutiful child",
+   "Production reportedly paused"
+  ],
+  "brands_en": {
+   "舞富名": {
+    "name_en": "Maifuna",
+    "specs_en": "Awamori — 30%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "osaka:kotobuki_shuzo": {
+  "tagline_en": "Osaka's only local shochu, drawn from fresh sake lees each winter.",
+  "desc_en": "Kotobuki Shuzo, founded in 1822 in Takatsuki, makes the only shochu distilled in Osaka — its Kuninocho kasu-moromi shochu, drawn from fresh sake lees after pressing, produced only in winter. The house was also Osaka's first craft beer brewer.",
+  "features_en": [
+   "Osaka's only locally distilled shochu",
+   "Fresh sake-lees kasutori style, winter only",
+   "Osaka's first craft beer brewer"
+  ],
+  "brands_en": {
+   "國乃長": {
+    "name_en": "Kuninocho",
+    "specs_en": "Sake-lees shochu, winter-brewed"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "saga:munemasa": {
+  "tagline_en": "Nonnoko — 'sweet child' in Saga dialect, poured in a porcelain park.",
+  "desc_en": "Munemasa Shuzo began distilling in 1985 in Imari and moved in 2002 into the Arita Porcelain Park, where it operates as a tourism kura. Its Nonnoko — Saga dialect for a darling child — is a barley shochu of 100% Saga two-row barley, with imo and long-aged rice versions, plus the sake Munemasa. Tours and tastings in the park.",
+  "features_en": [
+   "Nonnoko: 100% Saga two-row barley",
+   "Tourism kura in Arita Porcelain Park",
+   "Tours and tastings"
+  ],
+  "brands_en": {
+   "のんのこ": {
+    "name_en": "Nonnoko",
+    "specs_en": "Saga barley — 25%"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "saga:mitsutake": {
+  "tagline_en": "An invitation to the demon world, from a 1688 merchant street.",
+  "desc_en": "Mitsutake Shuzojo, founded in 1688 on the Hizen Hamashuku brewery street of Kashima, carries three centuries under its creed that making sake is making people. Its imo shochu Makai e no Izanai — Invitation to the Demon World — is black-koji brewed and atmospheric-distilled, and the Hizenya tourism kura welcomes travellers on the old street.",
+  "features_en": [
+   "300+ years on the Hizen Hamashuku street",
+   "Makai e no Izanai: black koji, atmospheric stills",
+   "Hizenya tourism kura"
+  ],
+  "brands_en": {
+   "魔界への誘い": {
+    "name_en": "Makai e no Izanai",
+    "specs_en": "Black-koji imo shochu — 25%"
+   },
+   "光武": {
+    "name_en": "Mitsutake",
+    "specs_en": "The house sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "saga:gochoda": {
+  "tagline_en": "Azumaichi — aiming to be the best in the East.",
+  "desc_en": "Gochoda Shuzo, founded in 1922 in Ureshino, brews Azumaichi — a name that vows to become first in the East. An early mover in growing its own Yamada Nishiki in Saga, the house holds to local ingredients and sake the neighbourhood loves; its shochu carries the same discipline.",
+  "features_en": [
+   "Azumaichi: first in the East",
+   "Early self-grown Yamada Nishiki",
+   "Local-first brewing"
+  ],
+  "brands_en": {
+   "東一": {
+    "name_en": "Azumaichi",
+    "specs_en": "The house label"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "saga:baba": {
+  "tagline_en": "Nogomi — 370 koku a year under an owner-toji, since 1795.",
+  "desc_en": "Baba Shuzojo, founded in 1795 in Kashima, brews about 370 koku a year under eighth-generation owner-toji Ichiro Baba. Seven years of work with local farmers brought Yamada Nishiki cultivation home to the neighbourhood, feeding its Nogomi label.",
+  "features_en": [
+   "Owner-toji, eighth generation",
+   "Local Yamada Nishiki after a 7-year project",
+   "Small 370-koku scale"
+  ],
+  "brands_en": {
+   "能古見": {
+    "name_en": "Nogomi",
+    "specs_en": "Saga-rice sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "saitama:asahara_shuzo": {
+  "tagline_en": "A distilling king among sake, fruit liqueurs and beer in Moroyama.",
+  "desc_en": "Asahara Shuzo, founded in 1882 in Moroyama, Saitama, brews the sake Biwa no Sasanami and Musashino, distils the honkaku shochu Joryu-O, and makes fruit liqueurs, wine and beer from local harvests. Tours and tastings at its Ogose Brewery shop.",
+  "features_en": [
+   "Full-range maker since 1882",
+   "Ogose Brewery shop with tours"
+  ],
+  "brands_en": {
+   "琵琶のささ浪": {
+    "name_en": "Biwa no Sasanami",
+    "specs_en": "The house sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "shiga:ohta_shuzo": {
+  "tagline_en": "Organic Kintoki potatoes and brandy casks, by Ota Dokan's heirs.",
+  "desc_en": "Ohta Shuzo of Kusatsu, descended from Edo Castle's builder Ota Dokan, has brewed sake since 1874 and distilled honkaku shochu since 1918. Its imo shochu uses 100% pesticide-free Shiga-grown Kintoki sweet potatoes at atmospheric pressure, and its barley shochu rests long in brandy casks. Tours and a shop at the kura.",
+  "features_en": [
+   "Shochu since 1918",
+   "100% pesticide-free Shiga Kintoki potatoes",
+   "Brandy-cask-aged barley shochu"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "shimane:hikami": {
+  "tagline_en": "Soba shochu in the land of Izumo soba and tatara iron.",
+  "desc_en": "Hikami Seishu has brewed for over 300 years in Okuizumo — myth country, home of tatara iron-making and of Izumo soba, one of Japan's three great buckwheat noodles. That heritage flows into its soba shochu, beside the sakes Shichikanba and Tamahagane.",
+  "features_en": [
+   "300+ years in Okuizumo",
+   "Soba shochu from soba country",
+   "Sakes named for a champion horse and tatara steel"
+  ],
+  "brands_en": {
+   "七冠馬": {
+    "name_en": "Shichikanba",
+    "specs_en": "Sake — named for the seven-crown horse"
+   },
+   "玉鋼": {
+    "name_en": "Tamahagane",
+    "specs_en": "Sake — named for tatara steel"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "tokushima:nisshin_shurui": {
+  "tagline_en": "Naruto Kintoki shochu — and now whisky — from the Taiko kura.",
+  "desc_en": "Nisshin Shurui, Tokushima's full-range drinks maker, runs the Taiko Shuzojo and distils its imo shochu Naruto Kintoki Satomusume from 100% Tokushima-grown Naruto Kintoki sweet potatoes. In 2023 it added Japanese whisky at its Awano distillery.",
+  "features_en": [
+   "100% Naruto Kintoki sweet potatoes",
+   "Runs the Taiko Shuzojo",
+   "Whisky production since 2023"
+  ],
+  "brands_en": {
+   "鳴門金時 里娘": {
+    "name_en": "Naruto Kintoki Satomusume",
+    "specs_en": "Imo shochu — 100% Naruto Kintoki"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "tokyo:hachijo_kohatsu": {
+  "tagline_en": "Nasakeshima — GI Tokyo Island Shochu, sung in a Hachijo folk verse.",
+  "desc_en": "Hachijo Kohatsu, founded in 1947 on Hachijojima, distils honkaku shochu certified under GI Tokyo Island Shochu. Its Nasakeshima — the isle of kindness — takes its name from a line of the island's Shome-bushi folk song, made with traditional technique and modern equipment. Tours by reservation.",
+  "features_en": [
+   "GI Tokyo Island Shochu certified",
+   "Named from the island's folk song",
+   "Tours by reservation"
+  ],
+  "brands_en": {
+   "情け嶋": {
+    "name_en": "Nasakeshima",
+    "specs_en": "Barley and imo shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "tokyo:aogashima_shuzo": {
+  "tagline_en": "Aochu — ten toji, ten styles, on a far volcanic island.",
+  "desc_en": "Aogashima Shuzo makes Aochu, the phantom shochu of Aogashima — a volcanic speck far south of Tokyo. Home-grown sweet potatoes, Japanese barley and the island's own wild koji and yeasts are brewed donburi-style, and each of the ten toji ferments to their own hand: one island, many Aochus.",
+  "features_en": [
+   "The phantom shochu of a remote island",
+   "Wild island koji and yeasts",
+   "Ten toji, each with their own style"
+  ],
+  "brands_en": {
+   "青酎": {
+    "name_en": "Aochu",
+    "specs_en": "Island shochu of wild koji"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "tottori:matsui_shuzo": {
+  "tagline_en": "Japan's first low-temperature distillation, at the Kurayoshi Distillery.",
+  "desc_en": "Matsui Shuzo, founded in 1910, is Tottori's oldest incorporated brewer, running the Kurayoshi Distillery for shochu, whisky and gin. Its rice shochu Kurayoshi pioneered a patented vacuum still that distils at a low 35°C — a first in Japan. Distillery tours are offered.",
+  "features_en": [
+   "Tottori's oldest incorporated brewer",
+   "Patented 35°C low-temperature distillation",
+   "Shochu, whisky and gin at Kurayoshi"
+  ],
+  "brands_en": {
+   "本格米焼酎 倉吉": {
+    "name_en": "Kurayoshi Rice Shochu",
+    "specs_en": "Patented low-temperature distillation"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "wakayama:ozaki_shuzo": {
+  "tagline_en": "Kumano Suigun — rice shochu at the heart of the Kumano pilgrimage.",
+  "desc_en": "Ozaki Shuzo, founded around 1880 in Shingu, is the southernmost kura on Honshu, set at the heart of the World Heritage Kumano Sanzan shrines. Its rice shochu Kumano Suigun — named for the medieval Kumano navy — is vacuum-distilled from select rice, koji and ginjo lees on Kumano River subsoil water, and took second place in the national concours rice-shochu division.",
+  "features_en": [
+   "Honshu's southernmost kura",
+   "At the Kumano World Heritage heart",
+   "2nd place, national concours rice shochu"
+  ],
+  "brands_en": {
+   "熊野水軍": {
+    "name_en": "Kumano Suigun",
+    "specs_en": "Rice shochu with ginjo lees"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "yamagata:kinryu": {
+  "tagline_en": "Yamagata's only shochu specialist, born of nine sake kura.",
+  "desc_en": "Kinryu, founded in 1950 in Sakata, is the only dedicated shochu maker in Yamagata, rooted in a fermentation company nine local sake breweries established to supply base alcohol. Its korui shochu So, launched in 1978, is the prefecture's household standard.",
+  "features_en": [
+   "Yamagata's only shochu specialist",
+   "Founded by nine sake kura",
+   "The local standard since 1978"
+  ],
+  "by": "fable",
+  "audited": false
+ },
+ "yamaguchi:nagayama_shuzo": {
+  "tagline_en": "Netaro — a folk-tale rice shochu born of a university partnership.",
+  "desc_en": "Nagayama Shuzo, founded in 1887 in the Asa district, spans sake, shochu and wine, with the Yamaguchi Winery on its grounds. Its rice shochu Netaro — named for the local folk tale of the boy who slept three years — was developed in the Showa 50s (late 1970s to early 1980s) with the prefectural technology centre and Yamaguchi University, fragrant and full of rice umami.",
+  "features_en": [
+   "Sake, shochu and its own winery",
+   "Netaro: born of industry-academia work",
+   "Named from the Three-Year Netaro folk tale"
+  ],
+  "brands_en": {
+   "寝太郎": {
+    "name_en": "Netaro",
+    "specs_en": "Rice shochu"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ },
+ "yamaguchi:nagayama_honke": {
+  "tagline_en": "The Taka house of Ube — domaine brewing with a café in the kura.",
+  "desc_en": "Nagayama Honke Shuzojo, founded in 1895 in Ube, is known nationwide for its junmai sake Taka, brewed Burgundy-style — its own Yamada Nishiki paddies, mineral-rich water filtering off the Akiyoshidai plateau — with shochu in small volumes beside it. Its registered cultural-property buildings house the Futamatase Coffee café.",
+  "features_en": [
+   "Domaine-style brewing with its own paddies",
+   "Akiyoshidai mineral water",
+   "Cultural-property kura with a café"
+  ],
+  "brands_en": {
+   "貴": {
+    "name_en": "Taka",
+    "specs_en": "The acclaimed junmai sake"
+   }
+  },
+  "by": "fable",
+  "audited": false
+ }
+}
