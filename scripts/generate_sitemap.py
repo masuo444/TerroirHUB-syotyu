@@ -1,12 +1,28 @@
 #!/usr/bin/env python3
 """
-sitemap.xmlを全ページから自動生成。
+sitemap.xml を自動生成（中身の厚い蔵だけを載せる「core方式」）。
+
+2026-09-18: URL検査APIで shochu は全セクション 0/34 が未登録
+（Crawled - currently not indexed）と判明。薄いページにクロール予算を食われているため、
+サイトマップを絞ってクロールを集中させる。ページ自体は消さない
+（内部リンクからは従来どおり辿れる）。全件版が要るときは --all を付ける。
 """
 
 import json
 import glob
 import os
+import sys
 from datetime import date
+
+CORE_ONLY = '--all' not in sys.argv
+skipped = [0]
+
+
+def is_rich(d):
+    """説明文100字以上・公式サイトあり・代表銘柄2つ以上 = 独自の中身があるとみなす"""
+    return (len(d.get('desc') or '') >= 100
+            and (d.get('url') or '').startswith('http')
+            and len(d.get('brands') or []) >= 2)
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DOMAIN = 'https://shochu.terroirhub.com'
@@ -70,6 +86,9 @@ for jf in json_files:
     for d in distilleries:
         if not d.get('id'):
             continue
+        if CORE_ONLY and not is_rich(d):
+            skipped[0] += 1
+            continue
         ja_path = f'/shochu/{pref}/{d["id"]}.html'
         en_path = f'/shochu/en/{pref}/{d["id"]}.html'
         if f'{pref}:{d["id"]}' in EN_REAL:
@@ -103,4 +122,5 @@ out_path = os.path.join(BASE, 'sitemap.xml')
 with open(out_path, 'w', encoding='utf-8') as f:
     f.write(sitemap)
 
-print(f"Sitemap generated: {len(urls)} URLs → sitemap.xml")
+print(f"Sitemap generated: {len(urls)} URLs → sitemap.xml"
+      + (f"（core方式: 中身の薄い蔵 {skipped[0]}者を除外）" if CORE_ONLY else "（--all: 全件）"))
