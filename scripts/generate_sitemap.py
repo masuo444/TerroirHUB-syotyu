@@ -50,6 +50,7 @@ def add(loc, priority, changefreq='monthly', langs=None):
 # Homepage
 add('/', '1.0', 'weekly', {'ja': '/', 'en': '/en/'})
 add('/en/', '0.9', 'weekly')
+add('/shochu/blog/visit-guide.html', '0.9', 'monthly')
 # 見学ガイド（2026-09-18追加）。実在するページだけを載せる
 for _vp in sorted(glob.glob(os.path.join(BASE, 'shochu', 'visit', '**', 'index.html'), recursive=True)):
     _rel = os.path.relpath(_vp, BASE).replace(os.sep, '/')[:-len('index.html')]
