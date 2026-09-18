@@ -144,7 +144,7 @@
   "url": "https://ikishochu.org/omoya-brewery/",
   "area": "壱岐市",
   "desc": "大正13年（1924年）、初代横山確蔵により創業。壱岐産原料を90%以上使用し、伝統のかめ仕込みで壱岐焼酎を醸す。兄・横山雄三が焼酎杜氏、弟・泰三が日本酒杜氏として活躍。2018年に約30年ぶりに日本酒醸造を復活。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "白麹・黒麹",
   "main_ingredient": "barley",
@@ -189,7 +189,12 @@
   "source": "https://ikishochu.org/omoya-brewery/",
   "lat": 33.762,
   "lng": 129.755,
-  "name_en": "Omoya Shuzo"
+  "name_en": "Omoya Shuzo",
+  "visit_checked": {
+   "url": "https://www.omoyashuzo.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
+  }
  },
  {
   "id": "amanogawa",
@@ -628,7 +633,7 @@
   "url": "https://oshima-shuzou.co.jp/",
   "area": "西海市",
   "desc": "昭和60年（1985年）、「活力ある町つくり」を目的に西海市・農協・漁協と民間が出資する第三セクターとして設立。自社圃場で紅芋の栽培から収穫まで一貫して行い、手造りをモットーにした焼酎造り。2018年に最新設備の酒造蔵を新築。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -673,7 +678,12 @@
   "source": "https://oshima-shuzou.co.jp/",
   "lat": 33.015,
   "lng": 129.64,
-  "name_en": "Oshima Shuzo"
+  "name_en": "Oshima Shuzo",
+  "visit_checked": {
+   "url": "https://oshima-shuzou.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
+  }
  },
  {
   "id": "kubo",

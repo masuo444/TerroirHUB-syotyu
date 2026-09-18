@@ -9,6 +9,9 @@ import glob
 import os
 import sys
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from visit_info import visit_info_rows, visit_faq_text   # 見学情報の構造化表示（出典・確認日つき。sakeと共通）
+
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # テンプレートからCSS取得
@@ -119,6 +122,9 @@ def generate_page(b, pref_slug, siblings=None):
     url = b.get('url','')
     area = b.get('area','')
     visit = b.get('visit','')
+    # 公式サイトで確認した構造化データがあればそちらを使う（出典・確認日つき）
+    visit_rows_html = visit_info_rows(b, 'ja')
+    visit_summary = visit_faq_text(b, 'ja') or visit
     station = b.get('nearest_station','')
     source = b.get('source','')
     features = b.get('features', [])
@@ -258,7 +264,9 @@ def generate_page(b, pref_slug, siblings=None):
         visit_items += f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">📞</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">電話</div><div style="font-size:15px;color:var(--text-body);">{esc(tel)}</div></div></div>'
     if url:
         visit_items += f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🌐</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">ウェブサイト</div><div style="font-size:15px;"><a href="{esc(url)}" style="color:var(--accent);text-decoration:none;">{esc(url)}</a></div></div></div>'
-    if visit:
+    if visit_rows_html:
+        visit_items += visit_rows_html
+    elif visit:
         visit_items += f'<div style="display:flex;gap:14px;align-items:flex-start;"><span style="font-size:20px;">🏠</span><div><div style="font-size:14px;font-weight:500;margin-bottom:3px;">見学</div><div style="font-size:15px;color:var(--text-body);">{esc(visit)}</div></div></div>'
 
     # 最寄駅（公式記載があればそれを、無ければ座標から求めた値を「直線距離」と明示して出す）

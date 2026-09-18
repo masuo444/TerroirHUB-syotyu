@@ -12,7 +12,7 @@
   "url": "https://narakasugayama-shuzo.co.jp/",
   "area": "奈良",
   "desc": "明治10年創業。旧・八木酒造から2022年に社名変更。清酒・焼酎・みりん・リキュール・スピリッツを製造。麦焼酎「大和の国の蒸留酒」、ねぎ焼酎「一天一束」、さつまいも焼酎「精華の夢」など個性的な焼酎を展開。",
-  "visit": "直売あり",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "麦・芋・ねぎ",
@@ -36,6 +36,12 @@
    "by": "国土地理院 住所検索API",
    "matched": "奈良県奈良市高畑町９１５番地",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "直売あり",
+  "visit_checked": {
+   "url": "https://narakasugayama-shuzo.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  }
 ]

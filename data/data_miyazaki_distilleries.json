@@ -117,7 +117,7 @@
   "url": "https://www.kurokihonten.co.jp/",
   "area": "児湯郡高鍋町",
   "desc": "「百年の孤独」「中々」「㐂六」など人気銘柄を多数持つ名門蔵。「酒造りは農業から」を信条に、有機農業子会社「甦る大地の会」を設立。焼酎粕を有機肥料・飼料に再利用する自然循環農法を実践。尾鈴山蒸留所も運営。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -150,6 +150,11 @@
    "distance_m": 2640,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.kurokihonten.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -165,7 +170,7 @@
   "url": "https://www.yanagita.co.jp/",
   "area": "都城市",
   "desc": "芋焼酎が主流の宮崎で麦焼酎を主力とする個性的な蔵。5代目柳田正氏が杜氏を務める。「原料がすべて」をモットーに九州産上質大麦を使用。在来種「ミヤザキハダカ」の復活栽培にも取り組む。減圧蒸留でクリアな味わいを実現。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "barley",
@@ -194,6 +199,11 @@
    "distance_m": 1100,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.yanagita.co.jp/company/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -252,7 +262,7 @@
   "url": "https://ochiaishuzojyo.jp/",
   "area": "宮崎市",
   "desc": "4代目落合亮平氏が杜氏兼社長を務める。200年以上の歴史ある甕で一次仕込みを行い、最低1年半以上の熟成を経て出荷。都城の契約農家による緑肥栽培のさつまいもを使用。ピーマン・にんにく・生姜などの野菜焼酎も製造。食中酒としてのお湯割りを推奨。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -291,6 +301,11 @@
    "distance_m": 5660,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://ochiaishuzojyo.jp/company/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -395,7 +410,7 @@
   "url": "https://ooura-syuzou.net/",
   "area": "都城市",
   "desc": "家族経営の小さな蔵。4代目大浦晋一氏が僧侶から転身して蔵を継承。木箱と布団を使った伝統的な手造り麹、甕仕込みを守る。1975年に開発した玄米焼酎は全国でも2蔵程度しか造っていない希少品。ガラス張りの壁で製造工程の見学が可能。",
-  "visit": "ガラス張りの壁から製造工程を見学可能。",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -424,6 +439,12 @@
    "distance_m": 720,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "ガラス張りの壁から製造工程を見学可能。",
+  "visit_checked": {
+   "url": "https://ooura-syuzou.net/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -494,7 +515,7 @@
   "url": "https://nichinan-yaezakura.jp/",
   "area": "日南市",
   "desc": "5代目古澤昌子氏が代表を務める。「昔ながらの焼酎造りを継承」し、土蔵の醸造蔵で自然発酵による伝統製法を守る。芋・麦・米・そばの4種類の焼酎を製造。女性向けブランド「YAEZAKURA -SEN-」も展開。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -526,6 +547,11 @@
    "distance_m": 310,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://nichinan-yaezakura.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -590,7 +616,7 @@
   "url": "https://osuzuyama.co.jp/",
   "area": "児湯郡木城町",
   "desc": "黒木本店の子会社として設立。高鍋町から山中へ約30分の場所に位置。山の湧水による超軟水を使用。飫肥杉の木桶など木製容器を活用し、手造りの麹にこだわる。「人と自然が一体となった」酒造りを追求。機械化では再現できない手仕事を重視。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -628,6 +654,11 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県木城町石河内",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://osuzuyama.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -729,7 +760,7 @@
   "url": "https://www.akugare.jp/",
   "area": "日向市",
   "desc": "2004年に富乃露酒造として設立、2015年にあくがれ蒸留所に改称。杜氏・山本豊文氏が「焼酎は造るものではなく育てるもの」と語る。契約農家栽培の黄金千貫、大地の夢などを使用。耳川の伏流水で仕込む。甕仕込み少量生産。",
-  "visit": "仕込み期間中（8〜12月）に要予約で見学可能。",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -758,6 +789,12 @@
    "distance_m": 7130,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "仕込み期間中（8〜12月）に要予約で見学可能。",
+  "visit_checked": {
+   "url": "https://www.akugare.jp/category/youkoso/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -863,7 +900,7 @@
   "url": "https://yamayadistillery.com/masaharu/",
   "area": "西都市",
   "desc": "5代目黒木雄翔氏が社長を務める。「焼酎は地酒、この土地の農産物と水と自然環境で育まれたもの」がモットー。地元産黄金千貫と硬度34mg/Lの清水兼の湧水を使用。代表銘柄「逢初」は23歳の時に構想し15年かけて完成。",
-  "visit": "蔵元見学可能（フリーダイヤル 0120-0386-22）。",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -896,6 +933,12 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県西都市三納",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "蔵元見学可能（フリーダイヤル 0120-0386-22）。",
+  "visit_checked": {
+   "url": "https://yamayadistillery.com/masaharu/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1007,7 +1050,7 @@
   "url": "https://www.hinamusume.jp/",
   "area": "日南市",
   "desc": "1804年創業、当初は酢の醸造元として出発し1921年から焼酎製造を開始。床麹法による完全手造りの麹にこだわり、常圧蒸留で仕上げる。7.5代目の宮田智賀子氏が杜氏を務める。蔵に棲みついた麹菌が独自の味わいを生む。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -1037,6 +1080,11 @@
    "distance_m": 290,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.hinamusume.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1052,7 +1100,7 @@
   "url": "https://www.takachihosyuzo.co.jp/",
   "area": "西臼杵郡高千穂町",
   "desc": "玉の露酒造として創業、1976年に現社名に変更。黒麹・全麹仕込み・常圧蒸留による個性的な麦焼酎が主力（生産の60%）。芋焼酎（15%）、とうもろこし焼酎「刈干」など多彩な原料の焼酎を製造。副産物を家畜飼料・水産養殖に再利用。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "black",
   "main_ingredient": "barley",
@@ -1076,6 +1124,11 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県高千穂町押方",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.takachihosyuzo.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1171,7 +1224,7 @@
   "url": "https://himeizumi.com/",
   "area": "西臼杵郡日之影町",
   "desc": "7代目が営む歴史ある蔵。無濾過製法にこだわり、本来の旨味をそのまま残す。130年以上の蔵に棲みつく「蔵付き酵母」が独自の味わいを生む。麦・芋・そば・餅米と多彩な原料で焼酎を製造。川向こうの湧水を仕込み水に使用。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -1195,6 +1248,11 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県日之影町岩井川",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://himeizumi.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1476,7 +1534,7 @@
   "url": "https://tojijunpei.com/",
   "area": "日南市",
   "desc": "1818年創業、2001年に再興。飫肥城下町に位置する蔵。東京農業大学で学んだ杜氏・金丸潤平氏が手造り麹と機械を使い分ける。宮崎紅やコガネマサリなどの品種を使用。「造り手の魂を込めた一本」を追求する少量生産。",
-  "visit": "見学不可。",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -1510,6 +1568,12 @@
    "distance_m": 960,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "見学不可。",
+  "visit_checked": {
+   "url": "https://tojijunpei.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1525,7 +1589,7 @@
   "url": "https://www.jyukai-shuzou.jp/",
   "area": "串間市",
   "desc": "100年以上の歴史を持つ5つの蔵元が合併して設立した協業組合。宮崎紅（赤芋）と敷地内の湧水を使用。飲み口がソフトで甘く美味しい芋の香りが優しく広がる焼酎。焼酎粕を飼料にした畜産も行い循環型農業を実践。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "sweet_potato",
@@ -1556,6 +1620,11 @@
    "distance_m": 1540,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.jyukai-shuzou.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  }
 ]

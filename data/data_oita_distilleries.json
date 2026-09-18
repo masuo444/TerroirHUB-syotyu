@@ -70,7 +70,7 @@
   "url": "https://www.nikaido-shuzo.co.jp/",
   "area": "日出町",
   "desc": "1866年創業、8代続く老舗蔵元。1951年に麦麹製造法を確立し、1973年に全量麦焼酎を開発、1974年に発売して大分麦焼酎ブームの火付け役となった。1979年に農林水産大臣賞（第1回食品産業優良企業表彰）を受賞。「ふるさとを想う心」をコンセプトに掲げる。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "barley",
@@ -101,6 +101,11 @@
    "distance_m": 480,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.nikaido-shuzo.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -260,7 +265,7 @@
   "url": "https://oimatsu.com/",
   "area": "日田市",
   "desc": "寛政元年（1789年）創業、230年以上の歴史を持つ老舗蔵。日田天領水で知られる水郷・日田に位置する。清酒蔵として創業し、1970年から焼酎造りを開始。代表銘柄「閻魔」は長期貯蔵麦焼酎として知られる。現当主で十一代目。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "barley",
@@ -290,6 +295,11 @@
    "distance_m": 6460,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://oimatsu.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -305,7 +315,7 @@
   "url": "https://www.yatsushika.com/",
   "area": "九重町",
   "desc": "元治元年（1864年）創業、7代続く蔵元。清酒・焼酎・リキュールを製造。代表焼酎「銀座のすずめ」は、かつて銀座で時を忘れて語り合った酔人たちを雀になぞらえて命名された本格熟成焼酎。清酒「八鹿」でも知られる。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "barley",
@@ -335,6 +345,11 @@
    "distance_m": 1880,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.yatsushika.com/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -843,7 +858,7 @@
   "url": "https://kotegawa.fundokin.co.jp/",
   "area": "臼杵市",
   "desc": "安政2年（1855年）より一貫して手づくりにこだわった酒造りを行う臼杵市の蔵元。国の有形文化財に登録された築150年の白壁土蔵が残る。作家・野上弥生子の生家としても知られる。清酒「宗麟」と大分麦焼酎「白寿」が代表銘柄。",
-  "visit": "蔵見学可（要予約、8:30-17:00、20名程度まで）",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "barley",
@@ -873,6 +888,12 @@
    "distance_m": 630,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_legacy": "蔵見学可（要予約、8:30-17:00、20名程度まで）",
+  "visit_checked": {
+   "url": "https://kotegawa.fundokin.co.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1102,7 +1123,7 @@
   "url": "https://www.yano-shuzoujou.jp/",
   "area": "国東市",
   "desc": "明治16年創業。創業者が松島の美しい景色に魅了され、屋号を「松島屋」、酒銘を「松の露」と命名。大分県産米「ヒノヒカリ」を主原料に、糖類を一切添加せず米本来の甘みを活かした酒造り。伝統的な手造りにこだわる小さな蔵。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "rice",
@@ -1125,6 +1146,11 @@
    "by": "国土地理院 住所検索API",
    "matched": "大分県国東市安岐町成久",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://www.yano-shuzoujou.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
@@ -1307,7 +1333,7 @@
   "url": "https://oochi.saiki.jp/",
   "area": "佐伯市",
   "desc": "明治18年創業。元は佐伯市船頭町で創業し、令和元年（2019年）に佐伯の清酒と焼酎の伝統文化を後世に残すべく事業継承し上浦町へ蔵を移転。米と麹だけで造った日本酒「花笑み」は、花が咲くような明るい笑顔を願って命名。",
-  "visit": "",
+  "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。",
   "spirit_type": "honkaku",
   "koji_type": "",
   "main_ingredient": "rice",
@@ -1337,6 +1363,11 @@
    "distance_m": 1240,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_checked": {
+   "url": "https://oochi.saiki.jp/",
+   "date": "2026-09-18",
+   "result": "no_mention"
   }
  },
  {
