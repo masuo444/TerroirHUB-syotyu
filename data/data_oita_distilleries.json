@@ -46,6 +46,15 @@
    "distance_m": 6310,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "tasting": "available",
+   "fee": "入場料：無料",
+   "facility": "日田蒸溜所",
+   "notes_ja": "営業時間10:00～16:00。定休日：毎週火曜日（祝日の場合は営業）・盆・年末年始。工場内で稼働中の仕込タンクや蒸留機を見学可能。試飲コーナーでは原酒や貯蔵酒のテイスティング、グラスなど関連グッズの販売あり。駐車場約42台。",
+   "source": "https://www.sanwa-shurui.co.jp/factory/hita/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -183,6 +192,14 @@
    "distance_m": 3640,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "shop": true,
+   "facility": "藤居醸造 焼酎工房／FUJII BREWERY",
+   "notes_ja": "『蔵とビール工場に併設したお店もあります』。藤居醸造 焼酎工房は『年中営業（不定休）9:00〜17:30』、FUJII BREWERYは『金・土・日・祝日 11:00〜17:00』。見学予約方法・料金・所要時間の記載なし。",
+   "source": "https://www.taimei-fujii.co.jp/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -363,6 +380,15 @@
    "distance_m": 2730,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "duration": "見学時間はおよそ15分",
+   "notes_ja": "見学の2日前までに要連絡（電話0978-62-2109）。見学可能時間枠は午前10:00・11:00、午後13:30・14:30・15:30。日・祝日を除く。12月は繁忙期のため基本的に蔵見学の予約は受付けていない。試飲希望の有無を選択可能。営業時間は月〜土09:00〜16:30。",
+   "source": "https://chiebijin.com/kuravisit/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -577,6 +603,16 @@
    "distance_m": 530,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "shop": true,
+   "facility": "蔵元ショップ、カフェ＆ギャラリー旅の舎sakabayashi、発酵舎KOGURA、酒蔵資料館",
+   "notes_ja": "「酒蔵見学」希望者は予約申込書をメールまたはFAXで送付する案内あり。営業時間9:00〜16:30、定休日は日曜・祝日。見学・駐車場の問い合わせ電話0973-22-3121。バスでの来場は要予約、駐車場は普通車10台程度。日田インターから車で約5分、日田駅から徒歩19分。",
+   "source": "https://www.kuncho.net/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1390,6 +1426,14 @@
    "distance_m": 3590,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "notes_ja": "「蔵見学もお気軽にお電話でご予約ください」「見学や試飲は喜んで迎えます！来ていただく方は必ず来店前にお電話ください！」と記載。連絡先0974-72-0101。製造期間は春（3月〜5月）と秋（10月〜12月）、土日は不在が多いため事前の電話予約が必須。",
+   "source": "https://6026.jp/",
+   "last_checked": "2026-09-18"
   }
  },
  {

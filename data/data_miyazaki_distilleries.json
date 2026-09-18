@@ -43,6 +43,19 @@
    "distance_m": 1120,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://www.kirishima-fg.jp/factory/",
+   "tasting": "free",
+   "fee": "無料",
+   "duration": "約60分（スタッフによるご案内）",
+   "shop": true,
+   "facility": "焼酎の里 霧島ファクトリーガーデン",
+   "notes_ja": "インターネット予約必須（「かんたん予約ページ」）。電話問い合わせ0986-21-8111（9:00～17:00）。毎日開催・要予約だが臨時休業の場合あり。開始時刻は10:00／11:00／13:30／14:30／15:30の1日5回、遅刻時は案内不可。見学最後に白霧島・黒霧島など複数銘柄の試飲とさつまいもの試食あり。最大30名まで受入、無料駐車場150台、エレベーター・車いすやベビーカー貸出あり。ショップ併設。",
+   "source": "https://www.kirishima-fg.jp/factory/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -457,6 +470,15 @@
    "distance_m": 3610,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "shop": true,
+   "facility": "蔵元直売店",
+   "notes_ja": "「見学はご予約下さい」と記載。蔵元直売店の営業時間：平日10:00～16:00（土日祝休業）。バスツアーでの利用は予約が必要。試飲についての明記はなし。",
+   "source": "https://satoshochu.com/company/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -543,6 +565,16 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県高千穂町岩戸",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "not_required",
+   "tasting": "free",
+   "shop": true,
+   "facility": "トンネルの駅（高千穂観光物産館）",
+   "notes_ja": "「焼酎貯蔵庫では、自然の環境を活かしてじっくりと熟成中の焼酎を見学できます」「店内で無料試飲もできて、お好みの焼酎を選べます」。営業時間9:00～17:00（青電車は16:30まで）、第1水曜日定休（祝祭日の場合は第2水曜日）。2000年に神楽酒造のアンテナショップとしてオープン。",
+   "source": "https://tonnerunoeki.com/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -806,6 +838,16 @@
    "by": "国土地理院 住所検索API",
    "matched": "宮崎県小林市須木下田",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "free",
+   "fee": "料金は無料です。",
+   "duration": "２０分～３０分",
+   "notes_ja": "蔵見学は基本的に会社営業日に限ります。見学、説明をご希望の方は事前予約をお願い致します。営業日外希望の場合は事前連絡で対応できる場合あり。団体のお客様も必ず事前にご連絡下さい。仕込み時期の目安：4月～5月：麦焼酎、9月から12月：芋焼酎（時期は変わる場合あり）。見学内容は製造蔵特設スペースでの説明→試飲展示場での試飲。予約・問合せTEL 0984-48-2016。",
+   "source": "http://suki-syuzo.jp/free/kurakengaku",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -941,6 +983,15 @@
    "distance_m": 930,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "duration": "約30分",
+   "notes_ja": "「予約制にて蔵見学を受け付けております。ご興味のある方は当サイトのお問い合わせフォームもしくはお電話にてお問い合わせください」。試飲は原酒・仕込水（20歳未満および運転者は除く）。繁忙期や蔵人のスケジュールの都合により希望日時に蔵見学をお受けできない場合あり。TEL：0987-68-1055（平日9:00～16:30）。",
+   "source": "https://www.obisugi.co.jp/tour/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1226,6 +1277,18 @@
    "distance_m": 2140,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://ohtemon1895.jp/contact/",
+   "tasting": "paid",
+   "fee": "蔵見学コース500円（税込）/人、ブレンディングコース1,500円（税込）/人",
+   "duration": "約40分〜60分",
+   "facility": "酒蔵王手門",
+   "notes_ja": "実施日は木曜・金曜・土曜（完全要予約）、見学開始時間9時〜15時。蔵の都合で休みの場合あり。定員は一日限定1組（上限8名、8名以上は要相談）。見学希望日の3日前までに電話またはHPお問い合わせ（メール）にて要予約。香水・直前の喫煙は控える、小さな子供の来場は不可、運転者・未成年・妊娠中や授乳期の女性の試飲は不可。",
+   "source": "https://ohtemon1895.jp/sakagura-tour/",
+   "last_checked": "2026-09-18"
   }
  },
  {

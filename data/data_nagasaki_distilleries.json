@@ -1144,6 +1144,15 @@
   "source": "https://www.bansho.info/",
   "lat": 32.664,
   "lng": 130.311,
-  "name_en": "Yoshidaya"
+  "name_en": "Yoshidaya",
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "shop": true,
+   "facility": "吉田屋（蕃薯蔵）／cafe kULa",
+   "notes_ja": "『100年の酒蔵見学が可能です。』ただし『現在、新型コロナウイルス感染症拡大防止・抑制のため一時的に完全予約制としております。』酒蔵の奥座敷にcafe kULa（八千代喫茶店）を整備。『酒蔵内でお酒が買える直売所』あり。営業時間9:00～17:00、毎週火曜定休。",
+   "source": "https://www.bansho.info/infomation.html",
+   "last_checked": "2026-09-18"
+  }
  }
 ]

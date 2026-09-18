@@ -58,6 +58,16 @@
    "distance_m": 740,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "tasting": "free",
+   "fee": "見学・試飲は無料",
+   "shop": true,
+   "facility": "球磨焼酎ミュージアム白岳伝承蔵",
+   "notes_ja": "受付時間9:00～16:00（年末年始を除く）。白岳ホール（定員60名）、白岳ギャラリー、物販・試飲コーナー、工程紹介コーナーを併設。WiFi完備、免税店対応。予約方法・所要時間の詳細記載なし。問い合わせ電話0966-32-9750。なお高橋酒造の公式サイトには2026年9月1日付で「田野蒸溜所 一般見学開始のお知らせ」あり、別施設の見学も新規開始した模様（詳細未確認）。",
+   "source": "http://www.denshogura.jp",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -483,6 +493,17 @@
    "distance_m": 3810,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "available",
+   "duration": "およそ30分ほど（試飲コーナー含む）",
+   "shop": true,
+   "facility": "大石酒造場",
+   "notes_ja": "申し込みフォームで予約受付、少なくとも見学の3日前までに要申込（希望日時に対応できない場合あり）。試飲コーナーで焼酎を試飲可能（未成年者不可）。本社奥横の直営ショップで焼酎・グッズを購入可能。日・祝祭日は定休日。工場内は暗い場所・滑りやすい場所があるため歩きやすい靴を推奨。料金・具体的な営業時間の記載なし。",
+   "source": "https://ohishi-shuzohjyo.jp/visit/visit.html",
+   "last_checked": "2026-09-18"
   }
  },
  {

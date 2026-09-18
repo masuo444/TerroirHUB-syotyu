@@ -176,6 +176,18 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県大宜味村田嘉里",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://takazato-maruta.jp/tour/",
+   "tasting": "available",
+   "fee": "大人おひとり様3000円×ご案内人数となります（お子様は無料です）",
+   "duration": "45分程度",
+   "shop": true,
+   "notes_ja": "営業時間9:00〜17:00。1組の見学につき最大5名様まで。泡盛ミニボトルのお土産付き。",
+   "source": "https://takazato-maruta.jp/tour/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -242,6 +254,17 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県今帰仁村仲宗根",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "tasting": "free",
+   "fee": "無料",
+   "duration": "約20分",
+   "shop": true,
+   "notes_ja": "見学時間13:00〜16:00（平日）、土日祝祭日は定休日。要予約（前日までに電話・メール・FAXにて受付）。1名から利用可、駐車場40台完備。蔵見学後は蔵元直売店にて無料試飲や販売も行っている。",
+   "source": "https://nakijinshuzo.jp/field-trip/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -400,6 +423,15 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県名護市大中一丁目１４番６号",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "not_required",
+   "fee": "無料",
+   "facility": "国指定重要文化財の建物",
+   "notes_ja": "工場見学受付中、10時〜16時半（昼休み12時〜13時）、予約電話不要、年中無休、駐車スペース20台。杜氏が直接案内。赤瓦の建物は昭和3年建造、2009年国指定重要文化財。",
+   "source": "http://www.awamori-kokka.co.jp/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -461,6 +493,19 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県名護市許田４０５番地",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://tour.helios-shop.jp/",
+   "tasting": "available",
+   "fee": "¥500（税込）/人",
+   "duration": "約45分",
+   "shop": true,
+   "facility": "古酒蔵・蒸留所",
+   "notes_ja": "1日2回開催（①11時〜②15時〜）、毎週水曜日は見学休業日。電話受付9時〜17時、Web受付24時間（前日・当日予約は電話のみ）。試飲は15mlでの提供、2024年9月1日より有料化。お土産付き。",
+   "source": "https://tour.helios-shop.jp/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -595,6 +640,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県恩納村山田",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "facility": "琉球村内",
+   "notes_ja": "泡盛を製造する過程を実際に見学できる。見学はガラス越し。",
+   "source": "https://www.sakimoto-awamori.com",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -791,6 +843,16 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県うるま市石川嘉手苅５７０番地",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://kamimura-shuzo.co.jp/tsumami/",
+   "tasting": "available",
+   "shop": false,
+   "notes_ja": "1名〜15名様まで1グループでご案内。ガラス越しではなくモロミの香りや工場内の雰囲気を五感で体験できる。毎朝10時スタート、直前予約は電話098-964-7628へ確認。見学後は約6〜7種類の泡盛（もろみ酢含む）を試飲可能。",
+   "source": "https://kamimura-shuzo.co.jp/tsumami/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -860,6 +922,16 @@
    "distance_m": 2030,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "recommended",
+   "reservation_url": "https://www.chuko-awamori.com/chukogura/",
+   "tasting": "available",
+   "facility": "忠孝蔵（手造り泡盛工場・木造古酒蔵）／月の蒸溜所（Moon Distillery）",
+   "notes_ja": "営業時間9時〜17時30分、定休日は木曜日・元日。見学案内時間は①10時②14時の1日2回。那覇空港から車で約10分。2023年に体験型施設「月の蒸溜所」としてリニューアル。泡盛を飲み比べしながら説明を受けられる。10名以上の団体や介助が必要な場合は予約必須。",
+   "source": "https://www.chuko-awamori.com/chukogura/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1024,6 +1096,17 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県うるま市州崎１２番地",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://shinzato-shuzo.co.jp/inspection/",
+   "tasting": "available",
+   "fee": "1,100円（うち消費税額等100円）※20才未満は無料",
+   "duration": "工場見学・試飲含め約1時間程度",
+   "notes_ja": "月曜〜金曜営業、10時・15時の2時間帯で実施。弊社商品の飲み比べ・お土産付き（運転手はアルコール提供不可）。団体見学（15人以上）は電話相談。",
+   "source": "https://shinzato-shuzo.co.jp/inspection/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1165,6 +1248,12 @@
    "distance_m": 3760,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "paused",
+   "notes_ja": "蔵元事務所改装のため、現在工場見学を中止中（再開時期はホームページで案内予定）。通常は平日9:30〜16:30実施、土曜祝祭日・年末年始休み、1週間前までの予約制、1名から対応可（団体は要相談）。",
+   "source": "https://kamejikomi.com/factory_tour.php",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1301,6 +1390,13 @@
    "distance_m": 130,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "paused",
+   "facility": "天龍蔵",
+   "notes_ja": "新型コロナウイルス感染拡大防止のため、天龍蔵の見学・販売は当面の間休止。休止中は商品を事務所受付窓口（1階）で平日9:00〜17:00に販売（土日祝日は定休日）。",
+   "source": "https://mizuhoshuzo.co.jp/news/about-visit/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1430,6 +1526,13 @@
    "distance_m": 650,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "facility": "瑞泉酒造 見学・売店",
+   "notes_ja": "「見学ご案内 平日（最終受付16:30）/土（最終受付16:00）/日（受付なし）」。売店営業時間は「平日・土・日 9:00~17:00」。ナビゲーションに「見学申込・売店」のメニューあり。予約方法・料金・試飲の詳細は本文には明記なし。",
+   "source": "https://www.zuisen.co.jp",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1510,6 +1613,13 @@
    "distance_m": 1260,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "facility": "津波古酒造",
+   "notes_ja": "月1回開催される「太平感謝祭」。醸造所内に数多くの泡盛が並び販売される旨の記載あり。作り手の想いを伝える機会も大切にしたいとの方針が述べられているが、見学・試飲の料金・時間・予約方法の具体的な記載はなし。",
+   "source": "https://tsuhakosyuzou.com",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -1794,6 +1904,15 @@
    "distance_m": 5600,
    "by": "HeartRails Express API（座標からの直線距離）",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "tasting": "available",
+   "shop": true,
+   "facility": "泡盛まさひろギャラリー",
+   "notes_ja": "「泡盛まさひろギャラリー」営業時間は「9：00～17：00(最終入場16：30)」。「ギャラリー1Fではまさひろの工場で製造した泡盛を試飲いただくことが可能です」との記載あり。所在地は沖縄県糸満市西崎町5-8-7。見学料金・予約要否の明記なし。",
+   "source": "https://awamori-masahiro.com/",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -2318,6 +2437,13 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県宮古島市伊良部",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "paused",
+   "facility": "宮の華",
+   "notes_ja": "「現在、工場見学につきましては弊社の受け入れ態勢が整っていない為休止させていただいております。」と明記。試飲・直売所・予約に関する記載はなし。",
+   "source": "https://miyanohana.com",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -2532,6 +2658,17 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県石垣市宮良９５９番地",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "not_required",
+   "fee": "無料",
+   "duration": "約15分",
+   "shop": true,
+   "facility": "請福酒造",
+   "notes_ja": "「営業時間 10:00～17:00 定休日 土日祝」。「工場見学（2025 5/1～）無料 1日1回 14:00～のみ（所要時間 約15分）」「※予約は必要ございません 開始時間までにご来店ください」。「入場無料 無料駐車場有(大型バス可)」。10名以上の団体の場合は事前連絡が必要と記載あり。",
+   "source": "https://www.seifuku.co.jp",
+   "last_checked": "2026-09-18"
   }
  },
  {
@@ -2868,6 +3005,14 @@
    "by": "国土地理院 住所検索API",
    "matched": "沖縄県与那国町与那国",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "facility": "崎元酒造所",
+   "notes_ja": "「酒造所見学についてのご予約・お問い合わせは、お電話より承っております」。「【営業時間】9:00〜17:00（12時〜13時30分まで昼食休み）」「土曜日・日曜日・地域行事はお休み」。なお見学ページ冒頭に「令和5年6月末までスタッフ不足の為、工場見学が出来ません」という過去の告知が残っているが、対象期間はすでに終了している。見学料金・所要時間・試飲の記載はなし。",
+   "source": "https://www.sakimotoshuzo.com/visit",
+   "last_checked": "2026-09-18"
   }
  },
  {

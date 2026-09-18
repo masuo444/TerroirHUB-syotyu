@@ -37,6 +37,19 @@
    "by": "国土地理院 住所検索API",
    "matched": "広島県廿日市市桜尾一丁目１２番１号",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://www4.revn.jp/sakuraodistillery/",
+   "tasting": "available",
+   "fee": "お一人様 2,000円（税込）",
+   "duration": "90分程度（バス団体向けコースは約30分）",
+   "shop": true,
+   "facility": "SAKURAO蒸留所ビジターセンター",
+   "notes_ja": "毎日開催（第二日曜日・お盆・年末年始・臨時休業日を除く）。定員最大12名、対象年齢20歳以上。60日前から見学日の2日前までに要予約。運転者・20歳未満・妊娠中や授乳期の方は試飲不可。トップページには2026.9.1付で「ビジターセンター臨時休業のお知らせ」あり、来訪前に最新の休業状況を要確認。",
+   "source": "https://www4.revn.jp/sakuraodistillery/",
+   "last_checked": "2026-09-18"
   }
  },
  {

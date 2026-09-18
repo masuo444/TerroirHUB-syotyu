@@ -1,0 +1,121 @@
+/* 見学ガイド共通スタイル — 県別・テーマ別ページで共有（HTMLを軽く保つため外部化）*/
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#FFFBF7;--surface:#FFFFFF;--surface-warm:#FFF5ED;
+  --accent:#8B5E3C;--accent-light:#E8825A;--accent-pale:#FFF0E8;
+  --text:#2A2018;--text-body:#4A3830;--text-muted:#A09080;
+  --border:#EAE0D5;--green:#4caf7d;--indigo:#3D5A80;--gold-warm:#A08040;
+  --fd:'Zen Old Mincho',serif;--fb:'Noto Serif JP',serif;--fn:'DM Sans',sans-serif;
+}
+body{background:var(--bg);color:var(--text-body);font-family:var(--fb);
+  font-weight:300;line-height:1.9;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{display:block;max-width:100%}
+
+/* ── ナビ ── */
+.nav{display:flex;align-items:center;gap:20px;flex-wrap:wrap;
+  padding:14px 24px;background:rgba(255,251,247,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--border);position:sticky;top:0;z-index:50}
+.nav-brand{text-decoration:none;display:flex;align-items:baseline;gap:6px}
+.nav-logo{font-family:var(--fd);font-size:17px;letter-spacing:.06em;color:var(--text)}
+.nav-logo-sub{font-family:var(--fn);font-size:11px;letter-spacing:.16em;color:var(--accent)}
+.nav-links{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px}
+.nav-links a{text-decoration:none;color:var(--text-body);white-space:nowrap}
+.nav-links a:hover{color:var(--accent)}
+.nav-r{margin-left:auto;display:flex;gap:6px}
+.lb{font-family:var(--fn);font-size:11px;letter-spacing:.08em;text-decoration:none;
+  color:var(--text-muted);border:1px solid var(--border);border-radius:14px;padding:3px 10px}
+.lb.active{color:var(--accent);border-color:var(--accent)}
+
+/* ── レイアウト ── */
+.wrap{max-width:900px;margin:0 auto;padding:0 24px}
+.crumb{font-size:11.5px;color:var(--text-muted);padding:18px 0 0}
+.crumb a{color:var(--text-muted);text-decoration:none}
+.crumb a:hover{color:var(--accent)}
+.head{padding:8px 0 28px;border-bottom:1px solid var(--border);margin-bottom:28px}
+.eyebrow{font-family:var(--fn);font-size:10.5px;letter-spacing:.2em;color:var(--accent);
+  text-transform:uppercase;margin-bottom:10px}
+h1{font-family:var(--fd);font-weight:400;font-size:clamp(25px,4.6vw,36px);
+  line-height:1.4;color:var(--text);letter-spacing:.02em}
+.lead{margin-top:14px;font-size:15px;color:var(--text-body)}
+.asof{margin-top:12px;font-size:11.5px;color:var(--text-muted)}
+
+/* ── 要約チップ ── */
+.sum{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.sum span{font-family:var(--fn);font-size:11.5px;letter-spacing:.03em;
+  background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:5px 12px}
+.sum b{font-weight:500;color:var(--accent)}
+
+h2{font-family:var(--fd);font-weight:400;font-size:21px;color:var(--text);
+  margin:44px 0 6px;letter-spacing:.02em}
+.sec-lead{font-size:13px;color:var(--text-muted);margin-bottom:16px}
+
+/* ── 比較表 ── */
+.tablewrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:640px;font-size:13px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border);vertical-align:top}
+th{background:var(--surface-warm);font-weight:500;font-size:12px;color:var(--text);white-space:nowrap}
+tbody tr:last-child td{border-bottom:none}
+td a{color:var(--accent);text-decoration:none}
+td a:hover{text-decoration:underline}
+.muted{color:var(--text-muted)}
+
+/* ── 蔵カード ── */
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:22px;margin-bottom:16px}
+.card h3{font-family:var(--fd);font-weight:400;font-size:19px;color:var(--text);margin-bottom:4px}
+.card h3 .brand{font-size:13px;color:var(--text-muted);margin-left:8px;font-family:var(--fb)}
+.where{font-size:12.5px;color:var(--text-muted);margin-bottom:12px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
+.badge{font-family:var(--fn);font-size:11px;letter-spacing:.03em;border-radius:12px;
+  padding:3px 10px;border:1px solid var(--border);background:var(--surface-warm);color:var(--text-body)}
+.badge.on{border-color:var(--accent);color:var(--accent);background:var(--accent-pale)}
+.badge.free{border-color:var(--green);color:#2f8159;background:rgba(76,175,125,.08)}
+.badge.en{border-color:var(--indigo);color:var(--indigo);background:rgba(61,90,128,.07)}
+.dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-size:13.5px;margin-bottom:12px}
+.dl dt{color:var(--text-muted);font-size:12.5px;white-space:nowrap}
+.dl dd{color:var(--text-body)}
+.note{font-size:13px;color:var(--text-body);background:var(--surface-warm);
+  border-radius:8px;padding:10px 12px;margin-bottom:12px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+.btn{display:inline-block;font-family:var(--fn);font-size:12.5px;letter-spacing:.04em;
+  text-decoration:none;background:var(--accent);color:#fff;border-radius:20px;padding:8px 18px}
+.btn:hover{background:var(--accent-light)}
+.btn.ghost{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.src{font-size:11px;color:var(--text-muted);border-top:1px dashed var(--border);padding-top:10px}
+.src a{color:var(--text-muted)}
+
+/* ── FAQ ── */
+.faq{background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:18px 22px;margin-bottom:12px}
+.faq h3{font-family:var(--fb);font-weight:400;font-size:15px;color:var(--text);margin-bottom:8px}
+.faq p{font-size:13.5px}
+
+/* ── リンク集 ── */
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.links a{font-size:12.5px;text-decoration:none;color:var(--accent);
+  border:1px solid var(--border);border-radius:16px;padding:6px 14px;background:var(--surface)}
+.links a:hover{border-color:var(--accent)}
+
+/* ── 県グリッド（索引用）── */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:10px;margin-top:14px}
+.gcell{background:var(--surface);border:1px solid var(--border);border-radius:10px;
+  padding:12px 14px;text-decoration:none;display:block}
+.gcell:hover{border-color:var(--accent)}
+.gcell .p{font-family:var(--fd);font-size:15px;color:var(--text)}
+.gcell .n{font-family:var(--fn);font-size:11.5px;color:var(--text-muted);margin-top:2px}
+.region{font-family:var(--fn);font-size:11px;letter-spacing:.16em;color:var(--text-muted);
+  margin:26px 0 2px;text-transform:uppercase}
+
+footer{padding:44px 24px;text-align:center;font-size:11.5px;color:var(--text-muted);
+  border-top:1px solid var(--border);margin-top:56px;line-height:2}
+footer a{color:var(--text-muted)}
+
+@media(max-width:600px){
+  .wrap{padding:0 18px}
+  .nav{padding:12px 18px;gap:12px}
+  .nav-links{font-size:12px;gap:12px}
+  .card{padding:18px}
+  .dl{grid-template-columns:1fr;gap:2px 0}
+  .dl dt{margin-top:8px}
+}

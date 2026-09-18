@@ -36,6 +36,18 @@
    "by": "国土地理院 住所検索API",
    "matched": "兵庫県明石市大久保町西島",
    "checked": "2026-07-27"
+  },
+  "visit_info": {
+   "status": "open",
+   "reservation": "required",
+   "reservation_url": "https://www.ei-sake.jp/tours.html",
+   "tasting": "available",
+   "duration": "1時間半程度",
+   "shop": false,
+   "facility": "江井ヶ嶋酒造 資料館・清酒蔵・ウイスキー蒸留所",
+   "notes_ja": "不定期開催（週一回程度）、午後2時～。定員15名様前後（1グループ4名様まで）、8名以上は別途相談。見学終了時にテイスティングルームで製品を試飲でき、蒸留所限定ウイスキー等も購入可能。予約はフォームまたは電話（078-946-1001）。構内禁煙、運転者の飲酒厳禁、車いす利用は事前相談要。営業時間9:00〜17:00、定休日は土日祝（長期休暇は要確認）。",
+   "source": "https://www.ei-sake.jp/tours.html",
+   "last_checked": "2026-09-18"
   }
  },
  {
