@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1915 — 鹿児島エリア, Kagoshima</p>
     <p class="hero-tagline">1915年創業、100年以上の歴史を持つ蔵元。自然製法と品質を重視した焼酎造りを行う。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://higashi-sz.com'">Official Website</button>
     </div>
   </div>
@@ -365,37 +365,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Higashi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/higashi_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "東酒造株式会社", "foundingDate": "1915", "sameAs": "https://higashi-sz.com", "brand": {"@type": "Brand", "name": "寿百歳"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Higashi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/higashi_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Higashi Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Higashi Shuzo produces 寿百歳, 七窪, 西郷庵, 豪放磊落."}}, {"@type": "Question", "name": "When was Higashi Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Higashi Shuzo was founded in 1915 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Higashi Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://higashi-sz.com."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "東酒造株式会社", "display_name": "Higashi Shuzo", "brand": "寿百歳", "pref": "kagoshima", "area": "鹿児島エリア", "founded": "1915", "brands": ["寿百歳", "七窪", "西郷庵", "豪放磊落"], "url": "https://higashi-sz.com", "desc": "1915年創業、100年以上の歴史を持つ蔵元。自然製法と品質を重視した焼酎造りを行う。", "suggestions": ["Tell me about Higashi Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Higashi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/higashi_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "東酒造株式会社", "foundingDate": "1915", "sameAs": "https://higashi-sz.com", "brand": {"@type": "Brand", "name": "寿百歳"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Higashi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/higashi_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Higashi Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Higashi Shuzo produces 寿百歳, 七窪, 西郷庵, 豪放磊落."}}, {"@type": "Question", "name": "When was Higashi Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Higashi Shuzo was founded in 1915 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Higashi Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://higashi-sz.com."}}]}]}</script></body>
 </html>

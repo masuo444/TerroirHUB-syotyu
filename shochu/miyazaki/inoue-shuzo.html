@@ -311,7 +311,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1894 — 日南市, 宮崎県</p>
     <p class="hero-tagline">1983年に日本初の100%減圧蒸留芋焼酎を開発。飫肥杉の森に囲まれた蔵。1993年に宮崎の名水21選に選ばれた榎原の湧水を使用。芋・麦・そば・米の焼酎を製造。チョウザメの養殖によるキャビア生産も手がける。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.obisugi.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -454,39 +454,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="井上酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "井上酒造", "brand": "飫肥杉", "pref": "宮崎県", "area": "日南市", "founded": "1894", "founded_era": "明治27年", "brands": ["飫肥杉", "日向の夏子", "孤独な天使"], "visit": "", "url": "https://www.obisugi.co.jp/", "desc": "1983年に日本初の100%減圧蒸留芋焼酎を開発。飫肥杉の森に囲まれた蔵。1993年に宮崎の名水21選に選ばれた榎原の湧水を使用。芋・麦・そば・米の焼酎を製造。チョウザメの養殖によるキャビア生産も手がける。", "suggestions": ["飫肥杉ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "井上酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Umegae Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1787 — 佐世保市, Nagasaki</p>
     <p class="hero-tagline">Umegae Shuzo, founded in 1787 in Sasebo, still works inside its Edo-period buildings — seven of them registered National Tangible Cultural Properties. The house makes sake, shochu, liqueurs and a Japanese gin; its Ginta shochu is a two-time consecutive gold winner. Tours by reservation, with kura-opening festivals twice a year.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.umegae-shuzo.com/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Umegae Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/umegae.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "梅ヶ枝酒造", "foundingDate": "1787", "sameAs": "https://www.umegae-shuzo.com/", "brand": {"@type": "Brand", "name": "Ginta"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Umegae Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/umegae.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Umegae Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Umegae Shuzo produces Ginta."}}, {"@type": "Question", "name": "When was Umegae Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Umegae Shuzo was founded in 1787 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Umegae Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.umegae-shuzo.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "梅ヶ枝酒造", "display_name": "Umegae Shuzo", "brand": "ぎんた", "pref": "nagasaki", "area": "佐世保市", "founded": "1787", "brands": ["Ginta"], "url": "https://www.umegae-shuzo.com/", "desc": "Umegae Shuzo, founded in 1787 in Sasebo, still works inside its Edo-period buildings — seven of them registered National Tangible Cultural Properties. The house makes sake, shochu, liqueurs and a Japanese gin; its Ginta shochu is a two-time consecutive gold winner. Tours by reservation, with kura-opening festivals twice a year.", "suggestions": ["Tell me about Umegae Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Umegae Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/umegae.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "梅ヶ枝酒造", "foundingDate": "1787", "sameAs": "https://www.umegae-shuzo.com/", "brand": {"@type": "Brand", "name": "Ginta"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Umegae Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/umegae.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Umegae Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Umegae Shuzo produces Ginta."}}, {"@type": "Question", "name": "When was Umegae Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Umegae Shuzo was founded in 1787 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Umegae Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.umegae-shuzo.com/."}}]}]}</script></body>
 </html>

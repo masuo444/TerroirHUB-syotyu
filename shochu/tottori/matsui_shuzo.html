@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>松井酒造 — 鳥取県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -318,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1910 — 倉吉, 鳥取県</p>
     <p class="hero-tagline">明治43年創業。鳥取県内で最も古い法人酒造会社。倉吉蒸留所にて焼酎・ウイスキー・ジンを製造。「本格米焼酎 倉吉」は特許取得の減圧蒸留機により35度の低温蒸留を実現した日本初の蒸溜法による焼酎。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://matsuiwhisky.com/'">公式サイト</button>
     </div>
   </div>
@@ -434,39 +435,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="松井酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "松井酒造", "brand": "倉吉", "pref": "鳥取県", "area": "倉吉", "founded": "1910", "founded_era": "明治43年", "brands": ["本格米焼酎 倉吉"], "visit": "倉吉蒸留所見学可能", "url": "https://matsuiwhisky.com/", "desc": "明治43年創業。鳥取県内で最も古い法人酒造会社。倉吉蒸留所にて焼酎・ウイスキー・ジンを製造。「本格米焼酎 倉吉」は特許取得の減圧蒸留機により35度の低温蒸留を実現した日本初の蒸溜法による焼酎。", "suggestions": ["倉吉ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "松井酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

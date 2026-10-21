@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1933 — 札幌市, Hokkaido</p>
     <p class="hero-tagline">昭和8年創業の焼酎甲類メーカー。北海道南部・厚沢部町の自社工場にて原料の加工から一貫して本格焼酎「喜多里」を製造。甲類「サッポロソフト」も広く親しまれている。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.sapporo-shusei.jp/'">Official Website</button>
     </div>
   </div>
@@ -365,37 +365,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sapporo Shusei Kogyo", "url": "https://shochu.terroirhub.com/shochu/en/hokkaido/sapporo_shusei.html", "address": {"@type": "PostalAddress", "addressRegion": "Hokkaido", "addressCountry": "JP"}, "alternateName": "札幌酒精工業", "foundingDate": "1933", "sameAs": "https://www.sapporo-shusei.jp/", "brand": {"@type": "Brand", "name": "喜多里"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hokkaido", "item": "https://shochu.terroirhub.com/shochu/en/hokkaido/"}, {"@type": "ListItem", "position": 3, "name": "Sapporo Shusei Kogyo", "item": "https://shochu.terroirhub.com/shochu/en/hokkaido/sapporo_shusei.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sapporo Shusei Kogyo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sapporo Shusei Kogyo produces 喜多里, 喜多里 昆布焼酎, サッポロソフト."}}, {"@type": "Question", "name": "When was Sapporo Shusei Kogyo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sapporo Shusei Kogyo was founded in 1933 in Hokkaido, Japan."}}, {"@type": "Question", "name": "Does Sapporo Shusei Kogyo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.sapporo-shusei.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "札幌酒精工業", "display_name": "Sapporo Shusei Kogyo", "brand": "喜多里", "pref": "hokkaido", "area": "札幌市", "founded": "1933", "brands": ["喜多里", "喜多里 昆布焼酎", "サッポロソフト"], "url": "https://www.sapporo-shusei.jp/", "desc": "昭和8年創業の焼酎甲類メーカー。北海道南部・厚沢部町の自社工場にて原料の加工から一貫して本格焼酎「喜多里」を製造。甲類「サッポロソフト」も広く親しまれている。", "suggestions": ["Tell me about Sapporo Shusei Kogyo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sapporo Shusei Kogyo", "url": "https://shochu.terroirhub.com/shochu/en/hokkaido/sapporo_shusei.html", "address": {"@type": "PostalAddress", "addressRegion": "Hokkaido", "addressCountry": "JP"}, "alternateName": "札幌酒精工業", "foundingDate": "1933", "sameAs": "https://www.sapporo-shusei.jp/", "brand": {"@type": "Brand", "name": "喜多里"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hokkaido", "item": "https://shochu.terroirhub.com/shochu/en/hokkaido/"}, {"@type": "ListItem", "position": 3, "name": "Sapporo Shusei Kogyo", "item": "https://shochu.terroirhub.com/shochu/en/hokkaido/sapporo_shusei.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sapporo Shusei Kogyo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sapporo Shusei Kogyo produces 喜多里, 喜多里 昆布焼酎, サッポロソフト."}}, {"@type": "Question", "name": "When was Sapporo Shusei Kogyo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sapporo Shusei Kogyo was founded in 1933 in Hokkaido, Japan."}}, {"@type": "Question", "name": "Does Sapporo Shusei Kogyo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.sapporo-shusei.jp/."}}]}]}</script></body>
 </html>

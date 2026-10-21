@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1925 — 八丈町, Tokyo</p>
     <p class="hero-tagline">大正14年設立。一時製造停止していたが2021年1月より焼酎造りを再開。GI「東京島酒」認定。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://kuroshio.atukan.com/'">Official Website</button>
     </div>
   </div>
@@ -365,37 +365,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sakashita Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/tokyo/sakashita_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Tokyo", "addressCountry": "JP"}, "alternateName": "坂下酒造", "foundingDate": "1925", "sameAs": "https://kuroshio.atukan.com/", "brand": {"@type": "Brand", "name": "黒潮"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Tokyo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/"}, {"@type": "ListItem", "position": 3, "name": "Sakashita Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/sakashita_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sakashita Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sakashita Shuzo produces 黒潮, ジョナリー, 黄八丈."}}, {"@type": "Question", "name": "When was Sakashita Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sakashita Shuzo was founded in 1925 in Tokyo, Japan."}}, {"@type": "Question", "name": "Does Sakashita Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kuroshio.atukan.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "坂下酒造", "display_name": "Sakashita Shuzo", "brand": "黒潮", "pref": "tokyo", "area": "八丈町", "founded": "1925", "brands": ["黒潮", "ジョナリー", "黄八丈"], "url": "https://kuroshio.atukan.com/", "desc": "大正14年設立。一時製造停止していたが2021年1月より焼酎造りを再開。GI「東京島酒」認定。", "suggestions": ["Tell me about Sakashita Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sakashita Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/tokyo/sakashita_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Tokyo", "addressCountry": "JP"}, "alternateName": "坂下酒造", "foundingDate": "1925", "sameAs": "https://kuroshio.atukan.com/", "brand": {"@type": "Brand", "name": "黒潮"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Tokyo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/"}, {"@type": "ListItem", "position": 3, "name": "Sakashita Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/sakashita_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sakashita Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sakashita Shuzo produces 黒潮, ジョナリー, 黄八丈."}}, {"@type": "Question", "name": "When was Sakashita Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sakashita Shuzo was founded in 1925 in Tokyo, Japan."}}, {"@type": "Question", "name": "Does Sakashita Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kuroshio.atukan.com/."}}]}]}</script></body>
 </html>

@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1860 — 臼杵市, 大分県</p>
     <p class="hero-tagline">万延元年（1860年）、藩主・稲葉観通候より醸造蔵を賜り創業。「地元の料理に合う、個性溢れる酒」を目指す。2021年度より原料を全て大分県産（特に臼杵市産）に切り替え、地域循環型の酒蔵を推進。ユネスコ食文化創造都市・臼杵の食文化にも貢献。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://kugehonten.jp/'">公式サイト</button>
     </div>
   </div>
@@ -452,39 +452,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="久家本店について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "久家本店", "brand": "一の井手", "pref": "大分県", "area": "臼杵市", "founded": "1860", "founded_era": "万延元年", "brands": ["一の井手", "常蔵"], "visit": "蔵見学可（要予約、9:00-16:00、30名程度まで）", "url": "https://kugehonten.jp/", "desc": "万延元年（1860年）、藩主・稲葉観通候より醸造蔵を賜り創業。「地元の料理に合う、個性溢れる酒」を目指す。2021年度より原料を全て大分県産（特に臼杵市産）に切り替え、地域循環型の酒蔵を推進。ユネスコ食文化創造都市・臼杵の食文化にも貢献。", "suggestions": ["一の井手ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "久家本店の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

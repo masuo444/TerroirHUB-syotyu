@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Ono Shuzo (Shonai) — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1906 — 由布市, Oita</p>
     <p class="hero-tagline">Ono Shuzo, founded in 1906 in the Shonai district of Yufu, is a small family house keeping its founding methods, distilling individual barley shochus from local ingredients under the labels Yufu no Sato and Yufudake.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://www.onoshuzo.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -355,37 +356,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Ono Shuzo (Shonai)", "url": "https://shochu.terroirhub.com/shochu/en/oita/ono-shuzo-shonai.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "小野酒造（株）", "foundingDate": "1906", "sameAs": "http://www.onoshuzo.co.jp/", "brand": {"@type": "Brand", "name": "Yufu no Sato"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Ono Shuzo (Shonai)", "item": "https://shochu.terroirhub.com/shochu/en/oita/ono-shuzo-shonai.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Ono Shuzo (Shonai) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Ono Shuzo (Shonai) produces Yufu no Sato, 由布岳."}}, {"@type": "Question", "name": "When was Ono Shuzo (Shonai) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Ono Shuzo (Shonai) was founded in 1906 in Oita, Japan."}}, {"@type": "Question", "name": "Does Ono Shuzo (Shonai) have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.onoshuzo.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "小野酒造（株）", "display_name": "Ono Shuzo (Shonai)", "brand": "由布之郷", "pref": "oita", "area": "由布市", "founded": "1906", "brands": ["Yufu no Sato", "由布岳"], "url": "http://www.onoshuzo.co.jp/", "desc": "Ono Shuzo, founded in 1906 in the Shonai district of Yufu, is a small family house keeping its founding methods, distilling individual barley shochus from local ingredients under the labels Yufu no Sato and Yufudake.", "suggestions": ["Tell me about Ono Shuzo (Shonai)", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Ono Shuzo (Shonai)", "url": "https://shochu.terroirhub.com/shochu/en/oita/ono-shuzo-shonai.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "小野酒造（株）", "foundingDate": "1906", "sameAs": "http://www.onoshuzo.co.jp/", "brand": {"@type": "Brand", "name": "Yufu no Sato"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Ono Shuzo (Shonai)", "item": "https://shochu.terroirhub.com/shochu/en/oita/ono-shuzo-shonai.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Ono Shuzo (Shonai) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Ono Shuzo (Shonai) produces Yufu no Sato, 由布岳."}}, {"@type": "Question", "name": "When was Ono Shuzo (Shonai) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Ono Shuzo (Shonai) was founded in 1906 in Oita, Japan."}}, {"@type": "Question", "name": "Does Ono Shuzo (Shonai) have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.onoshuzo.co.jp/."}}]}]}</script></body>
 </html>

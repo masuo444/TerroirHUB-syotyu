@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1914 — 北九州市, Fukuoka</p>
     <p class="hero-tagline">大正3年（1914年）前身の大里酒精製造所として創業。約20種類の焼酎原酒を製造。2017年から大麦原料のグレーンウイスキーも製造開始。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       
     </div>
   </div>
@@ -355,37 +355,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nikka Whisky Kitakyushu Plant", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/nikka_kitakyushu.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "ニッカウイスキー北九州工場", "foundingDate": "1914", "brand": {"@type": "Brand", "name": "綺羅麦"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Nikka Whisky Kitakyushu Plant", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/nikka_kitakyushu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nikka Whisky Kitakyushu Plant produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nikka Whisky Kitakyushu Plant produces 綺羅麦, 玄庵."}}, {"@type": "Question", "name": "When was Nikka Whisky Kitakyushu Plant founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nikka Whisky Kitakyushu Plant was founded in 1914 in Fukuoka, Japan."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "ニッカウイスキー北九州工場", "display_name": "Nikka Whisky Kitakyushu Plant", "brand": "綺羅麦", "pref": "fukuoka", "area": "北九州市", "founded": "1914", "brands": ["綺羅麦", "玄庵"], "url": "", "desc": "大正3年（1914年）前身の大里酒精製造所として創業。約20種類の焼酎原酒を製造。2017年から大麦原料のグレーンウイスキーも製造開始。", "suggestions": ["Tell me about Nikka Whisky Kitakyushu Plant", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nikka Whisky Kitakyushu Plant", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/nikka_kitakyushu.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "ニッカウイスキー北九州工場", "foundingDate": "1914", "brand": {"@type": "Brand", "name": "綺羅麦"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Nikka Whisky Kitakyushu Plant", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/nikka_kitakyushu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nikka Whisky Kitakyushu Plant produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nikka Whisky Kitakyushu Plant produces 綺羅麦, 玄庵."}}, {"@type": "Question", "name": "When was Nikka Whisky Kitakyushu Plant founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nikka Whisky Kitakyushu Plant was founded in 1914 in Fukuoka, Japan."}}]}]}</script></body>
 </html>

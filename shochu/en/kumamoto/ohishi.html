@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1872 — 水上村, Kumamoto</p>
     <p class="hero-tagline">Oishi Shuzojo, founded in 1872 in Mizukami at the uppermost reach of the Kuma River, brews under fifth-generation head Choichiro Oishi at the foot of sacred Mt. Ichifusa. The house began cask ageing some fifty years ago — long before it was fashionable — and its amber, long-rested rice shochus now sit beside rice-shochu liqueurs and whisky.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://ohishi-shuzohjyo.jp/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Oishi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/ohishi.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "大石酒造場", "foundingDate": "1872", "sameAs": "https://ohishi-shuzohjyo.jp/", "brand": {"@type": "Brand", "name": "Oishi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Oishi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/ohishi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Oishi Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Oishi Shuzo produces Oishi, 鬼倒."}}, {"@type": "Question", "name": "When was Oishi Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Oishi Shuzo was founded in 1872 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Oishi Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ohishi-shuzohjyo.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "大石酒造場", "display_name": "Oishi Shuzo", "brand": "大石", "pref": "kumamoto", "area": "水上村", "founded": "1872", "brands": ["Oishi", "鬼倒"], "url": "https://ohishi-shuzohjyo.jp/", "desc": "Oishi Shuzojo, founded in 1872 in Mizukami at the uppermost reach of the Kuma River, brews under fifth-generation head Choichiro Oishi at the foot of sacred Mt. Ichifusa. The house began cask ageing some fifty years ago — long before it was fashionable — and its amber, long-rested rice shochus now sit beside rice-shochu liqueurs and whisky.", "suggestions": ["Tell me about Oishi Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Oishi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/ohishi.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "大石酒造場", "foundingDate": "1872", "sameAs": "https://ohishi-shuzohjyo.jp/", "brand": {"@type": "Brand", "name": "Oishi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Oishi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/ohishi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Oishi Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Oishi Shuzo produces Oishi, 鬼倒."}}, {"@type": "Question", "name": "When was Oishi Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Oishi Shuzo was founded in 1872 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Oishi Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ohishi-shuzohjyo.jp/."}}]}]}</script></body>
 </html>

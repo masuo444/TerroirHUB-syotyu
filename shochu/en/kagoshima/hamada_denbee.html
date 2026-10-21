@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Hamada Denbee — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1868 — 伊集院エリア, Kagoshima</p>
     <p class="hero-tagline">Sasshu Hamadaya Denbee is the traditional kura of Hamada Shuzo, founded in 1868. It holds to the old ways at every step — fermentation in clay pots, distillation through wooden stills, maturation again in clay pots — reading the day's weather, temperature and humidity as it goes. Its Den is brewed with yellow koji.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hamadasyuzou.co.jp/denbee/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hamada Denbee", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/hamada_denbee.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "焼酎蔵 薩州濵田屋伝兵衛", "foundingDate": "1868", "sameAs": "https://www.hamadasyuzou.co.jp/denbee/", "brand": {"@type": "Brand", "name": "Den (Yellow Koji)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Hamada Denbee", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/hamada_denbee.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hamada Denbee produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hamada Denbee produces Den (Yellow Koji)."}}, {"@type": "Question", "name": "When was Hamada Denbee founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hamada Denbee was founded in 1868 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Hamada Denbee have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hamadasyuzou.co.jp/denbee/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "焼酎蔵 薩州濵田屋伝兵衛", "display_name": "Hamada Denbee", "brand": "黄麹仕込 伝", "pref": "kagoshima", "area": "伊集院エリア", "founded": "1868", "brands": ["Den (Yellow Koji)"], "url": "https://www.hamadasyuzou.co.jp/denbee/", "desc": "Sasshu Hamadaya Denbee is the traditional kura of Hamada Shuzo, founded in 1868. It holds to the old ways at every step — fermentation in clay pots, distillation through wooden stills, maturation again in clay pots — reading the day's weather, temperature and humidity as it goes. Its Den is brewed with yellow koji.", "suggestions": ["Tell me about Hamada Denbee", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hamada Denbee", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/hamada_denbee.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "焼酎蔵 薩州濵田屋伝兵衛", "foundingDate": "1868", "sameAs": "https://www.hamadasyuzou.co.jp/denbee/", "brand": {"@type": "Brand", "name": "Den (Yellow Koji)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Hamada Denbee", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/hamada_denbee.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hamada Denbee produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hamada Denbee produces Den (Yellow Koji)."}}, {"@type": "Question", "name": "When was Hamada Denbee founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hamada Denbee was founded in 1868 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Hamada Denbee have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hamadasyuzou.co.jp/denbee/."}}]}]}</script></body>
 </html>

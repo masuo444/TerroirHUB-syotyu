@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1868 — 宇佐市, Oita</p>
     <p class="hero-tagline">明治元年創業。宇佐平野の良質な米と水に恵まれた長洲地区に位置する清酒蔵。1988年に一時製造を休止したが、2008年に「豊潤」ブランドで再開。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hojunsake.com/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Komatsu Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/oita/komatsu-shuzojo.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "小松酒造場", "foundingDate": "1868", "sameAs": "https://www.hojunsake.com/", "brand": {"@type": "Brand", "name": "豊潤"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Komatsu Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/oita/komatsu-shuzojo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Komatsu Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Komatsu Shuzojo produces 豊潤, 勲の松."}}, {"@type": "Question", "name": "When was Komatsu Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Komatsu Shuzojo was founded in 1868 in Oita, Japan."}}, {"@type": "Question", "name": "Does Komatsu Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hojunsake.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "小松酒造場", "display_name": "Komatsu Shuzojo", "brand": "豊潤", "pref": "oita", "area": "宇佐市", "founded": "1868", "brands": ["豊潤", "勲の松"], "url": "https://www.hojunsake.com/", "desc": "明治元年創業。宇佐平野の良質な米と水に恵まれた長洲地区に位置する清酒蔵。1988年に一時製造を休止したが、2008年に「豊潤」ブランドで再開。", "suggestions": ["Tell me about Komatsu Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Komatsu Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/oita/komatsu-shuzojo.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "小松酒造場", "foundingDate": "1868", "sameAs": "https://www.hojunsake.com/", "brand": {"@type": "Brand", "name": "豊潤"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Komatsu Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/oita/komatsu-shuzojo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Komatsu Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Komatsu Shuzojo produces 豊潤, 勲の松."}}, {"@type": "Question", "name": "When was Komatsu Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Komatsu Shuzojo was founded in 1868 in Oita, Japan."}}, {"@type": "Question", "name": "Does Komatsu Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hojunsake.com/."}}]}]}</script></body>
 </html>

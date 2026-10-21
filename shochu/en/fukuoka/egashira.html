@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1897 — 大牟田市, Fukuoka</p>
     <p class="hero-tagline">明治30年（1897年）清酒製造業として創業。現在は焼酎が主力。「うまか焼酎三池」「大蛇山」等を製造。10年〜30年熟成の古酒にも力を入れる。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://miikekura.shop-pro.jp/'">Official Website</button>
     </div>
   </div>
@@ -355,37 +355,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Egashira Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/egashira.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "江頭酒造", "foundingDate": "1897", "sameAs": "http://miikekura.shop-pro.jp/", "brand": {"@type": "Brand", "name": "大蛇山"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Egashira Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/egashira.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Egashira Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Egashira Shuzo produces 大蛇山, 赤大蛇山."}}, {"@type": "Question", "name": "When was Egashira Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Egashira Shuzo was founded in 1897 in Fukuoka, Japan."}}, {"@type": "Question", "name": "Does Egashira Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://miikekura.shop-pro.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "江頭酒造", "display_name": "Egashira Shuzo", "brand": "大蛇山", "pref": "fukuoka", "area": "大牟田市", "founded": "1897", "brands": ["大蛇山", "赤大蛇山"], "url": "http://miikekura.shop-pro.jp/", "desc": "明治30年（1897年）清酒製造業として創業。現在は焼酎が主力。「うまか焼酎三池」「大蛇山」等を製造。10年〜30年熟成の古酒にも力を入れる。", "suggestions": ["Tell me about Egashira Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Egashira Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/egashira.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "江頭酒造", "foundingDate": "1897", "sameAs": "http://miikekura.shop-pro.jp/", "brand": {"@type": "Brand", "name": "大蛇山"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Egashira Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/egashira.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Egashira Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Egashira Shuzo produces 大蛇山, 赤大蛇山."}}, {"@type": "Question", "name": "When was Egashira Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Egashira Shuzo was founded in 1897 in Fukuoka, Japan."}}, {"@type": "Question", "name": "Does Egashira Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://miikekura.shop-pro.jp/."}}]}]}</script></body>
 </html>

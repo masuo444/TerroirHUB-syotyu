@@ -318,7 +318,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1941 — 城川, 愛媛県</p>
     <p class="hero-tagline">日本初の栗焼酎メーカー。四国唯一の焼酎専業蔵。愛媛県は全国3位の栗産地であり、城川地区の栗を100%使用した栗焼酎が代表的。「奥伊予」は愛媛県産栗と裸麦を使用。「おくりおくら」は地元産栗100%。素材へのこだわりと昔ながらの製法を守り続ける。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.himebayashi.com/'">公式サイト</button>
     </div>
   </div>
@@ -447,39 +447,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="媛囃子について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "媛囃子", "brand": "媛囃子", "pref": "愛媛県", "area": "城川", "founded": "1941", "founded_era": "昭和16年", "brands": ["奥伊予", "おくりおくら", "媛囃子"], "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。", "url": "https://www.himebayashi.com/", "desc": "日本初の栗焼酎メーカー。四国唯一の焼酎専業蔵。愛媛県は全国3位の栗産地であり、城川地区の栗を100%使用した栗焼酎が代表的。「奥伊予」は愛媛県産栗と裸麦を使用。「おくりおくら」は地元産栗100%。素材へのこだわりと昔ながらの製法を守り続ける。", "suggestions": ["媛囃子ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "媛囃子の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

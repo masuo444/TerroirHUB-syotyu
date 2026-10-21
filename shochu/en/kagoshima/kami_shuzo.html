@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Kami Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1868 — 出水エリア, Kagoshima</p>
     <p class="hero-tagline">Kami Shuzo, founded in 1868, still ferments in clay pots buried in the ground, in the traditional Kagoshima way. With spring water of the Shibi mountains and select sweet potatoes, its Chizuru aims at a deep flavour of fragrant richness and refined sweetness.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://www.kami-shuzo.co.jp'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kami Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/kami_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "神酒造株式会社", "foundingDate": "1868", "sameAs": "http://www.kami-shuzo.co.jp", "brand": {"@type": "Brand", "name": "Chizuru"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Kami Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/kami_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kami Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kami Shuzo produces Chizuru."}}, {"@type": "Question", "name": "When was Kami Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kami Shuzo was founded in 1868 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Kami Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.kami-shuzo.co.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "神酒造株式会社", "display_name": "Kami Shuzo", "brand": "千鶴", "pref": "kagoshima", "area": "出水エリア", "founded": "1868", "brands": ["Chizuru"], "url": "http://www.kami-shuzo.co.jp", "desc": "Kami Shuzo, founded in 1868, still ferments in clay pots buried in the ground, in the traditional Kagoshima way. With spring water of the Shibi mountains and select sweet potatoes, its Chizuru aims at a deep flavour of fragrant richness and refined sweetness.", "suggestions": ["Tell me about Kami Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kami Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/kami_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "神酒造株式会社", "foundingDate": "1868", "sameAs": "http://www.kami-shuzo.co.jp", "brand": {"@type": "Brand", "name": "Chizuru"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Kami Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/kami_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kami Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kami Shuzo produces Chizuru."}}, {"@type": "Question", "name": "When was Kami Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kami Shuzo was founded in 1868 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Kami Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.kami-shuzo.co.jp."}}]}]}</script></body>
 </html>

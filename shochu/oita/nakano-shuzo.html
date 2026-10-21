@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1874 — 杵築市, 大分県</p>
     <p class="hero-tagline">明治7年、城下町・杵築で創業。地下200mから汲み上げるミネラル豊富な良質地下水と地元産原料を使用し、地産地消の酒造りを実践。初代女将「智恵」の名にちなんだ代表銘柄「智恵美人」は国内外で高い評価を得ている。蔵見学可（要予約）。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://chiebijin.com/'">公式サイト</button>
     </div>
   </div>
@@ -465,39 +465,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="中野酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "中野酒造", "brand": "智恵美人", "pref": "大分県", "area": "杵築市", "founded": "1874", "founded_era": "明治7年", "brands": ["智恵美人", "ちえびじん"], "visit": "蔵見学可（要予約、9:00-16:00）", "url": "https://chiebijin.com/", "desc": "明治7年、城下町・杵築で創業。地下200mから汲み上げるミネラル豊富な良質地下水と地元産原料を使用し、地産地消の酒造りを実践。初代女将「智恵」の名にちなんだ代表銘柄「智恵美人」は国内外で高い評価を得ている。蔵見学可（要予約）。", "suggestions": ["智恵美人ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "中野酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

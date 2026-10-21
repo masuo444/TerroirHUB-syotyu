@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1896 — 知覧エリア, Kagoshima</p>
     <p class="hero-tagline">1896年創業、120年以上の歴史。鹿児島県本格焼酎鑑評会で19年連続優等賞を受賞。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://www.fukiage.co.jp'">Official Website</button>
     </div>
   </div>
@@ -355,37 +355,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Fukiage Shochu", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/fukiage_shochu.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "吹上焼酎株式会社", "foundingDate": "1896", "sameAs": "http://www.fukiage.co.jp", "brand": {"@type": "Brand", "name": "小松帯刀"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Fukiage Shochu", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/fukiage_shochu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Fukiage Shochu produce?", "acceptedAnswer": {"@type": "Answer", "text": "Fukiage Shochu produces 小松帯刀, 吹上焼酎 安納芋."}}, {"@type": "Question", "name": "When was Fukiage Shochu founded?", "acceptedAnswer": {"@type": "Answer", "text": "Fukiage Shochu was founded in 1896 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Fukiage Shochu have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.fukiage.co.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "吹上焼酎株式会社", "display_name": "Fukiage Shochu", "brand": "小松帯刀", "pref": "kagoshima", "area": "知覧エリア", "founded": "1896", "brands": ["小松帯刀", "吹上焼酎 安納芋"], "url": "http://www.fukiage.co.jp", "desc": "1896年創業、120年以上の歴史。鹿児島県本格焼酎鑑評会で19年連続優等賞を受賞。", "suggestions": ["Tell me about Fukiage Shochu", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Fukiage Shochu", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/fukiage_shochu.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "吹上焼酎株式会社", "foundingDate": "1896", "sameAs": "http://www.fukiage.co.jp", "brand": {"@type": "Brand", "name": "小松帯刀"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Fukiage Shochu", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/fukiage_shochu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Fukiage Shochu produce?", "acceptedAnswer": {"@type": "Answer", "text": "Fukiage Shochu produces 小松帯刀, 吹上焼酎 安納芋."}}, {"@type": "Question", "name": "When was Fukiage Shochu founded?", "acceptedAnswer": {"@type": "Answer", "text": "Fukiage Shochu was founded in 1896 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Fukiage Shochu have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.fukiage.co.jp."}}]}]}</script></body>
 </html>

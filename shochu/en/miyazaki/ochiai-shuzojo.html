@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1909 — 宮崎市, Miyazaki</p>
     <p class="hero-tagline">Ochiai Shuzojo in Miyazaki City, led by fourth-generation toji-president Ryohei Ochiai, runs its first fermentation in clay pots more than two hundred years old and rests everything at least a year and a half. Sweet potatoes come from Miyakonojo contract farmers using green-manure cultivation, and the house even distils vegetable shochus — green pepper, garlic, ginger. It recommends its shochu hot, with food.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://ochiaishuzojyo.jp/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Ochiai Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/ochiai-shuzojo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "落合酒造場", "foundingDate": "1909", "sameAs": "https://ochiaishuzojyo.jp/", "brand": {"@type": "Brand", "name": "Hettsui Neko (Hearth Cat)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Ochiai Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/ochiai-shuzojo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Ochiai Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Ochiai Shuzojo produces Hettsui Neko (Hearth Cat), Akae."}}, {"@type": "Question", "name": "When was Ochiai Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Ochiai Shuzojo was founded in 1909 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Ochiai Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ochiaishuzojyo.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "落合酒造場", "display_name": "Ochiai Shuzojo", "brand": "", "pref": "miyazaki", "area": "宮崎市", "founded": "1909", "brands": ["Hettsui Neko (Hearth Cat)", "Akae"], "url": "https://ochiaishuzojyo.jp/", "desc": "Ochiai Shuzojo in Miyazaki City, led by fourth-generation toji-president Ryohei Ochiai, runs its first fermentation in clay pots more than two hundred years old and rests everything at least a year and a half. Sweet potatoes come from Miyakonojo contract farmers using green-manure cultivation, and the house even distils vegetable shochus — green pepper, garlic, ginger. It recommends its shochu hot, with food.", "suggestions": ["Tell me about Ochiai Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Ochiai Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/ochiai-shuzojo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "落合酒造場", "foundingDate": "1909", "sameAs": "https://ochiaishuzojyo.jp/", "brand": {"@type": "Brand", "name": "Hettsui Neko (Hearth Cat)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Ochiai Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/ochiai-shuzojo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Ochiai Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Ochiai Shuzojo produces Hettsui Neko (Hearth Cat), Akae."}}, {"@type": "Question", "name": "When was Ochiai Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Ochiai Shuzojo was founded in 1909 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Ochiai Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ochiaishuzojyo.jp/."}}]}]}</script></body>
 </html>

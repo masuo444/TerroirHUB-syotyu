@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1892 — 日南市, Miyazaki</p>
     <p class="hero-tagline">Furusawa Jozo, founded in 1892 in Nichinan, is led by fifth-generation head Masako Furusawa. In its earthen-walled kura the house keeps to natural fermentation and the old ways, distilling all four classic styles — sweet potato, barley, rice and buckwheat — plus the women-focused YAEZAKURA -SEN- brand.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://nichinan-yaezakura.jp/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Furusawa Jozo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/furusawa-jozo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "古澤醸造", "foundingDate": "1892", "sameAs": "https://nichinan-yaezakura.jp/", "brand": {"@type": "Brand", "name": "八重桜"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Furusawa Jozo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/furusawa-jozo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Furusawa Jozo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Furusawa Jozo produces 八重桜, 八重桜 夢, 一壷春, ひとり歩き, 古澤."}}, {"@type": "Question", "name": "When was Furusawa Jozo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Furusawa Jozo was founded in 1892 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Furusawa Jozo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://nichinan-yaezakura.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "古澤醸造", "display_name": "Furusawa Jozo", "brand": "八重桜", "pref": "miyazaki", "area": "日南市", "founded": "1892", "brands": ["八重桜", "八重桜 夢", "一壷春", "ひとり歩き", "古澤"], "url": "https://nichinan-yaezakura.jp/", "desc": "Furusawa Jozo, founded in 1892 in Nichinan, is led by fifth-generation head Masako Furusawa. In its earthen-walled kura the house keeps to natural fermentation and the old ways, distilling all four classic styles — sweet potato, barley, rice and buckwheat — plus the women-focused YAEZAKURA -SEN- brand.", "suggestions": ["Tell me about Furusawa Jozo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Furusawa Jozo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/furusawa-jozo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "古澤醸造", "foundingDate": "1892", "sameAs": "https://nichinan-yaezakura.jp/", "brand": {"@type": "Brand", "name": "八重桜"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Furusawa Jozo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/furusawa-jozo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Furusawa Jozo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Furusawa Jozo produces 八重桜, 八重桜 夢, 一壷春, ひとり歩き, 古澤."}}, {"@type": "Question", "name": "When was Furusawa Jozo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Furusawa Jozo was founded in 1892 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Furusawa Jozo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://nichinan-yaezakura.jp/."}}]}]}</script></body>
 </html>

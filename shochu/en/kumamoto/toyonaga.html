@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Toyonaga Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1894 — 湯前町, Kumamoto</p>
     <p class="hero-tagline">Toyonaga Shuzo was founded in 1894 in Yunomae by Tsurumatsu Toyonaga. Fourth-generation head Shiro Toyonaga brews to a strict local creed — Kuma rice, Kuma water, Kuma people — with organic Kuma rice from the house's own fields at the centre of its Toyonaga Kura label. Gold medals at the Los Angeles International Spirits Competition have helped carry it to twelve countries.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.toyonagakura.com/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Toyonaga Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/toyonaga.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "豊永酒造", "foundingDate": "1894", "sameAs": "https://www.toyonagakura.com/", "brand": {"@type": "Brand", "name": "Toyonaga Kura"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Toyonaga Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/toyonaga.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Toyonaga Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Toyonaga Shuzo produces Toyonaga Kura."}}, {"@type": "Question", "name": "When was Toyonaga Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Toyonaga Shuzo was founded in 1894 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Toyonaga Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.toyonagakura.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "豊永酒造", "display_name": "Toyonaga Shuzo", "brand": "豊永蔵", "pref": "kumamoto", "area": "湯前町", "founded": "1894", "brands": ["Toyonaga Kura"], "url": "https://www.toyonagakura.com/", "desc": "Toyonaga Shuzo was founded in 1894 in Yunomae by Tsurumatsu Toyonaga. Fourth-generation head Shiro Toyonaga brews to a strict local creed — Kuma rice, Kuma water, Kuma people — with organic Kuma rice from the house's own fields at the centre of its Toyonaga Kura label. Gold medals at the Los Angeles International Spirits Competition have helped carry it to twelve countries.", "suggestions": ["Tell me about Toyonaga Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Toyonaga Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/toyonaga.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "豊永酒造", "foundingDate": "1894", "sameAs": "https://www.toyonagakura.com/", "brand": {"@type": "Brand", "name": "Toyonaga Kura"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Toyonaga Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/toyonaga.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Toyonaga Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Toyonaga Shuzo produces Toyonaga Kura."}}, {"@type": "Question", "name": "When was Toyonaga Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Toyonaga Shuzo was founded in 1894 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Toyonaga Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.toyonagakura.com/."}}]}]}</script></body>
 </html>

@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1890 — 小林市, 宮崎県</p>
     <p class="hero-tagline">熊本県境近くの山間に位置。地下120mから汲み上げる良質な地下水を使用。160年以上の甕を現在も使用。杜氏自ら手造り麹を管理し、パッケージデザインも手がける。新築の木造蔵で蔵付き酵母の育成に取り組む。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='http://suki-syuzo.jp/'">公式サイト</button>
     </div>
   </div>
@@ -489,39 +489,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="すき酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "すき酒造", "brand": "須木焼酎", "pref": "宮崎県", "area": "小林市", "founded": "1890", "founded_era": "明治23年", "brands": ["山猪", "山美娘", "須木焼酎"], "visit": "要予約で見学・試飲可能。", "url": "http://suki-syuzo.jp/", "desc": "熊本県境近くの山間に位置。地下120mから汲み上げる良質な地下水を使用。160年以上の甕を現在も使用。杜氏自ら手造り麹を管理し、パッケージデザインも手がける。新築の木造蔵で蔵付き酵母の育成に取り組む。", "suggestions": ["須木焼酎ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "すき酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

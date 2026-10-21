@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Sakiyama Distillery — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1905 — 金武町, Okinawa</p>
     <p class="hero-tagline">Sakiyama Shuzosho, founded in 1905 in Kin, brews with natural mountain spring water and a three-day koji that deepens its umami. Its Matsufuji line took first place in the kusu division of the national liquor concours in 2014 and the tax agency commissioner's award in 2025, with moromi vinegar beside the awamori. Tours by reservation.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.sakiyamashuzo.jp'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sakiyama Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/sakiyama_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "崎山酒造廠", "foundingDate": "1905", "sameAs": "https://www.sakiyamashuzo.jp", "brand": {"@type": "Brand", "name": "Matsufuji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Sakiyama Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/sakiyama_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sakiyama Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sakiyama Distillery produces Matsufuji, 松藤 黒, 松藤 赤, Buten."}}, {"@type": "Question", "name": "When was Sakiyama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sakiyama Distillery was founded in 1905 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Sakiyama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.sakiyamashuzo.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "崎山酒造廠", "display_name": "Sakiyama Distillery", "brand": "松藤", "pref": "okinawa", "area": "金武町", "founded": "1905", "brands": ["Matsufuji", "松藤 黒", "松藤 赤", "Buten"], "url": "https://www.sakiyamashuzo.jp", "desc": "Sakiyama Shuzosho, founded in 1905 in Kin, brews with natural mountain spring water and a three-day koji that deepens its umami. Its Matsufuji line took first place in the kusu division of the national liquor concours in 2014 and the tax agency commissioner's award in 2025, with moromi vinegar beside the awamori. Tours by reservation.", "suggestions": ["Tell me about Sakiyama Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sakiyama Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/sakiyama_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "崎山酒造廠", "foundingDate": "1905", "sameAs": "https://www.sakiyamashuzo.jp", "brand": {"@type": "Brand", "name": "Matsufuji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Sakiyama Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/sakiyama_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sakiyama Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sakiyama Distillery produces Matsufuji, 松藤 黒, 松藤 赤, Buten."}}, {"@type": "Question", "name": "When was Sakiyama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sakiyama Distillery was founded in 1905 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Sakiyama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.sakiyamashuzo.jp."}}]}]}</script></body>
 </html>

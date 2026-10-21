@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Fukano Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1823 — 人吉市, Kumamoto</p>
     <p class="hero-tagline">Fukano Shuzo began in 1823 when its founder Tokiji Fukano moved from Kurume to Hitoyoshi and took up shochu making. Now led by seventh-generation Seiichi Fukano (president since 2015), the house is known for long maturation — including a koshu rested twenty years in clay pots — under labels like Iroha and Homare no Tsuyu.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://shop-fukano.jp/'">Official Website</button>
     </div>
   </div>
@@ -365,37 +366,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Fukano Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/fukano.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "深野酒造", "foundingDate": "1823", "sameAs": "https://shop-fukano.jp/", "brand": {"@type": "Brand", "name": "Iroha"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Fukano Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/fukano.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Fukano Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Fukano Shuzo produces Iroha, Homare no Tsuyu, 刻の封印 琥珀."}}, {"@type": "Question", "name": "When was Fukano Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Fukano Shuzo was founded in 1823 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Fukano Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shop-fukano.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "深野酒造", "display_name": "Fukano Shuzo", "brand": "彩葉", "pref": "kumamoto", "area": "人吉市", "founded": "1823", "brands": ["Iroha", "Homare no Tsuyu", "刻の封印 琥珀"], "url": "https://shop-fukano.jp/", "desc": "Fukano Shuzo began in 1823 when its founder Tokiji Fukano moved from Kurume to Hitoyoshi and took up shochu making. Now led by seventh-generation Seiichi Fukano (president since 2015), the house is known for long maturation — including a koshu rested twenty years in clay pots — under labels like Iroha and Homare no Tsuyu.", "suggestions": ["Tell me about Fukano Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Fukano Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/fukano.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "深野酒造", "foundingDate": "1823", "sameAs": "https://shop-fukano.jp/", "brand": {"@type": "Brand", "name": "Iroha"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Fukano Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/fukano.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Fukano Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Fukano Shuzo produces Iroha, Homare no Tsuyu, 刻の封印 琥珀."}}, {"@type": "Question", "name": "When was Fukano Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Fukano Shuzo was founded in 1823 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Fukano Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shop-fukano.jp/."}}]}]}</script></body>
 </html>

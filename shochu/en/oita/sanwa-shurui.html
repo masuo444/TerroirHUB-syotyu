@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1958 — 宇佐市, Oita</p>
     <p class="hero-tagline">Sanwa Shurui, founded in 1958 in Usa, is one of Japan's largest shochu makers and the house of iichiko, the barley shochu whose 1979 debut became a national phenomenon and made Oita mugi shochu a byword. Under its Quality First creed it selects barley and water exactingly, and runs the Hita Distillery and the Ajimu winery as a full-range drinks company.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.iichiko.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sanwa Shurui", "url": "https://shochu.terroirhub.com/shochu/en/oita/sanwa-shurui.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "三和酒類", "foundingDate": "1958", "sameAs": "https://www.iichiko.co.jp/", "brand": {"@type": "Brand", "name": "iichiko"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Sanwa Shurui", "item": "https://shochu.terroirhub.com/shochu/en/oita/sanwa-shurui.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sanwa Shurui produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sanwa Shurui produces iichiko, いいちこスペシャル, いいちこスーパー, いいちこフラスコボトル, 西の星."}}, {"@type": "Question", "name": "When was Sanwa Shurui founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sanwa Shurui was founded in 1958 in Oita, Japan."}}, {"@type": "Question", "name": "Does Sanwa Shurui have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.iichiko.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "三和酒類", "display_name": "Sanwa Shurui", "brand": "いいちこ", "pref": "oita", "area": "宇佐市", "founded": "1958", "brands": ["iichiko", "いいちこスペシャル", "いいちこスーパー", "いいちこフラスコボトル", "西の星"], "url": "https://www.iichiko.co.jp/", "desc": "Sanwa Shurui, founded in 1958 in Usa, is one of Japan's largest shochu makers and the house of iichiko, the barley shochu whose 1979 debut became a national phenomenon and made Oita mugi shochu a byword. Under its Quality First creed it selects barley and water exactingly, and runs the Hita Distillery and the Ajimu winery as a full-range drinks company.", "suggestions": ["Tell me about Sanwa Shurui", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sanwa Shurui", "url": "https://shochu.terroirhub.com/shochu/en/oita/sanwa-shurui.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "三和酒類", "foundingDate": "1958", "sameAs": "https://www.iichiko.co.jp/", "brand": {"@type": "Brand", "name": "iichiko"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Sanwa Shurui", "item": "https://shochu.terroirhub.com/shochu/en/oita/sanwa-shurui.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sanwa Shurui produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sanwa Shurui produces iichiko, いいちこスペシャル, いいちこスーパー, いいちこフラスコボトル, 西の星."}}, {"@type": "Question", "name": "When was Sanwa Shurui founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sanwa Shurui was founded in 1958 in Oita, Japan."}}, {"@type": "Question", "name": "Does Sanwa Shurui have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.iichiko.co.jp/."}}]}]}</script></body>
 </html>

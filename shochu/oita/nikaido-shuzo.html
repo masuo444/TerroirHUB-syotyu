@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1866 — 日出町, 大分県</p>
     <p class="hero-tagline">1866年創業、8代続く老舗蔵元。1951年に麦麹製造法を確立し、1973年に全量麦焼酎を開発、1974年に発売して大分麦焼酎ブームの火付け役となった。1979年に農林水産大臣賞（第1回食品産業優良企業表彰）を受賞。「ふるさとを想う心」をコンセプトに掲げる。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.nikaido-shuzo.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -462,39 +462,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="二階堂酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "二階堂酒造", "brand": "二階堂", "pref": "大分県", "area": "日出町", "founded": "1866", "founded_era": "慶応2年", "brands": ["二階堂", "吉四六", "速津媛"], "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。", "url": "https://www.nikaido-shuzo.co.jp/", "desc": "1866年創業、8代続く老舗蔵元。1951年に麦麹製造法を確立し、1973年に全量麦焼酎を開発、1974年に発売して大分麦焼酎ブームの火付け役となった。1979年に農林水産大臣賞（第1回食品産業優良企業表彰）を受賞。「ふるさとを想う心」をコンセプトに掲げる。", "suggestions": ["二階堂ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "二階堂酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1846 — うるま市, 沖縄県</p>
     <p class="hero-tagline">1846年（弘化3年）首里赤田町にて創業した沖縄最古の現存する酒造所。琉球王朝時代、首里三箇で泡盛造りを許された30人の職人の一つが始祖。7代にわたり伝統の技を受け継ぐ。世界基準の品質・衛生管理を実現。シングルモルトウイスキー「琉華」も製造。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://shinzato-shuzo.co.jp'">公式サイト</button>
     </div>
   </div>
@@ -482,39 +482,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="新里酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "新里酒造", "brand": "琉球", "pref": "沖縄県", "area": "うるま市", "founded": "1846", "founded_era": "弘化3年", "brands": ["琉球", "かりゆし", "琉華", "もろみ酢"], "visit": "工場見学可能（要予約）。試飲やお土産付き。メールでの問合せ推奨。", "url": "https://shinzato-shuzo.co.jp", "desc": "1846年（弘化3年）首里赤田町にて創業した沖縄最古の現存する酒造所。琉球王朝時代、首里三箇で泡盛造りを許された30人の職人の一つが始祖。7代にわたり伝統の技を受け継ぐ。世界基準の品質・衛生管理を実現。シングルモルトウイスキー「琉華」も製造。", "suggestions": ["琉球ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "新里酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Satsuma Kinzan Kura — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2005 — 伊集院エリア, Kagoshima</p>
     <p class="hero-tagline">Satsuma Kinzan Kura, part of the Hamada Shuzo group, is the only shochu kura in Kagoshima that ferments, stores and matures inside mine tunnels — the workings of the old Kushikino gold mine. Its Kinzangura is brewed with golden koji. The tunnel brewing halls are open to visitors on weekends and holidays.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hamadasyuzou.co.jp/kinzan/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Satsuma Kinzan Kura", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/satsuma_kinzan.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "薩摩金山蔵株式会社", "foundingDate": "2005", "sameAs": "https://www.hamadasyuzou.co.jp/kinzan/", "brand": {"@type": "Brand", "name": "Kinzangura Golden Koji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Satsuma Kinzan Kura", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/satsuma_kinzan.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Satsuma Kinzan Kura produce?", "acceptedAnswer": {"@type": "Answer", "text": "Satsuma Kinzan Kura produces Kinzangura Golden Koji."}}, {"@type": "Question", "name": "When was Satsuma Kinzan Kura founded?", "acceptedAnswer": {"@type": "Answer", "text": "Satsuma Kinzan Kura was founded in 2005 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Satsuma Kinzan Kura have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hamadasyuzou.co.jp/kinzan/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "薩摩金山蔵株式会社", "display_name": "Satsuma Kinzan Kura", "brand": "金山蔵 黄金麹仕込み", "pref": "kagoshima", "area": "伊集院エリア", "founded": "2005", "brands": ["Kinzangura Golden Koji"], "url": "https://www.hamadasyuzou.co.jp/kinzan/", "desc": "Satsuma Kinzan Kura, part of the Hamada Shuzo group, is the only shochu kura in Kagoshima that ferments, stores and matures inside mine tunnels — the workings of the old Kushikino gold mine. Its Kinzangura is brewed with golden koji. The tunnel brewing halls are open to visitors on weekends and holidays.", "suggestions": ["Tell me about Satsuma Kinzan Kura", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Satsuma Kinzan Kura", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/satsuma_kinzan.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "薩摩金山蔵株式会社", "foundingDate": "2005", "sameAs": "https://www.hamadasyuzou.co.jp/kinzan/", "brand": {"@type": "Brand", "name": "Kinzangura Golden Koji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Satsuma Kinzan Kura", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/satsuma_kinzan.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Satsuma Kinzan Kura produce?", "acceptedAnswer": {"@type": "Answer", "text": "Satsuma Kinzan Kura produces Kinzangura Golden Koji."}}, {"@type": "Question", "name": "When was Satsuma Kinzan Kura founded?", "acceptedAnswer": {"@type": "Answer", "text": "Satsuma Kinzan Kura was founded in 2005 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Satsuma Kinzan Kura have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.hamadasyuzou.co.jp/kinzan/."}}]}]}</script></body>
 </html>

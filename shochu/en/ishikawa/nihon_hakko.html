@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1947 — 奥能登, Ishikawa</p>
     <p class="hero-tagline">石川県内で唯一の焼酎メーカー。能登杜氏の技術を活かし、添加物を一切使わず、国産麦100%の本格麦焼酎を製造。代表銘柄「虎の涙」は12年熟成の麦焼酎。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.noto-shochu.com/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nihon Hakko Kasei", "url": "https://shochu.terroirhub.com/shochu/en/ishikawa/nihon_hakko.html", "address": {"@type": "PostalAddress", "addressRegion": "Ishikawa", "addressCountry": "JP"}, "alternateName": "日本醗酵化成", "foundingDate": "1947", "sameAs": "https://www.noto-shochu.com/", "brand": {"@type": "Brand", "name": "虎の涙"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Ishikawa", "item": "https://shochu.terroirhub.com/shochu/en/ishikawa/"}, {"@type": "ListItem", "position": 3, "name": "Nihon Hakko Kasei", "item": "https://shochu.terroirhub.com/shochu/en/ishikawa/nihon_hakko.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nihon Hakko Kasei produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nihon Hakko Kasei produces 虎の涙, 雪国."}}, {"@type": "Question", "name": "When was Nihon Hakko Kasei founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nihon Hakko Kasei was founded in 1947 in Ishikawa, Japan."}}, {"@type": "Question", "name": "Does Nihon Hakko Kasei have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.noto-shochu.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "日本醗酵化成", "display_name": "Nihon Hakko Kasei", "brand": "虎の涙", "pref": "ishikawa", "area": "奥能登", "founded": "1947", "brands": ["虎の涙", "雪国"], "url": "https://www.noto-shochu.com/", "desc": "石川県内で唯一の焼酎メーカー。能登杜氏の技術を活かし、添加物を一切使わず、国産麦100%の本格麦焼酎を製造。代表銘柄「虎の涙」は12年熟成の麦焼酎。", "suggestions": ["Tell me about Nihon Hakko Kasei", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nihon Hakko Kasei", "url": "https://shochu.terroirhub.com/shochu/en/ishikawa/nihon_hakko.html", "address": {"@type": "PostalAddress", "addressRegion": "Ishikawa", "addressCountry": "JP"}, "alternateName": "日本醗酵化成", "foundingDate": "1947", "sameAs": "https://www.noto-shochu.com/", "brand": {"@type": "Brand", "name": "虎の涙"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Ishikawa", "item": "https://shochu.terroirhub.com/shochu/en/ishikawa/"}, {"@type": "ListItem", "position": 3, "name": "Nihon Hakko Kasei", "item": "https://shochu.terroirhub.com/shochu/en/ishikawa/nihon_hakko.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nihon Hakko Kasei produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nihon Hakko Kasei produces 虎の涙, 雪国."}}, {"@type": "Question", "name": "When was Nihon Hakko Kasei founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nihon Hakko Kasei was founded in 1947 in Ishikawa, Japan."}}, {"@type": "Question", "name": "Does Nihon Hakko Kasei have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.noto-shochu.com/."}}]}]}</script></body>
 </html>

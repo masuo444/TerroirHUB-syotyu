@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Watanabe Shuzojo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1914 — 宮崎市, Miyazaki</p>
     <p class="hero-tagline">Watanabe Shuzojo, founded in 1914, is the only kura in the Tano district of Miyazaki. Fourth-generation head Koichiro Watanabe grows Koganesengan on three hectares of the house's own fields — about eighty percent of its ingredients — and brews on the theme of sake from the land that makes it: soil left on the potatoes, wild yeasts and native microbes at work, and about three years of rest before release.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://asahi-mannen.com/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Watanabe Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/watanabe-shuzojo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "渡邊酒造場", "foundingDate": "1914", "sameAs": "http://asahi-mannen.com/", "brand": {"@type": "Brand", "name": "旭萬年"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Watanabe Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/watanabe-shuzojo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Watanabe Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Watanabe Shuzojo produces 旭萬年."}}, {"@type": "Question", "name": "When was Watanabe Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Watanabe Shuzojo was founded in 1914 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Watanabe Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://asahi-mannen.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "渡邊酒造場", "display_name": "Watanabe Shuzojo", "brand": "旭萬年", "pref": "miyazaki", "area": "宮崎市", "founded": "1914", "brands": ["旭萬年"], "url": "http://asahi-mannen.com/", "desc": "Watanabe Shuzojo, founded in 1914, is the only kura in the Tano district of Miyazaki. Fourth-generation head Koichiro Watanabe grows Koganesengan on three hectares of the house's own fields — about eighty percent of its ingredients — and brews on the theme of sake from the land that makes it: soil left on the potatoes, wild yeasts and native microbes at work, and about three years of rest before release.", "suggestions": ["Tell me about Watanabe Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Watanabe Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/watanabe-shuzojo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "渡邊酒造場", "foundingDate": "1914", "sameAs": "http://asahi-mannen.com/", "brand": {"@type": "Brand", "name": "旭萬年"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Watanabe Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/watanabe-shuzojo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Watanabe Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Watanabe Shuzojo produces 旭萬年."}}, {"@type": "Question", "name": "When was Watanabe Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Watanabe Shuzojo was founded in 1914 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Watanabe Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://asahi-mannen.com/."}}]}]}</script></body>
 </html>

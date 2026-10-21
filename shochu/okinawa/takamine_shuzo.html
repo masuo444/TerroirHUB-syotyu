@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>高嶺酒造所 — 沖縄県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -319,7 +320,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1949 — 石垣市, 沖縄県</p>
     <p class="hero-tagline">1949年創業。沖縄県最高峰の於茂登岳と国指定名勝・川平湾を望む地に位置。直火式地釜蒸留と二晩寝かせた老麹づくりなど、全工程を手造りで行う。銘柄「おもと」は於茂登岳連山の天然水を使用。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://omoto-takamine.com'">公式サイト</button>
     </div>
   </div>
@@ -455,39 +456,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="高嶺酒造所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "高嶺酒造所", "brand": "おもと", "pref": "沖縄県", "area": "石垣市", "founded": "1949", "founded_era": "昭和24年", "brands": ["おもと", "おもと 3年古酒", "おもと 6年古酒", "黒真珠"], "visit": "川平公園から徒歩2分。見学可能。", "url": "https://omoto-takamine.com", "desc": "1949年創業。沖縄県最高峰の於茂登岳と国指定名勝・川平湾を望む地に位置。直火式地釜蒸留と二晩寝かせた老麹づくりなど、全工程を手造りで行う。銘柄「おもと」は於茂登岳連山の天然水を使用。", "suggestions": ["おもとってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "高嶺酒造所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

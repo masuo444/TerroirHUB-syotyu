@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1927 — 与那国町, 沖縄県</p>
     <p class="hero-tagline">1927年（昭和2年）、米農家19人が出資し「久部良酒造所」として設立された与那国島最古の酒造所。1971年に崎元酒造所として独立。600年の伝統的泡盛製法を守り、古式地釜蒸留機による手造りの泡盛を製造。リサイクル瓶を使用し、売上の一部を救急ヘリ支援に寄付。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://sakimotoshuzo.com'">公式サイト</button>
     </div>
   </div>
@@ -462,39 +462,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="崎元酒造所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "崎元酒造所", "brand": "与那国", "pref": "沖縄県", "area": "与那国町", "founded": "1927", "founded_era": "昭和2年", "brands": ["与那国", "与那国 花酒", "花織酒", "海波", "花酒 花ごすいみず"], "visit": "工場見学可能。営業時間9:00〜17:00（昼休み12:00〜13:30）。日曜・地域行事時休み。", "url": "https://sakimotoshuzo.com", "desc": "1927年（昭和2年）、米農家19人が出資し「久部良酒造所」として設立された与那国島最古の酒造所。1971年に崎元酒造所として独立。600年の伝統的泡盛製法を守り、古式地釜蒸留機による手造りの泡盛を製造。リサイクル瓶を使用し、売上の一部を救急ヘリ支援に寄付。", "suggestions": ["与那国ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "崎元酒造所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1954 — 西臼杵郡高千穂町, 宮崎県</p>
     <p class="hero-tagline">高千穂に本社を置き、日本酒から本格焼酎に転換した蔵元。国産大麦100%使用の麦焼酎「くろうま」が主力。旧鉄道トンネルを利用した樫樽貯蔵施設「トンネルの駅」を運営し、見学・物産販売を行う。芋焼酎「天孫降臨」も人気。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.kagurashuzo.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -455,39 +455,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="神楽酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "神楽酒造", "brand": "くろうま", "pref": "宮崎県", "area": "西臼杵郡高千穂町", "founded": "1954", "founded_era": "昭和29年", "brands": ["くろうま", "天照", "天孫降臨", "天地神明"], "visit": "トンネルの駅にて見学・物産販売あり。", "url": "https://www.kagurashuzo.co.jp/", "desc": "高千穂に本社を置き、日本酒から本格焼酎に転換した蔵元。国産大麦100%使用の麦焼酎「くろうま」が主力。旧鉄道トンネルを利用した樫樽貯蔵施設「トンネルの駅」を運営し、見学・物産販売を行う。芋焼酎「天孫降臨」も人気。", "suggestions": ["くろうまってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "神楽酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

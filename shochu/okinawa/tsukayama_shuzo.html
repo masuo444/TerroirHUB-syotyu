@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1927 — 名護市, 沖縄県</p>
     <p class="hero-tagline">大正13年（1924年）頃、名水の地として知られる名護市に創業。昭和2年から4年（1927～1929年）にかけて建設された赤瓦葺き木造建築は、沖縄で唯一戦前の姿を今に残す酒造所として2009年に国の重要文化財に指定。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://awamori-kokka.co.jp'">公式サイト</button>
     </div>
   </div>
@@ -445,39 +445,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="津嘉山酒造所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "津嘉山酒造所", "brand": "國華", "pref": "沖縄県", "area": "名護市", "founded": "1927", "founded_era": "昭和2年頃", "brands": ["國華", "好泉"], "visit": "国指定重要文化財の建物見学可能。", "url": "https://awamori-kokka.co.jp", "desc": "大正13年（1924年）頃、名水の地として知られる名護市に創業。昭和2年から4年（1927～1929年）にかけて建設された赤瓦葺き木造建築は、沖縄で唯一戦前の姿を今に残す酒造所として2009年に国の重要文化財に指定。", "suggestions": ["國華ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "津嘉山酒造所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

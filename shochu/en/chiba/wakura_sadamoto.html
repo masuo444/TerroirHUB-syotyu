@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1874 — 君津市, Chiba</p>
     <p class="hero-tagline">江戸時代から続く蔵。貞元蔵は焼酎専用蔵として、黒麹仕込み・二次仕込法・常圧蒸留など伝統的製法を採用。千葉県産の芋・米・麦にこだわった本格焼酎を醸造。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://wakura-sake.jp/teigen/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +352,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Wakura Shuzo Sadamoto Kura", "url": "https://shochu.terroirhub.com/shochu/en/chiba/wakura_sadamoto.html", "address": {"@type": "PostalAddress", "addressRegion": "Chiba", "addressCountry": "JP"}, "alternateName": "和蔵酒造 貞元蔵", "foundingDate": "1874", "sameAs": "https://wakura-sake.jp/teigen/", "brand": {"@type": "Brand", "name": "房総芋焼酎"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Chiba", "item": "https://shochu.terroirhub.com/shochu/en/chiba/"}, {"@type": "ListItem", "position": 3, "name": "Wakura Shuzo Sadamoto Kura", "item": "https://shochu.terroirhub.com/shochu/en/chiba/wakura_sadamoto.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Wakura Shuzo Sadamoto Kura produce?", "acceptedAnswer": {"@type": "Answer", "text": "Wakura Shuzo Sadamoto Kura produces 房総芋焼酎."}}, {"@type": "Question", "name": "When was Wakura Shuzo Sadamoto Kura founded?", "acceptedAnswer": {"@type": "Answer", "text": "Wakura Shuzo Sadamoto Kura was founded in 1874 in Chiba, Japan."}}, {"@type": "Question", "name": "Does Wakura Shuzo Sadamoto Kura have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://wakura-sake.jp/teigen/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "和蔵酒造 貞元蔵", "display_name": "Wakura Shuzo Sadamoto Kura", "brand": "房総芋焼酎", "pref": "chiba", "area": "君津市", "founded": "1874", "brands": ["房総芋焼酎"], "url": "https://wakura-sake.jp/teigen/", "desc": "江戸時代から続く蔵。貞元蔵は焼酎専用蔵として、黒麹仕込み・二次仕込法・常圧蒸留など伝統的製法を採用。千葉県産の芋・米・麦にこだわった本格焼酎を醸造。", "suggestions": ["Tell me about Wakura Shuzo Sadamoto Kura", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Wakura Shuzo Sadamoto Kura", "url": "https://shochu.terroirhub.com/shochu/en/chiba/wakura_sadamoto.html", "address": {"@type": "PostalAddress", "addressRegion": "Chiba", "addressCountry": "JP"}, "alternateName": "和蔵酒造 貞元蔵", "foundingDate": "1874", "sameAs": "https://wakura-sake.jp/teigen/", "brand": {"@type": "Brand", "name": "房総芋焼酎"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Chiba", "item": "https://shochu.terroirhub.com/shochu/en/chiba/"}, {"@type": "ListItem", "position": 3, "name": "Wakura Shuzo Sadamoto Kura", "item": "https://shochu.terroirhub.com/shochu/en/chiba/wakura_sadamoto.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Wakura Shuzo Sadamoto Kura produce?", "acceptedAnswer": {"@type": "Answer", "text": "Wakura Shuzo Sadamoto Kura produces 房総芋焼酎."}}, {"@type": "Question", "name": "When was Wakura Shuzo Sadamoto Kura founded?", "acceptedAnswer": {"@type": "Answer", "text": "Wakura Shuzo Sadamoto Kura was founded in 1874 in Chiba, Japan."}}, {"@type": "Question", "name": "Does Wakura Shuzo Sadamoto Kura have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://wakura-sake.jp/teigen/."}}]}]}</script></body>
 </html>

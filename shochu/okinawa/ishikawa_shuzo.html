@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1949 — 西原町, 沖縄県</p>
     <p class="hero-tagline">1949年、石川政次郎が那覇市首里寒川にて創業。1990年に西原町に移転。沖縄県内で唯一、昔ながらの一石甕を使った全量甕仕込み製法を守り続ける。代表銘柄「玉友」は「最高の友」を意味する。2003年にISO 9001取得。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://kamejikomi.com'">公式サイト</button>
     </div>
   </div>
@@ -462,39 +462,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="石川酒造場について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "石川酒造場", "brand": "玉友", "pref": "沖縄県", "area": "西原町", "founded": "1949", "founded_era": "昭和24年", "brands": ["玉友", "玉友44", "甕仕込", "島風", "琉球もろみ酢"], "visit": "工場見学可能。営業時間8:30〜17:30。", "url": "https://kamejikomi.com", "desc": "1949年、石川政次郎が那覇市首里寒川にて創業。1990年に西原町に移転。沖縄県内で唯一、昔ながらの一石甕を使った全量甕仕込み製法を守り続ける。代表銘柄「玉友」は「最高の友」を意味する。2003年にISO 9001取得。", "suggestions": ["玉友ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "石川酒造場の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

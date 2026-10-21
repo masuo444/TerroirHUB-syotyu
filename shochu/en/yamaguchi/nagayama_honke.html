@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Nagayama Honke Shuzojo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1895 — 宇部, Yamaguchi</p>
     <p class="hero-tagline">Nagayama Honke Shuzojo, founded in 1895 in Ube, is known nationwide for its junmai sake Taka, brewed Burgundy-style — its own Yamada Nishiki paddies, mineral-rich water filtering off the Akiyoshidai plateau — with shochu in small volumes beside it. Its registered cultural-property buildings house the Futamatase Coffee café.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.domainetaka.com/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nagayama Honke Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/yamaguchi/nagayama_honke.html", "address": {"@type": "PostalAddress", "addressRegion": "Yamaguchi", "addressCountry": "JP"}, "alternateName": "永山本家酒造場", "foundingDate": "1895", "sameAs": "https://www.domainetaka.com/", "brand": {"@type": "Brand", "name": "Taka"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Yamaguchi", "item": "https://shochu.terroirhub.com/shochu/en/yamaguchi/"}, {"@type": "ListItem", "position": 3, "name": "Nagayama Honke Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/yamaguchi/nagayama_honke.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nagayama Honke Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nagayama Honke Shuzojo produces Taka."}}, {"@type": "Question", "name": "When was Nagayama Honke Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nagayama Honke Shuzojo was founded in 1895 in Yamaguchi, Japan."}}, {"@type": "Question", "name": "Does Nagayama Honke Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.domainetaka.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "永山本家酒造場", "display_name": "Nagayama Honke Shuzojo", "brand": "貴", "pref": "yamaguchi", "area": "宇部", "founded": "1895", "brands": ["Taka"], "url": "https://www.domainetaka.com/", "desc": "Nagayama Honke Shuzojo, founded in 1895 in Ube, is known nationwide for its junmai sake Taka, brewed Burgundy-style — its own Yamada Nishiki paddies, mineral-rich water filtering off the Akiyoshidai plateau — with shochu in small volumes beside it. Its registered cultural-property buildings house the Futamatase Coffee café.", "suggestions": ["Tell me about Nagayama Honke Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nagayama Honke Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/yamaguchi/nagayama_honke.html", "address": {"@type": "PostalAddress", "addressRegion": "Yamaguchi", "addressCountry": "JP"}, "alternateName": "永山本家酒造場", "foundingDate": "1895", "sameAs": "https://www.domainetaka.com/", "brand": {"@type": "Brand", "name": "Taka"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Yamaguchi", "item": "https://shochu.terroirhub.com/shochu/en/yamaguchi/"}, {"@type": "ListItem", "position": 3, "name": "Nagayama Honke Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/yamaguchi/nagayama_honke.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nagayama Honke Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nagayama Honke Shuzojo produces Taka."}}, {"@type": "Question", "name": "When was Nagayama Honke Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nagayama Honke Shuzojo was founded in 1895 in Yamaguchi, Japan."}}, {"@type": "Question", "name": "Does Nagayama Honke Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.domainetaka.com/."}}]}]}</script></body>
 </html>

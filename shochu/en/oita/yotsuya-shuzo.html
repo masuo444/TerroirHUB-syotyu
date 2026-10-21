@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1919 — 宇佐市, Oita</p>
     <p class="hero-tagline">Yotsuya Shuzo, founded in 1919 in Usa, names its famous shochu for founder Kanehachi Yotsuya. Atmospheric distillation draws out the barley's toasty aroma and dense umami — a flavour fans compare to chocolate-coated barley puffs — and demand has long outrun supply.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://www.shochuya.com/'">Official Website</button>
     </div>
   </div>
@@ -365,37 +365,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yotsuya Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/oita/yotsuya-shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "四ツ谷酒造", "foundingDate": "1919", "sameAs": "http://www.shochuya.com/", "brand": {"@type": "Brand", "name": "Kanehachi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Yotsuya Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/oita/yotsuya-shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yotsuya Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yotsuya Shuzo produces Kanehachi, 宇佐むぎ, 栄花."}}, {"@type": "Question", "name": "When was Yotsuya Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yotsuya Shuzo was founded in 1919 in Oita, Japan."}}, {"@type": "Question", "name": "Does Yotsuya Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.shochuya.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "四ツ谷酒造", "display_name": "Yotsuya Shuzo", "brand": "兼八", "pref": "oita", "area": "宇佐市", "founded": "1919", "brands": ["Kanehachi", "宇佐むぎ", "栄花"], "url": "http://www.shochuya.com/", "desc": "Yotsuya Shuzo, founded in 1919 in Usa, names its famous shochu for founder Kanehachi Yotsuya. Atmospheric distillation draws out the barley's toasty aroma and dense umami — a flavour fans compare to chocolate-coated barley puffs — and demand has long outrun supply.", "suggestions": ["Tell me about Yotsuya Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yotsuya Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/oita/yotsuya-shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "四ツ谷酒造", "foundingDate": "1919", "sameAs": "http://www.shochuya.com/", "brand": {"@type": "Brand", "name": "Kanehachi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Yotsuya Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/oita/yotsuya-shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yotsuya Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yotsuya Shuzo produces Kanehachi, 宇佐むぎ, 栄花."}}, {"@type": "Question", "name": "When was Yotsuya Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yotsuya Shuzo was founded in 1919 in Oita, Japan."}}, {"@type": "Question", "name": "Does Yotsuya Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.shochuya.com/."}}]}]}</script></body>
 </html>

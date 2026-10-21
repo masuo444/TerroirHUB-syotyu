@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Chatan Chouro Distillery — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1848 — 北谷町, Okinawa</p>
     <p class="hero-tagline">Chatan Choro Shuzo began in 1848 as Tamanaha Shuzo in the royal quarter of Shuri, moved to Chatan in 1910, restarted after the war and incorporated under its present name in 2006 — more than 170 years of awamori, and the only distillery in Chatan. Long-aged kusu at 25 and 43 degrees flank the standard.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://chatan-chourou.co.jp'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Chatan Chouro Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/chatan_chouro_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "北谷長老酒造工場", "foundingDate": "1848", "sameAs": "https://chatan-chourou.co.jp", "brand": {"@type": "Brand", "name": "Chatan Choro"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Chatan Chouro Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/chatan_chouro_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Chatan Chouro Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Chatan Chouro Distillery produces Chatan Choro, 北谷長老 古酒25度, 北谷長老 古酒43度, Ipponmatsu."}}, {"@type": "Question", "name": "When was Chatan Chouro Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Chatan Chouro Distillery was founded in 1848 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Chatan Chouro Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://chatan-chourou.co.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "北谷長老酒造工場", "display_name": "Chatan Chouro Distillery", "brand": "北谷長老", "pref": "okinawa", "area": "北谷町", "founded": "1848", "brands": ["Chatan Choro", "北谷長老 古酒25度", "北谷長老 古酒43度", "Ipponmatsu"], "url": "https://chatan-chourou.co.jp", "desc": "Chatan Choro Shuzo began in 1848 as Tamanaha Shuzo in the royal quarter of Shuri, moved to Chatan in 1910, restarted after the war and incorporated under its present name in 2006 — more than 170 years of awamori, and the only distillery in Chatan. Long-aged kusu at 25 and 43 degrees flank the standard.", "suggestions": ["Tell me about Chatan Chouro Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Chatan Chouro Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/chatan_chouro_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "北谷長老酒造工場", "foundingDate": "1848", "sameAs": "https://chatan-chourou.co.jp", "brand": {"@type": "Brand", "name": "Chatan Choro"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Chatan Chouro Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/chatan_chouro_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Chatan Chouro Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Chatan Chouro Distillery produces Chatan Choro, 北谷長老 古酒25度, 北谷長老 古酒43度, Ipponmatsu."}}, {"@type": "Question", "name": "When was Chatan Chouro Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Chatan Chouro Distillery was founded in 1848 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Chatan Chouro Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://chatan-chourou.co.jp."}}]}]}</script></body>
 </html>

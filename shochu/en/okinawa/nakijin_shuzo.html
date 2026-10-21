@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1948 — 今帰仁村, Okinawa</p>
     <p class="hero-tagline">Nakijin Shuzo, founded in 1948 as Oshiro Shuzo and renamed in 1972, is the only distillery in Nakijin village, near the World Heritage castle ruin. In 1981 it launched the industry's first 20-degree awamori under its Utsukushiki Furusato label — a hit that opened the drink to new drinkers — and it still balances tradition against experiment. Tours are offered.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://nakijinshuzo.jp'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nakijin Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/nakijin_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "今帰仁酒造", "foundingDate": "1948", "sameAs": "https://nakijinshuzo.jp", "brand": {"@type": "Brand", "name": "Utsukushiki Furusato"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Nakijin Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/nakijin_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nakijin Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nakijin Distillery produces Utsukushiki Furusato, まるだい, Sennen no Hibiki, 今帰仁城, 天使の夢."}}, {"@type": "Question", "name": "When was Nakijin Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nakijin Distillery was founded in 1948 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Nakijin Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://nakijinshuzo.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "今帰仁酒造", "display_name": "Nakijin Distillery", "brand": "美しき古里", "pref": "okinawa", "area": "今帰仁村", "founded": "1948", "brands": ["Utsukushiki Furusato", "まるだい", "Sennen no Hibiki", "今帰仁城", "天使の夢"], "url": "https://nakijinshuzo.jp", "desc": "Nakijin Shuzo, founded in 1948 as Oshiro Shuzo and renamed in 1972, is the only distillery in Nakijin village, near the World Heritage castle ruin. In 1981 it launched the industry's first 20-degree awamori under its Utsukushiki Furusato label — a hit that opened the drink to new drinkers — and it still balances tradition against experiment. Tours are offered.", "suggestions": ["Tell me about Nakijin Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Nakijin Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/nakijin_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "今帰仁酒造", "foundingDate": "1948", "sameAs": "https://nakijinshuzo.jp", "brand": {"@type": "Brand", "name": "Utsukushiki Furusato"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Nakijin Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/nakijin_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Nakijin Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Nakijin Distillery produces Utsukushiki Furusato, まるだい, Sennen no Hibiki, 今帰仁城, 天使の夢."}}, {"@type": "Question", "name": "When was Nakijin Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Nakijin Distillery was founded in 1948 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Nakijin Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://nakijinshuzo.jp."}}]}]}</script></body>
 </html>

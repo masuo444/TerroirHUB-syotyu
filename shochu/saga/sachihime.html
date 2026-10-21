@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>幸姫酒造 — 佐賀県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -319,7 +320,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1934 — 鹿島市, 佐賀県</p>
     <p class="hero-tagline">昭和9年（1934年）創業。祐徳稲荷神社の御神酒指定醸造元。創業90年の歴史を持ち、最高峰の酒造りを追求。観光酒蔵の先駆けとして蔵見学・試飲を提供。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.sachihime.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -455,39 +456,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="幸姫酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "幸姫酒造", "brand": "幸姫", "pref": "佐賀県", "area": "鹿島市", "founded": "1934", "founded_era": "昭和9年", "brands": ["幸姫"], "visit": "蔵見学・試飲可（9:00-12:00、13:15-16:30）", "url": "https://www.sachihime.co.jp/", "desc": "昭和9年（1934年）創業。祐徳稲荷神社の御神酒指定醸造元。創業90年の歴史を持ち、最高峰の酒造りを追求。観光酒蔵の先駆けとして蔵見学・試飲を提供。", "suggestions": ["幸姫ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "幸姫酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

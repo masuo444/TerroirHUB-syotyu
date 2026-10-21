@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1900 — 人吉市, 熊本県</p>
     <p class="hero-tagline">明治33年（1900年）創業。球磨焼酎を代表する本格米焼酎「白岳」「しろ」を醸す。「いい米、いい水、いい人」を信条に、人吉・球磨の地で一世紀以上にわたり米焼酎づくりにこだわる。多良木蒸留所・白岳酒造研究所・田野蒸溜所を展開。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.hakutake.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -489,39 +489,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="高橋酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "高橋酒造", "brand": "白岳", "pref": "熊本県", "area": "人吉市", "founded": "1900", "founded_era": "明治33年", "brands": ["白岳", "白岳しろ", "白岳KAORU"], "visit": "球磨焼酎ミュージアム白岳伝承蔵", "url": "https://www.hakutake.co.jp/", "desc": "明治33年（1900年）創業。球磨焼酎を代表する本格米焼酎「白岳」「しろ」を醸す。「いい米、いい水、いい人」を信条に、人吉・球磨の地で一世紀以上にわたり米焼酎づくりにこだわる。多良木蒸留所・白岳酒造研究所・田野蒸溜所を展開。", "suggestions": ["白岳ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "高橋酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

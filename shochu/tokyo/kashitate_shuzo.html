@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>樫立酒造 — 東京都の蒸留所 | Terroir HUB SHOCHU</title>
@@ -318,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1925 — 八丈町, 東京都</p>
     <p class="hero-tagline">大正14年創業。珍しい銅製蒸留器を使用して麦焼酎「島の華」を製造。軽やかな味わいが特徴。GI「東京島酒」認定。2025年に創業100周年。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://kasitateshuzou.com/'">公式サイト</button>
     </div>
   </div>
@@ -444,39 +445,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="樫立酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "樫立酒造", "brand": "島の華", "pref": "東京都", "area": "八丈町", "founded": "1925", "founded_era": "大正14年", "brands": ["島の華", "潮梅"], "visit": "工場見学可（要予約）", "url": "https://kasitateshuzou.com/", "desc": "大正14年創業。珍しい銅製蒸留器を使用して麦焼酎「島の華」を製造。軽やかな味わいが特徴。GI「東京島酒」認定。2025年に創業100周年。", "suggestions": ["島の華ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "樫立酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

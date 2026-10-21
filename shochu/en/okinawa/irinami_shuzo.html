@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Irinamihira Distillery — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1989 — 与那国町, Okinawa</p>
     <p class="hero-tagline">Irinamihira Shuzo was founded in 1989 when Hironobu Irinamihira left Kokusen Awamori to start his own house — the newest distillery in Okinawa. Its Maifuna means a dutiful, praiseworthy child in the Yonaguni tongue, a wish that the drink bring joy; a 60-degree hanazake stands beside it. Reports suggest production is currently paused.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       
     </div>
   </div>
@@ -362,37 +363,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Irinamihira Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/irinami_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "入波平酒造", "foundingDate": "1989", "brand": {"@type": "Brand", "name": "Maifuna"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Irinamihira Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/irinami_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Irinamihira Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Irinamihira Distillery produces Maifuna, 舞富名 花酒."}}, {"@type": "Question", "name": "When was Irinamihira Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Irinamihira Distillery was founded in 1989 in Okinawa, Japan."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "入波平酒造", "display_name": "Irinamihira Distillery", "brand": "舞富名", "pref": "okinawa", "area": "与那国町", "founded": "1989", "brands": ["Maifuna", "舞富名 花酒"], "url": "", "desc": "Irinamihira Shuzo was founded in 1989 when Hironobu Irinamihira left Kokusen Awamori to start his own house — the newest distillery in Okinawa. Its Maifuna means a dutiful, praiseworthy child in the Yonaguni tongue, a wish that the drink bring joy; a 60-degree hanazake stands beside it. Reports suggest production is currently paused.", "suggestions": ["Tell me about Irinamihira Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Irinamihira Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/irinami_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "入波平酒造", "foundingDate": "1989", "brand": {"@type": "Brand", "name": "Maifuna"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Irinamihira Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/irinami_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Irinamihira Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Irinamihira Distillery produces Maifuna, 舞富名 花酒."}}, {"@type": "Question", "name": "When was Irinamihira Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Irinamihira Distillery was founded in 1989 in Okinawa, Japan."}}]}]}</script></body>
 </html>

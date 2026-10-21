@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1934 — 鹿島市, Saga</p>
     <p class="hero-tagline">昭和9年（1934年）創業。祐徳稲荷神社の御神酒指定醸造元。創業90年の歴史を持ち、最高峰の酒造りを追求。観光酒蔵の先駆けとして蔵見学・試飲を提供。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.sachihime.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +352,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sachihime Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/saga/sachihime.html", "address": {"@type": "PostalAddress", "addressRegion": "Saga", "addressCountry": "JP"}, "alternateName": "幸姫酒造", "foundingDate": "1934", "sameAs": "https://www.sachihime.co.jp/", "brand": {"@type": "Brand", "name": "幸姫"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saga", "item": "https://shochu.terroirhub.com/shochu/en/saga/"}, {"@type": "ListItem", "position": 3, "name": "Sachihime Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/saga/sachihime.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sachihime Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sachihime Shuzo produces 幸姫."}}, {"@type": "Question", "name": "When was Sachihime Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sachihime Shuzo was founded in 1934 in Saga, Japan."}}, {"@type": "Question", "name": "Does Sachihime Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.sachihime.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "幸姫酒造", "display_name": "Sachihime Shuzo", "brand": "幸姫", "pref": "saga", "area": "鹿島市", "founded": "1934", "brands": ["幸姫"], "url": "https://www.sachihime.co.jp/", "desc": "昭和9年（1934年）創業。祐徳稲荷神社の御神酒指定醸造元。創業90年の歴史を持ち、最高峰の酒造りを追求。観光酒蔵の先駆けとして蔵見学・試飲を提供。", "suggestions": ["Tell me about Sachihime Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sachihime Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/saga/sachihime.html", "address": {"@type": "PostalAddress", "addressRegion": "Saga", "addressCountry": "JP"}, "alternateName": "幸姫酒造", "foundingDate": "1934", "sameAs": "https://www.sachihime.co.jp/", "brand": {"@type": "Brand", "name": "幸姫"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saga", "item": "https://shochu.terroirhub.com/shochu/en/saga/"}, {"@type": "ListItem", "position": 3, "name": "Sachihime Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/saga/sachihime.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sachihime Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sachihime Shuzo produces 幸姫."}}, {"@type": "Question", "name": "When was Sachihime Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sachihime Shuzo was founded in 1934 in Saga, Japan."}}, {"@type": "Question", "name": "Does Sachihime Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.sachihime.co.jp/."}}]}]}</script></body>
 </html>

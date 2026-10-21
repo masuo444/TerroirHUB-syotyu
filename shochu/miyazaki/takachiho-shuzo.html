@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1902 — 西臼杵郡高千穂町, 宮崎県</p>
     <p class="hero-tagline">玉の露酒造として創業、1976年に現社名に変更。黒麹・全麹仕込み・常圧蒸留による個性的な麦焼酎が主力（生産の60%）。芋焼酎（15%）、とうもろこし焼酎「刈干」など多彩な原料の焼酎を製造。副産物を家畜飼料・水産養殖に再利用。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.takachihosyuzo.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -462,39 +462,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="高千穂酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "高千穂酒造", "brand": "高千穂", "pref": "宮崎県", "area": "西臼杵郡高千穂町", "founded": "1902", "founded_era": "明治35年", "brands": ["黒麹高千穂", "高千穂 零", "刈干", "露々"], "visit": "公式サイトでは見学の受付に関する記載を確認できませんでした（2026-09-18時点）。見学を希望される場合は、公式サイトまたは直接お問い合わせください。", "url": "https://www.takachihosyuzo.co.jp/", "desc": "玉の露酒造として創業、1976年に現社名に変更。黒麹・全麹仕込み・常圧蒸留による個性的な麦焼酎が主力（生産の60%）。芋焼酎（15%）、とうもろこし焼酎「刈干」など多彩な原料の焼酎を製造。副産物を家畜飼料・水産養殖に再利用。", "suggestions": ["高千穂ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "高千穂酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

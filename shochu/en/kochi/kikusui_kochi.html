@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Kikusui Shuzo (Kochi) — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1948 — 安芸, Kochi</p>
     <p class="hero-tagline">Kikusui Shuzo, established in 1948 in Aki, Kochi, makes chestnut and barley shochu alongside its sake. The barley shochu Ryoma pours clean and gentle — an easy first shochu — and the house runs a product planning team composed entirely of women, developing releases with women drinkers in mind.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://tosa-kikusui.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -355,37 +356,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kikusui Shuzo (Kochi)", "url": "https://shochu.terroirhub.com/shochu/en/kochi/kikusui_kochi.html", "address": {"@type": "PostalAddress", "addressRegion": "Kochi", "addressCountry": "JP"}, "alternateName": "菊水酒造", "foundingDate": "1948", "sameAs": "http://tosa-kikusui.co.jp/", "brand": {"@type": "Brand", "name": "栗焼酎龍馬"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kochi", "item": "https://shochu.terroirhub.com/shochu/en/kochi/"}, {"@type": "ListItem", "position": 3, "name": "Kikusui Shuzo (Kochi)", "item": "https://shochu.terroirhub.com/shochu/en/kochi/kikusui_kochi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kikusui Shuzo (Kochi) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kikusui Shuzo (Kochi) produces 栗焼酎龍馬, 竜馬（麦焼酎）."}}, {"@type": "Question", "name": "When was Kikusui Shuzo (Kochi) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kikusui Shuzo (Kochi) was founded in 1948 in Kochi, Japan."}}, {"@type": "Question", "name": "Does Kikusui Shuzo (Kochi) have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://tosa-kikusui.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "菊水酒造", "display_name": "Kikusui Shuzo (Kochi)", "brand": "菊水", "pref": "kochi", "area": "安芸", "founded": "1948", "brands": ["栗焼酎龍馬", "竜馬（麦焼酎）"], "url": "http://tosa-kikusui.co.jp/", "desc": "Kikusui Shuzo, established in 1948 in Aki, Kochi, makes chestnut and barley shochu alongside its sake. The barley shochu Ryoma pours clean and gentle — an easy first shochu — and the house runs a product planning team composed entirely of women, developing releases with women drinkers in mind.", "suggestions": ["Tell me about Kikusui Shuzo (Kochi)", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kikusui Shuzo (Kochi)", "url": "https://shochu.terroirhub.com/shochu/en/kochi/kikusui_kochi.html", "address": {"@type": "PostalAddress", "addressRegion": "Kochi", "addressCountry": "JP"}, "alternateName": "菊水酒造", "foundingDate": "1948", "sameAs": "http://tosa-kikusui.co.jp/", "brand": {"@type": "Brand", "name": "栗焼酎龍馬"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kochi", "item": "https://shochu.terroirhub.com/shochu/en/kochi/"}, {"@type": "ListItem", "position": 3, "name": "Kikusui Shuzo (Kochi)", "item": "https://shochu.terroirhub.com/shochu/en/kochi/kikusui_kochi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kikusui Shuzo (Kochi) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kikusui Shuzo (Kochi) produces 栗焼酎龍馬, 竜馬（麦焼酎）."}}, {"@type": "Question", "name": "When was Kikusui Shuzo (Kochi) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kikusui Shuzo (Kochi) was founded in 1948 in Kochi, Japan."}}, {"@type": "Question", "name": "Does Kikusui Shuzo (Kochi) have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://tosa-kikusui.co.jp/."}}]}]}</script></body>
 </html>

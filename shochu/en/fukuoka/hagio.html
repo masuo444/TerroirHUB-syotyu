@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1764 — 福岡市, Fukuoka</p>
     <p class="hero-tagline">明和元年（1764年）創業。黒田藩52万石の御用達の造り酒屋。焼酎「博多っ子」は大麦・米麹使用、アルコール25度。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       
     </div>
   </div>
@@ -345,37 +345,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hagio Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/hagio.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "萩尾酒造場", "foundingDate": "1764", "brand": {"@type": "Brand", "name": "博多っ子"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Hagio Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/hagio.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hagio Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hagio Shuzojo produces 博多っ子."}}, {"@type": "Question", "name": "When was Hagio Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hagio Shuzojo was founded in 1764 in Fukuoka, Japan."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "萩尾酒造場", "display_name": "Hagio Shuzojo", "brand": "博多っ子", "pref": "fukuoka", "area": "福岡市", "founded": "1764", "brands": ["博多っ子"], "url": "", "desc": "明和元年（1764年）創業。黒田藩52万石の御用達の造り酒屋。焼酎「博多っ子」は大麦・米麹使用、アルコール25度。", "suggestions": ["Tell me about Hagio Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hagio Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/hagio.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "萩尾酒造場", "foundingDate": "1764", "brand": {"@type": "Brand", "name": "博多っ子"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Hagio Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/hagio.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hagio Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hagio Shuzojo produces 博多っ子."}}, {"@type": "Question", "name": "When was Hagio Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hagio Shuzojo was founded in 1764 in Fukuoka, Japan."}}]}]}</script></body>
 </html>

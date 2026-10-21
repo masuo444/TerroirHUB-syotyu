@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1916 — 都城市, 宮崎県</p>
     <p class="hero-tagline">本格芋焼酎売上9年連続日本一を達成。九州産さつまいも100%、国産米100%、霧島連山の地下水のみを使用。1日あたり約20万本（1.8L換算）の生産能力を持つ。黒麹仕込みの黒霧島（1998年発売）、赤霧島（2003年発売）が代表銘柄。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.kirishima.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -496,39 +496,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="霧島酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "霧島酒造", "brand": "黒霧島", "pref": "宮崎県", "area": "都城市", "founded": "1916", "founded_era": "大正5年", "brands": ["黒霧島", "赤霧島", "茜霧島", "霧島"], "visit": "霧島ファクトリーガーデンにて工場見学可能。クラフトブルワリー、ベーカリー等併設。", "url": "https://www.kirishima.co.jp/", "desc": "本格芋焼酎売上9年連続日本一を達成。九州産さつまいも100%、国産米100%、霧島連山の地下水のみを使用。1日あたり約20万本（1.8L換算）の生産能力を持つ。黒麹仕込みの黒霧島（1998年発売）、赤霧島（2003年発売）が代表銘柄。", "suggestions": ["黒霧島ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "霧島酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Baba Shuzojo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1795 — 鹿島市, Saga</p>
     <p class="hero-tagline">Baba Shuzojo, founded in 1795 in Kashima, brews about 370 koku a year under eighth-generation owner-toji Ichiro Baba. Seven years of work with local farmers brought Yamada Nishiki cultivation home to the neighbourhood, feeding its Nogomi label.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.nogomi.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Baba Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/saga/baba.html", "address": {"@type": "PostalAddress", "addressRegion": "Saga", "addressCountry": "JP"}, "alternateName": "馬場酒造場", "foundingDate": "1795", "sameAs": "https://www.nogomi.co.jp/", "brand": {"@type": "Brand", "name": "Nogomi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saga", "item": "https://shochu.terroirhub.com/shochu/en/saga/"}, {"@type": "ListItem", "position": 3, "name": "Baba Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/saga/baba.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Baba Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Baba Shuzojo produces Nogomi."}}, {"@type": "Question", "name": "When was Baba Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Baba Shuzojo was founded in 1795 in Saga, Japan."}}, {"@type": "Question", "name": "Does Baba Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.nogomi.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "馬場酒造場", "display_name": "Baba Shuzojo", "brand": "能古見", "pref": "saga", "area": "鹿島市", "founded": "1795", "brands": ["Nogomi"], "url": "https://www.nogomi.co.jp/", "desc": "Baba Shuzojo, founded in 1795 in Kashima, brews about 370 koku a year under eighth-generation owner-toji Ichiro Baba. Seven years of work with local farmers brought Yamada Nishiki cultivation home to the neighbourhood, feeding its Nogomi label.", "suggestions": ["Tell me about Baba Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Baba Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/saga/baba.html", "address": {"@type": "PostalAddress", "addressRegion": "Saga", "addressCountry": "JP"}, "alternateName": "馬場酒造場", "foundingDate": "1795", "sameAs": "https://www.nogomi.co.jp/", "brand": {"@type": "Brand", "name": "Nogomi"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saga", "item": "https://shochu.terroirhub.com/shochu/en/saga/"}, {"@type": "ListItem", "position": 3, "name": "Baba Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/saga/baba.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Baba Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Baba Shuzojo produces Nogomi."}}, {"@type": "Question", "name": "When was Baba Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Baba Shuzojo was founded in 1795 in Saga, Japan."}}, {"@type": "Question", "name": "Does Baba Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.nogomi.co.jp/."}}]}]}</script></body>
 </html>

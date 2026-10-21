@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1837 — みやこ町, Fukuoka</p>
     <p class="hero-tagline">天保8年（1837年）創業。みやこ町唯一の造り酒屋。銘酒「九州菊」を造る酒蔵で、英彦山の伏流水で醸す。米焼酎や吟醸粕取焼酎も製造。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.kusugiku.jp/'">Official Website</button>
     </div>
   </div>
@@ -355,37 +355,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hayashi Ryuhei Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/hayashi.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "林龍平酒造場", "foundingDate": "1837", "sameAs": "https://www.kusugiku.jp/", "brand": {"@type": "Brand", "name": "豊前海"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Hayashi Ryuhei Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/hayashi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hayashi Ryuhei Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hayashi Ryuhei Shuzojo produces 豊前海, 五代目龍平."}}, {"@type": "Question", "name": "When was Hayashi Ryuhei Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hayashi Ryuhei Shuzojo was founded in 1837 in Fukuoka, Japan."}}, {"@type": "Question", "name": "Does Hayashi Ryuhei Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.kusugiku.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "林龍平酒造場", "display_name": "Hayashi Ryuhei Shuzojo", "brand": "豊前海", "pref": "fukuoka", "area": "みやこ町", "founded": "1837", "brands": ["豊前海", "五代目龍平"], "url": "https://www.kusugiku.jp/", "desc": "天保8年（1837年）創業。みやこ町唯一の造り酒屋。銘酒「九州菊」を造る酒蔵で、英彦山の伏流水で醸す。米焼酎や吟醸粕取焼酎も製造。", "suggestions": ["Tell me about Hayashi Ryuhei Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hayashi Ryuhei Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/hayashi.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "林龍平酒造場", "foundingDate": "1837", "sameAs": "https://www.kusugiku.jp/", "brand": {"@type": "Brand", "name": "豊前海"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Hayashi Ryuhei Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/hayashi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hayashi Ryuhei Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hayashi Ryuhei Shuzojo produces 豊前海, 五代目龍平."}}, {"@type": "Question", "name": "When was Hayashi Ryuhei Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hayashi Ryuhei Shuzojo was founded in 1837 in Fukuoka, Japan."}}, {"@type": "Question", "name": "Does Hayashi Ryuhei Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.kusugiku.jp/."}}]}]}</script></body>
 </html>

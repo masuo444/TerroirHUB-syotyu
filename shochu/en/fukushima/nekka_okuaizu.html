@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Okuaizu Distillery — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2016 — 只見町, Fukushima</p>
     <p class="hero-tagline">Okuaizu Distillery was formed in 2016 by a group of local rice farmers in Tadami, deep in the Aizu mountains. Their rice shochu is fully domaine — brewed only from sake rice grown in Tadami — with a stated goal: the world's best rice shochu for Japanese food. It has taken numerous awards, and a tasting room adjoins the distillery (10:00–16:00, paid tastings).</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://nekka.jp/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +363,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Okuaizu Distillery", "url": "https://shochu.terroirhub.com/shochu/en/fukushima/nekka_okuaizu.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukushima", "addressCountry": "JP"}, "alternateName": "奥会津蒸留所", "foundingDate": "2016", "sameAs": "https://nekka.jp/", "brand": {"@type": "Brand", "name": "ねっか"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukushima", "item": "https://shochu.terroirhub.com/shochu/en/fukushima/"}, {"@type": "ListItem", "position": 3, "name": "Okuaizu Distillery", "item": "https://shochu.terroirhub.com/shochu/en/fukushima/nekka_okuaizu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Okuaizu Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Okuaizu Distillery produces ねっか, ばがねっか."}}, {"@type": "Question", "name": "When was Okuaizu Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Okuaizu Distillery was founded in 2016 in Fukushima, Japan."}}, {"@type": "Question", "name": "Does Okuaizu Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://nekka.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "奥会津蒸留所", "display_name": "Okuaizu Distillery", "brand": "ねっか", "pref": "fukushima", "area": "只見町", "founded": "2016", "brands": ["ねっか", "ばがねっか"], "url": "https://nekka.jp/", "desc": "Okuaizu Distillery was formed in 2016 by a group of local rice farmers in Tadami, deep in the Aizu mountains. Their rice shochu is fully domaine — brewed only from sake rice grown in Tadami — with a stated goal: the world's best rice shochu for Japanese food. It has taken numerous awards, and a tasting room adjoins the distillery (10:00–16:00, paid tastings).", "suggestions": ["Tell me about Okuaizu Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Okuaizu Distillery", "url": "https://shochu.terroirhub.com/shochu/en/fukushima/nekka_okuaizu.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukushima", "addressCountry": "JP"}, "alternateName": "奥会津蒸留所", "foundingDate": "2016", "sameAs": "https://nekka.jp/", "brand": {"@type": "Brand", "name": "ねっか"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukushima", "item": "https://shochu.terroirhub.com/shochu/en/fukushima/"}, {"@type": "ListItem", "position": 3, "name": "Okuaizu Distillery", "item": "https://shochu.terroirhub.com/shochu/en/fukushima/nekka_okuaizu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Okuaizu Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Okuaizu Distillery produces ねっか, ばがねっか."}}, {"@type": "Question", "name": "When was Okuaizu Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Okuaizu Distillery was founded in 2016 in Fukushima, Japan."}}, {"@type": "Question", "name": "Does Okuaizu Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://nekka.jp/."}}]}]}</script></body>
 </html>

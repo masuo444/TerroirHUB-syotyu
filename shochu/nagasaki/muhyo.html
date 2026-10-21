@@ -310,7 +310,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1990 — 長崎市, 長崎県</p>
     <p class="hero-tagline">平成2年（1990年）頃設立。長崎市外海の丘に蔵を構え、甕壺仕込みの芋焼酎と麦焼酎を製造。国際味覚審査機構（iTi）で麦焼酎が3つ星を3年連続受賞、2019年クリスタル賞、2024年ダイヤモンド味覚賞を受賞。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='http://nagasaki-muhyou.com/'">公式サイト</button>
     </div>
   </div>
@@ -453,39 +453,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="霧氷酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "霧氷酒造", "brand": "九州魂", "pref": "長崎県", "area": "長崎市", "founded": "1990", "founded_era": "平成2年", "brands": ["九州魂 赤芋", "九州魂 紫芋", "九州魂 麦"], "visit": "", "url": "http://nagasaki-muhyou.com/", "desc": "平成2年（1990年）頃設立。長崎市外海の丘に蔵を構え、甕壺仕込みの芋焼酎と麦焼酎を製造。国際味覚審査機構（iTi）で麦焼酎が3つ星を3年連続受賞、2019年クリスタル賞、2024年ダイヤモンド味覚賞を受賞。", "suggestions": ["九州魂ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "霧氷酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

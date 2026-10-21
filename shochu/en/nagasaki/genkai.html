@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Genkai Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1900 — 壱岐市, Nagasaki</p>
     <p class="hero-tagline">Genkai Shuzo, founded in 1900, is the flag-carrier of GI Iki barley shochu, heir to the island's five-hundred-year tradition. Its Mugi Shochu Iki won Monde Selection honours eleven years running from 2002, crowned by the Crystal Prestige Trophy in 2011; the Super Gold editions rest in white-oak casks.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.mugishochu-iki.com/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Genkai Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/genkai.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "玄海酒造", "foundingDate": "1900", "sameAs": "https://www.mugishochu-iki.com/", "brand": {"@type": "Brand", "name": "Mugi Shochu Iki"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Genkai Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/genkai.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Genkai Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Genkai Shuzo produces Mugi Shochu Iki, Iki Super Gold 22, Iki Super Gold 33."}}, {"@type": "Question", "name": "When was Genkai Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Genkai Shuzo was founded in 1900 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Genkai Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.mugishochu-iki.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "玄海酒造", "display_name": "Genkai Shuzo", "brand": "むぎ焼酎壱岐", "pref": "nagasaki", "area": "壱岐市", "founded": "1900", "brands": ["Mugi Shochu Iki", "Iki Super Gold 22", "Iki Super Gold 33"], "url": "https://www.mugishochu-iki.com/", "desc": "Genkai Shuzo, founded in 1900, is the flag-carrier of GI Iki barley shochu, heir to the island's five-hundred-year tradition. Its Mugi Shochu Iki won Monde Selection honours eleven years running from 2002, crowned by the Crystal Prestige Trophy in 2011; the Super Gold editions rest in white-oak casks.", "suggestions": ["Tell me about Genkai Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Genkai Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/genkai.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "玄海酒造", "foundingDate": "1900", "sameAs": "https://www.mugishochu-iki.com/", "brand": {"@type": "Brand", "name": "Mugi Shochu Iki"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Genkai Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/genkai.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Genkai Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Genkai Shuzo produces Mugi Shochu Iki, Iki Super Gold 22, Iki Super Gold 33."}}, {"@type": "Question", "name": "When was Genkai Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Genkai Shuzo was founded in 1900 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Genkai Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.mugishochu-iki.com/."}}]}]}</script></body>
 </html>

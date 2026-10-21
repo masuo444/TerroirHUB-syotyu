@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1927 — 名護市, Okinawa</p>
     <p class="hero-tagline">Tsukayama Shuzosho, founded around 1924 in the famous-waters town of Nago, works inside red-tiled wooden buildings raised between 1927 and 1929 — the only distillery in Okinawa preserving its pre-war form, designated a National Important Cultural Property in 2009. Its Kokka pours at a serious 43 degrees. The buildings may be visited.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://awamori-kokka.co.jp'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Tsukayama Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/tsukayama_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "津嘉山酒造所", "foundingDate": "1927", "sameAs": "https://awamori-kokka.co.jp", "brand": {"@type": "Brand", "name": "Kokka"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Tsukayama Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/tsukayama_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Tsukayama Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Tsukayama Distillery produces Kokka, 好泉."}}, {"@type": "Question", "name": "When was Tsukayama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Tsukayama Distillery was founded in 1927 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Tsukayama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://awamori-kokka.co.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "津嘉山酒造所", "display_name": "Tsukayama Distillery", "brand": "國華", "pref": "okinawa", "area": "名護市", "founded": "1927", "brands": ["Kokka", "好泉"], "url": "https://awamori-kokka.co.jp", "desc": "Tsukayama Shuzosho, founded around 1924 in the famous-waters town of Nago, works inside red-tiled wooden buildings raised between 1927 and 1929 — the only distillery in Okinawa preserving its pre-war form, designated a National Important Cultural Property in 2009. Its Kokka pours at a serious 43 degrees. The buildings may be visited.", "suggestions": ["Tell me about Tsukayama Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Tsukayama Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/tsukayama_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "津嘉山酒造所", "foundingDate": "1927", "sameAs": "https://awamori-kokka.co.jp", "brand": {"@type": "Brand", "name": "Kokka"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Tsukayama Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/tsukayama_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Tsukayama Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Tsukayama Distillery produces Kokka, 好泉."}}, {"@type": "Question", "name": "When was Tsukayama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Tsukayama Distillery was founded in 1927 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Tsukayama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://awamori-kokka.co.jp."}}]}]}</script></body>
 </html>

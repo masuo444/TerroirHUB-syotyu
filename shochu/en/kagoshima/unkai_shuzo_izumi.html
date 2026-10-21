@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Unkai Shuzo Izumi — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1967 — 出水エリア, Kagoshima</p>
     <p class="hero-tagline">The Izumi Kura of Unkai Shuzo distils honkaku imo shochu from southern Kyushu sweet potatoes and natural spring water of the Shibi mountains, home of its Satsuma Kobiki label.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://www.unkai.co.jp'">Official Website</button>
     </div>
   </div>
@@ -345,37 +346,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Unkai Shuzo Izumi", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/unkai_shuzo_izumi.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "雲海酒造株式会社 出水蔵", "foundingDate": "1967", "sameAs": "http://www.unkai.co.jp", "brand": {"@type": "Brand", "name": "Satsuma Kobiki"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Unkai Shuzo Izumi", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/unkai_shuzo_izumi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Unkai Shuzo Izumi produce?", "acceptedAnswer": {"@type": "Answer", "text": "Unkai Shuzo Izumi produces Satsuma Kobiki."}}, {"@type": "Question", "name": "When was Unkai Shuzo Izumi founded?", "acceptedAnswer": {"@type": "Answer", "text": "Unkai Shuzo Izumi was founded in 1967 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Unkai Shuzo Izumi have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.unkai.co.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "雲海酒造株式会社 出水蔵", "display_name": "Unkai Shuzo Izumi", "brand": "さつま木挽", "pref": "kagoshima", "area": "出水エリア", "founded": "1967", "brands": ["Satsuma Kobiki"], "url": "http://www.unkai.co.jp", "desc": "The Izumi Kura of Unkai Shuzo distils honkaku imo shochu from southern Kyushu sweet potatoes and natural spring water of the Shibi mountains, home of its Satsuma Kobiki label.", "suggestions": ["Tell me about Unkai Shuzo Izumi", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Unkai Shuzo Izumi", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/unkai_shuzo_izumi.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "雲海酒造株式会社 出水蔵", "foundingDate": "1967", "sameAs": "http://www.unkai.co.jp", "brand": {"@type": "Brand", "name": "Satsuma Kobiki"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Unkai Shuzo Izumi", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/unkai_shuzo_izumi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Unkai Shuzo Izumi produce?", "acceptedAnswer": {"@type": "Answer", "text": "Unkai Shuzo Izumi produces Satsuma Kobiki."}}, {"@type": "Question", "name": "When was Unkai Shuzo Izumi founded?", "acceptedAnswer": {"@type": "Answer", "text": "Unkai Shuzo Izumi was founded in 1967 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Unkai Shuzo Izumi have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.unkai.co.jp."}}]}]}</script></body>
 </html>

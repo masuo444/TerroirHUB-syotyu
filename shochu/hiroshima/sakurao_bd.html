@@ -318,7 +318,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1918 — 廿日市, 広島県</p>
     <p class="hero-tagline">大正7年に中国醸造として創業し、2021年に現社名に変更。100年以上の蒸留技術を継承。焼酎「ダルマ」は広島を代表するロングセラー。本格芋焼酎「達磨 黒麹仕込み」は紅あずま使用。2017年にSAKURAO DISTILLERYを設立しジン・ウイスキーも製造。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.sakuraobd.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -461,39 +461,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="サクラオブルワリーアンドディスティラリーについて何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "サクラオブルワリーアンドディスティラリー", "brand": "ダルマ焼酎", "pref": "広島県", "area": "廿日市", "founded": "1918", "founded_era": "大正7年", "brands": ["ダルマ焼酎", "達磨 黒麹仕込み", "SAKURAO GIN", "SAKURAO WHISKY"], "visit": "SAKURAO蒸留所ビジターセンターにて見学可能", "url": "https://www.sakuraobd.co.jp/", "desc": "大正7年に中国醸造として創業し、2021年に現社名に変更。100年以上の蒸留技術を継承。焼酎「ダルマ」は広島を代表するロングセラー。本格芋焼酎「達磨 黒麹仕込み」は紅あずま使用。2017年にSAKURAO DISTILLERYを設立しジン・ウイスキーも製造。", "suggestions": ["ダルマ焼酎ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "サクラオブルワリーアンドディスティラリーの歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

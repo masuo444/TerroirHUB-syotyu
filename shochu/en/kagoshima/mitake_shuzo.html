@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Mitake Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1958 — 種子島エリア, Kagoshima</p>
     <p class="hero-tagline">Mitake Shuzo, founded in 1958 on Yakushima, distils with the abundant waters of the World Natural Heritage island. Its Mitake pairs a clean, crisp finish with the aroma, umami and depth of the sweet potato, with genshu and island-only editions for those who make the crossing.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://mitake-shochu.com/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Mitake Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/mitake_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "三岳酒造株式会社", "foundingDate": "1958", "sameAs": "https://mitake-shochu.com/", "brand": {"@type": "Brand", "name": "Mitake"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Mitake Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/mitake_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Mitake Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Mitake Shuzo produces Mitake, Genshu Mitake, 屋久島限定三岳."}}, {"@type": "Question", "name": "When was Mitake Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Mitake Shuzo was founded in 1958 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Mitake Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://mitake-shochu.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "三岳酒造株式会社", "display_name": "Mitake Shuzo", "brand": "三岳", "pref": "kagoshima", "area": "種子島エリア", "founded": "1958", "brands": ["Mitake", "Genshu Mitake", "屋久島限定三岳"], "url": "https://mitake-shochu.com/", "desc": "Mitake Shuzo, founded in 1958 on Yakushima, distils with the abundant waters of the World Natural Heritage island. Its Mitake pairs a clean, crisp finish with the aroma, umami and depth of the sweet potato, with genshu and island-only editions for those who make the crossing.", "suggestions": ["Tell me about Mitake Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Mitake Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/mitake_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "三岳酒造株式会社", "foundingDate": "1958", "sameAs": "https://mitake-shochu.com/", "brand": {"@type": "Brand", "name": "Mitake"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Mitake Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/mitake_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Mitake Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Mitake Shuzo produces Mitake, Genshu Mitake, 屋久島限定三岳."}}, {"@type": "Question", "name": "When was Mitake Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Mitake Shuzo was founded in 1958 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Mitake Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://mitake-shochu.com/."}}]}]}</script></body>
 </html>

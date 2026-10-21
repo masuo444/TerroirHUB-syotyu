@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Hateruma Distillery — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1953 — 竹富町, Okinawa</p>
     <p class="hero-tagline">Hateruma Shuzosho, founded in 1953 on Hateruma — Japan's southernmost inhabited island — is a five-person family kura of tiny production. About 95% of its Awanami never leaves the island, making the bottle a legend: the phantom awamori, its name woven from awamori's foam and Hateruma's waves.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://awanami.net'">Official Website</button>
     </div>
   </div>
@@ -352,37 +353,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hateruma Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/hateruma_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "波照間酒造所", "foundingDate": "1953", "sameAs": "https://awanami.net", "brand": {"@type": "Brand", "name": "Awanami"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Hateruma Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/hateruma_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hateruma Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hateruma Distillery produces Awanami."}}, {"@type": "Question", "name": "When was Hateruma Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hateruma Distillery was founded in 1953 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Hateruma Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://awanami.net."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "波照間酒造所", "display_name": "Hateruma Distillery", "brand": "泡波", "pref": "okinawa", "area": "竹富町", "founded": "1953", "brands": ["Awanami"], "url": "https://awanami.net", "desc": "Hateruma Shuzosho, founded in 1953 on Hateruma — Japan's southernmost inhabited island — is a five-person family kura of tiny production. About 95% of its Awanami never leaves the island, making the bottle a legend: the phantom awamori, its name woven from awamori's foam and Hateruma's waves.", "suggestions": ["Tell me about Hateruma Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Hateruma Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/hateruma_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "波照間酒造所", "foundingDate": "1953", "sameAs": "https://awanami.net", "brand": {"@type": "Brand", "name": "Awanami"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Hateruma Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/hateruma_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Hateruma Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Hateruma Distillery produces Awanami."}}, {"@type": "Question", "name": "When was Hateruma Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Hateruma Distillery was founded in 1953 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Hateruma Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://awanami.net."}}]}]}</script></body>
 </html>

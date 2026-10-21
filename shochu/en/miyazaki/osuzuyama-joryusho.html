@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1998 — 児湯郡木城町, Miyazaki</p>
     <p class="hero-tagline">Osuzuyama Distillery, founded in 1998 as Kuroki Honten's mountain kura, sits thirty minutes into the hills above Takanabe. Ultra-soft mountain spring water, hand-made koji and wooden vessels of local Obi cedar shape its animal-named spirits — Yamaneko (wildcat, sweet potato), Yamazaru (monkey, barley) and Yamasemi (kingfisher, rice) — handwork no machine could copy.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://osuzuyama.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Osuzuyama Distillery", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/osuzuyama-joryusho.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "尾鈴山蒸留所", "foundingDate": "1998", "sameAs": "https://osuzuyama.co.jp/", "brand": {"@type": "Brand", "name": "Yamaneko (Wildcat)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Osuzuyama Distillery", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/osuzuyama-joryusho.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Osuzuyama Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Osuzuyama Distillery produces Yamaneko (Wildcat), Yamazaru (Monkey), Yamasemi (Kingfisher)."}}, {"@type": "Question", "name": "When was Osuzuyama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Osuzuyama Distillery was founded in 1998 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Osuzuyama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://osuzuyama.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "尾鈴山蒸留所", "display_name": "Osuzuyama Distillery", "brand": "", "pref": "miyazaki", "area": "児湯郡木城町", "founded": "1998", "brands": ["Yamaneko (Wildcat)", "Yamazaru (Monkey)", "Yamasemi (Kingfisher)"], "url": "https://osuzuyama.co.jp/", "desc": "Osuzuyama Distillery, founded in 1998 as Kuroki Honten's mountain kura, sits thirty minutes into the hills above Takanabe. Ultra-soft mountain spring water, hand-made koji and wooden vessels of local Obi cedar shape its animal-named spirits — Yamaneko (wildcat, sweet potato), Yamazaru (monkey, barley) and Yamasemi (kingfisher, rice) — handwork no machine could copy.", "suggestions": ["Tell me about Osuzuyama Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Osuzuyama Distillery", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/osuzuyama-joryusho.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "尾鈴山蒸留所", "foundingDate": "1998", "sameAs": "https://osuzuyama.co.jp/", "brand": {"@type": "Brand", "name": "Yamaneko (Wildcat)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Osuzuyama Distillery", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/osuzuyama-joryusho.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Osuzuyama Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Osuzuyama Distillery produces Yamaneko (Wildcat), Yamazaru (Monkey), Yamasemi (Kingfisher)."}}, {"@type": "Question", "name": "When was Osuzuyama Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Osuzuyama Distillery was founded in 1998 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Osuzuyama Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://osuzuyama.co.jp/."}}]}]}</script></body>
 </html>

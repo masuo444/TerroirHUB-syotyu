@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Joraku Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1912 — 錦町, Kumamoto</p>
     <p class="hero-tagline">Joraku Shuzo, founded in 1912 in Mizukami and relocated to Nishiki in 1994, matures its shochu spirit long in casks chosen for their wood — oak and sherry among them, rested 24 months and more. Local Nishiki fruit liqueurs and a yogurt shochu stretch the range beyond the Kuma tradition.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://joraku.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -345,37 +346,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Joraku Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/joraku.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "常楽酒造", "foundingDate": "1912", "sameAs": "https://joraku.co.jp/", "brand": {"@type": "Brand", "name": "Aki no Tsuyu Kura no Kodawari"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Joraku Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/joraku.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Joraku Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Joraku Shuzo produces Aki no Tsuyu Kura no Kodawari."}}, {"@type": "Question", "name": "When was Joraku Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Joraku Shuzo was founded in 1912 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Joraku Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://joraku.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "常楽酒造", "display_name": "Joraku Shuzo", "brand": "秋の露", "pref": "kumamoto", "area": "錦町", "founded": "1912", "brands": ["Aki no Tsuyu Kura no Kodawari"], "url": "https://joraku.co.jp/", "desc": "Joraku Shuzo, founded in 1912 in Mizukami and relocated to Nishiki in 1994, matures its shochu spirit long in casks chosen for their wood — oak and sherry among them, rested 24 months and more. Local Nishiki fruit liqueurs and a yogurt shochu stretch the range beyond the Kuma tradition.", "suggestions": ["Tell me about Joraku Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Joraku Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/joraku.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "常楽酒造", "foundingDate": "1912", "sameAs": "https://joraku.co.jp/", "brand": {"@type": "Brand", "name": "Aki no Tsuyu Kura no Kodawari"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Joraku Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/joraku.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Joraku Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Joraku Shuzo produces Aki no Tsuyu Kura no Kodawari."}}, {"@type": "Question", "name": "When was Joraku Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Joraku Shuzo was founded in 1912 in Kumamoto, Japan."}}, {"@type": "Question", "name": "Does Joraku Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://joraku.co.jp/."}}]}]}</script></body>
 </html>

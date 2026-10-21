@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Miyazaki Honten — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1846 — 北勢, Mie</p>
     <p class="hero-tagline">Miyazaki Honten, founded in 1846, is famous nationwide for Kinmiya Shochu — the korui shochu that fuels the hoppy and chuhai culture of Tokyo's old downtown. Brewed on Suzuka mountain subsoil water, the house also makes cask-aged barley shochu with consecutive Monde Selection Grand Golds, and holds seventeen straight years of golds at the world liquor competition.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.miyanoyuki.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Miyazaki Honten", "url": "https://shochu.terroirhub.com/shochu/en/mie/miyazaki_honten.html", "address": {"@type": "PostalAddress", "addressRegion": "Mie", "addressCountry": "JP"}, "alternateName": "宮崎本店", "foundingDate": "1846", "sameAs": "https://www.miyanoyuki.co.jp/", "brand": {"@type": "Brand", "name": "Kinmiya Shochu"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Mie", "item": "https://shochu.terroirhub.com/shochu/en/mie/"}, {"@type": "ListItem", "position": 3, "name": "Miyazaki Honten", "item": "https://shochu.terroirhub.com/shochu/en/mie/miyazaki_honten.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Miyazaki Honten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Miyazaki Honten produces Kinmiya Shochu, 金選久寿 白札, 宮の雪."}}, {"@type": "Question", "name": "When was Miyazaki Honten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Miyazaki Honten was founded in 1846 in Mie, Japan."}}, {"@type": "Question", "name": "Does Miyazaki Honten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.miyanoyuki.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "宮崎本店", "display_name": "Miyazaki Honten", "brand": "キンミヤ", "pref": "mie", "area": "北勢", "founded": "1846", "brands": ["Kinmiya Shochu", "金選久寿 白札", "宮の雪"], "url": "https://www.miyanoyuki.co.jp/", "desc": "Miyazaki Honten, founded in 1846, is famous nationwide for Kinmiya Shochu — the korui shochu that fuels the hoppy and chuhai culture of Tokyo's old downtown. Brewed on Suzuka mountain subsoil water, the house also makes cask-aged barley shochu with consecutive Monde Selection Grand Golds, and holds seventeen straight years of golds at the world liquor competition.", "suggestions": ["Tell me about Miyazaki Honten", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Miyazaki Honten", "url": "https://shochu.terroirhub.com/shochu/en/mie/miyazaki_honten.html", "address": {"@type": "PostalAddress", "addressRegion": "Mie", "addressCountry": "JP"}, "alternateName": "宮崎本店", "foundingDate": "1846", "sameAs": "https://www.miyanoyuki.co.jp/", "brand": {"@type": "Brand", "name": "Kinmiya Shochu"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Mie", "item": "https://shochu.terroirhub.com/shochu/en/mie/"}, {"@type": "ListItem", "position": 3, "name": "Miyazaki Honten", "item": "https://shochu.terroirhub.com/shochu/en/mie/miyazaki_honten.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Miyazaki Honten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Miyazaki Honten produces Kinmiya Shochu, 金選久寿 白札, 宮の雪."}}, {"@type": "Question", "name": "When was Miyazaki Honten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Miyazaki Honten was founded in 1846 in Mie, Japan."}}, {"@type": "Question", "name": "Does Miyazaki Honten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.miyanoyuki.co.jp/."}}]}]}</script></body>
 </html>

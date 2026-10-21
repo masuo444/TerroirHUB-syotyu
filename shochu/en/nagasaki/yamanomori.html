@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Yamanomori Shuzojo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1899 — 壱岐市, Nagasaki</p>
     <p class="hero-tagline">Yamanomori Shuzojo, founded in 1899, is the oldest kura on Iki, and the only one on the island to run both first and second mash in clay pots — hand-made vessels from the founding era, each of a slightly different size. Gold at the Fukuoka bureau appraisal (2012) crowns its GI Iki craft.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://ikishochu.org/yamanomori-brewery/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yamanomori Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/yamanomori.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "山の守酒造場", "foundingDate": "1899", "sameAs": "https://ikishochu.org/yamanomori-brewery/", "brand": {"@type": "Brand", "name": "Yamanomori"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Yamanomori Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/yamanomori.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yamanomori Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yamanomori Shuzojo produces Yamanomori, 一洲, Yamazakura."}}, {"@type": "Question", "name": "When was Yamanomori Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yamanomori Shuzojo was founded in 1899 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Yamanomori Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ikishochu.org/yamanomori-brewery/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "山の守酒造場", "display_name": "Yamanomori Shuzojo", "brand": "山乃守", "pref": "nagasaki", "area": "壱岐市", "founded": "1899", "brands": ["Yamanomori", "一洲", "Yamazakura"], "url": "https://ikishochu.org/yamanomori-brewery/", "desc": "Yamanomori Shuzojo, founded in 1899, is the oldest kura on Iki, and the only one on the island to run both first and second mash in clay pots — hand-made vessels from the founding era, each of a slightly different size. Gold at the Fukuoka bureau appraisal (2012) crowns its GI Iki craft.", "suggestions": ["Tell me about Yamanomori Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yamanomori Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/yamanomori.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "山の守酒造場", "foundingDate": "1899", "sameAs": "https://ikishochu.org/yamanomori-brewery/", "brand": {"@type": "Brand", "name": "Yamanomori"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Yamanomori Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/yamanomori.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yamanomori Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yamanomori Shuzojo produces Yamanomori, 一洲, Yamazakura."}}, {"@type": "Question", "name": "When was Yamanomori Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yamanomori Shuzojo was founded in 1899 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Yamanomori Shuzojo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ikishochu.org/yamanomori-brewery/."}}]}]}</script></body>
 </html>

@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>松露酒造 — 宮崎県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -311,7 +312,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1928 — 串間市, 宮崎県</p>
     <p class="hero-tagline">地元農家約10名の出資により姥ヶ迫焼酎として創業、1971年に現社名に変更。3代目矢野正二氏が社長。軽い現代的スタイルではなく、コクのある力強い芋焼酎を追求。火山灰土の地下水と蔵付き酵母を使用。杜氏は仕込み期間（9〜12月）のみ蔵に入り、他の季節は農業に従事。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://shouro-shuzou.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -427,39 +428,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="松露酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "松露酒造", "brand": "松露", "pref": "宮崎県", "area": "串間市", "founded": "1928", "founded_era": "昭和3年", "brands": ["松露"], "visit": "", "url": "https://shouro-shuzou.co.jp/", "desc": "地元農家約10名の出資により姥ヶ迫焼酎として創業、1971年に現社名に変更。3代目矢野正二氏が社長。軽い現代的スタイルではなく、コクのある力強い芋焼酎を追求。火山灰土の地下水と蔵付き酵母を使用。杜氏は仕込み期間（9〜12月）のみ蔵に入り、他の季節は農業に従事。", "suggestions": ["松露ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "松露酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

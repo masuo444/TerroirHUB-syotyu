@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1949 — 金武町, Okinawa</p>
     <p class="hero-tagline">Kin Shuzo, founded in 1949, named its Tatsu for the founder's dragon-year ancestor and stores more than half its production for ageing. Since 1988 it has used the Kin limestone cave as Japan's first cave kusu cellar — over 13,000 jars sleep in its constant cool — while the brewing splits hard water for the mash and soft for dilution. It even made Japan's first taro shochu. The cave cellar can be visited.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://kinsyuzo-tatsu.com'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kin Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/kin_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "金武酒造", "foundingDate": "1949", "sameAs": "https://kinsyuzo-tatsu.com", "brand": {"@type": "Brand", "name": "Tatsu (Dragon)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Kin Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/kin_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kin Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kin Distillery produces Tatsu (Dragon), Tatsu 5-Year Kusu, ゴールド龍, 田芋焼酎 金の誉."}}, {"@type": "Question", "name": "When was Kin Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kin Distillery was founded in 1949 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Kin Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kinsyuzo-tatsu.com."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "金武酒造", "display_name": "Kin Distillery", "brand": "龍", "pref": "okinawa", "area": "金武町", "founded": "1949", "brands": ["Tatsu (Dragon)", "Tatsu 5-Year Kusu", "ゴールド龍", "田芋焼酎 金の誉"], "url": "https://kinsyuzo-tatsu.com", "desc": "Kin Shuzo, founded in 1949, named its Tatsu for the founder's dragon-year ancestor and stores more than half its production for ageing. Since 1988 it has used the Kin limestone cave as Japan's first cave kusu cellar — over 13,000 jars sleep in its constant cool — while the brewing splits hard water for the mash and soft for dilution. It even made Japan's first taro shochu. The cave cellar can be visited.", "suggestions": ["Tell me about Kin Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kin Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/kin_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "金武酒造", "foundingDate": "1949", "sameAs": "https://kinsyuzo-tatsu.com", "brand": {"@type": "Brand", "name": "Tatsu (Dragon)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Kin Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/kin_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kin Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kin Distillery produces Tatsu (Dragon), Tatsu 5-Year Kusu, ゴールド龍, 田芋焼酎 金の誉."}}, {"@type": "Question", "name": "When was Kin Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kin Distillery was founded in 1949 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Kin Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kinsyuzo-tatsu.com."}}]}]}</script></body>
 </html>

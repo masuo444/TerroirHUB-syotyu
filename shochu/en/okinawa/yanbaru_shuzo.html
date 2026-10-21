@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1950 — 大宜味村, Okinawa</p>
     <p class="hero-tagline">Yanbaru Shuzo began in 1950 as the Takazato Shuzosho, funded by the villagers of Ogimi's Takazato district, taking its present name in 2017. About seventy percent of its Maruta is drunk right there in the community — and the distillery is the northernmost on Okinawa's main island that welcomes visitors.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://takazato-maruta.jp'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yanbaru Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/yanbaru_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "やんばる酒造", "foundingDate": "1950", "sameAs": "https://takazato-maruta.jp", "brand": {"@type": "Brand", "name": "Maruta"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Yanbaru Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/yanbaru_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yanbaru Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yanbaru Distillery produces Maruta, Kuina, 大やんばる."}}, {"@type": "Question", "name": "When was Yanbaru Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yanbaru Distillery was founded in 1950 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Yanbaru Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://takazato-maruta.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "やんばる酒造", "display_name": "Yanbaru Distillery", "brand": "まるた", "pref": "okinawa", "area": "大宜味村", "founded": "1950", "brands": ["Maruta", "Kuina", "大やんばる"], "url": "https://takazato-maruta.jp", "desc": "Yanbaru Shuzo began in 1950 as the Takazato Shuzosho, funded by the villagers of Ogimi's Takazato district, taking its present name in 2017. About seventy percent of its Maruta is drunk right there in the community — and the distillery is the northernmost on Okinawa's main island that welcomes visitors.", "suggestions": ["Tell me about Yanbaru Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yanbaru Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/yanbaru_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "やんばる酒造", "foundingDate": "1950", "sameAs": "https://takazato-maruta.jp", "brand": {"@type": "Brand", "name": "Maruta"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Yanbaru Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/yanbaru_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yanbaru Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yanbaru Distillery produces Maruta, Kuina, 大やんばる."}}, {"@type": "Question", "name": "When was Yanbaru Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yanbaru Distillery was founded in 1950 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Yanbaru Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://takazato-maruta.jp."}}]}]}</script></body>
 </html>

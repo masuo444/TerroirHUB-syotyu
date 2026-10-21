@@ -311,7 +311,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1919 — 宇佐市, 大分県</p>
     <p class="hero-tagline">大正8年創業。創業者・四ッ谷兼八の名を冠した代表銘柄「兼八」は、常圧蒸留にこだわり麦本来の香ばしい香りと濃厚な旨みを引き出した麦焼酎として高い評価を得ている。「麦チョコのような香ばしさ」と称される独特の風味が特徴。入手困難な人気銘柄。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='http://www.shochuya.com/'">公式サイト</button>
     </div>
   </div>
@@ -474,39 +474,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="四ツ谷酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "四ツ谷酒造", "brand": "兼八", "pref": "大分県", "area": "宇佐市", "founded": "1919", "founded_era": "大正8年", "brands": ["兼八", "宇佐むぎ", "栄花"], "visit": "", "url": "http://www.shochuya.com/", "desc": "大正8年創業。創業者・四ッ谷兼八の名を冠した代表銘柄「兼八」は、常圧蒸留にこだわり麦本来の香ばしい香りと濃厚な旨みを引き出した麦焼酎として高い評価を得ている。「麦チョコのような香ばしさ」と称される独特の風味が特徴。入手困難な人気銘柄。", "suggestions": ["兼八ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "四ツ谷酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

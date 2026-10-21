@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 2018 — 鹿児島エリア, Kagoshima</p>
     <p class="hero-tagline">2018年に黒島に開設された鹿児島県114番目の焼酎蔵。年間生産量は10キロリットル、約1万本（720ml）の限定生産を行う公営蒸留所。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://mishima-shochu.jp/'">Official Website</button>
     </div>
   </div>
@@ -345,37 +345,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Mishima Shochu Muku no Kura", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/mishima_shochu.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "みしま焼酎 無垢の蔵", "foundingDate": "2018", "sameAs": "https://mishima-shochu.jp/", "brand": {"@type": "Brand", "name": "みしま村"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Mishima Shochu Muku no Kura", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/mishima_shochu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Mishima Shochu Muku no Kura produce?", "acceptedAnswer": {"@type": "Answer", "text": "Mishima Shochu Muku no Kura produces みしま村."}}, {"@type": "Question", "name": "When was Mishima Shochu Muku no Kura founded?", "acceptedAnswer": {"@type": "Answer", "text": "Mishima Shochu Muku no Kura was founded in 2018 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Mishima Shochu Muku no Kura have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://mishima-shochu.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "みしま焼酎 無垢の蔵", "display_name": "Mishima Shochu Muku no Kura", "brand": "みしま村", "pref": "kagoshima", "area": "鹿児島エリア", "founded": "2018", "brands": ["みしま村"], "url": "https://mishima-shochu.jp/", "desc": "2018年に黒島に開設された鹿児島県114番目の焼酎蔵。年間生産量は10キロリットル、約1万本（720ml）の限定生産を行う公営蒸留所。", "suggestions": ["Tell me about Mishima Shochu Muku no Kura", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Mishima Shochu Muku no Kura", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/mishima_shochu.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "みしま焼酎 無垢の蔵", "foundingDate": "2018", "sameAs": "https://mishima-shochu.jp/", "brand": {"@type": "Brand", "name": "みしま村"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Mishima Shochu Muku no Kura", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/mishima_shochu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Mishima Shochu Muku no Kura produce?", "acceptedAnswer": {"@type": "Answer", "text": "Mishima Shochu Muku no Kura produces みしま村."}}, {"@type": "Question", "name": "When was Mishima Shochu Muku no Kura founded?", "acceptedAnswer": {"@type": "Answer", "text": "Mishima Shochu Muku no Kura was founded in 2018 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Mishima Shochu Muku no Kura have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://mishima-shochu.jp/."}}]}]}</script></body>
 </html>

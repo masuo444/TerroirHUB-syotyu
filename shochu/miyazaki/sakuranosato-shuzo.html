@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>櫻の郷酒造 — 宮崎県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -319,7 +320,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1994 — 日南市, 宮崎県</p>
     <p class="hero-tagline">井上酒造の子会社として設立。約5,000個の甕を有する3階建て赤レンガ貯蔵庫で3年以上の甕貯蔵を行う。コンピュータ制御と人の感覚を融合した製造。明治時代の蔵を再現した「焼酎道場」で見学・体験が可能。猪八重渓谷の湧水を使用。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.sakuranosato.co.jp/'">公式サイト</button>
     </div>
   </div>
@@ -442,39 +443,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="櫻の郷酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "櫻の郷酒造", "brand": "無月", "pref": "宮崎県", "area": "日南市", "founded": "1994", "founded_era": "平成6年", "brands": ["無月"], "visit": "焼酎道場にて見学・体験可能。オリジナルブレンド作りも。", "url": "https://www.sakuranosato.co.jp/", "desc": "井上酒造の子会社として設立。約5,000個の甕を有する3階建て赤レンガ貯蔵庫で3年以上の甕貯蔵を行う。コンピュータ制御と人の感覚を融合した製造。明治時代の蔵を再現した「焼酎道場」で見学・体験が可能。猪八重渓谷の湧水を使用。", "suggestions": ["無月ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "櫻の郷酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

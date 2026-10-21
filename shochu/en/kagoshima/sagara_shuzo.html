@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1730 — 鹿児島エリア, Kagoshima</p>
     <p class="hero-tagline">1730年創業、鹿児島県内でも最も古い蔵元の一つ。JR鹿児島駅から徒歩圏内に位置し、小規模ながら丁寧な手仕事で焼酎を造る。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://sagarasyuzou.com/'">Official Website</button>
     </div>
   </div>
@@ -345,37 +345,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sagara Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/sagara_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "相良酒造株式会社", "foundingDate": "1730", "sameAs": "https://sagarasyuzou.com/", "brand": {"@type": "Brand", "name": "相良"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Sagara Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/sagara_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sagara Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sagara Shuzo produces 相良."}}, {"@type": "Question", "name": "When was Sagara Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sagara Shuzo was founded in 1730 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Sagara Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://sagarasyuzou.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "相良酒造株式会社", "display_name": "Sagara Shuzo", "brand": "相良", "pref": "kagoshima", "area": "鹿児島エリア", "founded": "1730", "brands": ["相良"], "url": "https://sagarasyuzou.com/", "desc": "1730年創業、鹿児島県内でも最も古い蔵元の一つ。JR鹿児島駅から徒歩圏内に位置し、小規模ながら丁寧な手仕事で焼酎を造る。", "suggestions": ["Tell me about Sagara Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Sagara Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/sagara_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "相良酒造株式会社", "foundingDate": "1730", "sameAs": "https://sagarasyuzou.com/", "brand": {"@type": "Brand", "name": "相良"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Sagara Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/sagara_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Sagara Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Sagara Shuzo produces 相良."}}, {"@type": "Question", "name": "When was Sagara Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Sagara Shuzo was founded in 1730 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Sagara Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://sagarasyuzou.com/."}}]}]}</script></body>
 </html>

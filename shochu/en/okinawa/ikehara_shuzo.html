@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1951 — 石垣市, Okinawa</p>
     <p class="hero-tagline">Ikehara Shuzo, founded in 1951 by Kokichi Ikehara in Ishigaki's Okawa quarter, brews in a red-tiled old house by unhurried tradition. Its Shirayuri (White Lily) is famous for a wild, singular flavour that drinkers either adore or argue about — and it took a top gold at a world competition in 2021. When closure loomed, grandson Yu Ikehara took over in 2013 and carried the kura on.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://shirayuri-ikehara.com'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Ikehara Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/ikehara_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "池原酒造", "foundingDate": "1951", "sameAs": "https://shirayuri-ikehara.com", "brand": {"@type": "Brand", "name": "Shirayuri (White Lily)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Ikehara Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/ikehara_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Ikehara Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Ikehara Distillery produces Shirayuri (White Lily), 赤馬, イヌイ."}}, {"@type": "Question", "name": "When was Ikehara Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Ikehara Distillery was founded in 1951 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Ikehara Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shirayuri-ikehara.com."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "池原酒造", "display_name": "Ikehara Distillery", "brand": "白百合", "pref": "okinawa", "area": "石垣市", "founded": "1951", "brands": ["Shirayuri (White Lily)", "赤馬", "イヌイ"], "url": "https://shirayuri-ikehara.com", "desc": "Ikehara Shuzo, founded in 1951 by Kokichi Ikehara in Ishigaki's Okawa quarter, brews in a red-tiled old house by unhurried tradition. Its Shirayuri (White Lily) is famous for a wild, singular flavour that drinkers either adore or argue about — and it took a top gold at a world competition in 2021. When closure loomed, grandson Yu Ikehara took over in 2013 and carried the kura on.", "suggestions": ["Tell me about Ikehara Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Ikehara Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/ikehara_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "池原酒造", "foundingDate": "1951", "sameAs": "https://shirayuri-ikehara.com", "brand": {"@type": "Brand", "name": "Shirayuri (White Lily)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Ikehara Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/ikehara_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Ikehara Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Ikehara Distillery produces Shirayuri (White Lily), 赤馬, イヌイ."}}, {"@type": "Question", "name": "When was Ikehara Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Ikehara Distillery was founded in 1951 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Ikehara Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://shirayuri-ikehara.com."}}]}]}</script></body>
 </html>

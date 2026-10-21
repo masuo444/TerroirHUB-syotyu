@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1898 — 那覇市, Okinawa</p>
     <p class="hero-tagline">Tsuhako Shuzo, founded in 1898 in the Kakinohana quarter of Naha, has rested on one label since 1926: Taihei — great peace — its two circles standing for the earth and sun. Everything through bottling and labelling is done by hand, and on the second of each month the house holds its Taihei thanksgiving day, with limited bottles and time with the toji.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://tsuhakosyuzou.com'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Tsuhako Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/tsuhako_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "津波古酒造", "foundingDate": "1898", "sameAs": "https://tsuhakosyuzou.com", "brand": {"@type": "Brand", "name": "Taihei"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Tsuhako Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/tsuhako_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Tsuhako Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Tsuhako Distillery produces Taihei, 太平古酒, Shurijo, 原酒太平, 琉球南蛮."}}, {"@type": "Question", "name": "When was Tsuhako Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Tsuhako Distillery was founded in 1898 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Tsuhako Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://tsuhakosyuzou.com."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "津波古酒造", "display_name": "Tsuhako Distillery", "brand": "太平", "pref": "okinawa", "area": "那覇市", "founded": "1898", "brands": ["Taihei", "太平古酒", "Shurijo", "原酒太平", "琉球南蛮"], "url": "https://tsuhakosyuzou.com", "desc": "Tsuhako Shuzo, founded in 1898 in the Kakinohana quarter of Naha, has rested on one label since 1926: Taihei — great peace — its two circles standing for the earth and sun. Everything through bottling and labelling is done by hand, and on the second of each month the house holds its Taihei thanksgiving day, with limited bottles and time with the toji.", "suggestions": ["Tell me about Tsuhako Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Tsuhako Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/tsuhako_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "津波古酒造", "foundingDate": "1898", "sameAs": "https://tsuhakosyuzou.com", "brand": {"@type": "Brand", "name": "Taihei"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Tsuhako Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/tsuhako_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Tsuhako Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Tsuhako Distillery produces Taihei, 太平古酒, Shurijo, 原酒太平, 琉球南蛮."}}, {"@type": "Question", "name": "When was Tsuhako Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Tsuhako Distillery was founded in 1898 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Tsuhako Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://tsuhakosyuzou.com."}}]}]}</script></body>
 </html>

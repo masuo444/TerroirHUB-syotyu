@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>木下醸造所 — 熊本県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -318,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1862 — 多良木町, 熊本県</p>
     <p class="hero-tagline">文久2年（1862年）創業。相良藩から「茶屋」の免許を与えられ醸造を開始した最古参蔵のひとつ。民謡「六調子」に詠われる創業者・文蔵の名を冠した銘柄を守り続ける。手づくり麹・甕仕込み・常圧蒸留の伝統製法。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       
     </div>
   </div>
@@ -434,39 +435,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="木下醸造所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "木下醸造所", "brand": "文蔵", "pref": "熊本県", "area": "多良木町", "founded": "1862", "founded_era": "文久2年", "brands": ["文蔵"], "visit": "", "url": "", "desc": "文久2年（1862年）創業。相良藩から「茶屋」の免許を与えられ醸造を開始した最古参蔵のひとつ。民謡「六調子」に詠われる創業者・文蔵の名を冠した銘柄を守り続ける。手づくり麹・甕仕込み・常圧蒸留の伝統製法。", "suggestions": ["文蔵ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "木下醸造所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

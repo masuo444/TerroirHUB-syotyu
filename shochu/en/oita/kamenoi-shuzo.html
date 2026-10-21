@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1716 — 玖珠町, Oita</p>
     <p class="hero-tagline">享保元年（1716年）創業、300年以上の歴史を持つ蔵元。九重連山の豊富な地下水と清冽な気候の中、手造りで清酒と焼酎を醸す。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://kamenoi-shuzou.com/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kamenoi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/oita/kamenoi-shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "亀の井酒造", "foundingDate": "1716", "sameAs": "https://kamenoi-shuzou.com/", "brand": {"@type": "Brand", "name": "亀の井"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Kamenoi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/oita/kamenoi-shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kamenoi Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kamenoi Shuzo produces 亀の井, 玄亀, 空可."}}, {"@type": "Question", "name": "When was Kamenoi Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kamenoi Shuzo was founded in 1716 in Oita, Japan."}}, {"@type": "Question", "name": "Does Kamenoi Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kamenoi-shuzou.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "亀の井酒造", "display_name": "Kamenoi Shuzo", "brand": "亀の井", "pref": "oita", "area": "玖珠町", "founded": "1716", "brands": ["亀の井", "玄亀", "空可"], "url": "https://kamenoi-shuzou.com/", "desc": "享保元年（1716年）創業、300年以上の歴史を持つ蔵元。九重連山の豊富な地下水と清冽な気候の中、手造りで清酒と焼酎を醸す。", "suggestions": ["Tell me about Kamenoi Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kamenoi Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/oita/kamenoi-shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Oita", "addressCountry": "JP"}, "alternateName": "亀の井酒造", "foundingDate": "1716", "sameAs": "https://kamenoi-shuzou.com/", "brand": {"@type": "Brand", "name": "亀の井"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Oita", "item": "https://shochu.terroirhub.com/shochu/en/oita/"}, {"@type": "ListItem", "position": 3, "name": "Kamenoi Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/oita/kamenoi-shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kamenoi Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kamenoi Shuzo produces 亀の井, 玄亀, 空可."}}, {"@type": "Question", "name": "When was Kamenoi Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kamenoi Shuzo was founded in 1716 in Oita, Japan."}}, {"@type": "Question", "name": "Does Kamenoi Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kamenoi-shuzou.com/."}}]}]}</script></body>
 </html>

@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1958 — 与那国町, Okinawa</p>
     <p class="hero-tagline">Kokusen Awamori was founded in 1958 by three partners on Yonaguni, Japan's westernmost island. The toji carries every step by hand from koji to bottling, with no artificial additives; Donan — 'Yonaguni' in the island tongue — runs from 25 degrees to the island's famous 60-degree hanazake, including a 17-year kusu of which only some 900 bottles exist.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://donan-kokusenawamori.com'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kokusen Awamori (Donan Distillery)", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/kokusen_awamori.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "国泉泡盛", "foundingDate": "1958", "sameAs": "https://donan-kokusenawamori.com", "brand": {"@type": "Brand", "name": "Donan"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Kokusen Awamori (Donan Distillery)", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/kokusen_awamori.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kokusen Awamori (Donan Distillery) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kokusen Awamori (Donan Distillery) produces Donan, Donan Hanazake, どなん 花酒 17年古酒, どなん クバ巻."}}, {"@type": "Question", "name": "When was Kokusen Awamori (Donan Distillery) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kokusen Awamori (Donan Distillery) was founded in 1958 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Kokusen Awamori (Donan Distillery) have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://donan-kokusenawamori.com."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "国泉泡盛", "display_name": "Kokusen Awamori (Donan Distillery)", "brand": "どなん", "pref": "okinawa", "area": "与那国町", "founded": "1958", "brands": ["Donan", "Donan Hanazake", "どなん 花酒 17年古酒", "どなん クバ巻"], "url": "https://donan-kokusenawamori.com", "desc": "Kokusen Awamori was founded in 1958 by three partners on Yonaguni, Japan's westernmost island. The toji carries every step by hand from koji to bottling, with no artificial additives; Donan — 'Yonaguni' in the island tongue — runs from 25 degrees to the island's famous 60-degree hanazake, including a 17-year kusu of which only some 900 bottles exist.", "suggestions": ["Tell me about Kokusen Awamori (Donan Distillery)", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kokusen Awamori (Donan Distillery)", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/kokusen_awamori.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "国泉泡盛", "foundingDate": "1958", "sameAs": "https://donan-kokusenawamori.com", "brand": {"@type": "Brand", "name": "Donan"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Kokusen Awamori (Donan Distillery)", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/kokusen_awamori.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kokusen Awamori (Donan Distillery) produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kokusen Awamori (Donan Distillery) produces Donan, Donan Hanazake, どなん 花酒 17年古酒, どなん クバ巻."}}, {"@type": "Question", "name": "When was Kokusen Awamori (Donan Distillery) founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kokusen Awamori (Donan Distillery) was founded in 1958 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Kokusen Awamori (Donan Distillery) have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://donan-kokusenawamori.com."}}]}]}</script></body>
 </html>

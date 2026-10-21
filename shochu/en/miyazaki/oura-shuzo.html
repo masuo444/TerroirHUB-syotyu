@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1909 — 都城市, Miyazaki</p>
     <p class="hero-tagline">Oura Shuzo of Miyakonojo, founded in 1909, is a small family kura whose fourth-generation head Shinichi Oura came to distilling from life as a Buddhist monk. Koji is made by hand with wooden boxes and futon in the old way, fermentation runs in clay pots, and its brown-rice shochu — developed in 1975 — is made by only a couple of kura in all Japan. A glass wall lets visitors watch the work.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://ooura-syuzou.net/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Oura Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/oura-shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "大浦酒造", "foundingDate": "1909", "sameAs": "https://ooura-syuzou.net/", "brand": {"@type": "Brand", "name": "みやこざくら"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Oura Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/oura-shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Oura Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Oura Shuzo produces みやこざくら, 玄米焼酎."}}, {"@type": "Question", "name": "When was Oura Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Oura Shuzo was founded in 1909 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Oura Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ooura-syuzou.net/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "大浦酒造", "display_name": "Oura Shuzo", "brand": "みやこざくら", "pref": "miyazaki", "area": "都城市", "founded": "1909", "brands": ["みやこざくら", "玄米焼酎"], "url": "https://ooura-syuzou.net/", "desc": "Oura Shuzo of Miyakonojo, founded in 1909, is a small family kura whose fourth-generation head Shinichi Oura came to distilling from life as a Buddhist monk. Koji is made by hand with wooden boxes and futon in the old way, fermentation runs in clay pots, and its brown-rice shochu — developed in 1975 — is made by only a couple of kura in all Japan. A glass wall lets visitors watch the work.", "suggestions": ["Tell me about Oura Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Oura Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/oura-shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "大浦酒造", "foundingDate": "1909", "sameAs": "https://ooura-syuzou.net/", "brand": {"@type": "Brand", "name": "みやこざくら"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Oura Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/oura-shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Oura Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Oura Shuzo produces みやこざくら, 玄米焼酎."}}, {"@type": "Question", "name": "When was Oura Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Oura Shuzo was founded in 1909 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Oura Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://ooura-syuzou.net/."}}]}]}</script></body>
 </html>

@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1818 — 日南市, Miyazaki</p>
     <p class="hero-tagline">Kodama Jozo, founded in 1818 in the castle town of Obi and revived in 2001, brews in small volumes under toji Junpei Kanamaru, trained at Tokyo University of Agriculture, who moves between hand-made koji and machine as each batch demands. Miyazaki Beni and Koganemasari potatoes go into bottles the house calls one soul at a time. No tours.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://tojijunpei.com/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kodama Jozo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/kodama-jozo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "小玉醸造", "foundingDate": "1818", "sameAs": "https://tojijunpei.com/", "brand": {"@type": "Brand", "name": "杜氏潤平"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Kodama Jozo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/kodama-jozo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kodama Jozo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kodama Jozo produces 杜氏潤平, 夏の潤平."}}, {"@type": "Question", "name": "When was Kodama Jozo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kodama Jozo was founded in 1818 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Kodama Jozo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://tojijunpei.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "小玉醸造", "display_name": "Kodama Jozo", "brand": "杜氏潤平", "pref": "miyazaki", "area": "日南市", "founded": "1818", "brands": ["杜氏潤平", "夏の潤平"], "url": "https://tojijunpei.com/", "desc": "Kodama Jozo, founded in 1818 in the castle town of Obi and revived in 2001, brews in small volumes under toji Junpei Kanamaru, trained at Tokyo University of Agriculture, who moves between hand-made koji and machine as each batch demands. Miyazaki Beni and Koganemasari potatoes go into bottles the house calls one soul at a time. No tours.", "suggestions": ["Tell me about Kodama Jozo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kodama Jozo", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/kodama-jozo.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "小玉醸造", "foundingDate": "1818", "sameAs": "https://tojijunpei.com/", "brand": {"@type": "Brand", "name": "杜氏潤平"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Kodama Jozo", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/kodama-jozo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kodama Jozo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kodama Jozo produces 杜氏潤平, 夏の潤平."}}, {"@type": "Question", "name": "When was Kodama Jozo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kodama Jozo was founded in 1818 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Kodama Jozo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://tojijunpei.com/."}}]}]}</script></body>
 </html>

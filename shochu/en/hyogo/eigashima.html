@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1679 — 明石, Hyogo</p>
     <p class="hero-tagline">Eigashima Shuzo, the Akashi drinks house founded in 1679, brews the sake Kamitaka and makes shochu, wine and whisky. Its distilling history runs deep — a dedicated spirits plant was completed in 1919 for its Shiratama shochu — and today it makes barley shochus such as Yamatodamashii. Tours cover both the sake kura and the whisky distillery.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.ei-sake.jp/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Eigashima Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/hyogo/eigashima.html", "address": {"@type": "PostalAddress", "addressRegion": "Hyogo", "addressCountry": "JP"}, "alternateName": "江井ヶ嶋酒造", "foundingDate": "1679", "sameAs": "https://www.ei-sake.jp/", "brand": {"@type": "Brand", "name": "白玉焼酎"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hyogo", "item": "https://shochu.terroirhub.com/shochu/en/hyogo/"}, {"@type": "ListItem", "position": 3, "name": "Eigashima Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/hyogo/eigashima.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Eigashima Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Shuzo produces 白玉焼酎, Yamatodamashii, 福寿天泉."}}, {"@type": "Question", "name": "When was Eigashima Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Shuzo was founded in 1679 in Hyogo, Japan."}}, {"@type": "Question", "name": "Does Eigashima Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.ei-sake.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "江井ヶ嶋酒造", "display_name": "Eigashima Shuzo", "brand": "神鷹", "pref": "hyogo", "area": "明石", "founded": "1679", "brands": ["白玉焼酎", "Yamatodamashii", "福寿天泉"], "url": "https://www.ei-sake.jp/", "desc": "Eigashima Shuzo, the Akashi drinks house founded in 1679, brews the sake Kamitaka and makes shochu, wine and whisky. Its distilling history runs deep — a dedicated spirits plant was completed in 1919 for its Shiratama shochu — and today it makes barley shochus such as Yamatodamashii. Tours cover both the sake kura and the whisky distillery.", "suggestions": ["Tell me about Eigashima Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Eigashima Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/hyogo/eigashima.html", "address": {"@type": "PostalAddress", "addressRegion": "Hyogo", "addressCountry": "JP"}, "alternateName": "江井ヶ嶋酒造", "foundingDate": "1679", "sameAs": "https://www.ei-sake.jp/", "brand": {"@type": "Brand", "name": "白玉焼酎"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Hyogo", "item": "https://shochu.terroirhub.com/shochu/en/hyogo/"}, {"@type": "ListItem", "position": 3, "name": "Eigashima Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/hyogo/eigashima.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Eigashima Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Shuzo produces 白玉焼酎, Yamatodamashii, 福寿天泉."}}, {"@type": "Question", "name": "When was Eigashima Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Eigashima Shuzo was founded in 1679 in Hyogo, Japan."}}, {"@type": "Question", "name": "Does Eigashima Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.ei-sake.jp/."}}]}]}</script></body>
 </html>

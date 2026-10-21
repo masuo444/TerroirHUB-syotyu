@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1925 — 八丈町, Tokyo</p>
     <p class="hero-tagline">大正14年創業。珍しい銅製蒸留器を使用して麦焼酎「島の華」を製造。軽やかな味わいが特徴。GI「東京島酒」認定。2025年に創業100周年。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://kasitateshuzou.com/'">Official Website</button>
     </div>
   </div>
@@ -362,37 +362,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kashitate Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/tokyo/kashitate_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Tokyo", "addressCountry": "JP"}, "alternateName": "樫立酒造", "foundingDate": "1925", "sameAs": "https://kasitateshuzou.com/", "brand": {"@type": "Brand", "name": "島の華"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Tokyo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/"}, {"@type": "ListItem", "position": 3, "name": "Kashitate Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/kashitate_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kashitate Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kashitate Shuzo produces 島の華, 潮梅."}}, {"@type": "Question", "name": "When was Kashitate Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kashitate Shuzo was founded in 1925 in Tokyo, Japan."}}, {"@type": "Question", "name": "Does Kashitate Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kasitateshuzou.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "樫立酒造", "display_name": "Kashitate Shuzo", "brand": "島の華", "pref": "tokyo", "area": "八丈町", "founded": "1925", "brands": ["島の華", "潮梅"], "url": "https://kasitateshuzou.com/", "desc": "大正14年創業。珍しい銅製蒸留器を使用して麦焼酎「島の華」を製造。軽やかな味わいが特徴。GI「東京島酒」認定。2025年に創業100周年。", "suggestions": ["Tell me about Kashitate Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kashitate Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/tokyo/kashitate_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Tokyo", "addressCountry": "JP"}, "alternateName": "樫立酒造", "foundingDate": "1925", "sameAs": "https://kasitateshuzou.com/", "brand": {"@type": "Brand", "name": "島の華"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Tokyo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/"}, {"@type": "ListItem", "position": 3, "name": "Kashitate Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/tokyo/kashitate_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kashitate Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kashitate Shuzo produces 島の華, 潮梅."}}, {"@type": "Question", "name": "When was Kashitate Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kashitate Shuzo was founded in 1925 in Tokyo, Japan."}}, {"@type": "Question", "name": "Does Kashitate Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kasitateshuzou.com/."}}]}]}</script></body>
 </html>

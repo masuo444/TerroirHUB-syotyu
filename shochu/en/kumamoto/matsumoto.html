@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Matsumoto Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1908 — あさぎり町, Kumamoto</p>
     <p class="hero-tagline">Matsumoto Shuzojo, founded in 1908 in Asagiri at the near-centre of the Kuma valley, has brewed for over a century, working the basin's rice and clear water into its aromatic, full-flavoured Banryoku.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       
     </div>
   </div>
@@ -355,37 +356,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Matsumoto Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/matsumoto.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "松本酒造場", "foundingDate": "1908", "brand": {"@type": "Brand", "name": "Banryoku"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Matsumoto Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/matsumoto.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Matsumoto Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Matsumoto Shuzo produces Banryoku, Uraden Banryoku."}}, {"@type": "Question", "name": "When was Matsumoto Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Matsumoto Shuzo was founded in 1908 in Kumamoto, Japan."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "松本酒造場", "display_name": "Matsumoto Shuzo", "brand": "萬緑", "pref": "kumamoto", "area": "あさぎり町", "founded": "1908", "brands": ["Banryoku", "Uraden Banryoku"], "url": "", "desc": "Matsumoto Shuzojo, founded in 1908 in Asagiri at the near-centre of the Kuma valley, has brewed for over a century, working the basin's rice and clear water into its aromatic, full-flavoured Banryoku.", "suggestions": ["Tell me about Matsumoto Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Matsumoto Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kumamoto/matsumoto.html", "address": {"@type": "PostalAddress", "addressRegion": "Kumamoto", "addressCountry": "JP"}, "alternateName": "松本酒造場", "foundingDate": "1908", "brand": {"@type": "Brand", "name": "Banryoku"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kumamoto", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/"}, {"@type": "ListItem", "position": 3, "name": "Matsumoto Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kumamoto/matsumoto.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Matsumoto Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Matsumoto Shuzo produces Banryoku, Uraden Banryoku."}}, {"@type": "Question", "name": "When was Matsumoto Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Matsumoto Shuzo was founded in 1908 in Kumamoto, Japan."}}]}]}</script></body>
 </html>

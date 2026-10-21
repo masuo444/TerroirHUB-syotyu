@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1912 — 奄美エリア, Kagoshima</p>
     <p class="hero-tagline">明治45年（1912年）に女性起業家・川崎たみが創業。黒糖焼酎専門の蔵元。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='http://www.kokuto-shouchu.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -355,37 +355,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yayoi Shochu Brewery", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/yayoi_shochu.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "合資会社弥生焼酎醸造所", "foundingDate": "1912", "sameAs": "http://www.kokuto-shouchu.co.jp/", "brand": {"@type": "Brand", "name": "弥生"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Yayoi Shochu Brewery", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/yayoi_shochu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yayoi Shochu Brewery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yayoi Shochu Brewery produces 弥生, まんこい."}}, {"@type": "Question", "name": "When was Yayoi Shochu Brewery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yayoi Shochu Brewery was founded in 1912 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Yayoi Shochu Brewery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.kokuto-shouchu.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "合資会社弥生焼酎醸造所", "display_name": "Yayoi Shochu Brewery", "brand": "弥生", "pref": "kagoshima", "area": "奄美エリア", "founded": "1912", "brands": ["弥生", "まんこい"], "url": "http://www.kokuto-shouchu.co.jp/", "desc": "明治45年（1912年）に女性起業家・川崎たみが創業。黒糖焼酎専門の蔵元。", "suggestions": ["Tell me about Yayoi Shochu Brewery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yayoi Shochu Brewery", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/yayoi_shochu.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "合資会社弥生焼酎醸造所", "foundingDate": "1912", "sameAs": "http://www.kokuto-shouchu.co.jp/", "brand": {"@type": "Brand", "name": "弥生"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Yayoi Shochu Brewery", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/yayoi_shochu.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yayoi Shochu Brewery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yayoi Shochu Brewery produces 弥生, まんこい."}}, {"@type": "Question", "name": "When was Yayoi Shochu Brewery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yayoi Shochu Brewery was founded in 1912 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Yayoi Shochu Brewery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is http://www.kokuto-shouchu.co.jp/."}}]}]}</script></body>
 </html>

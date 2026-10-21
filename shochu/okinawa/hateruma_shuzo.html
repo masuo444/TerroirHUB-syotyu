@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>波照間酒造所 — 沖縄県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -311,7 +312,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1953 — 竹富町, 沖縄県</p>
     <p class="hero-tagline">1953年、日本最南端の有人島・波照間島で創業。5人の家族で手造りする超少量生産の泡盛蔵。代表銘柄「泡波」は生産量の約95%が島内で消費され、島外への出荷量が極めて少ないため「幻の泡盛」として知られる。銘柄名は「泡盛」の「泡」と「波照間」の「波」を組み合わせたもの。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://awanami.net'">公式サイト</button>
     </div>
   </div>
@@ -434,39 +435,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="波照間酒造所について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "波照間酒造所", "brand": "泡波", "pref": "沖縄県", "area": "竹富町", "founded": "1953", "founded_era": "昭和28年", "brands": ["泡波"], "visit": "", "url": "https://awanami.net", "desc": "1953年、日本最南端の有人島・波照間島で創業。5人の家族で手造りする超少量生産の泡盛蔵。代表銘柄「泡波」は生産量の約95%が島内で消費され、島外への出荷量が極めて少ないため「幻の泡盛」として知られる。銘柄名は「泡盛」の「泡」と「波照間」の「波」を組み合わせたもの。", "suggestions": ["泡波ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "波照間酒造所の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

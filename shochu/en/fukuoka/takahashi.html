@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1717 — 八女市, Fukuoka</p>
     <p class="hero-tagline">享保2年（1717年）創業。初代高橋右衛門が米どころ八女で造り酒屋を開業。日本酒「繁桝」のほか大吟醸酒粕焼酎も製造。300年以上の歴史。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.shigemasu.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -345,37 +345,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Takahashi Shoten", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/takahashi.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "高橋商店", "foundingDate": "1717", "sameAs": "https://www.shigemasu.co.jp/", "brand": {"@type": "Brand", "name": "大吟醸酒粕焼酎"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Takahashi Shoten", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/takahashi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Takahashi Shoten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Takahashi Shoten produces 大吟醸酒粕焼酎."}}, {"@type": "Question", "name": "When was Takahashi Shoten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Takahashi Shoten was founded in 1717 in Fukuoka, Japan."}}, {"@type": "Question", "name": "Does Takahashi Shoten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.shigemasu.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "高橋商店", "display_name": "Takahashi Shoten", "brand": "繁桝", "pref": "fukuoka", "area": "八女市", "founded": "1717", "brands": ["大吟醸酒粕焼酎"], "url": "https://www.shigemasu.co.jp/", "desc": "享保2年（1717年）創業。初代高橋右衛門が米どころ八女で造り酒屋を開業。日本酒「繁桝」のほか大吟醸酒粕焼酎も製造。300年以上の歴史。", "suggestions": ["Tell me about Takahashi Shoten", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Takahashi Shoten", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/takahashi.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "高橋商店", "foundingDate": "1717", "sameAs": "https://www.shigemasu.co.jp/", "brand": {"@type": "Brand", "name": "大吟醸酒粕焼酎"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Takahashi Shoten", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/takahashi.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Takahashi Shoten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Takahashi Shoten produces 大吟醸酒粕焼酎."}}, {"@type": "Question", "name": "When was Takahashi Shoten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Takahashi Shoten was founded in 1717 in Fukuoka, Japan."}}, {"@type": "Question", "name": "Does Takahashi Shoten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.shigemasu.co.jp/."}}]}]}</script></body>
 </html>

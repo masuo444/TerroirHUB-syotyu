@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1885 — 児湯郡高鍋町, Miyazaki</p>
     <p class="hero-tagline">Kuroki Honten, founded in 1885 in Takanabe, is the house behind Hyakunen no Kodoku (One Hundred Years of Solitude), Nakanaka and Kiroku. Its creed — sake making begins with farming — is lived through its organic farming subsidiary Yomigaeru Daichi no Kai and a circular practice that returns shochu lees to fields as fertiliser and feed. It also runs the Osuzuyama Distillery in the hills.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.kurokihonten.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kuroki Honten", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/kuroki-honten.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "黒木本店", "foundingDate": "1885", "sameAs": "https://www.kurokihonten.co.jp/", "brand": {"@type": "Brand", "name": "Hyakunen no Kodoku"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Kuroki Honten", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/kuroki-honten.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kuroki Honten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kuroki Honten produces Hyakunen no Kodoku, Nakanaka, Kiroku, 橘, 謳歌."}}, {"@type": "Question", "name": "When was Kuroki Honten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kuroki Honten was founded in 1885 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Kuroki Honten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.kurokihonten.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "黒木本店", "display_name": "Kuroki Honten", "brand": "百年の孤独", "pref": "miyazaki", "area": "児湯郡高鍋町", "founded": "1885", "brands": ["Hyakunen no Kodoku", "Nakanaka", "Kiroku", "橘", "謳歌"], "url": "https://www.kurokihonten.co.jp/", "desc": "Kuroki Honten, founded in 1885 in Takanabe, is the house behind Hyakunen no Kodoku (One Hundred Years of Solitude), Nakanaka and Kiroku. Its creed — sake making begins with farming — is lived through its organic farming subsidiary Yomigaeru Daichi no Kai and a circular practice that returns shochu lees to fields as fertiliser and feed. It also runs the Osuzuyama Distillery in the hills.", "suggestions": ["Tell me about Kuroki Honten", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kuroki Honten", "url": "https://shochu.terroirhub.com/shochu/en/miyazaki/kuroki-honten.html", "address": {"@type": "PostalAddress", "addressRegion": "Miyazaki", "addressCountry": "JP"}, "alternateName": "黒木本店", "foundingDate": "1885", "sameAs": "https://www.kurokihonten.co.jp/", "brand": {"@type": "Brand", "name": "Hyakunen no Kodoku"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Miyazaki", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/"}, {"@type": "ListItem", "position": 3, "name": "Kuroki Honten", "item": "https://shochu.terroirhub.com/shochu/en/miyazaki/kuroki-honten.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kuroki Honten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kuroki Honten produces Hyakunen no Kodoku, Nakanaka, Kiroku, 橘, 謳歌."}}, {"@type": "Question", "name": "When was Kuroki Honten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kuroki Honten was founded in 1885 in Miyazaki, Japan."}}, {"@type": "Question", "name": "Does Kuroki Honten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.kurokihonten.co.jp/."}}]}]}</script></body>
 </html>

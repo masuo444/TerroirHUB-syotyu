@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1885 — 鹿屋エリア, Kagoshima</p>
     <p class="hero-tagline">Moriizo Shuzo, founded in 1885, brews the most storied name in premium imo shochu. Everything is done as it always was: Japanese clay pots only, koji from Kagoshima rice, contract-grown sweet potatoes, careful distillation. Moriizo — first among the legendary 3M with Mao and Murao — is sold only through a telephone lottery, never online, with a JAL international in-flight allocation its other famous channel.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://www.moriizo.com/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Moriizo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/moriizo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "有限会社森伊蔵酒造", "foundingDate": "1885", "sameAs": "https://www.moriizo.com/", "brand": {"@type": "Brand", "name": "Moriizo"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Moriizo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/moriizo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Moriizo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Moriizo produces Moriizo, 楽酔喜酒 森伊蔵, Gokujo Moriizo."}}, {"@type": "Question", "name": "When was Moriizo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Moriizo was founded in 1885 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Moriizo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.moriizo.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "有限会社森伊蔵酒造", "display_name": "Moriizo", "brand": "森伊蔵", "pref": "kagoshima", "area": "鹿屋エリア", "founded": "1885", "brands": ["Moriizo", "楽酔喜酒 森伊蔵", "Gokujo Moriizo"], "url": "https://www.moriizo.com/", "desc": "Moriizo Shuzo, founded in 1885, brews the most storied name in premium imo shochu. Everything is done as it always was: Japanese clay pots only, koji from Kagoshima rice, contract-grown sweet potatoes, careful distillation. Moriizo — first among the legendary 3M with Mao and Murao — is sold only through a telephone lottery, never online, with a JAL international in-flight allocation its other famous channel.", "suggestions": ["Tell me about Moriizo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Moriizo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/moriizo.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "有限会社森伊蔵酒造", "foundingDate": "1885", "sameAs": "https://www.moriizo.com/", "brand": {"@type": "Brand", "name": "Moriizo"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Moriizo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/moriizo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Moriizo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Moriizo produces Moriizo, 楽酔喜酒 森伊蔵, Gokujo Moriizo."}}, {"@type": "Question", "name": "When was Moriizo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Moriizo was founded in 1885 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Moriizo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://www.moriizo.com/."}}]}]}</script></body>
 </html>

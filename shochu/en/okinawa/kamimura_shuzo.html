@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1882 — うるま市, Okinawa</p>
     <p class="hero-tagline">Kamimura Shuzo, founded in 1882 in Naha and settled since 1999 below the Ishikawa highlands of Uruma, changed awamori's course in 1968 with Danryu — the industry's first oak-cask-aged awamori. Its underground cellar holds temperature and humidity steady for kusu making, and its five-senses distillery tour (reserved, 1–15 people) ends in tastings.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://kamimura-shuzo.co.jp'">Official Website</button>
     </div>
   </div>
@@ -372,37 +372,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kamimura Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/kamimura_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "神村酒造", "foundingDate": "1882", "sameAs": "https://kamimura-shuzo.co.jp", "brand": {"@type": "Brand", "name": "Danryu SHIP"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Kamimura Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/kamimura_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kamimura Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kamimura Distillery produces Danryu SHIP, 暖流 CRAFT, Shurei, 守禮 BLUE, 芳醇浪漫."}}, {"@type": "Question", "name": "When was Kamimura Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kamimura Distillery was founded in 1882 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Kamimura Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kamimura-shuzo.co.jp."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "神村酒造", "display_name": "Kamimura Distillery", "brand": "暖流", "pref": "okinawa", "area": "うるま市", "founded": "1882", "brands": ["Danryu SHIP", "暖流 CRAFT", "Shurei", "守禮 BLUE", "芳醇浪漫"], "url": "https://kamimura-shuzo.co.jp", "desc": "Kamimura Shuzo, founded in 1882 in Naha and settled since 1999 below the Ishikawa highlands of Uruma, changed awamori's course in 1968 with Danryu — the industry's first oak-cask-aged awamori. Its underground cellar holds temperature and humidity steady for kusu making, and its five-senses distillery tour (reserved, 1–15 people) ends in tastings.", "suggestions": ["Tell me about Kamimura Distillery", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kamimura Distillery", "url": "https://shochu.terroirhub.com/shochu/en/okinawa/kamimura_shuzo.html", "address": {"@type": "PostalAddress", "addressRegion": "Okinawa", "addressCountry": "JP"}, "alternateName": "神村酒造", "foundingDate": "1882", "sameAs": "https://kamimura-shuzo.co.jp", "brand": {"@type": "Brand", "name": "Danryu SHIP"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Okinawa", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/"}, {"@type": "ListItem", "position": 3, "name": "Kamimura Distillery", "item": "https://shochu.terroirhub.com/shochu/en/okinawa/kamimura_shuzo.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kamimura Distillery produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kamimura Distillery produces Danryu SHIP, 暖流 CRAFT, Shurei, 守禮 BLUE, 芳醇浪漫."}}, {"@type": "Question", "name": "When was Kamimura Distillery founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kamimura Distillery was founded in 1882 in Okinawa, Japan."}}, {"@type": "Question", "name": "Does Kamimura Distillery have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kamimura-shuzo.co.jp."}}]}]}</script></body>
 </html>

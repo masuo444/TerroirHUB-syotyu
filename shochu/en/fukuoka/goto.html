@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Goto Shuzojo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1677 — 八女市, Fukuoka</p>
     <p class="hero-tagline">Goto Shuzojo, founded in 1677 in Yame, is the oldest brewery in the Chikugo district, now in its thirteenth generation. Using subsoil water of the Oku-Yame hills, it makes sake and rice, barley and sweet-potato shochu — including a barley shochu genshu aged over ten years in clay pots inside a tunnel of the old JNR Yabe railway line.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Goto Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/goto.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "後藤酒造場", "foundingDate": "1677", "brand": {"@type": "Brand", "name": "Kurogi Ofuji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Goto Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/goto.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Goto Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Goto Shuzojo produces Kurogi Ofuji, 素素人, Kurogi Ofuji Koku 10-Year."}}, {"@type": "Question", "name": "When was Goto Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Goto Shuzojo was founded in 1677 in Fukuoka, Japan."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "後藤酒造場", "display_name": "Goto Shuzojo", "brand": "黒木大藤", "pref": "fukuoka", "area": "八女市", "founded": "1677", "brands": ["Kurogi Ofuji", "素素人", "Kurogi Ofuji Koku 10-Year"], "url": "", "desc": "Goto Shuzojo, founded in 1677 in Yame, is the oldest brewery in the Chikugo district, now in its thirteenth generation. Using subsoil water of the Oku-Yame hills, it makes sake and rice, barley and sweet-potato shochu — including a barley shochu genshu aged over ten years in clay pots inside a tunnel of the old JNR Yabe railway line.", "suggestions": ["Tell me about Goto Shuzojo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Goto Shuzojo", "url": "https://shochu.terroirhub.com/shochu/en/fukuoka/goto.html", "address": {"@type": "PostalAddress", "addressRegion": "Fukuoka", "addressCountry": "JP"}, "alternateName": "後藤酒造場", "foundingDate": "1677", "brand": {"@type": "Brand", "name": "Kurogi Ofuji"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Fukuoka", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/"}, {"@type": "ListItem", "position": 3, "name": "Goto Shuzojo", "item": "https://shochu.terroirhub.com/shochu/en/fukuoka/goto.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Goto Shuzojo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Goto Shuzojo produces Kurogi Ofuji, 素素人, Kurogi Ofuji Koku 10-Year."}}, {"@type": "Question", "name": "When was Goto Shuzojo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Goto Shuzojo was founded in 1677 in Fukuoka, Japan."}}]}]}</script></body>
 </html>

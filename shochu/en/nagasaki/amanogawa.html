@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Amanogawa Shuzo — Terroir HUB SHOCHU</title>
@@ -233,7 +234,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1912 — 壱岐市, Nagasaki</p>
     <p class="hero-tagline">Amanogawa Shuzo, founded in 1912 under GI Iki, holds to atmospheric distillation for barley shochu rich in grain aroma, then lets time do its work: twelve- and fifteen-year maturations, ten years in clay pots for one bottling, and an oak-aged Monkey Rock for the adventurous.</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://amanokawashuzo.com/'">Official Website</button>
     </div>
   </div>
@@ -372,37 +373,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Amanogawa Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/amanogawa.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "天の川酒造", "foundingDate": "1912", "sameAs": "https://amanokawashuzo.com/", "brand": {"@type": "Brand", "name": "Amanogawa (Milky Way)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Amanogawa Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/amanogawa.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Amanogawa Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Amanogawa Shuzo produces Amanogawa (Milky Way), 天の川 壱岐づくし, Monkey Rock, しめのお, 天の川12年."}}, {"@type": "Question", "name": "When was Amanogawa Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Amanogawa Shuzo was founded in 1912 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Amanogawa Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://amanokawashuzo.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "天の川酒造", "display_name": "Amanogawa Shuzo", "brand": "天の川", "pref": "nagasaki", "area": "壱岐市", "founded": "1912", "brands": ["Amanogawa (Milky Way)", "天の川 壱岐づくし", "Monkey Rock", "しめのお", "天の川12年"], "url": "https://amanokawashuzo.com/", "desc": "Amanogawa Shuzo, founded in 1912 under GI Iki, holds to atmospheric distillation for barley shochu rich in grain aroma, then lets time do its work: twelve- and fifteen-year maturations, ten years in clay pots for one bottling, and an oak-aged Monkey Rock for the adventurous.", "suggestions": ["Tell me about Amanogawa Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Amanogawa Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/nagasaki/amanogawa.html", "address": {"@type": "PostalAddress", "addressRegion": "Nagasaki", "addressCountry": "JP"}, "alternateName": "天の川酒造", "foundingDate": "1912", "sameAs": "https://amanokawashuzo.com/", "brand": {"@type": "Brand", "name": "Amanogawa (Milky Way)"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Nagasaki", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/"}, {"@type": "ListItem", "position": 3, "name": "Amanogawa Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/nagasaki/amanogawa.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Amanogawa Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Amanogawa Shuzo produces Amanogawa (Milky Way), 天の川 壱岐づくし, Monkey Rock, しめのお, 天の川12年."}}, {"@type": "Question", "name": "When was Amanogawa Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Amanogawa Shuzo was founded in 1912 in Nagasaki, Japan."}}, {"@type": "Question", "name": "Does Amanogawa Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://amanokawashuzo.com/."}}]}]}</script></body>
 </html>

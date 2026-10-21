@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
 <script src="/thub-analytics.js" defer></script>
+<meta name="robots" content="noindex,follow" data-thub="thin">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>日新酒類 — 徳島県の蒸留所 | Terroir HUB SHOCHU</title>
@@ -300,7 +301,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     
     <p class="hero-tagline">徳島県の総合酒類メーカー。太閤酒造場を運営。日本酒・本格焼酎の他、2023年からジャパニーズウイスキーの製造も開始。本格芋焼酎「鳴門金時 里娘」は徳島県産鳴門金時を100%使用。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       
     </div>
   </div>
@@ -409,39 +410,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="日新酒類について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "日新酒類", "brand": "太閤", "pref": "徳島県", "area": "阿波", "founded": "", "founded_era": "", "brands": ["鳴門金時 里娘"], "visit": "", "url": "", "desc": "徳島県の総合酒類メーカー。太閤酒造場を運営。日本酒・本格焼酎の他、2023年からジャパニーズウイスキーの製造も開始。本格芋焼酎「鳴門金時 里娘」は徳島県産鳴門金時を100%使用。", "suggestions": ["太閤ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "日新酒類の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>

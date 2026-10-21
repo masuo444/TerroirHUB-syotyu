@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1928 — 鹿屋エリア, Kagoshima</p>
     <p class="hero-tagline">農醸一体（農業と醸造の融合）を実践する農業法人。自社で芋と米を栽培し、独自の蜜芋製法なども開発。4代目が2018年に農業法人化。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://yagishuzou.co.jp/'">Official Website</button>
     </div>
   </div>
@@ -365,37 +365,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yachiyo Den Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/yachiyo_den.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "農業法人 八千代伝酒造株式会社", "foundingDate": "1928", "sameAs": "https://yagishuzou.co.jp/", "brand": {"@type": "Brand", "name": "八千代伝（黒）"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Yachiyo Den Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/yachiyo_den.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yachiyo Den Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yachiyo Den Shuzo produces 八千代伝（黒）, 八千代伝（白）, つるし八千代伝, Crio（クリオ）."}}, {"@type": "Question", "name": "When was Yachiyo Den Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yachiyo Den Shuzo was founded in 1928 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Yachiyo Den Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://yagishuzou.co.jp/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "農業法人 八千代伝酒造株式会社", "display_name": "Yachiyo Den Shuzo", "brand": "八千代伝", "pref": "kagoshima", "area": "鹿屋エリア", "founded": "1928", "brands": ["八千代伝（黒）", "八千代伝（白）", "つるし八千代伝", "Crio（クリオ）"], "url": "https://yagishuzou.co.jp/", "desc": "農醸一体（農業と醸造の融合）を実践する農業法人。自社で芋と米を栽培し、独自の蜜芋製法なども開発。4代目が2018年に農業法人化。", "suggestions": ["Tell me about Yachiyo Den Shuzo", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Yachiyo Den Shuzo", "url": "https://shochu.terroirhub.com/shochu/en/kagoshima/yachiyo_den.html", "address": {"@type": "PostalAddress", "addressRegion": "Kagoshima", "addressCountry": "JP"}, "alternateName": "農業法人 八千代伝酒造株式会社", "foundingDate": "1928", "sameAs": "https://yagishuzou.co.jp/", "brand": {"@type": "Brand", "name": "八千代伝（黒）"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Kagoshima", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/"}, {"@type": "ListItem", "position": 3, "name": "Yachiyo Den Shuzo", "item": "https://shochu.terroirhub.com/shochu/en/kagoshima/yachiyo_den.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Yachiyo Den Shuzo produce?", "acceptedAnswer": {"@type": "Answer", "text": "Yachiyo Den Shuzo produces 八千代伝（黒）, 八千代伝（白）, つるし八千代伝, Crio（クリオ）."}}, {"@type": "Question", "name": "When was Yachiyo Den Shuzo founded?", "acceptedAnswer": {"@type": "Answer", "text": "Yachiyo Den Shuzo was founded in 1928 in Kagoshima, Japan."}}, {"@type": "Question", "name": "Does Yachiyo Den Shuzo have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://yagishuzou.co.jp/."}}]}]}</script></body>
 </html>

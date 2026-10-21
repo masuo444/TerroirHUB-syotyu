@@ -233,7 +233,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1920 — 基山町, Saga</p>
     <p class="hero-tagline">明治初期に近隣の地主数名で酒造りを始め、大正9年（1920年）に法人化。佐賀県と福岡県の県境に蔵を構える。2020年に創業100周年を迎えた。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">Ask Sakura</button>
+      
       <button class="btn-s" onclick="location.href='https://kihotsuru.com/'">Official Website</button>
     </div>
   </div>
@@ -352,37 +352,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">Ask Sakura</span>
-</button>
-
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">Sakura — AI Concierge</div>
-          <div class="p-status"><div class="p-dot"></div><span>Online</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="Ask anything about this distillery" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kiyama Shoten", "url": "https://shochu.terroirhub.com/shochu/en/saga/kiyama.html", "address": {"@type": "PostalAddress", "addressRegion": "Saga", "addressCountry": "JP"}, "alternateName": "基山商店", "foundingDate": "1920", "sameAs": "https://kihotsuru.com/", "brand": {"@type": "Brand", "name": "基峰鶴"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saga", "item": "https://shochu.terroirhub.com/shochu/en/saga/"}, {"@type": "ListItem", "position": 3, "name": "Kiyama Shoten", "item": "https://shochu.terroirhub.com/shochu/en/saga/kiyama.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kiyama Shoten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kiyama Shoten produces 基峰鶴."}}, {"@type": "Question", "name": "When was Kiyama Shoten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kiyama Shoten was founded in 1920 in Saga, Japan."}}, {"@type": "Question", "name": "Does Kiyama Shoten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kihotsuru.com/."}}]}]}</script><script>window.SAKURA_CTX = {"lang": "en", "site": "TERROIR HUB SHOCHU (焼酎 page, English site)", "facility": "蒸留所", "facility_en": "distillery", "name": "基山商店", "display_name": "Kiyama Shoten", "brand": "基峰鶴", "pref": "saga", "area": "基山町", "founded": "1920", "brands": ["基峰鶴"], "url": "https://kihotsuru.com/", "desc": "明治初期に近隣の地主数名で酒造りを始め、大正9年（1920年）に法人化。佐賀県と福岡県の県境に蔵を構える。2020年に創業100周年を迎えた。", "suggestions": ["Tell me about Kiyama Shoten", "How should I drink it?", "Can I visit?", "What is the history?"]};</script>
-<script src="/sakura-page.js" defer></script>
-</body>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "LocalBusiness", "name": "Kiyama Shoten", "url": "https://shochu.terroirhub.com/shochu/en/saga/kiyama.html", "address": {"@type": "PostalAddress", "addressRegion": "Saga", "addressCountry": "JP"}, "alternateName": "基山商店", "foundingDate": "1920", "sameAs": "https://kihotsuru.com/", "brand": {"@type": "Brand", "name": "基峰鶴"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Terroir HUB", "item": "https://shochu.terroirhub.com/en/"}, {"@type": "ListItem", "position": 2, "name": "Saga", "item": "https://shochu.terroirhub.com/shochu/en/saga/"}, {"@type": "ListItem", "position": 3, "name": "Kiyama Shoten", "item": "https://shochu.terroirhub.com/shochu/en/saga/kiyama.html"}]}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What does Kiyama Shoten produce?", "acceptedAnswer": {"@type": "Answer", "text": "Kiyama Shoten produces 基峰鶴."}}, {"@type": "Question", "name": "When was Kiyama Shoten founded?", "acceptedAnswer": {"@type": "Answer", "text": "Kiyama Shoten was founded in 1920 in Saga, Japan."}}, {"@type": "Question", "name": "Does Kiyama Shoten have an official website?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, the official website is https://kihotsuru.com/."}}]}]}</script></body>
 </html>

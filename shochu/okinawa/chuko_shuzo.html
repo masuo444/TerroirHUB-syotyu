@@ -319,7 +319,7 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
     <p class="hero-en" style="font-style:italic;">Since 1949 — 豊見城市, 沖縄県</p>
     <p class="hero-tagline">1949年に大城酒造所として創業。「泡盛文化の継承と創造」を理念とし、手造り泡盛と甕貯蔵の古酒づくりにこだわる。自社窯「琉球城焼」で甕を製造する世界唯一の蔵元兼窯元。約600の古酒甕を貯蔵する木造古酒蔵を保有。</p>
     <div class="hero-actions">
-      <button class="btn-p" onclick="openPanel()">サクラに聞く</button>
+      
       <button class="btn-s" onclick="location.href='https://www.chuko-awamori.com'">公式サイト</button>
     </div>
   </div>
@@ -462,39 +462,5 @@ body{background:var(--bg);color:var(--text);font-family:'DM Sans',sans-serif;}
   <p style="font-size:11px;color:rgba(255,255,255,0.2);">shochu.terroirhub.com</p>
 </footer>
 
-<!-- FAB -->
-<button class="fab" onclick="openPanel()" id="fab">
-  <span class="fab-pulse"></span>
-  <span>🌸</span>
-  <span id="fab-txt">サクラに聞く</span>
-</button>
-
-<!-- SAKURA PANEL -->
-<div class="overlay" id="overlay" onclick="if(event.target===this)closePanel()">
-  <div class="panel">
-    <div class="p-handle"></div>
-    <div class="p-hdr">
-      <div class="p-hdr-l">
-        <div class="p-av">桜</div>
-        <div>
-          <div class="p-title">サクラ — AIコンシェルジュ</div>
-          <div class="p-status"><div class="p-dot"></div><span>オンライン</span></div>
-        </div>
-      </div>
-      <div style="display:flex;align-items:center;gap:7px;">
-        <button class="p-close" onclick="closePanel()">✕</button>
-      </div>
-    </div>
-    <div class="chat" id="chat"></div>
-    <div class="sugs" id="sugs"></div>
-    <div class="inp-row">
-      <textarea id="chat-inp" rows="1" placeholder="忠孝酒造について何でもどうぞ…" onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendMsg();}"></textarea>
-      <button id="chat-send" onclick="sendMsg()">↑</button>
-    </div>
-  </div>
-</div>
-
-<script>window.SAKURA_CTX = {"lang": "ja", "site": "TERROIR HUB SHOCHU（焼酎のページ）", "facility": "蒸留所", "facility_en": "distillery", "name": "忠孝酒造", "brand": "忠孝", "pref": "沖縄県", "area": "豊見城市", "founded": "1949", "founded_era": "昭和24年", "brands": ["忠孝", "よっかこうじ", "夢航海", "CKR1"], "visit": "酒蔵見学可能。那覇空港から車で約10分。手造り泡盛施設・木造古酒蔵の見学あり。手造り泡盛体験「Moon Distillery」（2023年リニューアル）。THE OWNERSプログラムで最長20年の古酒預かりサービスあり。", "url": "https://www.chuko-awamori.com", "desc": "1949年に大城酒造所として創業。「泡盛文化の継承と創造」を理念とし、手造り泡盛と甕貯蔵の古酒づくりにこだわる。自社窯「琉球城焼」で甕を製造する世界唯一の蔵元兼窯元。約600の古酒甕を貯蔵する木造古酒蔵を保有。", "suggestions": ["忠孝ってどんな焼酎？", "おすすめの飲み方は？", "見学はできる？", "忠孝酒造の歴史を教えて"]};</script>
-<script src="/sakura-page.js" defer></script>
 </body>
 </html>
