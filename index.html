@@ -843,7 +843,7 @@ fetch('/shochu/search_index.json').then(function(r){return r.json()}).then(funct
   console.log('検索データ読み込み完了:',F.length,'蒸留所');
 }).catch(function(){console.log('search_index.json not found yet');});
 
-document.getElementById('rg').innerHTML=R.map(r=>`<div class="rc" onclick="location.href='${r.direct?'/shochu/'+r.s+'/':'/shochu/region/'+r.s+'.html'}'"><div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;"><span style="font-size:22px;">${r.icon}</span><div class="rc-name">${r.n}</div></div><div class="rc-count">${r.c}${r.c>100?'+':''} <span>蒸留所</span></div><div class="rc-prefs">${r.p.join(' / ')}</div></div>`).join('');
+document.getElementById('rg').innerHTML=R.map(r=>`<a class="rc" href="${r.direct?'/shochu/'+r.s+'/':'/shochu/region/'+r.s+'.html'}"><div class="rc-name" style="margin-bottom:6px;">${r.n}</div><div class="rc-count">${r.c} <span>蒸留所</span></div><div class="rc-prefs">${r.p.join(' / ')}</div></a>`).join('');
 
 function togglePrefs(){
   const w=document.getElementById('pref-wrap');
