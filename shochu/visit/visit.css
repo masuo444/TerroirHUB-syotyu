@@ -119,3 +119,6 @@ footer a{color:var(--text-muted)}
   .dl{grid-template-columns:1fr;gap:2px 0}
   .dl dt{margin-top:8px}
 }
+
+/* 比較表の短い列（所在地・予約・試飲・所要時間）は1〜2文字ずつ改行しない。表は横スクロールで収める */
+.tablewrap td:nth-child(2),.tablewrap td:nth-child(3),.tablewrap td:nth-child(4),.tablewrap td:nth-child(6),.tablewrap th{white-space:nowrap}
