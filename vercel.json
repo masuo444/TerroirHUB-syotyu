@@ -84,6 +84,26 @@
       "source": "/fr/:path*",
       "destination": "/en/:path*",
       "permanent": true
+    },
+    {
+      "source": "/shochu/plans",
+      "destination": "/shochu/",
+      "permanent": true
+    },
+    {
+      "source": "/shochu/plans/(.*)",
+      "destination": "/shochu/",
+      "permanent": true
+    },
+    {
+      "source": "/shochu/en/plans",
+      "destination": "/shochu/en/",
+      "permanent": true
+    },
+    {
+      "source": "/shochu/en/plans/(.*)",
+      "destination": "/shochu/en/",
+      "permanent": true
     }
   ]
 }
