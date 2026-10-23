@@ -71,6 +71,17 @@
   ],
   "redirects": [
     {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "terroir-hub-shochu.vercel.app"
+        }
+      ],
+      "destination": "https://shochu.terroirhub.com/$1",
+      "permanent": true
+    },
+    {
       "source": "/shochu/fr/:path*",
       "destination": "/shochu/en/:path*",
       "permanent": true
