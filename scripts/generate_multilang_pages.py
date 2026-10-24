@@ -476,7 +476,7 @@ def generate_lang_page(b, pref_slug, lang, siblings=None):
 <html lang="{t['html_lang']}">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 {robots_meta}<title>{page_title}</title>
 <meta name="description" content="{esc(meta_desc)}">
 <meta property="og:title" content="{page_title}">

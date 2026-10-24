@@ -423,7 +423,7 @@ def generate_page(b, pref_slug, siblings=None):
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(name)} — {esc(pref_name)}の蒸留所 | Terroir HUB SHOCHU</title>
 <meta name="description" content="{esc(meta_desc)}">
 <meta property="og:title" content="{esc(name)} — {esc(pref_name)}の蒸留所 | Terroir HUB SHOCHU">
