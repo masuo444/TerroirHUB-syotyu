@@ -31,8 +31,8 @@ const BOTS: [RegExp, string, string][] = [
   [/Baiduspider/i, 'Baiduspider', 'search'],
   [/DuckDuckBot/i, 'DuckDuckBot', 'search'],
 ];
-// 検索エンジンは件数が多いので10件に1件だけ送る（集計時に weight=10 を掛ける）
-const SAMPLE = { search: 10 } as Record<string, number>;
+// 検索エンジンとAIの学習用は件数が多いので10件に1件だけ送る（集計時に weight=10 を掛ける）。Supabase無料枠(500MB)を守るため
+const SAMPLE = { search: 10, ai_train: 10 } as Record<string, number>;
 
 export default async function middleware(request: Request, context: { waitUntil?: (p: Promise<unknown>) => void }) {
   try {
